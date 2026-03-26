@@ -90,7 +90,12 @@ import SocketWeldNipple from './assets/pages/products/socketWeldFittings/SocketW
 import SocketWeldBushing from './assets/pages/products/socketWeldFittings/SocketWeldBushing.jsx'
 import SocketWeldPlug from './assets/pages/products/socketWeldFittings/SocketWeldPlug.jsx'
 
-
+// Round Bar Imports
+import StainlessSteelBar from './assets/pages/products/roundBar/StainlessSteelBar.jsx';
+import CarbonSteelBar from './assets/pages/products/roundBar/CarbonSteelBar.jsx';
+import AlloySteelBar from './assets/pages/products/roundBar/AlloySteelBar.jsx';
+import DuplexSteelBar from './assets/pages/products/roundBar/DuplexSteelBar.jsx';
+import NickelAlloyBar from './assets/pages/products/roundBar/NickelAlloyBar.jsx';
 
 
 function App() {
@@ -202,6 +207,13 @@ function App() {
         <Route path='/products/socket-weld-fittings/socket-weld-nipple-fittings' element={<SocketWeldNipple/>} />
         <Route path='/products/socket-weld-fittings/socket-weld-bushing-fittings' element={<SocketWeldBushing/>} />
         <Route path='/products/socket-weld-fittings/socket-weld-plug-fittings' element={<SocketWeldPlug/>} />
+
+        {/* Round Bar */}
+        <Route path='/products/round-bar/stainless-steel-bar' element={<StainlessSteelBar />} />
+        <Route path='/products/round-bar/carbon-steel-bar' element={<CarbonSteelBar />} />
+        <Route path='/products/round-bar/alloy-steel-bar' element={<AlloySteelBar />} />
+        <Route path='/products/round-bar/duplex-steel-bar' element={<DuplexSteelBar />} />
+        <Route path='/products/round-bar/nickel-alloy-bar' element={<NickelAlloyBar />} />
 
       </Routes>
 
