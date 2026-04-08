@@ -35,9 +35,9 @@ const Blind = () => {
           {/* Left Column: Image */}
           <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group">
              <img 
-               src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop" 
+               src="/images/blind-flanges.jpg.jpeg" 
                alt="Blind Flange" 
-               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+               className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 p-8"
              />
              <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors"></div>
           </div>

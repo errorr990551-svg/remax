@@ -34,9 +34,9 @@ const ContactUs = () => {
                 <div>
                   <h3 className="text-xl font-bold text-[#0F172A] mb-1">Factory Address</h3>
                   <p className="text-slate-600 leading-relaxed">
-                    Plot No. 123, Industrial Area,<br />
-                    Phase-II, Mumbai, Maharashtra,<br />
-                    India - 400001
+                    Vasil Khan Marg, inside Madhav Baug,<br />
+                    Charni Road, Marine Lines East, Gulal Wadi,<br />
+                    Bhuleshwar, Mumbai, Maharashtra 400004
                   </p>
                 </div>
               </div>
@@ -48,10 +48,10 @@ const ContactUs = () => {
                 <div>
                   <h3 className="text-xl font-bold text-[#0F172A] mb-1">Phone</h3>
                   <p className="text-slate-600 mb-1">
-                    <a href="tel:+919876543210" className="hover:text-[#D71920] transition-colors">+91 98765 43210</a>
+                    <a href="tel:+919769983108" className="hover:text-[#D71920] transition-colors">+91 97699 83108</a>
                   </p>
                   <p className="text-slate-600">
-                    <a href="tel:+911234567890" className="hover:text-[#D71920] transition-colors">+91 12345 67890</a>
+                    <a href="tel:+912266109211" className="hover:text-[#D71920] transition-colors">022 6610 9211</a>
                   </p>
                 </div>
               </div>
@@ -141,15 +141,18 @@ const ContactUs = () => {
         </div>
       </div>
 
-      {/* Map Section (Placeholder) */}
-      <div className="h-96 w-full bg-slate-200 relative">
-        <div className="absolute inset-0 flex items-center justify-center text-slate-500 font-medium">
-          {/* Replace with actual Google Maps Embed */}
-          <div className="text-center">
-            <MapPin size={48} className="mx-auto mb-2 opacity-50" />
-            <p>Google Map Embed Will Go Here</p>
-          </div>
-        </div>
+      {/* Map Section */}
+      <div className="h-96 w-full relative">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.470693129753!2d72.8262244!3d18.9548089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cfe1e1f41ddb%3A0x48b70c35f9378cd7!2sRemax%20Forge%20And%20Fittings!5e0!3m2!1sen!2sin!4v1775631889093!5m2!1sen!2sin" 
+          width="100%" 
+          height="100%" 
+          style={{ border: 0 }} 
+          allowFullScreen="" 
+          loading="lazy" 
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Remax Forge And Fittings Location"
+        ></iframe>
       </div>
     </div>
   );

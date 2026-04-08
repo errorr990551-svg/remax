@@ -88,9 +88,9 @@ const Footer = () => {
                 </div>
                 <div className="text-slate-400 text-sm leading-relaxed">
                   <span className="block text-white font-semibold mb-1">Factory Address:</span>
-                  Plot No. 123, Industrial Area, <br />
-                  Phase-II, Mumbai, Maharashtra, <br />
-                  India - 400001
+                  Vasil Khan Marg, inside Madhav Baug, <br />
+                  Charni Road, Marine Lines East, Gulal Wadi, <br />
+                  Bhuleshwar, Mumbai, Maharashtra 400004
                 </div>
               </li>
               <li className="flex items-start gap-4">
@@ -99,8 +99,8 @@ const Footer = () => {
                 </div>
                 <div className="text-slate-400 text-sm">
                   <span className="block text-white font-semibold mb-1">Call Us:</span>
-                  <a href="tel:+919876543210" className="hover:text-white transition-colors block">+91 98765 43210</a>
-                  <a href="tel:+911234567890" className="hover:text-white transition-colors block">+91 12345 67890</a>
+                  <a href="tel:+919769983108" className="hover:text-white transition-colors block">+91 97699 83108</a>
+                  <a href="tel:+912266109211" className="hover:text-white transition-colors block">022 6610 9211</a>
                 </div>
               </li>
               <li className="flex items-start gap-4">

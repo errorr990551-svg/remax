@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, FileText, ChevronRight, Home } from 'lucide-react';
+import { useQuotePopup } from '../../../context/QuotePopupContext';
 
-const SocketWeld = () => {
-  const [activeTab, setActiveTab] = useState('description');
+const SpectacleBlind = () => {
+    const { openQuotePopup } = useQuotePopup();
+  const [activeTab, setActiveTab ] = useState('description');
 
   const tabs = [
     { id: 'description', label: 'Description' },
@@ -22,9 +24,9 @@ const SocketWeld = () => {
             <ChevronRight size={14} />
             <span className="text-slate-400">Flanges</span>
             <ChevronRight size={14} />
-            <span className="text-[#D71920] font-medium">Socket Weld Flange</span>
+            <span className="text-[#D71920] font-medium">Spectacle Blind Flange</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Socket Weld Flange</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Spectacle Blind Flange</h1>
         </div>
       </div>
 
@@ -35,8 +37,8 @@ const SocketWeld = () => {
           {/* Left Column: Image */}
           <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group">
              <img 
-               src="/images/Socket-Weld-Flanges.jpg.jpeg" 
-               alt="Socket Weld Flange" 
+               src="/images/Spectacle-Blind-Flange-Weld-Neck-Flange.avif" 
+               alt="Spectacle Blind Flange" 
                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 p-8"
              />
              <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors"></div>
@@ -47,9 +49,9 @@ const SocketWeld = () => {
             <h2 className="text-2xl font-bold text-[#0F172A] mb-6">Key Features</h2>
             <div className="space-y-6">
               {[
-                { title: "For small high-pressure pipelines", desc: "Typically used on smaller sizes of high pressure pipes." },
-                { title: "Socket-fit with fillet weld", desc: "Pipe is inserted into the socket and fillet welded for a strong connection." },
-                { title: "Smooth bore, better flow", desc: "Design allows for a smooth bore and fluid flow, minimising turbulence." }
+                { title: "Dual Functionality", desc: "Acts as both a spacer and a blind to either allow or isolate flow." },
+                { title: "Visual Flow Status", desc: "Provides a clear, immediate visual confirmation of the pipeline's status." },
+                { title: "Inline Maintenance", desc: "Essential for safety during shutdowns, repairs, or pressure testing." }
               ].map((feature, idx) => (
                 <div key={idx} className="flex gap-4">
                   <div className="mt-1 bg-red-50 p-2 rounded-full h-fit">
@@ -57,17 +59,15 @@ const SocketWeld = () => {
                   </div>
                   <div>
                     <h3 className="font-bold text-slate-900 text-lg">{feature.title}</h3>
-                    
                   </div>
                 </div>
               ))}
             </div>
             
             <div className="mt-10 flex gap-4">
-               <button className="px-8 py-3 rounded font-bold text-white bg-[#D71920] hover:shadow-xl transition-all transform hover:-translate-y-1 flex items-center gap-2">
+               <button onClick={() => openQuotePopup()} className="px-8 py-3 rounded font-bold text-white bg-[#D71920] hover:shadow-xl transition-all transform hover:-translate-y-1 flex items-center gap-2">
                  Request Quote <ArrowRight size={18} />
                </button>
-               
             </div>
           </div>
         </div>
@@ -101,16 +101,10 @@ const SocketWeld = () => {
             {activeTab === 'description' && (
               <div className="space-y-6 text-slate-600 leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-500">
                 <p>
-                  Socket weld flange is similar to the slip-on flange in outline, but the bore is counter-bored to accept pipe. Socket welding pipe flanges are typically used on smaller sizes of high pressure pipes. Socket weld flanges are widely used in high pressure systems such as hydraulic equipment and steam lines. Socket weld pipe flanges are attached by inserting the pipe into the socket end and then applying fillet weld around the hub of the flange. This allows for a smooth bore and better flow of the fluid or gas inside of the pipe. An optional internal weld may be applied in high stress applications.
+                  We offer carbon steel, stainless steel, alloy steel, and special steels as per ASME B16.48 or customer drawings. A Spectacle Blind Flange is a safety device used to isolate a section of a piping system. It consists of two metal discs—one solid (blind) and one hollow (spacer)—connected by a web, resembling a pair of spectacles.
                 </p>
                 <p>
-                  We offer socket welding flanges manufactured at our facility to companies in various industries including shipbuilding, power generation, petrochemical plants, oil refineries, waste water treatment plants, paper mills, pharmaceutical plants and turnkey projects among others. We are an ISO 9001:2008, ISO 9001-2008, ISO 14001-2004, OHSAS 18001-2007, NSIC-CRISIL, EEPC, and QA-UKAS (ISO 9001-2008), SSI Certified company that follows total Quality Management System.
-                </p>
-                <p>
-                  Socket Weld flanges were initially developed for use on small-size high pressure piping. Their static strength is equal to Slip On flanges, but their fatigue strength 50% greater than double-welded Slip On flanges. The connection with the pipe is done with 1 fillet weld, at the outside of the flange. But before welding, a space must be created between flange or fitting and pipe.
-                </p>
-                <p>
-                  ASME B31.1 1998 127.3 Preparation for Welding (E) Socket Weld Assembly says: In assembly of the joint before welding, the pipe or tube shall be inserted into the socket to the maximum depth and then withdrawn approximately 1/16" (1.6 mm) away from contact between the end of the pipe and the shoulder of the socket. The purpose for the bottoming clearance in a Socket Weld is usually to reduce the residual stress at the root of the weld that could occur during solidification of the weld metal.
+                  These flanges are universally appreciated for their high strength and durability, especially in hazardous areas where positive isolation is critical to prevent contamination or accidents. As an ISO 9001:2008, ISO 14001:2004, and OHSAS 18001-2007 certified company, we ensure our spectacle blinds are 100% free from corrosion attack and meet rigorous global benchmarks for the oil & gas, petrochemical, and marine industries.
                 </p>
               </div>
             )}
@@ -122,22 +116,14 @@ const SocketWeld = () => {
                   <table className="w-full text-sm text-left border-collapse">
                     <tbody>
                       {[
-                        { label: "Type", value: "Socket Weld Flange" },
-                        { label: "Standards", value: "ANSI B16.5, ANSI B16.47 Series A & B, MSS SP44, ASA, API-605, AWWA, Custom Drawings" },
-                        { label: "Outside Diameter", value: "≤ 24 = 1.6 mm, > 24 = ± 3.2 mm" },
-                        { label: "Inside Diameter", value: "≤ 10 = ± 0.8 mm, > 12 = + 1.6 mm / - 0 mm" },
-                        { label: "Diameter Contact Face", value: "1.6 mm RF = ±0.8 mm, 6.35 mm RF = ±0.4 mm, Tongue & Groove = ±0.4 mm, Male-Female = ±0.4 mm" },
-                        { label: "Outside Diameter of Hub", value: "≤12 = + 2.4 mm/ - 1.6 mm, ≥ 14 = ± 3.2 mm" },
-                        { label: "Diameter of Counterbore", value: "Same as for Inside Diameter" },
-                        { label: "Drilling", value: "Bolt Circle = 1.6 mm, Bolt Hole Spacing = ±0.8 mm. Eccentricity Bolt Circle with Respect to Facing: ≤2.1/2 = 0.8 mm max, ≥3 = 1.6 mm max" },
-                        { label: "Thickness", value: "≤18 = +3.2 mm / -0, ≥20 = +4.8 mm / -0" },
-                        { label: "Length thru Hub", value: "≤18 = 3.2 mm / - 0.8 mm, ≥20 = + 4.8 mm / - 1.6 mm" },
-                        { label: "Pressure Ratings", value: "Class 150, Class 300, Class 400, Class 600, Class 900, Class 1500, Class 2500 | PN6, PN10, PN16, PN25, PN40, PN64 etc." },
-                        { label: "Order", value: "Accept custom order" },
-                        { label: "Quality Assurance", value: "All fittings and flanges are subject to strict inspection at each stage of the production process, from starting material purchasing to product dispatch. They are visually examined for conformity to ASTM, ASME, MSS, DIN, EN, and JIS codes and standards." },
-                        { label: "Marking & Packing", value: "Products are packaged to ensure that there is no damage during transit. In case of exports, standard export packaging is done in wooden cases. All buttweld fittings are marked with Grade, Lot No, Size, Degree and our trade mark. Custom marking available. #Protected by End Caps." },
-                        { label: "Value Added Services", value: "Hot Dipped Galvanizing, CNC Machining, Customised Flanges" },
-                        { label: "Test Certificates", value: "Manufacturer Test Certificate as per EN 10204 / 3.1B, Raw Materials Certificate, 100% Radiography Test Report, Third Party Inspection Report" }
+                        { label: "Type", value: "Spectacle Blind Flange, Paddle Blind, Paddle Spacer" },
+                        { label: "Standards", value: "ASME B16.48, ANSI B16.5, ANSI B16.47 Series A & B, MSS SP44, API-605, AWWA" },
+                        { label: "Outside Diameter", value: "≤ 24 = ± 1.6 mm / > 24 = ± 3.2 mm" },
+                        { label: "Inside Diameter", value: "≤ 10 = ± 0.8 mm / > 12 = +1.6 mm / −0 mm" },
+                        { label: "Pressure Ratings", value: "Class: 150, 300, 600, 900, 1500, 2500 | PN: PN6, PN10, PN16, PN25, PN40, PN64, etc." },
+                        { label: "Size Range", value: "1/2\" (15 NB) to 48\" (1200 NB)" },
+                        { label: "Thickness", value: "≤ 18 = +3.2 mm / −0 / ≥ 20 = +4.8 mm / −0" },
+                        { label: "Quality Assurance", value: "Visually examined for conformity to ASTM, ASME, MSS, and DIN codes" }
                       ].map((row, idx) => (
                         <tr key={idx} className={`border-b border-slate-200 ${idx % 2 === 0 ? 'bg-slate-50' : 'bg-white'}`}>
                           <td className="px-6 py-4 font-bold text-[#0F172A] w-1/3 align-top border-r border-slate-200">
@@ -167,12 +153,12 @@ const SocketWeld = () => {
                     </thead>
                     <tbody>
                       {[
-                        { type: "Carbon Steel Socket Weld Flanges", grades: "ASTM A105/A105N, A350 LF1, LF2 CL1/CL2, LF3 CL1/CL2, A694 F42, F46, F48, F50, F52, F56, F60, F65, F70, A516.60, 65, 70, Steel RST37.2, C22.8" },
-                        { type: "Stainless Steel Socket Weld Flanges", grades: "ASTM A182 F202, F304/304L/304H, F316/316L, F316H, F316TI, F310, F321, F904L" },
-                        { type: "Alloy Steel Socket Weld Flanges", grades: "ASTM A182 F1, F5, F9, F11, F22, F91" },
-                        { type: "Special Alloy Socket Weld Flanges", grades: "Duplex, Super Duplex, Nickel Alloys" },
-                        { type: "Flange Face Type", grades: "Weld neck Flate Face (WNFF), Weld neck Raised Face (WNRF), Weld neck Ring Type Joint (WNRTJ)" },
-                        { type: "Coating/Surface Treatment", grades: "Anti-rust Paint, Oil Black Paint, Yellow Transparent, Zinc Plated, Cold and Hot Dip Galvanized" }
+                        { type: "Carbon Steel", grades: "ASTM A105/A105N, A350 LF1, LF2 CL1/CL2, A694 F42 to F70, A516 Gr. 60/65/70." },
+                        { type: "Stainless Steel", grades: "ASTM A182 F304/304L, F316/316L, F316Ti, F310, F321, F904L." },
+                        { type: "Alloy Steel", grades: "ASTM A182 F1, F5, F9, F11, F22, F91." },
+                        { type: "Special Alloy", grades: "Duplex (F51, F53), Nickel Alloys (200, 400, 600, 800), Monel, Hastelloy." },
+                        { type: "Flange Face Type", grades: "Flat Face (FF), Raised Face (RF), Ring Type Joint (RTJ)." },
+                        { type: "Coating", grades: "Anti-rust Paint, Oil Black Paint, Zinc Plated, Cold and Hot Dip Galvanized." }
                       ].map((row, idx) => (
                         <tr key={idx} className={`border-b border-slate-200 last:border-0 ${idx % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}>
                           <td className="px-6 py-4 font-bold text-[#D71920] border-r border-slate-200 w-1/4 align-middle">
@@ -196,4 +182,4 @@ const SocketWeld = () => {
   );
 };
 
-export default SocketWeld;
+export default SpectacleBlind;

@@ -14,6 +14,9 @@ import SlipOn from './assets/pages/products/flanges/SlipOn.jsx'
 import SocketWeld from './assets/pages/products/flanges/SocketWeld.jsx'
 import Threaded from './assets/pages/products/flanges/Threaded.jsx'
 import Blind from './assets/pages/products/flanges/Blind.jsx'
+import LapJoint from './assets/pages/products/flanges/LapJoint.jsx'
+import LongWeldNeck from './assets/pages/products/flanges/LongWeldNeck.jsx'
+import SpectacleBlind from './assets/pages/products/flanges/SpectacleBlind.jsx'
 
 import StainlessSteel from './assets/pages/products/pipes/StainlessSteel.jsx'
 import AboutUs from './assets/pages/AboutUs.jsx'
@@ -126,6 +129,9 @@ function App() {
         <Route path='/products/flanges/socket-weld-flange' element={<SocketWeld />} />
         <Route path='/products/flanges/threaded-flange' element={<Threaded />} />
         <Route path='/products/flanges/blind-flange' element={<Blind />} />
+        <Route path='/products/flanges/lap-joint-flange' element={<LapJoint />} />
+        <Route path='/products/flanges/long-weld-neck-flange' element={<LongWeldNeck />} />
+        <Route path='/products/flanges/spectacle-blind-flange' element={<SpectacleBlind />} />
 
 
         
