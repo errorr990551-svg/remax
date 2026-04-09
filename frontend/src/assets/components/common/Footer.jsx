@@ -1,5 +1,5 @@
-import React from 'react';
 import { Facebook, Twitter, Linkedin, Instagram, Phone, Mail, MapPin, ChevronRight, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import LogoImg from "../../images/REMAX_FORGE_AND_FITTINGS-01.png";
 
 const Footer = () => {
@@ -46,12 +46,19 @@ const Footer = () => {
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-[#D71920] rounded"></span>
             </h3>
             <ul className="space-y-3">
-              {['Home', 'About Us', 'Quality Policy', 'Tech Info', 'Certificates', 'Contact Us'].map((item) => (
-                <li key={item}>
-                  <a href="#" className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm">
+              {[
+                { name: 'Home', path: '/' },
+                { name: 'About Us', path: '/about-us' },
+                { name: 'Quality Policy', path: '/quality' },
+                { name: 'Tech Info', path: '/tech-info/dimensions' },
+                { name: 'Certificates', path: '/certification' },
+                { name: 'Contact Us', path: '/contact' }
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link to={item.path} className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm">
                     <ChevronRight size={14} className="text-[#D71920]" />
-                    {item}
-                  </a>
+                    {item.name}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -64,12 +71,17 @@ const Footer = () => {
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-[#D71920] rounded"></span>
             </h3>
             <ul className="space-y-3">
-              {['Butt Weld Fittings', 'Forged Flanges', 'High Pressure Fittings', 'Olets & Branch Outlets', 'Forged Components'].map((item) => (
-                <li key={item}>
-                  <a href="#" className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm">
+              {[
+                { name: 'Butt Weld Fittings', path: '/products/buttweld-fittings/butt-weld-elbow-fittings' },
+                { name: 'Forged Flanges', path: '/products/flanges/weld-neck-flange' },
+                { name: 'High Pressure Fittings', path: '/products/socket-weld-fittings/socket-weld-elbow-fittings' },
+                { name: 'Olets & Branch Outlets', path: '/products/socket-weld-fittings/socket-weld-nipple-fittings' }
+              ].map((item) => (
+                <li key={item.name}>
+                  <Link to={item.path} className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm">
                     <ChevronRight size={14} className="text-[#D71920]" />
-                    {item}
-                  </a>
+                    {item.name}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -124,9 +136,9 @@ const Footer = () => {
               © {new Date().getFullYear()} <span className="text-white font-bold">Remax Forge & Fittings</span>. All Rights Reserved.
             </p>
             <div className="flex items-center gap-6 text-sm text-slate-500">
-              <a href="#" className="hover:text-[#D71920] transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-[#D71920] transition-colors">Terms of Service</a>
-              <a href="#" className="hover:text-[#D71920] transition-colors">Sitemap</a>
+              <Link to="/quality" className="hover:text-[#D71920] transition-colors">Privacy Policy</Link>
+              <Link to="/quality" className="hover:text-[#D71920] transition-colors">Terms of Service</Link>
+              <Link to="/quality" className="hover:text-[#D71920] transition-colors">Sitemap</Link>
             </div>
           </div>
         </div>

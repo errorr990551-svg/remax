@@ -101,9 +101,13 @@ import DuplexSteelBar from './assets/pages/products/roundBar/DuplexSteelBar.jsx'
 import NickelAlloyBar from './assets/pages/products/roundBar/NickelAlloyBar.jsx';
 
 
+import ScrollToTop from './assets/components/common/ScrollToTop.jsx'
+
+
 function App() {
   return (
     <div>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>

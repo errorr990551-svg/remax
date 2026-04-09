@@ -34,12 +34,12 @@ const CopperTube = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mb-16">
           
           {/* Left Column: Image Placeholder */}
-          <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group">
+          <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group p-10">
              {/* Replace with actual image */}
              <img 
-               src="https://images.unsplash.com/photo-1621905252507-b35a830137d8?q=80&w=2069&auto=format&fit=crop" 
+               src="/images/copper-tubes-1587284410-5379621.webp" 
                alt="Copper Tubes" 
-               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+               className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
              />
              <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors"></div>
           </div>

@@ -1,7 +1,9 @@
 import React from 'react';
-import { Home, ChevronRight, Award, Users, Globe, CheckCircle2, Factory } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { Home, ChevronRight, Award, Users, Globe, CheckCircle2, Factory, FileText, ArrowRight } from 'lucide-react';
 
 const AboutUs = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       {/* Breadcrumb Header */}
@@ -44,7 +46,7 @@ const AboutUs = () => {
           <div className="order-1 lg:order-2 relative group">
             <div className="rounded-lg overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop" 
+                src="/images/advance manufacturing.jpeg" 
                 alt="Factory Floor" 
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
@@ -165,16 +167,45 @@ const AboutUs = () => {
                  </li>
                ))}
              </ul>
-          </div>
-          <div className="bg-white p-8 rounded-xl shadow-lg border border-slate-200 text-center">
-             {/* Certificate Image Placeholders */}
-             <div className="grid grid-cols-2 gap-4">
-                <div className="bg-slate-100 h-32 rounded flex items-center justify-center text-slate-400 text-xs">ISO 9001 Certificate</div>
-                <div className="bg-slate-100 h-32 rounded flex items-center justify-center text-slate-400 text-xs">PED Certificate</div>
-                <div className="bg-slate-100 h-32 rounded flex items-center justify-center text-slate-400 text-xs">OHSAS Certificate</div>
-                <div className="bg-slate-100 h-32 rounded flex items-center justify-center text-slate-400 text-xs">Material Certs</div>
+
+             {/* Action Buttons */}
+             <div className="mt-10 flex flex-wrap gap-4">
+               <button 
+                 onClick={() => navigate('/quality')}
+                 className="px-6 py-3 rounded-lg font-bold text-white transition-all transform hover:-translate-y-1 hover:shadow-lg flex items-center gap-2"
+                 style={{ backgroundColor: '#D71920' }}
+               >
+                 Learn More
+                 <ArrowRight size={18} />
+               </button>
+               <button 
+                 onClick={() => navigate('/certification')}
+                 className="px-6 py-3 rounded-lg font-bold text-[#0F172A] border-2 border-[#0F172A] hover:bg-[#0F172A] hover:text-white transition-all transform hover:-translate-y-1 hover:shadow-lg flex items-center gap-2"
+               >
+                 <FileText size={18} />
+                 View Certificate
+               </button>
              </div>
-             <p className="text-sm text-slate-500 mt-4 italic">Certified by leading international bodies</p>
+          </div>
+          <div className="space-y-6">
+             {/* commitment images - parallel grid */}
+             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="bg-white p-4 rounded-2xl shadow-xl border-4 border-white h-[350px] flex items-center justify-center overflow-hidden group">
+                  <img 
+                    src="/images/commitment 1.jpeg" 
+                    alt="Commitment to Quality 1" 
+                    className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
+                <div className="bg-white p-4 rounded-2xl shadow-xl border-4 border-white h-[350px] flex items-center justify-center overflow-hidden group">
+                  <img 
+                    src="/images/commitment 2.jpeg" 
+                    alt="Commitment to Quality 2" 
+                    className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
+             </div>
+             <p className="text-sm text-slate-500 mt-4 italic text-center">Certified expertise in precision forging and industrial manufacturing</p>
           </div>
         </div>
 

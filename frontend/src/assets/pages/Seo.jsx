@@ -29,7 +29,7 @@ const Seo = () => {
   const categoriesList = [
     { name: "Flanges", image: "https://images.unsplash.com/photo-1622632128965-055c0a3739db?auto=format&fit=crop&q=80&w=800" },
     { name: "Buttweld Fittings", image: "https://images.unsplash.com/photo-1518709414768-a8c554069679?auto=format&fit=crop&q=80&w=800" },
-    { name: "Forged Fittings", image: "https://images.unsplash.com/photo-1558611997-0950a7522439?auto=format&fit=crop&q=80&w=800" },
+
     { name: "Pipes", image: "https://images.unsplash.com/photo-1584984558296-61a7924fb3fa?auto=format&fit=crop&q=80&w=800" },
     { name: "Tubes", image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80&w=800" },
     { name: "Round Bar", image: "https://images.unsplash.com/photo-1533613220915-609f661a6fe1?auto=format&fit=crop&q=80&w=800" },
@@ -335,14 +335,7 @@ const Seo = () => {
               <div className="h-1 w-24 bg-[#D71920] rounded-full mb-10"></div>
 
               <div className="space-y-10 text-slate-600 leading-relaxed text-justify">
-                <div>
-                  <h3 className="text-2xl font-bold text-[#0F172A] mb-4">
-                    Leading Forged Fittings Manufacturers in [Your Region]
-                  </h3>
-                  <p>
-                    Remax Forge & Fittings specializes in manufacturing and exporting a wide range of industrial piping components in <span className="font-semibold text-[#D71920]">[Your Region]</span> to suit critical infrastructure needs. When it comes to high-quality, ISO-certified, and reliable products, look no further than our esteemed <span className="font-semibold text-[#D71920]">Forged Fittings Suppliers in [Your Region]</span>. Our dedicated professionals ensure that every product meets rigorous international standards like ASME, ASTM, and DIN.
-                  </p>
-                </div>
+
 
                 <div>
                   <h3 className="text-xl font-bold text-[#0F172A] mb-3">

@@ -31,13 +31,12 @@ const Quality = () => {
           </div>
           <div className="relative">
             {/* Image Placeholder - Right Side */}
-            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white h-96 w-full bg-slate-200 flex items-center justify-center relative group">
-                {/* Add your image source here later */}
-                {/* <img src="YOUR_IMAGE_LINK_HERE" alt="Quality Assurance" className="w-full h-full object-cover" /> */}
-                <div className="absolute inset-0 bg-slate-100 flex flex-col items-center justify-center text-slate-400">
-                    <ShieldCheck size={64} className="mb-4 text-[#D71920] opacity-50" />
-                    <span className="font-semibold text-lg">Add Quality Assurance Image Here</span>
-                </div>
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white h-[450px] max-w-sm mx-auto lg:ml-auto bg-white relative group p-4">
+                <img 
+                  src="/images/quality assurance.jpeg" 
+                  alt="Quality Assurance at Remax" 
+                  className="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-700" 
+                />
             </div>
             {/* Decorative Element */}
             <div className="absolute -z-10 -bottom-6 -right-6 w-full h-full bg-[#D71920]/10 rounded-2xl"></div>

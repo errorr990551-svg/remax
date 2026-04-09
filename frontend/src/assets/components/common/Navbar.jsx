@@ -52,13 +52,7 @@ const Navbar = () => {
         "Butt Weld Reducers Fittings", "Concentric Reducer", "Eccentric Reducer", "Oval Caps"
       ]
     },
-    {
-      category: "Forged Fittings",
-      subcategories: [
-        "Socket Weld Elbow", "Threaded Elbow", "Socket Weld Tee", "Threaded Tee",
-        "Coupling", "Union", "Plug", "Bush"
-      ]
-    },
+
     {
       category: "Pipes",
       subcategories: [

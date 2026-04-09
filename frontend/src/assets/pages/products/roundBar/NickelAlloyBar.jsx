@@ -31,11 +31,11 @@ const NickelAlloyBar = () => {
         {/* Top Section: Image & Side Description */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 mb-16">
           
-          <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group">
+          <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group p-10">
              <img 
-               src="https://images.unsplash.com/photo-1542013936693-884638332954?q=80&w=1974&auto=format&fit=crop"
+               src="/images/nickel-alloy-bar-500x500.webp"
                alt="Nickel Alloy Round Bar" 
-               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+               className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
              />
              <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors"></div>
           </div>

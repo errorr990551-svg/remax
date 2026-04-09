@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Globe, Settings, Clock, CheckCircle2, Calendar, Factory, Award, Truck, PenTool, Recycle, ChevronLeft, ChevronRight } from 'lucide-react';
+import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 
 const Home = () => {
+  const navigate = useNavigate();
+  const { openQuotePopup } = useQuotePopup();
   // Data for the 4 feature cards
   const features = [
     {
@@ -27,21 +31,41 @@ const Home = () => {
   ];
 
   // Data for the Product Section
-  const products = [
+  const productsList = [
     {
-      title: "Butt Weld Fittings",
-      image: "https://images.unsplash.com/photo-1518709414768-a8c554069679?q=80&w=2000&auto=format&fit=crop", // Industrial pipes substitute
-      description: "High-strength elbows, tees, and reducers designed for critical piping systems in oil & gas industries."
+      title: "Flanges",
+      image: "/images/slip-on-flange.jpg.jpeg",
+      link: "/products/flanges/slip-on-flange"
     },
     {
-      title: "Forged Flanges",
-      image: "https://images.unsplash.com/photo-1622632128965-055c0a3739db?q=80&w=1974&auto=format&fit=crop", // Metal parts
-      description: "Precision-engineered slip-on, weld neck, and blind flanges manufactured to ASME/ANSI standards."
+      title: "Buttweld Fittings",
+      image: "/images/butt weld elbow fittings.webp",
+      link: "/products/buttweld-fittings/butt-weld-elbow-fittings"
     },
     {
-      title: "High Pressure Fittings",
-      image: "https://images.unsplash.com/photo-1558611997-0950a7522439?q=80&w=1964&auto=format&fit=crop", // Valves/Fittings
-      description: "Robust socket weld and threaded fittings built to withstand extreme pressure and temperature variations."
+      title: "Pipes",
+      image: "/images/stainlesssteelpipe.jpeg",
+      link: "/products/pipes/stainless-steel-pipes"
+    },
+    {
+      title: "Tubes",
+      image: "/images/stainless-steel-tubes.webp",
+      link: "/products/tubes/stainless-steel-tubes"
+    },
+    {
+      title: "Round Bar",
+      image: "/images/stainlesssteelbars.jpeg",
+      link: "/products/round-bar/stainless-steel-bar"
+    },
+    {
+      title: "Plates",
+      image: "/images/stainlesssteelplate.jpg.jpeg",
+      link: "/products/plates/hardox-plate"
+    },
+    {
+      title: "Socket Weld Fittings",
+      image: "/images/elbow.webp",
+      link: "/products/socket-weld-fittings/socket-weld-coupling-fittings"
     }
   ];
 
@@ -72,7 +96,7 @@ const Home = () => {
   // Data for SLIDER Section (5 items with Images now)
   const sliderItems = [
     { 
-      image: "https://images.unsplash.com/photo-1565514020176-db765cb86b72?q=80&w=2070&auto=format&fit=crop",
+      image: "/images/advance manufacturing.jpeg",
       icon: <Factory size={32} />, 
       title: "Advanced Manufacturing", 
       description: "State-of-the-art machinery for precision forging." 
@@ -122,17 +146,36 @@ const Home = () => {
 
 
 
-  // Slider State
+  // Product Slider State
+  const [productSlide, setProductSlide] = useState(0);
+  const itemsPerPage = 3;
+
+  const nextProductSlide = () => {
+    setProductSlide((prev) => (prev + 1) % (productsList.length - 2));
+  };
+
+  const prevProductSlide = () => {
+    setProductSlide((prev) => (prev === 0 ? productsList.length - 3 : prev - 1));
+  };
+
+  // Original Feature Slider State
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Auto-slide effect
   useEffect(() => {
     const timer = setInterval(() => {
-      // Loop logic: assuming 3 items shown at once on desktop
       setCurrentSlide((prev) => (prev + 1) % (sliderItems.length - 2)); 
     }, 4000);
     return () => clearInterval(timer);
   }, [sliderItems.length]);
+
+  // Auto-slide for Product Carousel
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setProductSlide((prev) => (prev + 1) % (productsList.length - 2));
+    }, 5000); // Slightly different timing for variety
+    return () => clearInterval(timer);
+  }, [productsList.length]);
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % (sliderItems.length - 2));
@@ -141,6 +184,7 @@ const Home = () => {
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev === 0 ? sliderItems.length - 3 : prev - 1));
   };
+
 
 
   return (
@@ -247,7 +291,7 @@ const Home = () => {
               {/* Main Image */}
               <div className="relative rounded-lg overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1531685250784-75699b6d082c?q=80&w=2070&auto=format&fit=crop" 
+                  src="/images/we are the leaders.jpeg" 
                   alt="Industrial Worker Welding" 
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
                 />
@@ -294,6 +338,7 @@ const Home = () => {
               </div>
 
               <button 
+                onClick={() => navigate('/about-us')}
                 className="px-8 py-3 rounded font-bold text-white transition-all transform hover:-translate-y-1 hover:shadow-lg inline-flex items-center gap-2"
                 style={{ backgroundColor: '#0F172A' }}
               >
@@ -321,46 +366,84 @@ const Home = () => {
             <div className="h-1 w-20 mx-auto rounded" style={{ backgroundColor: '#D71920' }}></div>
           </div>
 
-          {/* Product Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {products.map((product, index) => (
-              <div 
-                key={index} 
-                className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full"
-              >
-                {/* Image Container */}
-                <div className="relative h-64 overflow-hidden">
-                  <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-slate-900/0 transition-colors z-10"></div>
-                  <img 
-                    src={product.image} 
-                    alt={product.title} 
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
-                  />
-                  {/* Decorative stripe */}
-                  <div className="absolute bottom-0 left-0 w-full h-1 bg-[#D71920] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20"></div>
-                </div>
+          {/* Product Carousel Viewport Wrapper */}
+          <div className="relative group/carousel">
+            
+            {/* Navigation Arrows on Sides */}
+            <div 
+              onClick={prevProductSlide}
+              className="absolute top-1/2 -left-4 md:-left-12 -translate-y-1/2 z-30 cursor-pointer text-slate-400 hover:text-[#D71920] transition-colors bg-white rounded-full p-1 shadow-md hover:shadow-lg hidden md:flex"
+            >
+              <ChevronLeft size={40} />
+            </div>
+            
+            <div 
+              onClick={nextProductSlide}
+              className="absolute top-1/2 -right-4 md:-right-12 -translate-y-1/2 z-30 cursor-pointer text-slate-400 hover:text-[#D71920] transition-colors bg-white rounded-full p-1 shadow-md hover:shadow-lg hidden md:flex"
+            >
+              <ChevronRight size={40} />
+            </div>
 
-                {/* Content */}
-                <div className="p-8 flex-grow flex flex-col">
-                  <h3 className="text-2xl font-bold mb-3 group-hover:text-[#D71920] transition-colors" style={{ color: '#0F172A' }}>
-                    {product.title}
-                  </h3>
-                  <p className="text-slate-600 leading-relaxed mb-4 flex-grow">
-                    {product.description}
-                  </p>
-                </div>
+            {/* Mobile Navigation (Always Visible) */}
+            <div className="flex md:hidden justify-center gap-4 mb-6">
+              <div 
+                onClick={prevProductSlide}
+                className="w-10 h-10 flex items-center justify-center bg-white border border-slate-200 rounded-full shadow-sm active:scale-95 text-slate-400"
+              >
+                <ChevronLeft size={20} />
               </div>
-            ))}
+              <div 
+                onClick={nextProductSlide}
+                className="w-10 h-10 flex items-center justify-center bg-white border border-slate-200 rounded-full shadow-sm active:scale-95 text-slate-400"
+              >
+                <ChevronRight size={20} />
+              </div>
+            </div>
+
+            <div className="overflow-hidden">
+              <div 
+                className="flex transition-transform duration-500 ease-in-out gap-8"
+                style={{ transform: `translateX(-${productSlide * (100 / itemsPerPage)}%)` }}
+              >
+                {productsList.map((product, index) => (
+                  <div 
+                    key={index} 
+                    onClick={() => navigate(product.link)}
+                    className="flex-shrink-0 w-full md:w-[calc(33.333%-22px)] group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full cursor-pointer"
+                  >
+                    {/* Image Container */}
+                    <div className="relative h-64 overflow-hidden">
+                      <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-slate-900/0 transition-colors z-10"></div>
+                      <img 
+                        src={product.image} 
+                        alt={product.title} 
+                        className="w-full h-full object-contain p-6 transform group-hover:scale-110 transition-transform duration-700"
+                      />
+                      {/* Decorative stripe */}
+                      <div className="absolute bottom-0 left-0 w-full h-1 bg-[#D71920] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20"></div>
+                    </div>
+
+                    {/* Content (Only Name) */}
+                    <div className="p-6 flex-grow flex items-center justify-center">
+                      <h3 className="text-xl md:text-2xl font-bold group-hover:text-[#D71920] transition-colors text-center" style={{ color: '#0F172A' }}>
+                        {product.title}
+                      </h3>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
 
-          {/* Schedule Appointment Button */}
+          {/* Request a Quote Button */}
           <div className="mt-12 text-center">
             <button 
+              onClick={openQuotePopup}
               className="px-8 py-3 rounded font-bold text-white transition-all transform hover:-translate-y-1 hover:shadow-lg inline-flex items-center gap-2"
               style={{ backgroundColor: '#D71920' }}
             >
-              <Calendar size={18} />
-              Schedule an Appointment
+              Request a Quote
+              <ArrowRight size={18} />
             </button>
           </div>
         </div>
@@ -409,30 +492,53 @@ const Home = () => {
         </div>
       </div>
 
-      {/* SLIDER Section (Bottom of Page) */}
+      {/* Featured Highlights Slider Section */}
       <div className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Slider Header */}
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-slate-900">Featured Highlights</h2>
-            <div className="h-1 w-12 mx-auto mt-4 rounded" style={{ backgroundColor: '#D71920' }}></div>
+          <div className="text-center mb-16 max-w-3xl mx-auto">
+            <span className="text-[#D71920] font-bold tracking-wider uppercase text-sm mb-2 block">
+              Core Strengths
+            </span>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-4">
+              Featured Highlights
+            </h2>
+            <div className="h-1 w-20 mx-auto rounded" style={{ backgroundColor: '#D71920' }}></div>
           </div>
 
           {/* Slider Container */}
-          <div className="relative">
-            {/* Arrows */}
+          <div className="relative group/highlights">
+            
+            {/* Navigation Arrows on Sides */}
             <div 
-              className="absolute top-1/2 -left-4 md:-left-12 -translate-y-1/2 z-10 cursor-pointer text-slate-400 hover:text-[#D71920] transition-colors bg-white rounded-full p-1 shadow-md hover:shadow-lg" 
               onClick={prevSlide}
+              className="absolute top-1/2 -left-4 md:-left-12 -translate-y-1/2 z-30 cursor-pointer text-slate-400 hover:text-[#D71920] transition-colors bg-white rounded-full p-1 shadow-md hover:shadow-lg hidden md:flex"
             >
               <ChevronLeft size={40} />
             </div>
+            
             <div 
-              className="absolute top-1/2 -right-4 md:-right-12 -translate-y-1/2 z-10 cursor-pointer text-slate-400 hover:text-[#D71920] transition-colors bg-white rounded-full p-1 shadow-md hover:shadow-lg" 
               onClick={nextSlide}
+              className="absolute top-1/2 -right-4 md:-right-12 -translate-y-1/2 z-30 cursor-pointer text-slate-400 hover:text-[#D71920] transition-colors bg-white rounded-full p-1 shadow-md hover:shadow-lg hidden md:flex"
             >
               <ChevronRight size={40} />
+            </div>
+
+            {/* Mobile Navigation */}
+            <div className="flex md:hidden justify-center gap-4 mb-6">
+              <div 
+                onClick={prevSlide}
+                className="w-10 h-10 flex items-center justify-center bg-white border border-slate-200 rounded-full shadow-sm active:scale-95 text-slate-400"
+              >
+                <ChevronLeft size={20} />
+              </div>
+              <div 
+                onClick={nextSlide}
+                className="w-10 h-10 flex items-center justify-center bg-white border border-slate-200 rounded-full shadow-sm active:scale-95 text-slate-400"
+              >
+                <ChevronRight size={20} />
+              </div>
             </div>
 
             {/* Viewport (Overflow Hidden) */}
@@ -440,28 +546,30 @@ const Home = () => {
               {/* Sliding Track */}
               <div 
                 className="flex transition-transform duration-500 ease-in-out gap-8"
-                style={{ transform: `translateX(-${currentSlide * (100 / 3)}%)` }} 
+                style={{ transform: `translateX(-${currentSlide * (100 / itemsPerPage)}%)` }} 
               >
                 {sliderItems.map((item, index) => (
                   <div 
                     key={index} 
-                    className="flex-shrink-0 w-full md:w-[calc(33.333%-22px)] group relative bg-slate-50 rounded-lg overflow-hidden hover:shadow-xl transition-all duration-300 border border-slate-100"
+                    className="flex-shrink-0 w-full md:w-[calc(33.333%-22px)] group relative bg-white rounded-lg overflow-hidden border border-slate-100 shadow-md hover:shadow-xl transition-all duration-300"
                   >
                     {/* Image at the top */}
-                    <div className="h-48 overflow-hidden relative">
+                    <div className="h-56 overflow-hidden relative">
                       <img 
                         src={item.image} 
                         alt={item.title} 
-                        className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                        className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                       />
-                      <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-slate-900/0 transition-colors"></div>
+                      <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-slate-900/0 transition-colors z-10"></div>
+                      {/* Decorative stripe */}
+                      <div className="absolute bottom-0 left-0 w-full h-1 bg-[#D71920] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20"></div>
                     </div>
 
-                    <div className="p-6 flex flex-col items-center text-center">
-                      <div className="mb-3 text-[#D71920] -mt-10 bg-white p-3 rounded-full shadow-lg relative z-10">
+                    <div className="p-8 flex flex-col items-center text-center">
+                      <div className="mb-4 text-[#D71920] -mt-14 bg-white p-4 rounded-full shadow-lg relative z-20 border border-slate-50">
                         {item.icon}
                       </div>
-                      <h3 className="text-xl font-bold text-slate-900 mb-2 group-hover:text-[#D71920] transition-colors">
+                      <h3 className="text-xl font-bold text-[#0F172A] mb-3 group-hover:text-[#D71920] transition-colors">
                         {item.title}
                       </h3>
                       <p className="text-slate-600 text-sm leading-relaxed">
@@ -471,17 +579,6 @@ const Home = () => {
                   </div>
                 ))}
               </div>
-            </div>
-            
-            {/* Dots Indicator */}
-            <div className="flex justify-center mt-8 gap-2">
-              {Array.from({ length: sliderItems.length - 2 }).map((_, idx) => (
-                <div 
-                  key={idx}
-                  className={`h-2 w-2 rounded-full transition-all duration-300 cursor-pointer ${currentSlide === idx ? 'w-8 bg-[#D71920]' : 'bg-slate-300'}`}
-                  onClick={() => setCurrentSlide(idx)}
-                />
-              ))}
             </div>
           </div>
         </div>
