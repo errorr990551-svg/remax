@@ -102,6 +102,7 @@ import NickelAlloyBar from './assets/pages/products/roundBar/NickelAlloyBar.jsx'
 
 
 import ScrollToTop from './assets/components/common/ScrollToTop.jsx'
+import ProductMenuModal from './assets/components/common/ProductMenuModal.jsx'
 
 
 function App() {
@@ -109,6 +110,7 @@ function App() {
     <div>
       <ScrollToTop />
       <Navbar />
+      <ProductMenuModal />
 
       <Routes>
         <Route path='/' element={<Home />} />

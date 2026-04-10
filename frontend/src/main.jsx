@@ -4,6 +4,7 @@ import App from './App'
 import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import { QuotePopupProvider } from './assets/context/QuotePopupContext'
+import { ProductMenuProvider } from './assets/context/ProductMenuContext'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -11,7 +12,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     
 
       <QuotePopupProvider>
-        <App />
+        <ProductMenuProvider>
+          <App />
+        </ProductMenuProvider>
       </QuotePopupProvider>
       
     </BrowserRouter>

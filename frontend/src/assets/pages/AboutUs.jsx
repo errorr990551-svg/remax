@@ -108,18 +108,12 @@ const AboutUs = () => {
              </div>
           </div>
           <div className="order-1 lg:order-2">
-             <div className="h-80 w-full bg-slate-200 rounded-xl flex items-center justify-center relative overflow-hidden">
-                {/* Image Placeholder */}
+             <div className="h-[450px] w-full rounded-2xl shadow-xl overflow-hidden group">
                 <img 
-                  src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2070&auto=format&fit=crop" 
-                  alt="Why Choose Us Placeholder" 
-                  className="w-full h-full object-cover opacity-80"
+                  src="/images/commitment 2.jpeg" 
+                  alt="Why Choose Remax" 
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-slate-900/10 flex items-center justify-center">
-                  <span className="bg-white/80 backdrop-blur px-4 py-2 rounded text-slate-500 font-medium text-sm border border-slate-300">
-                    Image Placeholder
-                  </span>
-                </div>
              </div>
           </div>
         </div>
@@ -188,22 +182,13 @@ const AboutUs = () => {
              </div>
           </div>
           <div className="space-y-6">
-             {/* commitment images - parallel grid */}
-             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-white p-4 rounded-2xl shadow-xl border-4 border-white h-[350px] flex items-center justify-center overflow-hidden group">
-                  <img 
-                    src="/images/commitment 1.jpeg" 
-                    alt="Commitment to Quality 1" 
-                    className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="bg-white p-4 rounded-2xl shadow-xl border-4 border-white h-[350px] flex items-center justify-center overflow-hidden group">
-                  <img 
-                    src="/images/commitment 2.jpeg" 
-                    alt="Commitment to Quality 2" 
-                    className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
+             {/* commitment image */}
+             <div className="bg-white p-4 rounded-2xl shadow-xl border-4 border-white h-[400px] flex items-center justify-center overflow-hidden group">
+                <img 
+                  src="/images/commitment 1.jpeg" 
+                  alt="Commitment to Quality" 
+                  className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500"
+                />
              </div>
              <p className="text-sm text-slate-500 mt-4 italic text-center">Certified expertise in precision forging and industrial manufacturing</p>
           </div>

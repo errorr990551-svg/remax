@@ -1,8 +1,11 @@
 import { Facebook, Twitter, Linkedin, Instagram, Phone, Mail, MapPin, ChevronRight, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import LogoImg from "../../images/REMAX_FORGE_AND_FITTINGS-01.png";
+import { useProductMenu } from '../../context/ProductMenuContext.jsx';
+import { productData } from '../../data/productsData.js';
 
 const Footer = () => {
+  const { openProductMenu } = useProductMenu();
   return (
     <footer className="bg-[#0F172A] text-white pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -71,17 +74,15 @@ const Footer = () => {
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-[#D71920] rounded"></span>
             </h3>
             <ul className="space-y-3">
-              {[
-                { name: 'Butt Weld Fittings', path: '/products/buttweld-fittings/butt-weld-elbow-fittings' },
-                { name: 'Forged Flanges', path: '/products/flanges/weld-neck-flange' },
-                { name: 'High Pressure Fittings', path: '/products/socket-weld-fittings/socket-weld-elbow-fittings' },
-                { name: 'Olets & Branch Outlets', path: '/products/socket-weld-fittings/socket-weld-nipple-fittings' }
-              ].map((item) => (
-                <li key={item.name}>
-                  <Link to={item.path} className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm">
-                    <ChevronRight size={14} className="text-[#D71920]" />
-                    {item.name}
-                  </Link>
+              {productData.map((item, index) => (
+                <li key={item.category}>
+                  <button 
+                    onClick={() => openProductMenu(index)}
+                    className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm text-left w-full group"
+                  >
+                    <ChevronRight size={14} className="text-[#D71920] group-hover:translate-x-1 transition-transform" />
+                    {item.category}
+                  </button>
                 </li>
               ))}
             </ul>

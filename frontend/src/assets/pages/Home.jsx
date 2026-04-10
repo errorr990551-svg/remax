@@ -2,10 +2,19 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Globe, Settings, Clock, CheckCircle2, Calendar, Factory, Award, Truck, PenTool, Recycle, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
+import { useProductMenu } from '../context/ProductMenuContext.jsx';
 
 const Home = () => {
   const navigate = useNavigate();
   const { openQuotePopup } = useQuotePopup();
+  const { openProductMenu } = useProductMenu();
+
+  const scrollToServices = () => {
+    const section = document.getElementById('services-section');
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   // Data for the 4 feature cards
   const features = [
     {
@@ -243,6 +252,7 @@ const Home = () => {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto flex-wrap">
               <button 
+                onClick={scrollToServices}
                 className="w-full sm:w-auto px-8 py-4 rounded font-bold text-white transition-all transform hover:-translate-y-1 hover:shadow-2xl flex items-center justify-center gap-2 group whitespace-nowrap shrink-0 min-w-[180px]"
                 style={{ backgroundColor: '#D71920' }}
               >
@@ -352,7 +362,7 @@ const Home = () => {
       </div>
 
       {/* Our Products / Services Section */}
-      <div className="py-20 bg-slate-50">
+      <div id="services-section" className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Section Header */}
@@ -408,7 +418,7 @@ const Home = () => {
                 {productsList.map((product, index) => (
                   <div 
                     key={index} 
-                    onClick={() => navigate(product.link)}
+                    onClick={() => openProductMenu(index)}
                     className="flex-shrink-0 w-full md:w-[calc(33.333%-22px)] group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full cursor-pointer"
                   >
                     {/* Image Container */}
