@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, ChevronRight, Home } from 'lucide-react';
+import { useQuotePopup } from '../../../context/QuotePopupContext';
 
 const QuardPlates = () => {
+  const { openQuotePopup } = useQuotePopup();
   const [activeTab, setActiveTab] = useState('description');
 
   const tabs = [
@@ -75,7 +77,7 @@ const QuardPlates = () => {
             </div>
 
             <div className="mt-10 flex gap-4">
-               <button className="px-8 py-3 rounded font-bold text-white bg-[#D71920] hover:shadow-xl transition-all transform hover:-translate-y-1 flex items-center gap-2">
+               <button onClick={() => openQuotePopup()} className="px-8 py-3 rounded font-bold text-white bg-[#D71920] hover:shadow-xl transition-all transform hover:-translate-y-1 flex items-center gap-2">
                  Request Quote <ArrowRight size={18} />
                </button>
             </div>
