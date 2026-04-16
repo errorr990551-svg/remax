@@ -134,13 +134,11 @@ const Footer = () => {
         <div className="border-t border-slate-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-500 text-sm text-center md:text-left">
-              © {new Date().getFullYear()} <span className="text-white font-bold">Remax Forge & Fittings</span>. All Rights Reserved.
+              © {new Date().getFullYear()} <span className="text-white font-bold">Remax Forge & Fittings</span> All Rights Reserved.
             </p>
-            <div className="flex items-center gap-6 text-sm text-slate-500">
-              <Link to="/quality" className="hover:text-[#D71920] transition-colors">Privacy Policy</Link>
-              <Link to="/quality" className="hover:text-[#D71920] transition-colors">Terms of Service</Link>
-              <Link to="/quality" className="hover:text-[#D71920] transition-colors">Sitemap</Link>
-            </div>
+            <p className="text-slate-500 text-sm text-center md:text-right">
+              Designed and Promoted By <a href="https://errorr.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Errorr.in</a> Best Digital Marketing Company in India
+            </p>
           </div>
         </div>
       </div>
