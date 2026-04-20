@@ -1,7 +1,61 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Home, ChevronRight, Phone, Mail, MapPin, Send } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 const ContactUs = () => {
+  const [loading, setLoading] = useState(false);
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    company: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.id]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    const serviceId = 'service_e9tpgmh';
+    const templateId = 'template_pr9w1jl'; // New Template ID
+    const publicKey = 'L6kSSqLl5HJakWtm5';
+
+    const templateParams = {
+      title: 'New Contact Us Enquiry',
+      name: formData.name,
+      email: formData.email,
+      phone: formData.phone,
+      company: formData.company,
+      message: formData.message,
+    };
+
+    try {
+      await emailjs.send(serviceId, templateId, templateParams, {
+        publicKey: 'L6kSSqLl5HJakWtm5',
+      });
+      alert("Message sent successfully! Our experts will contact you soon.");
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        company: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("EmailJS Error:", error);
+      alert(`Failed to send message: ${error.text || "Please check your EmailJS settings."}`);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       {/* Breadcrumb Header */}
@@ -76,15 +130,18 @@ const ContactUs = () => {
           {/* Right Column: Contact Form */}
           <div className="bg-white p-8 md:p-10 rounded-2xl shadow-xl border border-slate-100">
             <h3 className="text-2xl font-bold text-[#0F172A] mb-6">Send Us a Message</h3>
-            <form className="space-y-6">
+            <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-semibold text-slate-700 mb-2">Name</label>
                   <input 
                     type="text" 
                     id="name" 
+                    value={formData.name}
+                    onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700"
                     placeholder="Your Name"
+                    required
                   />
                 </div>
                 <div>
@@ -92,6 +149,8 @@ const ContactUs = () => {
                   <input 
                     type="tel" 
                     id="phone" 
+                    value={formData.phone}
+                    onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700"
                     placeholder="+91 XXXXX XXXXX"
                   />
@@ -104,8 +163,11 @@ const ContactUs = () => {
                   <input 
                     type="email" 
                     id="email" 
+                    value={formData.email}
+                    onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700"
                     placeholder="you@company.com"
+                    required
                   />
                 </div>
                 <div>
@@ -113,6 +175,8 @@ const ContactUs = () => {
                   <input 
                     type="text" 
                     id="company" 
+                    value={formData.company}
+                    onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700"
                     placeholder="Company Name"
                   />
@@ -123,17 +187,21 @@ const ContactUs = () => {
                 <label htmlFor="message" className="block text-sm font-semibold text-slate-700 mb-2">Message</label>
                 <textarea 
                   id="message" 
+                  value={formData.message}
+                  onChange={handleChange}
                   rows="4" 
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 resize-none"
                   placeholder="How can we help you?"
+                  required
                 ></textarea>
               </div>
 
               <button 
                 type="submit" 
-                className="w-full py-4 rounded-lg font-bold text-white bg-[#D71920] hover:bg-red-700 hover:shadow-lg transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2"
+                disabled={loading}
+                className={`w-full py-4 rounded-lg font-bold text-white bg-[#D71920] hover:bg-red-700 hover:shadow-lg transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2 ${loading ? 'opacity-70 cursor-not-allowed' : ''}`}
               >
-                Send Message <Send size={18} />
+                {loading ? 'Sending...' : 'Send Message'} <Send size={18} />
               </button>
             </form>
           </div>
@@ -158,4 +226,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default ContactUs;

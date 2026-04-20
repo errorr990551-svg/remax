@@ -5,6 +5,9 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 import { QuotePopupProvider } from './assets/context/QuotePopupContext'
 import { ProductMenuProvider } from './assets/context/ProductMenuContext'
+import emailjs from '@emailjs/browser';
+
+emailjs.init('L6kSSqLl5HJakWtm5');
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

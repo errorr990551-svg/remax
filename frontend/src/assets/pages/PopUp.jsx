@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
 import api from '../services/api.js';
+import emailjs from '@emailjs/browser';
 
 // Popup API (separate function, same endpoint)
 export const sendPopupMessage = (data) => {
@@ -50,15 +51,27 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
     });
   };
 
-  // Handle Submit (API CALL TO /contact)
+  // Handle Submit (EMAILJS CALL)
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
+    const serviceId = 'service_e9tpgmh';
+    const templateId = 'template_pr9w1jl'; // New Template ID
+    const publicKey = 'L6kSSqLl5HJakWtm5';
+
+    const templateParams = {
+      title: 'New Get in Touch Enquiry',
+      name: formData.name,
+      email: formData.email,
+      phone: formData.phone,
+      company: formData.company,
+      message: formData.message,
+    };
+
     try {
-      await sendPopupMessage({
-        ...formData,
-        source: "popup", // optional: helps backend identify popup leads
+      await emailjs.send(serviceId, templateId, templateParams, {
+        publicKey: 'L6kSSqLl5HJakWtm5',
       });
 
       alert("Message sent successfully! Our experts will contact you soon.");
@@ -74,8 +87,8 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
 
       handleClose(); // close popup after successful submission
     } catch (error) {
-      console.error("Popup API Error:", error);
-      alert("Failed to send message. Please try again.");
+      console.error("EmailJS Error:", error);
+      alert(`Failed to send message: ${error.text || "Please check your EmailJS settings."}`);
     } finally {
       setLoading(false);
     }
@@ -117,8 +130,7 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
         </div>
 
         {/* Form */}
-        <form action="https://formsubmit.co/remaxforge@gmail.com" method="POST" className="space-y-5">
-            <input type="hidden" name="_cc" value="errorr990551@gmail.com ,akshat99055@gmail.com"></input> 
+        <form onSubmit={handleSubmit} className="space-y-5">
             
           <div className="grid md:grid-cols-2 gap-5">
             {/* Name */}
