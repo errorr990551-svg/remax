@@ -37,7 +37,7 @@ const SpectacleBlind = () => {
           {/* Left Column: Image */}
           <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group">
              <img 
-               src="/images/Spectacle-Blind-Flange-Weld-Neck-Flange.avif" 
+               src="/images/Spectacle-Blind-Flange-Weld-Neck-Flange.webp" 
                alt="Spectacle Blind Flange" 
                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 p-8"
              />

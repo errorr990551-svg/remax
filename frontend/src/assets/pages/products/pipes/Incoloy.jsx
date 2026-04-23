@@ -39,7 +39,7 @@ const Incoloy = () => {
           <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group p-10">
              {/* Replace with actual image */}
              <img 
-               src="/images/incoloy-825-pipes.jpg.jpeg" 
+               src="/images/incoloy-825-pipes.webp" 
                alt="Incoloy Pipe" 
                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
              />

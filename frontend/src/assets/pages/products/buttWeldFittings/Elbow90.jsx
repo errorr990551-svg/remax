@@ -37,7 +37,7 @@ const Elbow90 = () => {
           <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group p-10">
              {/* Replace with actual image */}
               <img 
-                src="/images/elbow-90-deg.jpg.jpeg" 
+                src="/images/elbow-90-deg.webp" 
                 alt="90° Elbow" 
                 className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
               />

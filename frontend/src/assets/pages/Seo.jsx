@@ -30,10 +30,6 @@ const Seo = () => {
     { name: "Flanges", image: "https://images.unsplash.com/photo-1622632128965-055c0a3739db?auto=format&fit=crop&q=80&w=800" },
     { name: "Buttweld Fittings", image: "https://images.unsplash.com/photo-1518709414768-a8c554069679?auto=format&fit=crop&q=80&w=800" },
 
-    { name: "Pipes", image: "https://images.unsplash.com/photo-1584984558296-61a7924fb3fa?auto=format&fit=crop&q=80&w=800" },
-    { name: "Tubes", image: "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&q=80&w=800" },
-    { name: "Round Bar", image: "https://images.unsplash.com/photo-1533613220915-609f661a6fe1?auto=format&fit=crop&q=80&w=800" },
-    { name: "Plates", image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=800" }
   ];
 
   // Data for "Why Choose Us" GRID Section (Static with descriptions)
@@ -96,18 +92,23 @@ const Seo = () => {
 
   // Data for Clients Section (Using specific logos)
   const clientLogos = [
-    "https://companieslogo.com/img/orig/RELIANCE.NS-7401d43b.png",
-    "https://companieslogo.com/img/orig/TATASTEEL.NS-501bde94.png",
-    "https://companieslogo.com/img/orig/LT.NS-6b66d9b5.png",
-    "https://companieslogo.com/img/orig/ONGC.NS-ef2a6c0a.png",
-    "https://companieslogo.com/img/orig/IOC.NS-d918cdb8.png",
-    "https://companieslogo.com/img/orig/BHEL.NS-628fb5c5.png",
-    "https://companieslogo.com/img/orig/GAIL.NS-f7d6a4a4.png",
-    "https://companieslogo.com/img/orig/NTPC.NS-97c35e29.png",
-    "https://companieslogo.com/img/orig/ESSAR.NS.png",
-    "https://companieslogo.com/img/orig/JINDALSTEL.NS-ef5cccec.png",
-    "https://companieslogo.com/img/orig/ADANIENT.NS-884fc12a.png",
-    "https://companieslogo.com/img/orig/VEDL.NS-3c80f6a4.png"
+    "/images/1.webp",
+    "/images/3.webp",
+    "/images/4.webp",
+    "/images/5.webp",
+    "/images/6.webp",
+    "/images/8.webp",
+    "/images/9.webp",
+    "/images/10.webp",
+    "/images/11.svg",
+    "/images/12.webp",
+    "/images/13.webp",
+    "/images/14.webp",
+    "/images/15.webp",
+    "/images/16.webp",
+    "/images/17.webp",
+    "/images/19.webp",
+    "/images/c2.webp"
   ];
 
   // ---------------- STATE & LOGIC ---------------- //
@@ -199,6 +200,15 @@ const Seo = () => {
                 OUR SERVICES
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
+
+              <a 
+                href="/Remax Brochure.pdf" 
+                download 
+                className="w-full sm:w-auto px-8 py-4 rounded font-bold text-white border-2 border-white/30 bg-white/10 backdrop-blur-sm transition-all transform hover:-translate-y-1 hover:shadow-2xl hover:bg-white/20 flex items-center justify-center gap-2 group whitespace-nowrap shrink-0 min-w-[180px]"
+              >
+                DOWNLOAD BROCHURE
+                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+              </a>
             </div>
           </div>
         </div>
@@ -345,18 +355,8 @@ const Seo = () => {
                     For those seeking precision-crafted and highly durable industrial piping solutions, we, as one of the top <span className="font-semibold text-[#D71920]">Flanges & Pipe Fittings Suppliers in [Your Region]</span>, offer a diverse selection to choose from. These robustly manufactured components in <span className="font-semibold text-[#D71920]">[Your Region]</span> provide reliability during critical high-pressure operations and add an element of uncompromising safety to your facilities. Our fittings are designed to enhance the operational capabilities of your plant in <span className="font-semibold text-[#D71920]">[Your Region]</span>.
                   </p>
                 </div>
-
-                <div>
-                  <h3 className="text-xl font-bold text-[#0F172A] mb-3">
-                    Wholesale Industrial Steel Plates in [Your Region]
-                  </h3>
-                  <p>
-                    We offer a wide range of structural, boiler quality, and alloy steel plates in various specifications in <span className="font-semibold text-[#D71920]">[Your Region]</span> to complement different industrial requirements. If you prioritize material strength and project safety, we as the leading <span className="font-semibold text-[#D71920]">Wholesale Steel Plate Suppliers in [Your Region]</span> have you covered. Each product is thoroughly tested to ensure uncompromised performance in <span className="font-semibold text-[#D71920]">[Your Region]</span>, making it a perfect addition to heavy engineering and construction projects.
-                  </p>
-                </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>

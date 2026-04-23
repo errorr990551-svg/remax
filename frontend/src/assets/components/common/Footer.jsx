@@ -1,6 +1,6 @@
 import { Facebook, Twitter, Linkedin, Instagram, Phone, Mail, MapPin, ChevronRight, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import LogoImg from "../../images/REMAX_FORGE_AND_FITTINGS-01.png";
+import LogoImg from "../../images/REMAX_FORGE_AND_FITTINGS-01.webp";
 import { useProductMenu } from '../../context/ProductMenuContext.jsx';
 import { productData } from '../../data/productsData.js';
 
@@ -101,8 +101,7 @@ const Footer = () => {
                 </div>
                 <div className="text-slate-400 text-sm leading-relaxed">
                   <span className="block text-white font-semibold mb-1">Factory Address:</span>
-                  Vasil Khan Marg, inside Madhav Baug, <br />
-                  Charni Road, Marine Lines East, Gulal Wadi, <br />
+                  135 new Madhav Baug, <br />
                   Bhuleshwar, Mumbai, Maharashtra 400004
                 </div>
               </li>

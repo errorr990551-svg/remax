@@ -43,33 +43,13 @@ const Home = () => {
   const productsList = [
     {
       title: "Flanges",
-      image: "/images/slip-on-flange.jpg.jpeg",
+      image: "/images/slip-on-flange.webp",
       link: "/products/flanges/slip-on-flange"
     },
     {
       title: "Buttweld Fittings",
       image: "/images/butt weld elbow fittings.webp",
       link: "/products/buttweld-fittings/butt-weld-elbow-fittings"
-    },
-    {
-      title: "Pipes",
-      image: "/images/stainlesssteelpipe.jpeg",
-      link: "/products/pipes/stainless-steel-pipes"
-    },
-    {
-      title: "Tubes",
-      image: "/images/stainless-steel-tubes.webp",
-      link: "/products/tubes/stainless-steel-tubes"
-    },
-    {
-      title: "Round Bar",
-      image: "/images/stainlesssteelbars.jpeg",
-      link: "/products/round-bar/stainless-steel-bar"
-    },
-    {
-      title: "Plates",
-      image: "/images/stainlesssteelplate.jpg.jpeg",
-      link: "/products/plates/hardox-plate"
     },
     {
       title: "Socket Weld Fittings",
@@ -105,7 +85,7 @@ const Home = () => {
   // Data for SLIDER Section (5 items with Images now)
   const sliderItems = [
     { 
-      image: "/images/advance manufacturing.jpeg",
+      image: "/images/advance manufacturing.webp",
       icon: <Factory size={32} />, 
       title: "Advanced Manufacturing", 
       description: "State-of-the-art machinery for precision forging." 
@@ -138,19 +118,24 @@ const Home = () => {
 
   // Data for Clients Section (Using placeholder logos)
   const clientLogos = [
-  "https://companieslogo.com/img/orig/RELIANCE.NS-7401d43b.png",
-  "https://companieslogo.com/img/orig/TATASTEEL.NS-501bde94.png",
-  "https://companieslogo.com/img/orig/LT.NS-6b66d9b5.png",
-  "https://companieslogo.com/img/orig/ONGC.NS-ef2a6c0a.png",
-  "https://companieslogo.com/img/orig/IOC.NS-d918cdb8.png",
-  "https://companieslogo.com/img/orig/BHEL.NS-628fb5c5.png",
-  "https://companieslogo.com/img/orig/GAIL.NS-f7d6a4a4.png",
-  "https://companieslogo.com/img/orig/NTPC.NS-97c35e29.png",
-  "https://companieslogo.com/img/orig/ESSAR.NS.png",
-  "https://companieslogo.com/img/orig/JINDALSTEL.NS-ef5cccec.png",
-  "https://companieslogo.com/img/orig/ADANIENT.NS-884fc12a.png",
-  "https://companieslogo.com/img/orig/VEDL.NS-3c80f6a4.png"
-];
+    "/images/1.webp",
+    "/images/3.webp",
+    "/images/4.webp",
+    "/images/5.webp",
+    "/images/6.webp",
+    "/images/8.webp",
+    "/images/9.webp",
+    "/images/10.webp",
+    "/images/11.svg",
+    "/images/12.webp",
+    "/images/13.webp",
+    "/images/14.webp",
+    "/images/15.webp",
+    "/images/16.webp",
+    "/images/17.webp",
+    "/images/19.webp",
+    "/images/c2.webp"
+  ];
 
 
 
@@ -259,8 +244,15 @@ const Home = () => {
                 OUR SERVICES
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
-              
-              
+
+              <a 
+                href="/Remax Brochure.pdf" 
+                download 
+                className="w-full sm:w-auto px-8 py-4 rounded font-bold text-white border-2 border-white/30 bg-white/10 backdrop-blur-sm transition-all transform hover:-translate-y-1 hover:shadow-2xl hover:bg-white/20 flex items-center justify-center gap-2 group whitespace-nowrap shrink-0 min-w-[180px]"
+              >
+                DOWNLOAD BROCHURE
+                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+              </a>
             </div>
           </div>
         </div>
@@ -301,7 +293,7 @@ const Home = () => {
               {/* Main Image */}
               <div className="relative rounded-lg overflow-hidden shadow-2xl">
                 <img 
-                  src="/images/we are the leaders.jpeg" 
+                  src="/images/we are the leaders.webp" 
                   alt="Industrial Worker Welding" 
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
                 />

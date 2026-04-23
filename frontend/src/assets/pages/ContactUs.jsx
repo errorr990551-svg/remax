@@ -88,8 +88,7 @@ const ContactUs = () => {
                 <div>
                   <h3 className="text-xl font-bold text-[#0F172A] mb-1">Factory Address</h3>
                   <p className="text-slate-600 leading-relaxed">
-                    Vasil Khan Marg, inside Madhav Baug,<br />
-                    Charni Road, Marine Lines East, Gulal Wadi,<br />
+                    135 new Madhav Baug,<br />
                     Bhuleshwar, Mumbai, Maharashtra 400004
                   </p>
                 </div>

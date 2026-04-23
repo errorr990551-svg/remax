@@ -26,7 +26,7 @@ const AboutUs = () => {
             <span className="text-[#D71920] font-bold tracking-wider uppercase text-sm mb-2 block">Our Story</span>
             <h2 className="text-3xl font-bold text-[#0F172A] mb-6">Excellence in Metal Manufacturing Since 1995</h2>
             <p className="text-slate-600 leading-relaxed mb-6">
-              Remax Forge & Fittings has established itself as a premier manufacturer and exporter of high-quality industrial components. With over two decades of experience, we specialize in producing robust flanges, precision fittings, and durable pipes that serve critical industries worldwide.
+              Remax Forge & Fittings has established itself as a premier manufacturer and exporter of high-quality industrial components. With over two decades of experience, we specialize in producing robust flanges, precision fittings, and high-pressure components that serve critical industries worldwide.
             </p>
             <p className="text-slate-600 leading-relaxed mb-8">
               Our journey began with a simple mission: to deliver engineering excellence without compromise. Today, our state-of-the-art manufacturing facility and rigorous quality control processes ensure that every product leaving our factory meets the highest international standards.
@@ -46,7 +46,7 @@ const AboutUs = () => {
           <div className="order-1 lg:order-2 relative group">
             <div className="rounded-lg overflow-hidden shadow-2xl">
               <img 
-                src="/images/advance manufacturing.jpeg" 
+                src="/images/advance manufacturing.webp" 
                 alt="Factory Floor" 
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
@@ -110,7 +110,7 @@ const AboutUs = () => {
           <div className="order-1 lg:order-2">
              <div className="h-[450px] w-full rounded-2xl shadow-xl overflow-hidden group">
                 <img 
-                  src="/images/commitment 2.jpeg" 
+                  src="/images/commitment 2.webp" 
                   alt="Why Choose Remax" 
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
@@ -185,7 +185,7 @@ const AboutUs = () => {
              {/* commitment image */}
              <div className="bg-white p-4 rounded-2xl shadow-xl border-4 border-white h-[400px] flex items-center justify-center overflow-hidden group">
                 <img 
-                  src="/images/commitment 1.jpeg" 
+                  src="/images/commitment 1.webp" 
                   alt="Commitment to Quality" 
                   className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500"
                 />

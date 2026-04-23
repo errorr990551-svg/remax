@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, ChevronDown, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom'; // ✅ Added
-import LogoImg from '../../images/REMAX_FORGE_AND_FITTINGS-01.png';
+import LogoImg from '../../images/REMAX_FORGE_AND_FITTINGS-01.webp';
 import { productData, createSlug } from '../../data/productsData.js';
 import { useProductMenu } from '../../context/ProductMenuContext.jsx';
 

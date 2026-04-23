@@ -37,7 +37,7 @@ const Threaded = () => {
           {/* Left Column: Image */}
           <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group">
              <img 
-               src="/images/Threaded Flange.png" 
+               src="/images/Threaded Flange.webp" 
                alt="Threaded Flange" 
                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 p-8"
              />

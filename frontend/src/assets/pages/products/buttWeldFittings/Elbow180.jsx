@@ -37,7 +37,7 @@ const Elbow180 = () => {
           <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group p-10">
              {/* Replace with actual image */}
               <img 
-                src="/images/180-degree-elbow.png" 
+                src="/images/180-degree-elbow.webp" 
                 alt="180° Elbow" 
                 className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
               />

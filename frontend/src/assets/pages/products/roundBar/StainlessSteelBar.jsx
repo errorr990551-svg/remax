@@ -36,7 +36,7 @@ const StainlessSteelBar = () => {
           {/* Left Column: Image Placeholder */}
           <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group p-10">
              <img 
-               src="/images/stainlesssteelbars.jpeg"
+               src="/images/stainlesssteelbars.webp"
                alt="Stainless Steel Round Bar" 
                className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
              />

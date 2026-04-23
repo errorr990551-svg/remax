@@ -37,7 +37,7 @@ const ButtWeldTeeFittings = () => {
           <div className="rounded-lg overflow-hidden shadow-2xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group p-10">
              {/* Replace with actual image */}
               <img 
-                src="/images/buttweldtee.jpg.jpeg" 
+                src="/images/buttweldtee.webp" 
                 alt="Butt weld Tee Fittings" 
                 className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700"
               />
