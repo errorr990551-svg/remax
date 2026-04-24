@@ -108,7 +108,36 @@ const Seo = () => {
     "/images/16.webp",
     "/images/17.webp",
     "/images/19.webp",
-    "/images/c2.webp"
+    "/images/c2.webp",
+    "/images/Adani_2012_logo.webp",
+    "/images/air-products-logo.webp",
+    "/images/Arcelor_Mittal.svg.webp",
+    "/images/BHEL_logo.svg.webp",
+    "/images/bhilosa.webp",
+    "/images/deccan.webp",
+    "/images/deepak chem tech.webp",
+    "/images/DESMET.jpg.webp",
+    "/images/gardner denver.webp",
+    "/images/gnfc.webp",
+    "/images/godrej-logo.jpg.webp",
+    "/images/gujrat state fertilizers.webp",
+    "/images/Hindustan-Petroleum.webp",
+    "/images/indian-oil.jpg.webp",
+    "/images/isrro.jpg.webp",
+    "/images/jindal-steel.webp",
+    "/images/jsw.webp",
+    "/images/larsen.webp",
+    "/images/linde.webp",
+    "/images/nrl-og-logo.webp",
+    "/images/ongc.webp",
+    "/images/paharpur.webp",
+    "/images/pidilite-logo.jpg.webp",
+    "/images/Praj.jpg.webp",
+    "/images/Shree_Renuka_Sugars.jpg.webp",
+    "/images/tata-steel.jpg.webp",
+    "/images/thyssenkurpp.webp",
+    "/images/upl.webp",
+    "/images/wipro-logo-300x300.webp"
   ];
 
   // ---------------- STATE & LOGIC ---------------- //
@@ -562,12 +591,12 @@ const Seo = () => {
               {clientLogos.map((logo, index) => (
                 <div
                   key={`logo-1-${index}`}
-                  className="flex-shrink-0 w-36 h-24 flex items-center justify-center opacity-60 hover:opacity-100 transition duration-300"
+                  className="flex-shrink-0 w-36 h-24 flex items-center justify-center transition duration-300"
                 >
                   <img
                     src={logo}
                     alt={`Client ${index}`}
-                    className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition duration-300"
+                    className="max-w-full max-h-full object-contain transition duration-300"
                   />
                 </div>
               ))}
@@ -578,12 +607,12 @@ const Seo = () => {
               {clientLogos.map((logo, index) => (
                 <div
                   key={`logo-2-${index}`}
-                  className="flex-shrink-0 w-36 h-24 flex items-center justify-center opacity-60 hover:opacity-100 transition duration-300"
+                  className="flex-shrink-0 w-36 h-24 flex items-center justify-center transition duration-300"
                 >
                   <img
                     src={logo}
                     alt={`Client ${index}`}
-                    className="max-w-full max-h-full object-contain grayscale hover:grayscale-0 transition duration-300"
+                    className="max-w-full max-h-full object-contain transition duration-300"
                   />
                 </div>
               ))}

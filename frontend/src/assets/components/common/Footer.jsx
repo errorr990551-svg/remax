@@ -136,7 +136,9 @@ const Footer = () => {
               © {new Date().getFullYear()} <span className="text-white font-bold">Remax Forge & Fittings</span> All Rights Reserved.
             </p>
             <p className="text-slate-500 text-sm text-center md:text-right">
-              Designed and Promoted By <a href="https://errorr.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Errorr.in</a> Best Digital Marketing Company in India
+              <a href="https://errorr.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                Designed and Promoted By Errorr.in Best Digital Marketing Company in India
+              </a>
             </p>
           </div>
         </div>
