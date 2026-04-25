@@ -1,9 +1,15 @@
 import React from 'react';
 import { Home, ChevronRight, FileText } from 'lucide-react';
+import MetaTags from '../../components/common/MetaTags.jsx';
 
 const ChemicalComposition = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
+      <MetaTags 
+        title="Stainless Steel Chemical Composition Chart | Remax Forge & Fittings"
+        description="Technical reference for Stainless Steel chemical composition. View percentage limits for Carbon, Chromium, Nickel, and Molybdenum across grades 304, 316L, 321, and 410. Ensure material compliance for your industrial projects."
+        keywords="Stainless Steel Chemical Composition, SS 304L Grade Properties, 316L Chemical Requirements, Chromium Nickel Percentage in Steel, Steel Grade Comparison Table, Material Selection Reference, Remax Forge Technical Data, ASTM Stainless Steel Grades."
+      />
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

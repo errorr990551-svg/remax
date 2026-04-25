@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Home, ChevronRight, Phone, Mail, MapPin, Send } from 'lucide-react';
 import emailjs from '@emailjs/browser';
+import MetaTags from '../components/common/MetaTags.jsx';
 
 const ContactUs = () => {
   const [loading, setLoading] = useState(false);
@@ -58,6 +59,11 @@ const ContactUs = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
+      <MetaTags 
+        title="Contact Remax Forge & Fittings | Forged Fittings Manufacturer Mumbai"
+        description="Get a custom quote from Remax Forge & Fittings. Contact our Mumbai factory for high-quality flanges and forged fittings. Reach us at +91 97699 83108 or visit us at Bhuleshwar, Mumbai."
+        keywords="Remax Forge Contact Number, Forged Fittings Supplier Mumbai, Flange Manufacturer Address India, Industrial Fittings Sales Email, Remax Forge Bhuleshwar Mumbai, Custom Forging Quote, Pipe Fittings Exporter Contact."
+      />
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

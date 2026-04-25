@@ -1,9 +1,15 @@
 import React from 'react';
 import { Home, ChevronRight, CheckCircle2, ShieldCheck, Award, Target, Users, Zap } from 'lucide-react';
+import MetaTags from '../components/common/MetaTags.jsx';
 
 const Quality = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
+      <MetaTags 
+        title="Quality Assurance & Certifications | Remax Forge & Fittings"
+        description="Remax Forge & Fittings ensures zero-defect delivery through stringent Quality Control. From Material Control to EN 10204 3.1 certification, we guarantee precision-engineered fittings and flanges for global safety."
+        keywords="Quality Assurance Forged Fittings, Material Test Report (MTR), EN 10204 3.1 Certification, Destructive and Non-Destructive Testing, ISO 9001 Quality Control Mumbai, PMI Testing Flanges, Ultrasonic Testing Pipe Fittings, Remax Quality Policy."
+      />
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

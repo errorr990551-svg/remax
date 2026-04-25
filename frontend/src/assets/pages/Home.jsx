@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Globe, Settings, Clock, CheckCircle2, Calendar, Factory, Award, Truck, PenTool, Recycle, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 import { useProductMenu } from '../context/ProductMenuContext.jsx';
+import MetaTags from '../components/common/MetaTags.jsx';
 
 const Home = () => {
   const navigate = useNavigate();
@@ -215,6 +216,11 @@ const Home = () => {
 
   return (
     <div className="w-full">
+      <MetaTags 
+        title="Forged Fittings & Flanges Manufacturer in India | Remax Forge & Fittings"
+        description="Remax Forge & Fittings is an ISO 9001:2015 certified manufacturer of high-quality forged fittings, flanges, and high-pressure components. Exporting precision-engineered solutions to 45+ countries. Request a quote today!"
+        keywords="Forged Fittings Manufacturer, Industrial Flanges India, Stainless Steel Forged Fittings, Socket Weld Fittings, Buttweld Fittings, High-Pressure Components, ASME Standard Flanges, Remax Forge Mumbai, Precision Forging Services, Industrial Pipe Fittings Exporter."
+      />
         {/* Styles for Infinite Scroll Animation */}
         <style>
           {`

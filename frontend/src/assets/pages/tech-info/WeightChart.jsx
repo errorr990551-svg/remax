@@ -1,9 +1,15 @@
 import React from 'react';
 import { Home, ChevronRight, Calculator, RefreshCw } from 'lucide-react';
+import MetaTags from '../../components/common/MetaTags.jsx';
 
 const WeightChart = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
+      <MetaTags 
+        title="Metal Weight Chart & Calculation Formulas | Remax Forge & Fittings"
+        description="Free technical resource for metal weight calculation. Find formulas for Stainless Steel, Carbon Steel, Copper, and Aluminium pipes, sheets, rounds, and bars. Includes a Tensile Strength conversion table for global projects."
+        keywords="Pipe Weight Calculation Formula, Stainless Steel Sheet Weight Chart, Steel Round Bar Weight Calculator, Metal Weight Formula per Meter, Carbon Steel Plate Weight, Tensile Strength Conversion Table, Remax Forge Technical Tools, Industrial Metal Weight Chart Mumbai."
+      />
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

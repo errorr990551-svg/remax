@@ -1,9 +1,15 @@
 import React from 'react';
 import { Home, ChevronRight, Grid } from 'lucide-react';
+import MetaTags from '../../components/common/MetaTags.jsx';
 
 const DimensionChart = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
+      <MetaTags 
+        title="Pipe Dimension Chart & Schedule Table | Remax Forge & Fittings"
+        description={'Access our comprehensive Pipe Dimension Chart covering sizes from 1/8" to 24". Detailed technical data on Outside Diameter, Wall Thickness, and Weight for Schedules 5S to XXS in Stainless & Carbon Steel.'}
+        keywords="Pipe Dimension Chart, ASME B36.10 Pipe Sizes, Stainless Steel Pipe Schedule Table, Nominal Pipe Size (NPS) Chart, Pipe Wall Thickness Table, Schedule 40 Pipe Dimensions, XXS Pipe Weight Chart, Remax Forge Technical Specifications."
+      />
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

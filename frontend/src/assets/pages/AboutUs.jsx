@@ -1,11 +1,17 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Home, ChevronRight, Award, Users, Globe, CheckCircle2, Factory, FileText, ArrowRight } from 'lucide-react';
+import MetaTags from '../components/common/MetaTags.jsx';
 
 const AboutUs = () => {
   const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
+      <MetaTags 
+        title="About Remax Forge & Fittings | 25+ Years of Forging Excellence"
+        description="Learn about Remax Forge & Fittings, a leading ISO 9001:2015 certified manufacturer of industrial flanges and fittings. Serving 45+ countries with precision engineering and global quality standards since 1995."
+        keywords="Industrial Pipe Fittings Manufacturer, Remax Forge History, Forging Industry Experts India, ISO 9001 Certified Forging Company, Metal Manufacturing Experience, Global Fittings Exporter, Precision Engineering Company Mumbai."
+      />
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
