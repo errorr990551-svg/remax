@@ -10,8 +10,8 @@ const Home = () => {
   const { openQuotePopup } = useQuotePopup();
   const { openProductMenu } = useProductMenu();
 
-  const scrollToServices = () => {
-    const section = document.getElementById('services-section');
+  const scrollToProducts = () => {
+    const section = document.getElementById('products-section');
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
     }
@@ -170,9 +170,6 @@ const Home = () => {
     "/images/wipro-logo-300x300.webp"
   ];
 
-
-
-
   // Product Slider State
   const [productSlide, setProductSlide] = useState(0);
   const itemsPerPage = 3;
@@ -275,11 +272,11 @@ const Home = () => {
             {/* Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto flex-wrap">
               <button 
-                onClick={scrollToServices}
+                onClick={scrollToProducts}
                 className="w-full sm:w-auto px-8 py-4 rounded font-bold text-white transition-all transform hover:-translate-y-1 hover:shadow-2xl flex items-center justify-center gap-2 group whitespace-nowrap shrink-0 min-w-[180px]"
                 style={{ backgroundColor: '#D71920' }}
               >
-                OUR SERVICES
+                OUR PRODUCTS
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
 
@@ -394,8 +391,8 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Our Products / Services Section */}
-      <div id="services-section" className="py-20 bg-slate-50">
+      {/* Our Products Section */}
+      <div id="products-section" className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           
           {/* Section Header */}
@@ -445,14 +442,14 @@ const Home = () => {
 
             <div className="overflow-hidden">
               <div 
-                className="flex transition-transform duration-500 ease-in-out gap-8"
+                className="flex transition-transform duration-500 ease-in-out gap-8 items-stretch"
                 style={{ transform: `translateX(-${productSlide * (100 / itemsPerPage)}%)` }}
               >
                 {productsList.map((product, index) => (
                   <div 
                     key={index} 
                     onClick={() => openProductMenu(index)}
-                    className="flex-shrink-0 w-full md:w-[calc(33.333%-22px)] group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col h-full cursor-pointer"
+                    className="flex-shrink-0 w-full md:w-[calc(33.333%-22px)] group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col min-h-[450px] cursor-pointer"
                   >
                     {/* Image Container */}
                     <div className="relative h-64 overflow-hidden">
@@ -513,11 +510,11 @@ const Home = () => {
           {/* Grid Content */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {whyUsGrid.map((item, index) => (
-              <div key={index} className="group relative">
-                {/* Border effect */}
-                <div className="absolute top-0 left-0 w-1 h-full bg-[#1e293b] group-hover:bg-[#D71920] transition-colors duration-300"></div>
+              <div key={index} className="group relative flex flex-col">
+                {/* Border effect - using top/bottom 0 to force full height */}
+                <div className="absolute top-0 bottom-0 left-0 w-1 bg-[#1e293b] group-hover:bg-[#D71920] transition-colors duration-300"></div>
                 
-                <div className="pl-8 py-2">
+                <div className="pl-8 py-2 flex flex-col flex-grow">
                   <div 
                     className="mb-5 inline-block text-[#D71920] transform group-hover:scale-110 transition-transform duration-300"
                   >
