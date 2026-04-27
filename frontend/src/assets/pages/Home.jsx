@@ -401,7 +401,7 @@ const Home = () => {
           {/* Section Header */}
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <span className="text-[#D71920] font-bold tracking-wider uppercase text-sm mb-2 block">
-              What We Deliver
+              FEATURED PREMIUM PRODUCT RANGES
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-4">
               Premium Forging Solutions
@@ -502,10 +502,10 @@ const Home = () => {
           {/* Header */}
           <div className="text-center mb-16">
             <span className="font-bold tracking-wider uppercase text-sm mb-2 block" style={{ color: '#D71920' }}>
-              Why Choose Remax
+              Why Choose Remax Forge & Fittings?
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6">
-              Engineering The Extraordinary
+              Engineering The Extraordinary through Precision & Compliance
             </h2>
             <div className="h-1 w-20 mx-auto rounded" style={{ backgroundColor: '#D71920' }}></div>
           </div>
@@ -560,25 +560,41 @@ const Home = () => {
                 sector: "Oil & Gas",
                 application: "High-pressure extraction & refining",
                 products: "Forged Flanges, RTJ Joints",
-                image: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=2070&auto=format&fit=crop"
+                image: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=2070&auto=format&fit=crop",
+                links: [
+                  { name: "Butt Weld Elbow Fittings", url: "/products/buttweld-fittings/butt-weld-elbow-fittings" },
+                  { name: "Weld Neck Flange", url: "/products/flanges/weld-neck-flange" }
+                ]
               },
               {
                 sector: "Petrochemical",
                 application: "Corrosive chemical processing",
                 products: "Stainless Steel Fittings, Duplex Steel",
-                image: "https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?q=80&w=2070&auto=format&fit=crop"
+                image: "/images/petro chemical.jpeg",
+                links: [
+                  { name: "Socket Weld Coupling Fittings", url: "/products/socket-weld-fittings/socket-weld-coupling-fittings" },
+                  { name: "Threaded Flange", url: "/products/flanges/threaded-flange" }
+                ]
               },
               {
                 sector: "Power Plants",
                 application: "Boiler systems & steam generation",
                 products: "IBR Approved Fittings, Alloy Steel",
-                image: "https://images.unsplash.com/photo-1466611653911-954ff21b6748?q=80&w=2070&auto=format&fit=crop"
+                image: "/images/power plant.jpeg",
+                links: [
+                  { name: "Butt Weld Tee Fittings", url: "/products/buttweld-fittings/butt-weld-tee-fittings" },
+                  { name: "Concentric Reducer", url: "/products/buttweld-fittings/concentric-reducer" }
+                ]
               },
               {
                 sector: "Marine & Defense",
                 application: "Saltwater resistant infrastructure",
                 products: "Copper Nickel & Monel Components",
-                image: "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?q=80&w=2070&auto=format&fit=crop"
+                image: "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?q=80&w=2070&auto=format&fit=crop",
+                links: [
+                  { name: "Socket Weld Elbow Fittings", url: "/products/socket-weld-fittings/socket-weld-elbow-fittings" },
+                  { name: "Blind Flange", url: "/products/flanges/blind-flange" }
+                ]
               }
             ].map((item, index) => (
               <div key={index} className="group relative bg-slate-900 rounded-lg overflow-hidden h-80 shadow-lg">
@@ -587,11 +603,28 @@ const Home = () => {
                   alt={item.sector} 
                   className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-30 group-hover:scale-110 transition-all duration-700" 
                 />
-                <div className="absolute inset-0 p-8 flex flex-col justify-end z-20">
+                <div className="absolute inset-0 p-6 md:p-8 flex flex-col justify-end z-20">
                   <h3 className="text-2xl font-bold text-white mb-2">{item.sector}</h3>
                   <div className="h-0.5 w-12 bg-[#D71920] mb-4 group-hover:w-full transition-all duration-500"></div>
                   <p className="text-slate-300 text-sm font-medium mb-1">{item.application}</p>
-                  <p className="text-white text-xs font-bold uppercase tracking-wider">{item.products}</p>
+                  <p className="text-white text-[10px] font-bold uppercase tracking-wider mb-4">{item.products}</p>
+                  
+                  {item.links && (
+                    <div className="flex flex-wrap gap-2 mt-2">
+                      {item.links.map((link, lIndex) => (
+                        <button
+                          key={lIndex}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            navigate(link.url);
+                          }}
+                          className="text-[9px] font-bold uppercase tracking-wider px-2.5 py-1.5 border border-white/30 text-white hover:bg-[#D71920] hover:border-[#D71920] transition-all duration-300 rounded backdrop-blur-sm"
+                        >
+                          {link.name}
+                        </button>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
