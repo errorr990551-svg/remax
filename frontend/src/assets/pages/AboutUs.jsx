@@ -52,13 +52,13 @@ const AboutUs = () => {
           <div className="order-1 lg:order-2 relative group">
             <div className="rounded-lg overflow-hidden shadow-2xl">
               <img 
-                src="/images/advance manufacturing.webp" 
+                src="/images/why.jpeg" 
                 alt="Factory Floor" 
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-[#D71920] p-6 text-white rounded-lg shadow-xl hidden md:block">
-              <div className="text-4xl font-bold mb-1">25+</div>
+              <div className="text-4xl font-bold mb-1">20+</div>
               <div className="text-sm font-medium opacity-90">Years Experience</div>
             </div>
           </div>

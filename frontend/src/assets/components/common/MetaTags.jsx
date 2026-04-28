@@ -1,35 +1,56 @@
 import { useEffect } from 'react';
 
-const MetaTags = ({ title, description, keywords }) => {
+const MetaTags = ({ 
+  title, 
+  description, 
+  keywords,
+  canonical,
+  robots = "index, follow",
+  author = "Remax Forge & Fittings",
+  publisher = "Remax Forge & Fittings"
+}) => {
   useEffect(() => {
     if (title) {
       document.title = title;
     }
 
-    if (description) {
-      let metaDescription = document.querySelector('meta[name="description"]');
-      if (metaDescription) {
-        metaDescription.setAttribute('content', description);
+    const setMetaTag = (name, content) => {
+      if (!content) return;
+      let tag = document.querySelector(`meta[name="${name}"]`);
+      if (tag) {
+        tag.setAttribute('content', content);
       } else {
-        metaDescription = document.createElement('meta');
-        metaDescription.name = 'description';
-        metaDescription.content = description;
-        document.head.appendChild(metaDescription);
+        tag = document.createElement('meta');
+        tag.setAttribute('name', name);
+        tag.setAttribute('content', content);
+        document.head.appendChild(tag);
       }
-    }
+    };
 
-    if (keywords) {
-      let metaKeywords = document.querySelector('meta[name="keywords"]');
-      if (metaKeywords) {
-        metaKeywords.setAttribute('content', keywords);
+    const setLinkTag = (rel, href) => {
+      if (!href) return;
+      let tag = document.querySelector(`link[rel="${rel}"]`);
+      if (tag) {
+        tag.setAttribute('href', href);
       } else {
-        metaKeywords = document.createElement('meta');
-        metaKeywords.name = 'keywords';
-        metaKeywords.content = keywords;
-        document.head.appendChild(metaKeywords);
+        tag = document.createElement('link');
+        tag.setAttribute('rel', rel);
+        tag.setAttribute('href', href);
+        document.head.appendChild(tag);
       }
-    }
-  }, [title, description, keywords]);
+    };
+
+    setMetaTag('description', description);
+    setMetaTag('keywords', keywords);
+    setMetaTag('robots', robots);
+    setMetaTag('author', author);
+    setMetaTag('publisher', publisher);
+
+    // Set canonical URL to the provided one, or default to the current window location
+    const canonicalUrl = canonical || window.location.href.split('?')[0];
+    setLinkTag('canonical', canonicalUrl);
+
+  }, [title, description, keywords, canonical, robots, author, publisher]);
 
   return null;
 };

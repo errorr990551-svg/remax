@@ -45,19 +45,19 @@ const Home = () => {
     {
       title: "Industrial Flanges",
       description: "Top-rated Flanges Manufacturer in India, producing Slip-on, Weld Neck, Blind, and Socket Weld flanges. Compliant with ASME B16.5 and B16.47 specifications.",
-      image: "/images/slip-on-flange.webp",
+      image: "/images/industrial flanges.jpeg",
       link: "/products/flanges/slip-on-flange"
     },
     {
       title: "Buttweld Fittings",
       description: "High-durability seamless and welded fittings, including reducers and caps, engineered for smooth flow and maximum structural integrity.",
-      image: "/images/butt weld elbow fittings.webp",
+      image: "/images/but weld fittings.jpeg",
       link: "/products/buttweld-fittings/butt-weld-elbow-fittings"
     },
     {
       title: "Socket Weld Fittings",
       description: "Precision-crafted Socket Weld and Threaded Fittings (Elbows, Tees, Unions, and Couplings) designed for high-pressure systems.",
-      image: "/images/elbow.webp",
+      image: "/images/socket weld fittings.jpeg",
       link: "/products/socket-weld-fittings/socket-weld-coupling-fittings"
     }
   ];
@@ -66,8 +66,8 @@ const Home = () => {
   const whyUsGrid = [
     { 
       icon: <Award size={40} />, 
-      title: "ISO 9001:2015 & IBR Approved", 
-      description: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier IBR Approved Flanges Manufacturers, ensuring every component meets the stringent safety Indian Boiler Regulations. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." 
+      title: "ISO 9001:2015 Certified", 
+      description: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers, ensuring every component meets the stringent safety regulations. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." 
     },
     { 
       icon: <Factory size={40} />, 
@@ -235,13 +235,13 @@ const Home = () => {
         </style>
       {/* Hero / Banner Section */}
       <div className="relative w-full h-[600px] md:h-[700px] flex items-center">
-        {/* Background Image (Unsplash Industrial) */}
+        {/* Background Image (Banner) */}
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2070&auto=format&fit=crop')", // Industrial pipes/forge image
+            backgroundImage: "url('/images/banner.jpeg')",
             backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundPosition: 'top center',
           }}
         >
           {/* Dark Overlay for Text Readability */}
@@ -266,7 +266,7 @@ const Home = () => {
 
             {/* Description */}
             <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl leading-relaxed drop-shadow-md">
-              Remax Forge & Fittings is a premier IBR-approved manufacturer and supplier of industrial flanges, buttweld fittings, and high-pressure forged components. Serving oil, gas, and petrochemical industries across India and 45+ countries.
+              Remax Forge & Fittings is a premier manufacturer and supplier of industrial flanges, buttweld fittings, and high-pressure forged components. Serving oil, gas, and petrochemical industries across India.
             </p>
 
             {/* Buttons */}
@@ -328,7 +328,7 @@ const Home = () => {
               {/* Main Image */}
               <div className="relative rounded-lg overflow-hidden shadow-2xl">
                 <img 
-                  src="/images/we are the leaders.webp" 
+                  src="/images/why.jpeg" 
                   alt="Industrial Worker Welding" 
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
                 />
@@ -344,7 +344,7 @@ const Home = () => {
                 className="absolute -bottom-6 -right-6 md:bottom-8 md:-right-8 p-6 md:p-8 rounded-lg shadow-xl text-white max-w-[200px]"
                 style={{ backgroundColor: '#D71920' }}
               >
-                <div className="text-4xl md:text-5xl font-extrabold mb-1">25+</div>
+                <div className="text-4xl md:text-5xl font-extrabold mb-1">20+</div>
                 <div className="text-sm font-medium opacity-90 leading-tight">Years of Industrial Excellence</div>
               </div>
             </div>

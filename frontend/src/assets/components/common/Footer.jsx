@@ -17,12 +17,21 @@ const Footer = () => {
           <div className="space-y-6">
             {/* Logo Space */}
             <div className="flex items-center gap-3">
-              {/* Replace src with your actual logo path */}
-              <img 
-                src={LogoImg}
-                alt="Remax Forge & Fittings" 
-                className="h-32 w-auto object-contain"
-              />
+              <div className="bg-white px-4 py-3 rounded-xl shadow-md inline-flex items-center gap-2">
+                <img 
+                  src={LogoImg}
+                  alt="Remax Logo" 
+                  className="h-12 md:h-14 w-auto object-contain"
+                />
+                <div className="flex flex-col">
+                  <span className="font-bold text-xl tracking-wider uppercase leading-none text-[#0F172A]">
+                    REMAX
+                  </span>
+                  <span className="text-[10px] tracking-[0.2em] font-medium uppercase leading-none mt-1 text-[#D71920]">
+                    Forge & Fittings
+                  </span>
+                </div>
+              </div>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
               Leading manufacturer and exporter of high-quality forged fittings, flanges, and industrial components. Committed to precision, durability, and global standards.
@@ -30,13 +39,19 @@ const Footer = () => {
             
             {/* Social Icons */}
             <div className="flex gap-4">
-              {[<Facebook size={20} />, <Twitter size={20} />, <Linkedin size={20} />, <Instagram size={20} />].map((icon, index) => (
+              {[
+                { icon: <Facebook size={20} />, link: "https://www.facebook.com/remaxforgefittings" },
+                { icon: <Linkedin size={20} />, link: "https://www.linkedin.com/company/remax-forge-fittings/" },
+                { icon: <Instagram size={20} />, link: "https://www.instagram.com/remax_forge/" }
+              ].map((item, index) => (
                 <a 
                   key={index}
-                  href="#" 
+                  href={item.link} 
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="h-10 w-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-[#D71920] hover:text-white transition-all duration-300 text-slate-400"
                 >
-                  {icon}
+                  {item.icon}
                 </a>
               ))}
             </div>
@@ -100,9 +115,9 @@ const Footer = () => {
                   <MapPin size={16} className="text-white" />
                 </div>
                 <div className="text-slate-400 text-sm leading-relaxed">
-                  <span className="block text-white font-semibold mb-1">Factory Address:</span>
-                  135 new Madhav Baug, <br />
-                  Bhuleshwar, Mumbai, Maharashtra 400004
+                  <span className="block text-white font-semibold mb-1">Head Office:</span>
+                  135, New Madhav Baug, C.P Tank Road, <br />
+                  Marine Line, Mumbai - 400004.
                 </div>
               </li>
               <li className="flex items-start gap-4">

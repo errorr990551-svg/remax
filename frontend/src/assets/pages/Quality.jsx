@@ -37,11 +37,11 @@ const Quality = () => {
           </div>
           <div className="relative">
             {/* Image Placeholder - Right Side */}
-            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white h-[450px] max-w-sm mx-auto lg:ml-auto bg-white relative group p-4">
+            <div className="rounded-2xl overflow-hidden shadow-2xl border-4 border-white mx-auto lg:ml-auto bg-white relative group w-full">
                 <img 
-                  src="/images/quality assurance.webp" 
+                  src="/images/quality.jpeg" 
                   alt="Quality Assurance at Remax" 
-                  className="w-full h-full object-contain transform group-hover:scale-105 transition-transform duration-700" 
+                  className="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700" 
                 />
             </div>
             {/* Decorative Element */}
