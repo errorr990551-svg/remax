@@ -30,22 +30,25 @@ const AboutUs = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-24">
           <div className="order-2 lg:order-1">
             <span className="text-[#D71920] font-bold tracking-wider uppercase text-sm mb-2 block">Our Story</span>
-            <h2 className="text-3xl font-bold text-[#0F172A] mb-6">Excellence in Metal Manufacturing Since 1995</h2>
-            <p className="text-slate-600 leading-relaxed mb-6">
-              Remax Forge & Fittings has established itself as a premier manufacturer and exporter of high-quality industrial components. With over two decades of experience, we specialize in producing robust flanges, precision fittings, and high-pressure components that serve critical industries worldwide.
+            <h2 className="text-3xl font-bold text-[#0F172A] mb-6">A Decade of Forging Excellence: The Remax Story</h2>
+            <p className="text-slate-600 leading-relaxed mb-4">
+              Established in 2006 by Mr. Revaram Purohit, Remax Forge & Fittings was founded on a commitment to engineering precision and material integrity. What began as a specialized manufacturing unit has grown into a premier Stainless Steel Flanges Manufacturer and Exporter in India, competing with global leaders through innovation and quality.
+            </p>
+            <p className="text-slate-600 leading-relaxed mb-4">
+              Today, the company’s legacy is carried forward under the visionary leadership of Mr. Vikas Purohit. As an ISO 9001:2015 certified organization, we have expanded our footprint across 45+ countries, providing mission-critical forged fittings and high-pressure components to the Oil & Gas, Petrochemical, and Power industries.
             </p>
             <p className="text-slate-600 leading-relaxed mb-8">
-              Our journey began with a simple mission: to deliver engineering excellence without compromise. Today, our state-of-the-art manufacturing facility and rigorous quality control processes ensure that every product leaving our factory meets the highest international standards.
+              Under Vikas Purohit’s guidance, Remax has integrated advanced CNC machining and rigorous Quality Assurance protocols, ensuring that our products—from Weld Neck Flanges to Socket Weld Fittings—meet the stringent ASME, ANSI, and DIN standards required by global infrastructure projects.
             </p>
             
-            <div className="grid grid-cols-2 gap-6">
-              <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-[#D71920]">
-                <h4 className="font-bold text-[#0F172A] text-lg">Mission</h4>
-                <p className="text-sm text-slate-500">To provide superior quality forging solutions that empower global infrastructure.</p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-[#D71920] flex flex-col">
+                <h4 className="font-bold text-[#0F172A] text-lg mb-2">Mission</h4>
+                <p className="text-sm text-slate-500 leading-relaxed">"To deliver high-precision forging solutions and industrial components that meet the most stringent global standards. We are committed to empowering the world’s infrastructure by ensuring zero-defect manufacturing, continuous technical innovation, and an unwavering focus on material integrity for the Oil & Gas, Petrochemical, and Power sectors."</p>
               </div>
-              <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-[#D71920]">
-                <h4 className="font-bold text-[#0F172A] text-lg">Vision</h4>
-                <p className="text-sm text-slate-500">To be the world's most trusted partner for critical industrial components.</p>
+              <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-[#D71920] flex flex-col">
+                <h4 className="font-bold text-[#0F172A] text-lg mb-2">Vision</h4>
+                <p className="text-sm text-slate-500 leading-relaxed">"To emerge as the premier global benchmark for excellence in the stainless steel forging industry. Under the leadership of Vikas Purohit, we aim to expand our footprint across 100+ countries, becoming the most trusted partner for mission-critical infrastructure through advanced CNC engineering and sustainable manufacturing practices."</p>
               </div>
             </div>
           </div>
@@ -67,48 +70,57 @@ const AboutUs = () => {
         {/* Section 2: Core Values / Why Choose Us */}
         <div className="mb-24">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-[#0F172A] mb-4">Our Core Values</h2>
+            <h2 className="text-3xl font-bold text-[#0F172A] mb-4">Our Core Values: The Pillars of Remax Excellence</h2>
             <div className="h-1 w-20 bg-[#D71920] mx-auto rounded"></div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
-              { icon: <Award size={32} />, title: "Quality First", desc: "ISO 9001:2015 certified processes ensuring zero-defect products." },
-              { icon: <Users size={32} />, title: "Customer Focus", desc: "Tailored solutions and dedicated support for every client requirement." },
-              { icon: <Globe size={32} />, title: "Global Standards", desc: "Products manufacturing adhering to ASTM, ASME, DIN, and EN standards." },
-              { icon: <Factory size={32} />, title: "Innovation", desc: "Continuous investment in modern technology and manufacturing techniques." }
+              { icon: <Award size={32} />, title: "Quality Without Compromise", desc: "We operate an ISO 9001:2015 certified manufacturing unit where \"Quality First\" is a mandate, not just a slogan. By integrating rigorous testing—including PMI, Ultrasonic, and Hydro-testing—we ensure that every forged fitting and flange delivered is 100% defect-free and compliant with EN 10204 3.1 traceability standards." },
+              { icon: <Globe size={32} />, title: "Global Engineering Standards", desc: "Our manufacturing processes are engineered to meet and exceed international benchmarks. We specialize in producing components that strictly adhere to ASTM, ASME, DIN, and ANSI specifications, ensuring seamless integration into mission-critical infrastructure projects across the globe." },
+              { icon: <Factory size={32} />, title: "Technological Innovation", desc: "Following the lead of global industry giants, Remax Forge & Fittings invests heavily in Advanced CNC Machining and modern forging technology. Under the leadership of Vikas Purohit, we continuously upgrade our facility to maintain tight tolerances and superior surface finishes for high-pressure applications." },
+              { icon: <Users size={32} />, title: "Customer-Centric Reliability", desc: "We believe in building long-term partnerships through transparency and performance. With a track record of 100% timely delivery and a supply chain reaching 45+ countries, we provide tailored solutions that address the specific metallurgical and dimensional needs of our diverse clientele." }
             ].map((item, index) => (
-              <div key={index} className="bg-white p-8 rounded-xl shadow-md border border-slate-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 text-center group">
-                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-50 text-[#D71920] mb-6 group-hover:bg-[#D71920] group-hover:text-white transition-colors">
+              <div key={index} className="bg-white p-8 rounded-xl shadow-md border border-slate-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col sm:flex-row items-start gap-6 group">
+                <div className="inline-flex items-center justify-center flex-shrink-0 w-16 h-16 rounded-full bg-slate-50 text-[#D71920] group-hover:bg-[#D71920] group-hover:text-white transition-colors">
                   {item.icon}
                 </div>
-                <h3 className="text-xl font-bold text-[#0F172A] mb-3">{item.title}</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">{item.desc}</p>
+                <div>
+                  <h3 className="text-xl font-bold text-[#0F172A] mb-3">{item.title}</h3>
+                  <p className="text-slate-600 text-sm leading-relaxed">{item.desc}</p>
+                </div>
               </div>
             ))}
           </div>
         </div>
 
-        {/* New Section: Why Choose Us (Content & Image Placeholder) */}
+        {/* New Section: Leadership & Visionary Growth */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-24 bg-white p-8 md:p-12 rounded-2xl shadow-lg border border-slate-100">
           <div className="order-2 lg:order-1">
              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-50 text-[#D71920] text-sm font-bold mb-4">
-               <CheckCircle2 size={16} /> Why Choose Us
+               <CheckCircle2 size={16} /> Driving Innovation
              </div>
-             <h2 className="text-3xl font-bold text-[#0F172A] mb-6">Why Partner With Remax?</h2>
-             <p className="text-slate-600 leading-relaxed mb-6">
-               [Content Placeholder: We deliver precision-engineered solutions tailored to your industry needs. Our commitment to innovation and quality ensures reliability in every project.]
-             </p>
+             <h2 className="text-3xl font-bold text-[#0F172A] mb-6">Leadership & Visionary Growth</h2>
+             
+             <blockquote className="border-l-4 border-[#D71920] pl-4 italic text-slate-700 mb-6 font-medium text-lg">
+               "Our mission is to bridge the gap between traditional forging craftsmanship and the future of precision engineering." 
+               <span className="block mt-2 text-sm text-[#D71920] font-bold not-italic">— Vikas Purohit</span>
+             </blockquote>
+             
+             <h3 className="text-xl font-bold text-[#0F172A] mb-4">The Modern Remax Advantage:</h3>
+             
              <div className="space-y-4">
                {[
-                 "Advanced Manufacturing Technology",
-                 "Global Supply Chain Network",
-                 "Strict Quality Compliance",
-                 "Cost-Effective Solutions"
+                 { title: "Tech-Driven Manufacturing", desc: "Vikas has integrated Advanced CNC Machining and automated forging workflows to meet the tight tolerances required by the Oil & Gas and Aerospace sectors." },
+                 { title: "Compliance & Excellence", desc: "Strengthening our commitment to ISO 9001:2015 standards, he has implemented a \"Zero-Defect\" culture backed by stringent EN 10204 3.1 material traceability." },
+                 { title: "Strategic Global Expansion", desc: "By modernizing our supply chain logistics, he has positioned Remax as a premier partner for high-pressure ASME/ANSI compliant components in the USA, UAE, and European markets." }
                ].map((item, i) => (
-                 <div key={i} className="flex items-center gap-3 p-3 rounded-lg hover:bg-slate-50 transition-colors">
-                   <div className="h-2 w-2 rounded-full bg-[#D71920]"></div>
-                   <span className="text-slate-700 font-medium">{item}</span>
+                 <div key={i} className="flex items-start gap-3 p-3 rounded-lg hover:bg-slate-50 transition-colors">
+                   <div className="mt-1.5 flex-shrink-0 h-2 w-2 rounded-full bg-[#D71920]"></div>
+                   <div>
+                     <span className="text-[#0F172A] font-bold block mb-1">{item.title}</span>
+                     <span className="text-slate-600 text-sm leading-relaxed block">{item.desc}</span>
+                   </div>
                  </div>
                ))}
              </div>
@@ -116,8 +128,8 @@ const AboutUs = () => {
           <div className="order-1 lg:order-2">
              <div className="h-[450px] w-full rounded-2xl shadow-xl overflow-hidden group">
                 <img 
-                  src="/images/commitment 2.webp" 
-                  alt="Why Choose Remax" 
+                  src="/images/aboutus.jpeg" 
+                  alt="Leadership & Visionary Growth" 
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                 />
              </div>
@@ -150,16 +162,17 @@ const AboutUs = () => {
         {/* Section 4: Certifications & Quality Policy (Text Placeholder) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-             <h2 className="text-3xl font-bold text-[#0F172A] mb-6">Commitment to Quality</h2>
+             <h2 className="text-3xl font-bold text-[#0F172A] mb-2">Technical Excellence & Quality Assurance</h2>
+             <h4 className="text-lg font-semibold text-[#D71920] mb-4">Our Commitment to Zero-Defect Manufacturing</h4>
              <p className="text-slate-600 leading-relaxed mb-6">
-               Quality is at the heart of everything we do. Our rigorous quality assurance program covers every stage of the manufacturing process, from raw material procurement to final inspection and dispatch.
+               Remax Forge & Fittings has evolved into a tech-driven manufacturing unit. We have replaced standard inspections with a rigorous, multi-tier testing protocol to ensure every component exceeds global safety standards. 
              </p>
              <ul className="space-y-4">
                {[
-                 "Material Traceability & PMI Testing",
-                 "Hydrostatic & Pneumatic Testing",
-                 "Ultrasonic & Radiographic Examination",
-                 "Dimensional & Visual Inspection"
+                 "100% Material Traceability",
+                 "Precision Testing",
+                 "Advanced NDT",
+                 "Corrosion Resistance"
                ].map((item, i) => (
                  <li key={i} className="flex items-center gap-3 text-slate-700 font-medium">
                    <CheckCircle2 size={20} className="text-[#D71920] flex-shrink-0" />

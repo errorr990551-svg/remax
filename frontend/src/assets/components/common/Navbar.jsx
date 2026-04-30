@@ -70,7 +70,7 @@ const Navbar = () => {
                 REMAX
               </span>
               <span className="text-[10px] tracking-[0.2em] opacity-80 uppercase leading-none mt-1">
-                Forge & Fittings
+                Forge AND Fittings
               </span>
             </div>
           </div>
@@ -219,6 +219,15 @@ const Navbar = () => {
                   </Link>
                 </div>
               </div>
+
+              {/* Blogs */}
+              <Link
+                to="/blogs"
+                className="relative font-medium text-base transition-colors hover:text-[#D71920] flex items-center h-full group"
+              >
+                Blogs
+                <span className="absolute bottom-4 left-0 w-0 h-0.5 bg-[#D71920] transition-all group-hover:w-full"></span>
+              </Link>
             </div>
           </div>
 
@@ -344,6 +353,15 @@ const Navbar = () => {
               <Link to="/tech-info/dimensions" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Dimension Chart</Link>
             </div>
           </div>
+
+          {/* Blogs */}
+          <Link 
+            to="/blogs" 
+            className="block px-4 py-3 text-base font-bold text-[#0F172A] hover:text-[#D71920] hover:bg-slate-50 rounded-lg transition-colors mb-4"
+            onClick={closeAllMenus}
+          >
+            Blogs
+          </Link>
 
           {/* Contact CTA */}
           <div className="pt-2">

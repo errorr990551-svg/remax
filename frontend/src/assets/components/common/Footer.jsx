@@ -28,7 +28,7 @@ const Footer = () => {
                     REMAX
                   </span>
                   <span className="text-[10px] tracking-[0.2em] font-medium uppercase leading-none mt-1 text-[#D71920]">
-                    Forge & Fittings
+                    Forge AND Fittings
                   </span>
                 </div>
               </div>
@@ -148,7 +148,7 @@ const Footer = () => {
         <div className="border-t border-slate-800 pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-500 text-sm text-center md:text-left">
-              © {new Date().getFullYear()} <span className="text-white font-bold">Remax Forge & Fittings</span> All Rights Reserved.
+              © {new Date().getFullYear()} <span className="text-white font-bold">Remax Forge AND Fittings</span> All Rights Reserved.
             </p>
             <p className="text-slate-500 text-sm text-center md:text-right">
               <a href="https://errorr.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
