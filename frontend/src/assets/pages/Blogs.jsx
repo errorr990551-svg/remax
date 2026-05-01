@@ -9,7 +9,7 @@ const Blogs = () => {
       id: 'forged-vs-cast-fittings',
       title: 'Forged Fittings vs. Cast Fittings: Which Is Right for Your Industrial Application?',
       excerpt: 'Compare Forged vs. Cast fittings for industrial use. Learn about strength, durability, and pressure ratings to choose the right component for your piping system.',
-      image: '/images/b1.jpeg',
+      image: '/images/b4.jpeg',
       date: 'Expert Insights',
       author: 'Remax Forge & Fittings',
     }
@@ -41,6 +41,13 @@ const Blogs = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {blogs.map((blog) => (
             <div key={blog.id} className="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col group">
+              <Link to={`/blogs/${blog.id}`} className="block h-48 overflow-hidden relative">
+                <img 
+                  src={blog.image} 
+                  alt={blog.title} 
+                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                />
+              </Link>
               <div className="p-6 flex flex-col flex-grow">
                 <div className="flex items-center gap-4 text-xs text-slate-500 mb-4 font-medium uppercase tracking-wider">
                   <span className="flex items-center gap-1"><Clock size={14} className="text-[#D71920]" /> {blog.date}</span>

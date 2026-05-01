@@ -40,10 +40,10 @@ const ForgedVsCast = () => {
         <div className="bg-white rounded-2xl shadow-lg p-6 md:p-12">
           
           {/* Primary Image */}
-          <div className="mb-10 rounded-xl overflow-hidden shadow-md">
+          <div className="mb-10 rounded-xl overflow-hidden shadow-md max-w-2xl mx-auto">
             <img 
-              src="/images/b1.jpeg" 
-              alt="industrial hot forging process of high-pressure steel pipe fittings in manufacturing plant" 
+              src="/images/b4.jpeg" 
+              alt="forged vs cast fittings comparison showing grain structure strength and durability differences" 
               className="w-full h-auto"
             />
           </div>
@@ -62,18 +62,17 @@ const ForgedVsCast = () => {
             </p>
 
             {/* Section: Forging Process */}
+            <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
+              <img 
+                src="/images/b3.jpeg" 
+                alt="metal casting process with molten steel poured into mold showing porosity and defects" 
+                className="w-full h-auto"
+              />
+            </div>
             <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Understanding the Forging Process: Metallurgy in Motion</h2>
             <p className="text-slate-600 leading-relaxed mb-6">
               Forging is one of the oldest metalworking techniques in human history, but modern industrial forging has evolved into a precise, highly controlled science. At its core, forging involves shaping metal under compressive force — either by hammering, pressing, or rolling — while the metal is in a solid state, typically at elevated temperatures (hot forging) but sometimes at or near room temperature (cold forging).
             </p>
-            
-            <div className="my-8 rounded-xl overflow-hidden shadow-sm">
-              <img 
-                src="/images/b2.jpeg" 
-                alt="steel billet hot forging process showing grain flow alignment in forged metal fittings" 
-                className="w-full h-auto"
-              />
-            </div>
 
             <h3 className="text-xl font-bold text-[#0F172A] mb-3">The Hot Forging Cycle</h3>
             <p className="text-slate-600 leading-relaxed mb-4">For carbon steel, alloy steel, and stainless steel fittings, hot forging typically proceeds as follows:</p>
@@ -100,18 +99,17 @@ const ForgedVsCast = () => {
 
 
             {/* Section: Casting Process */}
+            <div className="mb-8 mt-12 rounded-xl overflow-hidden shadow-sm">
+              <img 
+                src="/images/b2.jpeg" 
+                alt="steel billet hot forging process showing grain flow alignment in forged metal fittings" 
+                className="w-full h-auto"
+              />
+            </div>
             <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Understanding the Casting Process</h2>
             <p className="text-slate-600 leading-relaxed mb-6">
               Casting involves melting metal, pouring it into a mold shaped like the desired fitting, and allowing it to solidify. Once cooled, the casting is removed, cleaned, and machined to final dimensions.
             </p>
-
-            <div className="my-8 rounded-xl overflow-hidden shadow-sm">
-              <img 
-                src="/images/b3.jpeg" 
-                alt="metal casting process with molten steel poured into mold showing porosity and defects" 
-                className="w-full h-auto"
-              />
-            </div>
 
             <h3 className="text-xl font-bold text-[#0F172A] mb-3">Common Casting Methods Used for Industrial Fittings</h3>
             <ul className="list-disc pl-6 mb-6 space-y-2 text-slate-600 marker:text-[#D71920]">
@@ -133,18 +131,17 @@ const ForgedVsCast = () => {
             </p>
 
             {/* Section: Comparison */}
+            <div className="mb-8 mt-12 rounded-xl overflow-hidden shadow-sm">
+              <img 
+                src="/images/b1.jpeg" 
+                alt="industrial hot forging process of high-pressure steel pipe fittings in manufacturing plant" 
+                className="w-full h-auto"
+              />
+            </div>
             <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Key Performance Differences — A Comparative Analysis</h2>
             <p className="text-slate-600 leading-relaxed mb-6">
               Understanding the manufacturing processes allows us to predict how forged and cast fittings will perform in service. Here is a structured comparison across the parameters that matter most in process industries:
             </p>
-
-            <div className="my-8 rounded-xl overflow-hidden shadow-sm">
-              <img 
-                src="/images/b4.jpeg" 
-                alt="forged vs cast fittings comparison showing grain structure strength and durability differences" 
-                className="w-full h-auto"
-              />
-            </div>
 
             <h3 className="text-xl font-bold mb-2 text-[#D71920]">Mechanical Strength</h3>
             <p className="text-slate-600 leading-relaxed mb-4">

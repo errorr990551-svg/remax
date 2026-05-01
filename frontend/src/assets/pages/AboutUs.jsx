@@ -41,7 +41,7 @@ const AboutUs = () => {
               Under Vikas Purohit’s guidance, Remax has integrated advanced CNC machining and rigorous Quality Assurance protocols, ensuring that our products—from Weld Neck Flanges to Socket Weld Fittings—meet the stringent ASME, ANSI, and DIN standards required by global infrastructure projects.
             </p>
             
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 gap-6">
               <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-[#D71920] flex flex-col">
                 <h4 className="font-bold text-[#0F172A] text-lg mb-2">Mission</h4>
                 <p className="text-sm text-slate-500 leading-relaxed">"To deliver high-precision forging solutions and industrial components that meet the most stringent global standards. We are committed to empowering the world’s infrastructure by ensuring zero-defect manufacturing, continuous technical innovation, and an unwavering focus on material integrity for the Oil & Gas, Petrochemical, and Power sectors."</p>
