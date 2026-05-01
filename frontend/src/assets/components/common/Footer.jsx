@@ -70,6 +70,7 @@ const Footer = () => {
                 { name: 'Quality Policy', path: '/quality' },
                 { name: 'Tech Info', path: '/tech-info/dimensions' },
                 { name: 'Certificates', path: '/certification' },
+                { name: 'Blogs', path: '/blogs' },
                 { name: 'Contact Us', path: '/contact' }
               ].map((item) => (
                 <li key={item.name}>

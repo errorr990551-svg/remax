@@ -22,6 +22,7 @@ import StainlessSteel from './assets/pages/products/pipes/StainlessSteel.jsx'
 import AboutUs from './assets/pages/AboutUs.jsx'
 import Blogs from './assets/pages/Blogs.jsx'
 import ForgedVsCast from './assets/pages/blogs/ForgedVsCast.jsx'
+import PipeFlangesGuide from './assets/pages/blogs/PipeFlangesGuide.jsx'
 import CarbonSteel from './assets/pages/products/pipes/CarbonSteel.jsx'
 
 import Hastelloy from './assets/pages/products/pipes/Hastelloy.jsx'
@@ -121,6 +122,7 @@ function App() {
         <Route path='/about-us' element={<AboutUs />} />
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/blogs/forged-vs-cast-fittings' element={<ForgedVsCast />} />
+        <Route path='/blogs/pipe-flanges-guide' element={<PipeFlangesGuide />} />
         <Route path='/quality' element={<Quality/>} />
         <Route path='/certification' element={<Certification/>} />
         <Route path='/career' element={<CareerPage/>} />

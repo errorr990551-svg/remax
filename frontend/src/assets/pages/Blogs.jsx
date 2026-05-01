@@ -6,6 +6,14 @@ import MetaTags from '../components/common/MetaTags.jsx';
 const Blogs = () => {
   const blogs = [
     {
+      id: 'pipe-flanges-guide',
+      title: 'The Complete Guide to Pipe Flanges: Types, Standards, Materials, and Selection',
+      excerpt: 'Comprehensive guide to industrial pipe flanges. Learn about flange types (Weld Neck, Slip-On, Blind), facing, pressure classes, materials, and selection for piping systems.',
+      image: '/images/b(2) 1.jpeg',
+      date: 'Technical Reference',
+      author: 'Remax Forge & Fittings',
+    },
+    {
       id: 'forged-vs-cast-fittings',
       title: 'Forged Fittings vs. Cast Fittings: Which Is Right for Your Industrial Application?',
       excerpt: 'Compare Forged vs. Cast fittings for industrial use. Learn about strength, durability, and pressure ratings to choose the right component for your piping system.',
