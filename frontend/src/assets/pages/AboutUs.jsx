@@ -27,7 +27,7 @@ const AboutUs = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         
         {/* Section 1: Introduction & Vision */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start mb-24">
           <div className="order-2 lg:order-1">
             <span className="text-[#D71920] font-bold tracking-wider uppercase text-sm mb-2 block">Our Story</span>
             <h2 className="text-3xl font-bold text-[#0F172A] mb-6">A Decade of Forging Excellence: The Remax Story</h2>
@@ -41,29 +41,31 @@ const AboutUs = () => {
               Under Vikas Purohit’s guidance, Remax has integrated advanced CNC machining and rigorous Quality Assurance protocols, ensuring that our products—from Weld Neck Flanges to Socket Weld Fittings—meet the stringent ASME, ANSI, and DIN standards required by global infrastructure projects.
             </p>
             
-            <div className="grid grid-cols-1 gap-6">
-              <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-[#D71920] flex flex-col">
-                <h4 className="font-bold text-[#0F172A] text-lg mb-2">Mission</h4>
-                <p className="text-sm text-slate-500 leading-relaxed">"To deliver high-precision forging solutions and industrial components that meet the most stringent global standards. We are committed to empowering the world’s infrastructure by ensuring zero-defect manufacturing, continuous technical innovation, and an unwavering focus on material integrity for the Oil & Gas, Petrochemical, and Power sectors."</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-sm border-l-4 border-[#D71920] flex flex-col">
-                <h4 className="font-bold text-[#0F172A] text-lg mb-2">Vision</h4>
-                <p className="text-sm text-slate-500 leading-relaxed">"To emerge as the premier global benchmark for excellence in the stainless steel forging industry. Under the leadership of Vikas Purohit, we aim to expand our footprint across 100+ countries, becoming the most trusted partner for mission-critical infrastructure through advanced CNC engineering and sustainable manufacturing practices."</p>
-              </div>
-            </div>
           </div>
           <div className="order-1 lg:order-2 relative group">
             <div className="rounded-lg overflow-hidden shadow-2xl">
               <img 
                 src="/images/why.jpeg" 
                 alt="Factory Floor" 
-                className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                className="w-full object-cover transform group-hover:scale-105 transition-transform duration-700"
               />
             </div>
             <div className="absolute -bottom-6 -left-6 bg-[#D71920] p-6 text-white rounded-lg shadow-xl hidden md:block">
               <div className="text-4xl font-bold mb-1">20+</div>
               <div className="text-sm font-medium opacity-90">Years Experience</div>
             </div>
+          </div>
+        </div>
+
+        {/* Mission and Vision Cards - Full Width */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-24">
+          <div className="bg-white p-8 rounded-xl shadow-md border-l-4 border-[#D71920] flex flex-col h-full hover:shadow-lg transition-shadow">
+            <h4 className="font-bold text-[#0F172A] text-xl mb-4">Mission</h4>
+            <p className="text-base text-slate-600 leading-relaxed">"To deliver high-precision forging solutions and industrial components that meet the most stringent global standards. We are committed to empowering the world’s infrastructure by ensuring zero-defect manufacturing, continuous technical innovation, and an unwavering focus on material integrity for the Oil & Gas, Petrochemical, and Power sectors."</p>
+          </div>
+          <div className="bg-white p-8 rounded-xl shadow-md border-l-4 border-[#D71920] flex flex-col h-full hover:shadow-lg transition-shadow">
+            <h4 className="font-bold text-[#0F172A] text-xl mb-4">Vision</h4>
+            <p className="text-base text-slate-600 leading-relaxed">"To emerge as the premier global benchmark for excellence in the stainless steel forging industry. Under the leadership of Vikas Purohit, we aim to expand our footprint across 100+ countries, becoming the most trusted partner for mission-critical infrastructure through advanced CNC engineering and sustainable manufacturing practices."</p>
           </div>
         </div>
 
