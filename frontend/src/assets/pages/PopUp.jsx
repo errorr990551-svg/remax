@@ -97,7 +97,7 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 font-sans">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-2 sm:p-4 font-sans">
       {/* Backdrop with Blur */}
       <div 
         className="absolute inset-0 bg-[#0F172A]/60 backdrop-blur-sm transition-opacity animate-in fade-in duration-300"
@@ -105,34 +105,34 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
       ></div>
 
       {/* Modal Content */}
-      <div className="relative w-full max-w-2xl bg-white rounded-2xl shadow-2xl p-8 md:p-10 z-10 animate-in fade-in zoom-in-95 duration-300 border-t-4 border-[#D71920]">
+      <div className="relative w-full max-w-2xl bg-white rounded-2xl shadow-2xl p-5 md:p-10 z-10 animate-in fade-in zoom-in-95 duration-300 border-t-4 border-[#D71920] max-h-[98vh] overflow-y-auto">
         
         {/* Close Button */}
         <button 
           onClick={handleClose}
-          className="absolute top-4 right-4 text-slate-400 hover:text-[#D71920] transition-colors bg-slate-50 hover:bg-red-50 p-2 rounded-full shadow-sm"
+          className="absolute top-2 right-2 md:top-4 md:right-4 text-slate-400 hover:text-[#D71920] transition-colors bg-slate-50 hover:bg-red-50 p-1.5 md:p-2 rounded-full shadow-sm"
           aria-label="Close popup"
         >
-          <X size={20} strokeWidth={2.5} />
+          <X size={18} className="md:w-5 md:h-5" strokeWidth={2.5} />
         </button>
 
         {/* Header */}
-        <div className="mb-8 text-center md:text-left">
-          <span className="text-[#D71920] font-bold tracking-wider uppercase text-xs mb-2 block">
+        <div className="mb-4 md:mb-8 text-center md:text-left">
+          <span className="text-[#D71920] font-bold tracking-wider uppercase text-[10px] md:text-xs mb-1 md:mb-2 block">
             Get in touch
           </span>
-          <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-2">
+          <h2 className="text-2xl md:text-4xl font-extrabold text-[#0F172A] mb-1 md:mb-2 leading-tight">
             Drop your details below
           </h2>
-          <p className="text-slate-500 text-lg">
+          <p className="text-slate-500 text-sm md:text-lg">
             Let our experts take over from here!
           </p>
         </div>
 
         {/* Form */}
-        <form onSubmit={handleSubmit} className="space-y-5">
+        <form onSubmit={handleSubmit} className="space-y-3 md:space-y-5">
             
-          <div className="grid md:grid-cols-2 gap-5">
+          <div className="grid md:grid-cols-2 gap-3 md:gap-5">
             {/* Name */}
             <div className="relative">
               <input 
@@ -141,7 +141,7 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Name *"
-                className="w-full px-4 py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
+                className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
                 required
               />
             </div>
@@ -154,13 +154,13 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="Email Address *"
-                className="w-full px-4 py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
+                className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
                 required
               />
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-5">
+          <div className="grid md:grid-cols-2 gap-3 md:gap-5">
             {/* Phone */}
             <div className="relative">
               <input 
@@ -169,7 +169,7 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
                 value={formData.phone}
                 onChange={handleChange}
                 placeholder="Phone Number"
-                className="w-full px-4 py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
+                className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
               />
             </div>
 
@@ -181,7 +181,7 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
                 value={formData.company}
                 onChange={handleChange}
                 placeholder="Company Name"
-                className="w-full px-4 py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
+                className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
               />
             </div>
           </div>
@@ -193,15 +193,15 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
               value={formData.message}
               onChange={handleChange}
               placeholder="How can we help you?"
-              rows="4"
-              className="w-full px-4 py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 resize-none font-medium"
+              rows="2"
+              className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 resize-none font-medium"
             ></textarea>
           </div>
 
           {/* Submit Button */}
           <button 
             type="submit"
-            className="w-full bg-[#D71920] hover:bg-red-700 text-white font-bold py-4 rounded-lg transition-all transform active:scale-[0.98] shadow-lg shadow-[#D71920]/30 uppercase tracking-wider text-sm md:text-base flex justify-center items-center gap-2"
+            className="w-full bg-[#D71920] hover:bg-red-700 text-white font-bold py-3 md:py-4 rounded-lg transition-all transform active:scale-[0.98] shadow-lg shadow-[#D71920]/30 uppercase tracking-wider text-xs md:text-base flex justify-center items-center gap-2"
           >
             Send Message
           </button>

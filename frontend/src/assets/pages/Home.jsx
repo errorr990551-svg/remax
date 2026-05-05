@@ -234,7 +234,7 @@ const Home = () => {
           `}
         </style>
       {/* Hero / Banner Section */}
-      <div className="relative w-full h-[600px] md:h-[700px] flex items-center">
+      <div className="relative w-full min-h-[600px] md:h-[700px] flex items-center pt-20 md:pt-0">
         {/* Background Image (Banner) */}
         <div 
           className="absolute inset-0 z-0"
@@ -249,7 +249,7 @@ const Home = () => {
         </div>
 
         {/* Content Overlay */}
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 pb-20">
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 md:mt-16 pb-20">
           <div className="max-w-5xl">
             {/* Small Badge */}
             <div className="inline-block mb-4 px-4 py-1 rounded border border-white/30 bg-white/10 backdrop-blur-sm">
@@ -294,7 +294,7 @@ const Home = () => {
       </div>
 
       {/* Feature Cards Section (Overlapping the banner slightly) */}
-      <div className="relative z-20 px-4 sm:px-6 lg:px-8 -mt-24 mb-20">
+      <div className="relative z-20 px-4 sm:px-6 lg:px-8 mt-10 md:-mt-24 mb-20">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, index) => (
             <div 
