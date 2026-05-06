@@ -20,6 +20,22 @@ const Blogs = () => {
       image: '/images/b4.jpeg',
       date: 'Expert Insights',
       author: 'Remax Forge & Fittings',
+    },
+    {
+      id: 'stainless-steel-grades-explained',
+      title: 'Stainless Steel Grades Explained: Choosing the Right Grade for Fittings',
+      excerpt: "Understand the differences between SS 304, 316, 316L, and duplex grades for industrial pipe fittings. Learn which stainless steel grade fits your environment's corrosion and pressure needs.",
+      image: '/images/b3-1.jpeg',
+      date: 'Materials Engineering',
+      author: 'Remax Forge & Fittings',
+    },
+    {
+      id: 'oil-and-gas-pipe-fittings-guide',
+      title: 'High-Pressure Pipe Fittings for Oil & Gas: Safety & Standards',
+      excerpt: 'Explore the essential role of forged fittings and flanges in oil and gas applications. Learn about ASME standards, material traceability, and ensuring facility safety.',
+      image: '/images/b4-1.jpeg',
+      date: 'Oil & Gas Sector',
+      author: 'Remax Forge & Fittings',
     }
   ];
 
