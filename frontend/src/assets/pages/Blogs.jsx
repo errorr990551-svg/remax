@@ -36,6 +36,22 @@ const Blogs = () => {
       image: '/images/b4-1.jpeg',
       date: 'Oil & Gas Sector',
       author: 'Remax Forge & Fittings',
+    },
+    {
+      id: 'butt-weld-fittings-guide',
+      title: 'Butt-Weld Fittings Guide: Welding Standards & Quality Control',
+      excerpt: 'Master the technicalities of butt-weld fittings. Learn about ASTM A234 grades, PWHT requirements, and ASME B31.3 weld examination standards for piping systems.',
+      image: '/images/b5-1.jpeg',
+      date: 'Engineering Reference',
+      author: 'Remax Forge & Fittings',
+    },
+    {
+      id: 'alloy-steel-power-gen-guide',
+      title: 'Alloy Steel Pipe Fittings for Power Generation: Materials & Standards',
+      excerpt: 'A technical guide to alloy steel pipe fittings in power plants. Learn about high-temperature grades like P91, F22, and F11, IBR compliance, and preventing flow-accelerated corrosion.',
+      image: '/images/b6-1.jpeg',
+      date: 'Power Sector',
+      author: 'Remax Forge & Fittings',
     }
   ];
 

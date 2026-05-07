@@ -25,6 +25,8 @@ import ForgedVsCast from './assets/pages/blogs/ForgedVsCast.jsx'
 import PipeFlangesGuide from './assets/pages/blogs/PipeFlangesGuide.jsx'
 import StainlessSteelGrades from './assets/pages/blogs/StainlessSteelGrades.jsx'
 import OilAndGasFittings from './assets/pages/blogs/OilAndGasFittings.jsx'
+import ButtWeldFittingsGuide from './assets/pages/blogs/ButtWeldFittingsGuide.jsx'
+import AlloySteelPowerGen from './assets/pages/blogs/AlloySteelPowerGen.jsx'
 import CarbonSteel from './assets/pages/products/pipes/CarbonSteel.jsx'
 
 import Hastelloy from './assets/pages/products/pipes/Hastelloy.jsx'
@@ -127,6 +129,8 @@ function App() {
         <Route path='/blogs/pipe-flanges-guide' element={<PipeFlangesGuide />} />
         <Route path='/blogs/stainless-steel-grades-explained' element={<StainlessSteelGrades />} />
         <Route path='/blogs/oil-and-gas-pipe-fittings-guide' element={<OilAndGasFittings />} />
+        <Route path='/blogs/butt-weld-fittings-guide' element={<ButtWeldFittingsGuide />} />
+        <Route path='/blogs/alloy-steel-power-gen-guide' element={<AlloySteelPowerGen />} />
         <Route path='/quality' element={<Quality/>} />
         <Route path='/certification' element={<Certification/>} />
         <Route path='/career' element={<CareerPage/>} />
