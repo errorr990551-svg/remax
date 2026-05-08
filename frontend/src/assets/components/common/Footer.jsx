@@ -71,6 +71,7 @@ const Footer = () => {
                 { name: 'Tech Info', path: '/tech-info/dimensions' },
                 { name: 'Certificates', path: '/certification' },
                 { name: 'Blogs', path: '/blogs' },
+                { name: 'Market Area', path: '/market-area' },
                 { name: 'Contact Us', path: '/contact' }
               ].map((item) => (
                 <li key={item.name}>

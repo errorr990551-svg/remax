@@ -111,6 +111,8 @@ import NickelAlloyBar from './assets/pages/products/roundBar/NickelAlloyBar.jsx'
 
 import ScrollToTop from './assets/components/common/ScrollToTop.jsx'
 import ProductMenuModal from './assets/components/common/ProductMenuModal.jsx'
+import MarketArea from './assets/pages/MarketArea.jsx'
+import CityPage from './assets/pages/CityPage.jsx'
 
 
 function App() {
@@ -135,6 +137,7 @@ function App() {
         <Route path='/certification' element={<Certification/>} />
         <Route path='/career' element={<CareerPage/>} />
         <Route path='/seo' element={<Seo/>} />
+        <Route path='/market-area' element={<MarketArea/>} />
 
 
 
@@ -241,6 +244,7 @@ function App() {
         <Route path='/products/round-bar/alloy-steel-bar' element={<AlloySteelBar />} />
         <Route path='/products/round-bar/duplex-steel-bar' element={<DuplexSteelBar />} />
         <Route path='/products/round-bar/nickel-alloy-bar' element={<NickelAlloyBar />} />
+        <Route path='/:cityName' element={<CityPage/>} />
 
       </Routes>
 
