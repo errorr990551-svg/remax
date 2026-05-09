@@ -181,6 +181,17 @@ const CityPage = () => {
                   </p>
                 </div>
               ))}
+              
+              <div className="pt-4 flex justify-start">
+                <button 
+                  onClick={openQuotePopup}
+                  className="px-8 py-4 rounded font-bold text-white transition-all transform hover:-translate-y-1 hover:shadow-2xl flex items-center justify-center gap-2 group whitespace-nowrap shrink-0 min-w-[180px]"
+                  style={{ backgroundColor: '#D71920' }}
+                >
+                  ENQUIRY NOW
+                  <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -243,27 +254,30 @@ const CityPage = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { icon: <Award size={40} />, title: "ISO 9001:2015 Certified", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers, ensuring every component meets the stringent safety regulations. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
-              { icon: <Factory size={40} />, title: "Advanced CNC Precision", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and Specialized Flange Faces (RTJ, Tongue & Groove, Male-Female)." },
-              { icon: <Globe size={40} />, title: "Global Export Footprint", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve over 45 countries, including the UAE, USA, and Saudi Arabia. Our strategic inventory management allows us to offer the shortest lead times in the industry." },
-              { icon: <PenTool size={40} />, title: "Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists you in selecting the correct pressure ratings and material grades to prevent corrosion and system failure in extreme environments." }
-            ].map((item, index) => (
-              <div key={index} className="group relative flex flex-col">
-                <div className="absolute top-0 bottom-0 left-0 w-1 bg-[#1e293b] group-hover:bg-[#D71920] transition-colors duration-300"></div>
-                <div className="pl-8 py-2 flex flex-col flex-grow">
-                  <div className="mb-5 inline-block text-[#D71920] transform group-hover:scale-110 transition-transform duration-300">
-                    {item.icon}
+            {(data.whyChooseUs || [
+              { title: "ISO 9001:2015 Certified", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers, ensuring every component meets the stringent safety regulations. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+              { title: "Advanced CNC Precision", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and Specialized Flange Faces (RTJ, Tongue & Groove, Male-Female)." },
+              { title: "Global Export Footprint", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve over 45 countries, including the UAE, USA, and Saudi Arabia. Our strategic inventory management allows us to offer the shortest lead times in the industry." },
+              { title: "Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists you in selecting the correct pressure ratings and material grades to prevent corrosion and system failure in extreme environments." }
+            ]).map((item, index) => {
+              const icons = [<Award size={40} />, <Factory size={40} />, <Globe size={40} />, <PenTool size={40} />];
+              return (
+                <div key={index} className="group relative flex flex-col">
+                  <div className="absolute top-0 bottom-0 left-0 w-1 bg-[#1e293b] group-hover:bg-[#D71920] transition-colors duration-300"></div>
+                  <div className="pl-8 py-2 flex flex-col flex-grow">
+                    <div className="mb-5 inline-block text-[#D71920] transform group-hover:scale-110 transition-transform duration-300">
+                      {icons[index]}
+                    </div>
+                    <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#D71920] transition-colors">
+                      {item.title}
+                    </h3>
+                    <p className="text-slate-400 text-sm leading-relaxed">
+                      {item.desc}
+                    </p>
                   </div>
-                  <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#D71920] transition-colors">
-                    {item.title}
-                  </h3>
-                  <p className="text-slate-400 text-sm leading-relaxed">
-                    {item.desc}
-                  </p>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
@@ -364,7 +378,7 @@ const CityPage = () => {
       {data.sections
         .filter(section => section.title.includes("Industrial Piping Solutions Provider"))
         .map((section, index) => (
-          <div key={index} className="py-24 bg-black text-white">
+          <div key={index} className="pt-24 pb-32 text-white" style={{ backgroundColor: '#0F172A' }}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
               <div className="max-w-5xl mx-auto">
                 <h2 className="text-3xl md:text-5xl font-extrabold mb-6">
@@ -394,7 +408,7 @@ const CityPage = () => {
         ))}
 
       {/* Clients Infinite Scroll */}
-      <div className="py-17 bg-white border-t border-slate-100 overflow-hidden">
+      <div className="pt-32 pb-24 bg-white border-t border-slate-100 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-14 text-center">
           <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-4">Our Clients</h2>
           <div className="h-1 w-20 mx-auto rounded bg-[#D71920]"></div>

@@ -1,6 +1,12 @@
 export const marketAreaData = {
   visakhapatnam: {
     url: "/visakhapatnam",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Visakhapatnam, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Visakhapatnam’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Visakhapatnam", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Visakhapatnam Port area and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Visakhapatnam-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Visakhapatnam | Remax Forge",
       keywords: "Flanges Manufacturer in Visakhapatnam, Forged Fittings Supplier Vizag, Industrial Piping Components Andhra Pradesh, Stainless Steel Flanges Visakhapatnam, High Pressure Fittings Vizag Port, Marine Grade Fittings India, Remax Forge & Fittings Visakhapatnam.",
@@ -51,6 +57,12 @@ export const marketAreaData = {
   },
   vijayawada: {
     url: "/vijayawada",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Vijayawada, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Vijayawada’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Vijayawada", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Vijayawada industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Vijayawada-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Vijayawada | Remax Forge",
       keywords: "Flanges Manufacturer in Vijayawada, Forged Fittings Supplier Vijayawada, Industrial Piping Components Andhra Pradesh, Stainless Steel Flanges Vijayawada, High Pressure Fittings Vijayawada, Industrial Hub Fittings India, Remax Forge & Fittings Vijayawada.",
@@ -142,6 +154,12 @@ export const marketAreaData = {
       { q: "How does Remax ensure material authenticity for mission-critical projects in Guntur?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." },
       { q: "What is the delivery timeline for orders from the Guntur industrial zones?", a: "We provide fast-tracked delivery specifically to Guntur’s industrial hubs and surrounding zones." },
       { q: "Do you offer custom forging solutions for unique engineering projects in Guntur?", a: "Yes. We can manufacture bespoke flanges and fittings tailored to your specific project dimensions." }
+    ],
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Guntur, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Guntur’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Guntur", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Guntur industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Guntur-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
     ]
   },
   nellore: {
@@ -187,6 +205,12 @@ export const marketAreaData = {
       { q: "How does Remax ensure material authenticity for mission-critical projects in Nellore?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." },
       { q: "What is the delivery timeline for orders from the Krishnapatnam Port area or Nellore SEZs?", a: "We provide fast-tracked delivery specifically to Nellore’s industrial hubs and Krishnapatnam Port." },
       { q: "Do you offer custom forging solutions for unique engineering projects in Nellore?", a: "Yes. Using CNC precision machining, we can manufacture bespoke flanges and fittings tailored to your specific project dimensions and flange faces." }
+    ],
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Nellore, ensuring every component meets the stringent safety regulations of the marine and energy industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Nellore’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Nellore", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Krishnapatnam Port area and the Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Nellore-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme coastal or high-heat environments." }
     ]
   },
   kurnool: {
@@ -232,10 +256,22 @@ export const marketAreaData = {
       { q: "How does Remax ensure material authenticity for mission-critical projects in Kurnool?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." },
       { q: "What is the delivery timeline for orders from the Kurnool industrial zones?", a: "We provide fast-tracked delivery specifically to Kurnool’s industrial hubs and surrounding mining zones." },
       { q: "Do you offer custom forging solutions for unique engineering projects in Kurnool?", a: "Yes. Using CNC precision machining, we can manufacture bespoke flanges and fittings tailored to your specific project dimensions and flange faces like RTJ (Ring Type Joint)." }
+    ],
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Kurnool, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Kurnool’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Kurnool", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Kurnool industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Kurnool-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
     ]
   },
   itanagar: {
     url: "/itanagar",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Itanagar, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Itanagar’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Itanagar", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Itanagar industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Itanagar-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Itanagar | Remax Forge",
       keywords: "Flanges Manufacturer in Itanagar, Forged Fittings Supplier Arunachal Pradesh, Industrial Piping Components Itanagar, Stainless Steel Flanges Itanagar, High Pressure Fittings Arunachal, Infrastructure Development Fittings India, Remax Forge & Fittings Itanagar.",
@@ -281,6 +317,12 @@ export const marketAreaData = {
   },
   naharlagun: {
     url: "/naharlagun",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Naharlagun, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Naharlagun’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Naharlagun", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Naharlagun industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Naharlagun-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Naharlagun | Remax Forge",
       keywords: "Flanges Manufacturer in Naharlagun, Forged Fittings Supplier Naharlagun, Industrial Piping Components Arunachal Pradesh, Stainless Steel Flanges Naharlagun, High Pressure Fittings Naharlagun, Transport Hub Industrial Fittings India, Remax Forge & Fittings Naharlagun.",
@@ -326,6 +368,12 @@ export const marketAreaData = {
   },
   pasighat: {
     url: "/pasighat",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Pasighat, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Pasighat’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Pasighat", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Pasighat industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Pasighat-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Pasighat | Remax Forge",
       keywords: "Flanges Manufacturer in Pasighat, Forged Fittings Supplier Pasighat, Industrial Piping Components Arunachal Pradesh, Stainless Steel Flanges Pasighat, High Pressure Fittings Pasighat, Smart City Infrastructure Fittings India, Remax Forge & Fittings Pasighat.",
@@ -371,6 +419,12 @@ export const marketAreaData = {
   },
   tawang: {
     url: "/tawang",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Tawang, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Tawang’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Tawang", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Tawang industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Tawang-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Tawang | Remax Forge",
       keywords: "Flanges Manufacturer in Tawang, Forged Fittings Supplier Tawang, Industrial Piping Components Arunachal Pradesh, Stainless Steel Flanges Tawang, High Pressure Fittings Tawang, High-Altitude Infrastructure Fittings India, Remax Forge & Fittings Tawang.",
@@ -416,6 +470,12 @@ export const marketAreaData = {
   },
   ziro: {
     url: "/ziro",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Ziro, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Ziro’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Ziro", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Ziro industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Ziro-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Ziro | Remax Forge",
       keywords: "Flanges Manufacturer in Ziro, Forged Fittings Supplier Ziro, Industrial Piping Components Arunachal Pradesh, Stainless Steel Flanges Ziro, High Pressure Fittings Ziro, Sustainable Infrastructure Fittings India, Remax Forge & Fittings Ziro.",
@@ -461,6 +521,12 @@ export const marketAreaData = {
   },
   guwahati: {
     url: "/guwahati",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Guwahati, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Guwahati’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Guwahati", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Guwahati industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Guwahati-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Guwahati | Remax Forge",
       keywords: "Flanges Manufacturer in Guwahati, Forged Fittings Supplier Guwahati, Industrial Piping Components Assam, Stainless Steel Flanges Guwahati, High Pressure Fittings Guwahati, Refinery & Oil Industry Fittings India, Remax Forge & Fittings Guwahati.",
@@ -506,6 +572,12 @@ export const marketAreaData = {
   },
   silchar: {
     url: "/silchar",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Silchar, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Silchar’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Silchar", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Silchar industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Silchar-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Silchar | Remax Forge",
       keywords: "Flanges Manufacturer in Silchar, Forged Fittings Supplier Silchar, Industrial Piping Components Assam, Stainless Steel Flanges Silchar, High Pressure Fittings Silchar, Tea & Paper Industry Fittings India, Remax Forge & Fittings Silchar.",
@@ -551,6 +623,12 @@ export const marketAreaData = {
   },
   dibrugarh: {
     url: "/dibrugarh",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Dibrugarh, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Dibrugarh’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Dibrugarh", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Dibrugarh industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Dibrugarh-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Dibrugarh | Remax Forge",
       keywords: "Flanges Manufacturer in Dibrugarh, Forged Fittings Supplier Dibrugarh, Industrial Piping Components Assam, Stainless Steel Flanges Dibrugarh, High Pressure Fittings Dibrugarh, Oil & Gas Industry Fittings India, Remax Forge & Fittings Dibrugarh.",
@@ -596,6 +674,12 @@ export const marketAreaData = {
   },
   jorhat: {
     url: "/jorhat",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Jorhat, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Jorhat’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Jorhat", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Jorhat industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Jorhat-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Jorhat | Remax Forge",
       keywords: "Flanges Manufacturer in Jorhat, Forged Fittings Supplier Jorhat, Industrial Piping Components Assam, Stainless Steel Flanges Jorhat, High Pressure Fittings Jorhat, Tea Research & Oil Industry Fittings India, Remax Forge & Fittings Jorhat.",
@@ -641,6 +725,12 @@ export const marketAreaData = {
   },
   tezpur: {
     url: "/tezpur",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Tezpur, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Tezpur’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Tezpur", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Tezpur industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Tezpur-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Tezpur | Remax Forge",
       keywords: "Flanges Manufacturer in Tezpur, Forged Fittings Supplier Tezpur, Industrial Piping Components Assam, Stainless Steel Flanges Tezpur, High Pressure Fittings Tezpur, Defense & Tea Industry Fittings India, Remax Forge & Fittings Tezpur.",
@@ -686,6 +776,12 @@ export const marketAreaData = {
   },
   patna: {
     url: "/patna",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Patna, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Patna’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Patna", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Patna industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Patna-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Patna | Remax Forge",
       keywords: "Flanges Manufacturer in Patna, Forged Fittings Supplier Patna, Industrial Piping Components Bihar, Stainless Steel Flanges Patna, High Pressure Fittings Patna, Public Infrastructure Fittings India, Remax Forge & Fittings Patna.",
@@ -731,6 +827,12 @@ export const marketAreaData = {
   },
   gaya: {
     url: "/gaya",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Gaya, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Gaya’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Gaya", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Gaya industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Gaya-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Gaya | Remax Forge",
       keywords: "Flanges Manufacturer in Gaya, Forged Fittings Supplier Gaya, Industrial Piping Components Bihar, Stainless Steel Flanges Gaya, High Pressure Fittings Gaya, Tourism Infrastructure Fittings India, Remax Forge & Fittings Gaya.",
@@ -776,6 +878,12 @@ export const marketAreaData = {
   },
   bhagalpur: {
     url: "/bhagalpur",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Bhagalpur, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Bhagalpur’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Bhagalpur", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Bhagalpur industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Bhagalpur-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Bhagalpur | Remax Forge",
       keywords: "Flanges Manufacturer in Bhagalpur, Forged Fittings Supplier Bhagalpur, Industrial Piping Components Bihar, Stainless Steel Flanges Bhagalpur, High Pressure Fittings Bhagalpur, Textile & Power Industry Fittings India, Remax Forge & Fittings Bhagalpur.",
@@ -821,6 +929,12 @@ export const marketAreaData = {
   },
   muzaffarpur: {
     url: "/muzaffarpur",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Muzaffarpur, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Muzaffarpur’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Muzaffarpur", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Muzaffarpur industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Muzaffarpur-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Muzaffarpur | Remax Forge",
       keywords: "Flanges Manufacturer in Muzaffarpur, Forged Fittings Supplier Muzaffarpur, Industrial Piping Components Bihar, Stainless Steel Flanges Muzaffarpur, High Pressure Fittings Muzaffarpur, Agro-Industrial Hub Fittings India, Remax Forge & Fittings Muzaffarpur.",
@@ -866,6 +980,12 @@ export const marketAreaData = {
   },
   darbhanga: {
     url: "/darbhanga",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers in Darbhanga, ensuring every component meets the stringent safety regulations of the energy and manufacturing industries. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Darbhanga’s unique engineering projects. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Darbhanga", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest lead times for projects in the Darbhanga industrial clusters and Special Economic Zones (SEZ), ensuring your project timelines are never compromised by supply chain delays." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Darbhanga-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
     meta: {
       title: "Flanges & Forged Fittings Manufacturer in Darbhanga | Remax Forge",
       keywords: "Flanges Manufacturer in Darbhanga, Forged Fittings Supplier Darbhanga, Industrial Piping Components Bihar, Stainless Steel Flanges Darbhanga, High Pressure Fittings Darbhanga, Mithila Infrastructure Fittings India, Remax Forge & Fittings Darbhanga.",
