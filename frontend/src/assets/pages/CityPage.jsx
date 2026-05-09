@@ -162,13 +162,21 @@ const CityPage = () => {
                 <div className="text-sm font-medium opacity-90 leading-tight">9001:2015 Certified Excellence</div>
               </div>
             </div>
-            <div className="space-y-12">
-              {data.sections.map((section, index) => (
+            <div className="space-y-8">
+              {data.sections
+                .filter(section => !section.title.includes("Industrial Piping Solutions Provider"))
+                .map((section, index) => (
                 <div key={index}>
-                  <h2 className="text-2xl md:text-3xl font-extrabold mb-4" style={{ color: '#0F172A' }}>
+                  <h2 
+                    className={`${index === 0 ? 'text-2xl md:text-3xl text-center' : 'text-xl md:text-2xl text-left'} font-extrabold mb-2`} 
+                    style={{ color: '#0F172A' }}
+                  >
                     {section.title}
                   </h2>
-                  <p className="text-slate-600 leading-relaxed">
+                  {index === 0 && (
+                    <div className="h-1 w-24 mb-6 rounded bg-[#D71920] mx-auto"></div>
+                  )}
+                  <p className="text-slate-600 leading-relaxed text-sm md:text-base text-left">
                     {section.content}
                   </p>
                 </div>
@@ -236,10 +244,10 @@ const CityPage = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: <Award size={40} />, title: "ISO Certified Manufacturing", desc: "Certified zero-defect manufacturing unit ensuring every component meets stringent safety regulations." },
-              { icon: <Factory size={40} />, title: "Advanced CNC Precision", desc: "Tight tolerances for High-Pressure Forged Fittings and specialized flange faces." },
-              { icon: <Truck size={40} />, title: "Strategic Logistics", desc: "Shortest lead times for projects in the industrial clusters and Special Economic Zones." },
-              { icon: <PenTool size={40} />, title: "Expert Technical Consultancy", desc: "Engineering solutions to help you select correct pressure ratings and material grades." }
+              { icon: <Award size={40} />, title: "ISO 9001:2015 Certified", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers, ensuring every component meets the stringent safety regulations. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+              { icon: <Factory size={40} />, title: "Advanced CNC Precision", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and Specialized Flange Faces (RTJ, Tongue & Groove, Male-Female)." },
+              { icon: <Globe size={40} />, title: "Global Export Footprint", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve over 45 countries, including the UAE, USA, and Saudi Arabia. Our strategic inventory management allows us to offer the shortest lead times in the industry." },
+              { icon: <PenTool size={40} />, title: "Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists you in selecting the correct pressure ratings and material grades to prevent corrosion and system failure in extreme environments." }
             ].map((item, index) => (
               <div key={index} className="group relative flex flex-col">
                 <div className="absolute top-0 bottom-0 left-0 w-1 bg-[#1e293b] group-hover:bg-[#D71920] transition-colors duration-300"></div>
@@ -275,23 +283,115 @@ const CityPage = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {data.industries.map((item, index) => (
+            {[
+              {
+                sector: "Oil & Gas",
+                application: "High-pressure extraction & refining",
+                products: "Forged Flanges, RTJ Joints",
+                image: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=2070&auto=format&fit=crop",
+                links: [
+                  { name: "Butt Weld Elbow Fittings", url: "/products/buttweld-fittings/butt-weld-elbow-fittings" },
+                  { name: "Weld Neck Flange", url: "/products/flanges/weld-neck-flange" }
+                ]
+              },
+              {
+                sector: "Petrochemical",
+                application: "Corrosive chemical processing",
+                products: "Stainless Steel Fittings, Duplex Steel",
+                image: "/images/petro chemical.jpeg",
+                links: [
+                  { name: "Socket Weld Coupling Fittings", url: "/products/socket-weld-fittings/socket-weld-coupling-fittings" },
+                  { name: "Threaded Flange", url: "/products/flanges/threaded-flange" }
+                ]
+              },
+              {
+                sector: "Power Plants",
+                application: "Boiler systems & steam generation",
+                products: "IBR Approved Fittings, Alloy Steel",
+                image: "/images/power plant.jpeg",
+                links: [
+                  { name: "Butt Weld Tee Fittings", url: "/products/buttweld-fittings/butt-weld-tee-fittings" },
+                  { name: "Concentric Reducer", url: "/products/buttweld-fittings/concentric-reducer" }
+                ]
+              },
+              {
+                sector: "Marine & Defense",
+                application: "Saltwater resistant infrastructure",
+                products: "Copper Nickel & Monel Components",
+                image: "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?q=80&w=2070&auto=format&fit=crop",
+                links: [
+                  { name: "Socket Weld Elbow Fittings", url: "/products/socket-weld-fittings/socket-weld-elbow-fittings" },
+                  { name: "Blind Flange", url: "/products/flanges/blind-flange" }
+                ]
+              }
+            ].map((item, index) => (
               <div key={index} className="group relative bg-slate-900 rounded-lg overflow-hidden h-80 shadow-lg">
                 <img 
-                  src={index === 0 ? "https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=2070&auto=format&fit=crop" : index === 1 ? "/images/petro chemical.jpeg" : index === 2 ? "/images/power plant.jpeg" : "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?q=80&w=2070&auto=format&fit=crop"} 
-                  alt={item.alt} 
-                  title={item.alt}
+                  src={item.image} 
+                  alt={item.sector} 
                   className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-30 group-hover:scale-110 transition-all duration-700" 
                 />
                 <div className="absolute inset-0 p-6 md:p-8 flex flex-col justify-end z-20">
                   <h3 className="text-2xl font-bold text-white mb-2">{item.sector}</h3>
                   <div className="h-0.5 w-12 bg-[#D71920] mb-4 group-hover:w-full transition-all duration-500"></div>
+                  <p className="text-slate-300 text-sm font-medium mb-1">{item.application}</p>
+                  <p className="text-white text-[10px] font-bold uppercase tracking-wider mb-4">{item.products}</p>
+                  
+                  {item.links && (
+                    <div className="flex flex-wrap gap-2 mt-2">
+                      {item.links.map((link, lIndex) => (
+                        <button
+                          key={lIndex}
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            navigate(link.url);
+                          }}
+                          className="text-[9px] font-bold uppercase tracking-wider px-2.5 py-1.5 border border-white/30 text-white hover:bg-[#D71920] hover:border-[#D71920] transition-all duration-300 rounded backdrop-blur-sm"
+                        >
+                          {link.name}
+                        </button>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
           </div>
         </div>
       </div>
+
+      {/* Industrial Piping Solutions Provider Section (Moved) */}
+      {data.sections
+        .filter(section => section.title.includes("Industrial Piping Solutions Provider"))
+        .map((section, index) => (
+          <div key={index} className="py-24 bg-black text-white">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+              <div className="max-w-5xl mx-auto">
+                <h2 className="text-3xl md:text-5xl font-extrabold mb-6">
+                  {section.title}
+                </h2>
+                <div className="h-1 w-20 mx-auto rounded mb-10" style={{ backgroundColor: '#D71920' }}></div>
+                <div className="space-y-6">
+                  {section.content.split('. ').map((sentence, i, arr) => {
+                    // Logic to group sentences into paragraphs for better readability like in Image 4
+                    const isLast = i === arr.length - 1;
+                    const content = sentence + (isLast ? "" : ".");
+                    
+                    // Grouping: 0,1 in para 1 | 2,3 in para 2 | 4 in para 3
+                    if (i === 0 || i === 2 || i === 4) {
+                      return (
+                        <p key={i} className="text-slate-300 text-lg md:text-xl leading-relaxed">
+                          {content} {!isLast && i !== 4 && arr[i+1] ? arr[i+1] + (i+1 === arr.length - 1 ? "" : ".") : ""}
+                        </p>
+                      );
+                    }
+                    return null;
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
 
       {/* Clients Infinite Scroll */}
       <div className="py-17 bg-white border-t border-slate-100 overflow-hidden">

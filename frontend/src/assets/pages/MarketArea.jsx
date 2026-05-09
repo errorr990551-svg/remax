@@ -12,6 +12,37 @@ const MarketArea = () => {
         { name: "Vijayawada", path: "/vijayawada" },
         { name: "Guntur", path: "/guntur" },
         { name: "Nellore", path: "/nellore" },
+        { name: "Kurnool", path: "/kurnool" },
+      ]
+    },
+    {
+      name: "ARUNACHAL PRADESH",
+      cities: [
+        { name: "Itanagar", path: "/itanagar" },
+        { name: "Naharlagun", path: "/naharlagun" },
+        { name: "Pasighat", path: "/pasighat" },
+        { name: "Tawang", path: "/tawang" },
+        { name: "Ziro", path: "/ziro" },
+      ]
+    },
+    {
+      name: "ASSAM",
+      cities: [
+        { name: "Guwahati", path: "/guwahati" },
+        { name: "Silchar", path: "/silchar" },
+        { name: "Dibrugarh", path: "/dibrugarh" },
+        { name: "Jorhat", path: "/jorhat" },
+        { name: "Tezpur", path: "/tezpur" },
+      ]
+    },
+    {
+      name: "BIHAR",
+      cities: [
+        { name: "Patna", path: "/patna" },
+        { name: "Gaya", path: "/gaya" },
+        { name: "Bhagalpur", path: "/bhagalpur" },
+        { name: "Muzaffarpur", path: "/muzaffarpur" },
+        { name: "Darbhanga", path: "/darbhanga" },
       ]
     }
   ];
