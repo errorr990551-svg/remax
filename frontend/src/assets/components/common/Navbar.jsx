@@ -137,9 +137,9 @@ const Navbar = () => {
 
                     {/* Subcategories */}
                     <div className="w-2/3 p-8 bg-white min-h-[400px]">
-                      <h4 className="text-2xl font-bold mb-6 border-b pb-3">
+                      <div className="text-2xl font-bold mb-6 border-b pb-3">
                         {productData[activeCategory].category}
-                      </h4>
+                      </div>
                       <div className="grid grid-cols-2 gap-x-6 gap-y-4">
                         {productData[activeCategory].subcategories.map((subItem, subIndex) => {
                           const linkHref = `/products/${createSlug(

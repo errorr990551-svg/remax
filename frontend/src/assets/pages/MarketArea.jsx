@@ -44,6 +44,46 @@ const MarketArea = () => {
         { name: "Muzaffarpur", path: "/muzaffarpur" },
         { name: "Darbhanga", path: "/darbhanga" },
       ]
+    },
+    {
+      name: "CHHATTISGARH",
+      cities: [
+        { name: "Raipur", path: "/raipur" },
+        { name: "Bhilai", path: "/bhilai" },
+        { name: "Bilaspur", path: "/bilaspur" },
+        { name: "Korba", path: "/korba" },
+        { name: "Durg", path: "/durg" },
+      ]
+    },
+    {
+      name: "GUJARAT",
+      cities: [
+        { name: "Gandhinagar", path: "/gandhinagar" },
+        { name: "Ahmedabad", path: "/ahmedabad" },
+        { name: "Surat", path: "/surat" },
+        { name: "Rajkot", path: "/rajkot" },
+        { name: "Vadodara", path: "/vadodara" },
+      ]
+    },
+    {
+      name: "HIMACHAL PRADESH",
+      cities: [
+        { name: "Shimla", path: "/himachal-pradesh/shimla" },
+        { name: "Dharamshala", path: "/himachal-pradesh/dharamshala" },
+        { name: "Solan", path: "/himachal-pradesh/solan" },
+        { name: "Mandi", path: "/himachal-pradesh/mandi" },
+        { name: "Baddi", path: "/himachal-pradesh/baddi" },
+      ]
+    },
+    {
+      name: "JHARKHAND",
+      cities: [
+        { name: "Jamshedpur", path: "/jharkhand/jamshedpur" },
+        { name: "Dhanbad", path: "/jharkhand/dhanbad" },
+        { name: "Ranchi", path: "/jharkhand/ranchi" },
+        { name: "Bokaro", path: "/jharkhand/bokaro" },
+        { name: "Deoghar", path: "/jharkhand/deoghar" },
+      ]
     }
   ];
 

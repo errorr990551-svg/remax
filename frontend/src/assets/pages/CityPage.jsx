@@ -7,11 +7,13 @@ import MetaTags from '../components/common/MetaTags.jsx';
 import { marketAreaData } from '../data/marketAreaData.js';
 
 const CityPage = () => {
-  const { cityName } = useParams();
+  const { stateName, cityName } = useParams();
   const navigate = useNavigate();
   const { openQuotePopup } = useQuotePopup();
   const { openProductMenu } = useProductMenu();
-  const data = marketAreaData[cityName.toLowerCase()];
+  
+  const lookupKey = stateName ? `${stateName}/${cityName}` : cityName;
+  const data = marketAreaData[lookupKey.toLowerCase()];
 
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
 

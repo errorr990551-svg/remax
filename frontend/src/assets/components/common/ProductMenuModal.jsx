@@ -72,9 +72,9 @@ const ProductMenuModal = () => {
           {/* Subcategories Main Area */}
           <div className="w-full md:w-2/3 p-10 bg-white overflow-y-auto">
             <div className="mb-8 border-b pb-6">
-              <h4 className="text-3xl font-extrabold text-[#0F172A]">
+              <div className="text-3xl font-extrabold text-[#0F172A]">
                 {productData[activeCategoryIndex].category}
-              </h4>
+              </div>
               <p className="text-slate-500 mt-2">Explore our full range of {productData[activeCategoryIndex].category.toLowerCase()}</p>
             </div>
             

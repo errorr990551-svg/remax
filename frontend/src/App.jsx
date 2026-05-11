@@ -245,6 +245,7 @@ function App() {
         <Route path='/products/round-bar/duplex-steel-bar' element={<DuplexSteelBar />} />
         <Route path='/products/round-bar/nickel-alloy-bar' element={<NickelAlloyBar />} />
         <Route path='/:cityName' element={<CityPage/>} />
+        <Route path='/:stateName/:cityName' element={<CityPage/>} />
 
       </Routes>
 
