@@ -66,23 +66,63 @@ const MarketArea = () => {
       ]
     },
     {
+      name: "RAJASTHAN",
+      cities: [
+        { name: "Bikaner", path: "/bikaner" },
+        { name: "Ajmer", path: "/ajmer" },
+        { name: "Kota", path: "/kota" },
+        { name: "Jodhpur", path: "/jodhpur" },
+        { name: "Jaipur", path: "/jaipur" },
+      ]
+    },
+    {
+      name: "SIKKIM",
+      cities: [
+        { name: "Mangan", path: "/mangan" },
+        { name: "Geyzing", path: "/geyzing" },
+        { name: "Namchi", path: "/namchi" },
+        { name: "Jorethang", path: "/jorethang" },
+        { name: "Gangtok", path: "/gangtok" },
+      ]
+    },
+    {
       name: "HIMACHAL PRADESH",
       cities: [
-        { name: "Shimla", path: "/himachal-pradesh/shimla" },
-        { name: "Dharamshala", path: "/himachal-pradesh/dharamshala" },
-        { name: "Solan", path: "/himachal-pradesh/solan" },
-        { name: "Mandi", path: "/himachal-pradesh/mandi" },
-        { name: "Baddi", path: "/himachal-pradesh/baddi" },
+        { name: "Shimla", path: "/shimla" },
+        { name: "Dharamshala", path: "/dharamshala" },
+        { name: "Solan", path: "/solan" },
+        { name: "Mandi", path: "/mandi" },
+        { name: "Baddi", path: "/baddi" },
       ]
     },
     {
       name: "JHARKHAND",
       cities: [
-        { name: "Jamshedpur", path: "/jharkhand/jamshedpur" },
-        { name: "Dhanbad", path: "/jharkhand/dhanbad" },
-        { name: "Ranchi", path: "/jharkhand/ranchi" },
-        { name: "Bokaro", path: "/jharkhand/bokaro" },
-        { name: "Deoghar", path: "/jharkhand/deoghar" },
+        { name: "Jamshedpur", path: "/jamshedpur" },
+        { name: "Dhanbad", path: "/dhanbad" },
+        { name: "Ranchi", path: "/ranchi" },
+        { name: "Bokaro", path: "/bokaro" },
+        { name: "Deoghar", path: "/deoghar" },
+      ]
+    },
+    {
+      name: "ODISHA",
+      cities: [
+        { name: "Sambalpur", path: "/sambalpur" },
+        { name: "Rourkela", path: "/rourkela" },
+        { name: "Berhampur", path: "/berhampur" },
+        { name: "Cuttack", path: "/cuttack" },
+        { name: "Bhubaneswar", path: "/bhubaneswar" },
+      ]
+    },
+    {
+      name: "PUNJAB",
+      cities: [
+        { name: "Bathinda", path: "/bathinda" },
+        { name: "Patiala", path: "/patiala" },
+        { name: "Jalandhar", path: "/jalandhar" },
+        { name: "Amritsar", path: "/amritsar" },
+        { name: "Ludhiana", path: "/ludhiana" },
       ]
     }
   ];
