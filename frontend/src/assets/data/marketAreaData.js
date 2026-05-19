@@ -3066,5 +3066,1091 @@ export const marketAreaData = {
       { q: "What is the delivery timeline for orders from Gangtok?", a: "We have optimized our logistics for Sikkim to provide fast-tracked delivery specifically to Gangtok and its surrounding mountain areas." },
       { q: "Do you offer custom forging solutions for unique pharma or infrastructure projects in Gangtok?", a: "Yes. Using CNC precision machining, we manufacture bespoke flanges and fittings tailored to your specific project dimensions and specialized requirements." }
     ]
+  },
+  "udaipur-rajasthan": {
+    url: "/udaipur-rajasthan",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety and precision regulations of the heavy processing, mining, and infrastructure industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Udaipur’s unique industrial build-outs and precise factory setups. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Rajasthan", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial, mining, and manufacturing hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects across Udaipur and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Udaipur-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Carbon Steel, or Specialized Alloys—to prevent fatigue, abrasive wear, and system failure in extreme high-temperature smelting furnaces, abrasive slurry loops, or highly sensitive utility environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Udaipur, Rajasthan | Remax Forge",
+      keywords: "Flanges Manufacturer in Udaipur Rajasthan, Forged Fittings Supplier Udaipur, Industrial Piping Components Rajasthan, Stainless Steel Flanges Udaipur, High Pressure Fittings Rajasthan, Marble Mining & Mineral Smelting Fittings India, Remax Forge & Fittings Udaipur Rajasthan.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Udaipur, Rajasthan. We provide ISO-certified, corrosion-resistant components for Udaipur’s marble cutting mills, zinc refineries, and municipal lake-water networks."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Udaipur, Rajasthan",
+      subheadline: "Precision-Engineered Industrial Solutions for Udaipur’s Massive Marble Industries, Mega Zinc Smelting Refineries, Elite Heritage Hospitality Complexes, and Smart City Lake Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Udaipur’s mining complexes and regional mineral processing infrastructure.",
+      highlights: [
+        { feature: "Mining & Smelting Alloys", reason: "Heavy-duty, abrasion-resistant Carbon Steel to handle stone slurry alongside specialized Alloys engineered to resist aggressive acids in chemical mineral refining." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for deep quarry dewatering pumps, mineral processing lines, and high-head civic water grids." },
+        { feature: "Strategic West-India Logistics", reason: "Optimized transport and supply networks seamlessly connected to Rajasthan's industrial corridors to guarantee rapid component delivery timelines." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Udaipur’s diverse industrial corridors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Rajasthan’s mining and smelting zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Rajasthan’s mining and smelting zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for seamless flow in the slurry management and chemical processing units of Udaipur.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for seamless flow in the slurry management and chemical processing units of Udaipur." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering, heritage hospitality utilities, and clean water networks in Udaipur.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering, heritage hospitality utilities, and clean water networks in Udaipur." }
+    ],
+    industries: [
+      { sector: "Marble Quarries, Granite Processing & Slurry Utilities", alt: "High-durability, abrasion-resistant forged flanges and fittings designed for heavy-duty gang saw water recycling loops, marble block cutting coolant lines, and stone slurry disposal pipelines." },
+      { sector: "Zinc Refining, Heavy Mining & Mineral Smelting", alt: "Corrosion-resistant stainless steel and alloy piping components supplied by Remax Forge for aggressive acid leaching lines, high-temperature roasting furnaces, and ore processing fluid setups." },
+      { sector: "Premium Heritage Hospitality & Luxury Resort Infrastructure", alt: "High-purity, aesthetic-grade stainless steel piping components and fittings for advanced HVAC configurations, centralized hot water grids, and premium palace utility setups." },
+      { sector: "Public Works (Lake Conservation & Smart City Water Grids)", alt: "IBR-approved alloy steel fittings and concentric reducers for mega lake-water filtration networks, heavy-lift fresh water pumping installations, and urban civic infrastructure expansions." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Udaipur (Rajasthan)", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Udaipur, Rajasthan, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Udaipur’s expanding mining, mineral refinement, and heavy engineering sectors receive durable products designed to handle extreme operational conditions, from deep subterranean quarry dewatering lines to high-temperature fluid routing loops in chemical smelting utilities." },
+      { title: "Industrial Flanges Supplier in Udaipur (Rajasthan)", content: "As a leading Industrial Flanges Supplier in Udaipur, Rajasthan, we provide the structural reliability that marble cutting factories, mineral processing setups, and automated public works demand. Our inventory serves the critical needs of local engineering layouts across the region's primary industrial development clusters (like Sukher and Madri). As a globally recognized economic and cultural anchor of Rajasthan, we act as a trusted partner, ensuring every critical pipeline network is equipped with high-integrity Slip-on, Weld Neck, Blind, and Spectacle Flanges." },
+      { title: "ISO Certified Quality Testing in Udaipur (Rajasthan)", content: "Compliance is vital in high-precision industries like commercial mineral smelting, heavy-machinery manufacturing, and macro-scale regional water infrastructure engineering. We offer ISO 9001:2015 certified quality assurance in Udaipur, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining strict regulatory compliance in Udaipur’s demanding industrial sector." },
+      { title: "Industrial Piping Solutions Provider in Udaipur (Rajasthan)", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Udaipur are engineered to deliver consistent performance and premium resistance against continuous wear, even in abrasive stone slurry mainlines, heavy-duty processing steam setups, or complex smart city infrastructure developments. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Udaipur, Rajasthan, providing advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide abrasion-resistant fittings for Udaipur’s marble and granite processing mills?", a: "Yes. We manufacture high-performance carbon and alloy steel components engineered to offer excellent resistance against continuous abrasive wear and mechanical impact, explicitly suited for marble-cutting cooling loops and high-density stone slurry transportation lines." },
+      { q: "What pressure ratings are available for your forged fittings in Udaipur?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for deep mine dewatering grids, industrial smelting hydraulics, and municipal bulk pipelines." },
+      { q: "Are your products resistant to the highly corrosive environments of zinc refineries and mineral smelting plants?", a: "Absolutely. Our components are available in premium-grade Stainless Steel and specialized custom alloys engineered to withstand severe corrosion from acid leaching lines and aggressive chemical processing loops common in mineral refineries." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Udaipur?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every single shipment." },
+      { q: "What is the delivery timeline for orders from Udaipur, Rajasthan?", a: "Udaipur is perfectly integrated into India's western industrial corridors. By utilizing major expressways and highly dependable rail freight channels, we ensure fast-tracked, reliable component delivery directly to your site." },
+      { q: "Do you offer custom forging solutions for unique municipal lake-conservation utilities or heavy factory layouts in Udaipur?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+  mysuru: {
+    url: "/mysuru",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety and precision regulations of the heavy processing, mining, and infrastructure industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Mysuru’s unique technology and manufacturing projects. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Mysuru", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Mysuru and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Mysuru-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-pressure environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Mysuru | Remax Forge",
+      keywords: "Flanges Manufacturer in Mysuru, Forged Fittings Supplier Mysuru, Industrial Piping Components Karnataka, Stainless Steel Flanges Mysuru, High Pressure Fittings Karnataka, Aerospace & Food Industry Fittings India, Remax Forge & Fittings Mysuru.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Mysuru. We provide ISO-certified, corrosion-resistant components for Mysuru’s food processing units, tech parks, and engineering industries."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Mysuru",
+      subheadline: "Precision-Engineered Industrial Solutions for Mysuru’s Food Processing, Technology Parks, and Precision Engineering Sectors. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Mysuru’s manufacturing and infrastructure development projects.",
+      highlights: [
+        { feature: "Hygiene & Precision Alloys", reason: "Specialized Stainless Steel and High-Nickel components designed to meet the rigorous safety and purity standards of Mysuru’s vast food processing and electronics manufacturing ecosystems." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for industrial processing, tech infrastructure, and boiler networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery to Mysuru and neighboring industrial estates (Belagola, Hebbal, Kadakola) from our central manufacturing networks." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Mysuru’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Mysuru’s industrial zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Mysuru’s industrial zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for seamless flow in the technology and food processing units of Mysuru.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for seamless flow in the technology and food processing units of Mysuru." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized utility and engineering units in Mysuru.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized utility and engineering units in Mysuru." }
+    ],
+    industries: [
+      { sector: "Food Processing & Agro-Industries Utilities", alt: "Stainless steel forged flanges and fittings designed for hygiene-sensitive environments and high-pressure steam lines in Mysuru’s food parks." },
+      { sector: "IT & Tech Park Infrastructure Support", alt: "High-integrity piping components designed for advanced cooling systems and utility networks in Mysuru’s growing electronics and IT clusters." },
+      { sector: "Heavy Engineering & Precision Tool Components", alt: "High-precision forged components manufactured by Remax Forge for specialized industrial machinery and tool-room utilities in Karnataka." },
+      { sector: "Public Works (Urban & Utility Modernization)", alt: "IBR approved alloy steel fittings and concentric reducers for municipal water systems and modernized urban utility networks in the royal city." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Mysuru", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Mysuru, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Mysuru’s evolving industrial landscape receive durable products designed to handle extreme pressures, from advanced technological applications to complex food engineering systems." },
+      { title: "Industrial Flanges Supplier in Mysuru", content: "As a leading Industrial Flanges Supplier in Mysuru, we provide the structural reliability that the food processing, technology, and manufacturing sectors demand. Our inventory serves the critical needs of local industrial units across Hebbal and Belagola industrial areas. As a vital economic heart of Southern Karnataka, we act as a trusted partner, ensuring every pipeline is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Mysuru", content: "Compliance is vital in high-precision industries like food processing, agro-chemicals, and electronics engineering. We offer ISO 9001:2015 certified quality assurance in Mysuru, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Mysuru’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Mysuru", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Mysuru are engineered to deliver consistent performance and corrosion resistance, even in high-pressure steam lines or complex industrial construction environments. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Mysuru, providing advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide hygiene-grade fittings for Mysuru’s food processing units?", a: "Yes. We manufacture high-performance stainless steel alloys specifically engineered to meet the safety, hygiene, and corrosion-resistance requirements of food, beverage, and agro-industrial processing." },
+      { q: "What pressure ratings are available for your forged fittings in Mysuru?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for industrial steam lines, boiler setups, and water infrastructure." },
+      { q: "Are your products compliant with the quality standards required by heavy manufacturing units in Karnataka?", a: "Absolutely. Remax aligns with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to ensure flawless production quality." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Mysuru?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Mysuru?", a: "We have optimized our logistics for Southern India to provide fast-tracked delivery specifically to Mysuru and its surrounding industrial estates." },
+      { q: "Do you offer custom forging solutions for unique technology or infrastructure projects in Mysuru?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized requirements." }
+    ]
+  },
+  "hubballi-dharwad": {
+    url: "/hubballi-dharwad",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety and precision regulations of the heavy processing, mining, and infrastructure industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Hubballi-Dharwad’s unique engineering and valve manufacturing projects. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Karnataka", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Hubballi-Dharwad and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Hubballi-Dharwad-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Alloy Steel—to prevent corrosion and system failure in extreme industrial or high-pressure environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Hubballi-Dharwad | Remax Forge",
+      keywords: "Flanges Manufacturer in Hubballi-Dharwad, Forged Fittings Supplier Hubli Dharwad, Industrial Piping Components Karnataka, Stainless Steel Flanges Hubballi-Dharwad, High Pressure Fittings Karnataka, Valve Industry Fittings India, Remax Forge & Fittings Hubballi-Dharwad.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Hubballi-Dharwad. We provide ISO-certified, corrosion-resistant components for Hubballi-Dharwad’s engineering foundries, valve manufacturing units, and smart city utilities."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Hubballi-Dharwad",
+      subheadline: "Precision-Engineered Industrial Solutions for Hubballi-Dharwad’s Valve Industries, Engineering Foundries, and Agricultural Sectors. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Hubballi-Dharwad’s manufacturing and infrastructure development projects.",
+      highlights: [
+        { feature: "Heavy-Duty & Valve Alloys", reason: "Specialized Carbon Steel, Alloy Steel, and Stainless Steel components designed to meet the rigorous pressure and flow tolerances of Hubballi-Dharwad’s valve and foundry industries." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for industrial hydraulics, boiler networks, and high-pressure water transmission." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery to Hubballi-Dharwad industrial estates (Tarihal, Gokul, Rayapur) from our central manufacturing networks." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Hubballi-Dharwad’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Hubballi-Dharwad’s industrial zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Hubballi-Dharwad’s industrial zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for seamless flow in the valve manufacturing and engineering units of Hubballi-Dharwad.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for seamless flow in the valve manufacturing and engineering units of Hubballi-Dharwad." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized utility and engineering units in Hubballi-Dharwad.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized utility and engineering units in Hubballi-Dharwad." }
+    ],
+    industries: [
+      { sector: "Valve & Flow Control Industries", alt: "High-integrity forged flanges and fittings designed for industrial valves and flow control systems in Hubballi-Dharwad's manufacturing clusters." },
+      { sector: "Foundry & Automotive Forging", alt: "Thermal-resistant and high-durability piping components designed for advanced hydraulic systems and tooling in foundries." },
+      { sector: "Heavy Engineering & Tools", alt: "High-precision forged components manufactured by Remax Forge for specialized industrial machinery and tool-room utilities in Karnataka." },
+      { sector: "Public Works (Smart City Infrastructure)", alt: "IBR approved alloy steel fittings and concentric reducers for municipal water systems and modernized urban utility networks in Hubballi-Dharwad." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Hubballi-Dharwad", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Hubballi-Dharwad, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Hubballi-Dharwad’s evolving industrial landscape receive durable products designed to handle extreme pressures, from advanced technological applications to complex valve engineering systems." },
+      { title: "Industrial Flanges Supplier in Hubballi-Dharwad", content: "As a leading Industrial Flanges Supplier in Hubballi-Dharwad, we provide the structural reliability that the valve, automotive, and heavy manufacturing sectors demand. Our inventory serves the critical needs of local industrial units across Rayapur and Tarihal industrial areas. As a vital economic heart of North Karnataka, we act as a trusted partner, ensuring every pipeline is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Hubballi-Dharwad", content: "Compliance is vital in high-precision industries like flow control, foundries, and industrial tool manufacturing. We offer ISO 9001:2015 certified quality assurance in Hubballi-Dharwad, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Hubballi-Dharwad’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Hubballi-Dharwad", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Hubballi-Dharwad are engineered to deliver consistent performance and corrosion resistance, even in high-pressure steam lines or complex industrial construction environments. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Hubballi-Dharwad, providing advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide valve-compatible fittings for Hubballi-Dharwad’s industries?", a: "Yes. We manufacture high-performance forged flanges and fittings specifically engineered to integrate seamlessly with industrial valves and flow control equipment standard in Hubballi-Dharwad's manufacturing sectors." },
+      { q: "What pressure ratings are available for your forged fittings in Hubballi-Dharwad?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for industrial steam lines, boiler setups, and water infrastructure." },
+      { q: "Are your products compliant with the quality standards required by heavy manufacturing units in Karnataka?", a: "Absolutely. Remax aligns with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to ensure flawless production quality." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Hubballi-Dharwad?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Hubballi-Dharwad?", a: "We have optimized our logistics for North Karnataka to provide fast-tracked delivery specifically to Hubballi-Dharwad and its surrounding industrial estates." },
+      { q: "Do you offer custom forging solutions for unique engineering or infrastructure projects in Hubballi-Dharwad?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized requirements." }
+    ]
+  },
+  mangaluru: {
+    url: "/mangaluru",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the energy and maritime industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Mangaluru’s unique refinery and port utility projects. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Mangaluru", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Mangaluru and neighboring maritime zones, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Mangaluru-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Super Duplex, or Carbon Steel—to prevent corrosion and system failure in aggressive coastal or high-pressure environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Mangaluru | Remax Forge",
+      keywords: "Flanges Manufacturer in Mangaluru, Forged Fittings Supplier Mangalore, Industrial Piping Components Karnataka, Stainless Steel Flanges Mangaluru, High Pressure Fittings Karnataka, Petrochemical & Port Infrastructure Fittings India, Remax Forge & Fittings Mangaluru.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Mangaluru. We provide ISO-certified, corrosion-resistant components for Mangaluru’s oil refineries, chemical ports, and maritime infrastructure."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Mangaluru",
+      subheadline: "Precision-Engineered Industrial Solutions for Mangaluru’s Petrochemical, Fertilizer, and Maritime Transport Sectors. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Mangaluru’s petrochemical and maritime infrastructure projects.",
+      highlights: [
+        { feature: "Marine-Grade Alloys", reason: "High-alloy stainless steel, Super Duplex, and Cupro-Nickel components designed to withstand highly corrosive marine atmospheres and aggressive chemicals." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for petrochemical refining pipelines and high-pressure gas terminals." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery networks optimized for Baikampady, Panambur, and coastal industrial corridors." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Mangaluru’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Mangaluru’s industrial zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Mangaluru’s industrial zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature chemical and oil lines in Mangaluru.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature chemical and oil lines in Mangaluru." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized marine and utility engineering units in Mangaluru.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized marine and utility engineering units in Mangaluru." }
+    ],
+    industries: [
+      { sector: "Petrochemical Refining & Oil Belt Support", alt: "Corrosion-resistant forged flanges and fittings supplied by Remax Forge for high-pressure oil refining and crude processing units in the Mangaluru industrial belt." },
+      { sector: "Chemical Fertilizer & Processing Utilities", alt: "Specialized stainless steel fittings manufactured by Remax Forge for urea synthesis and chemical handling systems in coastal Karnataka." },
+      { sector: "Port & Maritime Piping Infrastructure", alt: "Heavy-duty, marine-grade piping components designed for cargo terminals, bunkering lines, and port utilities at the Mangaluru harbor." },
+      { sector: "Public Works (Desalination & Water Grids)", alt: "IBR approved alloy steel fittings and concentric reducers for municipal water setups and industrial cooling networks in the coastal region." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Mangaluru", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Mangaluru, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Mangaluru’s major coastal industrial zones receive durable products designed to handle extreme pressures, from crude oil refining applications to heavy chemical processing systems." },
+      { title: "Industrial Flanges Supplier in Mangaluru", content: "As a leading Industrial Flanges Supplier in Mangaluru, we provide the structural reliability that the petrochemical, marine transport, and heavy manufacturing sectors demand. Our inventory serves the critical needs of local industrial units across Baikampady Industrial Area and the Panambur port sector. As the primary maritime gateway of Karnataka, we act as a trusted partner, ensuring every pipeline is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Mangaluru", content: "Compliance is vital in high-precision industries like oil refining, gas processing, and chemical fertilizer manufacturing. We offer ISO 9001:2015 certified quality assurance in Mangaluru, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Mangaluru’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Mangaluru", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Mangaluru are engineered to deliver consistent performance and corrosion resistance, even in high-pressure steam lines or saltwater fluid environments. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Mangaluru, providing advanced forging solutions that integrate seamlessly into modern coastal infrastructure." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide corrosion-resistant fittings for Mangaluru’s coastal industries?", a: "Yes. We manufacture high-performance components using marine-grade stainless steel and specialized alloys specifically designed to handle corrosive saltwater atmospheres and aggressive chemical processes." },
+      { q: "What pressure ratings are available for your forged fittings in Mangaluru?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for petrochemical refining lines, gas handling, and heavy-duty boilers." },
+      { q: "Are your products compliant with the quality standards required by major public and private sector refineries in Karnataka?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align with national industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Mangaluru?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Mangaluru?", a: "We have optimized our logistics for coastal Karnataka to provide fast-tracked delivery specifically to Mangaluru’s prominent industrial complexes and port zones." },
+      { q: "Do you offer custom forging solutions for unique maritime or oil processing projects in Mangaluru?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+  belagavi: {
+    url: "/belagavi",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and aerospace-adjacent industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Belagavi’s unique machining and metallurgical projects. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Belagavi", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Belagavi and neighboring border districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Belagavi-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Chrome-Moly Alloys, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-pressure environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Belagavi | Remax Forge",
+      keywords: "Flanges Manufacturer in Belagavi, Forged Fittings Supplier Belgaum, Industrial Piping Components Karnataka, Stainless Steel Flanges Belagavi, High Pressure Fittings Karnataka, Aerospace & Foundry Industry Fittings India, Remax Forge & Fittings Belagavi.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Belagavi. We provide ISO-certified, heavy-duty components for Belagavi’s aerospace manufacturing zones, automotive foundries, and sugar processing units."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Belagavi",
+      subheadline: "Precision-Engineered Industrial Solutions for Belagavi’s Aerospace SEZ, Heavy Foundries, and Agro-Processing Sectors. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Belagavi’s aerospace and heavy engineering infrastructure projects.",
+      highlights: [
+        { feature: "Aerospace & Heavy Alloys", reason: "Specialized Carbon, Alloy, and High-Purity Stainless Steel components engineered to match the elite structural tolerances of Belagavi’s precision engineering sector." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for heavy foundries, hydraulic loops, and high-pressure sugar mill boilers." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery networks optimized for the Kanabargi, Udyambag, and Machhe industrial zones via the golden quadrangle corridor." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Belagavi’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Belagavi’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Belagavi’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Belagavi’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Belagavi’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized aerospace and foundry utility units in Belagavi.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized aerospace and foundry utility units in Belagavi." }
+    ],
+    industries: [
+      { sector: "Aerospace & Precision Machining Support", alt: "High-precision forged flanges and components supplied by Remax Forge for advanced machining and specialized assembly networks in Belagavi’s Aerospace SEZ." },
+      { sector: "Foundry & Automotive Forging Clusters", alt: "Heavy-duty, thermal-resistant fittings engineered for material handling and high-pressure hydraulic systems in Belagavi’s industrial foundries." },
+      { sector: "Sugar Processing & Distillery Utilities", alt: "Stainless steel forged flanges and fittings designed for aggressive organic juices and high-pressure steam boiler lines in regional sugar mills." },
+      { sector: "Public Works (Inter-State Infrastructure)", alt: "IBR approved alloy steel fittings and concentric reducers for municipal water systems and regional distribution infrastructure across the border corridor." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Belagavi", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Belagavi, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Belagavi’s advanced manufacturing ecosystem receive durable products designed to handle extreme structural loads, from precision aerospace hardware to rugged foundry equipment systems." },
+      { title: "Industrial Flanges Supplier in Belagavi", content: "As a leading Industrial Flanges Supplier in Belagavi, we provide the structural reliability that the aerospace, automotive casting, and heavy processing sectors demand. Our inventory serves the critical needs of local industrial units across Udyambag, Machhe, and the specialized tech enclaves. As a vital commercial link between Karnataka and Maharashtra, we act as a trusted partner, ensuring every pipeline is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Belagavi", content: "Compliance is vital in high-precision industries like aerospace engineering, hydraulic systems fabrication, and distillery refining. We offer ISO 9001:2015 certified quality assurance in Belagavi, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Belagavi’s demanding manufacturing landscape." },
+      { title: "Industrial Piping Solutions Provider in Belagavi", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Belagavi are engineered to deliver consistent performance and corrosion resistance, even in heavy-duty slurry transport, high-temperature foundry operations, or high-pressure steam setups. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Belagavi, providing advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-precision fittings for Belagavi’s aerospace components sector?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the stringent dimensional tolerances and safety benchmarks required by advanced technical engineering lines." },
+      { q: "What pressure ratings are available for your forged fittings in Belagavi?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for specialized foundry hydraulics, sugar processing lines, and heavy industrial boilers." },
+      { q: "Are your products compliant with the quality standards required by major public and private engineering units in Karnataka?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align with national industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Belagavi?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Belagavi?", a: "We have optimized our transport corridors across North Karnataka and border routes to provide fast-tracked delivery specifically to Belagavi's prominent industrial zones like Udyambag." },
+      { q: "Do you offer custom forging solutions for unique foundry or agro-processing mill projects in Belagavi?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+  bengaluru: {
+    url: "/bengaluru",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and high-tech industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Bengaluru’s unique aerospace, defense, and laboratory projects. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Bengaluru", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Bengaluru and neighboring tech zones, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Bengaluru-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Super Duplex, or Chrome-Moly Alloys—to prevent system failure and leakage in extreme industrial or specialized clean-room environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Bengaluru | Remax Forge",
+      keywords: "Flanges Manufacturer in Bengaluru, Forged Fittings Supplier Bangalore, Industrial Piping Components Karnataka, Stainless Steel Flanges Bengaluru, High Pressure Fittings Karnataka, IT & Aerospace Industry Fittings India, Remax Forge & Fittings Bengaluru.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Bengaluru. We provide ISO-certified, corrosion-resistant components for Bengaluru’s aerospace clusters, biotechnology labs, and massive tech parks."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Bengaluru",
+      subheadline: "Precision-Engineered Industrial Solutions for Bengaluru’s Aerospace SEZs, Biotechnology Parks, and Advanced Tech Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Bengaluru’s aerospace and high-tech manufacturing infrastructure projects.",
+      highlights: [
+        { feature: "High-Purity & Tech Alloys", reason: "Specialized High-Purity Stainless Steel, Super Duplex, and Alloy components engineered to meet the elite structural and sterile tolerances of Bengaluru's tech and bio-pharma lines." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for advanced data center cooling loops, aviation research utilities, and hydraulic infrastructure." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery networks optimized for major hubs including Peenya, Whitefield, Electronic City, and the Bommasandra industrial zones." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Bengaluru’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Bengaluru’s manufacturing zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Bengaluru’s manufacturing zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for seamless flow in the biotechnology and electronic units of Bengaluru.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for seamless flow in the biotechnology and electronic units of Bengaluru." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized aerospace and utility engineering units in Bengaluru.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized aerospace and utility engineering units in Bengaluru." }
+    ],
+    industries: [
+      { sector: "Aerospace & Aviation Manufacturing Support", alt: "High-precision forged flanges and components supplied by Remax Forge for advanced defense and aerospace engineering clusters in Bengaluru." },
+      { sector: "Biotechnology & Pharma Lab Utilities", alt: "High-purity stainless steel forged flanges and fittings designed for sterile environments and chemical processing in Bengaluru’s bio-tech parks." },
+      { sector: "IT Parks & Data Center Cooling Infrastructure", alt: "High-integrity piping components designed for advanced HVAC and cooling water systems in Bengaluru’s massive data centers and tech enclaves." },
+      { sector: "Public Works (Metro & Smart Utility Grids)", alt: "IBR approved alloy steel fittings and concentric reducers for municipal water setups, mega-infrastructure projects, and smart city grids." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Bengaluru", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Bengaluru, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Bengaluru’s globally recognized tech and manufacturing ecosystem receive durable products designed to handle extreme operational conditions, from precision aviation hardware to complex biotechnology processing systems." },
+      { title: "Industrial Flanges Supplier in Bengaluru", content: "As a leading Industrial Flanges Supplier in Bengaluru, we provide the structural reliability that the aerospace, semiconductor, and large-scale infrastructure sectors demand. Our inventory serves the critical needs of local industrial units across Peenya Industrial Area, Whitefield, and Electronic City. As the technology capital of India, we act as a trusted partner, ensuring every critical pipeline is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Bengaluru", content: "Compliance is vital in high-precision industries like aerospace engineering, sterile bioprocessing, and high-density electronic fabrication. We offer ISO 9001:2015 certified quality assurance in Bengaluru, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Bengaluru’s demanding technical landscape." },
+      { title: "Industrial Piping Solutions Provider in Bengaluru", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Bengaluru are engineered to deliver consistent performance and corrosion resistance, even in high-pressure clean-room fluid lines, heavy-duty data center cooling grids, or complex municipal infrastructure developments. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Bengaluru, providing advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-purity fittings for Bengaluru’s biotech and pharmaceutical sectors?", a: "Yes. We manufacture high-performance stainless steel and clean-room grade fittings engineered to meet the strict safety, hygiene, and finish requirements of medical research and drug processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Bengaluru?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for data center cooling networks, aerospace research labs, and municipal water grids." },
+      { q: "Are your products compliant with the standards required by defense and aerospace projects in Karnataka?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align with advanced public and private sector technical standards." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Bengaluru?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Bengaluru?", a: "We have optimized our logistical transport loops across Karnataka to provide fast-tracked delivery specifically to Bengaluru's prominent industrial areas like Peenya and Whitefield." },
+      { q: "Do you offer custom forging solutions for unique technical infrastructure or electronic manufacturing projects in Bengaluru?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized requirements." }
+    ]
+  },
+
+  thrissur: {
+    url: "/thrissur",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Thrissur’s Ayurvedic vessel alignments and precise refinery layouts. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Thrissur", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Thrissur and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Thrissur-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Thrissur | Remax Forge",
+      keywords: "Flanges Manufacturer in Thrissur, Forged Fittings Supplier Thrissur, Industrial Piping Components Kerala, Stainless Steel Flanges Thrissur, High Pressure Fittings Kerala, Gold Processing & Jewelry Manufacturing Support India, Remax Forge & Fittings Thrissur.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Thrissur. We provide ISO-certified, corrosion-resistant components for Thrissur’s gold processing units, Ayurvedic manufacturing plants, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Thrissur",
+      subheadline: "Precision-Engineered Industrial Solutions for Thrissur’s gold processing units, Ayurvedic manufacturing plants, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Thrissur’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "Specialized 316L Stainless Steel and High-Nickel components designed to meet strict hygiene, purity, and acid-resistance standards in gold refining and herb extraction." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Thrissur's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Thrissur’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Thrissur’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Thrissur’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Thrissur’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Thrissur’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Thrissur.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Thrissur." }
+    ],
+    industries: [
+      { sector: "Gold Processing & Jewelry Manufacturing Support", alt: "Acid-resistant stainless steel forged flanges and fittings supplied by Remax Forge for specialized chemical refining and cleaning lines in Thrissur’s jewelry clusters." },
+      { sector: "Ayurvedic & Pharmaceutical Processing Utilities", alt: "High-purity stainless steel fittings manufactured by Remax Forge for sterile extraction, boiling, and fluid routing lines in Thrissur’s Ayurvedic manufacturing hubs." },
+      { sector: "Tile & Ceramic Manufacturing Infrastructure", alt: "Thermal-resistant forged components designed for high-temperature kiln operations and material handling systems in Thrissur's traditional tile clusters." },
+      { sector: "Public Works (Urban Utility & Water Supply)", alt: "IBR approved alloy steel fittings and concentric reducers for municipal water filtration systems and modernized urban utility networks across Central Kerala." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Thrissur", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Thrissur, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Thrissur’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Thrissur", content: "As a leading Industrial Flanges Supplier in Thrissur, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Thrissur", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Thrissur, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Thrissur’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Thrissur", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Thrissur are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Thrissur. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Thrissur’s gold processing units?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of gold processing units and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Thrissur?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Kerala?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Thrissur?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Thrissur?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Thrissur's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Thrissur?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  kollam: {
+    url: "/kollam",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Kollam’s food-grade processing lines and maritime pipe layouts. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Kollam", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Kollam and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Kollam-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Kollam | Remax Forge",
+      keywords: "Flanges Manufacturer in Kollam, Forged Fittings Supplier Kollam, Industrial Piping Components Kerala, Stainless Steel Flanges Kollam, High Pressure Fittings Kerala, Cashew & Food Processing Utilities India, Remax Forge & Fittings Kollam.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Kollam. We provide ISO-certified, corrosion-resistant components for Kollam’s cashew processing mills, marine packaging plants, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Kollam",
+      subheadline: "Precision-Engineered Industrial Solutions for Kollam’s cashew processing mills, marine packaging plants, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Kollam’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "Marine-grade stainless steel and food-grade alloy components engineered to withstand both saltwater corrosion and food processing hygiene requirements." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Kollam's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Kollam’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Kollam’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Kollam’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Kollam’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Kollam’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Kollam.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Kollam." }
+    ],
+    industries: [
+      { sector: "Cashew & Food Processing Utilities", alt: "Food-grade stainless steel forged flanges and fittings supplied by Remax Forge for automated cashew processing and packaging systems in Kollam." },
+      { sector: "Marine & Seafood Processing Infrastructure", alt: "Corrosion-resistant marine-grade fittings and flanges designed for saltwater-exposed seafood packaging and freezing plants in Kollam." },
+      { sector: "Port & Maritime Logistics Utilities", alt: "High-pressure pipeline components for bunkering and maritime transport facilities at Kollam Port." },
+      { sector: "Chemical & Mineral Processing Industries", alt: "Alloy steel and carbon steel fittings for regional chemical and mineral separation plants." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Kollam", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Kollam, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Kollam’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Kollam", content: "As a leading Industrial Flanges Supplier in Kollam, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Kollam", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Kollam, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Kollam’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Kollam", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Kollam are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Kollam. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Kollam’s cashew processing mills?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of cashew processing mills and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Kollam?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Kerala?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Kollam?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Kollam?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Kollam's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Kollam?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  kozhikode: {
+    url: "/kozhikode",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Kozhikode’s wood processing machinery and food packaging installations. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Kozhikode", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Kozhikode and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Kozhikode-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Kozhikode | Remax Forge",
+      keywords: "Flanges Manufacturer in Kozhikode, Forged Fittings Supplier Kozhikode, Industrial Piping Components Kerala, Stainless Steel Flanges Kozhikode, High Pressure Fittings Kerala, Timber & Wood Processing Machinery India, Remax Forge & Fittings Kozhikode.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Kozhikode. We provide ISO-certified, corrosion-resistant components for Kozhikode’s timber processing mills, food packaging units, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Kozhikode",
+      subheadline: "Precision-Engineered Industrial Solutions for Kozhikode’s timber processing mills, food packaging units, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Kozhikode’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "High-durability stainless steel and alloy components designed for wood processing hydraulics and sanitary food processing systems." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Kozhikode's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Kozhikode’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Kozhikode’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Kozhikode’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Kozhikode’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Kozhikode’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Kozhikode.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Kozhikode." }
+    ],
+    industries: [
+      { sector: "Timber & Wood Processing Machinery", alt: "Heavy-duty forged components designed for hydraulic systems and high-pressure steam in Kozhikode’s wood processing mills." },
+      { sector: "Agro & Food Processing Infrastructure", alt: "Stainless steel flanges and sanitary fittings for food processing and spice extraction units in Kozhikode." },
+      { sector: "Marine & Port Logistics Support", alt: "Corrosion-resistant fittings and flanges for port and maritime logistical infrastructure in Beypore." },
+      { sector: "Public Works & Infrastructure Projects", alt: "IBR approved carbon steel and alloy steel fittings for municipal water distribution and urban utility grids." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Kozhikode", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Kozhikode, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Kozhikode’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Kozhikode", content: "As a leading Industrial Flanges Supplier in Kozhikode, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Kozhikode", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Kozhikode, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Kozhikode’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Kozhikode", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Kozhikode are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Kozhikode. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Kozhikode’s timber processing mills?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of timber processing mills and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Kozhikode?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Kerala?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Kozhikode?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Kozhikode?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Kozhikode's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Kozhikode?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  kochi: {
+    url: "/kochi",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Kochi’s shipbuilding, maritime installations, and petroleum refinery lines. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Kochi", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Kochi and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Kochi-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Kochi | Remax Forge",
+      keywords: "Flanges Manufacturer in Kochi, Forged Fittings Supplier Kochi, Industrial Piping Components Kerala, Stainless Steel Flanges Kochi, High Pressure Fittings Kerala, Shipbuilding & Naval Infrastructure India, Remax Forge & Fittings Kochi.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Kochi. We provide ISO-certified, corrosion-resistant components for Kochi’s oil refineries, shipyards, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Kochi",
+      subheadline: "Precision-Engineered Industrial Solutions for Kochi’s oil refineries, shipyards, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Kochi’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "High-pressure duplex, super duplex, and copper-nickel components engineered to resist extreme saltwater corrosion and high-temperature petrochemical refining." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Kochi's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Kochi’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Kochi’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Kochi’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Kochi’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Kochi’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Kochi.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Kochi." }
+    ],
+    industries: [
+      { sector: "Shipbuilding & Naval Infrastructure", alt: "Copper-nickel and duplex steel forged flanges and fittings supplied by Remax Forge for naval shipyards and marine vessels in Kochi." },
+      { sector: "Oil Refining & Petrochemicals", alt: "High-pressure, temperature-resistant carbon and alloy steel fittings for refinery and petrochemical pipelines in Kochi." },
+      { sector: "Maritime Port & Container Terminal Utilities", alt: "Corrosion-resistant piping components for bunkering, logistics, and port facilities in Kochi Port." },
+      { sector: "Chemical Processing & Fertilizers", alt: "Acid-resistant stainless steel fittings for chemical manufacturing and fertilizer plants in regional industrial zones." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Kochi", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Kochi, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Kochi’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Kochi", content: "As a leading Industrial Flanges Supplier in Kochi, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Kochi", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Kochi, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Kochi’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Kochi", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Kochi are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Kochi. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Kochi’s oil refineries?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of oil refineries and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Kochi?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Kerala?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Kochi?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Kochi?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Kochi's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Kochi?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  thiruvananthapuram: {
+    url: "/thiruvananthapuram",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Thiruvananthapuram’s aerospace research setups, vacuum chambers, and high-tech cleanrooms. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Thiruvananthapuram", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Thiruvananthapuram and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Thiruvananthapuram-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Thiruvananthapuram | Remax Forge",
+      keywords: "Flanges Manufacturer in Thiruvananthapuram, Forged Fittings Supplier Thiruvananthapuram, Industrial Piping Components Kerala, Stainless Steel Flanges Thiruvananthapuram, High Pressure Fittings Kerala, Aerospace & Space Technology Labs India, Remax Forge & Fittings Thiruvananthapuram.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Thiruvananthapuram. We provide ISO-certified, corrosion-resistant components for Thiruvananthapuram’s space research labs, aerospace complexes, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Thiruvananthapuram",
+      subheadline: "Precision-Engineered Industrial Solutions for Thiruvananthapuram’s space research labs, aerospace complexes, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Thiruvananthapuram’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "Elite-grade high-purity stainless steel and aerospace-grade alloy components engineered for ultra-high vacuum and precise temperature tolerances." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Thiruvananthapuram's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Thiruvananthapuram’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Thiruvananthapuram’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Thiruvananthapuram’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Thiruvananthapuram’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Thiruvananthapuram’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Thiruvananthapuram.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Thiruvananthapuram." }
+    ],
+    industries: [
+      { sector: "Aerospace & Space Technology Labs", alt: "High-precision stainless steel and alloy forged flanges for vacuum chamber and high-pressure aerospace pipelines in Thiruvananthapuram." },
+      { sector: "Electronics & Precision Engineering", alt: "Precision-crafted micro-fittings and custom components for defense and electronics manufacturing lines." },
+      { sector: "IT Parks & Data Center Cooling Systems", alt: "High-reliability piping components for large-scale data center HVAC cooling loops in local technology parks." },
+      { sector: "Public Utilities & Smart City Projects", alt: "IBR approved alloy steel fittings and concentric reducers for municipal water systems and green energy grids." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Thiruvananthapuram", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Thiruvananthapuram, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Thiruvananthapuram’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Thiruvananthapuram", content: "As a leading Industrial Flanges Supplier in Thiruvananthapuram, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Thiruvananthapuram", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Thiruvananthapuram, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Thiruvananthapuram’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Thiruvananthapuram", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Thiruvananthapuram are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Thiruvananthapuram. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Thiruvananthapuram’s space research labs?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of space research labs and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Thiruvananthapuram?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Kerala?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Thiruvananthapuram?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Thiruvananthapuram?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Thiruvananthapuram's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Thiruvananthapuram?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  ujjain: {
+    url: "/ujjain",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Ujjain’s soya oil processing equipment and high-temperature steam dye lines. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Ujjain", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Ujjain and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Ujjain-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Ujjain | Remax Forge",
+      keywords: "Flanges Manufacturer in Ujjain, Forged Fittings Supplier Ujjain, Industrial Piping Components Madhya Pradesh, Stainless Steel Flanges Ujjain, High Pressure Fittings Madhya Pradesh, Soya Oil Processing & Extraction India, Remax Forge & Fittings Ujjain.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Ujjain. We provide ISO-certified, corrosion-resistant components for Ujjain’s soya processing mills, textile manufacturing plants, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Ujjain",
+      subheadline: "Precision-Engineered Industrial Solutions for Ujjain’s soya processing mills, textile manufacturing plants, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Ujjain’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "Food-grade stainless steel and thermal-resistant alloy fittings designed for organic oil extraction and textile boiler steam lines." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Ujjain's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Ujjain’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Ujjain’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Ujjain’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Ujjain’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Ujjain’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Ujjain.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Ujjain." }
+    ],
+    industries: [
+      { sector: "Soya Oil Processing & Extraction", alt: "Stainless steel flanges and food-grade fittings for soya oil extraction and refining processes in Ujjain." },
+      { sector: "Textile & Dyeing Mill Utilities", alt: "Corrosion-resistant alloy fittings for high-pressure steam boilers and chemical dye lines in textile mills." },
+      { sector: "Water Utility & Smart City Projects", alt: "IBR approved water distribution piping components for municipal smart utility infrastructure in Ujjain." },
+      { sector: "Agricultural Machinery Fabrication", alt: "Carbon steel forged fittings for local agricultural implement manufacturing and maintenance." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Ujjain", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Ujjain, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Ujjain’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Ujjain", content: "As a leading Industrial Flanges Supplier in Ujjain, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Ujjain", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Ujjain, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Ujjain’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Ujjain", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Ujjain are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Ujjain. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Ujjain’s soya processing mills?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of soya processing mills and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Ujjain?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Madhya Pradesh?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Ujjain?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Ujjain?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Ujjain's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Ujjain?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  gwalior: {
+    url: "/gwalior",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Gwalior’s dairy processing equipment and stone quarry hydraulic networks. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Gwalior", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Gwalior and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Gwalior-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Gwalior | Remax Forge",
+      keywords: "Flanges Manufacturer in Gwalior, Forged Fittings Supplier Gwalior, Industrial Piping Components Madhya Pradesh, Stainless Steel Flanges Gwalior, High Pressure Fittings Madhya Pradesh, Food & Dairy Processing Utilities India, Remax Forge & Fittings Gwalior.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Gwalior. We provide ISO-certified, corrosion-resistant components for Gwalior’s food processing plants, stone quarrying systems, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Gwalior",
+      subheadline: "Precision-Engineered Industrial Solutions for Gwalior’s food processing plants, stone quarrying systems, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Gwalior’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "High-durability forged steel and sanitary stainless steel fittings engineered for heavy stone mining hydraulics and sterile food/dairy loops." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Gwalior's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Gwalior’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Gwalior’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Gwalior’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Gwalior’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Gwalior’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Gwalior.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Gwalior." }
+    ],
+    industries: [
+      { sector: "Food & Dairy Processing Utilities", alt: "Sanitary stainless steel flanges and fittings for dairy pasteurization and food packaging lines in Gwalior." },
+      { sector: "Stone Processing & Mining Machinery", alt: "Heavy-duty wear-resistant forged fittings for stone cutting hydraulic machinery and quarry operations." },
+      { sector: "Light Engineering & Component Fabrication", alt: "Precision carbon and alloy steel fittings for light engineering and assembly workshops in Gwalior." },
+      { sector: "Public Water & Smart Municipal Grids", alt: "IBR approved water supply piping components for municipal utility networks." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Gwalior", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Gwalior, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Gwalior’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Gwalior", content: "As a leading Industrial Flanges Supplier in Gwalior, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Gwalior", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Gwalior, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Gwalior’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Gwalior", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Gwalior are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Gwalior. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Gwalior’s food processing plants?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of food processing plants and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Gwalior?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Madhya Pradesh?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Gwalior?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Gwalior?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Gwalior's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Gwalior?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  jabalpur: {
+    url: "/jabalpur",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Jabalpur’s ordnance factory operations, heavy defense equipment, and high-pressure power boilers. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Jabalpur", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Jabalpur and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Jabalpur-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Jabalpur | Remax Forge",
+      keywords: "Flanges Manufacturer in Jabalpur, Forged Fittings Supplier Jabalpur, Industrial Piping Components Madhya Pradesh, Stainless Steel Flanges Jabalpur, High Pressure Fittings Madhya Pradesh, Defense Production & Ordnance Factories India, Remax Forge & Fittings Jabalpur.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Jabalpur. We provide ISO-certified, corrosion-resistant components for Jabalpur’s defense manufacturing units, ordnance factories, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Jabalpur",
+      subheadline: "Precision-Engineered Industrial Solutions for Jabalpur’s defense manufacturing units, ordnance factories, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Jabalpur’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "Defense-compliant military-grade alloy fittings and IBR-approved high-pressure steam components engineered to meet the highest safety benchmarks." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Jabalpur's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Jabalpur’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Jabalpur’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Jabalpur’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Jabalpur’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Jabalpur’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Jabalpur.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Jabalpur." }
+    ],
+    industries: [
+      { sector: "Defense Production & Ordnance Factories", alt: "Military-grade alloy and stainless steel forged components supplied by Remax Forge for ordnance manufacturing and heavy defense vehicles in Jabalpur." },
+      { sector: "Thermal & Hydro Power Utilities", alt: "IBR approved alloy steel fittings and high-pressure steam flanges for thermal power stations and boiler plants in Jabalpur." },
+      { sector: "Mineral Processing & Smelting", alt: "Wear-resistant heavy forged fittings for local mineral processing and smelting facilities." },
+      { sector: "Railway Engineering Support", alt: "Heavy carbon steel fittings for railway engineering maintenance and trackside utility lines." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Jabalpur", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Jabalpur, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Jabalpur’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Jabalpur", content: "As a leading Industrial Flanges Supplier in Jabalpur, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Jabalpur", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Jabalpur, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Jabalpur’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Jabalpur", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Jabalpur are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Jabalpur. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Jabalpur’s defense manufacturing units?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of defense manufacturing units and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Jabalpur?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Madhya Pradesh?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Jabalpur?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Jabalpur?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Jabalpur's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Jabalpur?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  bhopal: {
+    url: "/bhopal",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Bhopal’s heavy electrical turbines, transformer lines, and chemical processing setups. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Bhopal", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Bhopal and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Bhopal-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Bhopal | Remax Forge",
+      keywords: "Flanges Manufacturer in Bhopal, Forged Fittings Supplier Bhopal, Industrial Piping Components Madhya Pradesh, Stainless Steel Flanges Bhopal, High Pressure Fittings Madhya Pradesh, Heavy Electrical Equipment (BHEL Utilities) India, Remax Forge & Fittings Bhopal.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Bhopal. We provide ISO-certified, corrosion-resistant components for Bhopal’s heavy electrical plants, chemical processing units, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Bhopal",
+      subheadline: "Precision-Engineered Industrial Solutions for Bhopal’s heavy electrical plants, chemical processing units, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Bhopal’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "Thermal-resistant alloy fittings and corrosion-resistant chemical-grade components designed to support heavy electrical manufacturing and aggressive chemical processes." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Bhopal's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Bhopal’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Bhopal’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Bhopal’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Bhopal’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Bhopal’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Bhopal.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Bhopal." }
+    ],
+    industries: [
+      { sector: "Heavy Electrical Equipment (BHEL Utilities)", alt: "High-pressure thermal-resistant forged flanges and fittings for power transformer cooling and generator piping systems in Bhopal." },
+      { sector: "Chemical Processing & Agro-Chemicals", alt: "Acid-resistant stainless steel and nickel alloy fittings for chemical processing and fertilizer plants in Bhopal." },
+      { sector: "Municipal Utilities & Water Networks", alt: "IBR approved carbon steel and alloy steel piping components for city-wide water filtration and distribution." },
+      { sector: "Food Processing & Packaging", alt: "Food-grade sanitary fittings and flanges for local food processing and packaging lines." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Bhopal", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Bhopal, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Bhopal’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Bhopal", content: "As a leading Industrial Flanges Supplier in Bhopal, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Bhopal", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Bhopal, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Bhopal’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Bhopal", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Bhopal are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Bhopal. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Bhopal’s heavy electrical plants?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of heavy electrical plants and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Bhopal?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Madhya Pradesh?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Bhopal?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Bhopal?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Bhopal's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Bhopal?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  indore: {
+    url: "/indore",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Indore’s sterile pharma production lines and automotive manufacturing hydraulics. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Indore", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Indore and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Indore-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Indore | Remax Forge",
+      keywords: "Flanges Manufacturer in Indore, Forged Fittings Supplier Indore, Industrial Piping Components Madhya Pradesh, Stainless Steel Flanges Indore, High Pressure Fittings Madhya Pradesh, Pharmaceuticals & Bio-Pharma Utilities India, Remax Forge & Fittings Indore.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Indore. We provide ISO-certified, corrosion-resistant components for Indore’s pharmaceutical units, automobile plants, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Indore",
+      subheadline: "Precision-Engineered Industrial Solutions for Indore’s pharmaceutical units, automobile plants, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Indore’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "High-purity sanitary stainless steel fittings and heavy-duty automotive-grade alloy components engineered for sterile pharmacology and high-vibration automotive assembly." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Indore's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Indore’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Indore’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Indore’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Indore’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Indore’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Indore.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Indore." }
+    ],
+    industries: [
+      { sector: "Pharmaceuticals & Bio-Pharma Utilities", alt: "Sanitary, high-purity stainless steel forged flanges and fittings for sterile pharmaceutical manufacturing lines in Indore." },
+      { sector: "Automobile & Ancillary Manufacturing", alt: "High-strength alloy steel forged components and hydraulic fittings for automobile manufacturing and testing facilities in Pithampur." },
+      { sector: "Textile Processing & Boilers", alt: "Thermal-resistant carbon steel fittings and flanges for high-pressure steam boilers in regional textile mills." },
+      { sector: "Food Processing & Confectionery", alt: "Food-grade stainless steel fittings for large-scale confectionery and food processing plants." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Indore", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Indore, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Indore’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Indore", content: "As a leading Industrial Flanges Supplier in Indore, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Indore", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Indore, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Indore’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Indore", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Indore are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Indore. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Indore’s pharmaceutical units?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of pharmaceutical units and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Indore?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Madhya Pradesh?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Indore?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Indore?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Indore's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Indore?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  nashik: {
+    url: "/nashik",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Nashik’s HAL aerospace assemblies, winery processing lines, and thermal power steam loops. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Nashik", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Nashik and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Nashik-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Nashik | Remax Forge",
+      keywords: "Flanges Manufacturer in Nashik, Forged Fittings Supplier Nashik, Industrial Piping Components Maharashtra, Stainless Steel Flanges Nashik, High Pressure Fittings Maharashtra, Automotive & Aerospace Manufacturing (HAL Support) India, Remax Forge & Fittings Nashik.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Nashik. We provide ISO-certified, corrosion-resistant components for Nashik’s automobile manufacturing units, agro-processing wineries, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Nashik",
+      subheadline: "Precision-Engineered Industrial Solutions for Nashik’s automobile manufacturing units, agro-processing wineries, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Nashik’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "High-purity food-grade stainless steel and IBR-approved high-pressure alloy components designed to meet wine processing sanitation and thermal power safety benchmarks." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Nashik's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Nashik’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Nashik’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Nashik’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Nashik’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Nashik’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Nashik.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Nashik." }
+    ],
+    industries: [
+      { sector: "Automotive & Aerospace Manufacturing (HAL Support)", alt: "High-precision alloy and stainless steel forged components for aircraft support systems and automotive assembly lines in Nashik." },
+      { sector: "Agro-Processing & Winery Utilities", alt: "Food-grade, corrosion-resistant stainless steel flanges and sanitary fittings for wine fermentation and juice extraction tanks in Nashik." },
+      { sector: "Thermal Power & Grid Energy", alt: "IBR approved high-pressure steam fittings and alloy reducers for thermal power generation stations in Eklahare." },
+      { sector: "Chemical & Pharmaceutical Manufacturing", alt: "Acid-resistant stainless steel fittings for chemical and pharmaceutical manufacturing units in Ambad and Satpur." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Nashik", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Nashik, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Nashik’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Nashik", content: "As a leading Industrial Flanges Supplier in Nashik, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Nashik", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Nashik, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Nashik’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Nashik", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Nashik are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Nashik. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Nashik’s automobile manufacturing units?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of automobile manufacturing units and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Nashik?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Maharashtra?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Nashik?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Nashik?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Nashik's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Nashik?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  nagpur: {
+    url: "/nagpur",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Nagpur’s aviation maintenance assemblies, coal mining hydraulics, and steel smelter pipelines. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Nagpur", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Nagpur and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Nagpur-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Nagpur | Remax Forge",
+      keywords: "Flanges Manufacturer in Nagpur, Forged Fittings Supplier Nagpur, Industrial Piping Components Maharashtra, Stainless Steel Flanges Nagpur, High Pressure Fittings Maharashtra, Aviation & MRO (MIHAN Support) India, Remax Forge & Fittings Nagpur.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Nagpur. We provide ISO-certified, corrosion-resistant components for Nagpur’s logistics hubs, aviation MRO hubs, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Nagpur",
+      subheadline: "Precision-Engineered Industrial Solutions for Nagpur’s logistics hubs, aviation MRO hubs, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Nagpur’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "High-strength wear-resistant carbon steel and aviation-compliant alloy components designed to support coal extraction hydraulics and high-tech aviation MRO." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Nagpur's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Nagpur’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Nagpur’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Nagpur’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Nagpur’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Nagpur’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Nagpur.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Nagpur." }
+    ],
+    industries: [
+      { sector: "Aviation & MRO (MIHAN Support)", alt: "High-precision aerospace-grade alloy flanges and fittings for aircraft maintenance and hangar operations at MIHAN." },
+      { sector: "Coal Mining & Heavy Earthmoving", alt: "Heavy-duty wear-resistant carbon steel forged fittings for high-pressure hydraulic systems in Nagpur’s coal mining sectors." },
+      { sector: "Steel Production & Smelting Utilities", alt: "Thermal-resistant heavy forged flanges and fittings for induction furnaces and steel rolling mills." },
+      { sector: "Public Works & Central Transit Grids", alt: "IBR approved water supply and piping components for central transit infrastructure and municipal water grids." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Nagpur", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Nagpur, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Nagpur’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Nagpur", content: "As a leading Industrial Flanges Supplier in Nagpur, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Nagpur", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Nagpur, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Nagpur’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Nagpur", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Nagpur are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Nagpur. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Nagpur’s logistics hubs?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of logistics hubs and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Nagpur?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Maharashtra?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Nagpur?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Nagpur?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Nagpur's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Nagpur?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  thane: {
+    url: "/thane",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Thane’s chemical processing plants, vaccine production lines, and high-pressure steam boilers. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Thane", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Thane and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Thane-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Thane | Remax Forge",
+      keywords: "Flanges Manufacturer in Thane, Forged Fittings Supplier Thane, Industrial Piping Components Maharashtra, Stainless Steel Flanges Thane, High Pressure Fittings Maharashtra, Chemical Processing & Agro-Chemicals India, Remax Forge & Fittings Thane.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Thane. We provide ISO-certified, corrosion-resistant components for Thane’s chemical processing zones, pharmaceutical plants, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Thane",
+      subheadline: "Precision-Engineered Industrial Solutions for Thane’s chemical processing zones, pharmaceutical plants, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Thane’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "Corrosion-resistant chemical-grade alloys and sanitary stainless steel fittings engineered for aggressive chemical processing and sterile pharmacology." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Thane's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Thane’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Thane’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Thane’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Thane’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Thane’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Thane.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Thane." }
+    ],
+    industries: [
+      { sector: "Chemical Processing & Agro-Chemicals", alt: "Acid-resistant stainless steel and nickel alloy fittings for chemical storage and transfer networks in Thane." },
+      { sector: "Pharmaceutical & Sterile Utilities", alt: "High-purity sanitary stainless steel fittings and flanges for sterile vaccine and drug manufacturing lines in Thane." },
+      { sector: "Textile Processing & High-Pressure Boilers", alt: "Thermal-resistant carbon steel fittings and flanges for boiler steam systems in local textile and manufacturing plants." },
+      { sector: "Public Infrastructure & Municipal Utilities", alt: "IBR approved water transit fittings and municipal piping solutions for urban infrastructure development." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Thane", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Thane, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Thane’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Thane", content: "As a leading Industrial Flanges Supplier in Thane, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Thane", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Thane, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Thane’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Thane", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Thane are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Thane. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Thane’s chemical processing zones?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of chemical processing zones and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Thane?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Maharashtra?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Thane?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Thane?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Thane's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Thane?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  pune: {
+    url: "/pune",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the infrastructure and processing industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Pune’s automotive assembly lines, sterile vaccine plants, and heavy fabrication machinery. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Pune", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Pune and surrounding districts, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Pune-based project managers in selecting the correct pressure ratings and material grades—such as Stainless Steel, Duplex, or Carbon Steel—to prevent corrosion and system failure in extreme industrial or high-heat environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Pune | Remax Forge",
+      keywords: "Flanges Manufacturer in Pune, Forged Fittings Supplier Pune, Industrial Piping Components Maharashtra, Stainless Steel Flanges Pune, High Pressure Fittings Maharashtra, Automotive & Ancillary Engineering India, Remax Forge & Fittings Pune.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Pune. We provide ISO-certified, corrosion-resistant components for Pune’s automobile manufacturing plants, biotech clusters, and regional utility grids."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Pune",
+      subheadline: "Precision-Engineered Industrial Solutions for Pune’s automobile manufacturing plants, biotech clusters, and Smart Urban Infrastructure. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Pune’s industrial and utility infrastructure projects.",
+      highlights: [
+        { feature: "Custom & Spec Alloys", reason: "Premium automotive-grade alloy steel and high-purity biological-grade stainless steel components engineered for heavy manufacturing and sterile vaccine production." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for local industrial boilers, steam lines, and hydraulic networks." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery specifically to Pune's industrial zones and surrounding areas from our centralized manufacturing hub." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Pune’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Pune’s engineering zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Pune’s engineering zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Pune’s processing mills.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature steam and chemical lines in Pune’s processing mills." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Pune.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized engineering and utility units in Pune." }
+    ],
+    industries: [
+      { sector: "Automotive & Ancillary Engineering", alt: "High-strength forged alloy steel components and hydraulic fittings for automobile manufacturing in Pune." },
+      { sector: "Biotechnology & Vaccine Labs", alt: "High-purity sterile stainless steel forged flanges and fittings for vaccine formulation and biological research." },
+      { sector: "Heavy Engineering & Industrial Tooling", alt: "Heavy carbon and alloy steel fittings for heavy industrial tooling, fabrication, and machinery production in Pune." },
+      { sector: "IT Parks & Data Center Cooling Infrastructures", alt: "High-integrity HVAC piping and cooling water components designed for data centers and technology parks in Hinjawadi." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Pune", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Pune, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Pune’s industrial landscape receive durable products designed to handle extreme pressures, from precision processing applications to complex utility networks." },
+      { title: "Industrial Flanges Supplier in Pune", content: "As a leading Industrial Flanges Supplier in Pune, we provide the structural reliability that the manufacturing, energy, and infrastructure sectors demand. Our inventory serves the critical needs of local industrial units. We act as a trusted partner, ensuring every pipeline and pressure vessel is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Pune", content: "Compliance is vital in high-precision industries like chemical processing, power generation, and utility refining. We offer ISO 9001:2015 certified quality assurance in Pune, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Pune’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Pune", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Pune are engineered to deliver consistent performance and corrosion resistance, even in high-temperature steam systems, chemical environments, or municipal water networks. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Pune. We provide advanced forging solutions that integrate seamlessly into modern regional projects." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide high-quality fittings for Pune’s automobile manufacturing plants?", a: "Yes. We specialize in high-performance stainless steel and custom alloy fittings engineered to meet the strict safety, hygiene, and surface finish requirements of automobile manufacturing plants and related processing lines." },
+      { q: "What pressure ratings are available for your forged fittings in Pune?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for local power boilers, high-pressure steam lines, and hydraulic setups." },
+      { q: "Are your products compliant with the quality standards required by major industrial projects in Maharashtra?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align completely with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Pune?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Pune?", a: "We have optimized our logistical transport routes to provide fast-tracked delivery specifically to Pune's prominent industrial zones." },
+      { q: "Do you offer custom forging solutions for unique industrial projects in Pune?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
+  },
+
+  mumbai: {
+    url: "/mumbai",
+    whyChooseUs: [
+      { title: "ISO 9001:2015 Certified Manufacturing", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing ecosystem. We ensure every component meets the stringent safety regulations of the energy, maritime, and infrastructure industries. Our testing processes conduct: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
+      { title: "Advanced CNC Precision & Customization", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions for Mumbai’s unique refinery, port, and municipal utility projects. Using state-of-the-art CNC machinery, tight tolerances are maintained for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and specialized flange faces including RTJ, Tongue & Groove, and Male-Female joints." },
+      { title: "Strategic Logistics for Mumbai", desc: "As a premier engineering partner, we have perfected our logistics to serve major industrial hubs. Our strategic inventory management allows us to offer the shortest possible lead times for projects in Mumbai and neighboring industrial clusters, ensuring your project timelines are never compromised." },
+      { title: "Expert Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists Mumbai-based project managers in selecting the correct pressure ratings and material grades—such as Low-Carbon Stainless Steel, Super Duplex, or Alloy Steel—to prevent corrosion and system failure in aggressive coastal or high-pressure processing environments." }
+    ],
+    meta: {
+      title: "Flanges & Forged Fittings Manufacturer in Mumbai | Remax Forge",
+      keywords: "Flanges Manufacturer in Mumbai, Forged Fittings Supplier Mumbai, Industrial Piping Components Maharashtra, Stainless Steel Flanges Mumbai, High Pressure Fittings Western India, Petrochemical & Marine Fittings India, Remax Forge & Fittings Mumbai.",
+      description: "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Mumbai. We provide ISO-certified, marine-grade, and corrosion-resistant components for Mumbai’s oil refineries, mega ports, and manufacturing zones."
+    },
+    banner: {
+      h1: "Top Flanges & Forged Fittings Manufacturer in Mumbai",
+      subheadline: "Precision-Engineered Industrial Solutions for Mumbai’s Petrochemical Refineries, Maritime Ports, and Advanced Engineering Sectors. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      imageAlt: "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Mumbai’s maritime, refining, and urban infrastructure projects.",
+      highlights: [
+        { feature: "Marine & Refinery Alloys", reason: "High-alloy stainless steel, Super Duplex, and Cupro-Nickel components designed to withstand highly corrosive maritime atmospheres and aggressive processing chemicals." },
+        { feature: "High-Pressure Ratings", reason: "Precision-crafted fittings for 2000#, 3000#, and 6000# systems, ideal for petrochemical refining pipelines, container terminal networks, and high-pressure boilers." },
+        { feature: "Strategic Logistics", reason: "Fast-tracked delivery networks optimized for major hubs including Thane-Belapur road, Mahape, Taloja, and the surrounding industrial corridors." },
+        { feature: "Full Traceability", reason: "All products shipped with Mill Test Certificates (MTC) as per EN 10204 3.1 standards." }
+      ]
+    },
+    warehouseImageAlt: "Remax Forge & Fittings state-of-the-art manufacturing unit and warehouse facility supplying high-pressure forged components to Mumbai’s industrial sectors.",
+    products: [
+      { title: "Industrial Flanges", description: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Mumbai’s port and refinery zones.", alt: "Industrial Flanges manufactured by Remax Forge, including Slip-on and Weld Neck types, designed for high-pressure fluid management in Mumbai’s port and refinery zones." },
+      { title: "Buttweld Fittings", description: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature chemical and oil pipelines in Mumbai.", alt: "Durable Buttweld Fittings including elbows and reducers, engineered for high-temperature chemical and oil pipelines in Mumbai." },
+      { title: "Socket Weld Fittings", description: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized marine engineering and utility units in Mumbai.", alt: "Precision-crafted Socket Weld Fittings and high-pressure threaded components for specialized marine engineering and utility units in Mumbai." }
+    ],
+    industries: [
+      { sector: "Petrochemical Refining & Offshore Drilling Support", alt: "Corrosion-resistant forged flanges and fittings supplied by Remax Forge for high-pressure crude processing and offshore platform lines in the Mumbai maritime belt." },
+      { sector: "Port Logistics & Bunkering Infrastructure Support", alt: "Heavy-duty, marine-grade piping components designed for cargo terminals, bunkering lines, and port utility setups at the Mumbai and JNPT port sectors." },
+      { sector: "Pharmaceutical Manufacturing & Lab Utilities", alt: "High-purity stainless steel forged flanges and fittings designed for sterile processing and fluid routing lines in Mumbai’s major pharmaceutical zones." },
+      { sector: "Public Works (Mega Infrastructure & Smart City Utilities)", alt: "IBR approved alloy steel fittings and concentric reducers for municipal water grids, coastal industrial cooling networks, and metro utility lines." }
+    ],
+    sections: [
+      { title: "Forged Fittings Manufacturer in Mumbai", content: "Remax Forge & Fittings is a premier Forged Fittings Manufacturer in Mumbai, specializing in the production of high-pressure industrial components. Our facility engineers socket weld and threaded fittings that meet rigorous international standards including ASME and ASTM. We ensure our partners in Mumbai’s major coastal industrial zones receive durable products designed to handle extreme pressures, from crude oil refining applications to heavy marine engineering environments." },
+      { title: "Industrial Flanges Supplier in Mumbai", content: "As a leading Industrial Flanges Supplier in Mumbai, we provide the structural reliability that the petrochemical, shipbuilding, and large-scale infrastructure sectors demand. Our inventory serves the critical needs of local industrial units across the Taloja, Mahape, and suburban manufacturing belts. As the financial and maritime gateway of India, we act as a trusted partner, ensuring every pipeline is equipped with high-integrity Slip-on, Weld Neck, and Blind Flanges." },
+      { title: "ISO Certified Quality Testing in Mumbai", content: "Compliance is vital in high-precision industries like oil refining, gas processing, and marine vessel fabrication. We offer ISO 9001:2015 certified quality assurance in Mumbai, providing engineering departments with a robust verification process. Every component undergoes rigorous Hydrostatic, Ultrasonic, and PMI testing to ensure uncompromised safety, making our products essential for maintaining regulatory compliance in Mumbai’s demanding industrial environment." },
+      { title: "Industrial Piping Solutions Provider in Mumbai", content: "Structural integrity is the key to operational safety and long-term efficiency. Our Buttweld Fittings in Mumbai are engineered to deliver consistent performance and corrosion resistance, even in high-pressure steam lines, process chemicals, or saltwater fluid environments. Beyond manufacturing, we are recognized as a reliable Industrial Piping Solutions Provider in Mumbai, providing advanced forging solutions that integrate seamlessly into modern coastal infrastructure." }
+    ],
+    faqs: [
+      { q: "Does Remax Forge provide corrosion-resistant fittings for Mumbai’s marine and port industries?", a: "Yes. We manufacture high-performance components using marine-grade stainless steel and specialized alloys specifically engineered to handle corrosive saltwater atmospheres and aggressive offshore pipelines." },
+      { q: "What pressure ratings are available for your forged fittings in Mumbai?", a: "We manufacture high-pressure forged fittings in 2000#, 3000#, 6000#, and 9000# classes, essential for petrochemical refining lines, high-pressure utility loops, and industrial boilers." },
+      { q: "Are your products compliant with the standards required by major refining and infrastructure setups in Maharashtra?", a: "Absolutely. Remax complies with strict quality management systems and multi-tier testing protocols (Hydrostatic, Ultrasonic, PMI) to align with national and global industrial regulations." },
+      { q: "How does Remax ensure material authenticity for critical infrastructure in Mumbai?", a: "We provide 100% Material Traceability with Mill Test Certificates (MTC) as per EN 10204 3.1 standards for every shipment." },
+      { q: "What is the delivery timeline for orders from Mumbai?", a: "We have optimized our logistical transport channels across the Mumbai Metropolitan Region to provide fast-tracked delivery specifically to prominent industrial areas like Mahape and Taloja." },
+      { q: "Do you offer custom forging solutions for unique maritime or oil processing projects in Mumbai?", a: "Yes. Using advanced precision machining, we provide bespoke flanges and fittings tailored to your specific project dimensions and specialized fluid requirements." }
+    ]
   }
 };

@@ -66,26 +66,6 @@ const MarketArea = () => {
       ]
     },
     {
-      name: "RAJASTHAN",
-      cities: [
-        { name: "Bikaner", path: "/bikaner" },
-        { name: "Ajmer", path: "/ajmer" },
-        { name: "Kota", path: "/kota" },
-        { name: "Jodhpur", path: "/jodhpur" },
-        { name: "Jaipur", path: "/jaipur" },
-      ]
-    },
-    {
-      name: "SIKKIM",
-      cities: [
-        { name: "Mangan", path: "/mangan" },
-        { name: "Geyzing", path: "/geyzing" },
-        { name: "Namchi", path: "/namchi" },
-        { name: "Jorethang", path: "/jorethang" },
-        { name: "Gangtok", path: "/gangtok" },
-      ]
-    },
-    {
       name: "HIMACHAL PRADESH",
       cities: [
         { name: "Shimla", path: "/shimla" },
@@ -106,6 +86,46 @@ const MarketArea = () => {
       ]
     },
     {
+      name: "KARNATAKA",
+      cities: [
+        { name: "Bengaluru", path: "/bengaluru" },
+        { name: "Mysuru", path: "/mysuru" },
+        { name: "Hubballi-Dharwad", path: "/hubballi-dharwad" },
+        { name: "Mangaluru", path: "/mangaluru" },
+        { name: "Belagavi", path: "/belagavi" },
+      ]
+    },
+    {
+      name: "KERALA",
+      cities: [
+        { name: "Thrissur", path: "/thrissur" },
+        { name: "Kollam", path: "/kollam" },
+        { name: "Kozhikode", path: "/kozhikode" },
+        { name: "Kochi", path: "/kochi" },
+        { name: "Thiruvananthapuram", path: "/thiruvananthapuram" },
+      ]
+    },
+    {
+      name: "MADHYA PRADESH",
+      cities: [
+        { name: "Ujjain", path: "/ujjain" },
+        { name: "Gwalior", path: "/gwalior" },
+        { name: "Jabalpur", path: "/jabalpur" },
+        { name: "Bhopal", path: "/bhopal" },
+        { name: "Indore", path: "/indore" },
+      ]
+    },
+    {
+      name: "MAHARASHTRA",
+      cities: [
+        { name: "Mumbai", path: "/mumbai" },
+        { name: "Nagpur", path: "/nagpur" },
+        { name: "Nashik", path: "/nashik" },
+        { name: "Pune", path: "/pune" },
+        { name: "Thane", path: "/thane" },
+      ]
+    },
+    {
       name: "ODISHA",
       cities: [
         { name: "Sambalpur", path: "/sambalpur" },
@@ -123,6 +143,27 @@ const MarketArea = () => {
         { name: "Jalandhar", path: "/jalandhar" },
         { name: "Amritsar", path: "/amritsar" },
         { name: "Ludhiana", path: "/ludhiana" },
+      ]
+    },
+    {
+      name: "RAJASTHAN",
+      cities: [
+        { name: "Bikaner", path: "/bikaner" },
+        { name: "Ajmer", path: "/ajmer" },
+        { name: "Kota", path: "/kota" },
+        { name: "Jodhpur", path: "/jodhpur" },
+        { name: "Jaipur", path: "/jaipur" },
+        { name: "Udaipur", path: "/udaipur-rajasthan" },
+      ]
+    },
+    {
+      name: "SIKKIM",
+      cities: [
+        { name: "Mangan", path: "/mangan" },
+        { name: "Geyzing", path: "/geyzing" },
+        { name: "Namchi", path: "/namchi" },
+        { name: "Jorethang", path: "/jorethang" },
+        { name: "Gangtok", path: "/gangtok" },
       ]
     }
   ];
