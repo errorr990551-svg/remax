@@ -126,6 +126,46 @@ const MarketArea = () => {
       ]
     },
     {
+      name: "MANIPUR",
+      cities: [
+        { name: "Thoubal", path: "/thoubal" },
+        { name: "Bishnupur", path: "/bishnupur" },
+        { name: "Kakching", path: "/kakching" },
+        { name: "Churachandpur", path: "/churachandpur" },
+        { name: "Imphal", path: "/imphal" },
+      ]
+    },
+    {
+      name: "MEGHALAYA",
+      cities: [
+        { name: "Cherrapunji", path: "/cherrapunji" },
+        { name: "Nongpoh", path: "/nongpoh" },
+        { name: "Shillong", path: "/shillong" },
+        { name: "Tura", path: "/tura" },
+        { name: "Williamnagar", path: "/williamnagar" },
+      ]
+    },
+    {
+      name: "MIZORAM",
+      cities: [
+        { name: "Aizawl", path: "/aizawl" },
+        { name: "Champhai", path: "/champhai" },
+        { name: "Kolasib", path: "/kolasib" },
+        { name: "Lunglei", path: "/lunglei" },
+        { name: "Serchhip", path: "/serchhip" },
+      ]
+    },
+    {
+      name: "NAGALAND",
+      cities: [
+        { name: "Dimapur", path: "/dimapur" },
+        { name: "Kohima", path: "/kohima" },
+        { name: "Mokokchung", path: "/mokokchung" },
+        { name: "Tuensang", path: "/tuensang" },
+        { name: "Wokha", path: "/wokha" },
+      ]
+    },
+    {
       name: "ODISHA",
       cities: [
         { name: "Sambalpur", path: "/sambalpur" },
