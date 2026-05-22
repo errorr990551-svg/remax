@@ -205,6 +205,46 @@ const MarketArea = () => {
         { name: "Jorethang", path: "/jorethang" },
         { name: "Gangtok", path: "/gangtok" },
       ]
+    },
+    {
+      name: "TAMIL NADU",
+      cities: [
+        { name: "Salem", path: "/salem" },
+        { name: "Tiruchirappalli", path: "/tiruchirappalli" },
+        { name: "Madurai", path: "/madurai" },
+        { name: "Coimbatore", path: "/coimbatore" },
+        { name: "Chennai", path: "/chennai" },
+      ]
+    },
+    {
+      name: "TELANGANA",
+      cities: [
+        { name: "Hyderabad", path: "/hyderabad" },
+        { name: "Warangal", path: "/warangal" },
+        { name: "Nizamabad", path: "/nizamabad" },
+        { name: "Khammam", path: "/khammam" },
+        { name: "Ramagundam", path: "/ramagundam" },
+      ]
+    },
+    {
+      name: "TRIPURA",
+      cities: [
+        { name: "Kailashahar", path: "/kailashahar" },
+        { name: "Belonia", path: "/belonia" },
+        { name: "Dharmanagar", path: "/dharmanagar" },
+        { name: "Udaipur", path: "/udaipur-tripura" },
+        { name: "Agartala", path: "/agartala" },
+      ]
+    },
+    {
+      name: "UTTAR PRADESH",
+      cities: [
+        { name: "Varanasi", path: "/varanasi" },
+        { name: "Agra", path: "/agra" },
+        { name: "Ghaziabad", path: "/ghaziabad" },
+        { name: "Lucknow", path: "/lucknow" },
+        { name: "Kanpur", path: "/kanpur" },
+      ]
     }
   ];
 
