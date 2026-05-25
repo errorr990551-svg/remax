@@ -206,7 +206,7 @@ const AboutUs = () => {
              {/* commitment image */}
              <div className="bg-white p-4 rounded-2xl shadow-xl border-4 border-white h-[400px] flex items-center justify-center overflow-hidden group">
                 <img 
-                  src="/images/commitment 1.webp" 
+                  src="/images/commitment-1.webp" 
                   alt="Commitment to Quality" 
                   className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500"
                 />

@@ -82,7 +82,7 @@ import Elbow90 from './assets/pages/products/buttWeldFittings/Elbow90.jsx'
 import Elbow45 from './assets/pages/products/buttWeldFittings/Elbow45.jsx'
 import ButtWeldBendsFittings from './assets/pages/products/buttWeldFittings/ButtWeldBendsFittings.jsx'
 import ButtWeldTeeFittings from './assets/pages/products/buttWeldFittings/ButtWeldTeeFittings.jsx'
-import Seo from './assets/pages/Seo.jsx'
+
 import ReducingTee from './assets/pages/products/buttWeldFittings/ReducingTee.jsx'
 import StraightTee from './assets/pages/products/buttWeldFittings/StraightTee.jsx'
 import ButtWeldReducersFittings from './assets/pages/products/buttWeldFittings/ButtWeldReducersFittings.jsx'
@@ -113,12 +113,14 @@ import ScrollToTop from './assets/components/common/ScrollToTop.jsx'
 import ProductMenuModal from './assets/components/common/ProductMenuModal.jsx'
 import MarketArea from './assets/pages/MarketArea.jsx'
 import CityPage from './assets/pages/CityPage.jsx'
+import SEOManager from './assets/components/common/SEOManager.jsx'
 
 
 function App() {
   return (
     <div>
       <ScrollToTop />
+      <SEOManager />
       <Navbar />
       <ProductMenuModal />
 
@@ -136,7 +138,7 @@ function App() {
         <Route path='/quality' element={<Quality/>} />
         <Route path='/certification' element={<Certification/>} />
         <Route path='/career' element={<CareerPage/>} />
-        <Route path='/seo' element={<Seo/>} />
+        
         <Route path='/market-area' element={<MarketArea/>} />
 
 

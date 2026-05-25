@@ -45,19 +45,19 @@ const Home = () => {
     {
       title: "Industrial Flanges",
       description: "Top-rated Flanges Manufacturer in India, producing Slip-on, Weld Neck, Blind, and Socket Weld flanges. Compliant with ASME B16.5 and B16.47 specifications.",
-      image: "/images/industrial flanges.jpeg",
+      image: "/images/industrial-flanges.jpeg",
       link: "/products/flanges/slip-on-flange"
     },
     {
       title: "Buttweld Fittings",
       description: "High-durability seamless and welded fittings, including reducers and caps, engineered for smooth flow and maximum structural integrity.",
-      image: "/images/but weld fittings.jpeg",
+      image: "/images/but-weld-fittings.jpeg",
       link: "/products/buttweld-fittings/butt-weld-elbow-fittings"
     },
     {
       title: "Socket Weld Fittings",
       description: "Precision-crafted Socket Weld and Threaded Fittings (Elbows, Tees, Unions, and Couplings) designed for high-pressure systems.",
-      image: "/images/socket weld fittings.jpeg",
+      image: "/images/socket-weld-fittings.jpeg",
       link: "/products/socket-weld-fittings/socket-weld-coupling-fittings"
     }
   ];
@@ -89,7 +89,7 @@ const Home = () => {
   // Data for SLIDER Section (5 items with Images now)
   const sliderItems = [
     { 
-      image: "/images/advance manufacturing.webp",
+      image: "/images/advance-manufacturing.webp",
       icon: <Factory size={32} />, 
       title: "Advanced Manufacturing", 
       description: "State-of-the-art machinery for precision forging." 
@@ -145,12 +145,12 @@ const Home = () => {
     "/images/BHEL_logo.svg.webp",
     "/images/bhilosa.webp",
     "/images/deccan.webp",
-    "/images/deepak chem tech.webp",
+    "/images/deepak-chem-tech.webp",
     "/images/DESMET.jpg.webp",
-    "/images/gardner denver.webp",
+    "/images/gardner-denver.webp",
     "/images/gnfc.webp",
     "/images/godrej-logo.jpg.webp",
-    "/images/gujrat state fertilizers.webp",
+    "/images/gujrat-state-fertilizers.webp",
     "/images/Hindustan-Petroleum.webp",
     "/images/indian-oil.jpg.webp",
     "/images/isrro.jpg.webp",
@@ -281,7 +281,7 @@ const Home = () => {
               </button>
 
               <a 
-                href="/Remax Brochure.pdf" 
+                href="/remax-forge-fittings-brochure.pdf" 
                 download 
                 className="w-full sm:w-auto px-8 py-4 rounded font-bold text-white border-2 border-white/30 bg-white/10 backdrop-blur-sm transition-all transform hover:-translate-y-1 hover:shadow-2xl hover:bg-white/20 flex items-center justify-center gap-2 group whitespace-nowrap shrink-0 min-w-[180px]"
               >
@@ -330,6 +330,7 @@ const Home = () => {
                 <img 
                   src="/images/why.jpeg" 
                   alt="Industrial Worker Welding" 
+                  loading="lazy"
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
                 />
                 {/* Decorative border outline */}
@@ -457,6 +458,7 @@ const Home = () => {
                       <img 
                         src={product.image} 
                         alt={product.title} 
+                        loading="lazy"
                         className="w-full h-full object-contain p-6 transform group-hover:scale-110 transition-transform duration-700"
                       />
                       {/* Decorative stripe */}
@@ -567,7 +569,7 @@ const Home = () => {
                 sector: "Petrochemical",
                 application: "Corrosive chemical processing",
                 products: "Stainless Steel Fittings, Duplex Steel",
-                image: "/images/petro chemical.jpeg",
+                image: "/images/petro-chemical.jpeg",
                 links: [
                   { name: "Socket Weld Coupling Fittings", url: "/products/socket-weld-fittings/socket-weld-coupling-fittings" },
                   { name: "Threaded Flange", url: "/products/flanges/threaded-flange" }
@@ -577,7 +579,7 @@ const Home = () => {
                 sector: "Power Plants",
                 application: "Boiler systems & steam generation",
                 products: "IBR Approved Fittings, Alloy Steel",
-                image: "/images/power plant.jpeg",
+                image: "/images/power-plant.jpeg",
                 links: [
                   { name: "Butt Weld Tee Fittings", url: "/products/buttweld-fittings/butt-weld-tee-fittings" },
                   { name: "Concentric Reducer", url: "/products/buttweld-fittings/concentric-reducer" }
@@ -598,6 +600,7 @@ const Home = () => {
                 <img 
                   src={item.image} 
                   alt={item.sector} 
+                  loading="lazy"
                   className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-30 group-hover:scale-110 transition-all duration-700" 
                 />
                 <div className="absolute inset-0 p-6 md:p-8 flex flex-col justify-end z-20">
@@ -662,6 +665,7 @@ const Home = () => {
             <img
               src={logo}
               alt={`Client ${index}`}
+              loading="lazy"
               className="max-w-full max-h-full object-contain transition duration-300"
             />
           </div>
@@ -678,6 +682,7 @@ const Home = () => {
             <img
               src={logo}
               alt={`Client ${index}`}
+              loading="lazy"
               className="max-w-full max-h-full object-contain transition duration-300"
             />
           </div>

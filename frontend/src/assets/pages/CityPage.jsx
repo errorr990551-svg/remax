@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams, Navigate } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Globe, Settings, Clock, CheckCircle2, Factory, Award, Truck, PenTool, ChevronLeft, ChevronRight, HelpCircle, ChevronDown, ChevronUp } from 'lucide-react';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 import { useProductMenu } from '../context/ProductMenuContext.jsx';
@@ -12,8 +12,17 @@ const CityPage = () => {
   const { openQuotePopup } = useQuotePopup();
   const { openProductMenu } = useProductMenu();
   
+  const KEPT_CITIES = [
+    'mumbai', 'ahmedabad', 'pune', 'surat', 'chennai', 'hyderabad', 'bengaluru', 
+    'visakhapatnam', 'vadodara', 'rajkot', 'nashik', 'nagpur', 'jaipur', 
+    'thane', 'coimbatore', 'kochi', 'jamshedpur', 'raipur', 'gandhinagar', 'vijayawada',
+    'rishikesh', 'haldwani', 'roorkee', 'haridwar', 'dehradun',
+    'siliguri', 'durgapur', 'asansol', 'kolkata', 'kharagpur'
+  ];
+
+  const lowercaseCity = cityName?.toLowerCase();
   const lookupKey = stateName ? `${stateName}/${cityName}` : cityName;
-  const data = marketAreaData[lookupKey.toLowerCase()];
+  const data = marketAreaData[lookupKey?.toLowerCase()];
 
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
 
@@ -21,8 +30,8 @@ const CityPage = () => {
     setOpenFaqIndex(openFaqIndex === index ? null : index);
   };
 
-  if (!data) {
-    return <div className="pt-40 pb-20 text-center">City not found</div>;
+  if (!lowercaseCity || !data) {
+    return <Navigate to="/market-area" replace />;
   }
 
   const scrollToProducts = () => {
@@ -33,7 +42,7 @@ const CityPage = () => {
   };
 
   const clientLogos = [
-    "/images/1.webp", "/images/3.webp", "/images/4.webp", "/images/5.webp", "/images/6.webp", "/images/8.webp", "/images/9.webp", "/images/10.webp", "/images/11.svg", "/images/12.webp", "/images/13.webp", "/images/14.webp", "/images/15.webp", "/images/16.webp", "/images/17.webp", "/images/19.webp", "/images/c2.webp", "/images/Adani_2012_logo.webp", "/images/air-products-logo.webp", "/images/Arcelor_Mittal.svg.webp", "/images/BHEL_logo.svg.webp", "/images/bhilosa.webp", "/images/deccan.webp", "/images/deepak chem tech.webp", "/images/DESMET.jpg.webp", "/images/gardner denver.webp", "/images/gnfc.webp", "/images/godrej-logo.jpg.webp", "/images/gujrat state fertilizers.webp", "/images/Hindustan-Petroleum.webp", "/images/indian-oil.jpg.webp", "/images/isrro.jpg.webp", "/images/jindal-steel.webp", "/images/jsw.webp", "/images/larsen.webp", "/images/linde.webp", "/images/nrl-og-logo.webp", "/images/ongc.webp", "/images/paharpur.webp", "/images/pidilite-logo.jpg.webp", "/images/Praj.jpg.webp", "/images/Shree_Renuka_Sugars.jpg.webp", "/images/tata-steel.jpg.webp", "/images/thyssenkurpp.webp", "/images/upl.webp", "/images/wipro-logo-300x300.webp"
+    "/images/1.webp", "/images/3.webp", "/images/4.webp", "/images/5.webp", "/images/6.webp", "/images/8.webp", "/images/9.webp", "/images/10.webp", "/images/11.svg", "/images/12.webp", "/images/13.webp", "/images/14.webp", "/images/15.webp", "/images/16.webp", "/images/17.webp", "/images/19.webp", "/images/c2.webp", "/images/Adani_2012_logo.webp", "/images/air-products-logo.webp", "/images/Arcelor_Mittal.svg.webp", "/images/BHEL_logo.svg.webp", "/images/bhilosa.webp", "/images/deccan.webp", "/images/deepak-chem-tech.webp", "/images/DESMET.jpg.webp", "/images/gardner-denver.webp", "/images/gnfc.webp", "/images/godrej-logo.jpg.webp", "/images/gujrat-state-fertilizers.webp", "/images/Hindustan-Petroleum.webp", "/images/indian-oil.jpg.webp", "/images/isrro.jpg.webp", "/images/jindal-steel.webp", "/images/jsw.webp", "/images/larsen.webp", "/images/linde.webp", "/images/nrl-og-logo.webp", "/images/ongc.webp", "/images/paharpur.webp", "/images/pidilite-logo.jpg.webp", "/images/Praj.jpg.webp", "/images/Shree_Renuka_Sugars.jpg.webp", "/images/tata-steel.jpg.webp", "/images/thyssenkurpp.webp", "/images/upl.webp", "/images/wipro-logo-300x300.webp"
   ];
 
   const [productSlide, setProductSlide] = useState(0);
@@ -51,6 +60,7 @@ const CityPage = () => {
         title={data.meta.title}
         description={data.meta.description}
         keywords={data.meta.keywords}
+        robots={KEPT_CITIES.includes(lowercaseCity) ? "index, follow" : "noindex, nofollow"}
       />
       <style>
         {`
@@ -154,6 +164,7 @@ const CityPage = () => {
                 src="/images/why.jpeg" 
                 alt={data.warehouseImageAlt} 
                 title={data.warehouseImageAlt}
+                loading="lazy"
                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
               />
               <div 
@@ -221,9 +232,10 @@ const CityPage = () => {
               >
                 <div className="relative h-64 overflow-hidden">
                   <img 
-                    src={index === 0 ? "/images/industrial flanges.jpeg" : index === 1 ? "/images/but weld fittings.jpeg" : "/images/socket weld fittings.jpeg"} 
+                    src={index === 0 ? "/images/industrial-flanges.jpeg" : index === 1 ? "/images/but-weld-fittings.jpeg" : "/images/socket-weld-fittings.jpeg"} 
                     alt={product.alt} 
                     title={product.alt}
+                    loading="lazy"
                     className="w-full h-full object-contain p-6 transform group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute bottom-0 left-0 w-full h-1 bg-[#D71920] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left z-20"></div>
@@ -314,7 +326,7 @@ const CityPage = () => {
                 sector: "Petrochemical",
                 application: "Corrosive chemical processing",
                 products: "Stainless Steel Fittings, Duplex Steel",
-                image: "/images/petro chemical.jpeg",
+                image: "/images/petro-chemical.jpeg",
                 links: [
                   { name: "Socket Weld Coupling Fittings", url: "/products/socket-weld-fittings/socket-weld-coupling-fittings" },
                   { name: "Threaded Flange", url: "/products/flanges/threaded-flange" }
@@ -324,7 +336,7 @@ const CityPage = () => {
                 sector: "Power Plants",
                 application: "Boiler systems & steam generation",
                 products: "IBR Approved Fittings, Alloy Steel",
-                image: "/images/power plant.jpeg",
+                image: "/images/power-plant.jpeg",
                 links: [
                   { name: "Butt Weld Tee Fittings", url: "/products/buttweld-fittings/butt-weld-tee-fittings" },
                   { name: "Concentric Reducer", url: "/products/buttweld-fittings/concentric-reducer" }
@@ -345,6 +357,7 @@ const CityPage = () => {
                 <img 
                   src={item.image} 
                   alt={item.sector} 
+                  loading="lazy"
                   className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-30 group-hover:scale-110 transition-all duration-700" 
                 />
                 <div className="absolute inset-0 p-6 md:p-8 flex flex-col justify-end z-20">
@@ -420,14 +433,14 @@ const CityPage = () => {
             <div className="flex gap-20 px-12 items-center">
               {clientLogos.map((logo, index) => (
                 <div key={`logo-1-${index}`} className="flex-shrink-0 w-36 h-24 flex items-center justify-center">
-                  <img src={logo} alt={`Client ${index}`} className="max-w-full max-h-full object-contain" />
+                  <img src={logo} alt={`Client ${index}`} loading="lazy" className="max-w-full max-h-full object-contain" />
                 </div>
               ))}
             </div>
             <div className="flex gap-20 px-12 items-center">
               {clientLogos.map((logo, index) => (
                 <div key={`logo-2-${index}`} className="flex-shrink-0 w-36 h-24 flex items-center justify-center">
-                  <img src={logo} alt={`Client ${index}`} className="max-w-full max-h-full object-contain" />
+                  <img src={logo} alt={`Client ${index}`} loading="lazy" className="max-w-full max-h-full object-contain" />
                 </div>
               ))}
             </div>

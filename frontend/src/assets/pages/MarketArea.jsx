@@ -245,6 +245,26 @@ const MarketArea = () => {
         { name: "Lucknow", path: "/lucknow" },
         { name: "Kanpur", path: "/kanpur" },
       ]
+    },
+    {
+      name: "UTTARAKHAND",
+      cities: [
+        { name: "Rishikesh", path: "/rishikesh" },
+        { name: "Haldwani", path: "/haldwani" },
+        { name: "Roorkee", path: "/roorkee" },
+        { name: "Haridwar", path: "/haridwar" },
+        { name: "Dehradun", path: "/dehradun" }
+      ]
+    },
+    {
+      name: "WEST BENGAL",
+      cities: [
+        { name: "Siliguri", path: "/siliguri" },
+        { name: "Durgapur", path: "/durgapur" },
+        { name: "Asansol", path: "/asansol" },
+        { name: "Kolkata", path: "/kolkata" },
+        { name: "Kharagpur", path: "/kharagpur" }
+      ]
     }
   ];
 

@@ -70,6 +70,7 @@ const Footer = () => {
                 { name: 'Quality Policy', path: '/quality' },
                 { name: 'Tech Info', path: '/tech-info/dimensions' },
                 { name: 'Certificates', path: '/certification' },
+                { name: 'Careers', path: '/career' },
                 { name: 'Blogs', path: '/blogs' },
                 { name: 'Market Area', path: '/market-area' },
                 { name: 'Contact Us', path: '/contact' }
@@ -91,17 +92,30 @@ const Footer = () => {
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-[#D71920] rounded"></span>
             </h3>
             <ul className="space-y-3">
-              {productData.map((item, index) => (
-                <li key={item.category}>
-                  <button 
-                    onClick={() => openProductMenu(index)}
-                    className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm text-left w-full group"
-                  >
-                    <ChevronRight size={14} className="text-[#D71920] group-hover:translate-x-1 transition-transform" />
-                    {item.category}
-                  </button>
-                </li>
-              ))}
+              {productData.map((item, index) => {
+                const getCategoryLink = (category) => {
+                  if (category === "Flanges") return "/products/flanges/slip-on-flange";
+                  if (category === "Buttweld Fittings") return "/products/buttweld-fittings/butt-weld-elbow-fittings";
+                  if (category === "Socket Weld Fittings") return "/products/socket-weld-fittings/socket-weld-coupling-fittings";
+                  if (category === "Pipes") return "/products/pipes/stainless-steel-pipes";
+                  if (category === "Tubes") return "/products/tubes/stainless-steel-tubes";
+                  if (category === "Plates") return "/products/plates/hardox-plate";
+                  if (category === "Round Bar") return "/products/round-bar/stainless-steel-bar";
+                  return "/";
+                };
+                return (
+                  <li key={item.category}>
+                    <Link 
+                      to={getCategoryLink(item.category)}
+                      onClick={() => openProductMenu(index)}
+                      className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm text-left w-full group"
+                    >
+                      <ChevronRight size={14} className="text-[#D71920] group-hover:translate-x-1 transition-transform" />
+                      {item.category}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 

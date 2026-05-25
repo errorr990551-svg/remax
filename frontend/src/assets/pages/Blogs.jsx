@@ -9,7 +9,7 @@ const Blogs = () => {
       id: 'pipe-flanges-guide',
       title: 'The Complete Guide to Pipe Flanges: Types, Standards, Materials, and Selection',
       excerpt: 'Comprehensive guide to industrial pipe flanges. Learn about flange types (Weld Neck, Slip-On, Blind), facing, pressure classes, materials, and selection for piping systems.',
-      image: '/images/b(2) 1.jpeg',
+      image: '/images/b(2)-1.jpeg',
       date: 'Technical Reference',
       author: 'Remax Forge & Fittings',
     },

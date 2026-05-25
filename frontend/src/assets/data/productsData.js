@@ -19,7 +19,7 @@ export const productData = [
   {
     category: "Buttweld Fittings",
     subcategories: [
-      "Butt Weld Elbow Fittings", "180° Elbow", "90° Elbow", "45° Elbow",
+      "Butt Weld Elbow Fittings", "180-Elbow", "90-Elbow", "45-Elbow",
       "Butt Weld Bends Fittings", "Butt Weld Tee Fittings", "Reducing Tee", "Straight Tee",
       "Butt Weld Reducers Fittings", "Concentric Reducer", "Eccentric Reducer", "Oval Caps"
     ]
@@ -38,6 +38,72 @@ export const productData = [
       "Socket weld Nipple Fittings",
       "Socket weld Bushing Fittings",
       "Socket weld Plug Fittings"
+    ]
+  },
+  {
+    category: "Pipes",
+    subcategories: [
+      "Stainless Steel Pipes",
+      "Carbon Steel Pipes",
+      "Alloy Steel Pipes",
+      "Duplex Steel Superduplex Steel Pipe",
+      "Nickel Pipe",
+      "Hastelloy Pipes",
+      "Incoloy Pipe",
+      "Monel Pipe",
+      "Titanium Pipe",
+      "Tantalum Pipe",
+      "Aluminium Pipe",
+      "Mild Steel Pipes",
+      "Copper Pipes",
+      "Brass Pipes"
+    ]
+  },
+  {
+    category: "Tubes",
+    subcategories: [
+      "Stainless Steel Tubes",
+      "Carbon Steel Tubes",
+      "Alloy Steel Tube",
+      "Duplex Steel Super Duplex Steel Tube",
+      "Nickel Tube",
+      "Hastelloy Tubes",
+      "Incoloy Tubes",
+      "Monel Tubes",
+      "Titanium Tubes",
+      "Tantalum Tubes",
+      "Aluminium Tubes",
+      "Copper Tube",
+      "Brass Tube"
+    ]
+  },
+  {
+    category: "Plates",
+    subcategories: [
+      "Hardox Plate",
+      "Corten Steel Plate",
+      "Boiler Quality Plate",
+      "Manganese Plate",
+      "Nickel Alloy Plate",
+      "Chrome Moly Plate",
+      "Pressure Vessel Plate",
+      "Stainless Steel Plate",
+      "Carbon Steel Plate",
+      "Offshore Steel Plate",
+      "Quend Plate",
+      "Quard Plate",
+      "Aluminium Plate",
+      "Chequered Plate"
+    ]
+  },
+  {
+    category: "Round Bar",
+    subcategories: [
+      "Stainless Steel Bar",
+      "Carbon Steel Bar",
+      "Alloy Steel Bar",
+      "Duplex Steel Bar",
+      "Nickel Alloy Bar"
     ]
   }
 ];

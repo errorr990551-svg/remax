@@ -61,6 +61,8 @@ const Navbar = () => {
               <img
                 src={LogoImg}
                 alt="Remax Logo"
+                fetchpriority="high"
+                loading="eager"
                 className="h-14 w-auto object-contain"
               />
              
@@ -103,13 +105,13 @@ const Navbar = () => {
                 onMouseEnter={() => setProductDropdownOpen(true)}
                 onMouseLeave={() => setProductDropdownOpen(false)}
               >
-                <button className="flex items-center font-medium text-base hover:text-[#D71920]">
+                <Link to="/products/flanges/slip-on-flange" className="flex items-center font-medium text-base hover:text-[#D71920]">
                   Products
                   <ChevronDown
                     size={18}
                     className={`ml-1 transition-transform ${productDropdownOpen ? 'rotate-180' : ''}`}
                   />
-                </button>
+                </Link>
 
                 <div
                   className={`absolute left-1/2 top-full w-[900px] -translate-x-1/2 bg-white rounded-md shadow-2xl overflow-hidden transition-all duration-200 origin-top border-t-4 border-[#D71920] ${
@@ -170,10 +172,10 @@ const Navbar = () => {
                 onMouseEnter={() => setQualityDropdownOpen(true)}
                 onMouseLeave={() => setQualityDropdownOpen(false)}
               >
-                <button className="flex items-center font-medium text-base hover:text-[#D71920]">
+                <Link to="/quality" className="flex items-center font-medium text-base hover:text-[#D71920]">
                   Quality
                   <ChevronDown size={18} className={`ml-1 transition-transform ${qualityDropdownOpen ? 'rotate-180' : ''}`} />
-                </button>
+                </Link>
 
                 <div
                   className={`absolute left-0 top-full w-56 bg-white rounded-md shadow-xl py-2 border-t-4 border-[#D71920] ${
@@ -195,10 +197,10 @@ const Navbar = () => {
                 onMouseEnter={() => setTechDropdownOpen(true)}
                 onMouseLeave={() => setTechDropdownOpen(false)}
               >
-                <button className="flex items-center font-medium text-base hover:text-[#D71920]">
+                <Link to="/tech-info/dimensions" className="flex items-center font-medium text-base hover:text-[#D71920]">
                   Tech Info
                   <ChevronDown size={18} className={`ml-1 transition-transform ${techDropdownOpen ? 'rotate-180' : ''}`} />
-                </button>
+                </Link>
 
                 <div
                   className={`absolute left-0 top-full w-72 bg-white rounded-md shadow-xl py-2 border-t-4 border-[#D71920] ${

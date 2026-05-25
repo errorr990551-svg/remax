@@ -42,7 +42,7 @@ const PipeFlangesGuide = () => {
           {/* Primary Image: Installed piping system with flanges */}
           <div className="mb-10 rounded-xl overflow-hidden shadow-md max-w-2xl mx-auto">
             <img 
-              src="/images/b(2) 1.jpeg" 
+              src="/images/b(2)-1.jpeg" 
               alt="industrial piping system with bolted pipe flanges used in oil gas and chemical processing plant" 
               className="w-full h-auto"
             />

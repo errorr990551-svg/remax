@@ -46,8 +46,8 @@ const MetaTags = ({
     setMetaTag('author', author);
     setMetaTag('publisher', publisher);
 
-    // Set canonical URL to the provided one, or default to the current window location
-    const canonicalUrl = canonical || window.location.href.split('?')[0];
+    // Set canonical URL to the provided one, or default to the production URL
+    const canonicalUrl = canonical || 'https://remaxforge.com' + window.location.pathname;
     setLinkTag('canonical', canonicalUrl);
 
   }, [title, description, keywords, canonical, robots, author, publisher]);

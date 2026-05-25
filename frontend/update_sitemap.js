@@ -1,118 +1,40 @@
 import fs from 'fs';
 
+// Kept industrial cities
+const keptCities = [
+  'mumbai', 'ahmedabad', 'pune', 'surat', 'chennai', 'hyderabad', 'bengaluru', 
+  'visakhapatnam', 'vadodara', 'rajkot', 'nashik', 'nagpur', 'jaipur', 
+  'thane', 'coimbatore', 'kochi', 'jamshedpur', 'raipur', 'gandhinagar', 'vijayawada',
+  'rishikesh', 'haldwani', 'roorkee', 'haridwar', 'dehradun',
+  'siliguri', 'durgapur', 'asansol', 'kolkata', 'kharagpur'
+];
+
 const urls = [
   "/",
   "/about-us",
-  "/agartala",
-  "/agra",
-  "/ahmedabad",
-  "/aizawl",
-  "/ajmer",
-  "/amritsar",
-  "/baddi",
-  "/bathinda",
-  "/belagavi",
-  "/belonia",
-  "/bengaluru",
-  "/berhampur",
-  "/bhopal",
-  "/bhagalpur",
-  "/bhilai",
-  "/bhubaneswar",
-  "/bikaner",
-  "/bilaspur",
-  "/bishnupur",
+  "/contact",
+  "/quality",
+  "/certification",
+  "/career",
+  "/market-area",
   "/blogs",
+  
+  // Blog posts
   "/blogs/alloy-steel-power-gen-guide",
   "/blogs/butt-weld-fittings-guide",
   "/blogs/forged-vs-cast-fittings",
   "/blogs/oil-and-gas-pipe-fittings-guide",
   "/blogs/pipe-flanges-guide",
   "/blogs/stainless-steel-grades-explained",
-  "/bokaro",
-  "/career",
-  "/certification",
-  "/champhai",
-  "/chennai",
-  "/cherrapunji",
-  "/churachandpur",
-  "/coimbatore",
-  "/contact",
-  "/cuttack",
-  "/darbhanga",
-  "/deoghar",
-  "/dhanbad",
-  "/dharmanagar",
-  "/dharamshala",
-  "/dibrugarh",
-  "/dimapur",
-  "/durg",
-  "/gandhinagar",
-  "/gangtok",
-  "/gaya",
-  "/geyzing",
-  "/ghaziabad",
-  "/guntur",
-  "/gwalior",
-  "/guwahati",
-  "/hubballi-dharwad",
-  "/hyderabad",
-  "/imphal",
-  "/indore",
-  "/itanagar",
-  "/jabalpur",
-  "/jaipur",
-  "/jalandhar",
-  "/jamshedpur",
-  "/jodhpur",
-  "/jorethang",
-  "/jorhat",
-  "/kailashahar",
-  "/kakching",
-  "/kanpur",
-  "/khammam",
-  "/kolasib",
-  "/korba",
-  "/kota",
-  "/kochi",
-  "/kohima",
-  "/kollam",
-  "/kozhikode",
-  "/kurnool",
-  "/lucknow",
-  "/ludhiana",
-  "/lunglei",
-  "/madurai",
-  "/mandi",
-  "/mangaluru",
-  "/mangan",
-  "/market-area",
-  "/mokokchung",
-  "/mumbai",
-  "/muzaffarpur",
-  "/mysuru",
-  "/nagpur",
-  "/naharlagun",
-  "/namchi",
-  "/nashik",
-  "/nellore",
-  "/nizamabad",
-  "/nongpoh",
-  "/pasighat",
-  "/patiala",
-  "/patna",
-  "/products/buttweld-fittings/180-elbow",
-  "/products/buttweld-fittings/45-elbow",
-  "/products/buttweld-fittings/90-elbow",
-  "/products/buttweld-fittings/butt-weld-bends-fittings",
-  "/products/buttweld-fittings/butt-weld-elbow-fittings",
-  "/products/buttweld-fittings/butt-weld-reducers-fittings",
-  "/products/buttweld-fittings/butt-weld-tee-fittings",
-  "/products/buttweld-fittings/concentric-reducer",
-  "/products/buttweld-fittings/eccentric-reducer",
-  "/products/buttweld-fittings/oval-caps",
-  "/products/buttweld-fittings/reducing-tee",
-  "/products/buttweld-fittings/straight-tee",
+
+  // Tech info
+  "/tech-info/chemical-composition",
+  "/tech-info/dimensions",
+  "/tech-info/mechanical-properties",
+  "/tech-info/weight-chart",
+
+  // Product pages
+  // Flanges
   "/products/flanges/blind-flange",
   "/products/flanges/lap-joint-flange",
   "/products/flanges/long-weld-neck-flange",
@@ -121,6 +43,8 @@ const urls = [
   "/products/flanges/spectacle-blind-flange",
   "/products/flanges/threaded-flange",
   "/products/flanges/weld-neck-flange",
+
+  // Pipes
   "/products/pipes/alloy-steel-pipes",
   "/products/pipes/aluminium-pipe",
   "/products/pipes/brass-pipes",
@@ -135,6 +59,23 @@ const urls = [
   "/products/pipes/stainless-steel-pipes",
   "/products/pipes/tantalum-pipe",
   "/products/pipes/titanium-pipe",
+
+  // Tubes
+  "/products/tubes/alloy-steel-tube",
+  "/products/tubes/aluminium-tubes",
+  "/products/tubes/brass-tube",
+  "/products/tubes/carbon-steel-tubes",
+  "/products/tubes/copper-tube",
+  "/products/tubes/duplex-steel-super-duplex-steel-tube",
+  "/products/tubes/hastelloy-tubes",
+  "/products/tubes/incoloy-tubes",
+  "/products/tubes/monel-tubes",
+  "/products/tubes/nickel-tube",
+  "/products/tubes/stainless-steel-tubes",
+  "/products/tubes/tantalum-tubes",
+  "/products/tubes/titanium-tubes",
+
+  // Plates
   "/products/plates/aluminium-plate",
   "/products/plates/boiler-quality-plate",
   "/products/plates/carbon-steel-plate",
@@ -149,11 +90,29 @@ const urls = [
   "/products/plates/quard-plate",
   "/products/plates/quend-plate",
   "/products/plates/stainless-steel-plate",
+
+  // Round Bar
   "/products/round-bar/alloy-steel-bar",
   "/products/round-bar/carbon-steel-bar",
   "/products/round-bar/duplex-steel-bar",
   "/products/round-bar/nickel-alloy-bar",
   "/products/round-bar/stainless-steel-bar",
+
+  // Buttweld fittings
+  "/products/buttweld-fittings/180-elbow",
+  "/products/buttweld-fittings/45-elbow",
+  "/products/buttweld-fittings/90-elbow",
+  "/products/buttweld-fittings/butt-weld-bends-fittings",
+  "/products/buttweld-fittings/butt-weld-elbow-fittings",
+  "/products/buttweld-fittings/butt-weld-reducers-fittings",
+  "/products/buttweld-fittings/butt-weld-tee-fittings",
+  "/products/buttweld-fittings/concentric-reducer",
+  "/products/buttweld-fittings/eccentric-reducer",
+  "/products/buttweld-fittings/oval-caps",
+  "/products/buttweld-fittings/reducing-tee",
+  "/products/buttweld-fittings/straight-tee",
+
+  // Socket weld fittings
   "/products/socket-weld-fittings/socket-weld-bushing-fittings",
   "/products/socket-weld-fittings/socket-weld-cap-fittings",
   "/products/socket-weld-fittings/socket-weld-coupling-fittings",
@@ -165,59 +124,9 @@ const urls = [
   "/products/socket-weld-fittings/socket-weld-reducer-insert-fittings",
   "/products/socket-weld-fittings/socket-weld-tee-fittings",
   "/products/socket-weld-fittings/socket-weld-union-fittings",
-  "/products/tubes/alloy-steel-tube",
-  "/products/tubes/aluminium-tubes",
-  "/products/tubes/brass-tube",
-  "/products/tubes/carbon-steel-tubes",
-  "/products/tubes/copper-tube",
-  "/products/tubes/duplex-steel-super-duplex-steel-tube",
-  "/products/tubes/hastelloy-tubes",
-  "/products/tubes/incoloy-tubes",
-  "/products/tubes/monel-tubes",
-  "/products/tubes/nickel-tube",
-  "/products/tubes/stainless-steel-tubes",
-  "/products/tubes/tantalum-tubes",
-  "/products/tubes/titanium-tubes",
-  "/pune",
-  "/quality",
-  "/raipur",
-  "/rajkot",
-  "/ramagundam",
-  "/ranchi",
-  "/rourkela",
-  "/salem",
-  "/sambalpur",
-  "/seo",
-  "/serchhip",
-  "/shillong",
-  "/shimla",
-  "/silchar",
-  "/solan",
-  "/surat",
-  "/tawang",
-  "/tech-info/chemical-composition",
-  "/tech-info/dimensions",
-  "/tech-info/mechanical-properties",
-  "/tech-info/weight-chart",
-  "/tezpur",
-  "/thane",
-  "/thiruvananthapuram",
-  "/thoubal",
-  "/thrissur",
-  "/tiruchirappalli",
-  "/tura",
-  "/tuensang",
-  "/udaipur-rajasthan",
-  "/udaipur-tripura",
-  "/ujjain",
-  "/vadodara",
-  "/varanasi",
-  "/vijayawada",
-  "/visakhapatnam",
-  "/warangal",
-  "/williamnagar",
-  "/wokha",
-  "/ziro"
+
+  // Add the 20 kept cities
+  ...keptCities.map(city => `/${city}`)
 ];
 
 const baseUrl = 'https://remaxforge.com';
@@ -230,11 +139,12 @@ function getPriority(url) {
   if (url === '/career') return '0.7';
   if (url.startsWith('/blogs/')) return '0.6';
   if (url === '/blogs') return '0.7';
-  if (url === '/seo') return '0.6';
   if (url === '/market-area') return '0.8';
   // City pages
   return '0.7';
 }
+
+const lastmod = new Date().toISOString().split('T')[0];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -243,6 +153,7 @@ let xml = `<?xml version="1.0" encoding="UTF-8"?>
 urls.forEach(url => {
   xml += `  <url>
     <loc>${baseUrl}${url === '/' ? '' : url}</loc>
+    <lastmod>${lastmod}</lastmod>
     <priority>${getPriority(url)}</priority>
   </url>\n`;
 });
