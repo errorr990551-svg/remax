@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const directory = 'c:/Users/amity/OneDrive/Desktop/Remax/frontend/src';
+const directory = path.resolve('src');
 
 const walk = (dir, callback) => {
   fs.readdirSync(dir).forEach(f => {

@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const directory = 'c:/Users/amity/OneDrive/Desktop/Remax/frontend/public/images';
+const directory = path.resolve('public/images');
 
 fs.readdir(directory, (err, files) => {
   if (err) {

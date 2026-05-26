@@ -1,9 +1,9 @@
 import fs from 'fs';
 import path from 'path';
 
-const imagesDir = 'c:/Users/amity/OneDrive/Desktop/Remax/frontend/public/images';
-const publicDir = 'c:/Users/amity/OneDrive/Desktop/Remax/frontend/public';
-const srcDir = 'c:/Users/amity/OneDrive/Desktop/Remax/frontend/src';
+const imagesDir = path.resolve('public/images');
+const publicDir = path.resolve('public');
+const srcDir = path.resolve('src');
 
 const renamedMap = new Map();
 
@@ -74,7 +74,7 @@ const updateFileReferences = (filePath) => {
 
 walkDir(srcDir, updateFileReferences);
 // Also scan update_sitemap.js and index.html
-updateFileReferences('c:/Users/amity/OneDrive/Desktop/Remax/frontend/index.html');
-updateFileReferences('c:/Users/amity/OneDrive/Desktop/Remax/frontend/update_sitemap.js');
+updateFileReferences(path.resolve('index.html'));
+updateFileReferences(path.resolve('update_sitemap.js'));
 
 console.log('Asset renaming and reference updating completed successfully.');

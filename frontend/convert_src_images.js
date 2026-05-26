@@ -2,7 +2,7 @@ import sharp from 'sharp';
 import fs from 'fs';
 import path from 'path';
 
-const directory = 'c:/Users/amity/OneDrive/Desktop/Remax/frontend/src/assets/images';
+const directory = path.resolve('src/assets/images');
 
 fs.readdir(directory, (err, files) => {
   if (err) {

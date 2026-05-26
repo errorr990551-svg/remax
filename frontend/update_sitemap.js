@@ -1,4 +1,5 @@
 import fs from 'fs';
+import path from 'path';
 
 // Kept industrial cities
 const keptCities = [
@@ -160,5 +161,5 @@ urls.forEach(url => {
 
 xml += `</urlset>`;
 
-fs.writeFileSync('c:/Users/amity/OneDrive/Desktop/Remax/frontend/public/sitemap.xml', xml);
+fs.writeFileSync(path.resolve('public/sitemap.xml'), xml);
 console.log('Sitemap updated successfully!');
