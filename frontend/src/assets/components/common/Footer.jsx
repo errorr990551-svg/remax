@@ -97,10 +97,6 @@ const Footer = () => {
                   if (category === "Flanges") return "/products/flanges/slip-on-flange";
                   if (category === "Buttweld Fittings") return "/products/buttweld-fittings/butt-weld-elbow-fittings";
                   if (category === "Socket Weld Fittings") return "/products/socket-weld-fittings/socket-weld-coupling-fittings";
-                  if (category === "Pipes") return "/products/pipes/stainless-steel-pipes";
-                  if (category === "Tubes") return "/products/tubes/stainless-steel-tubes";
-                  if (category === "Plates") return "/products/plates/hardox-plate";
-                  if (category === "Round Bar") return "/products/round-bar/stainless-steel-bar";
                   return "/";
                 };
                 return (
