@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#0F172A"/>
+  <g stroke="#38BDF8" stroke-width="1.5" fill="none" opacity="0.3">
+    <path d="M 0,50 H 600 M 0,100 H 600 M 0,150 H 600 M 0,200 H 600 M 0,250 H 600"/>
+    <path d="M 100,0 V 300 M 200,0 V 300 M 300,0 V 300 M 400,0 V 300 M 500,0 V 300"/>
+  </g>
+  <line x1="300" y1="20" x2="300" y2="280" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="8 6"/>
+  
+  <!-- Left Side with threads (indicated by ridges) -->
+  <path d="M 80,180 H 180 V 130 H 215 L 220,125 L 215,120 L 220,115 L 215,110 L 220,105 L 215,100 H 225 V 180 Z" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+  <!-- Right Side with threads -->
+  <path d="M 520,180 H 420 V 130 H 385 L 380,125 L 385,120 L 380,115 L 385,110 L 380,105 L 385,100 H 375 V 180 Z" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+  
+  <!-- Bolt Holes -->
+  <rect x="120" y="180" width="20" height="3" fill="#EF4444" opacity="0.8"/>
+  <line x1="130" y1="170" x2="130" y2="190" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <rect x="460" y="180" width="20" height="3" fill="#EF4444" opacity="0.8"/>
+  <line x1="470" y1="170" x2="470" y2="190" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3 3"/>
+  
+  <!-- Thread Label -->
+  <text x="300" y="140" fill="#EF4444" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">Internal NPT Thread</text>
+  
+  <!-- Dimension Lines -->
+  <!-- Thread Size -->
+  <line x1="225" y1="70" x2="375" y2="70" stroke="#E2E8F0" stroke-width="1.5"/>
+  <path d="M 225,65 L 215,70 L 225,75 Z" fill="#E2E8F0"/>
+  <path d="M 375,65 L 385,70 L 375,75 Z" fill="#E2E8F0"/>
+  <text x="300" y="55" fill="#E2E8F0" font-family="monospace" font-size="14" text-anchor="middle">Nominal Thread Size</text>
+  
+  <text x="300" y="280" fill="#38BDF8" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">ASME B16.5 THREADED FLANGE DESIGN</text>
+</svg>

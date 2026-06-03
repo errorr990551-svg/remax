@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { marketAreaData } from '../../data/marketAreaData.js';
+import flangeFaqs from '../../data/flange_faqs.json';
 
 const SEOManager = () => {
   const { pathname } = useLocation();
@@ -138,34 +139,123 @@ const SEOManager = () => {
       const categoryName = formatName(categorySlug);
       const productName = formatName(productSlug);
 
-      if (categorySlug === 'flanges' && productSlug === 'slip-on-flange') {
-        title = 'Slip On Flange Manufacturer in India | ASME B16.5 | Remax Forge';
-      } else if (categorySlug === 'flanges' && productSlug === 'weld-neck-flange') {
-        title = 'Weld Neck Flange Manufacturer in India | ASME B16.5 | Remax Forge';
-      } else {
-        title = `${productName} Manufacturer in India | Remax Forge & Fittings`;
-      }
-
-      description = `${productName} manufacturer in India | ASME/ASTM certified | Available in SS, CS, Alloy Steel | Export to 45+ countries | Remax Forge`;
-      
-      // Attempt to map matching image name if exists on disk
-      image = `${baseUrl}/images/${productSlug}.webp`;
-
-      const productSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'Product',
-        'name': productName,
-        'description': description,
-        'brand': {
-          '@type': 'Brand',
-          'name': 'Remax Forge & Fittings'
+      const flangeSEOConfig = {
+        'slip-on-flange': {
+          title: 'Slip On Flange Manufacturer in India | SO / SORF / SOFF | ASME B16.5 | Remax Forge & Fittings',
+          description: 'Remax Forge & Fittings — ISO 9001:2015 certified Slip On Flange manufacturer in Mumbai, India. ASTM A105, A182 F304/F316, Duplex, Inconel available. ASME B16.5, B16.47. Export to 45+ countries. Get a quote: +91-97699 83108',
+          productName: 'Slip On Flange',
+          productDesc: 'ISO 9001:2015 certified Slip On Flange manufacturer in India. ASME B16.5 certified. Available in Carbon Steel, Stainless Steel, Duplex, Inconel.'
         },
-        'manufacturer': {
-          '@type': 'Organization',
-          'name': 'Remax Forge & Fittings'
+        'weld-neck-flange': {
+          title: 'Weld Neck Flange Manufacturer in India | WN / WNRF / WNFF / WNRTJ | ASME B16.5 | Remax Forge & Fittings',
+          description: 'Remax Forge & Fittings — ISO 9001:2015 certified Weld Neck Flange manufacturer in Mumbai, India. ASTM A105, A182 F304/F316, Duplex, Inconel available. ASME B16.5, B16.47. Export to 45+ countries. Get a quote: +91-97699 83108',
+          productName: 'Weld Neck Flange',
+          productDesc: 'ISO 9001:2015 certified Weld Neck Flange manufacturer in India. ASME B16.5 certified. Available in Carbon Steel, Stainless Steel, Duplex, Inconel.'
+        },
+        'blind-flange': {
+          title: 'Blind Flange Manufacturer in India | BL / BLRF / BLFF / BLRTJ | ASME B16.5 | Remax Forge & Fittings',
+          description: 'Remax Forge & Fittings — ISO 9001:2015 certified Blind Flange manufacturer in Mumbai, India. ASTM A105, A182 F304/F316, Duplex, Inconel available. ASME B16.5, B16.47. Export to 45+ countries. Get a quote: +91-97699 83108',
+          productName: 'Blind Flange',
+          productDesc: 'ISO 9001:2015 certified Blind Flange manufacturer in India. ASME B16.5 certified. Available in Carbon Steel, Stainless Steel, Duplex, Inconel.'
+        },
+        'socket-weld-flange': {
+          title: 'Socket Weld Flange Manufacturer in India | SW / SWRF / SWFF | ASME B16.5 | Remax Forge & Fittings',
+          description: 'Remax Forge & Fittings — ISO 9001:2015 certified Socket Weld Flange manufacturer in Mumbai, India. ASTM A105, A182 F304/F316, Duplex, Inconel available. ASME B16.5, B16.47. Export to 45+ countries. Get a quote: +91-97699 83108',
+          productName: 'Socket Weld Flange',
+          productDesc: 'ISO 9001:2015 certified Socket Weld Flange manufacturer in India. ASME B16.5 certified. Available in Carbon Steel, Stainless Steel, Duplex, Inconel.'
+        },
+        'threaded-flange': {
+          title: 'Threaded Flange Manufacturer in India | TH / THRF / THFF / Screwed Flange | ASME B16.5 | Remax Forge & Fittings',
+          description: 'Remax Forge & Fittings — ISO 9001:2015 certified Threaded Flange manufacturer in Mumbai, India. ASTM A105, A182 F304/F316, Duplex, Inconel available. ASME B16.5, B16.47. Export to 45+ countries. Get a quote: +91-97699 83108',
+          productName: 'Threaded Flange',
+          productDesc: 'ISO 9001:2015 certified Threaded Flange manufacturer in India. ASME B16.5 certified. Available in Carbon Steel, Stainless Steel, Duplex, Inconel.'
+        },
+        'lap-joint-flange': {
+          title: 'Lap Joint Flange Manufacturer in India | LJ / LJF / LJFF | ASME B16.5 | Remax Forge & Fittings',
+          description: 'Remax Forge & Fittings — ISO 9001:2015 certified Lap Joint Flange manufacturer in Mumbai, India. ASTM A105, A182 F304/F316, Duplex, Inconel available. ASME B16.5, B16.47. Export to 45+ countries. Get a quote: +91-97699 83108',
+          productName: 'Lap Joint Flange',
+          productDesc: 'ISO 9001:2015 certified Lap Joint Flange manufacturer in India. ASME B16.5 certified. Available in Carbon Steel, Stainless Steel, Duplex, Inconel.'
+        },
+        'long-weld-neck-flange': {
+          title: 'Long Weld Neck Flange Manufacturer in India | LWN / LWNF / Long Hub Flange | ASME B16.5 | Remax Forge & Fittings',
+          description: 'Remax Forge & Fittings — ISO 9001:2015 certified Long Weld Neck Flange manufacturer in Mumbai, India. ASTM A105, A182 F304/F316, Duplex, Inconel available. ASME B16.5, B16.47. Export to 45+ countries. Get a quote: +91-97699 83108',
+          productName: 'Long Weld Neck Flange',
+          productDesc: 'ISO 9001:2015 certified Long Weld Neck Flange manufacturer in India. ASME B16.5 certified. Available in Carbon Steel, Stainless Steel, Duplex, Inconel.'
+        },
+        'spectacle-blind-flange': {
+          title: 'Spectacle Blind Flange Manufacturer in India | Spec Blind / Figure-8 / Spectacle Plate | ASME B16.5 | Remax Forge & Fittings',
+          description: 'Remax Forge & Fittings — ISO 9001:2015 certified Spectacle Blind Flange manufacturer in Mumbai, India. ASTM A105, A182 F304/F316, Duplex, Inconel available. ASME B16.5, B16.47. Export to 45+ countries. Get a quote: +91-97699 83108',
+          productName: 'Spectacle Blind Flange',
+          productDesc: 'ISO 9001:2015 certified Spectacle Blind Flange manufacturer in India. ASME B16.5 certified. Available in Carbon Steel, Stainless Steel, Duplex, Inconel.'
         }
       };
-      schemas.push(productSchema);
+
+      if (categorySlug === 'flanges' && flangeSEOConfig[productSlug]) {
+        const config = flangeSEOConfig[productSlug];
+        title = config.title;
+        description = config.description;
+        image = `${baseUrl}/images/${productSlug}.webp`;
+
+        const productSchema = {
+          '@context': 'https://schema.org',
+          '@type': 'Product',
+          'name': config.productName,
+          'description': config.productDesc,
+          'brand': {
+            '@type': 'Brand',
+            'name': 'Remax Forge & Fittings'
+          },
+          'manufacturer': {
+            '@type': 'Organization',
+            'name': 'Remax Forge & Fittings',
+            'address': {
+              '@type': 'PostalAddress',
+              'addressLocality': 'Mumbai',
+              'addressRegion': 'Maharashtra',
+              'addressCountry': 'IN'
+            }
+          }
+        };
+        schemas.push(productSchema);
+
+        const productFaqs = flangeFaqs[productSlug];
+        if (productFaqs && productFaqs.length > 0) {
+          const faqSchema = {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            'mainEntity': productFaqs.map(faq => ({
+              '@type': 'Question',
+              'name': faq.question,
+              'acceptedAnswer': {
+                '@type': 'Answer',
+                'text': faq.answer
+              }
+            }))
+          };
+          schemas.push(faqSchema);
+        }
+      } else {
+        title = `${productName} Manufacturer in India | Remax Forge & Fittings`;
+        description = `${productName} manufacturer in India | ASME/ASTM certified | Available in SS, CS, Alloy Steel | Export to 45+ countries | Remax Forge`;
+        image = `${baseUrl}/images/${productSlug}.webp`;
+
+        const productSchema = {
+          '@context': 'https://schema.org',
+          '@type': 'Product',
+          'name': productName,
+          'description': description,
+          'brand': {
+            '@type': 'Brand',
+            'name': 'Remax Forge & Fittings'
+          },
+          'manufacturer': {
+            '@type': 'Organization',
+            'name': 'Remax Forge & Fittings'
+          }
+        };
+        schemas.push(productSchema);
+      }
+
       schemas.push(makeBreadcrumbs([
         breadcrumbsHome,
         { name: categoryName, path: `/products/${categorySlug}/${productSlug}` },

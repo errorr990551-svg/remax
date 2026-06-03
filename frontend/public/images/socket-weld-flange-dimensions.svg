@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="100%" height="100%">
+  <rect width="100%" height="100%" fill="#0F172A"/>
+  <g stroke="#38BDF8" stroke-width="1.5" fill="none" opacity="0.3">
+    <path d="M 0,50 H 600 M 0,100 H 600 M 0,150 H 600 M 0,200 H 600 M 0,250 H 600"/>
+    <path d="M 100,0 V 300 M 200,0 V 300 M 300,0 V 300 M 400,0 V 300 M 500,0 V 300"/>
+  </g>
+  <line x1="300" y1="20" x2="300" y2="280" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="8 6"/>
+  
+  <!-- Socket Weld Section with shoulder -->
+  <!-- Left Side -->
+  <path d="M 80,180 H 180 V 130 H 220 V 100 H 230 V 120 H 210 V 180 Z" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+  <!-- Right Side -->
+  <path d="M 520,180 H 420 V 130 H 380 V 100 H 370 V 120 H 390 V 180 Z" fill="#1E293B" stroke="#38BDF8" stroke-width="2"/>
+  
+  <!-- Bolt Holes -->
+  <rect x="120" y="180" width="20" height="3" fill="#EF4444" opacity="0.8"/>
+  <line x1="130" y1="170" x2="130" y2="190" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <rect x="460" y="180" width="20" height="3" fill="#EF4444" opacity="0.8"/>
+  <line x1="470" y1="170" x2="470" y2="190" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3 3"/>
+  
+  <!-- Dimension Lines -->
+  <!-- Socket Bore -->
+  <line x1="210" y1="70" x2="390" y2="70" stroke="#E2E8F0" stroke-width="1.5"/>
+  <path d="M 210,65 L 200,70 L 210,75 Z" fill="#E2E8F0"/>
+  <path d="M 390,65 L 400,70 L 390,75 Z" fill="#E2E8F0"/>
+  <text x="300" y="55" fill="#E2E8F0" font-family="monospace" font-size="14" text-anchor="middle">Socket ID (B)</text>
+  
+  <!-- Inner bore -->
+  <line x1="230" y1="140" x2="370" y2="140" stroke="#E2E8F0" stroke-width="1.5"/>
+  <path d="M 230,135 L 220,140 L 230,145 Z" fill="#E2E8F0"/>
+  <path d="M 370,135 L 380,140 L 370,145 Z" fill="#E2E8F0"/>
+  <text x="300" y="160" fill="#E2E8F0" font-family="monospace" font-size="14" text-anchor="middle">Inner Bore (d)</text>
+  
+  <text x="300" y="280" fill="#38BDF8" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">ASME B16.5 SOCKET WELD FLANGE DESIGN</text>
+</svg>

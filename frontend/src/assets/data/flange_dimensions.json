@@ -1,0 +1,1162 @@
+{
+  "slip-on-flange": {
+    "title": "ASME B16.5 SLIP ON FLANGE — CLASS 150# DIMENSIONS\n(Developer: build this as an HTML table with sortable NPS column)",
+    "headers": [
+      "NPS (inch)",
+      "DN (mm)",
+      "Flange OD (mm)",
+      "Bolt Circle (mm)",
+      "No. of Bolt Holes",
+      "Bolt Hole Dia (mm)",
+      "Flange Thickness T (mm)",
+      "Hub OD (mm)",
+      "Approx. Weight CS (kg)"
+    ],
+    "rows": [
+      [
+        "½",
+        "15",
+        "89",
+        "60",
+        "4",
+        "16",
+        "9.6",
+        "35",
+        "0.4"
+      ],
+      [
+        "¾",
+        "20",
+        "98",
+        "70",
+        "4",
+        "16",
+        "11.2",
+        "43",
+        "0.5"
+      ],
+      [
+        "1",
+        "25",
+        "108",
+        "79",
+        "4",
+        "16",
+        "12.7",
+        "51",
+        "0.7"
+      ],
+      [
+        "1¼",
+        "32",
+        "117",
+        "89",
+        "4",
+        "16",
+        "14.3",
+        "64",
+        "0.9"
+      ],
+      [
+        "1½",
+        "40",
+        "127",
+        "98",
+        "4",
+        "16",
+        "15.9",
+        "73",
+        "1.1"
+      ],
+      [
+        "2",
+        "50",
+        "152",
+        "121",
+        "4",
+        "19",
+        "17.5",
+        "92",
+        "1.6"
+      ],
+      [
+        "2½",
+        "65",
+        "178",
+        "140",
+        "4",
+        "19",
+        "20.6",
+        "105",
+        "2.4"
+      ],
+      [
+        "3",
+        "80",
+        "190",
+        "152",
+        "4",
+        "19",
+        "23.9",
+        "127",
+        "3.0"
+      ],
+      [
+        "4",
+        "100",
+        "229",
+        "190",
+        "8",
+        "19",
+        "23.9",
+        "157",
+        "4.5"
+      ],
+      [
+        "6",
+        "150",
+        "279",
+        "241",
+        "8",
+        "22",
+        "25.4",
+        "216",
+        "7.5"
+      ],
+      [
+        "8",
+        "200",
+        "343",
+        "298",
+        "8",
+        "22",
+        "28.6",
+        "270",
+        "12.0"
+      ],
+      [
+        "10",
+        "250",
+        "406",
+        "362",
+        "12",
+        "25",
+        "30.2",
+        "324",
+        "18.5"
+      ],
+      [
+        "12",
+        "300",
+        "483",
+        "432",
+        "12",
+        "25",
+        "31.8",
+        "381",
+        "27.0"
+      ],
+      [
+        "14",
+        "350",
+        "533",
+        "476",
+        "12",
+        "29",
+        "35.1",
+        "413",
+        "34.0"
+      ],
+      [
+        "16",
+        "400",
+        "597",
+        "540",
+        "16",
+        "29",
+        "36.6",
+        "470",
+        "45.0"
+      ],
+      [
+        "18",
+        "450",
+        "635",
+        "578",
+        "16",
+        "32",
+        "39.7",
+        "533",
+        "58.0"
+      ],
+      [
+        "20",
+        "500",
+        "699",
+        "635",
+        "20",
+        "32",
+        "42.9",
+        "584",
+        "72.0"
+      ],
+      [
+        "24",
+        "600",
+        "813",
+        "749",
+        "20",
+        "35",
+        "47.8",
+        "692",
+        "104.0"
+      ]
+    ],
+    "notes": "NOTE: Also add Class 300# table. Dimensions per ASME B16.5. Weights are approximate for Carbon Steel A105."
+  },
+  "weld-neck-flange": {
+    "title": "ASME B16.5 WELD NECK FLANGE — CLASS 150# DIMENSIONS\n(Developer: build as HTML table with sortable columns)",
+    "headers": [
+      "NPS (inch)",
+      "DN (mm)",
+      "Pipe OD (mm)",
+      "Flange OD (mm)",
+      "Bolt Circle (mm)",
+      "No. Bolts",
+      "Bolt Ø (mm)",
+      "Flange Thickness T (mm)",
+      "Hub OD @ base (mm)",
+      "Hub Length (mm)",
+      "Approx. Wt CS (kg)"
+    ],
+    "rows": [
+      [
+        "½",
+        "15",
+        "21.3",
+        "89",
+        "60",
+        "4",
+        "16",
+        "11.2",
+        "35",
+        "30",
+        "0.5"
+      ],
+      [
+        "¾",
+        "20",
+        "26.7",
+        "98",
+        "70",
+        "4",
+        "16",
+        "12.7",
+        "43",
+        "32",
+        "0.7"
+      ],
+      [
+        "1",
+        "25",
+        "33.4",
+        "108",
+        "79",
+        "4",
+        "16",
+        "14.3",
+        "51",
+        "38",
+        "0.9"
+      ],
+      [
+        "1½",
+        "40",
+        "48.3",
+        "127",
+        "98",
+        "4",
+        "16",
+        "17.5",
+        "73",
+        "44",
+        "1.4"
+      ],
+      [
+        "2",
+        "50",
+        "60.3",
+        "152",
+        "121",
+        "4",
+        "19",
+        "19.1",
+        "92",
+        "51",
+        "2.0"
+      ],
+      [
+        "3",
+        "80",
+        "88.9",
+        "190",
+        "152",
+        "4",
+        "19",
+        "23.9",
+        "127",
+        "57",
+        "3.5"
+      ],
+      [
+        "4",
+        "100",
+        "114.3",
+        "229",
+        "190",
+        "8",
+        "19",
+        "23.9",
+        "157",
+        "64",
+        "5.5"
+      ],
+      [
+        "6",
+        "150",
+        "168.3",
+        "279",
+        "241",
+        "8",
+        "22",
+        "25.4",
+        "216",
+        "76",
+        "9.0"
+      ],
+      [
+        "8",
+        "200",
+        "219.1",
+        "343",
+        "298",
+        "8",
+        "22",
+        "28.6",
+        "270",
+        "86",
+        "14.0"
+      ],
+      [
+        "10",
+        "250",
+        "273.1",
+        "406",
+        "362",
+        "12",
+        "25",
+        "30.2",
+        "324",
+        "102",
+        "21.0"
+      ],
+      [
+        "12",
+        "300",
+        "323.9",
+        "483",
+        "432",
+        "12",
+        "25",
+        "31.8",
+        "381",
+        "114",
+        "31.0"
+      ],
+      [
+        "14",
+        "350",
+        "355.6",
+        "533",
+        "476",
+        "12",
+        "29",
+        "35.1",
+        "413",
+        "127",
+        "40.0"
+      ],
+      [
+        "16",
+        "400",
+        "406.4",
+        "597",
+        "540",
+        "16",
+        "29",
+        "36.6",
+        "470",
+        "140",
+        "53.0"
+      ],
+      [
+        "18",
+        "450",
+        "457.2",
+        "635",
+        "578",
+        "16",
+        "32",
+        "39.7",
+        "533",
+        "152",
+        "68.0"
+      ],
+      [
+        "20",
+        "500",
+        "508.0",
+        "699",
+        "635",
+        "20",
+        "32",
+        "42.9",
+        "584",
+        "165",
+        "86.0"
+      ],
+      [
+        "24",
+        "600",
+        "609.6",
+        "813",
+        "749",
+        "20",
+        "35",
+        "47.8",
+        "692",
+        "178",
+        "122.0"
+      ]
+    ],
+    "notes": "ALSO ADD: Class 300#, Class 600#, Class 900# dimension tables (same columns). Data available in ASME B16.5 standard."
+  },
+  "blind-flange": {
+    "title": "ASME B16.5 BLIND FLANGE — CLASS 150# AND 300# MINIMUM THICKNESS",
+    "headers": [
+      "NPS",
+      "Flange OD mm",
+      "Bolt Circle mm",
+      "No. Bolts",
+      "Bolt Ø mm",
+      "Min Thickness T (Class 150#) mm",
+      "Min Thickness T (Class 300#) mm",
+      "Approx Wt Class150 CS (kg)",
+      "Approx Wt Class300 CS (kg)"
+    ],
+    "rows": [
+      [
+        "½",
+        "89",
+        "60",
+        "4",
+        "16",
+        "9.6",
+        "14.3",
+        "0.3",
+        "0.5"
+      ],
+      [
+        "1",
+        "108",
+        "79",
+        "4",
+        "16",
+        "11.2",
+        "17.5",
+        "0.5",
+        "0.8"
+      ],
+      [
+        "2",
+        "152",
+        "121",
+        "4",
+        "19",
+        "12.7",
+        "22.4",
+        "1.0",
+        "1.8"
+      ],
+      [
+        "3",
+        "190",
+        "152",
+        "4",
+        "19",
+        "14.3",
+        "28.6",
+        "1.8",
+        "3.5"
+      ],
+      [
+        "4",
+        "229",
+        "190",
+        "8",
+        "19",
+        "16.7",
+        "31.8",
+        "2.8",
+        "5.8"
+      ],
+      [
+        "6",
+        "279",
+        "241",
+        "8",
+        "22",
+        "20.6",
+        "38.1",
+        "5.5",
+        "10.5"
+      ],
+      [
+        "8",
+        "343",
+        "298",
+        "8",
+        "22",
+        "23.9",
+        "44.5",
+        "9.5",
+        "18.0"
+      ],
+      [
+        "10",
+        "406",
+        "362",
+        "12",
+        "25",
+        "27.0",
+        "50.8",
+        "15.0",
+        "29.0"
+      ],
+      [
+        "12",
+        "483",
+        "432",
+        "12",
+        "25",
+        "28.6",
+        "57.2",
+        "22.0",
+        "43.0"
+      ],
+      [
+        "16",
+        "597",
+        "540",
+        "16",
+        "29",
+        "34.9",
+        "66.7",
+        "42.0",
+        "82.0"
+      ],
+      [
+        "20",
+        "699",
+        "635",
+        "20",
+        "32",
+        "41.3",
+        "79.4",
+        "70.0",
+        "137.0"
+      ],
+      [
+        "24",
+        "813",
+        "749",
+        "20",
+        "35",
+        "47.6",
+        "90.5",
+        "108.0",
+        "210.0"
+      ]
+    ],
+    "notes": "IMPORTANT NOTE FOR PAGE: \"Blind flange thickness DOUBLES from Class 150# to 300# and increases 4–5x from 150# to 900#. Always specify your pressure class when ordering — the weight and price difference is significant.\"\n\nAlso add Class 600# table. Developer note: add a visual callout box explaining why BLF gets thicker at higher classes."
+  },
+  "socket-weld-flange": {
+    "title": "ASME B16.5 SOCKET WELD FLANGE — CLASS 150# DIMENSIONS",
+    "headers": [
+      "NPS (inch)",
+      "Pipe OD (mm)",
+      "Socket Bore (mm)",
+      "Socket Depth (mm)",
+      "Flange OD (mm)",
+      "Bolt Circle (mm)",
+      "No. Bolts",
+      "Bolt Ø (mm)",
+      "Flange Thickness T (mm)",
+      "Approx Wt CS (kg)"
+    ],
+    "rows": [
+      [
+        "½",
+        "21.3",
+        "22.4",
+        "25",
+        "89",
+        "60",
+        "4",
+        "16",
+        "11.2",
+        "0.5"
+      ],
+      [
+        "¾",
+        "26.7",
+        "28.0",
+        "29",
+        "98",
+        "70",
+        "4",
+        "16",
+        "12.7",
+        "0.6"
+      ],
+      [
+        "1",
+        "33.4",
+        "34.9",
+        "32",
+        "108",
+        "79",
+        "4",
+        "16",
+        "14.3",
+        "0.8"
+      ],
+      [
+        "1¼",
+        "42.2",
+        "43.7",
+        "35",
+        "117",
+        "89",
+        "4",
+        "16",
+        "15.9",
+        "1.0"
+      ],
+      [
+        "1½",
+        "48.3",
+        "49.8",
+        "38",
+        "127",
+        "98",
+        "4",
+        "16",
+        "17.5",
+        "1.3"
+      ],
+      [
+        "2",
+        "60.3",
+        "61.8",
+        "44",
+        "152",
+        "121",
+        "4",
+        "19",
+        "19.1",
+        "1.8"
+      ],
+      [
+        "2½",
+        "73.0",
+        "74.6",
+        "51",
+        "178",
+        "140",
+        "4",
+        "19",
+        "22.4",
+        "2.8"
+      ],
+      [
+        "3",
+        "88.9",
+        "90.5",
+        "57",
+        "190",
+        "152",
+        "4",
+        "19",
+        "23.9",
+        "3.5"
+      ]
+    ],
+    "notes": "Note: Socket bore = Pipe OD + 1.2–1.5mm clearance. Socket Depth per ASME B16.5 Table 1. Also add Class 3000# table per ASME B16.11 for forged socket weld fittings."
+  },
+  "threaded-flange": {
+    "title": "ASME B16.5 THREADED FLANGE — CLASS 150# DIMENSIONS (NPT Thread)",
+    "headers": [
+      "NPS (inch)",
+      "Thread (NPT)",
+      "Flange OD (mm)",
+      "Bolt Circle (mm)",
+      "No. Bolts",
+      "Bolt Ø (mm)",
+      "Flange Thickness T (mm)",
+      "Bore at thread end (mm)",
+      "Approx Wt CS (kg)"
+    ],
+    "rows": [
+      [
+        "½",
+        "½ NPT",
+        "89",
+        "60",
+        "4",
+        "16",
+        "11.2",
+        "21.3",
+        "0.4"
+      ],
+      [
+        "¾",
+        "¾ NPT",
+        "98",
+        "70",
+        "4",
+        "16",
+        "12.7",
+        "26.7",
+        "0.5"
+      ],
+      [
+        "1",
+        "1 NPT",
+        "108",
+        "79",
+        "4",
+        "16",
+        "14.3",
+        "33.4",
+        "0.7"
+      ],
+      [
+        "1¼",
+        "1¼ NPT",
+        "117",
+        "89",
+        "4",
+        "16",
+        "15.9",
+        "42.2",
+        "0.9"
+      ],
+      [
+        "1½",
+        "1½ NPT",
+        "127",
+        "98",
+        "4",
+        "16",
+        "17.5",
+        "48.3",
+        "1.1"
+      ],
+      [
+        "2",
+        "2 NPT",
+        "152",
+        "121",
+        "4",
+        "19",
+        "19.1",
+        "60.3",
+        "1.5"
+      ],
+      [
+        "2½",
+        "2½ NPT",
+        "178",
+        "140",
+        "4",
+        "19",
+        "22.4",
+        "73.0",
+        "2.2"
+      ],
+      [
+        "3",
+        "3 NPT",
+        "190",
+        "152",
+        "4",
+        "19",
+        "23.9",
+        "88.9",
+        "2.8"
+      ],
+      [
+        "4",
+        "4 NPT",
+        "229",
+        "190",
+        "8",
+        "19",
+        "23.9",
+        "114.3",
+        "4.2"
+      ]
+    ],
+    "notes": "Also show Class 300# table. Add a note: \"Please specify NPT or BSP thread when ordering. Default is NPT unless specified.\"\nDeveloper: Add a small diagram showing the tapered thread engagement."
+  },
+  "lap-joint-flange": {
+    "title": "LAP JOINT FLANGE — ASME B16.5 CLASS 150# DIMENSIONS\n(Dimensions are for the backing flange — same OD, bolt circle, and bolt holes as Slip-On or Weld Neck of same class)",
+    "headers": [
+      "NPS (inch)",
+      "Backing Flange OD (mm)",
+      "Bolt Circle (mm)",
+      "No. Bolts",
+      "Bolt Ø (mm)",
+      "Backing Flange Thickness (mm)",
+      "Stub End OD at Lap (mm)",
+      "Short Stub End Length (mm)",
+      "Approx Wt Backing CS (kg)"
+    ],
+    "rows": [
+      [
+        "½",
+        "89",
+        "60",
+        "4",
+        "16",
+        "11.2",
+        "33.4",
+        "38",
+        "0.4"
+      ],
+      [
+        "1",
+        "108",
+        "79",
+        "4",
+        "16",
+        "12.7",
+        "48.3",
+        "51",
+        "0.6"
+      ],
+      [
+        "2",
+        "152",
+        "121",
+        "4",
+        "19",
+        "15.9",
+        "73.0",
+        "64",
+        "1.2"
+      ],
+      [
+        "3",
+        "190",
+        "152",
+        "4",
+        "19",
+        "19.1",
+        "101.6",
+        "76",
+        "2.5"
+      ],
+      [
+        "4",
+        "229",
+        "190",
+        "8",
+        "19",
+        "22.4",
+        "127.0",
+        "89",
+        "4.0"
+      ],
+      [
+        "6",
+        "279",
+        "241",
+        "8",
+        "22",
+        "25.4",
+        "184.2",
+        "102",
+        "7.0"
+      ],
+      [
+        "8",
+        "343",
+        "298",
+        "8",
+        "22",
+        "28.6",
+        "238.2",
+        "114",
+        "11.5"
+      ],
+      [
+        "10",
+        "406",
+        "362",
+        "12",
+        "25",
+        "30.2",
+        "295.3",
+        "127",
+        "17.5"
+      ],
+      [
+        "12",
+        "483",
+        "432",
+        "12",
+        "25",
+        "31.8",
+        "346.1",
+        "152",
+        "25.0"
+      ],
+      [
+        "16",
+        "597",
+        "540",
+        "16",
+        "29",
+        "36.6",
+        "450.9",
+        "178",
+        "45.0"
+      ],
+      [
+        "20",
+        "699",
+        "635",
+        "20",
+        "32",
+        "42.9",
+        "552.5",
+        "203",
+        "74.0"
+      ],
+      [
+        "24",
+        "813",
+        "749",
+        "20",
+        "35",
+        "47.8",
+        "655.3",
+        "229",
+        "108.0"
+      ]
+    ],
+    "notes": "Developer note: Show separate tables for backing flange and stub end. Add a diagram showing how stub end laps over the backing flange."
+  },
+  "long-weld-neck-flange": {
+    "title": "LONG WELD NECK FLANGE — NOTE ON DIMENSIONS:\nLWN Flanges are custom-manufactured items. The face OD, bolt circle, bolt holes, and thickness follow ASME B16.5 for the selected NPS and class — same as standard WN Flange.\n\nWHAT CHANGES IS THE NECK LENGTH (buyer specifies this):\n\nTypical minimum neck lengths (for reference — developer: show this as a helpful table):",
+    "headers": [
+      "NPS",
+      "Typical Min Neck Length (mm)",
+      "Purpose"
+    ],
+    "rows": [
+      [
+        "2\"",
+        "150 mm",
+        "Clear vessel wall + insulation"
+      ],
+      [
+        "4\"",
+        "200 mm",
+        "Clear vessel wall + insulation"
+      ],
+      [
+        "6\"",
+        "250 mm",
+        "Clear vessel wall + insulation"
+      ],
+      [
+        "8\"",
+        "300 mm",
+        "Clear vessel wall + insulation"
+      ],
+      [
+        "10\"",
+        "350 mm",
+        "Clear vessel wall + insulation"
+      ],
+      [
+        "12\"",
+        "400 mm",
+        "Clear vessel wall + insulation"
+      ]
+    ],
+    "notes": "ORDERING GUIDE TO PUT ON PAGE:\nTo order an LWN Flange, we need:\n1. NPS (e.g. 8\")\n2. Pressure Class (e.g. 600#)\n3. Material Grade (e.g. A182 F316L)\n4. Required Neck Length (e.g. 300mm — measured from face to weld end)\n5. Bore Schedule (e.g. SCH 80 — to match the connecting pipe)\n6. Face Type (RF / FF / RTJ)\n7. Any special requirements (NACE, low-temp, impact tested)\n\nDeveloper note: Add a simple labeled diagram showing the LWN flange anatomy (face, hub/neck, bore, weld end)."
+  },
+  "spectacle-blind-flange": {
+    "title": "ASME B16.48 SPECTACLE BLIND — CLASS 150# DIMENSIONS",
+    "headers": [
+      "NPS (inch)",
+      "Rating",
+      "Blind Plate OD (mm)",
+      "Ring OD (mm)",
+      "Ring Bore (mm)",
+      "Bolt Circle (mm)",
+      "No. Bolts",
+      "Blind Thickness (mm)",
+      "Ring Thickness (mm)",
+      "Overall Width (mm)",
+      "Approx Wt CS (kg)"
+    ],
+    "rows": [
+      [
+        "2",
+        "150#",
+        "152",
+        "152",
+        "54",
+        "121",
+        "4",
+        "9.5",
+        "6.4",
+        "330",
+        "1.8"
+      ],
+      [
+        "3",
+        "150#",
+        "190",
+        "190",
+        "79",
+        "152",
+        "4",
+        "9.5",
+        "6.4",
+        "408",
+        "3.0"
+      ],
+      [
+        "4",
+        "150#",
+        "229",
+        "229",
+        "104",
+        "190",
+        "8",
+        "9.5",
+        "6.4",
+        "483",
+        "4.5"
+      ],
+      [
+        "6",
+        "150#",
+        "279",
+        "279",
+        "154",
+        "241",
+        "8",
+        "12.7",
+        "9.5",
+        "584",
+        "8.5"
+      ],
+      [
+        "8",
+        "150#",
+        "343",
+        "343",
+        "206",
+        "298",
+        "8",
+        "12.7",
+        "9.5",
+        "711",
+        "14.0"
+      ],
+      [
+        "10",
+        "150#",
+        "406",
+        "406",
+        "260",
+        "362",
+        "12",
+        "14.3",
+        "9.5",
+        "838",
+        "22.0"
+      ],
+      [
+        "12",
+        "150#",
+        "483",
+        "483",
+        "311",
+        "432",
+        "12",
+        "15.9",
+        "12.7",
+        "991",
+        "34.0"
+      ],
+      [
+        "16",
+        "150#",
+        "597",
+        "597",
+        "413",
+        "540",
+        "16",
+        "17.5",
+        "14.3",
+        "1219",
+        "60.0"
+      ],
+      [
+        "20",
+        "150#",
+        "699",
+        "699",
+        "514",
+        "635",
+        "20",
+        "19.1",
+        "15.9",
+        "1422",
+        "98.0"
+      ],
+      [
+        "24",
+        "150#",
+        "813",
+        "813",
+        "616",
+        "749",
+        "20",
+        "22.4",
+        "17.5",
+        "1651",
+        "148.0"
+      ]
+    ],
+    "notes": "IMPORTANT NOTES FOR PAGE:\n• Blind disc and ring have DIFFERENT thicknesses — ring is thinner as it only provides spacing\n• Overall Width = total span of figure-8 shape (important for space planning)\n• Above NPS 16\", spectacle blinds become very heavy — consider Paddle Blind instead\n• ASME B16.48 Class 300# requires thicker blind plates — add Class 300# table too\n\nDeveloper: Add a labeled diagram of the spectacle blind showing blind disc, ring, handle, and overall width dimension."
+  }
+}

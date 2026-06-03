@@ -1,0 +1,210 @@
+{
+  "slip-on-flange": [
+    {
+      "question": "What is the difference between SORF and SOFF?",
+      "answer": "SORF = Slip On Raised Face. The seating surface has a small raised circular ring (1/16\" for Class 150/300). SOFF = Slip On Flat Face. The entire face is flat. SOFF is used when connecting to cast iron flanges or non-metallic flanges to avoid cracking from uneven bolt loading."
+    },
+    {
+      "question": "Can Slip On Flanges be used for high-pressure applications?",
+      "answer": "Slip-On flanges are rated for Class 150# through 2500# per ASME B16.5, but they are NOT the preferred choice above Class 600# due to their lower strength (2/3 of Weld Neck). For Class 900# and above, Weld Neck Flanges are strongly recommended."
+    },
+    {
+      "question": "What pipe schedule works with your Slip On Flanges?",
+      "answer": "Slip-On flanges are available for all standard pipe schedules (SCH 40, 80, 160, XXS). The bore is machined to the specific pipe OD of the requested schedule. Specify the pipe OD or schedule when ordering."
+    },
+    {
+      "question": "Do you supply ASME B16.47 large-bore Slip On Flanges?",
+      "answer": "Yes. We supply Slip-On flanges per ASME B16.47 Series A (MSS SP-44) and Series B (API 605) from NPS 26\" to 60\". Please provide size, class, and material grade for a custom quote."
+    },
+    {
+      "question": "How is a Slip On Flange welded to the pipe?",
+      "answer": "Two fillet welds are required: (1) Internal weld — weld the pipe inside the bore to the face of the flange. (2) External weld — weld the pipe on the outside where it exits the back of the flange hub. Both welds must be of equal size per AWS D1.1."
+    },
+    {
+      "question": "What is the difference between a Slip On Flange and a Lap Joint Flange?",
+      "answer": "A Slip On Flange is welded directly to the pipe and is a single piece. A Lap Joint Flange is a two-piece assembly (backing flange + stub end) where the backing flange is NOT welded — it slides freely to allow bolt hole rotation. Lap Joint is preferred when bolt alignment is difficult or when frequent dismantling is needed."
+    },
+    {
+      "question": "Do you provide MTC (Mill Test Certificate) with Slip On Flanges?",
+      "answer": "Yes. All Remax Forge flanges are supplied with Mill Test Certificates as per EN 10204 3.1 confirming chemical composition and mechanical properties. EN 10204 3.2 (third-party certified MTC) is available on request."
+    },
+    {
+      "question": "What is your minimum order quantity for Slip On Flanges?",
+      "answer": "We supply from single pieces to bulk orders. No minimum order quantity. Contact us for pricing based on your required quantity."
+    }
+  ],
+  "weld-neck-flange": [
+    {
+      "question": "What is the difference between WNRF and WNFF?",
+      "answer": "WNRF = Weld Neck Raised Face — has a raised ring on the seating face that concentrates bolt load on the gasket. Standard for most oil & gas applications. WNFF = Weld Neck Flat Face — entire face is flat. Used when mating against cast iron, low-pressure non-metallic, or AWWA flanges where the raised face could crack the mating flange."
+    },
+    {
+      "question": "When should I choose Weld Neck over Slip-On?",
+      "answer": "Always choose Weld Neck for: (1) Pressure Class 600# and above, (2) Temperatures above 300°C or below -50°C, (3) Cyclic or vibrating services, (4) Lethal, toxic, or highly flammable media, (5) Where radiographic weld inspection is required by code, (6) High fatigue applications."
+    },
+    {
+      "question": "What pipe schedule must match the Weld Neck Flange?",
+      "answer": "The flange bore is machined to the EXACT internal diameter of the connecting pipe. You must specify the pipe NPS AND schedule (e.g. 4\" SCH 40, 8\" SCH 80). A mismatch in bore creates a step/ledge that causes turbulence, erosion, and code non-compliance."
+    },
+    {
+      "question": "Are your Weld Neck Flanges available in API 6A?",
+      "answer": "Yes. We supply API 6A Weld Neck Flanges for wellhead and Christmas tree applications in working pressures 2000, 3000, 5000, 10000, and 15000 PSI. API 6A flanges use different dimensions from ASME B16.5. Please specify API 6A when ordering."
+    },
+    {
+      "question": "Do you supply ASME B16.47 large bore Weld Neck Flanges?",
+      "answer": "Yes, from NPS 26\" to 60\" per ASME B16.47 Series A (MSS SP-44) and Series B (API 605). These require individual drawings and are manufactured to order."
+    },
+    {
+      "question": "What is the maximum temperature for Weld Neck Flanges?",
+      "answer": "Depends on material: Carbon Steel A105 = up to 425°C; Alloy Steel F22 (Cr-Mo) = up to 600°C; Alloy Steel F91 (9Cr-1Mo-V) = up to 700°C; Stainless Steel F316L = up to 870°C (oxidizing); Inconel 625 = up to 980°C."
+    },
+    {
+      "question": "What is an ASTM A105 Weld Neck Flange?",
+      "answer": "ASTM A105 is the most common carbon steel forging standard for flanges. It covers forged carbon steel for ambient and elevated temperature service. A105 is the default grade for Class 150# and 300# flanges in general service. For low temperature, A350 LF2 is used instead."
+    }
+  ],
+  "blind-flange": [
+    {
+      "question": "What is the difference between a Blind Flange and a Spectacle Blind?",
+      "answer": "A Blind Flange is a SEPARATE piece installed between two flanges to block flow — removing it requires breaking the flanged joint. A Spectacle Blind is a PERMANENT assembly of a blind disc + open ring, always installed between flanges, rotated to switch between blind and open position without breaking the joint. Use Blind Flange for permanent/rare isolation; use Spectacle Blind for frequent maintenance cycling."
+    },
+    {
+      "question": "Can Blind Flanges be used as permanent pipe closures?",
+      "answer": "Yes. Blind flanges are perfectly suitable for permanent closures. They are simpler and cheaper than Spectacle Blinds for applications where the closure will never (or rarely) be cycled."
+    },
+    {
+      "question": "How thick is a Class 900# Blind Flange compared to Class 150#?",
+      "answer": "For a 12\" NPS example: Class 150# thickness = 28.6mm; Class 900# thickness = approximately 101.6mm (3.5x thicker). This is because the blind plate must resist the full system pressure across its entire area. Higher classes = much heavier and more expensive blind flanges."
+    },
+    {
+      "question": "Do you supply blind flanges with a center vent hole?",
+      "answer": "Yes. We can supply blind flanges with a threaded center vent/drain hole (½\" or ¾\" NPT typically). This allows pressure equalization before removing the blind — an important safety practice."
+    },
+    {
+      "question": "What is the difference between BLRF and BLFF?",
+      "answer": "BLRF = Blind Raised Face (standard — works with WNRF, SORF mating flanges). BLFF = Blind Flat Face (used with SOFF or cast iron mating flanges). The face finish and gasket type must match between mating flanges."
+    },
+    {
+      "question": "Can blind flanges be supplied in Duplex or Inconel material?",
+      "answer": "Yes. We manufacture blind flanges in all alloys: Duplex F51, Super Duplex F53, Inconel 625, Hastelloy C276, Monel 400, Titanium Grade 2/5, and more. Please contact us for special alloy pricing and lead time."
+    }
+  ],
+  "socket-weld-flange": [
+    {
+      "question": "What is the maximum size available for Socket Weld Flanges?",
+      "answer": "Per ASME B16.5, socket weld flanges are specified from ½\" to 3\" NPS. We can supply up to 4\" on request, but for NPS 4\" and above, Weld Neck or Slip-On flanges are technically and economically preferred."
+    },
+    {
+      "question": "Why must I leave a 1.6mm gap before welding a Socket Weld Flange?",
+      "answer": "ASME B31.3 mandates this gap. When the fillet weld is made, heat causes both the pipe and the socket to expand. If the pipe is fully seated (no gap), this expansion creates compressive stress that can crack the weld or cause the pipe to buckle inside the socket after cooling. The 1.6mm gap absorbs the thermal expansion safely."
+    },
+    {
+      "question": "What is the difference between a Socket Weld Flange and a Slip-On Flange?",
+      "answer": "Slip-On: Pipe slides completely through the flange; welded inside AND outside (2 welds); suitable for all sizes; lower pressure capability. Socket Weld: Pipe is inserted into a socket bore (stopped at bottom); welded outside only (1 weld); primarily for small bore (½\"–3\"); higher pressure capable due to socket support."
+    },
+    {
+      "question": "Can Socket Weld Flanges be used for cryogenic service (liquid nitrogen, LNG)?",
+      "answer": "No. Socket weld joints are NOT recommended for cryogenic service. The socket crevice can trap liquid during thermal cycling and cause cracking. For cryogenic service, Weld Neck Flanges with full-penetration butt welds are required."
+    },
+    {
+      "question": "What standard covers Socket Weld Flanges — ASME B16.5 or B16.11?",
+      "answer": "ASME B16.5 covers socket weld flanges (the flange itself, with its face and bolt holes). ASME B16.11 covers socket weld fittings (elbows, tees, couplings, etc.) in forged class 3000# and 6000#. Both may be applicable depending on your specification."
+    },
+    {
+      "question": "Are Socket Weld Flanges available in Duplex Stainless Steel?",
+      "answer": "Yes. We manufacture Socket Weld Flanges in all standard materials including Duplex F51, Super Duplex F53, Inconel 625, Hastelloy C276, and all grades in the material table above."
+    }
+  ],
+  "threaded-flange": [
+    {
+      "question": "What is the difference between NPT and BSP threaded flanges?",
+      "answer": "NPT (National Pipe Taper) is the American standard per ASME B1.20.1 — taper of 1 in 16 on diameter. BSP (British Standard Pipe, ISO 7/1) is the UK/international standard — taper of 1 in 16 on diameter (BSPT) or parallel (BSPP). They are NOT interchangeable — NPT and BSP threads will not seal properly together even though they look similar. Always specify which thread form you need."
+    },
+    {
+      "question": "Can threaded flanges be used in high-pressure steam service?",
+      "answer": "Generally not recommended above Class 300# for steam. The thermal cycling of steam service tends to cause threaded joints to loosen over time. For steam above 600 kPa, welded flanges (Socket Weld or Weld Neck) are strongly preferred."
+    },
+    {
+      "question": "Should I weld a threaded flange after threading?",
+      "answer": "For added security in non-hazardous areas, a seal weld can be applied over the thread engagement area after make-up. This is called \"Seal Weld\" and improves the joint integrity. However, in ATEX zones (the primary use case for threaded flanges), no welding is permitted."
+    },
+    {
+      "question": "What thread sealant should I use?",
+      "answer": "For general service: PTFE tape (Teflon tape) applied to the male pipe thread before make-up. For higher-pressure or gas service: anaerobic thread sealant compound such as Loctite 565, Rector Seal, or equivalent. Do NOT use PTFE tape for oxygen service — use oxygen-compatible sealant only."
+    },
+    {
+      "question": "Are your threaded flanges available in Stainless Steel 316L for chemical service?",
+      "answer": "Yes. We manufacture threaded flanges in all standard grades including SS 316L (A182 F316L), Duplex F51, Hastelloy C276, and others. For corrosive chemical service, ensure the material is compatible with your media. Contact our technical team for material selection guidance."
+    }
+  ],
+  "lap-joint-flange": [
+    {
+      "question": "Is the Stub End sold separately from the Lap Joint Flange?",
+      "answer": "The Stub End and Backing Flange are two separate items — you must order both. When ordering, specify: (1) Backing Flange — size, class, material (usually CS A105); (2) Stub End — size, material (must match pipe), short or long pattern. We can quote as a matched pair."
+    },
+    {
+      "question": "What material should I choose for the backing flange?",
+      "answer": "Use Carbon Steel A105 for the backing flange in almost all cases — it saves significant cost because the backing flange never contacts the process fluid. Only use an exotic alloy backing flange if the external environment is also corrosive (e.g. seawater splash zone) or if the code requires it (e.g. NACE environments)."
+    },
+    {
+      "question": "What is the difference between short pattern and long pattern stub ends?",
+      "answer": "Short Pattern (per ASME B16.9) has a shorter overall length — adequate for most applications. Long Pattern has a longer straight section, allowing the backing flange to be pulled further back for easier alignment and gasket replacement in tight spaces. Long pattern is used in larger sizes and when spacing is critical."
+    },
+    {
+      "question": "Can Lap Joint Flanges be used in high-pressure service?",
+      "answer": "Yes. Lap Joint Flanges are available per ASME B16.5 in all pressure classes from 150# to 2500#. However, they are generally not preferred above Class 900# as the lap radius (sealing surface) must resist very high gasket seating stress — Ring Type Joint (RTJ) faces are preferred for critical high-pressure service."
+    },
+    {
+      "question": "Are Lap Joint Flanges the same as Swivel Flanges?",
+      "answer": "Similar concept. A Swivel Flange is a specific type of backing flange with a machined groove/ring that retains the stub end in position while still allowing rotation — providing more structural rigidity. Standard Lap Joint Flanges simply lap over the stub end with no groove retention. Swivel Flanges are more common in subsea/offshore applications."
+    }
+  ],
+  "long-weld-neck-flange": [
+    {
+      "question": "What is the difference between a Long Weld Neck and a standard Weld Neck Flange?",
+      "answer": "A standard WN Flange has a short tapered hub designed to connect to a pipe in a pipeline. A Long WN (LWN) Flange has an extended neck (hub) that acts as the nozzle itself on a pressure vessel, eliminating the need for a separate pipe nipple. The LWN is also bored to a specific pipe schedule to match the connecting pipe exactly."
+    },
+    {
+      "question": "Can Long Weld Neck Flanges be custom-bored to any schedule?",
+      "answer": "Yes. The bore of the LWN neck is machined to the exact internal diameter of your connecting pipe. You must specify the pipe schedule (e.g. SCH 40, SCH 80, SCH 160, XXS). We can also provide taper bores for special transition requirements."
+    },
+    {
+      "question": "What neck length should I specify?",
+      "answer": "Neck length depends on the vessel wall thickness, insulation thickness, and minimum nozzle projection required by the vessel design code (ASME Sec VIII). As a general guide, neck length = vessel insulation thickness + 100mm minimum clearance. Your process engineer or vessel designer will specify the exact length. We can manufacture to any length."
+    },
+    {
+      "question": "Are Long Weld Neck Flanges available in Duplex and Super Duplex?",
+      "answer": "Yes. LWN Flanges are available in A182 F51 (Duplex 2205), A182 F53 (Super Duplex 2507), F55 (Zeron 100), Inconel 625, Hastelloy C276, Incoloy 825, and all other grades in our material table. These are made to order; lead time is 4–8 weeks for special alloys."
+    },
+    {
+      "question": "Do Long Weld Neck Flanges require any special inspection?",
+      "answer": "For pressure vessel applications, LWN flanges typically require EN 10204 3.2 MTC (third-party certified), impact testing (if low temperature service), NACE compliance (if sour service), and PMI (Positive Material Identification). We provide all of these on request."
+    }
+  ],
+  "spectacle-blind-flange": [
+    {
+      "question": "What is the difference between a Spectacle Blind and a Paddle Blind?",
+      "answer": "A Spectacle Blind (Figure-8) is ONE PIECE: solid blind disc and open ring joined permanently by a handle. It stays installed between flanges always. A Paddle Blind uses TWO SEPARATE pieces: a Spade (solid blind) and a Spacer Ring (open ring) that are individually stored and swapped. Spectacle Blind = safer (no mix-up), more convenient for frequent cycling. Paddle Blind = cheaper and lighter for large bore sizes (NPS 16\"+)."
+    },
+    {
+      "question": "What standard covers spectacle blind flanges — ASME B16.5 or B16.48?",
+      "answer": "ASME B16.48 is the primary standard for line blinds (spectacle blinds, paddle blinds, spades). ASME B16.5 covers flanges. The spectacle blind is NOT a flange itself but a line component installed BETWEEN flanges. B16.48 covers sizes, pressure classes, tolerances, materials, and markings."
+    },
+    {
+      "question": "What is the face finish on a Spectacle Blind?",
+      "answer": "The seating faces are machined to a Raised Face finish (2.5–6.3 µm Ra, known as \"stock finish\") matching the mating flanges. The raised face ensures the full gasket seating load is concentrated on the gasket. RTJ face is NOT used for spectacle blinds."
+    },
+    {
+      "question": "For large bore sizes (above 16\"), should I use Spectacle Blind or Paddle Blind?",
+      "answer": "Above NPS 16\", spectacle blinds become very heavy (60–150+ kg). At this size, Paddle Blinds (spade + spacer ring stored separately) are more common because: (1) lighter to handle, (2) can be lifted with lighter equipment, (3) significantly cheaper. The trade-off is that you must maintain both pieces carefully. Use spectacle blind for NPS 2\"–14\" in normal plant service; consider paddle blind above NPS 16\"."
+    },
+    {
+      "question": "Do you supply the handle/tab markings \"BLIND\" and \"OPEN\"?",
+      "answer": "Yes. All Remax Forge spectacle blinds include an integral handle with stamped or engraved \"BLIND\" and \"OPEN\" labels on the respective discs as per ASME B16.48 marking requirements. This is a code requirement — do not purchase unmarked spectacle blinds."
+    },
+    {
+      "question": "Can Spectacle Blinds be used for steam service?",
+      "answer": "Yes. For steam service, ensure the material grade is rated for the service temperature. Carbon Steel A516 Gr.70 is suitable up to ~425°C. For higher temperature steam, Alloy Steel A182 F11 or F22 is used. Also ensure the gasket type is rated for steam (spiral wound or ring joint for high-pressure steam)."
+    }
+  ]
+}
