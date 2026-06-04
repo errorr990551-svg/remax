@@ -1,6 +1,6 @@
 {
   "slip-on-flange": {
-    "title": "ASME B16.5 SLIP ON FLANGE — CLASS 150# DIMENSIONS\n(Developer: build this as an HTML table with sortable NPS column)",
+    "title": "ASME B16.5 SLIP ON FLANGE — CLASS 150# DIMENSIONS",
     "headers": [
       "NPS (inch)",
       "DN (mm)",
@@ -212,10 +212,10 @@
         "104.0"
       ]
     ],
-    "notes": "NOTE: Also add Class 300# table. Dimensions per ASME B16.5. Weights are approximate for Carbon Steel A105."
+    "notes": "Dimensions per ASME B16.5. Weights are approximate for Carbon Steel A105. Contact us for Class 300# and higher class dimension tables."
   },
   "weld-neck-flange": {
-    "title": "ASME B16.5 WELD NECK FLANGE — CLASS 150# DIMENSIONS\n(Developer: build as HTML table with sortable columns)",
+    "title": "ASME B16.5 WELD NECK FLANGE — CLASS 150# DIMENSIONS",
     "headers": [
       "NPS (inch)",
       "DN (mm)",
@@ -439,7 +439,7 @@
         "122.0"
       ]
     ],
-    "notes": "ALSO ADD: Class 300#, Class 600#, Class 900# dimension tables (same columns). Data available in ASME B16.5 standard."
+    "notes": "Dimensions per ASME B16.5. Weights are approximate for Carbon Steel A105. Contact us for Class 300#, 600#, and 900# dimension tables."
   },
   "blind-flange": {
     "title": "ASME B16.5 BLIND FLANGE — CLASS 150# AND 300# MINIMUM THICKNESS",
@@ -588,7 +588,7 @@
         "210.0"
       ]
     ],
-    "notes": "IMPORTANT NOTE FOR PAGE: \"Blind flange thickness DOUBLES from Class 150# to 300# and increases 4–5x from 150# to 900#. Always specify your pressure class when ordering — the weight and price difference is significant.\"\n\nAlso add Class 600# table. Developer note: add a visual callout box explaining why BLF gets thicker at higher classes."
+    "notes": "Blind flange thickness DOUBLES from Class 150# to 300# and increases 4–5× from 150# to 900#. Always specify your pressure class when ordering — the weight and price difference is significant. Dimensions per ASME B16.5. Weights are approximate for Carbon Steel A105."
   },
   "socket-weld-flange": {
     "title": "ASME B16.5 SOCKET WELD FLANGE — CLASS 150# DIMENSIONS",
@@ -702,7 +702,7 @@
         "3.5"
       ]
     ],
-    "notes": "Note: Socket bore = Pipe OD + 1.2–1.5mm clearance. Socket Depth per ASME B16.5 Table 1. Also add Class 3000# table per ASME B16.11 for forged socket weld fittings."
+    "notes": "Socket bore = Pipe OD + 1.2–1.5mm clearance. Socket depth per ASME B16.5 Table 1. Dimensions per ASME B16.5. Weights are approximate for Carbon Steel A105. Contact us for Class 3000# / 6000# per ASME B16.11."
   },
   "threaded-flange": {
     "title": "ASME B16.5 THREADED FLANGE — CLASS 150# DIMENSIONS (NPT Thread)",
@@ -818,7 +818,7 @@
         "4.2"
       ]
     ],
-    "notes": "Also show Class 300# table. Add a note: \"Please specify NPT or BSP thread when ordering. Default is NPT unless specified.\"\nDeveloper: Add a small diagram showing the tapered thread engagement."
+    "notes": "Please specify NPT or BSP thread when ordering. Default is NPT unless specified. Dimensions per ASME B16.5. Weights are approximate for Carbon Steel A105."
   },
   "lap-joint-flange": {
     "title": "LAP JOINT FLANGE — ASME B16.5 CLASS 150# DIMENSIONS\n(Dimensions are for the backing flange — same OD, bolt circle, and bolt holes as Slip-On or Weld Neck of same class)",
@@ -967,10 +967,10 @@
         "108.0"
       ]
     ],
-    "notes": "Developer note: Show separate tables for backing flange and stub end. Add a diagram showing how stub end laps over the backing flange."
+    "notes": "Dimensions shown are for the backing flange. Stub end dimensions (lap OD and length) are listed separately. Order backing flange and stub end as matched pair — contact us for combined pricing."
   },
   "long-weld-neck-flange": {
-    "title": "LONG WELD NECK FLANGE — NOTE ON DIMENSIONS:\nLWN Flanges are custom-manufactured items. The face OD, bolt circle, bolt holes, and thickness follow ASME B16.5 for the selected NPS and class — same as standard WN Flange.\n\nWHAT CHANGES IS THE NECK LENGTH (buyer specifies this):\n\nTypical minimum neck lengths (for reference — developer: show this as a helpful table):",
+    "title": "LONG WELD NECK FLANGE — TYPICAL MINIMUM NECK LENGTHS (Reference Guide)",
     "headers": [
       "NPS",
       "Typical Min Neck Length (mm)",
@@ -1008,7 +1008,7 @@
         "Clear vessel wall + insulation"
       ]
     ],
-    "notes": "ORDERING GUIDE TO PUT ON PAGE:\nTo order an LWN Flange, we need:\n1. NPS (e.g. 8\")\n2. Pressure Class (e.g. 600#)\n3. Material Grade (e.g. A182 F316L)\n4. Required Neck Length (e.g. 300mm — measured from face to weld end)\n5. Bore Schedule (e.g. SCH 80 — to match the connecting pipe)\n6. Face Type (RF / FF / RTJ)\n7. Any special requirements (NACE, low-temp, impact tested)\n\nDeveloper note: Add a simple labeled diagram showing the LWN flange anatomy (face, hub/neck, bore, weld end)."
+    "notes": "LWN Flanges are made to order — face OD and bolt circle follow ASME B16.5 for the selected NPS and class. Specify: NPS, Pressure Class, Material, Neck Length (mm), Bore Schedule, and Face Type when ordering. Lead time: 3–6 weeks."
   },
   "spectacle-blind-flange": {
     "title": "ASME B16.48 SPECTACLE BLIND — CLASS 150# DIMENSIONS",
@@ -1157,6 +1157,6 @@
         "148.0"
       ]
     ],
-    "notes": "IMPORTANT NOTES FOR PAGE:\n• Blind disc and ring have DIFFERENT thicknesses — ring is thinner as it only provides spacing\n• Overall Width = total span of figure-8 shape (important for space planning)\n• Above NPS 16\", spectacle blinds become very heavy — consider Paddle Blind instead\n• ASME B16.48 Class 300# requires thicker blind plates — add Class 300# table too\n\nDeveloper: Add a labeled diagram of the spectacle blind showing blind disc, ring, handle, and overall width dimension."
+    "notes": "Blind disc and ring have different thicknesses — the ring is thinner as it only provides spacing. Overall Width = total span of the figure-8 shape. Above NPS 16\", spectacle blinds become heavy — consider Paddle Blind instead. Dimensions per ASME B16.48. Weights are approximate for Carbon Steel A516 Gr.70."
   }
 }

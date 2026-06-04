@@ -641,11 +641,11 @@ export const HowToOrder = () => {
             </h3>
             <div className="space-y-4">
               <a 
-                href="mailto:remaxforge@gmail.com" 
+                href="mailto:info@remaxforge.com" 
                 className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200 hover:border-[#D71920] hover:text-[#D71920] transition-all group font-semibold text-slate-800 text-sm"
               >
                 <Mail size={18} className="text-[#D71920] group-hover:scale-110 transition-transform" />
-                <span>remaxforge@gmail.com</span>
+                <span>info@remaxforge.com</span>
               </a>
               <a 
                 href="tel:+919769983108" 
