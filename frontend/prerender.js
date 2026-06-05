@@ -91,7 +91,7 @@ async function run() {
   const browser = await puppeteer.launch({
     executablePath: edgePath,
     headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox']
+    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
   });
 
   // Track the pre-rendered homepage content separately so we don't overwrite dist/index.html early

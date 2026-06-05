@@ -10,73 +10,6 @@ const keptCities = [
   'siliguri', 'durgapur', 'asansol', 'kolkata', 'kharagpur'
 ];
 
-const urls = [
-  "/",
-  "/about-us",
-  "/contact",
-  "/quality",
-  "/certification",
-  "/career",
-  "/market-area",
-  "/blogs",
-  
-  // Blog posts
-  "/blogs/alloy-steel-power-gen-guide",
-  "/blogs/butt-weld-fittings-guide",
-  "/blogs/forged-vs-cast-fittings",
-  "/blogs/oil-and-gas-pipe-fittings-guide",
-  "/blogs/pipe-flanges-guide",
-  "/blogs/stainless-steel-grades-explained",
-
-  // Tech info
-  "/tech-info/chemical-composition",
-  "/tech-info/dimensions",
-  "/tech-info/mechanical-properties",
-  "/tech-info/weight-chart",
-
-  // Product pages
-  // Flanges
-  "/products/flanges/blind-flange",
-  "/products/flanges/lap-joint-flange",
-  "/products/flanges/long-weld-neck-flange",
-  "/products/flanges/slip-on-flange",
-  "/products/flanges/socket-weld-flange",
-  "/products/flanges/spectacle-blind-flange",
-  "/products/flanges/threaded-flange",
-  "/products/flanges/weld-neck-flange",
-
-
-  // Buttweld fittings
-  "/products/buttweld-fittings/180-elbow",
-  "/products/buttweld-fittings/45-elbow",
-  "/products/buttweld-fittings/90-elbow",
-  "/products/buttweld-fittings/butt-weld-bends-fittings",
-  "/products/buttweld-fittings/butt-weld-elbow-fittings",
-  "/products/buttweld-fittings/butt-weld-reducers-fittings",
-  "/products/buttweld-fittings/butt-weld-tee-fittings",
-  "/products/buttweld-fittings/concentric-reducer",
-  "/products/buttweld-fittings/eccentric-reducer",
-  "/products/buttweld-fittings/oval-caps",
-  "/products/buttweld-fittings/reducing-tee",
-  "/products/buttweld-fittings/straight-tee",
-
-  // Socket weld fittings
-  "/products/socket-weld-fittings/socket-weld-bushing-fittings",
-  "/products/socket-weld-fittings/socket-weld-cap-fittings",
-  "/products/socket-weld-fittings/socket-weld-coupling-fittings",
-  "/products/socket-weld-fittings/socket-weld-cross-fittings",
-  "/products/socket-weld-fittings/socket-weld-elbow-fittings",
-  "/products/socket-weld-fittings/socket-weld-lateral-tee-fittings",
-  "/products/socket-weld-fittings/socket-weld-nipple-fittings",
-  "/products/socket-weld-fittings/socket-weld-plug-fittings",
-  "/products/socket-weld-fittings/socket-weld-reducer-insert-fittings",
-  "/products/socket-weld-fittings/socket-weld-tee-fittings",
-  "/products/socket-weld-fittings/socket-weld-union-fittings",
-
-  // Add the 20 kept cities
-  ...keptCities.map(city => `/${city}`)
-];
-
 const baseUrl = 'https://remaxforge.com';
 
 function getPriority(url) {
@@ -92,21 +25,58 @@ function getPriority(url) {
   return '0.7';
 }
 
-const lastmod = new Date().toISOString().split('T')[0];
+function generateSitemap() {
+  try {
+    // 1. Read App.jsx and extract routes
+    const appJsxPath = path.resolve('src/App.jsx');
+    const appContent = fs.readFileSync(appJsxPath, 'utf8');
+    
+    const routeRegex = /path=['"]([^'"]+)['"]/g;
+    const routes = [];
+    let match;
+    while ((match = routeRegex.exec(appContent)) !== null) {
+      const route = match[1];
+      // Filter out dynamic routes (like :cityName, :stateName/:cityName)
+      if (!route.includes(':')) {
+        const formattedRoute = route.startsWith('/') ? route : '/' + route;
+        routes.push(formattedRoute);
+      }
+    }
 
-let xml = `<?xml version="1.0" encoding="UTF-8"?>
+    // Remove potential duplicates
+    const uniqueRoutes = [...new Set(routes)];
+
+    // 2. Add the kept cities
+    const cityRoutes = keptCities.map(city => `/${city}`);
+    
+    // Combine all URLs
+    const urls = [...uniqueRoutes, ...cityRoutes];
+
+    // Get current date for lastmod (YYYY-MM-DD format)
+    const lastmod = new Date().toISOString().split('T')[0];
+
+    // Generate XML content
+    let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 `;
 
-urls.forEach(url => {
-  xml += `  <url>
+    urls.forEach(url => {
+      xml += `  <url>
     <loc>${baseUrl}${url === '/' ? '' : url}</loc>
     <lastmod>${lastmod}</lastmod>
     <priority>${getPriority(url)}</priority>
   </url>\n`;
-});
+    });
 
-xml += `</urlset>`;
+    xml += `</urlset>`;
 
-fs.writeFileSync(path.resolve('public/sitemap.xml'), xml);
-console.log('Sitemap updated successfully!');
+    const sitemapPath = path.resolve('public/sitemap.xml');
+    fs.writeFileSync(sitemapPath, xml);
+    console.log(`Sitemap updated successfully with ${urls.length} URLs!`);
+  } catch (error) {
+    console.error('Error generating sitemap:', error);
+    process.exit(1);
+  }
+}
+
+generateSitemap();
