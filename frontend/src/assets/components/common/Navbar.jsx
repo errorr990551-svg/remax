@@ -61,7 +61,7 @@ const Navbar = () => {
               <img
                 src={LogoImg}
                 alt="Remax Logo"
-                fetchpriority="high"
+                fetchPriority="high"
                 loading="eager"
                 className="h-14 w-auto object-contain"
               />
