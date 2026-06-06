@@ -36,8 +36,8 @@ function generateSitemap() {
     let match;
     while ((match = routeRegex.exec(appContent)) !== null) {
       const route = match[1];
-      // Filter out dynamic routes (like :cityName, :stateName/:cityName)
-      if (!route.includes(':')) {
+      // Filter out dynamic routes (like :cityName, :stateName/:cityName) and sitemap routes
+      if (!route.includes(':') && !route.includes('sitemap')) {
         const formattedRoute = route.startsWith('/') ? route : '/' + route;
         routes.push(formattedRoute);
       }

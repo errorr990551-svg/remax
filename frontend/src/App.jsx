@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import './App.css'
 import './index.css'
 
@@ -71,6 +72,12 @@ import MarketArea from './assets/pages/MarketArea.jsx'
 import CityPage from './assets/pages/CityPage.jsx'
 import SEOManager from './assets/components/common/SEOManager.jsx'
 
+const SitemapRedirect = () => {
+  useEffect(() => {
+    window.location.href = '/sitemap.xml';
+  }, []);
+  return null;
+};
 
 function App() {
   return (
@@ -149,6 +156,8 @@ function App() {
         <Route path='/products/socket-weld-fittings/socket-weld-plug-fittings' element={<SocketWeldPlug/>} />
 
 
+        <Route path='/sitemap' element={<SitemapRedirect />} />
+        <Route path='/sitemap.xml' element={<SitemapRedirect />} />
         <Route path='/:cityName' element={<CityPage/>} />
         <Route path='/:stateName/:cityName' element={<CityPage/>} />
 
