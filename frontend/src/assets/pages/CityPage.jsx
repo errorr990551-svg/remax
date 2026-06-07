@@ -12,13 +12,7 @@ const CityPage = () => {
   const { openQuotePopup } = useQuotePopup();
   const { openProductMenu } = useProductMenu();
   
-  const KEPT_CITIES = [
-    'mumbai', 'ahmedabad', 'pune', 'surat', 'chennai', 'hyderabad', 'bengaluru', 
-    'visakhapatnam', 'vadodara', 'rajkot', 'nashik', 'nagpur', 'jaipur', 
-    'thane', 'coimbatore', 'kochi', 'jamshedpur', 'raipur', 'gandhinagar', 'vijayawada',
-    'rishikesh', 'haldwani', 'roorkee', 'haridwar', 'dehradun',
-    'siliguri', 'durgapur', 'asansol', 'kolkata', 'kharagpur'
-  ];
+  const KEPT_CITIES = Object.keys(marketAreaData);
 
   const lowercaseCity = cityName?.toLowerCase();
   const lookupKey = stateName ? `${stateName}/${cityName}` : cityName;

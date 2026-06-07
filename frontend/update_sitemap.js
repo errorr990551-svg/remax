@@ -1,14 +1,9 @@
 import fs from 'fs';
 import path from 'path';
+import { marketAreaData } from './src/assets/data/marketAreaData.js';
 
 // Kept industrial cities
-const keptCities = [
-  'mumbai', 'ahmedabad', 'pune', 'surat', 'chennai', 'hyderabad', 'bengaluru', 
-  'visakhapatnam', 'vadodara', 'rajkot', 'nashik', 'nagpur', 'jaipur', 
-  'thane', 'coimbatore', 'kochi', 'jamshedpur', 'raipur', 'gandhinagar', 'vijayawada',
-  'rishikesh', 'haldwani', 'roorkee', 'haridwar', 'dehradun',
-  'siliguri', 'durgapur', 'asansol', 'kolkata', 'kharagpur'
-];
+const keptCities = Object.keys(marketAreaData);
 
 const baseUrl = 'https://remaxforge.com';
 

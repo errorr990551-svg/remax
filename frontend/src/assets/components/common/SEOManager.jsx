@@ -345,13 +345,7 @@ const SEOManager = () => {
       const cityData = marketAreaData[citySlug];
 
       if (cityData) {
-        const KEPT_CITIES = [
-          'mumbai', 'ahmedabad', 'pune', 'surat', 'chennai', 'hyderabad', 'bengaluru', 
-          'visakhapatnam', 'vadodara', 'rajkot', 'nashik', 'nagpur', 'jaipur', 
-          'thane', 'coimbatore', 'kochi', 'jamshedpur', 'raipur', 'gandhinagar', 'vijayawada',
-          'rishikesh', 'haldwani', 'roorkee', 'haridwar', 'dehradun',
-          'siliguri', 'durgapur', 'asansol', 'kolkata', 'kharagpur'
-        ];
+        const KEPT_CITIES = Object.keys(marketAreaData);
 
         if (!KEPT_CITIES.includes(citySlug)) {
           noindex = true;
