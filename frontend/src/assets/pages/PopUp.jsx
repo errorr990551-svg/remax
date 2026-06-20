@@ -74,6 +74,15 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
         publicKey: 'L6kSSqLl5HJakWtm5',
       });
 
+      // Google Ads Conversion Tracking
+      if (window.gtag) {
+        window.gtag('event', 'conversion', {
+          'send_to': 'AW-18254252296/Hd6pCKHMlcIcEIiSp4BE',
+          'value': 1.0,
+          'currency': 'INR'
+        });
+      }
+
       alert("Message sent successfully! Our experts will contact you soon.");
 
       // Reset form after success
