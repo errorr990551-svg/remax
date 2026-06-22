@@ -39,5 +39,17 @@ export const productData = [
       "Socket weld Bushing Fittings",
       "Socket weld Plug Fittings"
     ]
+  },
+  {
+    category: "Forged Fittings",
+    subcategories: [
+      "Forged Fittings"
+    ]
+  },
+  {
+    category: "Pipes & Plates",
+    subcategories: [
+      "Alloy Steel Pipes", "Boiler Quality Plate", "Hardox Plate"
+    ]
   }
 ];

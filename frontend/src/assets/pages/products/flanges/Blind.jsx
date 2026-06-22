@@ -90,9 +90,7 @@ const Blind = () => {
             <ChevronRight size={14} />
             <span className="text-[#D71920] font-medium">Blind Flange</span>
           </div>
-          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">
-            Blind Flange Manufacturer in India | BL / BLRF / BLFF / BLRTJ | ASME B16.5 | Remax Forge
-          </h1>
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">Blind Flange Manufacturer in India</h1>
         </div>
       </div>
 

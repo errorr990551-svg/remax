@@ -89,9 +89,7 @@ const Threaded = () => {
             <ChevronRight size={14} /><span className="text-slate-400">Flanges</span>
             <ChevronRight size={14} /><span className="text-[#D71920] font-medium">Threaded Flange</span>
           </div>
-          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">
-            Threaded Flange Manufacturer in India | TH / THRF / THFF / Screwed Flange / NPT / BSP | ASME B16.5 | Remax Forge
-          </h1>
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">Threaded Flange Manufacturer in India</h1>
         </div>
       </div>
 

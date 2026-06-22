@@ -25,7 +25,7 @@ const Elbow180 = () => {
             <ChevronRight size={14} />
             <span className="text-[#D71920] font-medium">180° Elbow</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">180° Elbow</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">180 Degree Elbow Manufacturer in India</h1>
         </div>
       </div>
 

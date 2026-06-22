@@ -25,7 +25,7 @@ const ButtWeldTeeFittings = () => {
             <ChevronRight size={14} />
             <span className="text-[#D71920] font-medium">Butt weld Tee Fittings</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Butt weld Tee Fittings</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Butt Weld Tee Manufacturer in India</h1>
         </div>
       </div>
 

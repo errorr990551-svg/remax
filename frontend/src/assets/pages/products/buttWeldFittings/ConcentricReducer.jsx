@@ -25,7 +25,7 @@ const ConcentricReducer = () => {
             <ChevronRight size={14} />
             <span className="text-[#D71920] font-medium">Concentric Reducer</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Concentric Reducer</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Concentric Reducer Manufacturer in India</h1>
         </div>
       </div>
 

@@ -25,7 +25,7 @@ const SocketWeldElbow = () => {
             <ChevronRight size={14} />
             <span className="text-[#D71920] font-medium">Socket weld Elbow Fittings</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Socket weld Elbow Fittings</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Socket Weld Elbow Supplier in India</h1>
         </div>
       </div>
 

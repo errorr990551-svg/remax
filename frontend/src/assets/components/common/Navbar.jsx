@@ -144,9 +144,19 @@ const Navbar = () => {
                       </div>
                       <div className="grid grid-cols-2 gap-x-6 gap-y-4">
                         {productData[activeCategory].subcategories.map((subItem, subIndex) => {
-                          const linkHref = `/products/${createSlug(
+                          let linkHref = `/products/${createSlug(
                             productData[activeCategory].category
                           )}/${createSlug(subItem)}`;
+
+                          if (subItem === "Forged Fittings") {
+                            linkHref = "/products/forged-fittings";
+                          } else if (subItem === "Alloy Steel Pipes") {
+                            linkHref = "/products/pipes/alloy-steel-pipes";
+                          } else if (subItem === "Boiler Quality Plate") {
+                            linkHref = "/product-details/boiler-quality-plate";
+                          } else if (subItem === "Hardox Plate") {
+                            linkHref = "/product-details/hardox-plate";
+                          }
 
                           return (
                             <Link
@@ -308,16 +318,28 @@ const Navbar = () => {
                   
                   {/* Mobile Subcategories Level 3 */}
                   <div className={`pl-4 border-l-2 border-slate-100 ml-4 overflow-hidden transition-all duration-300 ${mobileActiveCategory === index ? 'max-h-[800px] mt-1 opacity-100' : 'max-h-0 opacity-0'}`}>
-                    {item.subcategories.map((subItem, subIndex) => (
-                      <Link
-                        key={subIndex}
-                        to={`/products/${createSlug(item.category)}/${createSlug(subItem)}`}
-                        onClick={closeAllMenus}
-                        className="block px-4 py-2.5 text-sm text-slate-500 hover:text-[#D71920] hover:translate-x-1 transition-transform"
-                      >
-                        {subItem}
-                      </Link>
-                    ))}
+                    {item.subcategories.map((subItem, subIndex) => {
+                      let linkHref = `/products/${createSlug(item.category)}/${createSlug(subItem)}`;
+                      if (subItem === "Forged Fittings") {
+                        linkHref = "/products/forged-fittings";
+                      } else if (subItem === "Alloy Steel Pipes") {
+                        linkHref = "/products/pipes/alloy-steel-pipes";
+                      } else if (subItem === "Boiler Quality Plate") {
+                        linkHref = "/product-details/boiler-quality-plate";
+                      } else if (subItem === "Hardox Plate") {
+                        linkHref = "/product-details/hardox-plate";
+                      }
+                      return (
+                        <Link
+                          key={subIndex}
+                          to={linkHref}
+                          onClick={closeAllMenus}
+                          className="block px-4 py-2.5 text-sm text-slate-500 hover:text-[#D71920] hover:translate-x-1 transition-transform"
+                        >
+                          {subItem}
+                        </Link>
+                      );
+                    })}
                   </div>
                 </div>
               ))}

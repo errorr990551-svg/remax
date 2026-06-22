@@ -10360,13 +10360,13 @@ export const marketAreaData = {
       }
     ],
     "meta": {
-      "title": "Flanges & Forged Fittings Manufacturer in Mumbai | Remax Forge",
-      "keywords": "Flanges Manufacturer in Mumbai, Forged Fittings Supplier Mumbai, Industrial Piping Components Maharashtra, Stainless Steel Flanges Mumbai, High Pressure Fittings Western India, Petrochemical & Marine Fittings India, Remax Forge & Fittings Mumbai.",
-      "description": "Remax Forge & Fittings is a leading manufacturer of high-pressure forged fittings and industrial flanges in Mumbai. We provide ISO-certified, marine-grade, and corrosion-resistant components for Mumbai’s oil refineries, mega ports, and manufacturing zones."
+      "title": "Flange Manufacturer in Mumbai | ASME Flanges Supplier Mumbai | Remax Forge",
+      "keywords": "flange manufacturer in mumbai, flange supplier mumbai, pipe flange mumbai, ASME flange mumbai, flange dealer mumbai, industrial flange mumbai, forged flange mumbai",
+      "description": "Remax Forge — flange manufacturer serving Mumbai. All types: WNRF, SORF, BL, THRF, SWRF. ASME B16.5/B16.47. Fast delivery across Mumbai, Navi Mumbai, Thane."
     },
     "banner": {
-      "h1": "Top Flanges & Forged Fittings Manufacturer in Mumbai",
-      "subheadline": "Precision-Engineered Industrial Solutions for Mumbai’s Petrochemical Refineries, Maritime Ports, and Advanced Engineering Sectors. ISO 9001:2015 Certified Quality with 24/7 Technical Support.",
+      "h1": "Flange Manufacturer in Mumbai",
+      "subheadline": "Precision-Engineered ASME Flanges (WNRF, SORF, Blind, Spectacle Blind) Delivered to Refineries, Ports, and Industrial Corridors in Mumbai. ISO 9001:2015 Certified Quality.",
       "imageAlt": "High-pressure industrial flanges and forged fittings manufactured by Remax Forge for Mumbai’s maritime, refining, and urban infrastructure projects.",
       "highlights": [
         {

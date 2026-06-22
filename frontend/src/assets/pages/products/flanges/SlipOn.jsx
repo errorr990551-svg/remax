@@ -111,9 +111,7 @@ const SlipOn = () => {
             <ChevronRight size={14} />
             <span className="text-[#D71920] font-medium">Slip On Flange</span>
           </div>
-          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">
-            Slip On Flange Manufacturer in India | SO / SORF / SOFF | ASME B16.5 | Remax Forge
-          </h1>
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">Slip On Flange Supplier in India</h1>
         </div>
       </div>
 

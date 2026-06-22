@@ -7,6 +7,13 @@ import Navbar from './assets/components/common/Navbar.jsx'
 import Home from './assets/pages/Home.jsx'
 import Footer from './assets/components/common/Footer.jsx'
 import ContactUs from './assets/pages/ContactUs.jsx'
+import SocketWeldFittingsCategory from './assets/pages/products/socketWeldFittings/SocketWeldFittingsCategory.jsx'
+import ForgedFittingsCategory from './assets/pages/products/forgedFittings/ForgedFittingsCategory.jsx'
+import AlloySteelPipes from './assets/pages/products/pipes/AlloySteelPipes.jsx'
+import BoilerQualityPlate from './assets/pages/productDetails/BoilerQualityPlate.jsx'
+import HardoxPlate from './assets/pages/productDetails/HardoxPlate.jsx'
+import PipeFittingsManufacturerIndia from './assets/pages/PipeFittingsManufacturerIndia.jsx'
+import ButtweldFittingsExporterIndia from './assets/pages/ButtweldFittingsExporterIndia.jsx'
 
 
 
@@ -90,6 +97,13 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<ContactUs />} />
+        <Route path='/products/socket-weld-fittings' element={<SocketWeldFittingsCategory />} />
+        <Route path='/products/forged-fittings' element={<ForgedFittingsCategory />} />
+        <Route path='/products/pipes/alloy-steel-pipes' element={<AlloySteelPipes />} />
+        <Route path='/product-details/boiler-quality-plate' element={<BoilerQualityPlate />} />
+        <Route path='/product-details/hardox-plate' element={<HardoxPlate />} />
+        <Route path='/pipe-fittings-manufacturer-india' element={<PipeFittingsManufacturerIndia />} />
+        <Route path='/buttweld-fittings-exporter-india' element={<ButtweldFittingsExporterIndia />} />
         <Route path='/about-us' element={<AboutUs />} />
         <Route path='/blogs' element={<Blogs />} />
         <Route path='/blogs/forged-vs-cast-fittings' element={<ForgedVsCast />} />

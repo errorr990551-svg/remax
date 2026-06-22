@@ -1,140 +1,96 @@
 {
   "slip-on-flange": [
     {
-      "question": "What is the difference between SORF and SOFF?",
-      "answer": "SORF = Slip On Raised Face. The seating surface has a small raised circular ring (1/16\" for Class 150/300). SOFF = Slip On Flat Face. The entire face is flat. SOFF is used when connecting to cast iron flanges or non-metallic flanges to avoid cracking from uneven bolt loading."
+      "question": "Can slip on flanges be used for Class 900 pressure service?",
+      "answer": "Not recommended — ASME B16.5 limits SO flanges to Class 300 and below for most services. WNRF preferred above Class 300."
     },
     {
-      "question": "Can Slip On Flanges be used for high-pressure applications?",
-      "answer": "Slip-On flanges are rated for Class 150# through 2500# per ASME B16.5, but they are NOT the preferred choice above Class 600# due to their lower strength (2/3 of Weld Neck). For Class 900# and above, Weld Neck Flanges are strongly recommended."
+      "question": "What is the welding procedure for slip on flanges?",
+      "answer": "Two fillet welds required per ASME B31.3 — one at hub face and one at back of flange."
     },
     {
-      "question": "What pipe schedule works with your Slip On Flanges?",
-      "answer": "Slip-On flanges are available for all standard pipe schedules (SCH 40, 80, 160, XXS). The bore is machined to the specific pipe OD of the requested schedule. Specify the pipe OD or schedule when ordering."
+      "question": "Do you supply SORF in SS316L?",
+      "answer": "Yes, stocked in Class 150 and 300; higher classes on order."
     },
     {
-      "question": "Do you supply ASME B16.47 large-bore Slip On Flanges?",
-      "answer": "Yes. We supply Slip-On flanges per ASME B16.47 Series A (MSS SP-44) and Series B (API 605) from NPS 26\" to 60\". Please provide size, class, and material grade for a custom quote."
-    },
-    {
-      "question": "How is a Slip On Flange welded to the pipe?",
-      "answer": "Two fillet welds are required: (1) Internal weld — weld the pipe inside the bore to the face of the flange. (2) External weld — weld the pipe on the outside where it exits the back of the flange hub. Both welds must be of equal size per AWS D1.1."
-    },
-    {
-      "question": "What is the difference between a Slip On Flange and a Lap Joint Flange?",
-      "answer": "A Slip On Flange is welded directly to the pipe and is a single piece. A Lap Joint Flange is a two-piece assembly (backing flange + stub end) where the backing flange is NOT welded — it slides freely to allow bolt hole rotation. Lap Joint is preferred when bolt alignment is difficult or when frequent dismantling is needed."
-    },
-    {
-      "question": "Do you provide MTC (Mill Test Certificate) with Slip On Flanges?",
-      "answer": "Yes. All Remax Forge flanges are supplied with Mill Test Certificates as per EN 10204 3.1 confirming chemical composition and mechanical properties. EN 10204 3.2 (third-party certified MTC) is available on request."
-    },
-    {
-      "question": "What is your minimum order quantity for Slip On Flanges?",
-      "answer": "We supply from single pieces to bulk orders. No minimum order quantity. Contact us for pricing based on your required quantity."
+      "question": "What facing finish do you provide?",
+      "answer": "125–250 AARH serrated finish standard; smooth finish on request."
     }
   ],
   "weld-neck-flange": [
     {
-      "question": "What is the difference between WNRF and WNFF?",
-      "answer": "WNRF = Weld Neck Raised Face — has a raised ring on the seating face that concentrates bolt load on the gasket. Standard for most oil & gas applications. WNFF = Weld Neck Flat Face — entire face is flat. Used when mating against cast iron, low-pressure non-metallic, or AWWA flanges where the raised face could crack the mating flange."
+      "question": "What is the difference between ASME B16.5 and B16.47 weld neck flanges?",
+      "answer": "B16.5 covers sizes ½\" to 24\" in classes 150–2500; B16.47 covers 26\"–60\" in two series (A=MSS SP-44, B=API 605)."
     },
     {
-      "question": "When should I choose Weld Neck over Slip-On?",
-      "answer": "Always choose Weld Neck for: (1) Pressure Class 600# and above, (2) Temperatures above 300°C or below -50°C, (3) Cyclic or vibrating services, (4) Lethal, toxic, or highly flammable media, (5) Where radiographic weld inspection is required by code, (6) High fatigue applications."
+      "question": "What pressure class weld neck flange do I need for 600 psi at 400°F in A105?",
+      "answer": "Class 300 per ASME B16.5 table 2-1.1."
     },
     {
-      "question": "What pipe schedule must match the Weld Neck Flange?",
-      "answer": "The flange bore is machined to the EXACT internal diameter of the connecting pipe. You must specify the pipe NPS AND schedule (e.g. 4\" SCH 40, 8\" SCH 80). A mismatch in bore creates a step/ledge that causes turbulence, erosion, and code non-compliance."
+      "question": "Do you supply IBR-approved weld neck flanges?",
+      "answer": "Yes, all our CS/alloy flanges are IBR approved under IBR 1950 regulation 84."
     },
     {
-      "question": "Are your Weld Neck Flanges available in API 6A?",
-      "answer": "Yes. We supply API 6A Weld Neck Flanges for wellhead and Christmas tree applications in working pressures 2000, 3000, 5000, 10000, and 15000 PSI. API 6A flanges use different dimensions from ASME B16.5. Please specify API 6A when ordering."
+      "question": "What is the lead time for non-standard bore WNRF?",
+      "answer": "10–15 working days."
     },
     {
-      "question": "Do you supply ASME B16.47 large bore Weld Neck Flanges?",
-      "answer": "Yes, from NPS 26\" to 60\" per ASME B16.47 Series A (MSS SP-44) and Series B (API 605). These require individual drawings and are manufactured to order."
-    },
-    {
-      "question": "What is the maximum temperature for Weld Neck Flanges?",
-      "answer": "Depends on material: Carbon Steel A105 = up to 425°C; Alloy Steel F22 (Cr-Mo) = up to 600°C; Alloy Steel F91 (9Cr-1Mo-V) = up to 700°C; Stainless Steel F316L = up to 870°C (oxidizing); Inconel 625 = up to 980°C."
-    },
-    {
-      "question": "What is an ASTM A105 Weld Neck Flange?",
-      "answer": "ASTM A105 is the most common carbon steel forging standard for flanges. It covers forged carbon steel for ambient and elevated temperature service. A105 is the default grade for Class 150# and 300# flanges in general service. For low temperature, A350 LF2 is used instead."
+      "question": "What NDT tests do you perform?",
+      "answer": "RT, UT, MPT, DPT, hardness, PMI — as per customer specification."
     }
   ],
   "blind-flange": [
     {
-      "question": "What is the difference between a Blind Flange and a Spectacle Blind?",
-      "answer": "A Blind Flange is a SEPARATE piece installed between two flanges to block flow — removing it requires breaking the flanged joint. A Spectacle Blind is a PERMANENT assembly of a blind disc + open ring, always installed between flanges, rotated to switch between blind and open position without breaking the joint. Use Blind Flange for permanent/rare isolation; use Spectacle Blind for frequent maintenance cycling."
+      "question": "What is the maximum pressure rating for a Class 2500 blind flange in A105 at 100°F?",
+      "answer": "6170 psi as per ASME B16.5 Table 2-1.1."
     },
     {
-      "question": "Can Blind Flanges be used as permanent pipe closures?",
-      "answer": "Yes. Blind flanges are perfectly suitable for permanent closures. They are simpler and cheaper than Spectacle Blinds for applications where the closure will never (or rarely) be cycled."
+      "question": "Can blind flanges be used as spectacle blinds?",
+      "answer": "No — spectacle blind is a permanent installed assembly with both blind and spacer; blind flange is a separate bolted cover."
     },
     {
-      "question": "How thick is a Class 900# Blind Flange compared to Class 150#?",
-      "answer": "For a 12\" NPS example: Class 150# thickness = 28.6mm; Class 900# thickness = approximately 101.6mm (3.5x thicker). This is because the blind plate must resist the full system pressure across its entire area. Higher classes = much heavier and more expensive blind flanges."
+      "question": "Do you supply RTJ-faced blind flanges?",
+      "answer": "Yes, in oval and octagonal ring grooves per ASME B16.20."
     },
     {
-      "question": "Do you supply blind flanges with a center vent hole?",
-      "answer": "Yes. We can supply blind flanges with a threaded center vent/drain hole (½\" or ¾\" NPT typically). This allows pressure equalization before removing the blind — an important safety practice."
-    },
-    {
-      "question": "What is the difference between BLRF and BLFF?",
-      "answer": "BLRF = Blind Raised Face (standard — works with WNRF, SORF mating flanges). BLFF = Blind Flat Face (used with SOFF or cast iron mating flanges). The face finish and gasket type must match between mating flanges."
-    },
-    {
-      "question": "Can blind flanges be supplied in Duplex or Inconel material?",
-      "answer": "Yes. We manufacture blind flanges in all alloys: Duplex F51, Super Duplex F53, Inconel 625, Hastelloy C276, Monel 400, Titanium Grade 2/5, and more. Please contact us for special alloy pricing and lead time."
+      "question": "What is the weight of a 12\" Class 600 blind flange in A105?",
+      "answer": "Approximately 68 kg — contact us for certified weight certificate."
     }
   ],
   "socket-weld-flange": [
     {
-      "question": "What is the maximum size available for Socket Weld Flanges?",
-      "answer": "Per ASME B16.5, socket weld flanges are specified from ½\" to 3\" NPS. We can supply up to 4\" on request, but for NPS 4\" and above, Weld Neck or Slip-On flanges are technically and economically preferred."
+      "question": "What is the socket bore gap required for a socket weld flange?",
+      "answer": "ASME B31.3 para 328.5.2 requires 1/16\" (1.6mm) gap before welding to allow thermal expansion."
     },
     {
-      "question": "Why must I leave a 1.6mm gap before welding a Socket Weld Flange?",
-      "answer": "ASME B31.3 mandates this gap. When the fillet weld is made, heat causes both the pipe and the socket to expand. If the pipe is fully seated (no gap), this expansion creates compressive stress that can crack the weld or cause the pipe to buckle inside the socket after cooling. The 1.6mm gap absorbs the thermal expansion safely."
+      "question": "Can socket weld flanges be used for cryogenic service?",
+      "answer": "Yes with appropriate material (A182 F304L or F316L) and verified gap procedure."
     },
     {
-      "question": "What is the difference between a Socket Weld Flange and a Slip-On Flange?",
-      "answer": "Slip-On: Pipe slides completely through the flange; welded inside AND outside (2 welds); suitable for all sizes; lower pressure capability. Socket Weld: Pipe is inserted into a socket bore (stopped at bottom); welded outside only (1 weld); primarily for small bore (½\"–3\"); higher pressure capable due to socket support."
+      "question": "What is the max size for socket weld flanges per ASME B16.5?",
+      "answer": "4\" NPS is the maximum standardized size."
     },
     {
-      "question": "Can Socket Weld Flanges be used for cryogenic service (liquid nitrogen, LNG)?",
-      "answer": "No. Socket weld joints are NOT recommended for cryogenic service. The socket crevice can trap liquid during thermal cycling and cause cracking. For cryogenic service, Weld Neck Flanges with full-penetration butt welds are required."
-    },
-    {
-      "question": "What standard covers Socket Weld Flanges — ASME B16.5 or B16.11?",
-      "answer": "ASME B16.5 covers socket weld flanges (the flange itself, with its face and bolt holes). ASME B16.11 covers socket weld fittings (elbows, tees, couplings, etc.) in forged class 3000# and 6000#. Both may be applicable depending on your specification."
-    },
-    {
-      "question": "Are Socket Weld Flanges available in Duplex Stainless Steel?",
-      "answer": "Yes. We manufacture Socket Weld Flanges in all standard materials including Duplex F51, Super Duplex F53, Inconel 625, Hastelloy C276, and all grades in the material table above."
+      "question": "Is one fillet weld sufficient?",
+      "answer": "One weld is standard; for cyclic or vibration service, double-weld socket per client specification."
     }
   ],
   "threaded-flange": [
     {
-      "question": "What is the difference between NPT and BSP threaded flanges?",
-      "answer": "NPT (National Pipe Taper) is the American standard per ASME B1.20.1 — taper of 1 in 16 on diameter. BSP (British Standard Pipe, ISO 7/1) is the UK/international standard — taper of 1 in 16 on diameter (BSPT) or parallel (BSPP). They are NOT interchangeable — NPT and BSP threads will not seal properly together even though they look similar. Always specify which thread form you need."
+      "question": "What thread standard is used — NPT or BSPT?",
+      "answer": "We supply both NPT (ASME B1.20.1) and BSPT (BS 21) — specify at time of order."
     },
     {
-      "question": "Can threaded flanges be used in high-pressure steam service?",
-      "answer": "Generally not recommended above Class 300# for steam. The thermal cycling of steam service tends to cause threaded joints to loosen over time. For steam above 600 kPa, welded flanges (Socket Weld or Weld Neck) are strongly preferred."
+      "question": "Up to what pressure class can threaded flanges be safely used?",
+      "answer": "Class 600 per ASME B16.5; above Class 600 a seal weld is mandatory per ASME B31.3."
     },
     {
-      "question": "Should I weld a threaded flange after threading?",
-      "answer": "For added security in non-hazardous areas, a seal weld can be applied over the thread engagement area after make-up. This is called \"Seal Weld\" and improves the joint integrity. However, in ATEX zones (the primary use case for threaded flanges), no welding is permitted."
+      "question": "Can threaded flanges be used for steam service?",
+      "answer": "Limited to Class 300 and below for steam; refer to ASME B16.5 temperature-pressure tables."
     },
     {
-      "question": "What thread sealant should I use?",
-      "answer": "For general service: PTFE tape (Teflon tape) applied to the male pipe thread before make-up. For higher-pressure or gas service: anaerobic thread sealant compound such as Loctite 565, Rector Seal, or equivalent. Do NOT use PTFE tape for oxygen service — use oxygen-compatible sealant only."
-    },
-    {
-      "question": "Are your threaded flanges available in Stainless Steel 316L for chemical service?",
-      "answer": "Yes. We manufacture threaded flanges in all standard grades including SS 316L (A182 F316L), Duplex F51, Hastelloy C276, and others. For corrosive chemical service, ensure the material is compatible with your media. Contact our technical team for material selection guidance."
+      "question": "What is the minimum wall thickness required in the mating pipe?",
+      "answer": "Schedule 80 minimum recommended for Class 300 and above."
     }
   ],
   "lap-joint-flange": [
@@ -183,28 +139,304 @@
   ],
   "spectacle-blind-flange": [
     {
-      "question": "What is the difference between a Spectacle Blind and a Paddle Blind?",
-      "answer": "A Spectacle Blind (Figure-8) is ONE PIECE: solid blind disc and open ring joined permanently by a handle. It stays installed between flanges always. A Paddle Blind uses TWO SEPARATE pieces: a Spade (solid blind) and a Spacer Ring (open ring) that are individually stored and swapped. Spectacle Blind = safer (no mix-up), more convenient for frequent cycling. Paddle Blind = cheaper and lighter for large bore sizes (NPS 16\"+)."
+      "question": "What is the difference between a spectacle blind and a paddle blank?",
+      "answer": "A spectacle blind is a single-piece figure-8 with both blind disc and spacer connected; a paddle blank (paddle blind) is a separate disc inserted between flanges without the spacer."
     },
     {
-      "question": "What standard covers spectacle blind flanges — ASME B16.5 or B16.48?",
-      "answer": "ASME B16.48 is the primary standard for line blinds (spectacle blinds, paddle blinds, spades). ASME B16.5 covers flanges. The spectacle blind is NOT a flange itself but a line component installed BETWEEN flanges. B16.48 covers sizes, pressure classes, tolerances, materials, and markings."
+      "question": "What standard governs spectacle blind dimensions?",
+      "answer": "ASME B16.48 — covers Class 150 to 2500 in sizes 1/2\" to 24\"."
     },
     {
-      "question": "What is the face finish on a Spectacle Blind?",
-      "answer": "The seating faces are machined to a Raised Face finish (2.5–6.3 µm Ra, known as \"stock finish\") matching the mating flanges. The raised face ensures the full gasket seating load is concentrated on the gasket. RTJ face is NOT used for spectacle blinds."
+      "question": "Can a spectacle blind be used for permanent isolation?",
+      "answer": "It is designed for temporary isolation during maintenance; for permanent isolation, a blind flange is preferred."
     },
     {
-      "question": "For large bore sizes (above 16\"), should I use Spectacle Blind or Paddle Blind?",
-      "answer": "Above NPS 16\", spectacle blinds become very heavy (60–150+ kg). At this size, Paddle Blinds (spade + spacer ring stored separately) are more common because: (1) lighter to handle, (2) can be lifted with lighter equipment, (3) significantly cheaper. The trade-off is that you must maintain both pieces carefully. Use spectacle blind for NPS 2\"–14\" in normal plant service; consider paddle blind above NPS 16\"."
+      "question": "Do you supply in duplex SS F51?",
+      "answer": "Yes — F51 spec blinds available for sour and chloride-rich environments."
+    }
+  ],
+  "mumbai": [
+    {
+      "question": "Do you deliver flanges to Mumbai within 48 hours?",
+      "answer": "Standard delivery is 3–5 working days; express 48-hr delivery available for stocked items."
     },
     {
-      "question": "Do you supply the handle/tab markings \"BLIND\" and \"OPEN\"?",
-      "answer": "Yes. All Remax Forge spectacle blinds include an integral handle with stamped or engraved \"BLIND\" and \"OPEN\" labels on the respective discs as per ASME B16.48 marking requirements. This is a code requirement — do not purchase unmarked spectacle blinds."
+      "question": "Can you supply IBR-approved flanges for Mumbai power plants?",
+      "answer": "Yes — IBR certificates provided for all carbon steel and alloy flanges."
     },
     {
-      "question": "Can Spectacle Blinds be used for steam service?",
-      "answer": "Yes. For steam service, ensure the material grade is rated for the service temperature. Carbon Steel A516 Gr.70 is suitable up to ~425°C. For higher temperature steam, Alloy Steel A182 F11 or F22 is used. Also ensure the gasket type is rated for steam (spiral wound or ring joint for high-pressure steam)."
+      "question": "Do you have a Mumbai warehouse or office?",
+      "answer": "We operate from our main facility with regular dispatches to Mumbai — contact our Mumbai sales desk at [number]."
+    },
+    {
+      "question": "What is the minimum order quantity for Mumbai delivery?",
+      "answer": "No minimum order — we supply from 1 pc to bulk container loads."
+    }
+  ],
+  "butt-weld-elbow-fittings": [
+    {
+      "question": "What is the difference between LR and SR butt weld elbow?",
+      "answer": "LR (Long Radius) has centerline radius = 1.5 × NPS — lower pressure drop, preferred for most services. SR (Short Radius) has centerline radius = 1.0 × NPS — used where space is limited."
+    },
+    {
+      "question": "What standard governs butt weld elbow dimensions?",
+      "answer": "ASME B16.9 for most; MSS SP-43 for light-wall stainless; MSS SP-75 for high-yield (WPHY)."
+    },
+    {
+      "question": "Do you supply 3D and 5D elbows?",
+      "answer": "Yes — non-standard radius elbows in 3D and 5D to customer drawing."
+    },
+    {
+      "question": "What is the max schedule available for 90° LR elbow in 6\" NPS A234 WPB?",
+      "answer": "Schedule XXS (available)."
+    },
+    {
+      "question": "Are seamless and welded elbows both available?",
+      "answer": "Yes — seamless for smaller sizes up to 12\"; ERW/welded for 14\" and above."
+    }
+  ],
+  "butt-weld-tee-fittings": [
+    {
+      "question": "What is the difference between an equal tee and a reducing tee?",
+      "answer": "Equal tee has all three openings the same size (e.g., 6\"×6\"×6\"); reducing tee has a smaller branch (e.g., 6\"×6\"×4\")."
+    },
+    {
+      "question": "What standard governs butt weld tee dimensions?",
+      "answer": "ASME B16.9 for standard wrought fittings; MSS SP-75 for high-yield WPHY grades."
+    },
+    {
+      "question": "Can you supply reducing tee in duplex SS?",
+      "answer": "Yes — A815 WP31803 (Duplex 2205) in ASME B16.9."
+    },
+    {
+      "question": "What is the minimum wall thickness for a tee in high-pressure service?",
+      "answer": "Must meet ASME B16.9 minimum wall which equals or exceeds mating pipe schedule."
+    }
+  ],
+  "concentric-reducer": [
+    {
+      "question": "When should I use a concentric reducer vs eccentric reducer?",
+      "answer": "Concentric reducers align pipe centerlines — used for vertical pipes and gas lines. Eccentric reducers offset centerlines — flat side UP on pump suction to prevent air entrainment; flat side DOWN on drain lines."
+    },
+    {
+      "question": "What is the length of a 6\"×4\" concentric reducer per ASME B16.9?",
+      "answer": "152mm (6\") for standard B16.9."
+    },
+    {
+      "question": "Do you supply reducers in Duplex SS 2205?",
+      "answer": "Yes — A815 WP31803 concentric and eccentric reducers available."
+    },
+    {
+      "question": "Can you make custom reducers outside B16.9?",
+      "answer": "Yes — to customer drawing/specification."
+    }
+  ],
+  "eccentric-reducer": [
+    {
+      "question": "Why is flat side up preferred for pump suction eccentric reducers?",
+      "answer": "Flat side up maintains a consistent top-of-pipe level, preventing air pockets that would cause cavitation in centrifugal pumps."
+    },
+    {
+      "question": "What is the length of an 8\"×6\" eccentric reducer per B16.9?",
+      "answer": "203mm (same as concentric for same size)."
+    },
+    {
+      "question": "Can eccentric reducers be used for gas service?",
+      "answer": "Yes, but concentric reducers are more common for gas — eccentric used where liquid drainage is required."
+    },
+    {
+      "question": "Do you supply eccentric reducers in SCH XXS?",
+      "answer": "Yes."
+    }
+  ],
+  "180-elbow": [
+    {
+      "question": "What is the difference between a close-pattern and open-pattern 180° elbow?",
+      "answer": "Close-pattern return bends have the two openings close together (back-to-back); open-pattern has more space between legs for insulation or mechanical access."
+    },
+    {
+      "question": "Is a 180° elbow the same as two 90° elbows?",
+      "answer": "No — a 180° fitting is one seamless piece with fewer welds; two 90° elbows require a spool piece and two weld joints."
+    },
+    {
+      "question": "Do you supply 180° elbows in SS316L?",
+      "answer": "Yes — A403 WP316L in ASME B16.9."
+    },
+    {
+      "question": "What is the back-to-face dimension for a 6\" LR 180° elbow?",
+      "answer": "305mm per ASME B16.9."
+    }
+  ],
+  "socket-weld-fittings": [
+    {
+      "question": "What pressure class socket weld fitting do I need for 2\" SCH80 pipe?",
+      "answer": "Class 3000# per ASME B16.11 maps to SCH80; for SCH160 use Class 6000#."
+    },
+    {
+      "question": "What is the size range for socket weld fittings per B16.11?",
+      "answer": "1/8\" NPS to 4\" NPS."
+    },
+    {
+      "question": "Do socket weld fittings require a gap before welding?",
+      "answer": "Yes — 1/16\" (1.6mm) gap per ASME B31.3 para 328.5.2 to allow thermal expansion during welding."
+    },
+    {
+      "question": "Can socket weld fittings be used for cryogenic service?",
+      "answer": "Yes with F304L or F316L material and appropriate WPS."
+    },
+    {
+      "question": "What is the difference between a coupling and a union in SW fittings?",
+      "answer": "A coupling is welded both ends (permanent); a union has a threaded nut allowing disassembly without cutting."
+    }
+  ],
+  "forged-fittings": [
+    {
+      "question": "What is the difference between Class 3000 and Class 6000 forged fittings?",
+      "answer": "Class 3000 is rated for use with SCH80 pipe; Class 6000 for SCH160 pipe — higher wall = higher pressure capacity."
+    },
+    {
+      "question": "Are forged fittings stronger than cast fittings?",
+      "answer": "Yes — forging aligns grain structure in the direction of stress, eliminating cast porosity and yielding 25–30% higher impact strength."
+    },
+    {
+      "question": "What is the maximum temperature for A182 F11 forged fittings?",
+      "answer": "593°C (1100°F) per ASME B16.11 / ASME B31.1."
+    },
+    {
+      "question": "Do you provide NACE MR0175 compliant fittings for sour service?",
+      "answer": "Yes — hardness certified per NACE MR0175/ISO 15156."
+    },
+    {
+      "question": "What export documents do you provide?",
+      "answer": "Commercial Invoice, Packing List, COO, MTR (EN 10204 3.1), IBR Certificate, Third-party inspection reports."
+    }
+  ],
+  "socket-weld-elbow-fittings": [
+    {
+      "question": "What class socket weld elbow do I need for SCH160 pipe?",
+      "answer": "Class 6000# per ASME B16.11."
+    },
+    {
+      "question": "What is the socket depth for a 2\" Class 3000 SW elbow?",
+      "answer": "Typically 22mm (0.88\") per B16.11 — confirm from dimension table."
+    },
+    {
+      "question": "Can socket weld elbows be used for high-temperature steam?",
+      "answer": "Yes with appropriate material — A182 F11 for temperatures up to 593°C."
+    },
+    {
+      "question": "Do you supply in F51 Duplex for chloride environments?",
+      "answer": "Yes."
+    }
+  ],
+  "alloy-steel-pipes": [
+    {
+      "question": "What is the maximum operating temperature for P91 alloy steel pipe?",
+      "answer": "650°C (1200°F) continuous service per ASME B31.1; creep properties govern above 550°C."
+    },
+    {
+      "question": "Why is PWHT critical for P91 pipes?",
+      "answer": "P91 requires strict PWHT at 730–780°C; improper PWHT creates Type IV cracking susceptibility at HAZ."
+    },
+    {
+      "question": "What is the difference between P11 and P22 alloy steel?",
+      "answer": "P11 = 1.25Cr-0.5Mo (max 550°C); P22 = 2.25Cr-1Mo (max 593°C) — P22 has higher chromium for better oxidation resistance."
+    },
+    {
+      "question": "Do you supply P91 pipes with IBR approval?",
+      "answer": "Yes — ASTM A335 P91 pipes supplied with IBR-approved material certificates and hydro-test records."
+    },
+    {
+      "question": "What NDT tests are performed on alloy pipes?",
+      "answer": "Hydrostatic test, UT (ultrasonic), PMI, hardness testing, and radiography for heavy wall pipes."
+    }
+  ],
+  "boiler-quality-plate": [
+    {
+      "question": "What is the difference between IS 2002 Grade 2 and ASTM A516 Gr70?",
+      "answer": "IS 2002 Gr2 has min UTS 440 MPa (equivalent to Gr60); ASTM A516 Gr70 has min UTS 485 MPa and higher yield — A516 Gr70 is the stronger grade."
+    },
+    {
+      "question": "When is normalizing mandatory for BQ plates?",
+      "answer": "Per IS 2002, normalizing is mandatory for plates > 40mm thick; per ASTM A516 when Charpy impact testing is ordered (supplementary requirement S1)."
+    },
+    {
+      "question": "Do you supply IBR-approved boiler quality plates?",
+      "answer": "Yes — all BQ plates supplied with IBR-approved material test reports as required under IBR 1950."
+    },
+    {
+      "question": "What is HIC-tested A516 Gr70 and when is it needed?",
+      "answer": "HIC (Hydrogen Induced Cracking) tested plate per NACE TM0284 is required for sour gas service where wet H2S is present."
+    },
+    {
+      "question": "What maximum thickness do you stock?",
+      "answer": "Up to 150mm in IS 2002 and A516 grades."
+    }
+  ],
+  "hardox-plate": [
+    {
+      "question": "What is the difference between Hardox 450 and Hardox 500?",
+      "answer": "Hardox 450 has 425–475 HBW hardness; Hardox 500 has 470–530 HBW — higher hardness = better wear resistance but slightly less impact toughness."
+    },
+    {
+      "question": "Does Hardox plate require pre-heating before welding?",
+      "answer": "Yes — pre-heat requirement depends on grade and thickness; typically 75°C for Hardox 450 at 20mm; refer to SSAB pre-heat table."
+    },
+    {
+      "question": "What is the difference between Hardox and generic AR400/AR500 plate?",
+      "answer": "Hardox has tighter hardness tolerance (±25 HBW), guaranteed through-thickness hardness, Charpy impact certified at -40°C, and controlled PCM for better weldability."
+    },
+    {
+      "question": "What is the maximum thickness available for Hardox 450 in India?",
+      "answer": "Up to 103mm — confirm availability at time of order."
+    },
+    {
+      "question": "Can you cut and profile Hardox plates to size?",
+      "answer": "Yes — plasma and oxy-fuel cutting available; laser cutting for thinner gauges."
+    }
+  ],
+  "pipe-fittings-manufacturer-india": [
+    {
+      "question": "What types of pipe fittings does Remax Forge manufacture?",
+      "answer": "Flanges (WNRF/SORF/BL/THRF/SWRF/Spec Blind), butt weld fittings (elbows/tees/reducers/caps), socket weld fittings (elbows/tees/couplings/unions), forged fittings, pipes, and plates."
+    },
+    {
+      "question": "Which international standards do you manufacture to?",
+      "answer": "ASME B16.5, B16.9, B16.11, B16.47, B16.48, MSS SP-43/75/79, EN 1092-1, DIN, IS 6392."
+    },
+    {
+      "question": "Do you export pipe fittings?",
+      "answer": "Yes — we export to 40+ countries including UAE, Saudi Arabia, USA, UK, Germany, Singapore, and Australia."
+    },
+    {
+      "question": "What is your minimum order quantity?",
+      "answer": "No MOQ for standard items; custom/special items may have minimum batch requirements."
+    },
+    {
+      "question": "What third-party inspections do you accept?",
+      "answer": "SGS, Bureau Veritas, Lloyd's Register, TUV, Intertek, and client-nominated inspectors."
+    }
+  ],
+  "buttweld-fittings-exporter-india": [
+    {
+      "question": "What countries do you export buttweld fittings to?",
+      "answer": "UAE, Saudi Arabia, USA, UK, Germany, Australia, Singapore, Qatar, Kuwait, Bahrain, and 30+ more — full list on request."
+    },
+    {
+      "question": "What export documents do you provide with each shipment?",
+      "answer": "Commercial Invoice, Packing List, COO, MTR (EN 10204 3.1), Inspection Certificate, EOEC/Form-I, and any special certifications required (IBR, NACE, PED)."
+    },
+    {
+      "question": "Can you meet ARAMCO or ADNOC approved material specifications?",
+      "answer": "Yes — we manufacture to ARAMCO SAES and ADNOC specifications; please provide your MR/PR for review."
+    },
+    {
+      "question": "What is the lead time for export orders?",
+      "answer": "3–4 weeks for standard sizes in stock materials; 6–8 weeks for special grades or large quantities."
+    },
+    {
+      "question": "What payment terms do you accept for export?",
+      "answer": "LC at sight, 30% advance + 70% BL copy, or as mutually agreed."
     }
   ]
 }

@@ -96,9 +96,7 @@ const SpectacleBlind = () => {
             <ChevronRight size={14} /><span className="text-slate-400">Flanges</span>
             <ChevronRight size={14} /><span className="text-[#D71920] font-medium">Spectacle Blind Flange</span>
           </div>
-          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">
-            Spectacle Blind Flange Manufacturer in India | Figure-8 / Spec Blind / Spectacle Plate | ASME B16.48 | Remax Forge
-          </h1>
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">Spectacle Blind Flange Supplier</h1>
         </div>
       </div>
 

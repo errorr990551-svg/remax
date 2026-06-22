@@ -25,7 +25,7 @@ const EccentricReducer = () => {
             <ChevronRight size={14} />
             <span className="text-[#D71920] font-medium">Eccentric Reducer</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Eccentric Reducer</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Eccentric Reducer Supplier in India</h1>
         </div>
       </div>
 
