@@ -131,7 +131,7 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
             Get in touch
           </span>
           <h2 className="text-2xl md:text-4xl font-extrabold text-[#0F172A] mb-1 md:mb-2 leading-tight">
-            Drop your details below
+            Fill this form and get a quote in 30 minutes — guaranteed
           </h2>
           <p className="text-slate-500 text-sm md:text-lg">
             Let our experts take over from here!
