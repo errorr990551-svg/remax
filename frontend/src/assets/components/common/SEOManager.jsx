@@ -475,26 +475,30 @@ const SEOManager = () => {
         description = cityData.meta.description;
         keywords = cityData.meta.keywords;
 
-        const localBusinessSchema = {
-          '@context': 'https://schema.org',
-          '@type': 'LocalBusiness',
-          'name': `Remax Forge & Fittings - ${formatName(citySlug)}`,
-          'url': canonicalUrl,
-          'image': `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`,
-          'logo': `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`,
-          'telephone': '+91-97699-83108',
-          'address': {
-            '@type': 'PostalAddress',
-            'addressLocality': formatName(citySlug),
-            'addressCountry': 'IN'
-          }
-        };
-        schemas.push(localBusinessSchema);
-        schemas.push(makeBreadcrumbs([
-          breadcrumbsHome,
-          { name: 'Market Area', path: '/market-area' },
-          { name: formatName(citySlug), path: pathname }
-        ]));
+        if (cityData.schema) {
+          schemas.push(cityData.schema);
+        } else {
+          const localBusinessSchema = {
+            '@context': 'https://schema.org',
+            '@type': 'LocalBusiness',
+            'name': `Remax Forge & Fittings - ${formatName(citySlug)}`,
+            'url': canonicalUrl,
+            'image': `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`,
+            'logo': `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`,
+            'telephone': '+91-97699-83108',
+            'address': {
+              '@type': 'PostalAddress',
+              'addressLocality': formatName(citySlug),
+              'addressCountry': 'IN'
+            }
+          };
+          schemas.push(localBusinessSchema);
+          schemas.push(makeBreadcrumbs([
+            breadcrumbsHome,
+            { name: 'Market Area', path: '/market-area' },
+            { name: formatName(citySlug), path: pathname }
+          ]));
+        }
       }
     }
 

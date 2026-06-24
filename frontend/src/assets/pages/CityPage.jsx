@@ -305,48 +305,7 @@ const CityPage = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              {
-                sector: "Oil & Gas",
-                application: "High-pressure extraction & refining",
-                products: "Forged Flanges, RTJ Joints",
-                image: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=2070&auto=format&fit=crop",
-                links: [
-                  { name: "Butt Weld Elbow Fittings", url: "/products/buttweld-fittings/butt-weld-elbow-fittings" },
-                  { name: "Weld Neck Flange", url: "/products/flanges/weld-neck-flange" }
-                ]
-              },
-              {
-                sector: "Petrochemical",
-                application: "Corrosive chemical processing",
-                products: "Stainless Steel Fittings, Duplex Steel",
-                image: "/images/petro-chemical.jpeg",
-                links: [
-                  { name: "Socket Weld Coupling Fittings", url: "/products/socket-weld-fittings/socket-weld-coupling-fittings" },
-                  { name: "Threaded Flange", url: "/products/flanges/threaded-flange" }
-                ]
-              },
-              {
-                sector: "Power Plants",
-                application: "Boiler systems & steam generation",
-                products: "IBR Approved Fittings, Alloy Steel",
-                image: "/images/power-plant.jpeg",
-                links: [
-                  { name: "Butt Weld Tee Fittings", url: "/products/buttweld-fittings/butt-weld-tee-fittings" },
-                  { name: "Concentric Reducer", url: "/products/buttweld-fittings/concentric-reducer" }
-                ]
-              },
-              {
-                sector: "Marine & Defense",
-                application: "Saltwater resistant infrastructure",
-                products: "Copper Nickel & Monel Components",
-                image: "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?q=80&w=2070&auto=format&fit=crop",
-                links: [
-                  { name: "Socket Weld Elbow Fittings", url: "/products/socket-weld-fittings/socket-weld-elbow-fittings" },
-                  { name: "Blind Flange", url: "/products/flanges/blind-flange" }
-                ]
-              }
-            ].map((item, index) => (
+            {(data.industries || []).map((item, index) => (
               <div key={index} className="group relative bg-slate-900 rounded-lg overflow-hidden h-80 shadow-lg">
                 <img 
                   src={item.image} 
