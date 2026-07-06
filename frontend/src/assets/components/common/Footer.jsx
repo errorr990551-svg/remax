@@ -97,6 +97,8 @@ const Footer = () => {
                   if (category === "Flanges") return "/products/flanges/slip-on-flange";
                   if (category === "Buttweld Fittings") return "/products/buttweld-fittings/butt-weld-elbow-fittings";
                   if (category === "Socket Weld Fittings") return "/products/socket-weld-fittings/socket-weld-coupling-fittings";
+                  if (category === "Forged Fittings") return "/products/forged-fittings";
+                  if (category === "Pipes & Plates") return "/products/pipes/alloy-steel-pipes";
                   return "/";
                 };
                 return (
@@ -164,7 +166,7 @@ const Footer = () => {
             </p>
             <p className="text-slate-500 text-sm text-center md:text-right">
               <a href="https://errorr.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                Designed and Promoted By Errorr.in Best Digital Marketing Company in India
+                Website by Errorr.in
               </a>
             </p>
           </div>

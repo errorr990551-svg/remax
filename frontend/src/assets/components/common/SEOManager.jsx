@@ -476,7 +476,11 @@ const SEOManager = () => {
         keywords = cityData.meta.keywords;
 
         if (cityData.schema) {
-          schemas.push(cityData.schema);
+          if (Array.isArray(cityData.schema)) {
+            schemas.push(...cityData.schema);
+          } else {
+            schemas.push(cityData.schema);
+          }
         } else {
           const localBusinessSchema = {
             '@context': 'https://schema.org',

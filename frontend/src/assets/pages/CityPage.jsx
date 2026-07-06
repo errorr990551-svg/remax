@@ -1,22 +1,21 @@
-import React, { useState, useEffect } from 'react';
-import { useNavigate, useParams, Navigate } from 'react-router-dom';
-import { ArrowRight, ShieldCheck, Globe, Settings, Clock, CheckCircle2, Factory, Award, Truck, PenTool, ChevronLeft, ChevronRight, HelpCircle, ChevronDown, ChevronUp } from 'lucide-react';
+import React, { useState } from 'react';
+import { useNavigate, useParams, Navigate, Link } from 'react-router-dom';
+import { ArrowRight, ShieldCheck, Globe, Settings, Clock, CheckCircle2, Factory, Award, Truck, PenTool, ChevronLeft, ChevronRight, HelpCircle, ChevronDown, ChevronUp, Home } from 'lucide-react';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 import { useProductMenu } from '../context/ProductMenuContext.jsx';
 import MetaTags from '../components/common/MetaTags.jsx';
 import { marketAreaData } from '../data/marketAreaData.js';
 
 const CityPage = () => {
-  const { stateName, cityName } = useParams();
-  const navigate = useNavigate();
+  const { cityName } = useParams();
   const { openQuotePopup } = useQuotePopup();
   const { openProductMenu } = useProductMenu();
   
   const KEPT_CITIES = Object.keys(marketAreaData);
-
   const lowercaseCity = cityName?.toLowerCase();
-  const lookupKey = stateName ? `${stateName}/${cityName}` : cityName;
-  const data = marketAreaData[lookupKey?.toLowerCase()];
+  
+  // Resolve key to support flat lookup
+  const data = marketAreaData[lowercaseCity];
 
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
 
@@ -39,17 +38,30 @@ const CityPage = () => {
     "/images/1.webp", "/images/3.webp", "/images/4.webp", "/images/5.webp", "/images/6.webp", "/images/8.webp", "/images/9.webp", "/images/10.webp", "/images/11.svg", "/images/12.webp", "/images/13.webp", "/images/14.webp", "/images/15.webp", "/images/16.webp", "/images/17.webp", "/images/19.webp", "/images/c2.webp", "/images/Adani_2012_logo.webp", "/images/air-products-logo.webp", "/images/Arcelor_Mittal.svg.webp", "/images/BHEL_logo.svg.webp", "/images/bhilosa.webp", "/images/deccan.webp", "/images/deepak-chem-tech.webp", "/images/DESMET.jpg.webp", "/images/gardner-denver.webp", "/images/gnfc.webp", "/images/godrej-logo.jpg.webp", "/images/gujrat-state-fertilizers.webp", "/images/Hindustan-Petroleum.webp", "/images/indian-oil.jpg.webp", "/images/isrro.jpg.webp", "/images/jindal-steel.webp", "/images/jsw.webp", "/images/larsen.webp", "/images/linde.webp", "/images/nrl-og-logo.webp", "/images/ongc.webp", "/images/paharpur.webp", "/images/pidilite-logo.jpg.webp", "/images/Praj.jpg.webp", "/images/Shree_Renuka_Sugars.jpg.webp", "/images/tata-steel.jpg.webp", "/images/thyssenkurpp.webp", "/images/upl.webp", "/images/wipro-logo-300x300.webp"
   ];
 
-  const [productSlide, setProductSlide] = useState(0);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setProductSlide((prev) => (prev + 1) % (data.products.length - 2));
-    }, 5000);
-    return () => clearInterval(timer);
-  }, [data.products.length]);
+  const getClientAltText = (logoPath) => {
+    const filename = logoPath.split('/').pop().split('.')[0];
+    let name = filename
+      .replace(/[-_]logo/gi, '')
+      .replace(/_\d+/g, '')
+      .replace(/-\d+x\d+/g, '')
+      .replace(/[_-]/g, ' ');
+    name = name.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+    
+    if (name === "Bhel") return "BHEL";
+    if (name === "Isrro") return "ISRO";
+    if (name === "Gnfc") return "GNFC";
+    if (name === "Ongc") return "ONGC";
+    if (name === "Upl") return "UPL";
+    if (name === "Jsw") return "JSW";
+    
+    if (/^\d+$/.test(name)) {
+      return "Industrial Partner";
+    }
+    return name;
+  };
 
   return (
-    <div className="w-full">
+    <div className="w-full font-sans">
       <MetaTags 
         title={data.meta.title}
         description={data.meta.description}
@@ -63,7 +75,7 @@ const CityPage = () => {
             100% { transform: translateX(-50%); }
           }
           .animate-infinite-scroll {
-            animation: infinite-scroll 30s linear infinite;
+            animation: infinite-scroll 35s linear infinite;
           }
           .animate-infinite-scroll:hover {
             animation-play-state: paused;
@@ -72,7 +84,7 @@ const CityPage = () => {
       </style>
 
       {/* Hero Section */}
-      <div className="relative w-full min-h-[600px] md:h-[700px] flex items-center pt-20 md:pt-0">
+      <div className="relative w-full min-h-[600px] md:h-[700px] flex items-center pt-24 md:pt-0">
         <div 
           className="absolute inset-0 z-0"
           title={data.banner.imageAlt}
@@ -87,6 +99,15 @@ const CityPage = () => {
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 md:mt-16 pb-20">
           <div className="max-w-5xl">
+            {/* Breadcrumbs */}
+            <div className="flex items-center gap-2 text-sm text-slate-300 mb-6 font-medium">
+              <Link to="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></Link>
+              <ChevronRight size={14} className="text-slate-400" />
+              <Link to="/market-area" className="hover:text-[#D71920] transition-colors">Market Area</Link>
+              <ChevronRight size={14} className="text-slate-400" />
+              <span className="text-[#D71920] font-bold">{data.city}</span>
+            </div>
+
             <div className="inline-block mb-4 px-4 py-1 rounded border border-white/30 bg-white/10 backdrop-blur-sm">
               <span className="text-white text-sm font-bold tracking-widest uppercase">
                 ISO 9001:2015 Certified
@@ -94,8 +115,7 @@ const CityPage = () => {
             </div>
 
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6 drop-shadow-lg uppercase tracking-tight">
-              {data.banner.h1.split('Manufacturer')[0]}
-              <span className="lg:block" style={{ color: '#D71920' }}> Manufacturer {data.banner.h1.split('Manufacturer')[1]}</span>
+              {data.banner.h1}
             </h1>
 
             <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl leading-relaxed drop-shadow-md">
@@ -104,21 +124,23 @@ const CityPage = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto flex-wrap">
               <button 
-                onClick={scrollToProducts}
+                onClick={openQuotePopup}
                 className="w-full sm:w-auto px-8 py-4 rounded font-bold text-white transition-all transform hover:-translate-y-1 hover:shadow-2xl flex items-center justify-center gap-2 group whitespace-nowrap shrink-0 min-w-[180px]"
                 style={{ backgroundColor: '#D71920' }}
-              >
-                OUR PRODUCTS
-                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-              </button>
-
-              <button 
-                onClick={openQuotePopup}
-                className="w-full sm:w-auto px-8 py-4 rounded font-bold text-white border-2 border-white/30 bg-white/10 backdrop-blur-sm transition-all transform hover:-translate-y-1 hover:shadow-2xl hover:bg-white/20 flex items-center justify-center gap-2 group whitespace-nowrap shrink-0 min-w-[180px]"
               >
                 REQUEST A QUOTE
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
+
+              <a 
+                href="https://wa.me/919769983108?text=I%20am%20interested%20in%20forged%20fittings%20and%20flanges%20for%20delivery%20to%20our%20facility"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto px-8 py-4 rounded font-bold text-white border-2 border-white/30 bg-white/10 backdrop-blur-sm transition-all transform hover:-translate-y-1 hover:shadow-2xl hover:bg-white/20 flex items-center justify-center gap-2 group whitespace-nowrap shrink-0 min-w-[180px]"
+              >
+                WHATSAPP CHAT
+                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
+              </a>
             </div>
           </div>
         </div>
@@ -170,24 +192,25 @@ const CityPage = () => {
               </div>
             </div>
             <div className="space-y-8">
-              {data.sections
-                .filter(section => !section.title.includes("Industrial Piping Solutions Provider"))
-                .map((section, index) => (
-                <div key={index}>
-                  <h2 
-                    className={`${index === 0 ? 'text-2xl md:text-3xl text-center' : 'text-xl md:text-2xl text-left'} font-extrabold mb-2`} 
-                    style={{ color: '#0F172A' }}
-                  >
-                    {section.title}
-                  </h2>
-                  {index === 0 && (
-                    <div className="h-1 w-24 mb-6 rounded bg-[#D71920] mx-auto"></div>
-                  )}
-                  <p className="text-slate-600 leading-relaxed text-sm md:text-base text-left">
-                    {section.content}
-                  </p>
-                </div>
-              ))}
+              <div>
+                <h2 className="text-2xl md:text-3xl font-extrabold mb-4" style={{ color: '#0F172A' }}>
+                  Piping & Forged Fittings Solutions for {data.city}
+                </h2>
+                <div className="h-1 w-24 mb-6 rounded bg-[#D71920]"></div>
+                <p 
+                  className="text-slate-600 leading-relaxed text-sm md:text-base text-left mb-6"
+                  dangerouslySetInnerHTML={{ __html: data.introParagraph }}
+                />
+              </div>
+
+              <div>
+                <h2 className="text-2xl md:text-3xl font-extrabold mb-4" style={{ color: '#0F172A' }}>
+                  ISO 9001:2015 Certified Quality & Material Testing
+                </h2>
+                <p className="text-slate-600 leading-relaxed text-sm md:text-base text-left">
+                  At Remax Forge & Fittings, compliance and precision are non-negotiable. To ensure 100% reliability in high-pressure steam, oil and gas, and chemical utilities, all piping hardware is manufactured under a certified ISO 9001:2015 quality management system in our Mumbai facility. Before dispatching any order to {data.city}, every item undergoes rigorous destructive and non-destructive quality testing. This includes Positive Material Identification (PMI), hydrostatic pressure testing, ultrasonic flaws checks, and dimensional audits to ASME B16.5, B16.47, and B16.11 standards. Every dispatch is accompanied by an EN 10204 3.1 Mill Test Certificate (MTC), dimensional reports, and compliance docs.
+                </p>
+              </div>
               
               <div className="pt-4 flex justify-start">
                 <button 
@@ -204,12 +227,12 @@ const CityPage = () => {
         </div>
       </div>
 
-      {/* Premium Forging Solutions (Product Slider) */}
+      {/* Premium Forging Solutions (Product Slider/Grid) */}
       <div id="products-section" className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <span className="text-[#D71920] font-bold tracking-wider uppercase text-sm mb-2 block">
-              PREMIUM SOLUTIONS IN {cityName.toUpperCase()}
+              PREMIUM SOLUTIONS IN {data.city.toUpperCase()}
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-4">
               Premium Forging Solutions
@@ -253,7 +276,7 @@ const CityPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="font-bold tracking-wider uppercase text-sm mb-2 block" style={{ color: '#D71920' }}>
-              Why Choose Remax Forge & Fittings in {cityName}?
+              Why Choose Remax Forge & Fittings in {data.city}?
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6">
               Engineering The Extraordinary through Precision & Compliance
@@ -262,12 +285,12 @@ const CityPage = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {(data.whyChooseUs || [
+            {[
               { title: "ISO 9001:2015 Certified", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers, ensuring every component meets the stringent safety regulations. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
               { title: "Advanced CNC Precision", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and Specialized Flange Faces (RTJ, Tongue & Groove, Male-Female)." },
               { title: "Global Export Footprint", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve over 45 countries, including the UAE, USA, and Saudi Arabia. Our strategic inventory management allows us to offer the shortest lead times in the industry." },
               { title: "Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists you in selecting the correct pressure ratings and material grades to prevent corrosion and system failure in extreme environments." }
-            ]).map((item, index) => {
+            ].map((item, index) => {
               const icons = [<Award size={40} />, <Factory size={40} />, <Globe size={40} />, <PenTool size={40} />];
               return (
                 <div key={index} className="group relative flex flex-col">
@@ -290,12 +313,12 @@ const CityPage = () => {
         </div>
       </div>
 
-      {/* Industries We Serve */}
+      {/* Industries/Sectors We Serve */}
       <div className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 max-w-3xl mx-auto">
             <span className="text-[#D71920] font-bold tracking-wider uppercase text-sm mb-2 block">
-              Sectors We Serve in {cityName}
+              Sectors We Serve in {data.city}
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-4">
               Industries We Empower
@@ -305,11 +328,12 @@ const CityPage = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {(data.industries || []).map((item, index) => (
+            {(data.sectors || []).map((item, index) => (
               <div key={index} className="group relative bg-slate-900 rounded-lg overflow-hidden h-80 shadow-lg">
                 <img 
                   src={item.image} 
-                  alt={item.sector} 
+                  alt={`Remax Forge supplying flanges and fittings to ${item.sector} sector in ${data.city}`} 
+                  title={`Remax Forge supplying flanges and fittings to ${item.sector} sector in ${data.city}`}
                   loading="lazy"
                   className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:opacity-30 group-hover:scale-110 transition-all duration-700" 
                 />
@@ -322,16 +346,13 @@ const CityPage = () => {
                   {item.links && (
                     <div className="flex flex-wrap gap-2 mt-2">
                       {item.links.map((link, lIndex) => (
-                        <button
+                        <Link
                           key={lIndex}
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            navigate(link.url);
-                          }}
+                          to={link.url}
                           className="text-[9px] font-bold uppercase tracking-wider px-2.5 py-1.5 border border-white/30 text-white hover:bg-[#D71920] hover:border-[#D71920] transition-all duration-300 rounded backdrop-blur-sm"
                         >
                           {link.name}
-                        </button>
+                        </Link>
                       ))}
                     </div>
                   )}
@@ -342,38 +363,72 @@ const CityPage = () => {
         </div>
       </div>
 
-      {/* Industrial Piping Solutions Provider Section (Moved) */}
-      {data.sections
-        .filter(section => section.title.includes("Industrial Piping Solutions Provider"))
-        .map((section, index) => (
-          <div key={index} className="pt-24 pb-32 text-white" style={{ backgroundColor: '#0F172A' }}>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-              <div className="max-w-5xl mx-auto">
-                <h2 className="text-3xl md:text-5xl font-extrabold mb-6">
-                  {section.title}
-                </h2>
-                <div className="h-1 w-20 mx-auto rounded mb-10" style={{ backgroundColor: '#D71920' }}></div>
-                <div className="space-y-6">
-                  {section.content.split('. ').map((sentence, i, arr) => {
-                    // Logic to group sentences into paragraphs for better readability like in Image 4
-                    const isLast = i === arr.length - 1;
-                    const content = sentence + (isLast ? "" : ".");
-                    
-                    // Grouping: 0,1 in para 1 | 2,3 in para 2 | 4 in para 3
-                    if (i === 0 || i === 2 || i === 4) {
-                      return (
-                        <p key={i} className="text-slate-300 text-lg md:text-xl leading-relaxed">
-                          {content} {!isLast && i !== 4 && arr[i+1] ? arr[i+1] + (i+1 === arr.length - 1 ? "" : ".") : ""}
-                        </p>
-                      );
-                    }
-                    return null;
-                  })}
+      {/* Logistics & Delivery Section */}
+      <div className="py-24 bg-slate-50 border-t border-b border-slate-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <span className="text-[#D71920] font-bold tracking-wider uppercase text-sm mb-2 block">
+              Logistics & Delivery Operations
+            </span>
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-4">
+              Getting it to {data.city}
+            </h2>
+            <div className="h-1 w-20 mx-auto rounded" style={{ backgroundColor: '#D71920' }}></div>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="bg-white p-8 md:p-10 rounded-2xl shadow-lg border border-slate-100 space-y-6">
+              <h3 className="text-2xl font-bold text-[#0F172A] flex items-center gap-2">
+                <Truck className="text-[#D71920]" size={24} />
+                Shipping & Transit Details
+              </h3>
+              
+              <div className="space-y-4">
+                <div className="flex justify-between border-b border-slate-100 pb-3 text-sm">
+                  <span className="text-slate-500 font-medium">Primary Freight Route</span>
+                  <span className="text-[#0F172A] font-bold text-right">{data.route || "NH-48 Corridor"}</span>
+                </div>
+                <div className="flex justify-between border-b border-slate-100 pb-3 text-sm">
+                  <span className="text-slate-500 font-medium">Estimated Transit Time</span>
+                  <span className="text-[#0F172A] font-bold text-right">~{Math.round(data.transit || 4)} Working Days</span>
+                </div>
+                <div className="flex justify-between border-b border-slate-100 pb-3 text-sm">
+                  <span className="text-slate-500 font-medium">Dispatch Schedule</span>
+                  <span className="text-[#0F172A] font-bold text-right">24–48 Hours (Ex-Stock Items)</span>
+                </div>
+                <div className="flex justify-between border-b border-slate-100 pb-3 text-sm">
+                  <span className="text-slate-500 font-medium">Custom Forgings Lead Time</span>
+                  <span className="text-[#0F172A] font-bold text-right">7–15 Working Days</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              <div>
+                <h4 className="text-lg font-bold text-[#0F172A] mb-2">Transit Summary</h4>
+                <p className="text-slate-600 leading-relaxed text-sm">
+                  {data.logistics}
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="p-5 bg-white rounded-xl border border-slate-100 shadow-sm">
+                  <h4 className="font-bold text-[#0F172A] mb-2">Seaworthy Packing</h4>
+                  <p className="text-xs text-slate-500 leading-relaxed">
+                    Wooden crates or pallets wrapped with rust-preventive oils and plastics to survive coastal storage conditions.
+                  </p>
+                </div>
+                <div className="p-5 bg-white rounded-xl border border-slate-100 shadow-sm">
+                  <h4 className="font-bold text-[#0F172A] mb-2">Documents Pack</h4>
+                  <p className="text-xs text-slate-500 leading-relaxed">
+                    Invoice, packing list, EN 10204 3.1 MTC, PMI reports, hydro test reports, and IBR Form II (if applicable) are dispatched with every order.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-        ))}
+        </div>
+      </div>
 
       {/* Clients Infinite Scroll */}
       <div className="pt-32 pb-24 bg-white border-t border-slate-100 overflow-hidden">
@@ -386,14 +441,24 @@ const CityPage = () => {
             <div className="flex gap-20 px-12 items-center">
               {clientLogos.map((logo, index) => (
                 <div key={`logo-1-${index}`} className="flex-shrink-0 w-36 h-24 flex items-center justify-center">
-                  <img src={logo} alt={`Client ${index}`} loading="lazy" className="max-w-full max-h-full object-contain" />
+                  <img 
+                    src={logo} 
+                    alt={`${getClientAltText(logo)} logo — supplier to ${data.city}`} 
+                    loading="lazy" 
+                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300" 
+                  />
                 </div>
               ))}
             </div>
             <div className="flex gap-20 px-12 items-center">
               {clientLogos.map((logo, index) => (
                 <div key={`logo-2-${index}`} className="flex-shrink-0 w-36 h-24 flex items-center justify-center">
-                  <img src={logo} alt={`Client ${index}`} loading="lazy" className="max-w-full max-h-full object-contain" />
+                  <img 
+                    src={logo} 
+                    alt={`${getClientAltText(logo)} logo — supplier to ${data.city}`} 
+                    loading="lazy" 
+                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300" 
+                  />
                 </div>
               ))}
             </div>
@@ -401,8 +466,8 @@ const CityPage = () => {
         </div>
       </div>
 
-      {/* FAQ Section (Moved after Clients) */}
-      <div className="py-24 bg-slate-50">
+      {/* FAQ Section */}
+      <div className="py-24 bg-slate-50 border-t border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-4">
@@ -430,8 +495,8 @@ const CityPage = () => {
                 <div 
                   className={`overflow-hidden transition-all duration-300 ease-in-out ${openFaqIndex === index ? 'max-h-[500px] opacity-100 pb-6 px-6' : 'max-h-0 opacity-0'}`}
                 >
-                  <p className="text-slate-600 leading-relaxed pt-2 border-t border-slate-100">
-                    {faq.a}
+                  <p className="text-slate-600 leading-relaxed pt-2 border-t border-slate-100 whitespace-pre-line">
+                    {faq.a.trim()}
                   </p>
                 </div>
               </div>
@@ -439,6 +504,28 @@ const CityPage = () => {
           </div>
         </div>
       </div>
+
+      {/* Also Serving (Nearby Cities) Section */}
+      {data.nearbyCities && data.nearbyCities.length > 0 && (
+        <div className="py-12 bg-white border-t border-slate-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 className="text-sm font-extrabold tracking-widest text-[#0F172A] uppercase mb-4">
+              Also Serving in {data.state}
+            </h3>
+            <div className="flex flex-wrap justify-center gap-3">
+              {data.nearbyCities.map((city, idx) => (
+                <Link
+                  key={idx}
+                  to={city.url}
+                  className="px-4 py-2 text-xs font-semibold text-slate-600 bg-slate-50 border border-slate-200 rounded-full hover:bg-[#D71920] hover:text-white hover:border-[#D71920] transition-all duration-300"
+                >
+                  {city.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

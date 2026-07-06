@@ -286,11 +286,29 @@ const MarketArea = () => {
           <h1 className="text-4xl md:text-5xl font-extrabold text-[#0F172A] mb-4">
             India Cities : We Serve
           </h1>
-          <div className="h-1.5 w-24 bg-[#D71920] rounded"></div>
+          <div className="h-1.5 w-24 bg-[#D71920] rounded mb-8"></div>
+
+          {/* Jump Navigation Bar */}
+          <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm mb-12">
+            <h3 className="text-sm font-extrabold text-[#0F172A] uppercase tracking-widest mb-4">
+              Jump to State
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {states.map((state, idx) => (
+                <a 
+                  key={idx}
+                  href={`#${state.name.toLowerCase().replace(/\s+/g, '-')}`}
+                  className="px-3 py-1.5 text-xs font-semibold text-slate-600 bg-slate-50 border border-slate-200 rounded hover:bg-[#D71920] hover:text-white hover:border-[#D71920] transition-all duration-300"
+                >
+                  {state.name}
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
 
         {states.map((state, sIndex) => (
-          <div key={sIndex} className="mb-16">
+          <div key={sIndex} id={state.name.toLowerCase().replace(/\s+/g, '-')} className="mb-16 scroll-mt-24">
             <h2 className="text-2xl font-bold text-[#0F172A] mb-8 border-b-2 border-slate-200 pb-2 inline-block uppercase tracking-widest">
               {state.name}
             </h2>
