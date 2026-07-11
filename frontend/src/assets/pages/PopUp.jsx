@@ -17,6 +17,8 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
     email: "",
     phone: "",
     company: "",
+    location: "",
+    message: "",
   });
 
   const [toast, setToast] = useState({ show: false, message: "", type: "success" });
@@ -64,12 +66,7 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
     setLoading(true);
 
     try {
-      const payload = {
-        ...formData,
-        location: "Not Provided",
-        message: "User filled form to see contact info",
-      };
-      const response = await sendPopupMessage(payload);
+      const response = await sendPopupMessage(formData);
 
       // Google Ads Conversion Tracking
       if (window.gtag) {
@@ -89,6 +86,8 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
         email: "",
         phone: "",
         company: "",
+        location: "",
+        message: "",
       });
 
       // Wait 1.5s for the toast to be seen before closing
@@ -205,6 +204,29 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
                 className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
               />
             </div>
+          </div>
+
+          <div className="relative">
+            <input 
+              type="text"
+              name="location"
+              value={formData.location}
+              onChange={handleChange}
+              placeholder="Location"
+              className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
+            />
+          </div>
+
+          {/* Message */}
+          <div className="relative">
+            <textarea 
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              placeholder="How can we help you?"
+              rows="2"
+              className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 resize-none font-medium"
+            ></textarea>
           </div>
 
           {/* Submit Button */}
