@@ -6,6 +6,9 @@ const QuotePopupContext = createContext();
 export const QuotePopupProvider = ({ children }) => {
   // IMPORTANT: undefined keeps your autoShow logic intact
   const [isOpen, setIsOpen] = useState(undefined);
+  const [isUnlocked, setIsUnlocked] = useState(() => {
+    return localStorage.getItem("remax_contact_unlocked") === "true";
+  });
 
   const openQuotePopup = () => {
     setIsOpen(true);
@@ -15,8 +18,13 @@ export const QuotePopupProvider = ({ children }) => {
     setIsOpen(false);
   };
 
+  const unlockDetails = () => {
+    localStorage.setItem("remax_contact_unlocked", "true");
+    setIsUnlocked(true);
+  };
+
   return (
-    <QuotePopupContext.Provider value={{ openQuotePopup, closeQuotePopup }}>
+    <QuotePopupContext.Provider value={{ openQuotePopup, closeQuotePopup, isUnlocked, unlockDetails }}>
       {children}
 
       {/* Single global popup using YOUR original component */}
@@ -24,6 +32,7 @@ export const QuotePopupProvider = ({ children }) => {
         isOpen={isOpen}
         onClose={closeQuotePopup}
         autoShow={true} // keeps reload auto popup behavior
+        onSuccess={unlockDetails}
       />
     </QuotePopupContext.Provider>
   );

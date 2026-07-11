@@ -1,17 +1,28 @@
 import React, { useState } from 'react';
 import { Home, ChevronRight, Phone, Mail, MapPin, Send } from 'lucide-react';
-import emailjs from '@emailjs/browser';
+import api from '../services/api.js';
 import MetaTags from '../components/common/MetaTags.jsx';
+import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 
 const ContactUs = () => {
   const [loading, setLoading] = useState(false);
+  const { isUnlocked, openQuotePopup } = useQuotePopup();
+  const [toast, setToast] = useState({ show: false, message: "", type: "success" });
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
     company: "",
+    location: "",
     message: "",
   });
+
+  const showToast = (message, type = "success") => {
+    setToast({ show: true, message, type });
+    setTimeout(() => {
+      setToast({ show: false, message: "", type: "success" });
+    }, 4000);
+  };
 
   const handleChange = (e) => {
     setFormData({
@@ -24,23 +35,8 @@ const ContactUs = () => {
     e.preventDefault();
     setLoading(true);
 
-    const serviceId = 'service_e9tpgmh';
-    const templateId = 'template_pr9w1jl'; // New Template ID
-    const publicKey = 'L6kSSqLl5HJakWtm5';
-
-    const templateParams = {
-      title: 'New Contact Us Enquiry',
-      name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
-      company: formData.company,
-      message: formData.message,
-    };
-
     try {
-      await emailjs.send(serviceId, templateId, templateParams, {
-        publicKey: 'L6kSSqLl5HJakWtm5',
-      });
+      const response = await api.post("/contact", formData);
       
       // Google Ads Conversion Tracking
       if (window.gtag) {
@@ -51,17 +47,19 @@ const ContactUs = () => {
         });
       }
 
-      alert("Message sent successfully! Our experts will contact you soon.");
+      showToast(response.data.message || "Message sent successfully! Our experts will contact you soon.", "success");
       setFormData({
         name: "",
         email: "",
         phone: "",
         company: "",
+        location: "",
         message: "",
       });
     } catch (error) {
-      console.error("EmailJS Error:", error);
-      alert(`Failed to send message: ${error.text || "Please check your EmailJS settings."}`);
+      console.error("API Error:", error);
+      const errorMsg = error.response?.data?.message || "Failed to send message. Please try again later.";
+      showToast(errorMsg, "error");
     } finally {
       setLoading(false);
     }
@@ -69,6 +67,17 @@ const ContactUs = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
+      {/* Toast Notification */}
+      {toast.show && (
+        <div className={`fixed top-24 right-5 z-[9999] flex items-center gap-3 px-5 py-3 rounded-xl shadow-2xl border transition-all duration-300 transform translate-y-0 scale-100 ${
+          toast.type === "success" 
+            ? "bg-emerald-50 border-emerald-200 text-emerald-800" 
+            : "bg-rose-50 border-rose-200 text-rose-800"
+        }`}>
+          <div className={`w-2.5 h-2.5 rounded-full ${toast.type === "success" ? "bg-emerald-500" : "bg-rose-500"}`}></div>
+          <span className="font-semibold text-sm">{toast.message}</span>
+        </div>
+      )}
       <MetaTags 
         title="Contact Remax Forge & Fittings | Forged Fittings Manufacturer Mumbai"
         description="Get a custom quote from Remax Forge & Fittings. Contact our Mumbai factory for high-quality flanges and forged fittings. Reach us at +91 97699 83108 or visit us at Bhuleshwar, Mumbai."
@@ -116,12 +125,24 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-[#0F172A] mb-1">Phone</h3>
-                  <p className="text-slate-600 mb-1">
-                    <a href="tel:+919769983108" className="hover:text-[#D71920] transition-colors">+91 97699 83108</a>
-                  </p>
-                  <p className="text-slate-600">
-                    <a href="tel:+912266109211" className="hover:text-[#D71920] transition-colors">022 6610 9211</a>
-                  </p>
+                  {!isUnlocked ? (
+                    <button
+                      type="button"
+                      onClick={openQuotePopup}
+                      className="mt-1 py-1.5 px-3 bg-[#D71920] hover:bg-red-700 text-white text-xs font-bold rounded transition-colors uppercase tracking-wider shadow-sm"
+                    >
+                      Show Phone Details
+                    </button>
+                  ) : (
+                    <>
+                      <p className="text-slate-600 mb-1">
+                        <a href="tel:+919769983108" className="hover:text-[#D71920] transition-colors">+91 97699 83108</a>
+                      </p>
+                      <p className="text-slate-600">
+                        <a href="tel:+912266109211" className="hover:text-[#D71920] transition-colors">022 6610 9211</a>
+                      </p>
+                    </>
+                  )}
                 </div>
               </div>
 
@@ -131,12 +152,24 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-[#0F172A] mb-1">Email</h3>
-                  <p className="text-slate-600 mb-1">
-                    <a href="mailto:info@remaxforge.com" className="hover:text-[#D71920] transition-colors">info@remaxforge.com</a>
-                  </p>
-                  <p className="text-slate-600">
-                    <a href="mailto:sales@remaxforge.com" className="hover:text-[#D71920] transition-colors">sales@remaxforge.com</a>
-                  </p>
+                  {!isUnlocked ? (
+                    <button
+                      type="button"
+                      onClick={openQuotePopup}
+                      className="mt-1 py-1.5 px-3 bg-[#D71920] hover:bg-red-700 text-white text-xs font-bold rounded transition-colors uppercase tracking-wider shadow-sm"
+                    >
+                      Show Email Details
+                    </button>
+                  ) : (
+                    <>
+                      <p className="text-slate-600 mb-1">
+                        <a href="mailto:info@remaxforge.com" className="hover:text-[#D71920] transition-colors">info@remaxforge.com</a>
+                      </p>
+                      <p className="text-slate-600">
+                        <a href="mailto:sales@remaxforge.com" className="hover:text-[#D71920] transition-colors">sales@remaxforge.com</a>
+                      </p>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
@@ -196,6 +229,18 @@ const ContactUs = () => {
                     placeholder="Company Name"
                   />
                 </div>
+              </div>
+
+              <div>
+                <label htmlFor="location" className="block text-sm font-semibold text-slate-700 mb-2">Location</label>
+                <input 
+                  type="text" 
+                  id="location" 
+                  value={formData.location}
+                  onChange={handleChange}
+                  className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700"
+                  placeholder="City, State, Country"
+                />
               </div>
 
               <div>

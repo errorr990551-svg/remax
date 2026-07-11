@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { X } from 'lucide-react';
 import api from '../services/api.js';
-import emailjs from '@emailjs/browser';
 
 // Popup API (separate function, same endpoint)
 export const sendPopupMessage = (data) => {
   return api.post("/contact", data);
 };
 
-const PopUp = ({ isOpen, onClose, autoShow = true }) => {
+const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [loading, setLoading] = useState(false);
 
@@ -18,8 +17,16 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
     email: "",
     phone: "",
     company: "",
-    message: "",
   });
+
+  const [toast, setToast] = useState({ show: false, message: "", type: "success" });
+
+  const showToast = (message, type = "success") => {
+    setToast({ show: true, message, type });
+    setTimeout(() => {
+      setToast({ show: false, message: "", type: "success" });
+    }, 4000);
+  };
 
   // Handle Auto-Show Logic (Default behavior)
   useEffect(() => {
@@ -51,28 +58,18 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
     });
   };
 
-  // Handle Submit (EMAILJS CALL)
+  // Handle Submit (BACKEND API CALL)
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
-    const serviceId = 'service_e9tpgmh';
-    const templateId = 'template_pr9w1jl'; // New Template ID
-    const publicKey = 'L6kSSqLl5HJakWtm5';
-
-    const templateParams = {
-      title: 'New Get in Touch Enquiry',
-      name: formData.name,
-      email: formData.email,
-      phone: formData.phone,
-      company: formData.company,
-      message: formData.message,
-    };
-
     try {
-      await emailjs.send(serviceId, templateId, templateParams, {
-        publicKey: 'L6kSSqLl5HJakWtm5',
-      });
+      const payload = {
+        ...formData,
+        location: "Not Provided",
+        message: "User filled form to see contact info",
+      };
+      const response = await sendPopupMessage(payload);
 
       // Google Ads Conversion Tracking
       if (window.gtag) {
@@ -83,7 +80,8 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
         });
       }
 
-      alert("Message sent successfully! Our experts will contact you soon.");
+      showToast(response.data.message || "Message sent successfully! Our experts will contact you soon.", "success");
+      if (onSuccess) onSuccess();
 
       // Reset form after success
       setFormData({
@@ -91,13 +89,16 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
         email: "",
         phone: "",
         company: "",
-        message: "",
       });
 
-      handleClose(); // close popup after successful submission
+      // Wait 1.5s for the toast to be seen before closing
+      setTimeout(() => {
+        handleClose();
+      }, 1500);
     } catch (error) {
-      console.error("EmailJS Error:", error);
-      alert(`Failed to send message: ${error.text || "Please check your EmailJS settings."}`);
+      console.error("API Error:", error);
+      const errorMsg = error.response?.data?.message || "Failed to send message. Please try again later.";
+      showToast(errorMsg, "error");
     } finally {
       setLoading(false);
     }
@@ -107,6 +108,17 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-2 sm:p-4 font-sans">
+      {/* Toast Notification */}
+      {toast.show && (
+        <div className={`fixed top-5 right-5 z-[9999] flex items-center gap-3 px-5 py-3 rounded-xl shadow-2xl border transition-all duration-300 transform translate-y-0 scale-100 ${
+          toast.type === "success" 
+            ? "bg-emerald-50 border-emerald-200 text-emerald-800" 
+            : "bg-rose-50 border-rose-200 text-rose-800"
+        }`}>
+          <div className={`w-2.5 h-2.5 rounded-full ${toast.type === "success" ? "bg-emerald-500" : "bg-rose-500"}`}></div>
+          <span className="font-semibold text-sm">{toast.message}</span>
+        </div>
+      )}
       {/* Backdrop with Blur */}
       <div 
         className="absolute inset-0 bg-[#0F172A]/60 backdrop-blur-sm transition-opacity animate-in fade-in duration-300"
@@ -193,18 +205,6 @@ const PopUp = ({ isOpen, onClose, autoShow = true }) => {
                 className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
               />
             </div>
-          </div>
-
-          {/* Message */}
-          <div className="relative">
-            <textarea 
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              placeholder="How can we help you?"
-              rows="2"
-              className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 resize-none font-medium"
-            ></textarea>
           </div>
 
           {/* Submit Button */}
