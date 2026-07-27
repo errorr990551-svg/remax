@@ -12,8 +12,7 @@ exports.submitContactForm = async (req, res) => {
       });
     }
 
-    // Fire and forget email sending in background
-    sendMail({
+    await sendMail({
       to: "info@remaxforge.com",
       cc: [
         "akshat99055@gmail.com",
@@ -29,8 +28,6 @@ exports.submitContactForm = async (req, res) => {
         <p><b>Company:</b> ${company}</p>
         <p><b>Message:</b><br/>${message}</p>
       `,
-    }).catch(err => {
-      console.error("Critical: Background Contact Email failed:", err);
     });
 
     // Respond immediately to the user

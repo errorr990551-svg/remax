@@ -8,8 +8,7 @@ exports.submitApplication = async (req, res) => {
       return res.status(400).json({ success: false, message: "Resume required" });
     }
 
-    // Fire and forget email sending in background
-    sendMail({
+    await sendMail({
       to: "sales@miraitechnologies.net",
       subject: `New Job Application - ${role}`,
       html: `
@@ -27,8 +26,6 @@ exports.submitApplication = async (req, res) => {
           contentType: req.file.mimetype,
         },
       ],
-    }).catch(err => {
-      console.error("Critical: Background Application Email failed:", err);
     });
 
     return res.status(200).json({ success: true, message: "Application submitted successfully!" });

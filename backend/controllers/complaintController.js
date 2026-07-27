@@ -14,8 +14,7 @@ exports.submitComplaintForm = async (req, res) => {
       });
     }
 
-    // Fire and forget email sending in background
-    sendMail({
+    await sendMail({
       to: "info@remaxforge.com",
       cc: ["errorr990551@gmail.com","akshat99055@gmail.com"],
       subject: "New Complaint Form Submitted",
@@ -52,8 +51,6 @@ exports.submitComplaintForm = async (req, res) => {
         }</p>
       `,
       attachments,
-    }).catch(err => {
-      console.error("Critical: Background Complaint Email failed:", err);
     });
 
     return res.status(200).json({
