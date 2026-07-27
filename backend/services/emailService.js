@@ -2,8 +2,14 @@ const { Resend } = require("resend");
 
 exports.sendMail = async ({ to, cc, subject, html, attachments = [] }) => {
   try {
-    const resend = new Resend(process.env.RESEND_API_KEY);
-    const data = await resend.emails.send({
+    const apiKey = process.env.RESEND_API_KEY;
+    if (!apiKey) {
+      console.error("RESEND ERROR: RESEND_API_KEY is not defined in process.env!");
+      throw new Error("RESEND_API_KEY environment variable is missing on server");
+    }
+
+    const resend = new Resend(apiKey);
+    const response = await resend.emails.send({
       from: "REMAX <no-reply@inquiry.errorr.in>",
       to: Array.isArray(to) ? to : [to],
       cc: cc
@@ -19,10 +25,16 @@ exports.sendMail = async ({ to, cc, subject, html, attachments = [] }) => {
       })),
     });
 
-    console.log("Resend response:", data);
-    return data;
+    console.log("Resend full response:", JSON.stringify(response));
+
+    if (response.error) {
+      console.error("Resend API Error:", response.error);
+      throw new Error(response.error.message || "Failed to send email via Resend");
+    }
+
+    return response.data;
   } catch (error) {
-    console.error("RESEND ERROR:", error);
+    console.error("RESEND EXCEPTION:", error);
     throw error;
   }
 };
