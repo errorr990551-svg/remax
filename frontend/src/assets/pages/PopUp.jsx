@@ -137,16 +137,26 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
         </button>
 
         {/* Header */}
-        <div className="mb-4 md:mb-8 text-center md:text-left">
-          <span className="text-[#D71920] font-bold tracking-wider uppercase text-[10px] md:text-xs mb-1 md:mb-2 block">
+        <div className="mb-3 text-center md:text-left">
+          <span className="text-[#D71920] font-bold tracking-wider uppercase text-[10px] md:text-xs mb-1 block">
             Get in touch
           </span>
-          <h2 className="text-2xl md:text-4xl font-extrabold text-[#0F172A] mb-1 md:mb-2 leading-tight">
+          <h2 className="text-xl md:text-3xl font-extrabold text-[#0F172A] mb-1 leading-tight">
             Fill this form and get a quote in 30 minutes — guaranteed
           </h2>
-          <p className="text-slate-500 text-sm md:text-lg">
+          <p className="text-slate-500 text-xs md:text-sm">
             Let our experts take over from here!
           </p>
+        </div>
+
+        {/* Trust Bar per Sheet 9 #5 */}
+        <div className="bg-slate-50 border border-slate-200 rounded-xl p-2.5 my-3 text-center md:text-left">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-[10px] md:text-xs font-semibold text-slate-700">
+            <div>🏆 ISO 9001:2015</div>
+            <div>🤝 ONGC • Tata • L&T</div>
+            <div>📜 MTC 3.1 Provided</div>
+            <div>⚡ 30 Min Response</div>
+          </div>
         </div>
 
         {/* Form */}

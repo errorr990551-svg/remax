@@ -4,7 +4,7 @@ import path from 'path';
 import puppeteer from 'puppeteer-core';
 import { execSync } from 'child_process';
 
-const PORT = 8085;
+let PORT = 0;
 const distPath = path.resolve('dist');
 const edgePath = 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe';
 
@@ -28,7 +28,7 @@ const originalIndexHtml = fs.readFileSync(path.join(distPath, 'index.html'), 'ut
 
 // 2. Start a local server to serve the dist directory
 function startServer() {
-  return new Promise((resolve) => {
+  return new Promise((resolve, reject) => {
     const server = http.createServer((req, res) => {
       let urlPath = req.url.split('?')[0];
       let filePath = path.join(distPath, urlPath);
@@ -59,9 +59,12 @@ function startServer() {
       });
     });
 
-    server.listen(PORT, () => {
+    server.listen(0, () => {
+      PORT = server.address().port;
       resolve(server);
     });
+
+    server.on('error', reject);
   });
 }
 
@@ -88,27 +91,35 @@ async function run() {
 
   // Launch headless browser using Edge path
   console.log('Launching headless Edge browser...');
-  const browser = await puppeteer.launch({
+  let browser = await puppeteer.launch({
     executablePath: edgePath,
     headless: true,
     args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
   });
 
-  // Track the pre-rendered homepage content separately so we don't overwrite dist/index.html early
+  // Track the pre-rendered homepage content separately
   let prerenderedHomeHtml = '';
+  let page = await browser.newPage();
+  await page.setViewport({ width: 1440, height: 900 });
 
   for (let i = 0; i < urls.length; i++) {
     const url = urls[i];
-    const page = await browser.newPage();
-    await page.setViewport({ width: 1440, height: 900 });
-
     const targetUrl = `http://localhost:${PORT}${url}`;
     console.log(`[${i + 1}/${urls.length}] Rendering: ${targetUrl}`);
 
     try {
-      await page.goto(targetUrl, { waitUntil: 'networkidle0', timeout: 30000 });
-      // Add a slight sleep to let dynamic JS updates settle
-      await new Promise(r => setTimeout(r, 800));
+      if (browser.process() === null || !browser.connected) {
+        browser = await puppeteer.launch({
+          executablePath: edgePath,
+          headless: true,
+          args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
+        });
+        page = await browser.newPage();
+        await page.setViewport({ width: 1440, height: 900 });
+      }
+
+      await page.goto(targetUrl, { waitUntil: 'networkidle0', timeout: 20000 });
+      await new Promise(r => setTimeout(r, 400));
 
       const html = await page.content();
 
@@ -123,8 +134,13 @@ async function run() {
       }
     } catch (e) {
       console.error(`Failed to pre-render ${url}:`, e.message);
-    } finally {
-      await page.close();
+      try {
+        if (page) await page.close();
+      } catch (_) {}
+      try {
+        page = await browser.newPage();
+        await page.setViewport({ width: 1440, height: 900 });
+      } catch (_) {}
     }
   }
 
@@ -135,7 +151,9 @@ async function run() {
   }
 
   console.log('Closing browser and stopping server...');
-  await browser.close();
+  try {
+    await browser.close();
+  } catch (_) {}
   server.close();
   console.log('Pre-rendering completed successfully!');
 }

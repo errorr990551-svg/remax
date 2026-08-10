@@ -136,39 +136,24 @@ const Footer = () => {
                   Marine Line, Mumbai - 400004.
                 </div>
               </li>
-              {!isUnlocked ? (
-                <li className="pt-2">
-                  <button
-                    onClick={openQuotePopup}
-                    className="w-full py-2.5 px-4 bg-[#D71920] hover:bg-red-700 text-white font-bold rounded-lg transition-colors text-xs uppercase tracking-wider shadow-md hover:shadow-lg flex items-center justify-center gap-2"
-                  >
-                    <Phone size={14} /> Show Contact Details
-                  </button>
-                </li>
-              ) : (
-                <>
-                  <li className="flex items-start gap-4">
-                    <div className="mt-1 bg-[#D71920] p-2 rounded-full shrink-0">
-                      <Phone size={16} className="text-white" />
-                    </div>
-                    <div className="text-slate-400 text-sm">
-                      <span className="block text-white font-semibold mb-1">Call Us:</span>
-                      <a href="tel:+919769983108" className="hover:text-white transition-colors block">+91 97699 83108</a>
-                      <a href="tel:+912266109211" className="hover:text-white transition-colors block">022 6610 9211</a>
-                    </div>
-                  </li>
-                  <li className="flex items-start gap-4">
-                    <div className="mt-1 bg-[#D71920] p-2 rounded-full shrink-0">
-                      <Mail size={16} className="text-white" />
-                    </div>
-                    <div className="text-slate-400 text-sm">
-                      <span className="block text-white font-semibold mb-1">Email Us:</span>
-                      <a href="mailto:info@remaxforge.com" className="hover:text-white transition-colors block">info@remaxforge.com</a>
-                      <a href="mailto:sales@remaxforge.com" className="hover:text-white transition-colors block">sales@remaxforge.com</a>
-                    </div>
-                  </li>
-                </>
-              )}
+              <li className="pt-2">
+                <button
+                  onClick={openQuotePopup}
+                  className="w-full py-3 px-4 bg-[#D71920] hover:bg-red-700 text-white font-bold rounded-xl transition-all text-xs uppercase tracking-wider shadow-lg flex items-center justify-center gap-2"
+                >
+                  <Phone size={14} /> Request Quote / Callback
+                </button>
+              </li>
+              <li className="flex items-start gap-4 pt-2">
+                <div className="mt-1 bg-[#D71920] p-2 rounded-full shrink-0">
+                  <Mail size={16} className="text-white" />
+                </div>
+                <div className="text-slate-400 text-sm">
+                  <span className="block text-white font-semibold mb-1">Email Us:</span>
+                  <a href="mailto:info@remaxforge.com" className="hover:text-white transition-colors block">info@remaxforge.com</a>
+                  <a href="mailto:sales@remaxforge.com" className="hover:text-white transition-colors block">sales@remaxforge.com</a>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
