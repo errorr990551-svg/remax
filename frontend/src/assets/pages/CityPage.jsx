@@ -131,16 +131,6 @@ const CityPage = () => {
                 REQUEST A QUOTE
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
-
-              <a 
-                href="https://wa.me/919769983108?text=I%20am%20interested%20in%20forged%20fittings%20and%20flanges%20for%20delivery%20to%20our%20facility"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full sm:w-auto px-8 py-4 rounded font-bold text-white border-2 border-white/30 bg-white/10 backdrop-blur-sm transition-all transform hover:-translate-y-1 hover:shadow-2xl hover:bg-white/20 flex items-center justify-center gap-2 group whitespace-nowrap shrink-0 min-w-[180px]"
-              >
-                WHATSAPP CHAT
-                <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-              </a>
             </div>
           </div>
         </div>
