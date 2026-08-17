@@ -1,0 +1,442 @@
+{
+  "tab4": [
+    {
+      "#": "1.0",
+      "Page Name": "Carbon Steel Flanges (A105 / A350 LF2)",
+      "URL": "/materials/carbon-steel-flanges/",
+      "H1": "Carbon Steel Flanges \u2014 ASTM A105 & A350 LF2 Manufacturer",
+      "Meta Title": "Carbon Steel Flange Manufacturer | ASTM A105, A350 LF2 India",
+      "Meta Description": "Carbon steel flange manufacturer, Mumbai. ASTM A105 (ambient/elevated temp) & A350 LF2 (low-temp, Charpy tested). All flange types, Class 150-2500.",
+      "Section-by-Section Content Brief": "1) A105 vs A350 LF2 \u2014 when each applies (ambient/elevated temp vs sub-zero with mandatory impact testing), framed as a decision guide, not a spec dump. 2) Chemical composition table (source: Tab 8). 3) Mechanical properties table. 4) Pressure-temperature rating table by class (link Standards pages). 5) Applications by industry (link industry pages). 6) All 8 flange types offered in this material (link all type pages - this is the cross-link hub). 7) QC & MTC. 8) FAQs. 9) CTA.",
+      "Table Specs": "Chemical composition, Mechanical properties, P-T rating reference",
+      "FAQ Set (sample - expand to 8-15)": "Q: When do I need A350 LF2 instead of A105?\nA: A350 LF2 is required whenever your minimum design metal temperature drops below roughly -29\u00b0C (-20\u00b0F), because it carries mandatory Charpy V-notch impact testing to verify the steel won't fail brittlely at that temperature - A105 has no such requirement and is not qualified for cold service.\n\nQ: What's the maximum service temperature for A105?\nA: Approximately 427\u00b0C (800\u00b0F) per ASME B16.5's material group tables; beyond that, strength drops enough that a Cr-Mo alloy grade (F11/F22) is typically specified instead.\n\nQ: Is A105 the same as A105N?\nA: \"A105N\" reflects normalized heat treatment, which most mills now apply as standard practice; functionally for most piping specifications, current A105 supply is normalized. Confirm heat treatment condition on your MTC.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Slip On Flange; Weld Neck Flange; Blind Flange; Oil & Gas Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "2.0",
+      "Page Name": "Stainless Steel 304/304L Flanges",
+      "URL": "/materials/stainless-steel-304-flanges/",
+      "H1": "Stainless Steel 304/304L Flanges \u2014 ASTM A182 F304/F304L",
+      "Meta Title": "SS 304 304L Flange Manufacturer India | ASTM A182 F304",
+      "Meta Description": "SS 304/304L flange manufacturer, Mumbai. ASTM A182 F304/F304L, food/pharma/general chemical grade. All flange types, Class 150-2500. Quote in 30 min.",
+      "Section-by-Section Content Brief": "1) 304 vs 304L \u2014 carbon content and welded-construction sensitization explained plainly. 2) Chemical composition + mechanical properties tables. 3) Where 304 is correctly specified vs where 316 is actually needed (a genuinely useful buyer decision point - many over-specify 316 unnecessarily, or under-specify 304 where chlorides are present). 4) Applications (food processing, pharma, general chemical). 5) All flange types in this grade (link). 6) QC/MTC. 7) FAQs. 8) CTA.",
+      "Table Specs": "Chemical composition, Mechanical properties",
+      "FAQ Set (sample - expand to 8-15)": "Q: When is 304 sufficient and when do I actually need 316?\nA: 304 handles most general chemical, food, and atmospheric service well. Move to 316 specifically when chlorides are present - coastal/marine atmospheres, saline process fluids, or chloride-containing cleaning agents - since 316's molybdenum addition meaningfully improves pitting resistance in exactly that condition.\n\nQ: Why choose 304L over standard 304 for a welded assembly?\nA: 304L's lower carbon ceiling (0.030% max vs 0.08% max) reduces the risk of chromium carbide precipitation at grain boundaries during welding (sensitization), which otherwise leaves the heat-affected zone vulnerable to intergranular corrosion.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Stainless Steel 316/316L Flanges; Pharmaceutical Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "3.0",
+      "Page Name": "Stainless Steel 316/316L Flanges",
+      "URL": "/materials/stainless-steel-316-flanges/",
+      "H1": "Stainless Steel 316/316L Flanges \u2014 ASTM A182 F316/F316L",
+      "Meta Title": "SS 316 316L Flange Manufacturer India | ASTM A182 F316",
+      "Meta Description": "SS 316/316L flange manufacturer, Mumbai. ASTM A182 F316/F316L, chloride & marine grade. All flange types, Class 150-2500. EN 10204 3.1/3.2. Quote in 30 min.",
+      "Section-by-Section Content Brief": "1) 316 vs 316L, molybdenum's role in corrosion resistance. 2) Chemical/mechanical tables. 3) Applications (marine, chemical process, pharma). 4) 316 vs 316Ti note (brief - stabilized variant for high-temp welded service). 5) All flange types. 6) QC/MTC. 7) FAQs. 8) CTA.",
+      "Table Specs": "Chemical composition, Mechanical properties",
+      "FAQ Set (sample - expand to 8-15)": "Q: Does 316 fully resist seawater corrosion?\nA: Not indefinitely in stagnant or crevice conditions - 316 resists general seawater corrosion well but can still pit or crevice-corrode in low-flow, oxygen-depleted pockets over long exposure. For continuous seawater immersion service, duplex or super duplex grades are typically specified instead.\n\nQ: What's the practical difference between 316 and 316L in a bolted (non-welded) flange?\nA: Very little, since sensitization risk is a welding phenomenon - for a flange that will be bolted rather than welded to the pipe (e.g., certain lap joint configurations), standard 316 is often adequate; 316L's real value shows up on flanges that will be butt-welded.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Stainless Steel 304/304L Flanges; Marine Industry Page; Chemical Processing Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "4.0",
+      "Page Name": "Stainless Steel 321/347 Flanges",
+      "URL": "/materials/stainless-steel-321-347-flanges/",
+      "H1": "Stainless Steel 321/347 Flanges \u2014 Stabilized Grades",
+      "Meta Title": "SS 321 347 Flange Manufacturer India | Stabilized Grades",
+      "Meta Description": "SS 321/347 flange manufacturer, Mumbai. Ti/Nb-stabilized for high-temp welded service, refinery furnace outlet piping. Class 150-2500. Quote in 30 min.",
+      "Section-by-Section Content Brief": "1) What \"stabilized\" means and why it matters above 425\u00b0C. 2) 321 (Ti) vs 347 (Nb) - when each is preferred. 3) Chemical/mechanical tables. 4) Primary application: refinery furnace outlet and high-temperature heat exchanger piping. 5) All flange types. 6) QC/MTC. 7) FAQs. 8) CTA.",
+      "Table Specs": "Chemical composition, Mechanical properties",
+      "FAQ Set (sample - expand to 8-15)": "Q: Why do I need a stabilized grade instead of plain 304/316?\nA: Above roughly 425-815\u00b0C, unstabilized austenitic grades are vulnerable to sensitization even without welding - simply holding at that temperature range lets chromium carbides precipitate at grain boundaries. Titanium (321) or niobium (347) ties up the carbon preferentially, protecting the chromium and preserving corrosion resistance in sustained high-temperature service.\n\nQ: 321 or 347 - which should I specify?\nA: 347 (niobium-stabilized) is generally preferred for refinery and heat-exchanger applications requiring resistance to knife-line attack near welds; 321 (titanium-stabilized) is more common in aerospace-adjacent and general high-temp piping. Both perform similarly for most industrial furnace piping - check your project spec for a named preference.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Stainless Steel 316/316L Flanges; Power Generation Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "5.0",
+      "Page Name": "Duplex 2205 Flanges",
+      "URL": "/materials/duplex-2205-flanges/",
+      "H1": "Duplex 2205 Flanges \u2014 ASTM A182 F51 (S31803/S32205)",
+      "Meta Title": "Duplex 2205 Flange Manufacturer India | ASTM A182 F51",
+      "Meta Description": "Duplex 2205 flange manufacturer, Mumbai. ASTM A182 F51, S31803/S32205, ~2x yield strength of 316L. All flange types, Class 150-2500. Quote in 30 min.",
+      "Section-by-Section Content Brief": "1) What duplex means metallurgically (~50/50 austenite-ferrite) and why it matters (strength + corrosion resistance combined). 2) S31803 vs S32205 - explicitly correct the common confusion (S32205 is the tighter modern chemistry, both marketed as \"2205\") with an accurate composition comparison \u2014 this is the exact spot where Marcel's published page has an error (impossible N range); get it right here as a genuine differentiator. 3) Chemical/mechanical tables (properly complete - yield, tensile, elongation, hardness, not just density like Marcel's page). 4) Sigma phase / max service temperature caution (avoid sustained use above ~315\u00b0C). 5) Applications (offshore, desalination, chemical processing). 6) All flange types. 7) QC/MTC/PMI (PMI is especially relevant for duplex \u2014 mix-up with 316 is a real field risk, mention it). 8) FAQs. 9) CTA.",
+      "Table Specs": "Chemical composition (S31803 vs S32205 explicit comparison), Mechanical properties",
+      "FAQ Set (sample - expand to 8-15)": "Q: Is Duplex 2205 the same as S31803 or S32205?\nA: Both UNS numbers are sold commercially as \"2205\" and both fall under ASTM A182 Grade F51, but they're not identical: S32205 is the tighter, modern re-registration of the chemistry, with a higher nitrogen minimum (0.14% vs 0.08%) and narrower chromium/molybdenum ranges than the original S31803. Check your MTC for the specific UNS designation your project requires.\n\nQ: Can duplex 2205 flanges be used above 315\u00b0C continuously?\nA: Not recommended for sustained service - duplex stainless steels are susceptible to sigma-phase embrittlement in the 300-1000\u00b0C range with long exposure, which degrades toughness. Most specifications cap continuous duplex service around 300-315\u00b0C; consult your engineering specification for the exact limit on your project.\n\nQ: Why is PMI testing particularly important for duplex flanges?\nA: Duplex and 316 stainless can look visually similar and duplex costs meaningfully more, so mix-ups do happen in stock yards and during fabrication. Positive material identification (XRF or OES) at receiving and before installation is standard practice to confirm you actually received duplex, not 316.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Super Duplex 2507 Flanges; Marine Industry Page; Chemical Processing Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "6.0",
+      "Page Name": "Super Duplex 2507 Flanges",
+      "URL": "/materials/super-duplex-2507-flanges/",
+      "H1": "Super Duplex 2507 Flanges \u2014 ASTM A182 F53 (S32750)",
+      "Meta Title": "Super Duplex 2507 Flange Manufacturer | ASTM A182 F53 India",
+      "Meta Description": "Super duplex 2507 flange manufacturer, Mumbai. ASTM A182 F53, S32750, PREN 40+, seawater & offshore grade. Class 150-2500. Quote in 30 minutes.",
+      "Section-by-Section Content Brief": "1) What distinguishes \"super\" duplex from standard 2205 (higher Cr/Mo/N, PREN 40+). 2) Chemical/mechanical tables. 3) PREN explained with the actual formula and worked calculation for F53 (genuinely useful, rarely explained clearly by competitors). 4) Applications (seawater cooling, offshore, desalination). 5) Zeron 100 (F55) cross-reference/comparison (link). 6) All flange types. 7) QC/MTC/PMI. 8) FAQs. 9) CTA.",
+      "Table Specs": "Chemical composition, Mechanical properties, PREN worked calculation",
+      "FAQ Set (sample - expand to 8-15)": "Q: What is PREN and why does it matter for super duplex?\nA: PREN (Pitting Resistance Equivalent Number) estimates a stainless steel's resistance to localized pitting corrosion, calculated as %Cr + 3.3x%Mo + 16x%N. Super duplex grades like F53 target a PREN above 40, meaningfully higher than standard 2205's ~35, which is why F53 is specified for more aggressive chloride environments like seawater cooling and desalination.\n\nQ: Is super duplex 2507 always necessary, or is standard 2205 enough?\nA: Standard 2205 (F51) handles most chemical processing and moderate marine exposure well. Reach for super duplex specifically when the environment is more aggressive - continuous seawater immersion, high-chloride produced water, or desalination brine - where the extra PREN margin genuinely changes service life.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Duplex 2205 Flanges; Super Duplex Zeron 100 Flanges; Marine Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "7.0",
+      "Page Name": "Super Duplex Zeron 100 Flanges",
+      "URL": "/materials/super-duplex-zeron-100-flanges/",
+      "H1": "Super Duplex Zeron 100 Flanges \u2014 ASTM A182 F55 (S32760)",
+      "Meta Title": "Zeron 100 Super Duplex Flange Manufacturer | ASTM A182 F55",
+      "Meta Description": "Super duplex Zeron 100 flange manufacturer, Mumbai. ASTM A182 F55, S32760, tungsten-enhanced pitting resistance. Class 150-2500. Quote in 30 min.",
+      "Section-by-Section Content Brief": "1) What distinguishes F55/Zeron 100 from F53 (tungsten + copper additions). 2) Chemical/mechanical tables. 3) F53 vs F55 side-by-side comparison table (genuinely useful buyer decision content). 4) Applications (subsea, oilfield production). 5) All flange types. 6) QC/MTC/PMI. 7) FAQs. 8) CTA.",
+      "Table Specs": "Chemical composition, Mechanical properties, F53 vs F55 comparison",
+      "FAQ Set (sample - expand to 8-15)": "Q: F53 or F55 - what's the practical difference?\nA: Both are super duplex grades with similar PREN and mechanical strength; F55 (Zeron 100) adds tungsten and copper, which some testing shows further improves resistance to crevice corrosion and hydrogen sulfide cracking in specific oilfield production environments. Grade selection is often driven by a specific operator's approved-materials list rather than a universal technical rule - check your project spec.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Super Duplex 2507 Flanges; Oil & Gas Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "8.0",
+      "Page Name": "Alloy Steel F11/F22 Flanges",
+      "URL": "/materials/alloy-steel-f11-f22-flanges/",
+      "H1": "Alloy Steel F11/F22 Flanges \u2014 Cr-Mo High-Temperature Grade",
+      "Meta Title": "Alloy Steel F11 F22 Flange Manufacturer | High-Temp India",
+      "Meta Description": "Alloy steel F11/F22 flange manufacturer, Mumbai. Cr-Mo grade for high-temp power & refinery service, up to 593\u00b0C. Class 150-2500. Quote in 30 min.",
+      "Section-by-Section Content Brief": "1) What Cr-Mo alloying does (creep resistance at elevated temperature vs plain carbon steel). 2) F11 (1.25Cr-0.5Mo) vs F22 (2.25Cr-1Mo) - when each applies. 3) Chemical/mechanical tables. 4) Post-weld heat treatment note (a genuine buyer-relevant detail - Cr-Mo steels typically require PWHT, unlike A105). 5) Applications (power generation, refinery high-temp circuits, reformer piping). 6) All flange types. 7) QC/MTC. 8) FAQs. 9) CTA.",
+      "Table Specs": "Chemical composition, Mechanical properties",
+      "FAQ Set (sample - expand to 8-15)": "Q: When does a project need F11/F22 instead of A105?\nA: Once sustained operating temperature exceeds roughly 400-450\u00b0C, A105's strength margin narrows enough that Cr-Mo alloy steel is typically specified for adequate creep resistance and long-term service life. F11 or F22 depends on the specific temperature/pressure combination in your P-T rating table.\n\nQ: Do F11/F22 flanges require post-weld heat treatment?\nA: In most cases yes - PWHT is typically required for Cr-Mo alloy steel welds to relieve residual stress and temper the heat-affected zone, unlike A105 which often doesn't require it below certain thickness. Confirm PWHT requirements against your governing code (ASME B31.1 or B31.3) and project specification.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Alloy Steel F91 Flanges; Power Generation Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "9.0",
+      "Page Name": "Alloy Steel F91 Flanges",
+      "URL": "/materials/alloy-steel-f91-flanges/",
+      "H1": "Alloy Steel F91 Flanges \u2014 9Cr-1Mo-V, Ultra-Supercritical Grade",
+      "Meta Title": "Alloy Steel F91 Flange Manufacturer India | 9Cr-1Mo-V",
+      "Meta Description": "Alloy steel F91 flange manufacturer, Mumbai. Modified 9Cr-1Mo-V, ultra-supercritical power & refinery fired-heater service to 650\u00b0C. Quote in 30 min.",
+      "Section-by-Section Content Brief": "1) What makes F91 different from F11/F22 (vanadium/niobium micro-alloying, normalize-and-temper requirement). 2) Chemical/mechanical tables. 3) Mandatory heat treatment note (normalizing + tempering is not optional for F91 - a genuine buyer-critical detail). 4) Applications (ultra-supercritical power plants, refinery fired heaters). 5) All flange types. 6) QC/MTC. 7) FAQs. 8) CTA.",
+      "Table Specs": "Chemical composition, Mechanical properties",
+      "FAQ Set (sample - expand to 8-15)": "Q: Why does F91 need a specific normalize-and-temper heat treatment?\nA: F91's fine martensitic microstructure - the source of its high-temperature creep strength - only develops correctly through controlled normalizing followed by tempering. Skipping or mis-executing this heat treatment produces a flange that looks correct dimensionally and chemically but does not have the specified creep-rupture properties. Always request the heat treatment record on your MTC.\n\nQ: Is F91 interchangeable with F22 at high temperature?\nA: No - F91 is specified precisely because it out-performs F11/F22 at temperatures above roughly 550\u00b0C where those Cr-Mo grades' creep strength falls off. Substituting F22 for a design calling for F91 would under-rate the joint; confirm material grade against your P-T design basis, not just \"alloy steel\" generically.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Alloy Steel F11/F22 Flanges; Power Generation Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "10.0",
+      "Page Name": "Inconel 625 Flanges",
+      "URL": "/materials/inconel-625-flanges/",
+      "H1": "Inconel 625 Flanges \u2014 ASTM B564 (UNS N06625)",
+      "Meta Title": "Inconel 625 Flange Manufacturer India | ASTM B564 N06625",
+      "Meta Description": "Inconel 625 flange manufacturer, Mumbai. ASTM B564, N06625, offshore riser & chemical reactor grade. All flange types. MTC 3.1/3.2. Quote in 30 min.",
+      "Section-by-Section Content Brief": "1) What Inconel 625 is (Ni-Cr-Mo-Nb superalloy) and why it's specified over stainless or duplex. 2) Chemical/mechanical tables. 3) Applications (offshore riser flanges, chemical reactor nozzles, flue gas handling). 4) Cost/lead-time honesty note - nickel alloys are a significant cost step up, and this page should say so plainly rather than bury it, which builds trust with a technical buyer. 5) All flange types. 6) QC/MTC/PMI. 7) FAQs. 8) CTA.",
+      "Table Specs": "Chemical composition, Mechanical properties",
+      "FAQ Set (sample - expand to 8-15)": "Q: Why choose Inconel 625 over super duplex for a corrosive application?\nA: Super duplex covers most chloride/seawater environments cost-effectively. Inconel 625 is reserved for more severe conditions - highly aggressive mixed acids, very high temperature combined with corrosion, or where duplex's sigma-phase temperature ceiling (~315\u00b0C) is a real constraint - since 625 remains stable and corrosion-resistant to much higher temperatures.\n\nQ: Are Inconel 625 flanges significantly more expensive than stainless steel?\nA: Yes, meaningfully - nickel alloy raw material cost and machining difficulty put Inconel 625 well above 316 or even duplex on a per-kg basis. It's specified where the corrosion/temperature environment genuinely requires it, not as a default upgrade.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Hastelloy C-276 Flanges; Chemical Processing Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "11.0",
+      "Page Name": "Hastelloy C-276 Flanges",
+      "URL": "/materials/hastelloy-c276-flanges/",
+      "H1": "Hastelloy C-276 Flanges \u2014 ASTM B564 (UNS N10276)",
+      "Meta Title": "Hastelloy C276 Flange Manufacturer India | ASTM B564 N10276",
+      "Meta Description": "Hastelloy C-276 flange manufacturer, Mumbai. ASTM B564, N10276, FGD & wet chlorine grade, among the most corrosion-resistant alloys available. Quote in 30 min.",
+      "Section-by-Section Content Brief": "1) What makes C-276 exceptional (very high Mo+W content, resists both oxidizing and reducing environments). 2) Chemical/mechanical tables. 3) Applications (FGD systems, waste-acid handling, wet chlorine). 4) Cost/lead-time honesty note. 5) All flange types. 6) QC/MTC/PMI. 7) FAQs. 8) CTA.",
+      "Table Specs": "Chemical composition, Mechanical properties",
+      "FAQ Set (sample - expand to 8-15)": "Q: What environments specifically call for Hastelloy C-276 over Inconel 625?\nA: Both are premium nickel alloys, but C-276's higher molybdenum and tungsten content gives it an edge in reducing acid environments and wet chlorine/hypochlorite service - flue gas desulfurization scrubbers and chlor-alkali plants are classic C-276 applications where 625 would be the second choice.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Inconel 625 Flanges; Chemical Processing Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "12.0",
+      "Page Name": "Monel 400 Flanges",
+      "URL": "/materials/monel-400-flanges/",
+      "H1": "Monel 400 Flanges \u2014 ASTM B564 (UNS N04400)",
+      "Meta Title": "Monel 400 Flange Manufacturer India | ASTM B564 N04400",
+      "Meta Description": "Monel 400 flange manufacturer, Mumbai. ASTM B564, N04400, hydrofluoric acid & seawater grade. All flange types. MTC 3.1/3.2. Quote in 30 minutes.",
+      "Section-by-Section Content Brief": "1) What Monel 400 is (Ni-Cu alloy) and its specific niche (HF acid resistance, seawater). 2) Chemical/mechanical tables. 3) Applications (HF alkylation units, marine systems). 4) All flange types. 5) QC/MTC/PMI. 6) FAQs. 7) CTA.",
+      "Table Specs": "Chemical composition, Mechanical properties",
+      "FAQ Set (sample - expand to 8-15)": "Q: Why is Monel 400 specifically used in HF alkylation units?\nA: Hydrofluoric acid attacks most stainless and even many nickel alloys over time, but Monel's high nickel-copper content forms a protective fluoride film in HF service specifically, making it one of the few economically viable materials for HF alkylation unit piping and flanges in refineries.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Inconel 625 Flanges; Marine Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    }
+  ],
+  "tab5": [
+    {
+      "#": "1.0",
+      "Page Name": "ASME B16.5 Flange Standard",
+      "URL": "/standards/asme-b16-5/",
+      "H1": "ASME B16.5 Flange Standard \u2014 Complete Dimensional Reference",
+      "Meta Title": "ASME B16.5 Flange Dimensions | Complete Reference Chart",
+      "Meta Description": "ASME B16.5 flange standard explained: NPS 1/2-24, Class 150-2500, all 6 flange types, complete dimensional & bolting reference. Sourced & verified.",
+      "Section-by-Section Content Brief": "1) What ASME B16.5 covers (scope: NPS 1/2-24, Class 150-2500, 6 flange types). 2) Pressure class quick-reference table (Tab 7 data). 3) Common dimensions table by class (the full, sourced Tab 7 data - this page becomes the most complete, accurate B16.5 reference available, beating both competitors on completeness AND accuracy). 4) How to read a B16.5 dimension table (parameter glossary: OD, BCD, RF dia, bolt hole dia, n). 5) Relationship to B16.47 (large diameter, 26-60 inch). 6) FAQs. 7) CTA with gated full-chart PDF download.",
+      "Table Specs": "Full common dimensions table, all 7 classes, all NPS (Tab 7 data)",
+      "FAQ Set (sample - expand to 8-15)": "Q: What size range does ASME B16.5 cover?\nA: NPS 1/2 inch through NPS 24 inch, across seven pressure classes: 150, 300, 400, 600, 900, 1500, and 2500. Larger diameters, NPS 26 and above, fall under the companion standard ASME B16.47 instead.\n\nQ: Do all six flange types share the same outside diameter and bolt circle?\nA: Yes, for a given NPS and class, slip-on, weld neck, blind, socket weld, threaded, and lap joint flanges all share identical outside diameter, bolt circle diameter, and bolt hole pattern, so they bolt up to any matching flange regardless of type. What differs between types is the hub and bore geometry, not the bolting.\n\nQ: What's the difference between Class 400 and Class 300 in practice?\nA: Class 400 sits between 300 and 600 but is rarely specified for new construction - it exists largely for compatibility with legacy ASME B16.1 cast iron flanges. Most new projects choose 300 or step directly to 600 rather than specifying 400.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Weld Neck Flange; Blind Flange; ASME B16.47 Standards Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema). PLUS gated-download CTA: \"Download the full [X] chart as PDF\" behind an email-capture form (name, company email, company name) - form-gated, never phone-gated."
+    },
+    {
+      "#": "2.0",
+      "Page Name": "ASME B16.47 Large Diameter Flange Standard",
+      "URL": "/standards/asme-b16-47/",
+      "H1": "ASME B16.47 \u2014 Large Diameter Flange Standard (NPS 26-60)",
+      "Meta Title": "ASME B16.47 Flange Dimensions | Series A vs B Explained",
+      "Meta Description": "ASME B16.47 large diameter flange standard: NPS 26-60, Class 150-900, Series A vs Series B explained with the critical difference buyers must know.",
+      "Section-by-Section Content Brief": "1) Scope (NPS 26-60, Class 150-900). 2) Series A (MSS SP-44) vs Series B (API 605) - this is the single highest-value explainer for this page: the two series are NOT interchangeable and mixing them is a real, documented field error. Explain clearly with a comparison table. 3) When each series is typically specified regionally/by industry. 4) Relationship to B16.5 (continuation above NPS 24). 5) FAQs. 6) CTA.",
+      "Table Specs": "Series A vs Series B comparison, dimensional differences by NPS",
+      "FAQ Set (sample - expand to 8-15)": "Q: What's the critical difference between Series A and Series B flanges?\nA: They are dimensionally different standards for the same nominal sizes - Series A (based on MSS SP-44) generally has a larger outside diameter and different bolting than Series B (based on API 605) at the same NPS and class. A Series A flange will NOT bolt up correctly to a Series B flange of the same nominal size - this mismatch is a documented, real field error, so the series must be specified explicitly on every purchase order, never assumed.\n\nQ: Which series is more common - A or B?\nA: It varies by industry and region rather than following a universal rule; refining and large-diameter transmission piping projects frequently specify one or the other by company standard. Always confirm the required series from your project's piping specification rather than defaulting.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "ASME B16.5 Standards Page; Power Generation Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "3.0",
+      "Page Name": "EN 1092-1 Flange Standard",
+      "URL": "/standards/en-1092-1/",
+      "H1": "EN 1092-1 European Flange Standard \u2014 PN Rating Explained",
+      "Meta Title": "EN 1092-1 Flange Standard | PN Rating vs ASME Class",
+      "Meta Description": "EN 1092-1 European flange standard explained: PN 2.5-400, DN 10-4000, Type 01-13, with a direct PN-to-ASME-Class cross-reference for export buyers.",
+      "Section-by-Section Content Brief": "1) Scope (DN 10-2000+, PN 2.5-400). 2) PN rating explained (it's a designation, not a literal pressure, same caveat as ASME Class - draw the parallel explicitly). 3) PN-to-ASME-Class approximate cross-reference table (genuinely useful for export buyers converting between standards - the single highest-value table on this page). 4) Type 01/02/11/etc. flange type codes explained. 5) FAQs. 6) CTA.",
+      "Table Specs": "PN-to-ASME Class cross-reference, DN-to-NPS cross-reference",
+      "FAQ Set (sample - expand to 8-15)": "Q: Is PN16 the same pressure rating as ASME Class 150?\nA: They're commonly treated as roughly equivalent for general reference, but PN and Class ratings are each their own dimensional and pressure-temperature system - the actual allowable pressure at a given temperature depends on material group under each standard separately. Use a proper cross-reference for the specific material and temperature, not a straight PN-to-Class substitution, when the application is pressure-critical.\n\nQ: Can I bolt an EN 1092-1 flange to an ASME B16.5 flange?\nA: Not directly in most cases - bolt circle diameter, number of bolts, and bolt hole diameter differ between the two standards even at nominally \"equivalent\" ratings. A reducing or transition spool is typically required to mate EN and ASME flanges; don't assume compatibility without checking both dimension tables.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "ASME B16.5 Standards Page; Marine Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "4.0",
+      "Page Name": "DIN 2501 Flange Standard",
+      "URL": "/standards/din-2501/",
+      "H1": "DIN 2501 Flange Standard \u2014 Legacy German Reference",
+      "Meta Title": "DIN 2501 Flange Standard | Superseded by EN 1092-1",
+      "Meta Description": "DIN 2501 flange standard explained, including why it's been formally superseded by EN 1092-1 and what that means for buyers still referencing DIN.",
+      "Section-by-Section Content Brief": "1) What DIN 2501 originally covered, and the honest, upfront fact that it has been formally superseded by EN 1092-1 - stating this clearly (rather than pretending DIN 2501 is a current active standard, which several competitor pages do) is itself the differentiator. 2) DIN-to-EN 1092-1 dimensional continuity (dimensions carried forward largely unchanged). 3) Why buyers still reference \"DIN flanges\" by habit. 4) FAQs. 5) CTA.",
+      "Table Specs": "DIN-to-EN 1092-1 continuity reference",
+      "FAQ Set (sample - expand to 8-15)": "Q: Is DIN 2501 still a current, active standard?\nA: No - DIN 2501 was formally superseded by EN 1092-1, which is now the current European flange standard. The dimensions carried forward largely unchanged, which is why \"DIN flange\" remains common shorthand in the industry, but purchase orders and drawings should reference EN 1092-1 as the governing document today.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "EN 1092-1 Standards Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "5.0",
+      "Page Name": "JIS B2220 Flange Standard",
+      "URL": "/standards/jis-b2220/",
+      "H1": "JIS B2220 Flange Standard \u2014 Japanese Reference",
+      "Meta Title": "JIS B2220 Flange Standard | 5K 10K 16K 20K Explained",
+      "Meta Description": "JIS B2220 Japanese flange standard: 5K/10K/16K/20K pressure classes explained, with dimensions for buyers supplying into Japanese-spec projects.",
+      "Section-by-Section Content Brief": "1) Scope and the 5K/10K/16K/20K class-designation system explained (the \"K\" roughly indicates bar pressure, worth spelling out plainly). 2) Where JIS-spec material is required (Japanese EPC contractors, Japan-linked projects across Southeast Asia). 3) JIS-to-ASME approximate cross-reference. 4) FAQs. 5) CTA.",
+      "Table Specs": "JIS class to ASME/PN cross-reference",
+      "FAQ Set (sample - expand to 8-15)": "Q: What does the \"K\" mean in JIS 10K, 16K, etc.?\nA: It's a class designation rooted in the approximate rated pressure in kgf/cm2, similar in spirit to how ASME's \"Class 150/300\" are designations rather than literal pressures. 10K is a common general-service rating, comparable in the range of ASME Class 150-300 depending on material and temperature - confirm against the actual JIS B2220 pressure-temperature tables for your material rather than a rule of thumb.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "ASME B16.5 Standards Page; Marine Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "6.0",
+      "Page Name": "BS 10 / BS 4504 Flange Standard",
+      "URL": "/standards/bs-10-bs-4504/",
+      "H1": "BS 10 & BS 4504 Flange Standards \u2014 British Reference",
+      "Meta Title": "BS 10 BS 4504 Flange Standard | Table D E F Explained",
+      "Meta Description": "BS 10 and BS 4504 British flange standards explained: Table D/E/F classes, and the fact that BS 4504 is now superseded by EN 1092-1.",
+      "Section-by-Section Content Brief": "1) BS 10 (older, Table D/E/F classes, still specified for some waterworks/legacy projects) vs BS 4504 (superseded by EN 1092-1, same honest disclosure approach as the DIN 2501 page). 2) Table D/E/F explained. 3) Where BS 10 is still actively specified (former-Commonwealth market legacy infrastructure). 4) FAQs. 5) CTA.",
+      "Table Specs": "BS Table D/E/F reference",
+      "FAQ Set (sample - expand to 8-15)": "Q: Is BS 4504 still current, or has it been replaced?\nA: BS 4504 has been superseded by EN 1092-1, the current British and European standard. BS 10, an older and distinct standard using Table D/E/F class designations, is still occasionally specified for legacy waterworks and some former-Commonwealth market projects - the two (BS 10 and BS 4504) are separate standards, not versions of each other.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "EN 1092-1 Standards Page; Water Infrastructure Industry Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    }
+  ],
+  "tab6": [
+    {
+      "#": "1.0",
+      "Page Name": "Oil & Gas Industry Flanges",
+      "URL": "/industries/oil-and-gas/",
+      "H1": "Pipe Flanges & Fittings for Oil & Gas \u2014 Upstream to Downstream",
+      "Meta Title": "Oil & Gas Flange Supplier India | NACE MR0175 Sour Service",
+      "Meta Description": "Flanges & fittings for oil & gas: upstream, midstream, downstream. NACE MR0175 sour service, duplex/super duplex, third-party inspection. Quote in 30 min.",
+      "Section-by-Section Content Brief": "1) Products used across upstream/midstream/downstream, each linked to the relevant type page. 2) NACE MR0175 sour-service capability explained (what it requires - hardness limits, B7M bolting - not just the acronym). 3) Material grades for H2S/high-temp service (link duplex, F91). 4) Client proof \u2014 this cell is YELLOW-FLAGGED, real client/project references only, confirmed by Akshat/ops before publishing. 5) Certifications. 6) RFQ form with \"Project requirement\" field. 7) FAQs (5+). 8) CTA.",
+      "Table Specs": "Not applicable (landing page, links to product/material tables)",
+      "FAQ Set (sample - expand to 8-15)": "Q: What does NACE MR0175 sour-service compliance actually require?\nA: It sets hardness limits on both the flange material and the bolting to resist sulfide stress cracking in H2S-containing service - for bolting specifically, this typically means B7M (a softer, controlled-hardness version of standard B7) rather than standard B7 studs. Confirm your project's specific NACE MR0175/ISO 15156 compliance requirements at order time.\n\nQ: Which flange materials suit sour (H2S) service?\nA: Carbon steel A105 and Cr-Mo alloys can be qualified for sour service with the correct heat treatment and hardness control; for more aggressive sour/high-chloride combined environments, duplex or super duplex grades are frequently specified instead.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Weld Neck Flange; Duplex 2205 Material Page; ASME B16.5 Standards Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "2.0",
+      "Page Name": "Pharmaceutical Industry Flanges",
+      "URL": "/industries/pharmaceutical/",
+      "H1": "Pipe Flanges & Fittings for Pharmaceutical & Biotech",
+      "Meta Title": "Pharmaceutical Flange Supplier India | SS 316L Sanitary Grade",
+      "Meta Description": "Flanges & fittings for pharma/biotech: SS 316L, sanitary finish options, full MTC traceability. Third-party inspection available. Quote in 30 minutes.",
+      "Section-by-Section Content Brief": "1) Why 316L dominates pharma piping (corrosion resistance + weldability + traceability). 2) Surface finish considerations (mechanically polished vs electropolished - honest note that Remax's standard offering is not a validated sanitary/hygienic product line unless explicitly stated - don't overclaim). 3) Full MTC/heat traceability requirement in pharma procurement. 4) Certifications. 5) RFQ form. 6) FAQs. 7) CTA.",
+      "Table Specs": "Not applicable (landing page)",
+      "FAQ Set (sample - expand to 8-15)": "Q: Is a standard forged 316L flange suitable for a sanitary/hygienic pharma line?\nA: A standard forged flange provides the corrosion-resistant material and traceability pharma buyers need, but true sanitary/hygienic piping (tri-clamp fittings, mirror-polished bore, specific Ra surface finish) is a distinct product category with its own standards. Confirm your specific finish and fitting-type requirement before ordering if the application is a direct product-contact sanitary line.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Stainless Steel 316/316L Material Page; Stainless Steel 304/304L Material Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "3.0",
+      "Page Name": "Power Generation Industry Flanges",
+      "URL": "/industries/power-generation/",
+      "H1": "Pipe Flanges & Fittings for Power Generation",
+      "Meta Title": "Power Plant Flange Supplier India | F11 F22 F91 Alloy Steel",
+      "Meta Description": "Flanges & fittings for power generation: thermal, nuclear-adjacent balance-of-plant, F11/F22/F91 alloy steel for high-temp steam service. Quote in 30 min.",
+      "Section-by-Section Content Brief": "1) High-temperature steam piping requirements (link F11/F22/F91 material pages). 2) Long weld neck use in boiler/turbine nozzle connections (link). 3) Where Remax's scope sits (balance-of-plant, not nuclear primary loop - be explicit and accurate about scope rather than implying capability that isn't real). 4) Certifications. 5) RFQ form. 6) FAQs. 7) CTA.",
+      "Table Specs": "Not applicable (landing page)",
+      "FAQ Set (sample - expand to 8-15)": "Q: What flange materials suit ultra-supercritical power plant steam lines?\nA: F91 (modified 9Cr-1Mo-V) is the standard choice for the highest-temperature ultra-supercritical steam circuits, up to roughly 650\u00b0C; F11/F22 Cr-Mo grades cover more moderate elevated-temperature sections. Material selection should follow your plant's specific P-T design basis, not a general rule.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Alloy Steel F91 Material Page; Long Weld Neck Flange",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "4.0",
+      "Page Name": "Water Infrastructure Industry Flanges",
+      "URL": "/industries/water-infrastructure/",
+      "H1": "Pipe Flanges & Fittings for Water & Wastewater Infrastructure",
+      "Meta Title": "Water Infrastructure Flange Supplier India | AWWA & B16.5",
+      "Meta Description": "Flanges & fittings for water treatment, distribution, and wastewater: carbon steel & stainless, AWWA and ASME B16.5 compliant. Quote in 30 minutes.",
+      "Section-by-Section Content Brief": "1) Products used in water treatment, distribution mains, wastewater (link blind, slip-on pages). 2) AWWA vs ASME B16.5 flange standard note - honest disclosure that Remax's current standard offering is ASME B16.5; if AWWA-specific flanges aren't currently produced, say so rather than imply coverage (Section 3.7 quality bar applies here directly). 3) Certifications. 4) RFQ form. 5) FAQs. 6) CTA.",
+      "Table Specs": "Not applicable (landing page)",
+      "FAQ Set (sample - expand to 8-15)": "Q: Do you supply AWWA-standard flanges, or only ASME B16.5?\nA: [OPS INPUT NEEDED - confirm actual product scope before publishing this FAQ answer. Do not publish an unconfirmed capability claim.]\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Blind Flange; Slip On Flange; Carbon Steel Material Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "5.0",
+      "Page Name": "Marine Industry Flanges",
+      "URL": "/industries/marine/",
+      "H1": "Pipe Flanges & Fittings for Marine & Offshore",
+      "Meta Title": "Marine Flange Supplier India | Duplex & 316 for Seawater",
+      "Meta Description": "Flanges & fittings for marine/offshore: duplex, super duplex, and 316 stainless for seawater service. Third-party inspection. Quote in 30 minutes.",
+      "Section-by-Section Content Brief": "1) Products and materials for seawater/marine exposure (link duplex, super duplex, 316 pages - this is a genuinely strong internal-linking hub page). 2) Classification society certification note - honest disclosure of what certifications Remax currently holds vs what a marine buyer might expect (DNV, ABS, Lloyd's type-approval) - flag for ops confirmation, do not assume. 3) RFQ form. 4) FAQs. 5) CTA.",
+      "Table Specs": "Not applicable (landing page)",
+      "FAQ Set (sample - expand to 8-15)": "Q: Do your flanges carry classification society approval (DNV, ABS, Lloyd's)?\nA: [OPS INPUT NEEDED - confirm actual certification status before publishing. Do not publish an unconfirmed claim.]\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Duplex 2205 Material Page; Super Duplex 2507 Material Page; Stainless Steel 316 Material Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    },
+    {
+      "#": "6.0",
+      "Page Name": "Chemical Processing Industry Flanges",
+      "URL": "/industries/chemical-processing/",
+      "H1": "Pipe Flanges & Fittings for Chemical Processing",
+      "Meta Title": "Chemical Processing Flange Supplier India | 316L, Hastelloy, Inconel",
+      "Meta Description": "Flanges & fittings for chemical processing: 316L, Hastelloy C-276, Inconel 625 for aggressive media. Full MTC traceability. Quote in 30 minutes.",
+      "Section-by-Section Content Brief": "1) Products and materials across the corrosion-resistance spectrum, from 316L up to Hastelloy/Inconel (link all relevant material pages - this page is the natural hub for the nickel-alloy pages). 2) Material selection guidance framed by chemical service (acid type, temperature) rather than just a product list. 3) RFQ form. 4) FAQs. 5) CTA.",
+      "Table Specs": "Not applicable (landing page)",
+      "FAQ Set (sample - expand to 8-15)": "Q: How do I choose between 316L, duplex, and a nickel alloy for a chemical line?\nA: As a general progression: 316L covers most general chemical service; move to duplex or super duplex when chlorides or higher mechanical strength are the driver; reserve nickel alloys (Inconel, Hastelloy, Monel) for specific aggressive media - strong acids, HF, or combined high-temperature corrosion - where stainless and duplex are documented to fall short. Share your process fluid, concentration, and temperature for a specific material recommendation.\n\n[Expand to 8-15 total FAQs following this pattern - real procurement-engineer questions, real answers, no filler.]",
+      "Internal Links (To)": "Stainless Steel 316/316L Material Page; Hastelloy C-276 Material Page; Inconel 625 Material Page",
+      "CTA Block": "PRIMARY: \"Get Quote in 30 Minutes\" form - fields: project requirement, size, class, material, quantity, standard, name, company, email. SECONDARY: \"Request a Callback\" form for buyers who want to discuss before submitting specs. NO phone number, NO WhatsApp link, NO click-to-call element anywhere on the page (including header/footer/schema)."
+    }
+  ],
+  "tab8": [
+    {
+      "Chemical Composition & Mechanical Properties": "12 material grades. SOURCE: governing ASTM/ASME specification per grade (see Tab 13). Values are specification limits, not heat-specific results \u2014 direct readers to their MTC for the actual heat.",
+      "col_1": "",
+      "col_2": "",
+      "col_3": "",
+      "col_4": "",
+      "col_5": ""
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Grade",
+      "col_1": "UNS",
+      "col_2": "Governing Standard",
+      "col_3": "Chemical Composition (wt %)",
+      "col_4": "Mechanical Properties",
+      "col_5": "Notes"
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Carbon Steel A105",
+      "col_1": "K03504",
+      "col_2": "ASTM A105 / ASME SA-105",
+      "col_3": "C: 0.35 max; Mn: 0.60-1.05; Si: 0.10-0.35; P: 0.035 max; S: 0.040 max; Cr: 0.30 max (residual); Mo: 0.12 max (residual); Ni: 0.40 max (residual); Cu: 0.40 max (residual)",
+      "col_4": "Yield: 250 min MPa; Tensile: 485 min MPa; Elongation: 22% min; Hardness: 187 HBW max; Service temp: -29\u00b0C to 427\u00b0C (up to 800\u00b0F)",
+      "col_5": "Most widely used forged carbon steel flange material. Not recommended below -29\u00b0C without impact testing."
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Carbon Steel A350 LF2",
+      "col_1": "K03011",
+      "col_2": "ASTM A350 / ASME SA-350",
+      "col_3": "C: 0.30 max; Mn: 0.60-1.35; Si: 0.15-0.30; P: 0.035 max; S: 0.040 max; Cr: 0.30 max (residual); Mo: 0.12 max (residual); Ni: 0.40 max (residual)",
+      "col_4": "Yield: 250 min MPa; Tensile: 485-655 MPa; Elongation: 22% min; Hardness: 197 HBW max; Service temp: -46\u00b0C to 343\u00b0C (-50\u00b0F to 650\u00b0F)",
+      "col_5": "Low-temperature carbon steel. Mandatory Charpy V-notch impact testing at the design minimum temperature per ASME B31.3."
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Stainless Steel 304/304L",
+      "col_1": "S30400 / S30403",
+      "col_2": "ASTM A182 Gr. F304/F304L",
+      "col_3": "C: 0.08 max (F304) / 0.030 max (F304L); Mn: 2.00 max; Si: 1.00 max; P: 0.045 max; S: 0.030 max; Cr: 18.0-20.0; Ni: 8.0-11.0 (F304) / 8.0-13.0 (F304L)",
+      "col_4": "Yield: 205 min (F304) / 170 min (F304L) MPa; Tensile: 515 min (F304) / 485 min (F304L) MPa; Elongation: 35% min; Hardness: 92 HRB max; Service temp: Cryogenic to 800\u00b0C",
+      "col_5": "General-purpose austenitic stainless. F304L (low carbon) preferred for welded construction to avoid sensitization/carbide precipitation."
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Stainless Steel 316/316L",
+      "col_1": "S31600 / S31603",
+      "col_2": "ASTM A182 Gr. F316/F316L",
+      "col_3": "C: 0.08 max (F316) / 0.030 max (F316L); Mn: 2.00 max; Si: 1.00 max; P: 0.045 max; S: 0.030 max; Cr: 16.0-18.0; Mo: 2.00-3.00; Ni: 10.0-14.0 (F316) / 10.0-15.0 (F316L)",
+      "col_4": "Yield: 205 min (F316) / 170 min (F316L) MPa; Tensile: 515 min (F316) / 485 min (F316L) MPa; Elongation: 35% min; Hardness: 95 HRB max; Service temp: Cryogenic to 800\u00b0C",
+      "col_5": "Molybdenum addition gives superior chloride/pitting resistance vs 304. Standard choice for chemical process, marine, pharma."
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Stainless Steel 321/347",
+      "col_1": "S32100 / S34700",
+      "col_2": "ASTM A182 Gr. F321/F347",
+      "col_3": "C: 0.08 max; Mn: 2.00 max; Si: 1.00 max; P: 0.045 max; S: 0.030 max; Cr: 17.0-19.0 (F321) / 17.0-19.0 (F347); Ni: 9.0-12.0 (F321) / 9.0-13.0 (F347); Ti: 5x C min, 0.70 max (F321); Nb+Ta: 10x C min, 1.10 max (F347)",
+      "col_4": "Yield: 205 min MPa; Tensile: 515 min MPa; Elongation: 35% min; Hardness: 92 HRB max; Service temp: Up to 800\u00b0C sustained (stabilized grades)",
+      "col_5": "Ti (F321) or Nb (F347) stabilized against sensitization in the 425-815\u00b0C range. F347 preferred for refinery furnace/heat exchanger outlet piping."
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Duplex 2205 (F51)",
+      "col_1": "S31803 / S32205",
+      "col_2": "ASTM A182 Gr. F51",
+      "col_3": "C: 0.030 max; Mn: 2.00 max; Si: 1.00 max; P: 0.030 max; S: 0.020 max; Cr: 21.0-23.0 (S31803) / 22.0-23.0 (S32205); Mo: 2.50-3.50 (S31803) / 3.00-3.50 (S32205); Ni: 4.50-6.50; N: 0.08-0.20 (S31803) / 0.14-0.20 (S32205)",
+      "col_4": "Yield: 450 min MPa; Tensile: 620 min MPa; Elongation: 25% min; Hardness: 293 HBW max; Service temp: -50\u00b0C to 315\u00b0C (avoid above 315\u00b0C - sigma phase risk)",
+      "col_5": "Roughly 2x the yield strength of 316L with better chloride SCC resistance. Note: S32205 is the tighter modern re-registration of S31803 - both are commonly sold as \"2205.\""
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Super Duplex 2507 (F53)",
+      "col_1": "S32750",
+      "col_2": "ASTM A182 Gr. F53",
+      "col_3": "C: 0.030 max; Mn: 1.20 max; Si: 0.80 max; P: 0.035 max; S: 0.020 max; Cr: 24.0-26.0; Mo: 3.0-5.0; Ni: 6.0-8.0; N: 0.24-0.32; Cu: 0.50 max",
+      "col_4": "Yield: 550 min MPa; Tensile: 795 min MPa; Elongation: 15% min; Hardness: 310 HBW max; Service temp: -50\u00b0C to 250\u00b0C (avoid above 300\u00b0C sustained)",
+      "col_5": "PREN >= 40. Specified for aggressive chloride service - seawater cooling, offshore, desalination."
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Super Duplex Zeron 100 (F55)",
+      "col_1": "S32760",
+      "col_2": "ASTM A182 Gr. F55",
+      "col_3": "C: 0.030 max; Mn: 1.00 max; Si: 1.00 max; P: 0.030 max; S: 0.010 max; Cr: 24.0-26.0; Mo: 3.0-4.0; Ni: 6.0-8.0; N: 0.20-0.30; Cu: 0.50-1.00; W: 0.50-1.00",
+      "col_4": "Yield: 550 min MPa; Tensile: 750 min MPa; Elongation: 25% min; Hardness: 310 HBW max; Service temp: -50\u00b0C to 250\u00b0C",
+      "col_5": "Tungsten addition improves pitting resistance further vs F53. Common in subsea and oil-field production equipment."
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Alloy Steel F11/F22",
+      "col_1": "K11572 (F11) / K21590 (F22)",
+      "col_2": "ASTM A182 Gr. F11/F22",
+      "col_3": "C: 0.05-0.20; Mn: 0.30-0.80 (F11) / 0.30-0.60 (F22); Si: 0.50-1.00 (F11) / 0.50 max (F22); P: 0.030 max; S: 0.030 max; Cr: 1.00-1.50 (F11) / 2.00-2.50 (F22); Mo: 0.44-0.65 (F11) / 0.87-1.13 (F22)",
+      "col_4": "Yield: 205 min (Class 2) MPa; Tensile: 415-585 (F11) / 415-590 (F22) MPa; Elongation: 20% min; Hardness: 197 HBW max; Service temp: Up to 593\u00b0C",
+      "col_5": "Cr-Mo low-alloy steels for elevated-temperature service. Standard in power generation and refinery high-temp circuits."
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Alloy Steel F91",
+      "col_1": "K91560",
+      "col_2": "ASTM A182 Gr. F91",
+      "col_3": "C: 0.08-0.12; Mn: 0.30-0.60; Si: 0.20-0.50; P: 0.020 max; S: 0.010 max; Cr: 8.0-9.5; Mo: 0.85-1.05; Ni: 0.40 max; V: 0.18-0.25; Nb: 0.06-0.10; N: 0.030-0.070",
+      "col_4": "Yield: 415 min MPa; Tensile: 585-760 MPa; Elongation: 20% min; Hardness: 250 HBW max; Service temp: Up to 650\u00b0C (1,200\u00b0F)",
+      "col_5": "Modified 9Cr-1Mo-V. Requires normalize-and-temper heat treatment; increasingly specified in ultra-supercritical power and refinery fired-heater piping."
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Inconel 625",
+      "col_1": "N06625",
+      "col_2": "ASTM B564 / AMS 5666",
+      "col_3": "Ni: 58.0 min; Cr: 20.0-23.0; Mo: 8.0-10.0; Nb+Ta: 3.15-4.15; Fe: 5.0 max; C: 0.10 max; Mn: 0.50 max; Si: 0.50 max",
+      "col_4": "Yield: 414 min (annealed) MPa; Tensile: 827 min MPa; Elongation: 30% min; Hardness: 220 HBW max; Service temp: Cryogenic to 980\u00b0C",
+      "col_5": "Exceptional resistance to pitting, crevice corrosion, and oxidizing/reducing acids. Offshore riser and chemical reactor nozzle flanges."
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Hastelloy C-276",
+      "col_1": "N10276",
+      "col_2": "ASTM B564",
+      "col_3": "Ni: balance (~57%); Cr: 14.5-16.5; Mo: 15.0-17.0; Fe: 4.0-7.0; W: 3.0-4.5; C: 0.02 max; Co: 2.5 max; Mn: 1.0 max",
+      "col_4": "Yield: 283 min (annealed) MPa; Tensile: 690 min MPa; Elongation: 40% min; Hardness: 100 HRB max; Service temp: Cryogenic to 1,090\u00b0C",
+      "col_5": "Among the most corrosion-resistant alloys commercially available. FGD systems, waste-acid handling, wet chlorine."
+    },
+    {
+      "Chemical Composition & Mechanical Properties": "Monel 400",
+      "col_1": "N04400",
+      "col_2": "ASTM B564",
+      "col_3": "Ni: 63.0 min; Cu: 28.0-34.0; Fe: 2.5 max; Mn: 2.0 max; C: 0.30 max; Si: 0.50 max; S: 0.024 max",
+      "col_4": "Yield: 240 min (annealed) MPa; Tensile: 480-620 MPa; Elongation: 35% min; Hardness: 150 HB max; Service temp: Cryogenic to 480\u00b0C",
+      "col_5": "Exceptional resistance to hydrofluoric acid and seawater. HF alkylation units and marine systems."
+    }
+  ]
+}
