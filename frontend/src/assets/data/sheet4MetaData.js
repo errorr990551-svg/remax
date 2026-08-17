@@ -371,4 +371,149 @@ export const sheet4MetaData = {
     "h1": "Pipe Fittings & Flanges Supplier in Jodhpur",
     "priority": "P2"
   }
+,
+  "/materials/carbon-steel-flanges/": {
+    "title": "Carbon Steel Flange Manufacturer | ASTM A105, A350 LF2 India",
+    "description": "Carbon steel flange manufacturer, Mumbai. ASTM A105 (ambient/elevated temp) & A350 LF2 (low-temp, Charpy tested). All flange types, Class 150-2500.",
+    "h1": "Carbon Steel Flanges \u2014 ASTM A105 & A350 LF2 Manufacturer",
+    "priority": "P1"
+  },
+  "/materials/stainless-steel-304-flanges/": {
+    "title": "SS 304 304L Flange Manufacturer India | ASTM A182 F304",
+    "description": "SS 304/304L flange manufacturer, Mumbai. ASTM A182 F304/F304L, food/pharma/general chemical grade. All flange types, Class 150-2500. Quote in 30 min.",
+    "h1": "Stainless Steel 304/304L Flanges \u2014 ASTM A182 F304/F304L",
+    "priority": "P1"
+  },
+  "/materials/stainless-steel-316-flanges/": {
+    "title": "SS 316 316L Flange Manufacturer India | ASTM A182 F316",
+    "description": "SS 316/316L flange manufacturer, Mumbai. ASTM A182 F316/F316L, chloride & marine grade. All flange types, Class 150-2500. EN 10204 3.1/3.2. Quote in 30 min.",
+    "h1": "Stainless Steel 316/316L Flanges \u2014 ASTM A182 F316/F316L",
+    "priority": "P1"
+  },
+  "/materials/stainless-steel-321-347-flanges/": {
+    "title": "SS 321 347 Flange Manufacturer India | Stabilized Grades",
+    "description": "SS 321/347 flange manufacturer, Mumbai. Ti/Nb-stabilized for high-temp welded service, refinery furnace outlet piping. Class 150-2500. Quote in 30 min.",
+    "h1": "Stainless Steel 321/347 Flanges \u2014 Stabilized Grades",
+    "priority": "P1"
+  },
+  "/materials/duplex-2205-flanges/": {
+    "title": "Duplex 2205 Flange Manufacturer India | ASTM A182 F51",
+    "description": "Duplex 2205 flange manufacturer, Mumbai. ASTM A182 F51, S31803/S32205, ~2x yield strength of 316L. All flange types, Class 150-2500. Quote in 30 min.",
+    "h1": "Duplex 2205 Flanges \u2014 ASTM A182 F51 (S31803/S32205)",
+    "priority": "P1"
+  },
+  "/materials/super-duplex-2507-flanges/": {
+    "title": "Super Duplex 2507 Flange Manufacturer | ASTM A182 F53 India",
+    "description": "Super duplex 2507 flange manufacturer, Mumbai. ASTM A182 F53, S32750, PREN 40+, seawater & offshore grade. Class 150-2500. Quote in 30 minutes.",
+    "h1": "Super Duplex 2507 Flanges \u2014 ASTM A182 F53 (S32750)",
+    "priority": "P1"
+  },
+  "/materials/super-duplex-zeron-100-flanges/": {
+    "title": "Zeron 100 Super Duplex Flange Manufacturer | ASTM A182 F55",
+    "description": "Super duplex Zeron 100 flange manufacturer, Mumbai. ASTM A182 F55, S32760, tungsten-enhanced pitting resistance. Class 150-2500. Quote in 30 min.",
+    "h1": "Super Duplex Zeron 100 Flanges \u2014 ASTM A182 F55 (S32760)",
+    "priority": "P1"
+  },
+  "/materials/alloy-steel-f11-f22-flanges/": {
+    "title": "Alloy Steel F11 F22 Flange Manufacturer | High-Temp India",
+    "description": "Alloy steel F11/F22 flange manufacturer, Mumbai. Cr-Mo grade for high-temp power & refinery service, up to 593\u00b0C. Class 150-2500. Quote in 30 min.",
+    "h1": "Alloy Steel F11/F22 Flanges \u2014 Cr-Mo High-Temperature Grade",
+    "priority": "P1"
+  },
+  "/materials/alloy-steel-f91-flanges/": {
+    "title": "Alloy Steel F91 Flange Manufacturer India | 9Cr-1Mo-V",
+    "description": "Alloy steel F91 flange manufacturer, Mumbai. Modified 9Cr-1Mo-V, ultra-supercritical power & refinery fired-heater service to 650\u00b0C. Quote in 30 min.",
+    "h1": "Alloy Steel F91 Flanges \u2014 9Cr-1Mo-V, Ultra-Supercritical Grade",
+    "priority": "P1"
+  },
+  "/materials/inconel-625-flanges/": {
+    "title": "Inconel 625 Flange Manufacturer India | ASTM B564 N06625",
+    "description": "Inconel 625 flange manufacturer, Mumbai. ASTM B564, N06625, offshore riser & chemical reactor grade. All flange types. MTC 3.1/3.2. Quote in 30 min.",
+    "h1": "Inconel 625 Flanges \u2014 ASTM B564 (UNS N06625)",
+    "priority": "P1"
+  },
+  "/materials/hastelloy-c276-flanges/": {
+    "title": "Hastelloy C276 Flange Manufacturer India | ASTM B564 N10276",
+    "description": "Hastelloy C-276 flange manufacturer, Mumbai. ASTM B564, N10276, FGD & wet chlorine grade, among the most corrosion-resistant alloys available. Quote in 30 min.",
+    "h1": "Hastelloy C-276 Flanges \u2014 ASTM B564 (UNS N10276)",
+    "priority": "P1"
+  },
+  "/materials/monel-400-flanges/": {
+    "title": "Monel 400 Flange Manufacturer India | ASTM B564 N04400",
+    "description": "Monel 400 flange manufacturer, Mumbai. ASTM B564, N04400, hydrofluoric acid & seawater grade. All flange types. MTC 3.1/3.2. Quote in 30 minutes.",
+    "h1": "Monel 400 Flanges \u2014 ASTM B564 (UNS N04400)",
+    "priority": "P1"
+  },
+  "/standards/asme-b16-5/": {
+    "title": "ASME B16.5 Flange Dimensions | Complete Reference Chart",
+    "description": "ASME B16.5 flange standard explained: NPS 1/2-24, Class 150-2500, all 6 flange types, complete dimensional & bolting reference. Sourced & verified.",
+    "h1": "ASME B16.5 Flange Standard \u2014 Complete Dimensional Reference",
+    "priority": "P1"
+  },
+  "/standards/asme-b16-47/": {
+    "title": "ASME B16.47 Flange Dimensions | Series A vs B Explained",
+    "description": "ASME B16.47 large diameter flange standard: NPS 26-60, Class 150-900, Series A vs Series B explained with the critical difference buyers must know.",
+    "h1": "ASME B16.47 \u2014 Large Diameter Flange Standard (NPS 26-60)",
+    "priority": "P1"
+  },
+  "/standards/en-1092-1/": {
+    "title": "EN 1092-1 Flange Standard | PN Rating vs ASME Class",
+    "description": "EN 1092-1 European flange standard explained: PN 2.5-400, DN 10-4000, Type 01-13, with a direct PN-to-ASME-Class cross-reference for export buyers.",
+    "h1": "EN 1092-1 European Flange Standard \u2014 PN Rating Explained",
+    "priority": "P1"
+  },
+  "/standards/din-2501/": {
+    "title": "DIN 2501 Flange Standard | Superseded by EN 1092-1",
+    "description": "DIN 2501 flange standard explained, including why it's been formally superseded by EN 1092-1 and what that means for buyers still referencing DIN.",
+    "h1": "DIN 2501 Flange Standard \u2014 Legacy German Reference",
+    "priority": "P1"
+  },
+  "/standards/jis-b2220/": {
+    "title": "JIS B2220 Flange Standard | 5K 10K 16K 20K Explained",
+    "description": "JIS B2220 Japanese flange standard: 5K/10K/16K/20K pressure classes explained, with dimensions for buyers supplying into Japanese-spec projects.",
+    "h1": "JIS B2220 Flange Standard \u2014 Japanese Reference",
+    "priority": "P1"
+  },
+  "/standards/bs-10-bs-4504/": {
+    "title": "BS 10 BS 4504 Flange Standard | Table D E F Explained",
+    "description": "BS 10 and BS 4504 British flange standards explained: Table D/E/F classes, and the fact that BS 4504 is now superseded by EN 1092-1.",
+    "h1": "BS 10 & BS 4504 Flange Standards \u2014 British Reference",
+    "priority": "P1"
+  },
+  "/industries/oil-and-gas/": {
+    "title": "Oil & Gas Flange Supplier India | NACE MR0175 Sour Service",
+    "description": "Flanges & fittings for oil & gas: upstream, midstream, downstream. NACE MR0175 sour service, duplex/super duplex, third-party inspection. Quote in 30 min.",
+    "h1": "Pipe Flanges & Fittings for Oil & Gas \u2014 Upstream to Downstream",
+    "priority": "P1"
+  },
+  "/industries/pharmaceutical/": {
+    "title": "Pharmaceutical Flange Supplier India | SS 316L Sanitary Grade",
+    "description": "Flanges & fittings for pharma/biotech: SS 316L, sanitary finish options, full MTC traceability. Third-party inspection available. Quote in 30 minutes.",
+    "h1": "Pipe Flanges & Fittings for Pharmaceutical & Biotech",
+    "priority": "P1"
+  },
+  "/industries/power-generation/": {
+    "title": "Power Plant Flange Supplier India | F11 F22 F91 Alloy Steel",
+    "description": "Flanges & fittings for power generation: thermal, nuclear-adjacent balance-of-plant, F11/F22/F91 alloy steel for high-temp steam service. Quote in 30 min.",
+    "h1": "Pipe Flanges & Fittings for Power Generation",
+    "priority": "P1"
+  },
+  "/industries/water-infrastructure/": {
+    "title": "Water Infrastructure Flange Supplier India | AWWA & B16.5",
+    "description": "Flanges & fittings for water treatment, distribution, and wastewater: carbon steel & stainless, AWWA and ASME B16.5 compliant. Quote in 30 minutes.",
+    "h1": "Pipe Flanges & Fittings for Water & Wastewater Infrastructure",
+    "priority": "P1"
+  },
+  "/industries/marine/": {
+    "title": "Marine Flange Supplier India | Duplex & 316 for Seawater",
+    "description": "Flanges & fittings for marine/offshore: duplex, super duplex, and 316 stainless for seawater service. Third-party inspection. Quote in 30 minutes.",
+    "h1": "Pipe Flanges & Fittings for Marine & Offshore",
+    "priority": "P1"
+  },
+  "/industries/chemical-processing/": {
+    "title": "Chemical Processing Flange Supplier India | 316L, Hastelloy, Inconel",
+    "description": "Flanges & fittings for chemical processing: 316L, Hastelloy C-276, Inconel 625 for aggressive media. Full MTC traceability. Quote in 30 minutes.",
+    "h1": "Pipe Flanges & Fittings for Chemical Processing",
+    "priority": "P1"
+  }
 };

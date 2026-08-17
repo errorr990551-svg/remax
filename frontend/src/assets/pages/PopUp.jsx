@@ -32,7 +32,8 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
 
   // Handle Auto-Show Logic (Default behavior)
   useEffect(() => {
-    if (autoShow && isOpen === undefined) {
+    const isDismissed = localStorage.getItem('remax_popup_dismissed') === 'true' || sessionStorage.getItem('remax_popup_dismissed') === 'true';
+    if (autoShow && isOpen === undefined && !isDismissed) {
       const timer = setTimeout(() => {
         setIsVisible(true);
       }, 500);
@@ -48,6 +49,8 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
   }, [isOpen]);
 
   const handleClose = () => {
+    localStorage.setItem('remax_popup_dismissed', 'true');
+    sessionStorage.setItem('remax_popup_dismissed', 'true');
     setIsVisible(false);
     if (onClose) onClose();
   };

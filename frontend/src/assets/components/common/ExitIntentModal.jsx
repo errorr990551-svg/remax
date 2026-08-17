@@ -20,11 +20,11 @@ const ExitIntentModal = () => {
 
   useEffect(() => {
     // Only target desktop product & content pages
-    const isProductOrContentPage = pathname.startsWith('/products/') || pathname.startsWith('/product-details/') || pathname.startsWith('/tech-info/');
+    const isProductOrContentPage = pathname.startsWith('/products/') || pathname.startsWith('/product-details/') || pathname.startsWith('/tech-info/') || pathname.startsWith('/materials/') || pathname.startsWith('/standards/') || pathname.startsWith('/industries/');
     if (!isProductOrContentPage) return;
 
-    const hasTriggeredThisSession = sessionStorage.getItem('remax_exit_shown');
-    if (hasTriggeredThisSession) return;
+    const isDismissed = localStorage.getItem('remax_exit_dismissed') === 'true' || sessionStorage.getItem('remax_exit_dismissed') === 'true' || sessionStorage.getItem('remax_exit_shown') === 'true';
+    if (isDismissed) return;
 
     const handleMouseLeave = (e) => {
       if (e.clientY <= 0) {
@@ -43,6 +43,12 @@ const ExitIntentModal = () => {
     document.addEventListener('mouseleave', handleMouseLeave);
     return () => document.removeEventListener('mouseleave', handleMouseLeave);
   }, [pathname]);
+
+  const handleClose = () => {
+    localStorage.setItem('remax_exit_dismissed', 'true');
+    sessionStorage.setItem('remax_exit_dismissed', 'true');
+    setShowModal(false);
+  };
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];
@@ -76,6 +82,8 @@ const ExitIntentModal = () => {
       }
 
       setSubmitted(true);
+      localStorage.setItem('remax_exit_dismissed', 'true');
+      sessionStorage.setItem('remax_exit_dismissed', 'true');
       setTimeout(() => {
         setShowModal(false);
       }, 3000);
@@ -90,11 +98,11 @@ const ExitIntentModal = () => {
 
   return (
     <div className="hidden lg:flex fixed inset-0 z-50 items-center justify-center p-4 bg-slate-900/75 backdrop-blur-xs animate-in fade-in duration-300">
-      <div className="absolute inset-0" onClick={() => setShowModal(false)}></div>
+      <div className="absolute inset-0" onClick={handleClose}></div>
 
       <div className="relative w-full max-w-lg bg-white rounded-2xl shadow-2xl p-6 md:p-8 z-10 border-t-4 border-[#D71920] animate-in zoom-in-95 duration-200">
         <button
-          onClick={() => setShowModal(false)}
+          onClick={handleClose}
           className="absolute top-4 right-4 text-slate-400 hover:text-red-600 bg-slate-100 p-1.5 rounded-full"
         >
           <X className="w-5 h-5" />

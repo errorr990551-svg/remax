@@ -88,6 +88,37 @@ import ScrollToTop from './assets/components/common/ScrollToTop.jsx';
 import ProductMenuModal from './assets/components/common/ProductMenuModal.jsx';
 import MarketArea from './assets/pages/MarketArea.jsx';
 import CityPage from './assets/pages/CityPage.jsx';
+
+// Material Grade Pages
+import CarbonSteelFlanges from './assets/pages/materials/CarbonSteelFlanges.jsx';
+import SS304Flanges from './assets/pages/materials/SS304Flanges.jsx';
+import SS316Flanges from './assets/pages/materials/SS316Flanges.jsx';
+import SS321347Flanges from './assets/pages/materials/SS321347Flanges.jsx';
+import Duplex2205Flanges from './assets/pages/materials/Duplex2205Flanges.jsx';
+import SuperDuplex2507Flanges from './assets/pages/materials/SuperDuplex2507Flanges.jsx';
+import SuperDuplexZeron100Flanges from './assets/pages/materials/SuperDuplexZeron100Flanges.jsx';
+import AlloySteelF11F22Flanges from './assets/pages/materials/AlloySteelF11F22Flanges.jsx';
+import AlloySteelF91Flanges from './assets/pages/materials/AlloySteelF91Flanges.jsx';
+import Inconel625Flanges from './assets/pages/materials/Inconel625Flanges.jsx';
+import HastelloyC276Flanges from './assets/pages/materials/HastelloyC276Flanges.jsx';
+import Monel400Flanges from './assets/pages/materials/Monel400Flanges.jsx';
+
+// Standards Pages
+import AsmeB165Standard from './assets/pages/standards/AsmeB165Standard.jsx';
+import AsmeB1647Standard from './assets/pages/standards/AsmeB1647Standard.jsx';
+import En10921Standard from './assets/pages/standards/En10921Standard.jsx';
+import Din2501Standard from './assets/pages/standards/Din2501Standard.jsx';
+import JisB2220Standard from './assets/pages/standards/JisB2220Standard.jsx';
+import Bs10Bs4504Standard from './assets/pages/standards/Bs10Bs4504Standard.jsx';
+
+// Industry Pages
+import OilAndGasIndustry from './assets/pages/industries/OilAndGasIndustry.jsx';
+import PharmaceuticalIndustry from './assets/pages/industries/PharmaceuticalIndustry.jsx';
+import PowerGenerationIndustry from './assets/pages/industries/PowerGenerationIndustry.jsx';
+import WaterInfrastructureIndustry from './assets/pages/industries/WaterInfrastructureIndustry.jsx';
+import MarineIndustry from './assets/pages/industries/MarineIndustry.jsx';
+import ChemicalProcessingIndustry from './assets/pages/industries/ChemicalProcessingIndustry.jsx';
+
 import SEOManager from './assets/components/common/SEOManager.jsx';
 
 import FloatingQuoteButton from './assets/components/common/FloatingQuoteButton.jsx';
@@ -288,7 +319,62 @@ function App() {
         <Route path='/products/socket-weld-fittings/socket-weld-plug-fittings/' element={<SocketWeldPlug />} />
 
         {/* Sitemap & Dynamic City Pages */}
-        <Route path='/sitemap' element={<SitemapRedirect />} />
+        
+        {/* Material Grade Pages */}
+        <Route path='/materials/carbon-steel-flanges' element={<CarbonSteelFlanges />} />
+        <Route path='/materials/carbon-steel-flanges/' element={<CarbonSteelFlanges />} />
+        <Route path='/materials/stainless-steel-304-flanges' element={<SS304Flanges />} />
+        <Route path='/materials/stainless-steel-304-flanges/' element={<SS304Flanges />} />
+        <Route path='/materials/stainless-steel-316-flanges' element={<SS316Flanges />} />
+        <Route path='/materials/stainless-steel-316-flanges/' element={<SS316Flanges />} />
+        <Route path='/materials/stainless-steel-321-347-flanges' element={<SS321347Flanges />} />
+        <Route path='/materials/stainless-steel-321-347-flanges/' element={<SS321347Flanges />} />
+        <Route path='/materials/duplex-2205-flanges' element={<Duplex2205Flanges />} />
+        <Route path='/materials/duplex-2205-flanges/' element={<Duplex2205Flanges />} />
+        <Route path='/materials/super-duplex-2507-flanges' element={<SuperDuplex2507Flanges />} />
+        <Route path='/materials/super-duplex-2507-flanges/' element={<SuperDuplex2507Flanges />} />
+        <Route path='/materials/super-duplex-zeron-100-flanges' element={<SuperDuplexZeron100Flanges />} />
+        <Route path='/materials/super-duplex-zeron-100-flanges/' element={<SuperDuplexZeron100Flanges />} />
+        <Route path='/materials/alloy-steel-f11-f22-flanges' element={<AlloySteelF11F22Flanges />} />
+        <Route path='/materials/alloy-steel-f11-f22-flanges/' element={<AlloySteelF11F22Flanges />} />
+        <Route path='/materials/alloy-steel-f91-flanges' element={<AlloySteelF91Flanges />} />
+        <Route path='/materials/alloy-steel-f91-flanges/' element={<AlloySteelF91Flanges />} />
+        <Route path='/materials/inconel-625-flanges' element={<Inconel625Flanges />} />
+        <Route path='/materials/inconel-625-flanges/' element={<Inconel625Flanges />} />
+        <Route path='/materials/hastelloy-c276-flanges' element={<HastelloyC276Flanges />} />
+        <Route path='/materials/hastelloy-c276-flanges/' element={<HastelloyC276Flanges />} />
+        <Route path='/materials/monel-400-flanges' element={<Monel400Flanges />} />
+        <Route path='/materials/monel-400-flanges/' element={<Monel400Flanges />} />
+
+        {/* Standards Pages */}
+        <Route path='/standards/asme-b16-5' element={<AsmeB165Standard />} />
+        <Route path='/standards/asme-b16-5/' element={<AsmeB165Standard />} />
+        <Route path='/standards/asme-b16-47' element={<AsmeB1647Standard />} />
+        <Route path='/standards/asme-b16-47/' element={<AsmeB1647Standard />} />
+        <Route path='/standards/en-1092-1' element={<En10921Standard />} />
+        <Route path='/standards/en-1092-1/' element={<En10921Standard />} />
+        <Route path='/standards/din-2501' element={<Din2501Standard />} />
+        <Route path='/standards/din-2501/' element={<Din2501Standard />} />
+        <Route path='/standards/jis-b2220' element={<JisB2220Standard />} />
+        <Route path='/standards/jis-b2220/' element={<JisB2220Standard />} />
+        <Route path='/standards/bs-10-bs-4504' element={<Bs10Bs4504Standard />} />
+        <Route path='/standards/bs-10-bs-4504/' element={<Bs10Bs4504Standard />} />
+
+        {/* Industry Pages */}
+        <Route path='/industries/oil-and-gas' element={<OilAndGasIndustry />} />
+        <Route path='/industries/oil-and-gas/' element={<OilAndGasIndustry />} />
+        <Route path='/industries/pharmaceutical' element={<PharmaceuticalIndustry />} />
+        <Route path='/industries/pharmaceutical/' element={<PharmaceuticalIndustry />} />
+        <Route path='/industries/power-generation' element={<PowerGenerationIndustry />} />
+        <Route path='/industries/power-generation/' element={<PowerGenerationIndustry />} />
+        <Route path='/industries/water-infrastructure' element={<WaterInfrastructureIndustry />} />
+        <Route path='/industries/water-infrastructure/' element={<WaterInfrastructureIndustry />} />
+        <Route path='/industries/marine' element={<MarineIndustry />} />
+        <Route path='/industries/marine/' element={<MarineIndustry />} />
+        <Route path='/industries/chemical-processing' element={<ChemicalProcessingIndustry />} />
+        <Route path='/industries/chemical-processing/' element={<ChemicalProcessingIndustry />} />
+
+<Route path='/sitemap' element={<SitemapRedirect />} />
         <Route path='/sitemap.xml' element={<SitemapRedirect />} />
         <Route path='/:cityName' element={<CityPage />} />
         <Route path='/:cityName/' element={<CityPage />} />
