@@ -63,9 +63,30 @@ function createNodeRes() {
 
 export default {
   async fetch(request, env, ctx) {
+    if (typeof globalThis.process === "undefined") {
+      globalThis.process = { env: {} };
+    } else if (!globalThis.process.env) {
+      globalThis.process.env = {};
+    }
+
     if (env) {
       for (const [key, value] of Object.entries(env)) {
-        process.env[key] = value;
+        if (typeof value === "string") {
+          try {
+            process.env[key] = value;
+          } catch (e) {}
+          try {
+            globalThis.process.env[key] = value;
+          } catch (e) {}
+          try {
+            Object.defineProperty(process.env, key, {
+              value: value,
+              writable: true,
+              configurable: true,
+              enumerable: true,
+            });
+          } catch (err) {}
+        }
       }
     }
 
