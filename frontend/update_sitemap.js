@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { marketAreaData } from './src/assets/data/marketAreaData.js';
+import { newFlangePagesData } from './src/assets/data/newFlangePagesData.js';
 
 // Kept industrial cities
 const keptCities = Object.keys(marketAreaData);
@@ -41,11 +42,12 @@ function generateSitemap() {
     // Remove potential duplicates
     const uniqueRoutes = [...new Set(routes)];
 
-    // 2. Add the kept cities
+    // 2. Add new commercial flange pages & kept cities
+    const newFlangeRoutes = Object.keys(newFlangePagesData);
     const cityRoutes = keptCities.map(city => `/${city}`);
     
     // Combine all URLs
-    const urls = [...uniqueRoutes, ...cityRoutes];
+    const urls = [...new Set([...uniqueRoutes, ...newFlangeRoutes, ...cityRoutes])];
 
     // Get current date for lastmod (YYYY-MM-DD format)
     const lastmod = new Date().toISOString().split('T')[0];

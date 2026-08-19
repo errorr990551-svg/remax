@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { sheet4MetaData } from '../../data/sheet4MetaData.js';
+import { newFlangePagesData } from '../../data/newFlangePagesData.js';
 import { marketAreaData } from '../../data/marketAreaData.js';
 import flangeFaqs from '../../data/flange_faqs.json';
 
@@ -156,15 +157,15 @@ const SEOManager = () => {
       };
       schemas.push(productSchema);
 
-      const faqs = flangeFaqs[productSlug];
-      if (faqs && faqs.length > 0) {
+      const rawFaqs = flangeFaqs[productSlug] || (newFlangePagesData[canonicalPath] || newFlangePagesData[pathname] || {}).faqs;
+      if (rawFaqs && rawFaqs.length > 0) {
         schemas.push({
           '@context': 'https://schema.org',
           '@type': 'FAQPage',
-          'mainEntity': faqs.map(f => ({
+          'mainEntity': rawFaqs.map(f => ({
             '@type': 'Question',
-            'name': f.question,
-            'acceptedAnswer': { '@type': 'Answer', 'text': f.answer }
+            'name': f.question || f.q,
+            'acceptedAnswer': { '@type': 'Answer', 'text': f.answer || f.a }
           }))
         });
       }

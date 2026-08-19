@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import './index.css';
 
@@ -23,6 +23,9 @@ import Blind from './assets/pages/products/flanges/Blind.jsx';
 import LapJoint from './assets/pages/products/flanges/LapJoint.jsx';
 import LongWeldNeck from './assets/pages/products/flanges/LongWeldNeck.jsx';
 import SpectacleBlind from './assets/pages/products/flanges/SpectacleBlind.jsx';
+import FlangesCategoryHub from './assets/pages/products/flanges/FlangesCategoryHub.jsx';
+import CommercialFlangePage from './assets/pages/products/flanges/CommercialFlangePage.jsx';
+import { newFlangePagesData } from './assets/data/newFlangePagesData.js';
 
 import AboutUs from './assets/pages/AboutUs.jsx';
 import Blogs from './assets/pages/Blogs.jsx';
@@ -125,20 +128,47 @@ import FloatingQuoteButton from './assets/components/common/FloatingQuoteButton.
 import StickyMobileBar from './assets/components/common/StickyMobileBar.jsx';
 import ExitIntentModal from './assets/components/common/ExitIntentModal.jsx';
 
+const legacyFlangeRedirects = {
+  '/product-details/weldneck-flange': '/products/flanges/weld-neck-flange/',
+  '/product-details/weldneck-flange/': '/products/flanges/weld-neck-flange/',
+  '/product-details/blind-flange': '/products/flanges/blind-flange/',
+  '/product-details/blind-flange/': '/products/flanges/blind-flange/',
+  '/product-details/socket-weld-flange': '/products/flanges/socket-weld-flange/',
+  '/product-details/socket-weld-flange/': '/products/flanges/socket-weld-flange/',
+  '/product-details/threaded-flange': '/products/flanges/threaded-flange/',
+  '/product-details/threaded-flange/': '/products/flanges/threaded-flange/',
+  '/product-details/slip-on-flange': '/products/flanges/slip-on-flange/',
+  '/product-details/slip-on-flange/': '/products/flanges/slip-on-flange/',
+  '/product-details/stub-end-flange': '/products/flanges/lap-joint-flange/',
+  '/product-details/stub-end-flange/': '/products/flanges/lap-joint-flange/'
+};
+
 const TrailingSlashRedirector = () => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
 
   useEffect(() => {
-    // 301 Redirect /about -> /about-us/
+    // 1. Legacy Product Details redirects for Flanges
+    if (legacyFlangeRedirects[pathname]) {
+      navigate(legacyFlangeRedirects[pathname], { replace: true });
+      return;
+    }
+
+    // 2. /about -> /about-us/
     if (pathname === '/about' || pathname === '/about/') {
       navigate('/about-us/', { replace: true });
       return;
     }
-    // 301 Redirect brochure pdf link -> /brochure/
+
+    // 3. Brochure redirect
     if (pathname === '/Remax%20Brochure.pdf' || pathname === '/Remax Brochure.pdf') {
       navigate('/brochure/', { replace: true });
       return;
+    }
+
+    // 4. Trailing-slash site-wide normalization
+    if (pathname !== '/' && !pathname.endsWith('/') && !pathname.includes('.')) {
+      navigate(`${pathname}/`, { replace: true });
     }
   }, [pathname, navigate]);
 
@@ -250,7 +280,9 @@ function App() {
         <Route path='/tech-info/dimensions' element={<DimensionChart />} />
         <Route path='/tech-info/dimensions/' element={<DimensionChart />} />
 
-        {/* Flanges */}
+        {/* Flanges Category Hub & Types */}
+        <Route path='/products/flanges' element={<FlangesCategoryHub />} />
+        <Route path='/products/flanges/' element={<FlangesCategoryHub />} />
         <Route path='/products/flanges/weld-neck-flange' element={<WeldNeck />} />
         <Route path='/products/flanges/weld-neck-flange/' element={<WeldNeck />} />
         <Route path='/products/flanges/slip-on-flange' element={<SlipOn />} />
@@ -267,6 +299,18 @@ function App() {
         <Route path='/products/flanges/long-weld-neck-flange/' element={<LongWeldNeck />} />
         <Route path='/products/flanges/spectacle-blind-flange' element={<SpectacleBlind />} />
         <Route path='/products/flanges/spectacle-blind-flange/' element={<SpectacleBlind />} />
+
+        {/* 52 New Commercial Flange Pages */}
+        {Object.keys(newFlangePagesData).map((pathKey) => {
+          const noSlash = pathKey.endsWith('/') ? pathKey.slice(0, -1) : pathKey;
+          const slash = pathKey.endsWith('/') ? pathKey : `${pathKey}/`;
+          return (
+            <React.Fragment key={pathKey}>
+              <Route path={slash} element={<CommercialFlangePage />} />
+              <Route path={noSlash} element={<CommercialFlangePage />} />
+            </React.Fragment>
+          );
+        })}
 
         {/* Buttweld Fittings */}
         <Route path='/products/buttweld-fittings/butt-weld-elbow-fittings' element={<ButtWeldElbowFittings />} />
