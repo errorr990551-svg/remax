@@ -8,22 +8,31 @@ const keptCities = Object.keys(marketAreaData);
 
 const baseUrl = 'https://remaxforge.com';
 
-function getPriority(url) {
-  if (url === '/') return '1.0';
-  if (url.startsWith('/products/')) return '0.9';
-  if (['/about-us', '/contact', '/quality', '/certification'].includes(url)) return '0.8';
-  if (url.startsWith('/tech-info/')) return '0.7';
-  if (url === '/career') return '0.7';
-  if (url.startsWith('/blogs/')) return '0.6';
-  if (url === '/blogs') return '0.7';
-  if (url === '/market-area') return '0.8';
-  // City pages
+function normalizeUrl(url) {
+  if (url === '/') return '/';
+  let formatted = url.startsWith('/') ? url : '/' + url;
+  if (!formatted.endsWith('/')) {
+    formatted += '/';
+  }
+  return formatted;
+}
+
+function getPriority(normUrl) {
+  if (normUrl === '/') return '1.0';
+  if (normUrl.startsWith('/products/') || normUrl.startsWith('/product-details/')) return '0.9';
+  if (['/about-us/', '/contact/', '/quality/', '/certification/', '/market-area/'].includes(normUrl)) return '0.8';
+  if (normUrl.startsWith('/materials/') || normUrl.startsWith('/standards/') || normUrl.startsWith('/industries/')) return '0.8';
+  if (normUrl.startsWith('/tech-info/')) return '0.7';
+  if (normUrl === '/career/') return '0.7';
+  if (normUrl === '/blogs/') return '0.7';
+  if (normUrl.startsWith('/blogs/')) return '0.6';
+  // City pages & commercial flange pages default
   return '0.7';
 }
 
 function generateSitemap() {
   try {
-    // 1. Read App.jsx and extract routes
+    // 1. Read App.jsx and extract static routes
     const appJsxPath = path.resolve('src/App.jsx');
     const appContent = fs.readFileSync(appJsxPath, 'utf8');
     
@@ -34,20 +43,21 @@ function generateSitemap() {
       const route = match[1];
       // Filter out dynamic routes (like :cityName, :stateName/:cityName) and sitemap routes
       if (!route.includes(':') && !route.includes('sitemap')) {
-        const formattedRoute = route.startsWith('/') ? route : '/' + route;
-        routes.push(formattedRoute);
+        routes.push(normalizeUrl(route));
       }
     }
 
-    // Remove potential duplicates
-    const uniqueRoutes = [...new Set(routes)];
-
-    // 2. Add new commercial flange pages & kept cities
-    const newFlangeRoutes = Object.keys(newFlangePagesData);
-    const cityRoutes = keptCities.map(city => `/${city}`);
+    // 2. Add commercial flange pages and city pages
+    const newFlangeRoutes = Object.keys(newFlangePagesData).map(normalizeUrl);
+    const cityRoutes = keptCities.map(city => normalizeUrl(`/${city}`));
     
-    // Combine all URLs
-    const urls = [...new Set([...uniqueRoutes, ...newFlangeRoutes, ...cityRoutes])];
+    // Combine all URLs and deduplicate into canonical set
+    const allNormUrls = [...routes, ...newFlangeRoutes, ...cityRoutes];
+    const canonicalUrls = [...new Set(allNormUrls)].sort((a, b) => {
+      if (a === '/') return -1;
+      if (b === '/') return 1;
+      return a.localeCompare(b);
+    });
 
     // Get current date for lastmod (YYYY-MM-DD format)
     const lastmod = new Date().toISOString().split('T')[0];
@@ -57,9 +67,10 @@ function generateSitemap() {
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 `;
 
-    urls.forEach(url => {
+    canonicalUrls.forEach(url => {
+      const loc = `${baseUrl}${url === '/' ? '' : url}`;
       xml += `  <url>
-    <loc>${baseUrl}${url === '/' ? '' : url}</loc>
+    <loc>${loc}</loc>
     <lastmod>${lastmod}</lastmod>
     <priority>${getPriority(url)}</priority>
   </url>\n`;
@@ -69,7 +80,7 @@ function generateSitemap() {
 
     const sitemapPath = path.resolve('public/sitemap.xml');
     fs.writeFileSync(sitemapPath, xml);
-    console.log(`Sitemap updated successfully with ${urls.length} URLs!`);
+    console.log(`Sitemap updated successfully with ${canonicalUrls.length} canonical URLs!`);
   } catch (error) {
     console.error('Error generating sitemap:', error);
     process.exit(1);
