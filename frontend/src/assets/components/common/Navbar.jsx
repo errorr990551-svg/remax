@@ -240,6 +240,15 @@ const Navbar = () => {
                 Blogs
                 <span className="absolute bottom-4 left-0 w-0 h-0.5 bg-[#D71920] transition-all group-hover:w-full"></span>
               </Link>
+
+              {/* Where We Export */}
+              <Link
+                to="/export"
+                className="relative font-medium text-base transition-colors hover:text-[#D71920] flex items-center h-full group"
+              >
+                Where We Export
+                <span className="absolute bottom-4 left-0 w-0 h-0.5 bg-[#D71920] transition-all group-hover:w-full"></span>
+              </Link>
             </div>
           </div>
 

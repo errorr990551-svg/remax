@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { marketAreaData } from './src/assets/data/marketAreaData.js';
 import { newFlangePagesData } from './src/assets/data/newFlangePagesData.js';
+import { exportHubsData } from './src/assets/data/exportHubsData.js';
+import { exportCitiesData } from './src/assets/data/exportCitiesData.js';
 
 // Kept industrial cities
 const keptCities = Object.keys(marketAreaData);
@@ -20,7 +22,8 @@ function normalizeUrl(url) {
 function getPriority(normUrl) {
   if (normUrl === '/') return '1.0';
   if (normUrl.startsWith('/products/') || normUrl.startsWith('/product-details/')) return '0.9';
-  if (['/about-us/', '/contact/', '/quality/', '/certification/', '/market-area/'].includes(normUrl)) return '0.8';
+  if (['/about-us/', '/contact/', '/quality/', '/certification/', '/market-area/', '/export/'].includes(normUrl)) return '0.8';
+  if (normUrl.startsWith('/export/')) return '0.8';
   if (normUrl.startsWith('/materials/') || normUrl.startsWith('/standards/') || normUrl.startsWith('/industries/')) return '0.8';
   if (normUrl.startsWith('/tech-info/')) return '0.7';
   if (normUrl === '/career/') return '0.7';
@@ -47,12 +50,14 @@ function generateSitemap() {
       }
     }
 
-    // 2. Add commercial flange pages and city pages
+    // 2. Add commercial flange pages, city pages, export hubs & export cities
     const newFlangeRoutes = Object.keys(newFlangePagesData).map(normalizeUrl);
     const cityRoutes = keptCities.map(city => normalizeUrl(`/${city}`));
+    const exportHubRoutes = Object.values(exportHubsData).map(h => normalizeUrl(h.url));
+    const exportCityRoutes = Object.values(exportCitiesData).map(c => normalizeUrl(c.url));
     
     // Combine all URLs and deduplicate into canonical set
-    const allNormUrls = [...routes, ...newFlangeRoutes, ...cityRoutes];
+    const allNormUrls = [...routes, ...newFlangeRoutes, ...cityRoutes, ...exportHubRoutes, ...exportCityRoutes];
     const canonicalUrls = [...new Set(allNormUrls)].sort((a, b) => {
       if (a === '/') return -1;
       if (b === '/') return 1;

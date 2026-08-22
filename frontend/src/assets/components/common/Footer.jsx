@@ -74,6 +74,7 @@ const Footer = () => {
                 { name: 'Certificates', path: '/certification' },
                 { name: 'Careers', path: '/career' },
                 { name: 'Blogs', path: '/blogs' },
+                { name: 'Where We Export', path: '/export' },
                 { name: 'Market Area', path: '/market-area' },
                 { name: 'Contact Us', path: '/contact' }
               ].map((item) => (

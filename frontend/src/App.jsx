@@ -15,6 +15,10 @@ import HardoxPlate from './assets/pages/productDetails/HardoxPlate.jsx';
 import PipeFittingsManufacturerIndia from './assets/pages/PipeFittingsManufacturerIndia.jsx';
 import ButtweldFittingsExporterIndia from './assets/pages/ButtweldFittingsExporterIndia.jsx';
 
+import WhereWeExport from './assets/pages/WhereWeExport.jsx';
+import ExportHubPage from './assets/pages/ExportHubPage.jsx';
+import ExportCityPage from './assets/pages/ExportCityPage.jsx';
+
 import WeldNeck from './assets/pages/products/flanges/WeldNeck.jsx';
 import SlipOn from './assets/pages/products/flanges/SlipOn.jsx';
 import SocketWeld from './assets/pages/products/flanges/SocketWeld.jsx';
@@ -418,7 +422,15 @@ function App() {
         <Route path='/industries/chemical-processing' element={<ChemicalProcessingIndustry />} />
         <Route path='/industries/chemical-processing/' element={<ChemicalProcessingIndustry />} />
 
-<Route path='/sitemap' element={<SitemapRedirect />} />
+        {/* Global Export Routes */}
+        <Route path='/export' element={<WhereWeExport />} />
+        <Route path='/export/' element={<WhereWeExport />} />
+        <Route path='/export/:countrySlug' element={<ExportHubPage />} />
+        <Route path='/export/:countrySlug/' element={<ExportHubPage />} />
+        <Route path='/export/:countrySlug/:citySlug' element={<ExportCityPage />} />
+        <Route path='/export/:countrySlug/:citySlug/' element={<ExportCityPage />} />
+
+        <Route path='/sitemap' element={<SitemapRedirect />} />
         <Route path='/sitemap.xml' element={<SitemapRedirect />} />
         <Route path='/:cityName' element={<CityPage />} />
         <Route path='/:cityName/' element={<CityPage />} />

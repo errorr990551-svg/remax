@@ -201,7 +201,8 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                placeholder="Phone Number"
+                placeholder="Phone Number *"
+                required
                 className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
               />
             </div>
@@ -236,7 +237,8 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              placeholder="How can we help you?"
+              placeholder="How can we help you? *"
+              required
               rows="2"
               className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 resize-none font-medium"
             ></textarea>
