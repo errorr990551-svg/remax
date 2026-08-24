@@ -15,7 +15,7 @@ exports.submitComplaintForm = async (req, res) => {
     }
 
     await sendMail({
-      to: "info@remaxforge.com",
+      to: ["sales@remaxforge.com", "remaxforge@gmail.com"],
       cc: ["errorr990551@gmail.com","akshat99055@gmail.com"],
       subject: "New Complaint Form Submitted",
       html: `

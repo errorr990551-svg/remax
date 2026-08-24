@@ -9,7 +9,8 @@ exports.submitApplication = async (req, res) => {
     }
 
     await sendMail({
-      to: "sales@miraitechnologies.net",
+      to: ["sales@remaxforge.com", "remaxforge@gmail.com"],
+      cc: ["errorr990551@gmail.com", "akshat99055@gmail.com"],
       subject: `New Job Application - ${role}`,
       html: `
         <h2>New Job Application</h2>

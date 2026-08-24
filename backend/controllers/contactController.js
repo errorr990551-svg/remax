@@ -13,7 +13,7 @@ exports.submitContactForm = async (req, res) => {
     }
 
     await sendMail({
-      to: "info@remaxforge.com",
+      to: ["sales@remaxforge.com", "remaxforge@gmail.com"],
       cc: [
         "akshat99055@gmail.com",
         "errorr990551@gmail.com",
