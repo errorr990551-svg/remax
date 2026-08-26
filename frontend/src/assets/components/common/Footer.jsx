@@ -160,16 +160,23 @@ const Footer = () => {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-slate-800 pt-8 mt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-slate-500 text-sm text-center md:text-left">
-              © {new Date().getFullYear()} <span className="text-white font-bold">Remax Forge AND Fittings</span> All Rights Reserved.
-            </p>
-            <p className="text-slate-500 text-sm text-center md:text-right">
-              <a href="https://errorr.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
-                Website by Errorr.in
-              </a>
-            </p>
+        <div className="border-t border-slate-800 pt-8 mt-8 flex flex-col items-center gap-4">
+          <p className="text-slate-500 text-sm text-center">
+            © {new Date().getFullYear()} <span className="text-white font-bold">Remax Forge AND Fittings</span> All Rights Reserved.
+          </p>
+          
+          <div className="pt-2">
+            <a 
+              href="https://errorr.in" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="inline-flex flex-wrap items-center justify-center gap-2 px-6 py-2.5 rounded-full border border-slate-800 bg-slate-900/90 hover:bg-slate-900 hover:border-[#D71920]/60 hover:shadow-lg hover:shadow-red-950/30 transition-all duration-300 text-xs sm:text-sm text-slate-300 hover:text-white shadow-md group"
+            >
+              <span>Designed and Promoted by</span>
+              <span className="text-[#D71920] font-bold tracking-wide group-hover:underline">errorr.in</span>
+              <span className="hidden sm:inline text-slate-600">•</span>
+              <span className="text-slate-400 group-hover:text-slate-200 transition-colors">Best Digital Marketing Company in India</span>
+            </a>
           </div>
         </div>
       </div>
