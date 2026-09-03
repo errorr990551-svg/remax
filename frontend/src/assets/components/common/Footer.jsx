@@ -151,8 +151,20 @@ const Footer = () => {
                 </div>
                 <div className="text-slate-400 text-sm">
                   <span className="block text-white font-semibold mb-1">Email Us:</span>
-                  <a href="mailto:info@remaxforge.com" className="hover:text-white transition-colors block">info@remaxforge.com</a>
-                  <a href="mailto:sales@remaxforge.com" className="hover:text-white transition-colors block">sales@remaxforge.com</a>
+                  {!isUnlocked ? (
+                    <button
+                      type="button"
+                      onClick={openQuotePopup}
+                      className="mt-1 py-1.5 px-3 bg-[#D71920] hover:bg-red-700 text-white text-xs font-bold rounded transition-colors uppercase tracking-wider shadow-sm cursor-pointer"
+                    >
+                      Show Email Details
+                    </button>
+                  ) : (
+                    <>
+                      <a href="mailto:info@remaxforge.com" className="hover:text-white transition-colors block">info@remaxforge.com</a>
+                      <a href="mailto:sales@remaxforge.com" className="hover:text-white transition-colors block">sales@remaxforge.com</a>
+                    </>
+                  )}
                 </div>
               </li>
             </ul>

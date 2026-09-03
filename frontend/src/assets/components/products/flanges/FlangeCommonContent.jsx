@@ -589,7 +589,7 @@ export const WhyChooseRemax = () => {
    10. How to Order
    ---------------------------------------------------- */
 export const HowToOrder = () => {
-  const { openQuotePopup } = useQuotePopup();
+  const { isUnlocked, openQuotePopup } = useQuotePopup();
 
   const steps = [
     "Flange Type (e.g. Weld Neck, Slip On, Blind, etc.)",
@@ -640,20 +640,32 @@ export const HowToOrder = () => {
               Direct Inquiries
             </h3>
             <div className="space-y-4">
-              <a 
-                href="mailto:info@remaxforge.com" 
-                className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200 hover:border-[#D71920] hover:text-[#D71920] transition-all group font-semibold text-slate-800 text-sm"
-              >
-                <Mail size={18} className="text-[#D71920] group-hover:scale-110 transition-transform" />
-                <span>info@remaxforge.com</span>
-              </a>
-              <a 
-                href="tel:+919769983108" 
-                className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200 hover:border-[#D71920] hover:text-[#D71920] transition-all group font-semibold text-slate-800 text-sm"
-              >
-                <Phone size={18} className="text-[#D71920] group-hover:scale-110 transition-transform" />
-                <span>+91-97699 83108</span>
-              </a>
+              {!isUnlocked ? (
+                <button
+                  type="button"
+                  onClick={openQuotePopup}
+                  className="w-full py-3 px-4 bg-[#D71920] hover:bg-red-700 text-white font-bold rounded-xl transition-all text-xs uppercase tracking-wider shadow-md flex items-center justify-center gap-2 cursor-pointer"
+                >
+                  <Mail size={16} /> Show Email Details
+                </button>
+              ) : (
+                <>
+                  <a 
+                    href="mailto:info@remaxforge.com" 
+                    className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200 hover:border-[#D71920] hover:text-[#D71920] transition-all group font-semibold text-slate-800 text-sm"
+                  >
+                    <Mail size={18} className="text-[#D71920] group-hover:scale-110 transition-transform" />
+                    <span>info@remaxforge.com</span>
+                  </a>
+                  <a 
+                    href="tel:+919769983108" 
+                    className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200 hover:border-[#D71920] hover:text-[#D71920] transition-all group font-semibold text-slate-800 text-sm"
+                  >
+                    <Phone size={18} className="text-[#D71920] group-hover:scale-110 transition-transform" />
+                    <span>+91-97699 83108</span>
+                  </a>
+                </>
+              )}
             </div>
             
             <div className="bg-slate-100 rounded-xl p-4 border border-slate-200">
