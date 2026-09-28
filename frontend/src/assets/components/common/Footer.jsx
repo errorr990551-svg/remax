@@ -7,7 +7,7 @@ import { useQuotePopup } from '../../context/QuotePopupContext.jsx';
 
 const Footer = () => {
   const { openProductMenu } = useProductMenu();
-  const { isUnlocked, openQuotePopup } = useQuotePopup();
+  const { isUnlocked, openQuotePopup, openCallbackPopup } = useQuotePopup();
   return (
     <footer className="bg-[#0F172A] text-white pt-20 pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -139,10 +139,10 @@ const Footer = () => {
               </li>
               <li className="pt-2">
                 <button
-                  onClick={openQuotePopup}
-                  className="w-full py-3 px-4 bg-[#D71920] hover:bg-red-700 text-white font-bold rounded-xl transition-all text-xs uppercase tracking-wider shadow-lg flex items-center justify-center gap-2"
+                  onClick={openCallbackPopup}
+                  className="w-full py-3 px-4 bg-[#D71920] hover:bg-red-700 text-white font-bold rounded-xl transition-all text-xs uppercase tracking-wider shadow-lg flex items-center justify-center gap-2 cursor-pointer"
                 >
-                  <Phone size={14} /> Request Quote / Callback
+                  <Phone size={14} /> Request Callback
                 </button>
               </li>
               <li className="flex items-start gap-4 pt-2">

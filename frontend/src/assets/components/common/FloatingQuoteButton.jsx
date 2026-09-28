@@ -3,7 +3,7 @@ import { FileText, X, Send, CheckCircle2 } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 import api from '../../services/api.js';
 import TrustBar from './TrustBar.jsx';
-import CustomSelect from './CustomSelect.jsx';
+import { useQuotePopup } from '../../context/QuotePopupContext.jsx';
 
 const FloatingQuoteButton = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,20 +11,25 @@ const FloatingQuoteButton = () => {
   const [submitted, setSubmitted] = useState(false);
   const { pathname } = useLocation();
 
+  const quotePopupContext = useQuotePopup();
+  const isQuoteOpen = quotePopupContext?.isQuoteOpen;
+  const closeQuotePopup = quotePopupContext?.closeQuotePopup;
+  const openQuotePopup = quotePopupContext?.openQuotePopup;
+  const quoteContextProduct = quotePopupContext?.quoteProduct;
+
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
-    phone: '',
     company: '',
-    size: 'NPS 1/2"',
-    pressureClass: 'Class 150',
-    material: 'Stainless Steel (304/316L)',
-    quantity: '',
+    phone: '',
+    email: '',
     message: ''
   });
 
+  const isModalVisible = isOpen || !!isQuoteOpen;
+
   const handleOpen = () => {
     setIsOpen(true);
+    if (openQuotePopup) openQuotePopup();
     // Push GTM event for quote_form_open per Sheet 10 #5
     if (window.dataLayer) {
       window.dataLayer.push({
@@ -36,6 +41,7 @@ const FloatingQuoteButton = () => {
 
   const handleClose = () => {
     setIsOpen(false);
+    if (closeQuotePopup) closeQuotePopup();
     setSubmitted(false);
   };
 
@@ -50,9 +56,13 @@ const FloatingQuoteButton = () => {
     e.preventDefault();
     setLoading(true);
 
-    const productName = pathname.split('/').filter(Boolean).pop() || 'General Inquiry';
+    const productName = quoteContextProduct || pathname.split('/').filter(Boolean).pop() || 'General Inquiry';
     const payload = {
-      ...formData,
+      name: formData.name,
+      company: formData.company,
+      phone: formData.phone,
+      email: formData.email,
+      message: `[QUOTE REQUEST - ${productName}] Requirements / Quantity: ${formData.message}`,
       product_name: productName,
       page_url: window.location.href,
       ga_client_id: document.cookie.match(/_ga=([^;]+)/)?.[1] || ''
@@ -76,13 +86,9 @@ const FloatingQuoteButton = () => {
         handleClose();
         setFormData({
           name: '',
-          email: '',
-          phone: '',
           company: '',
-          size: 'NPS 1/2"',
-          pressureClass: 'Class 150',
-          material: 'Stainless Steel (304/316L)',
-          quantity: '',
+          phone: '',
+          email: '',
           message: ''
         });
       }, 2500);
@@ -108,14 +114,14 @@ const FloatingQuoteButton = () => {
       </button>
 
       {/* Slide-in Quick RFQ Modal */}
-      {isOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-end p-2 sm:p-4 bg-slate-900/60 backdrop-blur-xs">
+      {isModalVisible && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-slate-900/60 backdrop-blur-xs">
           <div
             className="absolute inset-0"
             onClick={handleClose}
           ></div>
 
-          <div className="relative w-full max-w-lg bg-white rounded-2xl shadow-2xl p-5 md:p-6 z-10 border-t-4 border-[#D71920] max-h-[95vh] overflow-y-auto animate-in slide-in-from-right duration-300">
+          <div className="relative w-full max-w-lg bg-white rounded-2xl shadow-2xl p-5 md:p-6 z-10 border-t-4 border-[#D71920] max-h-[95vh] overflow-y-auto animate-in zoom-in-95 duration-200">
             
             {/* Close Button */}
             <button
@@ -207,54 +213,12 @@ const FloatingQuoteButton = () => {
                     </div>
                   </div>
 
-                  {/* Quick Spec Selectors */}
-                  <div className="bg-slate-50 p-3 rounded-xl border border-slate-200 grid grid-cols-3 gap-2.5">
-                    <CustomSelect
-                      label="NPS Size"
-                      name="size"
-                      value={formData.size}
-                      onChange={handleChange}
-                      options={[
-                        '1/2" - 2"',
-                        '2" - 8"',
-                        '10" - 24"',
-                        '26" - 48"'
-                      ]}
-                    />
-
-                    <CustomSelect
-                      label="Class / Sch"
-                      name="pressureClass"
-                      value={formData.pressureClass}
-                      onChange={handleChange}
-                      options={[
-                        'Class 150 / Sch 40',
-                        'Class 300 / Sch 80',
-                        'Class 600 / Sch 160',
-                        'Class 1500 / XXS'
-                      ]}
-                    />
-
-                    <CustomSelect
-                      label="Material"
-                      name="material"
-                      value={formData.material}
-                      onChange={handleChange}
-                      options={[
-                        'SS 304 / 304L',
-                        'SS 316 / 316L',
-                        'Carbon Steel A105',
-                        'Duplex / Alloy'
-                      ]}
-                    />
-                  </div>
-
                   <div>
                     <label className="block text-xs font-semibold text-slate-700 mb-1">Quantity / Requirements *</label>
                     <textarea
                       name="message"
                       required
-                      rows="2"
+                      rows="3"
                       value={formData.message}
                       onChange={handleChange}
                       placeholder="Specify sizes, quantities, wall thicknesses or project requirements..."

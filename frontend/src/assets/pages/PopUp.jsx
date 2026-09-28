@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { X } from 'lucide-react';
+import { X, Send } from 'lucide-react';
 import api from '../services/api.js';
 
 // Popup API (separate function, same endpoint)
@@ -7,15 +7,15 @@ export const sendPopupMessage = (data) => {
   return api.post("/contact", data);
 };
 
-const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
+const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [loading, setLoading] = useState(false);
 
   // Form State
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
     phone: "",
+    email: "",
     company: "",
     location: "",
     message: "",
@@ -30,7 +30,7 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
     }, 4000);
   };
 
-  // Handle Auto-Show Logic (Default behavior)
+  // Handle Auto-Show Logic
   useEffect(() => {
     const isDismissed = localStorage.getItem('remax_popup_dismissed') === 'true' || sessionStorage.getItem('remax_popup_dismissed') === 'true';
     if (autoShow && isOpen === undefined && !isDismissed) {
@@ -44,7 +44,7 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
   // Handle Controlled Logic (When passed via props)
   useEffect(() => {
     if (isOpen !== undefined) {
-      setIsVisible(isOpen);
+      setIsVisible(Boolean(isOpen));
     }
   }, [isOpen]);
 
@@ -69,7 +69,17 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
     setLoading(true);
 
     try {
-      const response = await sendPopupMessage(formData);
+      const payload = {
+        name: formData.name,
+        phone: formData.phone,
+        email: formData.email,
+        company: formData.company,
+        location: formData.location,
+        message: formData.message,
+        page_url: window.location.href
+      };
+
+      const response = await sendPopupMessage(payload);
 
       // Google Ads Conversion Tracking
       if (window.gtag) {
@@ -80,14 +90,14 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
         });
       }
 
-      showToast(response.data.message || "Message sent successfully! Our experts will contact you soon.", "success");
+      showToast(response.data?.message || "Message sent successfully! Our experts will contact you soon.", "success");
       if (onSuccess) onSuccess();
 
       // Reset form after success
       setFormData({
         name: "",
-        email: "",
         phone: "",
+        email: "",
         company: "",
         location: "",
         message: "",
@@ -109,7 +119,7 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-2 sm:p-4 font-sans">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-4 font-sans">
       {/* Toast Notification */}
       {toast.show && (
         <div className={`fixed top-5 right-5 z-[9999] flex items-center gap-3 px-5 py-3 rounded-xl shadow-2xl border transition-all duration-300 transform translate-y-0 scale-100 ${
@@ -121,135 +131,151 @@ const PopUp = ({ isOpen, onClose, autoShow = true, onSuccess }) => {
           <span className="font-semibold text-sm">{toast.message}</span>
         </div>
       )}
+
       {/* Backdrop with Blur */}
       <div 
         className="absolute inset-0 bg-[#0F172A]/60 backdrop-blur-sm transition-opacity animate-in fade-in duration-300"
         onClick={handleClose}
       ></div>
 
-      {/* Modal Content */}
-      <div className="relative w-full max-w-2xl bg-white rounded-2xl shadow-2xl p-5 md:p-10 z-10 animate-in fade-in zoom-in-95 duration-300 border-t-4 border-[#D71920] max-h-[98vh] overflow-y-auto">
+      {/* Modal Content - Styled to match Image 2 'Send Us a Message' */}
+      <div className="relative w-full max-w-2xl bg-white rounded-2xl shadow-2xl p-6 md:p-10 z-10 animate-in fade-in zoom-in-95 duration-200 border border-slate-100 max-h-[92vh] overflow-y-auto">
         
         {/* Close Button */}
         <button 
           onClick={handleClose}
-          className="absolute top-2 right-2 md:top-4 md:right-4 text-slate-400 hover:text-[#D71920] transition-colors bg-slate-50 hover:bg-red-50 p-1.5 md:p-2 rounded-full shadow-sm"
+          className="absolute top-4 right-4 text-slate-400 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 p-2 rounded-full transition-colors shadow-sm"
           aria-label="Close popup"
         >
-          <X size={18} className="md:w-5 md:h-5" strokeWidth={2.5} />
+          <X size={20} strokeWidth={2.5} />
         </button>
 
-        {/* Header */}
-        <div className="mb-3 text-center md:text-left">
-          <span className="text-[#D71920] font-bold tracking-wider uppercase text-[10px] md:text-xs mb-1 block">
-            Get in touch
-          </span>
-          <h2 className="text-xl md:text-3xl font-extrabold text-[#0F172A] mb-1 leading-tight">
-            Fill this form and get a quote in 30 minutes — guaranteed
-          </h2>
-          <p className="text-slate-500 text-xs md:text-sm">
-            Let our experts take over from here!
-          </p>
-        </div>
+        {/* Title */}
+        <h3 className="text-2xl md:text-3xl font-bold text-[#0F172A] mb-6">
+          Send Us a Message
+        </h3>
 
-        {/* Trust Bar per Sheet 9 #5 */}
-        <div className="bg-slate-50 border border-slate-200 rounded-xl p-2.5 my-3 text-center md:text-left">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2 text-[10px] md:text-xs font-semibold text-slate-700">
-            <div>🏆 ISO 9001:2015</div>
-            <div>🤝 ONGC • Tata • L&T</div>
-            <div>📜 MTC 3.1 Provided</div>
-            <div>⚡ 30 Min Response</div>
-          </div>
-        </div>
-
-        {/* Form */}
-        <form onSubmit={handleSubmit} className="space-y-3 md:space-y-5">
+        {/* Form matching Image 2 */}
+        <form onSubmit={handleSubmit} className="space-y-5">
             
-          <div className="grid md:grid-cols-2 gap-3 md:gap-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {/* Name */}
-            <div className="relative">
+            <div>
+              <label htmlFor="modal-name" className="block text-sm font-semibold text-slate-700 mb-2">
+                Name
+              </label>
               <input 
                 type="text"
+                id="modal-name"
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                placeholder="Name *"
-                className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
+                placeholder="Your Name"
+                className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 placeholder-slate-400"
                 required
               />
             </div>
 
-            {/* Email */}
-            <div className="relative">
+            {/* Phone */}
+            <div>
+              <label htmlFor="modal-phone" className="block text-sm font-semibold text-slate-700 mb-2">
+                Phone No
+              </label>
               <input 
-                type="email"
-                name="email"
-                value={formData.email}
+                type="tel"
+                id="modal-phone"
+                name="phone"
+                value={formData.phone}
                 onChange={handleChange}
-                placeholder="Email Address *"
-                className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
+                placeholder="+91 XXXXX XXXXX"
+                className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 placeholder-slate-400"
                 required
               />
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-3 md:gap-5">
-            {/* Phone */}
-            <div className="relative">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            {/* Email */}
+            <div>
+              <label htmlFor="modal-email" className="block text-sm font-semibold text-slate-700 mb-2">
+                Email
+              </label>
               <input 
-                type="tel"
-                name="phone"
-                value={formData.phone}
+                type="email"
+                id="modal-email"
+                name="email"
+                value={formData.email}
                 onChange={handleChange}
-                placeholder="Phone Number *"
+                placeholder="you@company.com"
+                className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 placeholder-slate-400"
                 required
-                className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
               />
             </div>
 
             {/* Company */}
-            <div className="relative">
+            <div>
+              <label htmlFor="modal-company" className="block text-sm font-semibold text-slate-700 mb-2">
+                Company
+              </label>
               <input 
                 type="text"
+                id="modal-company"
                 name="company"
                 value={formData.company}
                 onChange={handleChange}
                 placeholder="Company Name"
-                className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
+                className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 placeholder-slate-400"
               />
             </div>
           </div>
 
-          <div className="relative">
+          {/* Location */}
+          <div>
+            <label htmlFor="modal-location" className="block text-sm font-semibold text-slate-700 mb-2">
+              Location
+            </label>
             <input 
               type="text"
+              id="modal-location"
               name="location"
               value={formData.location}
               onChange={handleChange}
-              placeholder="Location"
-              className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 font-medium"
+              placeholder="City, State, Country"
+              className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 placeholder-slate-400"
             />
           </div>
 
           {/* Message */}
-          <div className="relative">
+          <div>
+            <label htmlFor="modal-message" className="block text-sm font-semibold text-slate-700 mb-2">
+              Message
+            </label>
             <textarea 
+              id="modal-message"
               name="message"
               value={formData.message}
               onChange={handleChange}
-              placeholder="How can we help you? *"
+              placeholder="How can we help you?"
               required
-              rows="2"
-              className="w-full px-4 py-2.5 md:py-3.5 rounded-lg border border-slate-200 focus:border-[#D71920] focus:ring-4 focus:ring-[#D71920]/10 outline-none transition-all bg-slate-50 text-[#0F172A] placeholder-slate-400 resize-none font-medium"
+              rows="4"
+              className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 resize-none placeholder-slate-400"
             ></textarea>
           </div>
 
           {/* Submit Button */}
           <button 
             type="submit"
-            className="w-full bg-[#D71920] hover:bg-red-700 text-white font-bold py-3 md:py-4 rounded-lg transition-all transform active:scale-[0.98] shadow-lg shadow-[#D71920]/30 uppercase tracking-wider text-xs md:text-base flex justify-center items-center gap-2"
+            disabled={loading}
+            className="w-full bg-[#D71920] hover:bg-red-700 text-white font-bold py-4 rounded-lg transition-all transform active:scale-[0.98] shadow-lg shadow-[#D71920]/30 uppercase tracking-wider text-base flex justify-center items-center gap-2 cursor-pointer"
           >
-            Send Message
+            {loading ? (
+              <span>Sending Message...</span>
+            ) : (
+              <>
+                <span>Send Message</span>
+                <Send size={18} />
+              </>
+            )}
           </button>
         </form>
 
