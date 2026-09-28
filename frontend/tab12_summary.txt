@@ -1,0 +1,101 @@
+R1: 12. Internal links, 301 redirects, sitemap and indexing order
+R2: Every href in slash form (C-01). No internal link may point at a redirected URL. Sections B-D follow the Option A/B switch in tab 1 and the READY gate in tab 6.
+R4: A. Internal link map - add every link below (anchors are descriptive; vary them, never 'click here')
+R5: # | From page | To URL | Anchor text | Placement | Priority | Slash check | Note
+R6: 1.0 | /visakhapatnam/ | /market-area/andhra-pradesh/ | Flange supply across Andhra Pradesh | Related pages (section 13) | P1 | OK | Also the breadcrumb's state level.
+R7: 2.0 | /visakhapatnam/ | /nellore/ | Nellore (refinery projects) | Related pages (section 13) | P1 | OK
+R8: 3.0 | /visakhapatnam/ | /products/flanges/sour-service-nace-flange/ | Sour-service NACE flanges | Related pages (section 13) | P1 | OK
+R9: 4.0 | /visakhapatnam/ | /industries/oil-and-gas/ | Flanges for oil & gas | Related pages (section 13) | P1 | OK
+R10: 5.0 | /visakhapatnam/ | /blogs/pipe-flanges-guide/ | Pipe flanges guide | Related pages (section 13) | P1 | OK
+R11: 6.0 | /visakhapatnam/ | /products/flanges/<type>/ | The 7 flange-type names (tab 8b, column D) | Product range table (section 6) | P1 | OK | 7 links, URLs in tab 8b column E. Also feeds the unindexed product estate (daily log A-64) with correctly formed links.
+R12: 7.0 | /vijayawada/ | /market-area/andhra-pradesh/ | Flange supply across Andhra Pradesh | Related pages (section 13) | P1 | OK | Also the breadcrumb's state level.
+R13: 8.0 | /vijayawada/ | /guntur/ | Guntur | Related pages (section 13) | P1 | OK
+R14: 9.0 | /vijayawada/ | /blogs/pipe-flanges-guide/ | Pipe flanges guide | Related pages (section 13) | P1 | OK
+R15: 10.0 | /vijayawada/ | /kurnool/ | Kurnool (large-bore water projects) | Related pages (section 13) | P1 | OK
+R16: 11.0 | /vijayawada/ | /products/flanges/<type>/ | The 7 flange-type names (tab 8b, column D) | Product range table (section 6) | P1 | OK | 7 links, URLs in tab 8b column E. Also feeds the unindexed product estate (daily log A-64) with correctly formed links.
+R17: 12.0 | /guntur/ | /market-area/andhra-pradesh/ | Flange supply across Andhra Pradesh | Related pages (section 13) | P2 | OK | Also the breadcrumb's state level.
+R18: 13.0 | /guntur/ | /vijayawada/ | Vijayawada & Amaravati | Related pages (section 13) | P2 | OK
+R19: 14.0 | /guntur/ | /products/flanges/high-temperature-cryogenic-flange/ | Low-temperature flanges | Related pages (section 13) | P2 | OK
+R20: 15.0 | /guntur/ | /products/flanges/<type>/ | The 7 flange-type names (tab 8b, column D) | Product range table (section 6) | P2 | OK | 7 links, URLs in tab 8b column E. Also feeds the unindexed product estate (daily log A-64) with correctly formed links.
+R21: 16.0 | /nellore/ | /market-area/andhra-pradesh/ | Flange supply across Andhra Pradesh | Related pages (section 13) | P1 | OK | Also the breadcrumb's state level.
+R22: 17.0 | /nellore/ | /visakhapatnam/ | Visakhapatnam | Related pages (section 13) | P1 | OK
+R23: 18.0 | /nellore/ | /products/flanges/sour-service-nace-flange/ | Sour-service NACE flanges | Related pages (section 13) | P1 | OK
+R24: 19.0 | /nellore/ | /products/flanges/high-temperature-cryogenic-flange/ | Low-temperature flanges | Related pages (section 13) | P1 | OK
+R25: 20.0 | /nellore/ | /industries/oil-and-gas/ | Flanges for oil & gas | Related pages (section 13) | P1 | OK
+R26: 21.0 | /nellore/ | /products/flanges/<type>/ | The 7 flange-type names (tab 8b, column D) | Product range table (section 6) | P1 | OK | 7 links, URLs in tab 8b column E. Also feeds the unindexed product estate (daily log A-64) with correctly formed links.
+R27: 22.0 | /kurnool/ | /market-area/andhra-pradesh/ | Flange supply across Andhra Pradesh | Related pages (section 13) | P2 | OK | Also the breadcrumb's state level.
+R28: 23.0 | /kurnool/ | /blogs/pipe-flanges-guide/ | Pipe flanges guide | Related pages (section 13) | P2 | OK
+R29: 24.0 | /kurnool/ | /vijayawada/ | Vijayawada (Class 150 vs PN16 drilling) | Related pages (section 13) | P2 | OK
+R30: 25.0 | /kurnool/ | /products/flanges/<type>/ | The 7 flange-type names (tab 8b, column D) | Product range table (section 6) | P2 | OK | 7 links, URLs in tab 8b column E. Also feeds the unindexed product estate (daily log A-64) with correctly formed links.
+R31: 26.0 | /itanagar/ | /market-area/arunachal-pradesh/ | Flange supply across Arunachal Pradesh | Related pages (section 13) | P3 | OK | Also the breadcrumb's state level.
+R32: 27.0 | /itanagar/ | /blogs/pipe-flanges-guide/ | Pipe flanges guide | Related pages (section 13) | P3 | OK
+R33: 28.0 | /itanagar/ | /products/flanges/<type>/ | The 7 flange-type names (tab 8b, column D) | Product range table (section 6) | P3 | OK | 7 links, URLs in tab 8b column E. Also feeds the unindexed product estate (daily log A-64) with correctly formed links.
+R34: 29.0 | /market-area/andhra-pradesh/ | /visakhapatnam/ | Visakhapatnam | Hub section text + related list | P1 | OK
+R35: 30.0 | /market-area/andhra-pradesh/ | /vijayawada/ | Vijayawada | Hub section text + related list | P1 | OK
+R36: 31.0 | /market-area/andhra-pradesh/ | /guntur/ | Guntur | Hub section text + related list | P1 | OK
+R37: 32.0 | /market-area/andhra-pradesh/ | /nellore/ | Nellore | Hub section text + related list | P1 | OK
+R38: 33.0 | /market-area/andhra-pradesh/ | /kurnool/ | Kurnool | Hub section text + related list | P1 | OK
+R39: 34.0 | /market-area/andhra-pradesh/ | /products/flanges/ | All flange types | Hub section text + related list | P1 | OK
+R40: 35.0 | /market-area/arunachal-pradesh/ | /itanagar/ | Itanagar & Naharlagun | Hub section text + related list | P3 | OK
+R41: 36.0 | /market-area/arunachal-pradesh/ | /products/flanges/ | All flange types | Hub section text + related list | P3 | OK
+R42: 37.0 | /market-area/ | /market-area/andhra-pradesh/ | Andhra Pradesh | State list (section 4) | P1 | OK
+R43: 38.0 | /market-area/ | /market-area/arunachal-pradesh/ | Arunachal Pradesh | State list (section 4) | P1 | OK
+R44: 39.0 | Sitewide footer (every template) | /market-area/ | Areas we supply | Footer | P1 | OK | Gives /market-area/ - and through it every hub and city page - a crawl path from every page on the site.
+R45: 40.0 | /industries/oil-and-gas/ | /visakhapatnam/ | Flange supply in Visakhapatnam | Body - short 'Where we supply' block | P2 | OK | Optional. The industry page exists but is itself unlinked (daily log A-44) - link it first or this link carries little.
+R46: 41.0 | /industries/oil-and-gas/ | /nellore/ | Flanges for Nellore refinery projects | Body - same block | P2 | OK | Optional.
+R47: 42.0 | /products/flanges/ (flange hub) | /market-area/ | Where we supply flanges in India | Hub body or hub footer | P2 | OK | Optional. The hub is orphaned too (daily log A-16) - ship T1-j first.
+R48: 43.0 | Any existing page that links to /naharlagun/, /pasighat/, /tawang/ or /ziro/ | (the redirect target - section B) | The target page's own name (e.g. 'Flange supplier in Itanagar & Naharlagun') | Wherever the old link sits (lists, footers, HTML sitemap) | P1 | n/a | Links to a redirect waste crawl and slow the move of signals to the target.
+R50: B. 301 redirects - single hop, both URL forms (Option A only; switch on the day the target page is live)
+R51: # | Old URL | Redirect to | Type | Active? | Test command | Expected result | Note
+R52: 1.0 | https://remaxforge.com/naharlagun | https://remaxforge.com/itanagar/ | 301 | YES | curl -sI https://remaxforge.com/naharlagun | grep -iE "^(HTTP|location)" | HTTP/... 301  +  location: https://remaxforge.com/itanagar/  (one hop; the target returns 200) | Target must be live and READY first: /itanagar/ rebuild (C-15)
+R53: 2.0 | https://remaxforge.com/naharlagun/ | https://remaxforge.com/itanagar/ | 301 | YES | curl -sI https://remaxforge.com/naharlagun/ | grep -iE "^(HTTP|location)" | HTTP/... 301  +  location: https://remaxforge.com/itanagar/  (one hop; the target returns 200) | Target must be live and READY first: /itanagar/ rebuild (C-15)
+R54: 3.0 | https://remaxforge.com/pasighat | https://remaxforge.com/market-area/arunachal-pradesh/ | 301 | YES | curl -sI https://remaxforge.com/pasighat | grep -iE "^(HTTP|location)" | HTTP/... 301  +  location: https://remaxforge.com/market-area/arunachal-pradesh/  (one hop; the target returns 200) | Target must be live and READY first: Arunachal hub (C-15)
+R55: 4.0 | https://remaxforge.com/pasighat/ | https://remaxforge.com/market-area/arunachal-pradesh/ | 301 | YES | curl -sI https://remaxforge.com/pasighat/ | grep -iE "^(HTTP|location)" | HTTP/... 301  +  location: https://remaxforge.com/market-area/arunachal-pradesh/  (one hop; the target returns 200) | Target must be live and READY first: Arunachal hub (C-15)
+R56: 5.0 | https://remaxforge.com/tawang | https://remaxforge.com/market-area/arunachal-pradesh/ | 301 | YES | curl -sI https://remaxforge.com/tawang | grep -iE "^(HTTP|location)" | HTTP/... 301  +  location: https://remaxforge.com/market-area/arunachal-pradesh/  (one hop; the target returns 200) | Target must be live and READY first: Arunachal hub (C-15)
+R57: 6.0 | https://remaxforge.com/tawang/ | https://remaxforge.com/market-area/arunachal-pradesh/ | 301 | YES | curl -sI https://remaxforge.com/tawang/ | grep -iE "^(HTTP|location)" | HTTP/... 301  +  location: https://remaxforge.com/market-area/arunachal-pradesh/  (one hop; the target returns 200) | Target must be live and READY first: Arunachal hub (C-15)
+R58: 7.0 | https://remaxforge.com/ziro | https://remaxforge.com/market-area/arunachal-pradesh/ | 301 | YES | curl -sI https://remaxforge.com/ziro | grep -iE "^(HTTP|location)" | HTTP/... 301  +  location: https://remaxforge.com/market-area/arunachal-pradesh/  (one hop; the target returns 200) | Target must be live and READY first: Arunachal hub (C-15)
+R59: 8.0 | https://remaxforge.com/ziro/ | https://remaxforge.com/market-area/arunachal-pradesh/ | 301 | YES | curl -sI https://remaxforge.com/ziro/ | grep -iE "^(HTTP|location)" | HTTP/... 301  +  location: https://remaxforge.com/market-area/arunachal-pradesh/  (one hop; the target returns 200) | Target must be live and READY first: Arunachal hub (C-15)
+R60: 9.0 | Every page URL without the trailing slash | Same URL with / | 301 or 308 | YES | curl -sI https://remaxforge.com/visakhapatnam | grep -iE "^(HTTP|location)" | 301/308  +  location: https://remaxforge.com/visakhapatnam/ | Sitewide rule - C-01 / daily-log T1-b (trailingSlash: true).
+R61: 10.0 | http:// and www. variants | https://remaxforge.com + same path | 301 | YES | curl -sI http://www.remaxforge.com/visakhapatnam/ | grep -iE "^(HTTP|location)" | One hop to https://remaxforge.com/visakhapatnam/ | Not tested in this audit - verify; keep every variant a single hop.
+R62: Never chain: /naharlagun -> /naharlagun/ -> /itanagar/ is two hops. Redirect both forms straight to the target.
+R63: Keep the 301s for at least 12 months. Never redirect to the homepage or to a noindex page; never answer 404 or 410 for these towns.
+R64: Remove every redirected URL from sitemap.xml (section C) and from every internal link (section A, last row).
+R65: Option B: no redirects - build the four mini-pages from the Option B block in tab 6.
+R67: C. sitemap.xml - what goes in, what comes out
+R68: # | URL | Action | When | lastmod rule | Note
+R69: 1.0 | https://remaxforge.com/visakhapatnam/ | Hold - tab 6 says NOT READY | The day the page goes live | Date the page content last changed (YYYY-MM-DD) - never the build date | REBUILD
+R70: 2.0 | https://remaxforge.com/vijayawada/ | Hold - tab 6 says NOT READY | The day the page goes live | Date the page content last changed (YYYY-MM-DD) - never the build date | REBUILD
+R71: 3.0 | https://remaxforge.com/guntur/ | Hold - tab 6 says NOT READY | The day the page goes live | Date the page content last changed (YYYY-MM-DD) - never the build date | REBUILD
+R72: 4.0 | https://remaxforge.com/nellore/ | Hold - tab 6 says NOT READY | The day the page goes live | Date the page content last changed (YYYY-MM-DD) - never the build date | REBUILD
+R73: 5.0 | https://remaxforge.com/kurnool/ | Hold - tab 6 says NOT READY | The day the page goes live | Date the page content last changed (YYYY-MM-DD) - never the build date | REBUILD
+R74: 6.0 | https://remaxforge.com/itanagar/ | Hold - tab 6 says NOT READY | The day the page goes live | Date the page content last changed (YYYY-MM-DD) - never the build date | REBUILD + ABSORB NAHARLAGUN
+R75: 7.0 | https://remaxforge.com/market-area/andhra-pradesh/ | Hold - tab 6 says NOT READY | The day the page goes live | Date the page content last changed (YYYY-MM-DD) - never the build date | NEW
+R76: 8.0 | https://remaxforge.com/market-area/arunachal-pradesh/ | Hold - tab 6 says NOT READY | The day the page goes live | Date the page content last changed (YYYY-MM-DD) - never the build date | NEW (absorbs Pasighat, Tawang, Ziro under Option A)
+R77: 9.0 | https://remaxforge.com/market-area/ | Hold - tab 6 says NOT READY | The day the page goes live | Date the page content last changed (YYYY-MM-DD) - never the build date | NEW (if it does not exist)
+R78: 10.0 | https://remaxforge.com/naharlagun/  (and /naharlagun) | Remove (redirected) | With the 301 (section B) | - | A URL that redirects must never sit in the sitemap.
+R79: 11.0 | https://remaxforge.com/pasighat/  (and /pasighat) | Remove (redirected) | With the 301 (section B) | - | A URL that redirects must never sit in the sitemap.
+R80: 12.0 | https://remaxforge.com/tawang/  (and /tawang) | Remove (redirected) | With the 301 (section B) | - | A URL that redirects must never sit in the sitemap.
+R81: 13.0 | https://remaxforge.com/ziro/  (and /ziro) | Remove (redirected) | With the 301 (section B) | - | A URL that redirects must never sit in the sitemap.
+R82: 14.0 | https://remaxforge.com/thank-you/ | Exclude | Always | - | noindex, follow (tab 10).
+R83: Daily log T0-a / A-63: the sitemap generator omits /products/ and freezes lastmod. Fix the generator and add the CI guard (T0-c) in the same deploy, or these pages can drop out of the sitemap the way the product estate did.
+R85: D. Request indexing - Search Console > URL Inspection > Request indexing (after the product-page queue in the daily log)
+R86: Order | URL | Ready? | Status | Date requested | Re-check on | Note
+R87: 1.0 | https://remaxforge.com/market-area/andhra-pradesh/ | Wait - NOT READY in tab 6 | Not requested | First: it links to all five AP city pages, so one indexed hub opens the rest.
+R88: 2.0 | https://remaxforge.com/visakhapatnam/ | Wait - NOT READY in tab 6 | Not requested | Only contested SERP; biggest demand base.
+R89: 3.0 | https://remaxforge.com/nellore/ | Wait - NOT READY in tab 6 | Not requested
+R90: 4.0 | https://remaxforge.com/vijayawada/ | Wait - NOT READY in tab 6 | Not requested
+R91: 5.0 | https://remaxforge.com/guntur/ | Wait - NOT READY in tab 6 | Not requested
+R92: 6.0 | https://remaxforge.com/kurnool/ | Wait - NOT READY in tab 6 | Not requested
+R93: 7.0 | https://remaxforge.com/market-area/ | Wait - NOT READY in tab 6 | Not requested | Index page; linked from the footer.
+R94: 8.0 | https://remaxforge.com/market-area/arunachal-pradesh/ | Wait - NOT READY in tab 6 | Not requested
+R95: 9.0 | https://remaxforge.com/itanagar/ | Wait - NOT READY in tab 6 | Not requested | After the Arunachal hub and the 301s are live.
+R96: Requesting is a nudge, not a fix: ~10 requests a day, only for pages that are live, READY, in the sitemap and linked from an indexed page. The 53 flange product pages in the daily log's queue go first - they are the bigger lead lever (A-64).
+R98: E. Canonical, robots and duplicate rules
+R99: # | Rule | Spec | Test
+R100: 1.0 | Canonical | One <link rel="canonical"> per page: absolute, https, no www, slash form, self-referencing. | curl -s https://remaxforge.com/visakhapatnam/ | grep -io '<link[^>]*canonical[^>]*>'   -> exactly one, href=https://remaxforge.com/visakhapatnam/
+R101: 2.0 | No-slash duplicates | The no-slash URL must redirect (C-01). A 200 plus a canonical - today's behaviour (daily log A-48) - is not enough: Google keeps choosing the linked form. | Section B row 'Every page URL without the trailing slash'
+R102: 3.0 | Meta robots | index, follow on all 9 pages (or no tag). /thank-you/ = noindex, follow. | curl -s https://remaxforge.com/thank-you/ | grep -io 'noindex'   -> match
+R103: 4.0 | robots.txt | Must not block /market-area/ or any city URL; must answer 200 (or 404) fast. Decide deliberately which AI crawlers to allow (C-00). | curl -s -o /dev/null -w "%{http_code} %{time_total}s\n" https://remaxforge.com/robots.txt
+R104: 5.0 | Old town URLs (Option A) | Answer 301 to the target - not 200, 404 or 410. | Section B tests
+R105: 6.0 | Language | One language (en-IN): no hreflang needed. Keep <html lang="en-IN">. | View source
+R106: 7.0 | Parameters | ?form=, ?city= and utm_ URLs are never linked internally; the canonical handles stray copies. | Site search in GSC: none indexed

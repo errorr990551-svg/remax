@@ -18,6 +18,7 @@ const Navbar = () => {
   const [activeCategory, setActiveCategory] = useState(0); // For Desktop
   const [mobileActiveCategory, setMobileActiveCategory] = useState(null); // For Mobile Products
   const [mobileQualityOpen, setMobileQualityOpen] = useState(false); // For Mobile Quality
+  const [mobileSupplyOpen, setMobileSupplyOpen] = useState(false); // For Mobile Supply Areas
 
   // Handle scroll effect
   useEffect(() => {
@@ -37,8 +38,10 @@ const Navbar = () => {
   const closeAllMenus = () => {
     setIsOpen(false);
     setProductDropdownOpen(false);
-    setMobileQualityOpen(false);
+    setQualityDropdownOpen(false);
     setTechDropdownOpen(false);
+    setMobileQualityOpen(false);
+    setMobileSupplyOpen(false);
     setMobileActiveCategory(null);
   };
 
@@ -84,7 +87,7 @@ const Navbar = () => {
               {/* Home */}
               <Link
                 to="/"
-                className="relative font-medium text-base transition-colors hover:text-[#D71920] flex items-center h-full group"
+                className="whitespace-nowrap relative font-medium text-base transition-colors hover:text-[#D71920] flex items-center h-full group"
               >
                 Home
                 <span className="absolute bottom-4 left-0 w-0 h-0.5 bg-[#D71920] transition-all group-hover:w-full"></span>
@@ -92,8 +95,8 @@ const Navbar = () => {
 
               {/* About */}
               <Link
-                to="/about-us"
-                className="relative font-medium text-base transition-colors hover:text-[#D71920] flex items-center h-full group"
+                to="/about-us/"
+                className="whitespace-nowrap relative font-medium text-base transition-colors hover:text-[#D71920] flex items-center h-full group"
               >
                 About Us
                 <span className="absolute bottom-4 left-0 w-0 h-0.5 bg-[#D71920] transition-all group-hover:w-full"></span>
@@ -105,7 +108,7 @@ const Navbar = () => {
                 onMouseEnter={() => setProductDropdownOpen(true)}
                 onMouseLeave={() => setProductDropdownOpen(false)}
               >
-                <Link to="/products/flanges/slip-on-flange" className="flex items-center font-medium text-base hover:text-[#D71920]">
+                <Link to="/products/flanges/slip-on-flange/" className="whitespace-nowrap flex items-center font-medium text-base hover:text-[#D71920]">
                   Products
                   <ChevronDown
                     size={18}
@@ -146,16 +149,16 @@ const Navbar = () => {
                         {productData[activeCategory].subcategories.map((subItem, subIndex) => {
                           let linkHref = `/products/${createSlug(
                             productData[activeCategory].category
-                          )}/${createSlug(subItem)}`;
+                          )}/${createSlug(subItem)}/`;
 
                           if (subItem === "Forged Fittings") {
-                            linkHref = "/products/forged-fittings";
+                            linkHref = "/products/forged-fittings/";
                           } else if (subItem === "Alloy Steel Pipes") {
-                            linkHref = "/products/pipes/alloy-steel-pipes";
+                            linkHref = "/products/pipes/alloy-steel-pipes/";
                           } else if (subItem === "Boiler Quality Plate") {
-                            linkHref = "/product-details/boiler-quality-plate";
+                            linkHref = "/product-details/boiler-quality-plate/";
                           } else if (subItem === "Hardox Plate") {
-                            linkHref = "/product-details/hardox-plate";
+                            linkHref = "/product-details/hardox-plate/";
                           }
 
                           return (
@@ -182,7 +185,7 @@ const Navbar = () => {
                 onMouseEnter={() => setQualityDropdownOpen(true)}
                 onMouseLeave={() => setQualityDropdownOpen(false)}
               >
-                <Link to="/quality" className="flex items-center font-medium text-base hover:text-[#D71920]">
+                <Link to="/quality/" className="whitespace-nowrap flex items-center font-medium text-base hover:text-[#D71920]">
                   Quality
                   <ChevronDown size={18} className={`ml-1 transition-transform ${qualityDropdownOpen ? 'rotate-180' : ''}`} />
                 </Link>
@@ -192,10 +195,10 @@ const Navbar = () => {
                     qualityDropdownOpen ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-95 invisible'
                   }`}
                 >
-                  <Link to="/quality" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
+                  <Link to="/quality/" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
                     Quality
                   </Link>
-                  <Link to="/certification" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
+                  <Link to="/certification/" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
                     Certification
                   </Link>
                 </div>
@@ -207,7 +210,7 @@ const Navbar = () => {
                 onMouseEnter={() => setTechDropdownOpen(true)}
                 onMouseLeave={() => setTechDropdownOpen(false)}
               >
-                <Link to="/tech-info/dimensions" className="flex items-center font-medium text-base hover:text-[#D71920]">
+                <Link to="/tech-info/dimension-chart/" className="whitespace-nowrap flex items-center font-medium text-base hover:text-[#D71920]">
                   Tech Info
                   <ChevronDown size={18} className={`ml-1 transition-transform ${techDropdownOpen ? 'rotate-180' : ''}`} />
                 </Link>
@@ -217,16 +220,16 @@ const Navbar = () => {
                     techDropdownOpen ? 'opacity-100 scale-100 visible' : 'opacity-0 scale-95 invisible'
                   }`}
                 >
-                  <Link to="/tech-info/chemical-composition" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
+                  <Link to="/tech-info/chemical-composition/" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
                     Chemical Composition
                   </Link>
-                  <Link to="/tech-info/mechanical-properties" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
+                  <Link to="/tech-info/mechanical-properties/" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
                     Mechanical Properties
                   </Link>
-                  <Link to="/tech-info/weight-chart" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
+                  <Link to="/tech-info/weight-chart/" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
                     Weight Chart
                   </Link>
-                  <Link to="/tech-info/dimensions" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
+                  <Link to="/tech-info/dimension-chart/" onClick={closeAllMenus} className="block px-4 py-3 text-sm hover:text-[#D71920] hover:bg-slate-50">
                     Dimension Chart
                   </Link>
                 </div>
@@ -234,8 +237,8 @@ const Navbar = () => {
 
               {/* Blogs */}
               <Link
-                to="/blogs"
-                className="relative font-medium text-base transition-colors hover:text-[#D71920] flex items-center h-full group"
+                to="/blogs/"
+                className="whitespace-nowrap relative font-medium text-base transition-colors hover:text-[#D71920] flex items-center h-full group"
               >
                 Blogs
                 <span className="absolute bottom-4 left-0 w-0 h-0.5 bg-[#D71920] transition-all group-hover:w-full"></span>
@@ -243,8 +246,8 @@ const Navbar = () => {
 
               {/* Where We Export */}
               <Link
-                to="/export"
-                className="relative font-medium text-base transition-colors hover:text-[#D71920] flex items-center h-full group"
+                to="/export/"
+                className="whitespace-nowrap relative font-medium text-base transition-colors hover:text-[#D71920] flex items-center h-full group"
               >
                 Where We Export
                 <span className="absolute bottom-4 left-0 w-0 h-0.5 bg-[#D71920] transition-all group-hover:w-full"></span>
@@ -256,7 +259,7 @@ const Navbar = () => {
           <div className="flex items-center gap-4">
             <div className="hidden lg:block">
               <Link
-                to="/contact"
+                to="/contact/"
                 className="px-6 py-3 rounded font-bold hover:shadow-lg text-sm bg-[#D71920] text-white transition-all transform hover:-translate-y-0.5"
               >
                 Contact Us
@@ -294,7 +297,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link 
-            to="/about-us" 
+            to="/about-us/" 
             className="block px-4 py-3 text-base font-bold text-[#0F172A] hover:text-[#D71920] hover:bg-slate-50 rounded-lg transition-colors"
             onClick={closeAllMenus}
           >
@@ -328,15 +331,15 @@ const Navbar = () => {
                   {/* Mobile Subcategories Level 3 */}
                   <div className={`pl-4 border-l-2 border-slate-100 ml-4 overflow-hidden transition-all duration-300 ${mobileActiveCategory === index ? 'max-h-[800px] mt-1 opacity-100' : 'max-h-0 opacity-0'}`}>
                     {item.subcategories.map((subItem, subIndex) => {
-                      let linkHref = `/products/${createSlug(item.category)}/${createSlug(subItem)}`;
+                      let linkHref = `/products/${createSlug(item.category)}/${createSlug(subItem)}/`;
                       if (subItem === "Forged Fittings") {
-                        linkHref = "/products/forged-fittings";
+                        linkHref = "/products/forged-fittings/";
                       } else if (subItem === "Alloy Steel Pipes") {
-                        linkHref = "/products/pipes/alloy-steel-pipes";
+                        linkHref = "/products/pipes/alloy-steel-pipes/";
                       } else if (subItem === "Boiler Quality Plate") {
-                        linkHref = "/product-details/boiler-quality-plate";
+                        linkHref = "/product-details/boiler-quality-plate/";
                       } else if (subItem === "Hardox Plate") {
-                        linkHref = "/product-details/hardox-plate";
+                        linkHref = "/product-details/hardox-plate/";
                       }
                       return (
                         <Link
@@ -365,8 +368,8 @@ const Navbar = () => {
               <ChevronDown size={20} className={`transition-transform duration-300 ${mobileQualityOpen ? 'rotate-180 text-[#D71920]' : ''}`} />
             </button>
             <div className={`pl-4 border-l-2 border-slate-100 ml-4 overflow-hidden transition-all duration-300 ${mobileQualityOpen ? 'max-h-40 mt-2 opacity-100' : 'max-h-0 opacity-0'}`}>
-              <Link to="/quality" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Quality</Link>
-              <Link to="/certification" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Certification</Link>
+              <Link to="/quality/" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Quality</Link>
+              <Link to="/certification/" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Certification</Link>
             </div>
           </div>
 
@@ -380,26 +383,57 @@ const Navbar = () => {
               <ChevronDown size={20} className={`transition-transform duration-300 ${techDropdownOpen ? 'rotate-180 text-[#D71920]' : ''}`} />
             </button>
             <div className={`pl-4 border-l-2 border-slate-100 ml-4 overflow-hidden transition-all duration-300 ${techDropdownOpen ? 'max-h-64 mt-2 opacity-100' : 'max-h-0 opacity-0'}`}>
-              <Link to="/tech-info/chemical-composition" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Chemical Composition</Link>
-              <Link to="/tech-info/mechanical-properties" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Mechanical Properties</Link>
-              <Link to="/tech-info/weight-chart" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Weight Chart</Link>
-              <Link to="/tech-info/dimensions" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Dimension Chart</Link>
+              <Link to="/tech-info/chemical-composition/" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Chemical Composition</Link>
+              <Link to="/tech-info/mechanical-properties/" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Mechanical Properties</Link>
+              <Link to="/tech-info/weight-chart/" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Weight Chart</Link>
+              <Link to="/tech-info/dimension-chart/" onClick={closeAllMenus} className="block px-4 py-2.5 text-sm text-slate-600 hover:text-[#D71920]">Dimension Chart</Link>
             </div>
           </div>
 
           {/* Blogs */}
           <Link 
-            to="/blogs" 
-            className="block px-4 py-3 text-base font-bold text-[#0F172A] hover:text-[#D71920] hover:bg-slate-50 rounded-lg transition-colors mb-4"
+            to="/blogs/" 
+            className="block px-4 py-3 text-base font-bold text-[#0F172A] hover:text-[#D71920] hover:bg-slate-50 rounded-lg transition-colors"
             onClick={closeAllMenus}
           >
             Blogs
           </Link>
 
+          {/* Where We Export */}
+          <Link 
+            to="/export/" 
+            className="block px-4 py-3 text-base font-bold text-[#0F172A] hover:text-[#D71920] hover:bg-slate-50 rounded-lg transition-colors"
+            onClick={closeAllMenus}
+          >
+            Where We Export
+          </Link>
+
+          {/* Areas We Supply */}
+          <div className="border-b border-slate-100 pb-2 mb-4">
+            <button
+              onClick={() => setMobileSupplyOpen(!mobileSupplyOpen)}
+              className="flex items-center justify-between w-full px-4 py-3 text-base font-bold text-[#0F172A] hover:text-[#D71920] hover:bg-slate-50 rounded-lg transition-colors"
+            >
+              <span>Areas We Supply</span>
+              <ChevronDown size={20} className={`transition-transform duration-300 ${mobileSupplyOpen ? 'rotate-180 text-[#D71920]' : ''}`} />
+            </button>
+            <div className={`pl-4 border-l-2 border-slate-100 ml-4 overflow-hidden transition-all duration-300 ${mobileSupplyOpen ? 'max-h-96 mt-2 opacity-100' : 'max-h-0 opacity-0'}`}>
+              <Link to="/market-area/" onClick={closeAllMenus} className="block px-4 py-2 text-xs font-bold text-[#D71920]">All Market Areas (National) →</Link>
+              <div className="px-4 pt-2 text-[11px] font-bold text-slate-400 uppercase tracking-wider">Andhra Pradesh</div>
+              <Link to="/visakhapatnam/" onClick={closeAllMenus} className="block px-4 py-1.5 text-sm text-slate-600 hover:text-[#D71920]">Visakhapatnam (Vizag)</Link>
+              <Link to="/vijayawada/" onClick={closeAllMenus} className="block px-4 py-1.5 text-sm text-slate-600 hover:text-[#D71920]">Vijayawada & Amaravati</Link>
+              <Link to="/guntur/" onClick={closeAllMenus} className="block px-4 py-1.5 text-sm text-slate-600 hover:text-[#D71920]">Guntur Industrial Belt</Link>
+              <Link to="/nellore/" onClick={closeAllMenus} className="block px-4 py-1.5 text-sm text-slate-600 hover:text-[#D71920]">Nellore & Krishnapatnam</Link>
+              <Link to="/kurnool/" onClick={closeAllMenus} className="block px-4 py-1.5 text-sm text-slate-600 hover:text-[#D71920]">Kurnool & Rayalaseema</Link>
+              <div className="px-4 pt-2 text-[11px] font-bold text-slate-400 uppercase tracking-wider border-t border-slate-100 mt-1">Arunachal Pradesh</div>
+              <Link to="/itanagar/" onClick={closeAllMenus} className="block px-4 py-1.5 text-sm text-slate-600 hover:text-[#D71920]">Itanagar & Naharlagun</Link>
+            </div>
+          </div>
+
           {/* Contact CTA */}
           <div className="pt-2">
             <Link 
-              to="/contact" 
+              to="/contact/" 
               onClick={closeAllMenus}
               className="flex justify-center w-full bg-[#D71920] text-white font-bold py-4 rounded-xl shadow-lg shadow-red-500/30 active:scale-95 transition-transform"
             >

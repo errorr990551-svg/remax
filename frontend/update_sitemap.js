@@ -51,13 +51,18 @@ function generateSitemap() {
     }
 
     // 2. Add commercial flange pages, city pages, export hubs & export cities
+    const redirectedCities = ['naharlagun', 'pasighat', 'tawang', 'ziro'];
     const newFlangeRoutes = Object.keys(newFlangePagesData).map(normalizeUrl);
-    const cityRoutes = keptCities.map(city => normalizeUrl(`/${city}`));
+    const cityRoutes = keptCities
+      .filter(city => !redirectedCities.includes(city.toLowerCase()))
+      .map(city => normalizeUrl(`/${city}`));
     const exportHubRoutes = Object.values(exportHubsData).map(h => normalizeUrl(h.url));
     const exportCityRoutes = Object.values(exportCitiesData).map(c => normalizeUrl(c.url));
     
-    // Combine all URLs and deduplicate into canonical set
-    const allNormUrls = [...routes, ...newFlangeRoutes, ...cityRoutes, ...exportHubRoutes, ...exportCityRoutes];
+    // Combine all URLs, filter out any redirected routes and thank-you pages, and deduplicate into canonical set
+    const allNormUrls = [...routes, ...newFlangeRoutes, ...cityRoutes, ...exportHubRoutes, ...exportCityRoutes]
+      .filter(url => !redirectedCities.some(r => url.toLowerCase() === `/${r}/` || url.toLowerCase() === `/${r}`))
+      .filter(url => !url.includes('thank-you'));
     const canonicalUrls = [...new Set(allNormUrls)].sort((a, b) => {
       if (a === '/') return -1;
       if (b === '/') return 1;

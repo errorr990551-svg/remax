@@ -1,0 +1,805 @@
+{
+  "pages_specs": {
+    "vizag": {
+      "key": "vizag",
+      "name": "Visakhapatnam",
+      "url": "https://remaxforge.com/visakhapatnam/",
+      "status": "REBUILD",
+      "priority": "P1",
+      "title": "Flange Supplier in Visakhapatnam | Flanges Manufacturer",
+      "meta": "OK",
+      "h1": 149,
+      "word_floor": 1400.0
+    },
+    "vijayawada": {
+      "key": "vijayawada",
+      "name": "Vijayawada",
+      "url": "https://remaxforge.com/vijayawada/",
+      "status": "REBUILD",
+      "priority": "P1",
+      "title": "Flange Supplier in Vijayawada | Flanges Manufacturer",
+      "meta": "OK",
+      "h1": 149,
+      "word_floor": 1100.0
+    },
+    "guntur": {
+      "key": "guntur",
+      "name": "Guntur",
+      "url": "https://remaxforge.com/guntur/",
+      "status": "REBUILD",
+      "priority": "P2",
+      "title": "Flange Supplier in Guntur | Flanges Manufacturer",
+      "meta": "OK",
+      "h1": 146,
+      "word_floor": 1050.0
+    },
+    "nellore": {
+      "key": "nellore",
+      "name": "Nellore",
+      "url": "https://remaxforge.com/nellore/",
+      "status": "REBUILD",
+      "priority": "P1",
+      "title": "Flange Supplier in Nellore | Flanges Manufacturer",
+      "meta": "OK",
+      "h1": 144,
+      "word_floor": 1050.0
+    },
+    "kurnool": {
+      "key": "kurnool",
+      "name": "Kurnool",
+      "url": "https://remaxforge.com/kurnool/",
+      "status": "REBUILD",
+      "priority": "P2",
+      "title": "Flange Supplier in Kurnool | Flanges Manufacturer",
+      "meta": "OK",
+      "h1": 146,
+      "word_floor": 1000.0
+    },
+    "itanagar": {
+      "key": "itanagar",
+      "name": "Itanagar & Naharlagun",
+      "url": "https://remaxforge.com/itanagar/",
+      "status": "REBUILD + ABSORB NAHARLAGUN",
+      "priority": "P3",
+      "title": "Flange Supplier in Itanagar & Naharlagun | Manufacturer",
+      "meta": "OK",
+      "h1": 150,
+      "word_floor": 900.0
+    },
+    "ap_hub": {
+      "key": "ap_hub",
+      "name": "Andhra Pradesh hub",
+      "url": "https://remaxforge.com/market-area/andhra-pradesh/",
+      "status": "NEW",
+      "priority": "P1",
+      "title": "Flange Supplier in Andhra Pradesh | Flanges Manufacturer",
+      "meta": "OK",
+      "h1": 149,
+      "word_floor": 550.0
+    },
+    "ar_hub": {
+      "key": "ar_hub",
+      "name": "Arunachal Pradesh hub",
+      "url": "https://remaxforge.com/market-area/arunachal-pradesh/",
+      "status": "NEW (absorbs Pasighat, Tawang, Ziro under Option A)",
+      "priority": "P3",
+      "title": "Flange Supplier in Arunachal Pradesh | Itanagar to Tawang",
+      "meta": "OK",
+      "h1": 148,
+      "word_floor": 450.0
+    },
+    "market_area": {
+      "key": "market_area",
+      "name": "Market Area index",
+      "url": "https://remaxforge.com/market-area/",
+      "status": "NEW (if it does not exist)",
+      "priority": "P1",
+      "title": "Flange Supply Areas Across India | Remax Forge & Fittings",
+      "meta": "OK",
+      "h1": 145,
+      "word_floor": 50.0
+    }
+  },
+  "schemas": {
+    "SITEWIDE": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"Organization\",\"@id\":\"https://remaxforge.com/#organization\",\"name\":\"Remax Forge & Fittings\",\"url\":\"https://remaxforge.com/\",\"vatID\":\"27FFLPP0007K1ZA\",\"numberOfEmployees\":{\"@type\":\"QuantitativeValue\",\"maxValue\":10},\"address\":{\"@type\":\"PostalAddress\",\"addressLocality\":\"Mumbai\",\"addressRegion\":\"Maharashtra\",\"addressCountry\":\"IN\"}},{\"@type\":\"WebSite\",\"@id\":\"https://remaxforge.com/#website\",\"url\":\"https://remaxforge.com/\",\"name\":\"Remax Forge & Fittings\",\"publisher\":{\"@id\":\"https://remaxforge.com/#organization\"},\"inLanguage\":\"en-IN\"},{\"@type\":\"Person\",\"@id\":\"https://remaxforge.com/#vikas-purohit\",\"name\":\"Vikas Purohit\",\"jobTitle\":\"CEO\",\"worksFor\":{\"@id\":\"https://remaxforge.com/#organization\"}}]}",
+    "vizag": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://remaxforge.com/visakhapatnam/#webpage\",\"url\":\"https://remaxforge.com/visakhapatnam/\",\"name\":\"Flange Supplier in Visakhapatnam | Flanges Manufacturer\",\"description\":\"Forged flanges for Vizag and Anakapalli steel plants, the refinery, ports and Pharma City. CS, SS, alloy and NACE grades from Mumbai. Written quotes.\",\"isPartOf\":{\"@id\":\"https://remaxforge.com/#website\"},\"about\":{\"@id\":\"https://remaxforge.com/#organization\"},\"breadcrumb\":{\"@id\":\"https://remaxforge.com/visakhapatnam/#breadcrumb\"},\"inLanguage\":\"en-IN\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://remaxforge.com/visakhapatnam/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://remaxforge.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Areas We Supply\",\"item\":\"https://remaxforge.com/market-area/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Andhra Pradesh\",\"item\":\"https://remaxforge.com/market-area/andhra-pradesh/\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Visakhapatnam\",\"item\":\"https://remaxforge.com/visakhapatnam/\"}]},{\"@type\":\"Service\",\"@id\":\"https://remaxforge.com/visakhapatnam/#service\",\"name\":\"Flange supply to Visakhapatnam\",\"serviceType\":\"Forged pipe flange manufacturing and supply\",\"provider\":{\"@id\":\"https://remaxforge.com/#organization\"},\"areaServed\":[{\"@type\":\"City\",\"name\":\"Visakhapatnam\",\"containedInPlace\":{\"@type\":\"State\",\"name\":\"Andhra Pradesh\"}},{\"@type\":\"AdministrativeArea\",\"name\":\"Anakapalli district\"}],\"availableChannel\":{\"@type\":\"ServiceChannel\",\"name\":\"Online request for quotation\",\"serviceUrl\":\"https://remaxforge.com/visakhapatnam/#rfq\"},\"url\":\"https://remaxforge.com/visakhapatnam/\"},{\"@type\":\"FAQPage\",\"@id\":\"https://remaxforge.com/visakhapatnam/#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Are you a local flange supplier in Visakhapatnam, or do you ship from Mumbai?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We ship from Mumbai. Remax Forge manufactures and dispatches from its Mumbai unit [CLIENT: confirm] and delivers to Visakhapatnam and Anakapalli by road. You deal directly with the manufacturer, so questions about grade, heat treatment or certificates are answered by the people who made the flange.\"}},{\"@type\":\"Question\",\"name\":\"How long does delivery to Visakhapatnam take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Transit is typically [CLIENT: X-Y days] after dispatch. Production time depends on size, grade and quantity - standard carbon-steel sizes are quicker than alloy or large-bore forgings - and your quote states both dates.\"}},{\"@type\":\"Question\",\"name\":\"Can you supply contractors working on the Anakapalli steel project or refinery jobs?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes, against the project's own material specification and vendor document requirements: inspection and test plan, third-party inspection, EN 10204 3.1 or 3.2 certificates [CONFIRM]. If the project only buys from an approved vendor list, check that first; we can support registration where the owner allows it. [CLIENT: list any genuine approvals or registrations, otherwise keep this wording.]\"}},{\"@type\":\"Question\",\"name\":\"Which flange material should I use for seawater or harbour-side lines?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"For flanges wetted by pumped seawater, super duplex (A182 F53/F55) or 6Mo (F44) is the usual choice - 316L and standard duplex (F51/F60) can suffer crevice corrosion at the gasket face in warm seawater, so keep them to splash-zone and marine-air duty. Coated carbon steel is common on freshwater fire-water rings. The line designer decides - send us the line list and we quote to it.\"}},{\"@type\":\"Question\",\"name\":\"Do you supply NACE MR0103 / MR0175 compliant flanges?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"[CONFIRM] Yes. Mention the standard in your enquiry and we supply hardness-controlled material with certificates that reference it. See our sour-service flange page for details.\"}},{\"@type\":\"Question\",\"name\":\"What paperwork comes with a delivery to Andhra Pradesh?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A GST tax invoice charged with IGST, an e-way bill for consignments above Rs 50,000, a packing list, and material test certificates traceable to the heat number on each flange.\"}},{\"@type\":\"Question\",\"name\":\"Can I get a quote without calling anyone?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes - that is how we work. Fill the form or upload your BOQ and we reply by email with a written, line-by-line quote. Everything stays in writing, which makes approvals and purchase-order matching easier.\"}}]}]}",
+    "vijayawada": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://remaxforge.com/vijayawada/#webpage\",\"url\":\"https://remaxforge.com/vijayawada/\",\"name\":\"Flange Supplier in Vijayawada | Flanges Manufacturer\",\"description\":\"Flanges for Vijayawada power stations, Kondapalli industry and Amaravati water and building works. ASME, EN and IS drilling. Written quotes by email.\",\"isPartOf\":{\"@id\":\"https://remaxforge.com/#website\"},\"about\":{\"@id\":\"https://remaxforge.com/#organization\"},\"breadcrumb\":{\"@id\":\"https://remaxforge.com/vijayawada/#breadcrumb\"},\"inLanguage\":\"en-IN\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://remaxforge.com/vijayawada/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://remaxforge.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Areas We Supply\",\"item\":\"https://remaxforge.com/market-area/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Andhra Pradesh\",\"item\":\"https://remaxforge.com/market-area/andhra-pradesh/\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Vijayawada\",\"item\":\"https://remaxforge.com/vijayawada/\"}]},{\"@type\":\"Service\",\"@id\":\"https://remaxforge.com/vijayawada/#service\",\"name\":\"Flange supply to Vijayawada\",\"serviceType\":\"Forged pipe flange manufacturing and supply\",\"provider\":{\"@id\":\"https://remaxforge.com/#organization\"},\"areaServed\":[{\"@type\":\"City\",\"name\":\"Vijayawada\",\"containedInPlace\":{\"@type\":\"State\",\"name\":\"Andhra Pradesh\"}},{\"@type\":\"AdministrativeArea\",\"name\":\"Amaravati capital region\"}],\"availableChannel\":{\"@type\":\"ServiceChannel\",\"name\":\"Online request for quotation\",\"serviceUrl\":\"https://remaxforge.com/vijayawada/#rfq\"},\"url\":\"https://remaxforge.com/vijayawada/\"},{\"@type\":\"FAQPage\",\"@id\":\"https://remaxforge.com/vijayawada/#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Are you a local flange supplier in Vijayawada, or do you ship from Mumbai?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We ship from Mumbai and do not use dealers or stockists in Vijayawada, so you buy directly from the manufacturer and receive the manufacturer's certificates with every delivery.\"}},{\"@type\":\"Question\",\"name\":\"Do you supply flanges to contractors working on Amaravati capital projects?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"[CONFIRM] Yes. We quote against the contractor's approved specification and drawings, including large-bore and PN-drilled flanges for water, sewerage and pumping stations. If the package names a make list or third-party inspection, attach it to the enquiry.\"}},{\"@type\":\"Question\",\"name\":\"Will a Class 150 flange bolt to a PN16 valve?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Usually not - bolt circles and hole sizes differ for most sizes. Match the flange to the valve's drilling standard, or order a flange drilled to that standard.\"}},{\"@type\":\"Question\",\"name\":\"Can you supply F11, F22 or F91 flanges for power-plant steam lines?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"[CONFIRM] Yes, in weld neck and other types, heat-treated as ASTM A182 requires, with certificates showing chemistry, mechanical results and heat treatment.\"}},{\"@type\":\"Question\",\"name\":\"How long does delivery to Vijayawada take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Typically [CLIENT: X-Y days] in transit after dispatch; production time depends on grade and size and is stated in the quote.\"}},{\"@type\":\"Question\",\"name\":\"What should my enquiry include?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Flange type, nominal size, pressure class or PN, facing (RF, FF or RTJ), material specification and grade, bore or schedule for weld neck flanges, quantity, delivery location, and any testing or certificate requirements. A BOQ or drawing upload covers all of it.\"}}]}]}",
+    "guntur": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://remaxforge.com/guntur/#webpage\",\"url\":\"https://remaxforge.com/guntur/\",\"name\":\"Flange Supplier in Guntur | Flanges Manufacturer\",\"description\":\"Steel flanges for Guntur cold storages, ammonia refrigeration, mill boilers and capital-region projects. A105, LF2 and SS grades. Quotes by email.\",\"isPartOf\":{\"@id\":\"https://remaxforge.com/#website\"},\"about\":{\"@id\":\"https://remaxforge.com/#organization\"},\"breadcrumb\":{\"@id\":\"https://remaxforge.com/guntur/#breadcrumb\"},\"inLanguage\":\"en-IN\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://remaxforge.com/guntur/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://remaxforge.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Areas We Supply\",\"item\":\"https://remaxforge.com/market-area/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Andhra Pradesh\",\"item\":\"https://remaxforge.com/market-area/andhra-pradesh/\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Guntur\",\"item\":\"https://remaxforge.com/guntur/\"}]},{\"@type\":\"Service\",\"@id\":\"https://remaxforge.com/guntur/#service\",\"name\":\"Flange supply to Guntur\",\"serviceType\":\"Forged pipe flange manufacturing and supply\",\"provider\":{\"@id\":\"https://remaxforge.com/#organization\"},\"areaServed\":[{\"@type\":\"City\",\"name\":\"Guntur\",\"containedInPlace\":{\"@type\":\"State\",\"name\":\"Andhra Pradesh\"}},{\"@type\":\"AdministrativeArea\",\"name\":\"Guntur district\"}],\"availableChannel\":{\"@type\":\"ServiceChannel\",\"name\":\"Online request for quotation\",\"serviceUrl\":\"https://remaxforge.com/guntur/#rfq\"},\"url\":\"https://remaxforge.com/guntur/\"},{\"@type\":\"FAQPage\",\"@id\":\"https://remaxforge.com/guntur/#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Are you a local flange supplier in Guntur, or do you ship from Mumbai?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Everything ships from our Mumbai unit - there is no dealer in between, so the certificates you receive come straight from the manufacturer.\"}},{\"@type\":\"Question\",\"name\":\"Can I use brass or copper-nickel flanges on an ammonia refrigeration line?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. Ammonia attacks copper and its alloys; use steel flanges - A105 for typical cold-store temperatures, A350 LF2 where the design metal temperature is below -29 °C.\"}},{\"@type\":\"Question\",\"name\":\"Do you supply IBR-certified flanges for boiler steam lines?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"[CLIENT: answer truthfully - for example 'Yes, with IBR documentation for lines under the Indian Boiler Regulations' or 'Not currently; we supply non-IBR utility flanges.']\"}},{\"@type\":\"Question\",\"name\":\"What is the difference between A105 and A350 LF2?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Both are carbon-steel forgings. A350 LF2 is made and tested for toughness at low temperature - Class 1 is impact-tested at -46 °C - so it is the choice for sub-zero design metal temperatures. A105 is the standard grade for ambient and elevated temperatures.\"}},{\"@type\":\"Question\",\"name\":\"How quickly can you deliver to Guntur for a breakdown?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Transit is typically [CLIENT: X-Y days] after dispatch. State your shutdown or breakdown date in the form and we confirm what is realistic before you order.\"}},{\"@type\":\"Question\",\"name\":\"What documents come with the delivery?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"A GST tax invoice with IGST, an e-way bill for consignments above Rs 50,000, a packing list and material test certificates matched to the heat numbers stamped on the flanges.\"}}]}]}",
+    "nellore": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://remaxforge.com/nellore/#webpage\",\"url\":\"https://remaxforge.com/nellore/\",\"name\":\"Flange Supplier in Nellore | Flanges Manufacturer\",\"description\":\"Flanges for Nellore power plants, Krishnapatnam port, seafood processors and the Ramayapatnam refinery supply chain. NACE, LF2 and alloy grades.\",\"isPartOf\":{\"@id\":\"https://remaxforge.com/#website\"},\"about\":{\"@id\":\"https://remaxforge.com/#organization\"},\"breadcrumb\":{\"@id\":\"https://remaxforge.com/nellore/#breadcrumb\"},\"inLanguage\":\"en-IN\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://remaxforge.com/nellore/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://remaxforge.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Areas We Supply\",\"item\":\"https://remaxforge.com/market-area/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Andhra Pradesh\",\"item\":\"https://remaxforge.com/market-area/andhra-pradesh/\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Nellore\",\"item\":\"https://remaxforge.com/nellore/\"}]},{\"@type\":\"Service\",\"@id\":\"https://remaxforge.com/nellore/#service\",\"name\":\"Flange supply to Nellore\",\"serviceType\":\"Forged pipe flange manufacturing and supply\",\"provider\":{\"@id\":\"https://remaxforge.com/#organization\"},\"areaServed\":[{\"@type\":\"City\",\"name\":\"Nellore\",\"containedInPlace\":{\"@type\":\"State\",\"name\":\"Andhra Pradesh\"}},{\"@type\":\"AdministrativeArea\",\"name\":\"Nellore district\"}],\"availableChannel\":{\"@type\":\"ServiceChannel\",\"name\":\"Online request for quotation\",\"serviceUrl\":\"https://remaxforge.com/nellore/#rfq\"},\"url\":\"https://remaxforge.com/nellore/\"},{\"@type\":\"FAQPage\",\"@id\":\"https://remaxforge.com/nellore/#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Are you a local flange supplier in Nellore, or do you ship from Mumbai?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We supply Nellore from our Mumbai unit rather than through a local stockist. For project work that means one manufacturer's certificates and marking across the whole package.\"}},{\"@type\":\"Question\",\"name\":\"Can you supply flange packages for the BPCL Ramayapatnam refinery project?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We quote to the EPC contractor's specifications and vendor document requirements. Large projects usually buy through approved vendor lists, so check the package's list first; where the owner allows new registrations we can support the process. [CLIENT: list any genuine registrations.]\"}},{\"@type\":\"Question\",\"name\":\"When does a refinery line need A350 LF2 instead of A105?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"When the design metal temperature can fall below -29 °C, which is common on LPG and other auto-refrigerating services. LF2 Class 1 is impact-tested at -46 °C.\"}},{\"@type\":\"Question\",\"name\":\"Do you machine ring-type joint (RTJ) flanges?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"[CONFIRM] Yes - specify the ring number and groove finish on the enquiry.\"}},{\"@type\":\"Question\",\"name\":\"Which certificates do you issue?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"[CONFIRM] EN 10204 3.1 as standard; 3.2 when a purchaser-nominated third-party inspector witnesses the tests.\"}},{\"@type\":\"Question\",\"name\":\"Do you supply seafood-processing plants?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"[CONFIRM] Yes - steel flanges for ammonia refrigeration (A105 or LF2 depending on temperature), stainless flanges for process and chilled-brine lines, and super duplex where seawater wets the flange.\"}}]}]}",
+    "kurnool": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://remaxforge.com/kurnool/#webpage\",\"url\":\"https://remaxforge.com/kurnool/\",\"name\":\"Flange Supplier in Kurnool | Flanges Manufacturer\",\"description\":\"Flanges for Kurnool pumped storage, lift irrigation, solar parks and cement plants. Large-bore, AWWA, EN and IS drilling. Written quotes by email.\",\"isPartOf\":{\"@id\":\"https://remaxforge.com/#website\"},\"about\":{\"@id\":\"https://remaxforge.com/#organization\"},\"breadcrumb\":{\"@id\":\"https://remaxforge.com/kurnool/#breadcrumb\"},\"inLanguage\":\"en-IN\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://remaxforge.com/kurnool/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://remaxforge.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Areas We Supply\",\"item\":\"https://remaxforge.com/market-area/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Andhra Pradesh\",\"item\":\"https://remaxforge.com/market-area/andhra-pradesh/\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Kurnool\",\"item\":\"https://remaxforge.com/kurnool/\"}]},{\"@type\":\"Service\",\"@id\":\"https://remaxforge.com/kurnool/#service\",\"name\":\"Flange supply to Kurnool\",\"serviceType\":\"Forged pipe flange manufacturing and supply\",\"provider\":{\"@id\":\"https://remaxforge.com/#organization\"},\"areaServed\":[{\"@type\":\"City\",\"name\":\"Kurnool\",\"containedInPlace\":{\"@type\":\"State\",\"name\":\"Andhra Pradesh\"}},{\"@type\":\"AdministrativeArea\",\"name\":\"Kurnool district\"},{\"@type\":\"AdministrativeArea\",\"name\":\"Nandyal district\"}],\"availableChannel\":{\"@type\":\"ServiceChannel\",\"name\":\"Online request for quotation\",\"serviceUrl\":\"https://remaxforge.com/kurnool/#rfq\"},\"url\":\"https://remaxforge.com/kurnool/\"},{\"@type\":\"FAQPage\",\"@id\":\"https://remaxforge.com/kurnool/#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Are you a local flange supplier in Kurnool, or do you ship from Mumbai?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We have no office in Kurnool; flanges are made and dispatched in Mumbai and delivered to your site, so drawings and drilling questions go straight to the machine shop.\"}},{\"@type\":\"Question\",\"name\":\"Can you supply large-diameter flanges for lift-irrigation or pumped-storage projects?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"[CLIENT: confirm maximum size] Yes, drilled to ASME B16.47, AWWA C207, EN 1092-1 or IS 6392 as your specification requires, in plate or forged construction.\"}},{\"@type\":\"Question\",\"name\":\"What is the difference between AWWA C207 and ASME B16.5 flanges?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"AWWA C207 covers steel flanges for waterworks service from 4 inch up to 144 inch at waterworks pressures; ASME B16.5 covers NPS 1/2 to 24 in Classes 150-2500 for process piping. Up to 24 inch, AWWA C207 Class B, D and E flanges share the bolt circle and holes of ASME Class 150 (Class F matches Class 300), so they usually bolt together - the differences are thickness and pressure rating. Above 24 inch, and against EN 1092-1 PN flanges, check the drilling before ordering.\"}},{\"@type\":\"Question\",\"name\":\"Should I choose plate or forged flanges for PN10/PN16 water mains?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Plate flanges are usually adequate and more economical for low-pressure water service; forged flanges are specified where the pressure class, code or cyclic loading requires them. Follow your design specification.\"}},{\"@type\":\"Question\",\"name\":\"Can you drill flanges to match imported pumps or valves?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes - send the mating equipment's drilling standard or a drawing and we machine to it [CONFIRM].\"}},{\"@type\":\"Question\",\"name\":\"How long does delivery to Kurnool take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Typically [CLIENT: X-Y days] in transit after dispatch; made-to-order large-bore flanges have their own production time, stated in the quote.\"}}]}]}",
+    "itanagar": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https://remaxforge.com/itanagar/#webpage\",\"url\":\"https://remaxforge.com/itanagar/\",\"name\":\"Flange Supplier in Itanagar & Naharlagun | Manufacturer\",\"description\":\"Flanges for water-supply, hospital, building and hydro projects in Itanagar and Naharlagun. Shipped from Mumbai via Guwahati. Written quotes by email.\",\"isPartOf\":{\"@id\":\"https://remaxforge.com/#website\"},\"about\":{\"@id\":\"https://remaxforge.com/#organization\"},\"breadcrumb\":{\"@id\":\"https://remaxforge.com/itanagar/#breadcrumb\"},\"inLanguage\":\"en-IN\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://remaxforge.com/itanagar/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://remaxforge.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Areas We Supply\",\"item\":\"https://remaxforge.com/market-area/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Arunachal Pradesh\",\"item\":\"https://remaxforge.com/market-area/arunachal-pradesh/\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"Itanagar & Naharlagun\",\"item\":\"https://remaxforge.com/itanagar/\"}]},{\"@type\":\"Service\",\"@id\":\"https://remaxforge.com/itanagar/#service\",\"name\":\"Flange supply to Itanagar & Naharlagun\",\"serviceType\":\"Forged pipe flange manufacturing and supply\",\"provider\":{\"@id\":\"https://remaxforge.com/#organization\"},\"areaServed\":[{\"@type\":\"City\",\"name\":\"Itanagar\",\"containedInPlace\":{\"@type\":\"State\",\"name\":\"Arunachal Pradesh\"}},{\"@type\":\"City\",\"name\":\"Naharlagun\",\"containedInPlace\":{\"@type\":\"State\",\"name\":\"Arunachal Pradesh\"}}],\"availableChannel\":{\"@type\":\"ServiceChannel\",\"name\":\"Online request for quotation\",\"serviceUrl\":\"https://remaxforge.com/itanagar/#rfq\"},\"url\":\"https://remaxforge.com/itanagar/\"},{\"@type\":\"FAQPage\",\"@id\":\"https://remaxforge.com/itanagar/#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Are you a local flange supplier in Itanagar, or do you ship from Mumbai?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"There is no Remax stockist in Itanagar or Naharlagun. We plan each consignment from Mumbai to your site and send the manufacturer's certificates with it.\"}},{\"@type\":\"Question\",\"name\":\"How long does delivery from Mumbai to Itanagar take?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Typically [CLIENT: X-Y days] after dispatch by road via Guwahati; allow extra time in the monsoon.\"}},{\"@type\":\"Question\",\"name\":\"Does the transporter need an Inner Line Permit?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes - non-resident crews need an ILP to enter Arunachal Pradesh. Our transporters arrange it [CONFIRM], and it is built into the delivery estimate.\"}},{\"@type\":\"Question\",\"name\":\"Is there a minimum order for delivery to Arunachal Pradesh?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"[CLIENT: state the minimum order value, or 'No minimum; freight is quoted at cost'.]\"}},{\"@type\":\"Question\",\"name\":\"Can you supply flanges drilled to match pumps for a water-supply scheme?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes - tell us the pump or valve drilling standard (ASME, EN 1092-1 PN10/PN16 or IS 6392) and we machine to it [CONFIRM].\"}},{\"@type\":\"Question\",\"name\":\"Can deliveries be combined with other Northeast orders?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Where timelines allow, consolidating through Guwahati usually lowers freight. Mention it in the form [CONFIRM].\"}}]}]}",
+    "ap_hub": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://remaxforge.com/market-area/andhra-pradesh/#webpage\",\"url\":\"https://remaxforge.com/market-area/andhra-pradesh/\",\"name\":\"Flange Supplier in Andhra Pradesh | Flanges Manufacturer\",\"description\":\"Forged flanges across Andhra Pradesh: Vizag steel and refinery belt, Nellore ports, Amaravati works, Kurnool pumped storage. Written quotes by email.\",\"isPartOf\":{\"@id\":\"https://remaxforge.com/#website\"},\"about\":{\"@id\":\"https://remaxforge.com/#organization\"},\"breadcrumb\":{\"@id\":\"https://remaxforge.com/market-area/andhra-pradesh/#breadcrumb\"},\"inLanguage\":\"en-IN\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://remaxforge.com/market-area/andhra-pradesh/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://remaxforge.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Areas We Supply\",\"item\":\"https://remaxforge.com/market-area/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Andhra Pradesh\",\"item\":\"https://remaxforge.com/market-area/andhra-pradesh/\"}]},{\"@type\":\"Service\",\"@id\":\"https://remaxforge.com/market-area/andhra-pradesh/#service\",\"name\":\"Flange supply to Andhra Pradesh\",\"serviceType\":\"Forged pipe flange manufacturing and supply\",\"provider\":{\"@id\":\"https://remaxforge.com/#organization\"},\"areaServed\":[{\"@type\":\"State\",\"name\":\"Andhra Pradesh\"}],\"availableChannel\":{\"@type\":\"ServiceChannel\",\"name\":\"Online request for quotation\",\"serviceUrl\":\"https://remaxforge.com/market-area/andhra-pradesh/#rfq\"},\"url\":\"https://remaxforge.com/market-area/andhra-pradesh/\"},{\"@type\":\"FAQPage\",\"@id\":\"https://remaxforge.com/market-area/andhra-pradesh/#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Which Andhra Pradesh cities do you deliver to?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Anywhere in the state by road from Mumbai. Our city pages cover Visakhapatnam, Vijayawada, Guntur, Nellore and Kurnool in detail; other locations are quoted the same way.\"}},{\"@type\":\"Question\",\"name\":\"Do you charge IGST on supplies to Andhra Pradesh?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes. Supplies from Maharashtra into Andhra Pradesh are inter-state, so GST is charged as IGST at the applicable rate.\"}},{\"@type\":\"Question\",\"name\":\"Can I get one quote for several sites in Andhra Pradesh?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes - list the delivery location against each line of your BOQ and we price freight per site.\"}},{\"@type\":\"Question\",\"name\":\"Do you supply government and PSU projects?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"We supply the contractors who execute them, against the project specification. Where a project buys only from an approved vendor list, check that list first. [CLIENT: add genuine registrations, if any.]\"}},{\"@type\":\"Question\",\"name\":\"How do I send a BOQ or drawing?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Upload it in the form on this page (PDF, Excel or drawing files). We reply by email with a line-by-line quote.\"}}]}]}",
+    "ar_hub": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://remaxforge.com/market-area/arunachal-pradesh/#webpage\",\"url\":\"https://remaxforge.com/market-area/arunachal-pradesh/\",\"name\":\"Flange Supplier in Arunachal Pradesh | Itanagar to Tawang\",\"description\":\"Flanges for hydro, water-supply and building projects in Arunachal Pradesh: Itanagar, Tawang, Ziro, Pasighat. Shipped via Guwahati. Quotes by email.\",\"isPartOf\":{\"@id\":\"https://remaxforge.com/#website\"},\"about\":{\"@id\":\"https://remaxforge.com/#organization\"},\"breadcrumb\":{\"@id\":\"https://remaxforge.com/market-area/arunachal-pradesh/#breadcrumb\"},\"inLanguage\":\"en-IN\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://remaxforge.com/market-area/arunachal-pradesh/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://remaxforge.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Areas We Supply\",\"item\":\"https://remaxforge.com/market-area/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Arunachal Pradesh\",\"item\":\"https://remaxforge.com/market-area/arunachal-pradesh/\"}]},{\"@type\":\"Service\",\"@id\":\"https://remaxforge.com/market-area/arunachal-pradesh/#service\",\"name\":\"Flange supply to Arunachal Pradesh\",\"serviceType\":\"Forged pipe flange manufacturing and supply\",\"provider\":{\"@id\":\"https://remaxforge.com/#organization\"},\"areaServed\":[{\"@type\":\"State\",\"name\":\"Arunachal Pradesh\"},{\"@type\":\"City\",\"name\":\"Tawang\",\"containedInPlace\":{\"@type\":\"State\",\"name\":\"Arunachal Pradesh\"}},{\"@type\":\"City\",\"name\":\"Ziro\",\"containedInPlace\":{\"@type\":\"State\",\"name\":\"Arunachal Pradesh\"}},{\"@type\":\"City\",\"name\":\"Pasighat\",\"containedInPlace\":{\"@type\":\"State\",\"name\":\"Arunachal Pradesh\"}}],\"availableChannel\":{\"@type\":\"ServiceChannel\",\"name\":\"Online request for quotation\",\"serviceUrl\":\"https://remaxforge.com/market-area/arunachal-pradesh/#rfq\"},\"url\":\"https://remaxforge.com/market-area/arunachal-pradesh/\"},{\"@type\":\"FAQPage\",\"@id\":\"https://remaxforge.com/market-area/arunachal-pradesh/#faq\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Do you deliver to Tawang in winter?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Yes, weather permitting. Snow on the route can delay trucks, so tell us your required date and we will advise the latest safe dispatch date [CLIENT: confirm].\"}},{\"@type\":\"Question\",\"name\":\"Which flanges suit sub-zero outdoor service?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"ASME B16.5 ratings are tabulated from -29 °C. If an exposed line's design metal temperature can go lower, specify impact-tested A350 LF2; otherwise A105 is the standard carbon-steel grade.\"}},{\"@type\":\"Question\",\"name\":\"How are small orders to district towns priced?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Material is priced per line and freight is shown separately; consolidating through Guwahati or combining with a capital-region delivery often lowers the freight [CONFIRM].\"}},{\"@type\":\"Question\",\"name\":\"Do you have a stockist in Arunachal Pradesh?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. We supply directly from our Mumbai unit and send the manufacturer's certificates with every delivery.\"}}]}]}",
+    "market_area": "{\"@context\":\"https://schema.org\",\"@graph\":[{\"@type\":\"CollectionPage\",\"@id\":\"https://remaxforge.com/market-area/#webpage\",\"url\":\"https://remaxforge.com/market-area/\",\"name\":\"Flange Supply Areas Across India | Remax Forge & Fittings\",\"description\":\"See the states and cities we deliver forged flanges to from Mumbai, with local industries, delivery times and documents. Written quotes by email.\",\"isPartOf\":{\"@id\":\"https://remaxforge.com/#website\"},\"about\":{\"@id\":\"https://remaxforge.com/#organization\"},\"breadcrumb\":{\"@id\":\"https://remaxforge.com/market-area/#breadcrumb\"},\"inLanguage\":\"en-IN\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https://remaxforge.com/market-area/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https://remaxforge.com/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Areas We Supply\",\"item\":\"https://remaxforge.com/market-area/\"}]}]}"
+  },
+  "content_rows": {
+    "SHARED_all city + hub pages": {
+      "sec_num": "SHARED",
+      "sec_name": "all city + hub pages",
+      "heading": 14.0,
+      "values": {
+        "Page key": "SHARED",
+        "URL": "all city + hub pages",
+        "Sec #": "14.0",
+        "Section": "Final CTA",
+        "Element": "CTA band + button 'Get a written quote' → #rfq",
+        "Copy (paste-ready)": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email [CLIENT: reply time, e.g. within one working day]. No phone calls needed - everything is in writing.",
+        "Words": "39",
+        "Status": "CLIENT INPUT",
+        "Uniqueness": "Shared",
+        "Dev note": "Edit here only - page rows reference this row."
+      }
+    },
+    "vizag_/visakhapatnam/": {
+      "sec_num": "vizag",
+      "sec_name": "/visakhapatnam/",
+      "heading": 14.0,
+      "values": {
+        "Page key": "vizag",
+        "URL": "/visakhapatnam/",
+        "Sec #": "14.0",
+        "Section": "Final CTA",
+        "Copy (paste-ready)": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email [CLIENT: reply time, e.g. within one working day]. No phone calls needed - everything is in writing.",
+        "Words": "39",
+        "Status": "CLIENT INPUT",
+        "Uniqueness": "Shared"
+      }
+    },
+    "vijayawada_/vijayawada/": {
+      "sec_num": "vijayawada",
+      "sec_name": "/vijayawada/",
+      "heading": 14.0,
+      "values": {
+        "Page key": "vijayawada",
+        "URL": "/vijayawada/",
+        "Sec #": "14.0",
+        "Section": "Final CTA",
+        "Copy (paste-ready)": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email [CLIENT: reply time, e.g. within one working day]. No phone calls needed - everything is in writing.",
+        "Words": "39",
+        "Status": "CLIENT INPUT",
+        "Uniqueness": "Shared"
+      }
+    },
+    "guntur_/guntur/": {
+      "sec_num": "guntur",
+      "sec_name": "/guntur/",
+      "heading": 14.0,
+      "values": {
+        "Page key": "guntur",
+        "URL": "/guntur/",
+        "Sec #": "14.0",
+        "Section": "Final CTA",
+        "Copy (paste-ready)": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email [CLIENT: reply time, e.g. within one working day]. No phone calls needed - everything is in writing.",
+        "Words": "39",
+        "Status": "CLIENT INPUT",
+        "Uniqueness": "Shared"
+      }
+    },
+    "nellore_/nellore/": {
+      "sec_num": "nellore",
+      "sec_name": "/nellore/",
+      "heading": 14.0,
+      "values": {
+        "Page key": "nellore",
+        "URL": "/nellore/",
+        "Sec #": "14.0",
+        "Section": "Final CTA",
+        "Copy (paste-ready)": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email [CLIENT: reply time, e.g. within one working day]. No phone calls needed - everything is in writing.",
+        "Words": "39",
+        "Status": "CLIENT INPUT",
+        "Uniqueness": "Shared"
+      }
+    },
+    "kurnool_/kurnool/": {
+      "sec_num": "kurnool",
+      "sec_name": "/kurnool/",
+      "heading": 14.0,
+      "values": {
+        "Page key": "kurnool",
+        "URL": "/kurnool/",
+        "Sec #": "14.0",
+        "Section": "Final CTA",
+        "Copy (paste-ready)": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email [CLIENT: reply time, e.g. within one working day]. No phone calls needed - everything is in writing.",
+        "Words": "39",
+        "Status": "CLIENT INPUT",
+        "Uniqueness": "Shared"
+      }
+    },
+    "itanagar_/itanagar/": {
+      "sec_num": "itanagar",
+      "sec_name": "/itanagar/",
+      "heading": 14.0,
+      "values": {
+        "Page key": "itanagar",
+        "URL": "/itanagar/",
+        "Sec #": "14.0",
+        "Section": "Final CTA",
+        "Copy (paste-ready)": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email [CLIENT: reply time, e.g. within one working day]. No phone calls needed - everything is in writing.",
+        "Words": "39",
+        "Status": "CLIENT INPUT",
+        "Uniqueness": "Shared"
+      }
+    },
+    "ap_hub_/market-area/andhra-pradesh/": {
+      "sec_num": "ap_hub",
+      "sec_name": "/market-area/andhra-pradesh/",
+      "heading": 14.0,
+      "values": {
+        "Page key": "ap_hub",
+        "URL": "/market-area/andhra-pradesh/",
+        "Sec #": "14.0",
+        "Section": "Final CTA",
+        "Copy (paste-ready)": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email [CLIENT: reply time, e.g. within one working day]. No phone calls needed - everything is in writing.",
+        "Words": "39",
+        "Status": "CLIENT INPUT",
+        "Uniqueness": "Shared"
+      }
+    },
+    "ar_hub_/market-area/arunachal-pradesh/": {
+      "sec_num": "ar_hub",
+      "sec_name": "/market-area/arunachal-pradesh/",
+      "heading": 14.0,
+      "values": {
+        "Page key": "ar_hub",
+        "URL": "/market-area/arunachal-pradesh/",
+        "Sec #": "14.0",
+        "Section": "Final CTA",
+        "Copy (paste-ready)": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email [CLIENT: reply time, e.g. within one working day]. No phone calls needed - everything is in writing.",
+        "Words": "39",
+        "Status": "CLIENT INPUT",
+        "Uniqueness": "Shared"
+      }
+    },
+    "market_area_/market-area/": {
+      "sec_num": "market_area",
+      "sec_name": "/market-area/",
+      "heading": 14.0,
+      "values": {
+        "Page key": "market_area",
+        "URL": "/market-area/",
+        "Sec #": "14.0",
+        "Section": "Final CTA",
+        "Copy (paste-ready)": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email [CLIENT: reply time, e.g. within one working day]. No phone calls needed - everything is in writing.",
+        "Words": "39",
+        "Status": "CLIENT INPUT",
+        "Uniqueness": "Shared"
+      }
+    }
+  },
+  "tab12_links": [
+    {
+      "from": "/visakhapatnam/",
+      "to": "/market-area/andhra-pradesh/",
+      "anchor": "Flange supply across Andhra Pradesh",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/visakhapatnam/",
+      "to": "/nellore/",
+      "anchor": "Nellore (refinery projects)",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/visakhapatnam/",
+      "to": "/products/flanges/sour-service-nace-flange/",
+      "anchor": "Sour-service NACE flanges",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/visakhapatnam/",
+      "to": "/industries/oil-and-gas/",
+      "anchor": "Flanges for oil & gas",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/visakhapatnam/",
+      "to": "/blogs/pipe-flanges-guide/",
+      "anchor": "Pipe flanges guide",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/visakhapatnam/",
+      "to": "/products/flanges/<type>/",
+      "anchor": "The 7 flange-type names (tab 8b, column D)",
+      "placement": "Product range table (section 6)"
+    },
+    {
+      "from": "/vijayawada/",
+      "to": "/market-area/andhra-pradesh/",
+      "anchor": "Flange supply across Andhra Pradesh",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/vijayawada/",
+      "to": "/guntur/",
+      "anchor": "Guntur",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/vijayawada/",
+      "to": "/blogs/pipe-flanges-guide/",
+      "anchor": "Pipe flanges guide",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/vijayawada/",
+      "to": "/kurnool/",
+      "anchor": "Kurnool (large-bore water projects)",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/vijayawada/",
+      "to": "/products/flanges/<type>/",
+      "anchor": "The 7 flange-type names (tab 8b, column D)",
+      "placement": "Product range table (section 6)"
+    },
+    {
+      "from": "/guntur/",
+      "to": "/market-area/andhra-pradesh/",
+      "anchor": "Flange supply across Andhra Pradesh",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/guntur/",
+      "to": "/vijayawada/",
+      "anchor": "Vijayawada & Amaravati",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/guntur/",
+      "to": "/products/flanges/high-temperature-cryogenic-flange/",
+      "anchor": "Low-temperature flanges",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/guntur/",
+      "to": "/products/flanges/<type>/",
+      "anchor": "The 7 flange-type names (tab 8b, column D)",
+      "placement": "Product range table (section 6)"
+    },
+    {
+      "from": "/nellore/",
+      "to": "/market-area/andhra-pradesh/",
+      "anchor": "Flange supply across Andhra Pradesh",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/nellore/",
+      "to": "/visakhapatnam/",
+      "anchor": "Visakhapatnam",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/nellore/",
+      "to": "/products/flanges/sour-service-nace-flange/",
+      "anchor": "Sour-service NACE flanges",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/nellore/",
+      "to": "/products/flanges/high-temperature-cryogenic-flange/",
+      "anchor": "Low-temperature flanges",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/nellore/",
+      "to": "/industries/oil-and-gas/",
+      "anchor": "Flanges for oil & gas",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/nellore/",
+      "to": "/products/flanges/<type>/",
+      "anchor": "The 7 flange-type names (tab 8b, column D)",
+      "placement": "Product range table (section 6)"
+    },
+    {
+      "from": "/kurnool/",
+      "to": "/market-area/andhra-pradesh/",
+      "anchor": "Flange supply across Andhra Pradesh",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/kurnool/",
+      "to": "/blogs/pipe-flanges-guide/",
+      "anchor": "Pipe flanges guide",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/kurnool/",
+      "to": "/vijayawada/",
+      "anchor": "Vijayawada (Class 150 vs PN16 drilling)",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/kurnool/",
+      "to": "/products/flanges/<type>/",
+      "anchor": "The 7 flange-type names (tab 8b, column D)",
+      "placement": "Product range table (section 6)"
+    },
+    {
+      "from": "/itanagar/",
+      "to": "/market-area/arunachal-pradesh/",
+      "anchor": "Flange supply across Arunachal Pradesh",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/itanagar/",
+      "to": "/blogs/pipe-flanges-guide/",
+      "anchor": "Pipe flanges guide",
+      "placement": "Related pages (section 13)"
+    },
+    {
+      "from": "/itanagar/",
+      "to": "/products/flanges/<type>/",
+      "anchor": "The 7 flange-type names (tab 8b, column D)",
+      "placement": "Product range table (section 6)"
+    },
+    {
+      "from": "/market-area/andhra-pradesh/",
+      "to": "/visakhapatnam/",
+      "anchor": "Visakhapatnam",
+      "placement": "Hub section text + related list"
+    },
+    {
+      "from": "/market-area/andhra-pradesh/",
+      "to": "/vijayawada/",
+      "anchor": "Vijayawada",
+      "placement": "Hub section text + related list"
+    },
+    {
+      "from": "/market-area/andhra-pradesh/",
+      "to": "/guntur/",
+      "anchor": "Guntur",
+      "placement": "Hub section text + related list"
+    },
+    {
+      "from": "/market-area/andhra-pradesh/",
+      "to": "/nellore/",
+      "anchor": "Nellore",
+      "placement": "Hub section text + related list"
+    },
+    {
+      "from": "/market-area/andhra-pradesh/",
+      "to": "/kurnool/",
+      "anchor": "Kurnool",
+      "placement": "Hub section text + related list"
+    },
+    {
+      "from": "/market-area/andhra-pradesh/",
+      "to": "/products/flanges/",
+      "anchor": "All flange types",
+      "placement": "Hub section text + related list"
+    },
+    {
+      "from": "/market-area/arunachal-pradesh/",
+      "to": "/itanagar/",
+      "anchor": "Itanagar & Naharlagun",
+      "placement": "Hub section text + related list"
+    },
+    {
+      "from": "/market-area/arunachal-pradesh/",
+      "to": "/products/flanges/",
+      "anchor": "All flange types",
+      "placement": "Hub section text + related list"
+    },
+    {
+      "from": "/market-area/",
+      "to": "/market-area/andhra-pradesh/",
+      "anchor": "Andhra Pradesh",
+      "placement": "State list (section 4)"
+    },
+    {
+      "from": "/market-area/",
+      "to": "/market-area/arunachal-pradesh/",
+      "anchor": "Arunachal Pradesh",
+      "placement": "State list (section 4)"
+    },
+    {
+      "from": "Sitewide footer (every template)",
+      "to": "/market-area/",
+      "anchor": "Areas we supply",
+      "placement": "Footer"
+    },
+    {
+      "from": "/industries/oil-and-gas/",
+      "to": "/visakhapatnam/",
+      "anchor": "Flange supply in Visakhapatnam",
+      "placement": "Body - short 'Where we supply' block"
+    },
+    {
+      "from": "/industries/oil-and-gas/",
+      "to": "/nellore/",
+      "anchor": "Flanges for Nellore refinery projects",
+      "placement": "Body - same block"
+    },
+    {
+      "from": "/products/flanges/ (flange hub)",
+      "to": "/market-area/",
+      "anchor": "Where we supply flanges in India",
+      "placement": "Hub body or hub footer"
+    },
+    {
+      "from": "Any existing page that links to /naharlagun/, /pasighat/, /tawang/ or /ziro/",
+      "to": "(the redirect target - section B)",
+      "anchor": "The target page's own name (e.g. 'Flange supplier in Itanagar & Naharlagun')",
+      "placement": "Wherever the old link sits (lists, footers, HTML sitemap)"
+    }
+  ],
+  "tab12_redirects": [
+    {
+      "source": "Old URL",
+      "target": "Redirect to",
+      "why": "Type"
+    },
+    {
+      "source": "https://remaxforge.com/naharlagun",
+      "target": "https://remaxforge.com/itanagar/",
+      "why": "301"
+    },
+    {
+      "source": "https://remaxforge.com/naharlagun/",
+      "target": "https://remaxforge.com/itanagar/",
+      "why": "301"
+    },
+    {
+      "source": "https://remaxforge.com/pasighat",
+      "target": "https://remaxforge.com/market-area/arunachal-pradesh/",
+      "why": "301"
+    },
+    {
+      "source": "https://remaxforge.com/pasighat/",
+      "target": "https://remaxforge.com/market-area/arunachal-pradesh/",
+      "why": "301"
+    },
+    {
+      "source": "https://remaxforge.com/tawang",
+      "target": "https://remaxforge.com/market-area/arunachal-pradesh/",
+      "why": "301"
+    },
+    {
+      "source": "https://remaxforge.com/tawang/",
+      "target": "https://remaxforge.com/market-area/arunachal-pradesh/",
+      "why": "301"
+    },
+    {
+      "source": "https://remaxforge.com/ziro",
+      "target": "https://remaxforge.com/market-area/arunachal-pradesh/",
+      "why": "301"
+    },
+    {
+      "source": "https://remaxforge.com/ziro/",
+      "target": "https://remaxforge.com/market-area/arunachal-pradesh/",
+      "why": "301"
+    },
+    {
+      "source": "Every page URL without the trailing slash",
+      "target": "Same URL with /",
+      "why": "301 or 308"
+    },
+    {
+      "source": "http:// and www. variants",
+      "target": "https://remaxforge.com + same path",
+      "why": "301"
+    },
+    {
+      "source": "Never chain: /naharlagun -> /naharlagun/ -> /itanagar/ is two hops. Redirect both forms straight to the target.",
+      "target": null,
+      "why": null
+    },
+    {
+      "source": "Keep the 301s for at least 12 months. Never redirect to the homepage or to a noindex page; never answer 404 or 410 for these towns.",
+      "target": null,
+      "why": null
+    },
+    {
+      "source": "Remove every redirected URL from sitemap.xml (section C) and from every internal link (section A, last row).",
+      "target": null,
+      "why": null
+    },
+    {
+      "source": "Option B: no redirects - build the four mini-pages from the Option B block in tab 6.",
+      "target": null,
+      "why": null
+    },
+    {
+      "source": "URL",
+      "target": "Action",
+      "why": "When"
+    },
+    {
+      "source": "https://remaxforge.com/visakhapatnam/",
+      "target": "Hold - tab 6 says NOT READY",
+      "why": "The day the page goes live"
+    },
+    {
+      "source": "https://remaxforge.com/vijayawada/",
+      "target": "Hold - tab 6 says NOT READY",
+      "why": "The day the page goes live"
+    },
+    {
+      "source": "https://remaxforge.com/guntur/",
+      "target": "Hold - tab 6 says NOT READY",
+      "why": "The day the page goes live"
+    },
+    {
+      "source": "https://remaxforge.com/nellore/",
+      "target": "Hold - tab 6 says NOT READY",
+      "why": "The day the page goes live"
+    },
+    {
+      "source": "https://remaxforge.com/kurnool/",
+      "target": "Hold - tab 6 says NOT READY",
+      "why": "The day the page goes live"
+    },
+    {
+      "source": "https://remaxforge.com/itanagar/",
+      "target": "Hold - tab 6 says NOT READY",
+      "why": "The day the page goes live"
+    },
+    {
+      "source": "https://remaxforge.com/market-area/andhra-pradesh/",
+      "target": "Hold - tab 6 says NOT READY",
+      "why": "The day the page goes live"
+    },
+    {
+      "source": "https://remaxforge.com/market-area/arunachal-pradesh/",
+      "target": "Hold - tab 6 says NOT READY",
+      "why": "The day the page goes live"
+    },
+    {
+      "source": "https://remaxforge.com/market-area/",
+      "target": "Hold - tab 6 says NOT READY",
+      "why": "The day the page goes live"
+    },
+    {
+      "source": "https://remaxforge.com/naharlagun/  (and /naharlagun)",
+      "target": "Remove (redirected)",
+      "why": "With the 301 (section B)"
+    },
+    {
+      "source": "https://remaxforge.com/pasighat/  (and /pasighat)",
+      "target": "Remove (redirected)",
+      "why": "With the 301 (section B)"
+    },
+    {
+      "source": "https://remaxforge.com/tawang/  (and /tawang)",
+      "target": "Remove (redirected)",
+      "why": "With the 301 (section B)"
+    },
+    {
+      "source": "https://remaxforge.com/ziro/  (and /ziro)",
+      "target": "Remove (redirected)",
+      "why": "With the 301 (section B)"
+    },
+    {
+      "source": "https://remaxforge.com/thank-you/",
+      "target": "Exclude",
+      "why": "Always"
+    },
+    {
+      "source": "Daily log T0-a / A-63: the sitemap generator omits /products/ and freezes lastmod. Fix the generator and add the CI guard (T0-c) in the same deploy, or these pages can drop out of the sitemap the way the product estate did.",
+      "target": null,
+      "why": null
+    },
+    {
+      "source": "URL",
+      "target": "Ready?",
+      "why": "Status"
+    },
+    {
+      "source": "https://remaxforge.com/market-area/andhra-pradesh/",
+      "target": "Wait - NOT READY in tab 6",
+      "why": "Not requested"
+    },
+    {
+      "source": "https://remaxforge.com/visakhapatnam/",
+      "target": "Wait - NOT READY in tab 6",
+      "why": "Not requested"
+    },
+    {
+      "source": "https://remaxforge.com/nellore/",
+      "target": "Wait - NOT READY in tab 6",
+      "why": "Not requested"
+    },
+    {
+      "source": "https://remaxforge.com/vijayawada/",
+      "target": "Wait - NOT READY in tab 6",
+      "why": "Not requested"
+    },
+    {
+      "source": "https://remaxforge.com/guntur/",
+      "target": "Wait - NOT READY in tab 6",
+      "why": "Not requested"
+    },
+    {
+      "source": "https://remaxforge.com/kurnool/",
+      "target": "Wait - NOT READY in tab 6",
+      "why": "Not requested"
+    },
+    {
+      "source": "https://remaxforge.com/market-area/",
+      "target": "Wait - NOT READY in tab 6",
+      "why": "Not requested"
+    },
+    {
+      "source": "https://remaxforge.com/market-area/arunachal-pradesh/",
+      "target": "Wait - NOT READY in tab 6",
+      "why": "Not requested"
+    },
+    {
+      "source": "https://remaxforge.com/itanagar/",
+      "target": "Wait - NOT READY in tab 6",
+      "why": "Not requested"
+    },
+    {
+      "source": "Requesting is a nudge, not a fix: ~10 requests a day, only for pages that are live, READY, in the sitemap and linked from an indexed page. The 53 flange product pages in the daily log's queue go first - they are the bigger lead lever (A-64).",
+      "target": null,
+      "why": null
+    },
+    {
+      "source": "Rule",
+      "target": "Spec",
+      "why": null
+    },
+    {
+      "source": "Canonical",
+      "target": "One <link rel=\"canonical\"> per page: absolute, https, no www, slash form, self-referencing.",
+      "why": null
+    },
+    {
+      "source": "No-slash duplicates",
+      "target": "The no-slash URL must redirect (C-01). A 200 plus a canonical - today's behaviour (daily log A-48) - is not enough: Google keeps choosing the linked form.",
+      "why": null
+    },
+    {
+      "source": "Meta robots",
+      "target": "index, follow on all 9 pages (or no tag). /thank-you/ = noindex, follow.",
+      "why": null
+    },
+    {
+      "source": "robots.txt",
+      "target": "Must not block /market-area/ or any city URL; must answer 200 (or 404) fast. Decide deliberately which AI crawlers to allow (C-00).",
+      "why": null
+    },
+    {
+      "source": "Old town URLs (Option A)",
+      "target": "Answer 301 to the target - not 200, 404 or 410.",
+      "why": null
+    },
+    {
+      "source": "Language",
+      "target": "One language (en-IN): no hreflang needed. Keep <html lang=\"en-IN\">.",
+      "why": null
+    },
+    {
+      "source": "Parameters",
+      "target": "?form=, ?city= and utm_ URLs are never linked internally; the canonical handles stray copies.",
+      "why": null
+    }
+  ],
+  "replacements": {
+    "[CLIENT: reply time ...]": "within one working day",
+    "[CLIENT: X-Y days]": "10-14 days to Itanagar; Tawang +3-5 days",
+    "[CLIENT: part-load or full-truck; transporter] / [CLIENT: route]": "Part-load via transporter; full truck above 5 t; Arunachal via Guwahati",
+    "[CLIENT: locality] / [CLIENT: confirm]": "Andheri East, Mumbai",
+    "-": "Yes - published 12 Aug",
+    "[CLIENT: real certifications only ...]": "ISO 9001:2015, cert no. XXXX, issued by ABC, valid to 03/2028",
+    "[CLIENT: confirm which types are made in-house]": "WN, SO, BL, SW, TH in-house; spectacle blinds bought out",
+    "[CLIENT: confirm maximum size]": "1/2\"-24\" forged; plate flanges up to 2,000 mm OD",
+    "[CONFIRM] markers on grades": "A105, LF2, F304L, F316L, F11, F22; duplex on request",
+    "[CLIENT: confirm stocked sizes]": "A105 SO/WN 1/2\"-8\" Class 150/300",
+    "[CONFIRM]": "No - build later",
+    "[CLIENT: confirm IBR capability ...]": "No",
+    "[CONFIRM offered]": "No",
+    "[CLIENT: confirm coating options]": "Rust-preventive oil standard; primer on request",
+    "[CLIENT: confirm IS 6392 / BS / DIN capability]": "ASME, EN 1092-1, IS 6392, to drawing",
+    "[CLIENT: list only tests actually done in-house ...]": "PMI, hardness, dimensional",
+    "[CLIENT: indicative Rs/kg bands ...]": "A105 Rs 110-140/kg; 316L Rs 520-600/kg (Sep 2026)",
+    "[CONFIRM] on freight line": "Rs 25,000 minimum for Arunachal; freight shown separately",
+    "[CLIENT: list any genuine approvals ...]": "None yet",
+    "[CLIENT: privacy policy URL]": "https://remaxforge.com/privacy-policy/",
+    "[CLIENT: delete any area ...]": "Vizag: none; Kurnool: none",
+    "[CONFIRM] slug exists": "/products/flanges/weld-neck-flange/ ..."
+  }
+}

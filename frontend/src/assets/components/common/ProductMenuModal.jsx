@@ -82,7 +82,7 @@ const ProductMenuModal = () => {
               {productData[activeCategoryIndex].subcategories.map((subItem, subIndex) => {
                 const linkHref = `/products/${createSlug(
                   productData[activeCategoryIndex].category
-                )}/${createSlug(subItem)}`;
+                )}/${createSlug(subItem)}/`;
 
                 return (
                   <Link
@@ -104,7 +104,7 @@ const ProductMenuModal = () => {
             <div className="mt-12 pt-8 border-t border-slate-100 flex items-center justify-between">
               <p className="text-sm text-slate-400">Can't find what you're looking for?</p>
               <Link 
-                to="/contact" 
+                to="/contact/" 
                 onClick={closeProductMenu}
                 className="text-[#D71920] font-bold text-sm hover:underline flex items-center gap-1"
               >

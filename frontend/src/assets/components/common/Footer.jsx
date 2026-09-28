@@ -68,15 +68,15 @@ const Footer = () => {
             <ul className="space-y-3">
               {[
                 { name: 'Home', path: '/' },
-                { name: 'About Us', path: '/about-us' },
-                { name: 'Quality Policy', path: '/quality' },
-                { name: 'Tech Info', path: '/tech-info/dimensions' },
-                { name: 'Certificates', path: '/certification' },
-                { name: 'Careers', path: '/career' },
-                { name: 'Blogs', path: '/blogs' },
-                { name: 'Where We Export', path: '/export' },
-                { name: 'Market Area', path: '/market-area' },
-                { name: 'Contact Us', path: '/contact' }
+                { name: 'About Us', path: '/about-us/' },
+                { name: 'Quality Policy', path: '/quality/' },
+                { name: 'Tech Info', path: '/tech-info/dimension-chart/' },
+                { name: 'Certificates', path: '/certification/' },
+                { name: 'Careers', path: '/career/' },
+                { name: 'Blogs', path: '/blogs/' },
+                { name: 'Where We Export', path: '/export/' },
+                { name: 'Areas We Supply', path: '/market-area/' },
+                { name: 'Contact Us', path: '/contact/' }
               ].map((item) => (
                 <li key={item.name}>
                   <Link to={item.path} className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm">
@@ -97,11 +97,11 @@ const Footer = () => {
             <ul className="space-y-3">
               {productData.map((item, index) => {
                 const getCategoryLink = (category) => {
-                  if (category === "Flanges") return "/products/flanges/slip-on-flange";
-                  if (category === "Buttweld Fittings") return "/products/buttweld-fittings/butt-weld-elbow-fittings";
-                  if (category === "Socket Weld Fittings") return "/products/socket-weld-fittings/socket-weld-coupling-fittings";
-                  if (category === "Forged Fittings") return "/products/forged-fittings";
-                  if (category === "Pipes & Plates") return "/products/pipes/alloy-steel-pipes";
+                  if (category === "Flanges") return "/products/flanges/slip-on-flange/";
+                  if (category === "Buttweld Fittings") return "/products/buttweld-fittings/butt-weld-elbow-fittings/";
+                  if (category === "Socket Weld Fittings") return "/products/socket-weld-fittings/socket-weld-coupling-fittings/";
+                  if (category === "Forged Fittings") return "/products/forged-fittings/";
+                  if (category === "Pipes & Plates") return "/products/pipes/alloy-steel-pipes/";
                   return "/";
                 };
                 return (

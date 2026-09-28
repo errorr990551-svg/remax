@@ -95,6 +95,9 @@ import ScrollToTop from './assets/components/common/ScrollToTop.jsx';
 import ProductMenuModal from './assets/components/common/ProductMenuModal.jsx';
 import MarketArea from './assets/pages/MarketArea.jsx';
 import CityPage from './assets/pages/CityPage.jsx';
+import CityPageStrategy from './assets/pages/CityPageStrategy.jsx';
+import StateHubPage from './assets/pages/StateHubPage.jsx';
+import MarketAreaIndex from './assets/pages/MarketAreaIndex.jsx';
 
 // Material Grade Pages
 import CarbonSteelFlanges from './assets/pages/materials/CarbonSteelFlanges.jsx';
@@ -147,11 +150,28 @@ const legacyFlangeRedirects = {
   '/product-details/stub-end-flange/': '/products/flanges/lap-joint-flange/'
 };
 
+const optionARedirects = {
+  '/naharlagun': '/itanagar/',
+  '/naharlagun/': '/itanagar/',
+  '/pasighat': '/market-area/arunachal-pradesh/',
+  '/pasighat/': '/market-area/arunachal-pradesh/',
+  '/tawang': '/market-area/arunachal-pradesh/',
+  '/tawang/': '/market-area/arunachal-pradesh/',
+  '/ziro': '/market-area/arunachal-pradesh/',
+  '/ziro/': '/market-area/arunachal-pradesh/'
+};
+
 const TrailingSlashRedirector = () => {
   const { pathname } = useLocation();
   const navigate = useNavigate();
 
   useEffect(() => {
+    // 0. Option A Town Merges
+    if (optionARedirects[pathname]) {
+      navigate(optionARedirects[pathname], { replace: true });
+      return;
+    }
+
     // 1. Legacy Product Details redirects for Flanges
     if (legacyFlangeRedirects[pathname]) {
       navigate(legacyFlangeRedirects[pathname], { replace: true });
@@ -206,10 +226,10 @@ function App() {
         <Route path='/quality/' element={<Quality />} />
         <Route path='/certification' element={<Certification />} />
         <Route path='/certification/' element={<Certification />} />
+        <Route path='/certificates' element={<Certification />} />
+        <Route path='/certificates/' element={<Certification />} />
         <Route path='/career' element={<CareerPage />} />
         <Route path='/career/' element={<CareerPage />} />
-        <Route path='/market-area' element={<MarketArea />} />
-        <Route path='/market-area/' element={<MarketArea />} />
         <Route path='/brochure' element={<BrochureGating />} />
         <Route path='/brochure/' element={<BrochureGating />} />
 
@@ -429,6 +449,28 @@ function App() {
         <Route path='/export/:countrySlug/' element={<ExportHubPage />} />
         <Route path='/export/:countrySlug/:citySlug' element={<ExportCityPage />} />
         <Route path='/export/:countrySlug/:citySlug/' element={<ExportCityPage />} />
+
+        {/* Market Area Index & State Hubs */}
+        <Route path='/market-area' element={<MarketAreaIndex />} />
+        <Route path='/market-area/' element={<MarketAreaIndex />} />
+        <Route path='/market-area/andhra-pradesh' element={<StateHubPage forcedKey="ap_hub" />} />
+        <Route path='/market-area/andhra-pradesh/' element={<StateHubPage forcedKey="ap_hub" />} />
+        <Route path='/market-area/arunachal-pradesh' element={<StateHubPage forcedKey="ar_hub" />} />
+        <Route path='/market-area/arunachal-pradesh/' element={<StateHubPage forcedKey="ar_hub" />} />
+
+        {/* 6 Rebuilt City Strategy Pages */}
+        <Route path='/visakhapatnam' element={<CityPageStrategy forcedKey="vizag" />} />
+        <Route path='/visakhapatnam/' element={<CityPageStrategy forcedKey="vizag" />} />
+        <Route path='/vijayawada' element={<CityPageStrategy forcedKey="vijayawada" />} />
+        <Route path='/vijayawada/' element={<CityPageStrategy forcedKey="vijayawada" />} />
+        <Route path='/guntur' element={<CityPageStrategy forcedKey="guntur" />} />
+        <Route path='/guntur/' element={<CityPageStrategy forcedKey="guntur" />} />
+        <Route path='/nellore' element={<CityPageStrategy forcedKey="nellore" />} />
+        <Route path='/nellore/' element={<CityPageStrategy forcedKey="nellore" />} />
+        <Route path='/kurnool' element={<CityPageStrategy forcedKey="kurnool" />} />
+        <Route path='/kurnool/' element={<CityPageStrategy forcedKey="kurnool" />} />
+        <Route path='/itanagar' element={<CityPageStrategy forcedKey="itanagar" />} />
+        <Route path='/itanagar/' element={<CityPageStrategy forcedKey="itanagar" />} />
 
         <Route path='/sitemap' element={<SitemapRedirect />} />
         <Route path='/sitemap.xml' element={<SitemapRedirect />} />

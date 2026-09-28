@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { sheet4MetaData } from '../../data/sheet4MetaData.js';
 import { newFlangePagesData } from '../../data/newFlangePagesData.js';
 import { marketAreaData } from '../../data/marketAreaData.js';
+import { cityStrategyData } from '../../data/cityStrategyData.js';
 import flangeFaqs from '../../data/flange_faqs.json';
 
 const SEOManager = () => {
@@ -17,6 +18,86 @@ const SEOManager = () => {
       canonicalPath += '/';
     }
     const canonicalUrl = `${baseUrl}${canonicalPath}`;
+
+    // 0. Check if path matches one of our 9 city/hub/market-area pages in cityStrategyData
+    let strategyPage = null;
+    for (const [k, cfg] of Object.entries(cityStrategyData)) {
+      if (cfg.url === canonicalPath || cfg.url.replace(/\/$/, '') === pathname.replace(/\/$/, '')) {
+        strategyPage = cfg;
+        break;
+      }
+    }
+
+    if (strategyPage) {
+      document.title = strategyPage.title;
+
+      const setMeta = (name, content) => {
+        if (!content) return;
+        let tag = document.querySelector(`meta[name="${name}"]`);
+        if (tag) tag.setAttribute('content', content);
+        else {
+          tag = document.createElement('meta');
+          tag.setAttribute('name', name);
+          tag.setAttribute('content', content);
+          document.head.appendChild(tag);
+        }
+      };
+
+      const setProp = (prop, content) => {
+        if (!content) return;
+        let tag = document.querySelector(`meta[property="${prop}"]`);
+        if (tag) tag.setAttribute('content', content);
+        else {
+          tag = document.createElement('meta');
+          tag.setAttribute('property', prop);
+          tag.setAttribute('content', content);
+          document.head.appendChild(tag);
+        }
+      };
+
+      const setLink = (rel, href, attributes = {}) => {
+        if (!href) return;
+        let tag = document.querySelector(`link[rel="${rel}"]`);
+        if (tag) tag.setAttribute('href', href);
+        else {
+          tag = document.createElement('link');
+          tag.setAttribute('rel', rel);
+          tag.setAttribute('href', href);
+          Object.keys(attributes).forEach(k => tag.setAttribute(k, attributes[k]));
+          document.head.appendChild(tag);
+        }
+      };
+
+      const oldKeywordsTag = document.querySelector('meta[name="keywords"]');
+      if (oldKeywordsTag) oldKeywordsTag.remove();
+
+      setMeta('robots', 'index, follow');
+      setMeta('description', strategyPage.meta_desc);
+      setLink('canonical', `${baseUrl}${strategyPage.url}`);
+      setLink('alternate', `${baseUrl}${strategyPage.url}`, { hreflang: 'en' });
+      setLink('alternate', `${baseUrl}${strategyPage.url}`, { hreflang: 'x-default' });
+
+      setProp('og:title', strategyPage.title);
+      setProp('og:description', strategyPage.meta_desc);
+      setProp('og:url', `${baseUrl}${strategyPage.url}`);
+      setProp('og:image', `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`);
+      setProp('og:type', 'website');
+
+      setMeta('twitter:card', 'summary_large_image');
+      setMeta('twitter:title', strategyPage.title);
+      setMeta('twitter:description', strategyPage.meta_desc);
+      setMeta('twitter:image', `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`);
+
+      document.querySelectorAll('script[type="application/ld+json"]').forEach(script => script.remove());
+      if (strategyPage.schema) {
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.text = JSON.stringify(strategyPage.schema);
+        document.head.appendChild(script);
+      }
+
+      return;
+    }
 
     // Lookup metadata from Sheet 4 data or fallbacks
     const pageMeta = sheet4MetaData[canonicalPath] || sheet4MetaData[pathname] || {};

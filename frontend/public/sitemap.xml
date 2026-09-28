@@ -2961,6 +2961,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://remaxforge.com/market-area/andhra-pradesh/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://remaxforge.com/market-area/arunachal-pradesh/</loc>
+    <lastmod>2026-09-28</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://remaxforge.com/materials/alloy-steel-f11-f22-flanges/</loc>
     <lastmod>2026-09-28</lastmod>
     <priority>0.8</priority>
@@ -3046,11 +3056,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://remaxforge.com/naharlagun/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://remaxforge.com/namchi/</loc>
     <lastmod>2026-09-28</lastmod>
     <priority>0.7</priority>
@@ -3077,11 +3082,6 @@
   </url>
   <url>
     <loc>https://remaxforge.com/oil-gas-pipe-fittings/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://remaxforge.com/pasighat/</loc>
     <lastmod>2026-09-28</lastmod>
     <priority>0.7</priority>
   </url>
@@ -3626,11 +3626,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://remaxforge.com/tawang/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://remaxforge.com/tech-info/chemical-composition/</loc>
     <lastmod>2026-09-28</lastmod>
     <priority>0.7</priority>
@@ -3742,11 +3737,6 @@
   </url>
   <url>
     <loc>https://remaxforge.com/wokha/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://remaxforge.com/ziro/</loc>
     <lastmod>2026-09-28</lastmod>
     <priority>0.7</priority>
   </url>
