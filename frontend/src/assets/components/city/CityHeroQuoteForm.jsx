@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, ChevronLeft, Upload, ShieldCheck, Clock } from 'lucide-react';
+import api from '../../services/api.js';
 
 const CityHeroQuoteForm = ({ city, state, pageUrl }) => {
   const [step, setStep] = useState(1);
@@ -32,18 +33,31 @@ const CityHeroQuoteForm = ({ city, state, pageUrl }) => {
     setStep(2);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (formData.website) {
       // Honeypot hit
       return;
     }
     setLoading(true);
-    // Simulate submission / send to API
-    setTimeout(() => {
+
+    try {
+      await api.post('/contact', {
+        name: formData.name,
+        company: formData.company || 'Not Provided',
+        email: formData.email,
+        phone: formData.phone,
+        location: formData.delivery_location || city,
+        product_name: `${formData.product} (${formData.size_class || 'Standard'})`,
+        message: `[CITY HERO RFQ - ${city}${state ? ', ' + state : ''}]\nProduct: ${formData.product}\nSize / Pressure Class: ${formData.size_class}\nGrade: ${formData.grade}\nQuantity: ${formData.quantity}\nDelivery Location: ${formData.delivery_location || city}\nNotes: ${formData.message || 'None'}`,
+        page_url: pageUrl || window.location.href
+      });
+    } catch (err) {
+      console.error('City RFQ submission error:', err);
+    } finally {
       setLoading(false);
       setSubmitted(true);
-    }, 600);
+    }
   };
 
   if (submitted) {

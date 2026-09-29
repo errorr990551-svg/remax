@@ -17,6 +17,7 @@ const FloatingQuoteButton = () => {
   const openQuotePopup = quotePopupContext?.openQuotePopup;
   const quoteContextProduct = quotePopupContext?.quoteProduct;
 
+  const [errorMessage, setErrorMessage] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     company: '',
@@ -29,6 +30,7 @@ const FloatingQuoteButton = () => {
 
   const handleOpen = () => {
     setIsOpen(true);
+    setErrorMessage('');
     if (openQuotePopup) openQuotePopup();
     // Push GTM event for quote_form_open per Sheet 10 #5
     if (window.dataLayer) {
@@ -40,12 +42,16 @@ const FloatingQuoteButton = () => {
   };
 
   const handleClose = () => {
+    localStorage.setItem('remax_rfq_popup_dismissed', 'true');
+    sessionStorage.setItem('remax_rfq_popup_dismissed', 'true');
     setIsOpen(false);
+    setErrorMessage('');
     if (closeQuotePopup) closeQuotePopup();
     setSubmitted(false);
   };
 
   const handleChange = (e) => {
+    setErrorMessage('');
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
@@ -55,6 +61,7 @@ const FloatingQuoteButton = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+    setErrorMessage('');
 
     const productName = quoteContextProduct || pathname.split('/').filter(Boolean).pop() || 'General Inquiry';
     const payload = {
@@ -95,6 +102,7 @@ const FloatingQuoteButton = () => {
 
     } catch (err) {
       console.error('RFQ Submission Error:', err);
+      setErrorMessage(err.response?.data?.message || 'Failed to submit quote request. Please try again or contact sales@remaxforge.com directly.');
     } finally {
       setLoading(false);
     }
@@ -225,6 +233,12 @@ const FloatingQuoteButton = () => {
                       className="w-full px-3 py-2 text-xs rounded-lg border border-slate-300 focus:border-[#D71920] outline-none"
                     ></textarea>
                   </div>
+
+                  {errorMessage && (
+                    <div className="p-2.5 bg-red-50 border border-red-200 rounded-lg text-red-600 text-xs text-center font-medium">
+                      {errorMessage}
+                    </div>
+                  )}
 
                   <button
                     type="submit"

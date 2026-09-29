@@ -64,6 +64,29 @@ export const QuotePopupProvider = ({ children }) => {
     };
   }, []);
 
+  // Auto-show Instant RFQ Popup for first-time visitors (Home page or any other landing page)
+  useEffect(() => {
+    const isDismissed =
+      localStorage.getItem("remax_rfq_popup_dismissed") === "true" ||
+      sessionStorage.getItem("remax_rfq_popup_dismissed") === "true";
+
+    const path = window.location.pathname.toLowerCase();
+    const isExcluded = path.includes("/thank-you") || path.includes("/contact");
+
+    if (!isDismissed && !isExcluded) {
+      const timer = setTimeout(() => {
+        const stillNotDismissed =
+          localStorage.getItem("remax_rfq_popup_dismissed") === "true" ||
+          sessionStorage.getItem("remax_rfq_popup_dismissed") === "true";
+        if (!stillNotDismissed) {
+          openQuotePopup();
+        }
+      }, 3000); // 3 seconds delay for smooth page experience
+
+      return () => clearTimeout(timer);
+    }
+  }, []);
+
   return (
     <QuotePopupContext.Provider
       value={{

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, ShieldCheck, Clock, FileText, Send } from 'lucide-react';
+import api from '../../services/api.js';
 
 const CityFullRfqForm = ({ city, state, pageUrl }) => {
   const [formData, setFormData] = useState({
@@ -36,14 +37,29 @@ const CityFullRfqForm = ({ city, state, pageUrl }) => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (formData.website) return;
     setLoading(true);
-    setTimeout(() => {
+
+    try {
+      await api.post('/contact', {
+        name: formData.name,
+        company: formData.company || 'Not Provided',
+        email: formData.email,
+        phone: formData.phone,
+        location: formData.delivery_location || city,
+        product_name: `${formData.product} (${formData.size_class || 'Standard'})`,
+        standard: formData.standard,
+        message: `[CITY FULL RFQ - ${city}${state ? ', ' + state : ''}]\nProduct: ${formData.product}\nSize/Class: ${formData.size_class}\nGrade: ${formData.grade}\nFacing: ${formData.facing}\nStandard: ${formData.standard}\nRequired By: ${formData.required_by || 'Standard'}\nTesting / Certification: ${formData.testing.join(', ') || 'Standard MTC'}\nDelivery Location: ${formData.delivery_location || city}\nNotes: ${formData.message || 'None'}`,
+        page_url: pageUrl || window.location.href
+      });
+    } catch (err) {
+      console.error('Full RFQ submission error:', err);
+    } finally {
       setLoading(false);
       setSubmitted(true);
-    }, 600);
+    }
   };
 
   if (submitted) {

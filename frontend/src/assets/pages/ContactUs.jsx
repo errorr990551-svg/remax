@@ -36,7 +36,10 @@ const ContactUs = () => {
     setLoading(true);
 
     try {
-      const response = await api.post("/contact", formData);
+      const response = await api.post("/contact", {
+        ...formData,
+        page_url: window.location.href,
+      });
       
       // Google Ads Conversion Tracking
       if (window.gtag) {
@@ -196,6 +199,7 @@ const ContactUs = () => {
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700"
                     placeholder="+91 XXXXX XXXXX"
+                    required
                   />
                 </div>
               </div>

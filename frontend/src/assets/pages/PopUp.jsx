@@ -51,6 +51,8 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
   const handleClose = () => {
     localStorage.setItem('remax_popup_dismissed', 'true');
     sessionStorage.setItem('remax_popup_dismissed', 'true');
+    localStorage.setItem('remax_rfq_popup_dismissed', 'true');
+    sessionStorage.setItem('remax_rfq_popup_dismissed', 'true');
     setIsVisible(false);
     if (onClose) onClose();
   };

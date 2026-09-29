@@ -32,9 +32,10 @@ const BrochureGating = () => {
           page_path: '/brochure/'
         });
       }
-
+    } catch (err) {
+      console.error('Brochure request error:', err);
+    } finally {
       setDownloadStarted(true);
-
       // Trigger automatic download of brochure PDF
       const link = document.createElement('a');
       link.href = '/remax-forge-fittings-brochure.pdf';
@@ -42,10 +43,6 @@ const BrochureGating = () => {
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
-
-    } catch (err) {
-      console.error('Brochure request error:', err);
-    } finally {
       setLoading(false);
     }
   };

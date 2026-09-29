@@ -9,6 +9,7 @@ const ExitIntentModal = () => {
   const [submitted, setSubmitted] = useState(false);
   const { pathname } = useLocation();
 
+  const [errorMessage, setErrorMessage] = useState('');
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -60,13 +61,14 @@ const ExitIntentModal = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+    setErrorMessage('');
 
     const payload = {
       name: formData.name,
       email: formData.email,
       phone: formData.phone,
       company: formData.company,
-      message: `[EXIT INTENT SPEC SHEET UPLOAD] Spec file: ${formData.fileName || 'None specified'}. Additional Notes: ${formData.notes}`,
+      message: `[EXIT INTENT SPEC SHEET UPLOAD] Spec file: ${formData.fileName || 'None specified'}. Additional Notes: ${formData.notes || 'None'}`,
       page_url: window.location.href
     };
 
@@ -89,6 +91,7 @@ const ExitIntentModal = () => {
       }, 3000);
     } catch (err) {
       console.error('Exit intent submission error:', err);
+      setErrorMessage(err.response?.data?.message || 'Failed to submit. Please contact sales@remaxforge.com directly.');
     } finally {
       setLoading(false);
     }
@@ -189,6 +192,12 @@ const ExitIntentModal = () => {
                 onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                 className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg outline-none focus:border-[#D71920]"
               ></textarea>
+
+              {errorMessage && (
+                <div className="p-2.5 bg-red-50 border border-red-200 rounded-lg text-red-600 text-xs text-center font-medium">
+                  {errorMessage}
+                </div>
+              )}
 
               <button
                 type="submit"

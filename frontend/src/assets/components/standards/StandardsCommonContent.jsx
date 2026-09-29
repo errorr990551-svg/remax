@@ -13,19 +13,24 @@ const StandardsCommonContent = ({ standard }) => {
   });
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+    setErrorMessage('');
     try {
       await api.post('/contact', {
         ...formData,
+        message: `[STANDARD INQUIRY - ${standard.name}] Requirements: ${formData.requirements}`,
         standard: standard.name,
+        product_name: standard.name,
         page_url: window.location.href
       });
       setSubmitted(true);
     } catch (err) {
       console.error(err);
+      setErrorMessage(err.response?.data?.message || 'Failed to submit inquiry. Please try again or contact sales@remaxforge.com directly.');
     } finally {
       setLoading(false);
     }
@@ -202,6 +207,13 @@ const StandardsCommonContent = ({ standard }) => {
                 onChange={(e) => setFormData({ ...formData, requirements: e.target.value })}
                 className="w-full p-3 text-sm bg-white rounded-lg border border-slate-300 focus:border-[#D71920] outline-none"
               ></textarea>
+
+              {errorMessage && (
+                <div className="p-3 bg-red-50 border border-red-200 rounded-lg text-red-600 text-xs font-medium text-center">
+                  {errorMessage}
+                </div>
+              )}
+
               <button
                 type="submit"
                 disabled={loading}
