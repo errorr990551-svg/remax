@@ -161,14 +161,9 @@ const ContactUs = () => {
                       Show Email Details
                     </button>
                   ) : (
-                    <>
-                      <p className="text-slate-600 mb-1">
-                        <a href="mailto:info@remaxforge.com" className="hover:text-[#D71920] transition-colors">info@remaxforge.com</a>
-                      </p>
-                      <p className="text-slate-600">
-                        <a href="mailto:sales@remaxforge.com" className="hover:text-[#D71920] transition-colors">sales@remaxforge.com</a>
-                      </p>
-                    </>
+                    <p className="text-slate-600">
+                      <a href="mailto:sales@remaxforge.com" className="hover:text-[#D71920] transition-colors">sales@remaxforge.com</a>
+                    </p>
                   )}
                 </div>
               </div>

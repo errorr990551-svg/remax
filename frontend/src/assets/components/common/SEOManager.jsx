@@ -146,7 +146,7 @@ const SEOManager = () => {
       'logo': `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`,
       'description': 'ISO 9001:2015 certified manufacturer of forged flanges, buttweld fittings and pipe fittings in Mumbai, India. Exporting to 45+ countries.',
       'foundingDate': '2004',
-      'email': 'info@remaxforge.com',
+      'email': 'sales@remaxforge.com',
       'address': {
         '@type': 'PostalAddress',
         'streetAddress': '135, New Madhav Baug, C.P. Tank Road, Marine Lines',

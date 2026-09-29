@@ -160,10 +160,7 @@ const Footer = () => {
                       Show Email Details
                     </button>
                   ) : (
-                    <>
-                      <a href="mailto:info@remaxforge.com" className="hover:text-white transition-colors block">info@remaxforge.com</a>
-                      <a href="mailto:sales@remaxforge.com" className="hover:text-white transition-colors block">sales@remaxforge.com</a>
-                    </>
+                    <a href="mailto:sales@remaxforge.com" className="hover:text-white transition-colors block">sales@remaxforge.com</a>
                   )}
                 </div>
               </li>
