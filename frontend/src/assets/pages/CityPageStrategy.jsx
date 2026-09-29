@@ -21,6 +21,32 @@ import { cityStrategyData } from '../data/cityStrategyData.js';
 import CityHeroQuoteForm from '../components/city/CityHeroQuoteForm.jsx';
 import CityFullRfqForm from '../components/city/CityFullRfqForm.jsx';
 
+const clientLogos = [
+  "/images/1.webp", "/images/3.webp", "/images/4.webp", "/images/5.webp", "/images/6.webp", "/images/8.webp", "/images/9.webp", "/images/10.webp", "/images/11.svg", "/images/12.webp", "/images/13.webp", "/images/14.webp", "/images/15.webp", "/images/16.webp", "/images/17.webp", "/images/19.webp", "/images/c2.webp", "/images/Adani_2012_logo.webp", "/images/air-products-logo.webp", "/images/Arcelor_Mittal.svg.webp", "/images/BHEL_logo.svg.webp", "/images/bhilosa.webp", "/images/deccan.webp", "/images/deepak-chem-tech.webp", "/images/DESMET.jpg.webp", "/images/gardner-denver.webp", "/images/gnfc.webp", "/images/godrej-logo.jpg.webp", "/images/gujrat-state-fertilizers.webp", "/images/Hindustan-Petroleum.webp", "/images/indian-oil.jpg.webp", "/images/isrro.jpg.webp", "/images/jindal-steel.webp", "/images/jsw.webp", "/images/larsen.webp", "/images/linde.webp", "/images/nrl-og-logo.webp", "/images/ongc.webp", "/images/paharpur.webp", "/images/pidilite-logo.jpg.webp", "/images/Praj.jpg.webp", "/images/Shree_Renuka_Sugars.jpg.webp", "/images/tata-steel.jpg.webp", "/images/thyssenkurpp.webp", "/images/upl.webp", "/images/wipro-logo-300x300.webp"
+];
+
+const getClientAltText = (logoPath) => {
+  const filename = logoPath.split('/').pop().split('.')[0];
+  let name = filename
+    .replace(/[-_]logo/gi, '')
+    .replace(/_\d+/g, '')
+    .replace(/-\d+x\d+/g, '')
+    .replace(/[_-]/g, ' ');
+  name = name.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+  
+  if (name === "Bhel") return "BHEL";
+  if (name === "Isrro") return "ISRO";
+  if (name === "Gnfc") return "GNFC";
+  if (name === "Ongc") return "ONGC";
+  if (name === "Upl") return "UPL";
+  if (name === "Jsw") return "JSW";
+  
+  if (/^\d+$/.test(name)) {
+    return "Industrial Partner";
+  }
+  return name;
+};
+
 const CityPageStrategy = ({ forcedKey }) => {
   const { cityName } = useParams();
   
@@ -84,6 +110,20 @@ const CityPageStrategy = ({ forcedKey }) => {
 
   return (
     <main className="w-full bg-slate-50 font-sans text-slate-800">
+      <style>
+        {`
+          @keyframes infinite-scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+          }
+          .animate-infinite-scroll {
+            animation: infinite-scroll 35s linear infinite;
+          }
+          .animate-infinite-scroll:hover {
+            animation-play-state: paused;
+          }
+        `}
+      </style>
       
       {/* 1.0 Breadcrumb Navigation */}
       <div className="bg-slate-100 border-b border-slate-200">
@@ -513,6 +553,32 @@ const CityPageStrategy = ({ forcedKey }) => {
                 </div>
               </div>
             )}
+
+            {pageData.state === "Arunachal Pradesh" && (
+              <div className="mt-6 pt-6 border-t border-slate-100">
+                <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-3">
+                  Other Active Supply Hubs in Arunachal Pradesh:
+                </span>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    { name: 'Itanagar', url: '/itanagar/' },
+                    { name: 'Naharlagun', url: '/naharlagun/' },
+                    { name: 'Pasighat', url: '/pasighat/' },
+                    { name: 'Tawang', url: '/tawang/' },
+                    { name: 'Ziro', url: '/ziro/' },
+                    { name: 'Arunachal Pradesh State Hub', url: '/market-area/arunachal-pradesh/' }
+                  ].filter(c => c.name !== pageData.city && !pageData.city.includes(c.name)).map((item, cIdx) => (
+                    <Link
+                      key={cIdx}
+                      to={item.url}
+                      className="text-xs font-semibold bg-slate-50 hover:bg-red-50 text-slate-700 hover:text-[#D71920] border border-slate-200 hover:border-red-200 px-3 py-1.5 rounded-lg transition"
+                    >
+                      {item.name}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         </div>
       </section>
@@ -541,49 +607,101 @@ const CityPageStrategy = ({ forcedKey }) => {
         </div>
       </section>
 
-      {/* 12.0 FAQs Section (All answers in HTML on load) */}
-      <section className="py-14 bg-white border-b border-slate-200">
+      {/* Clients Infinite Scroll */}
+      <div className="py-16 sm:py-20 bg-white border-b border-slate-200 overflow-hidden">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-10 text-center">
+          <span className="text-xs font-bold uppercase tracking-wider text-[#D71920] block mb-2">
+            Trusted By Engineering Leaders
+          </span>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#0F172A] mb-3">
+            Our Clients & Supply Network
+          </h2>
+          <div className="h-1 w-20 mx-auto rounded bg-[#D71920]"></div>
+        </div>
+        <div className="relative w-full overflow-hidden">
+          <div className="flex w-max animate-infinite-scroll">
+            <div className="flex gap-16 px-8 items-center">
+              {clientLogos.map((logo, index) => (
+                <div key={`logo-1-${index}`} className="flex-shrink-0 w-32 h-20 flex items-center justify-center">
+                  <img 
+                    src={logo} 
+                    alt={`${getClientAltText(logo)} logo — supplier to ${pageData.city}`} 
+                    loading="lazy" 
+                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300" 
+                  />
+                </div>
+              ))}
+            </div>
+            <div className="flex gap-16 px-8 items-center">
+              {clientLogos.map((logo, index) => (
+                <div key={`logo-2-${index}`} className="flex-shrink-0 w-32 h-20 flex items-center justify-center">
+                  <img 
+                    src={logo} 
+                    alt={`${getClientAltText(logo)} logo — supplier to ${pageData.city}`} 
+                    loading="lazy" 
+                    className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300" 
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* 12.0 FAQs Section */}
+      <section className="py-20 sm:py-24 bg-slate-50 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mb-8">
-            <span className="text-xs font-bold uppercase tracking-wider text-[#D71920] block mb-1">
+          <div className="text-center mb-12 sm:mb-16">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#D71920] block mb-2">
               Common Questions & Clarifications
             </span>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-2">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] mb-4">
               {getSec(12.0)?.heading || `Frequently Asked Questions by ${pageData.city} Buyers`}
             </h2>
-            <p className="text-sm text-slate-600">
+            <div className="h-1 w-20 mx-auto rounded bg-[#D71920] mb-4"></div>
+            <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
               Detailed answers covering technical specifications, testing certifications, transit times, and commercial terms for {pageData.city}.
             </p>
           </div>
 
-          <div className="max-w-3xl space-y-3">
-            {pageData.faqs?.map((faq, idx) => (
-              <div 
-                key={idx} 
-                className="border border-slate-200 rounded-xl overflow-hidden bg-slate-50 transition"
-              >
-                <button
-                  type="button"
-                  onClick={() => toggleFaq(idx)}
-                  className="w-full text-left px-5 py-4 font-bold text-slate-900 text-sm sm:text-base flex items-center justify-between gap-4 hover:bg-slate-100 transition"
-                >
-                  <span>{faq.question}</span>
-                  {openFaq === idx ? (
-                    <ChevronUp size={18} className="text-[#D71920] shrink-0" />
-                  ) : (
-                    <ChevronDown size={18} className="text-slate-400 shrink-0" />
-                  )}
-                </button>
-                {/* HTML content is present on page load */}
+          <div className="max-w-4xl mx-auto space-y-4">
+            {pageData.faqs?.map((faq, idx) => {
+              const isOpen = openFaq === idx;
+              return (
                 <div 
-                  className={`px-5 pb-4 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-200/50 pt-3 ${
-                    openFaq === idx ? 'block' : 'hidden sm:block sm:opacity-90'
+                  key={idx} 
+                  className={`bg-white rounded-lg shadow-sm border transition-all duration-300 ${
+                    isOpen ? 'border-[#D71920] ring-1 ring-[#D71920]' : 'border-slate-200 hover:border-slate-300'
                   }`}
                 >
-                  <p>{faq.answer}</p>
+                  <button
+                    type="button"
+                    onClick={() => toggleFaq(idx)}
+                    className="w-full text-left p-6 flex items-center justify-between gap-4 group cursor-pointer"
+                  >
+                    <h3 className={`text-base sm:text-lg font-bold transition-colors ${
+                      isOpen ? 'text-[#D71920]' : 'text-[#0F172A] group-hover:text-[#D71920]'
+                    }`}>
+                      {faq.question}
+                    </h3>
+                    <div className={`shrink-0 transition-transform duration-300 ${
+                      isOpen ? 'rotate-180 text-[#D71920]' : 'text-slate-400 group-hover:text-[#D71920]'
+                    }`}>
+                      <ChevronDown size={24} />
+                    </div>
+                  </button>
+                  <div 
+                    className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                      isOpen ? 'max-h-[600px] opacity-100 pb-6 px-6' : 'max-h-0 opacity-0'
+                    }`}
+                  >
+                    <p className="text-slate-600 leading-relaxed pt-3 border-t border-slate-100 whitespace-pre-line text-sm sm:text-base">
+                      {faq.answer.trim()}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

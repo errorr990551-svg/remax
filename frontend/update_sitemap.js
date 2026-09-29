@@ -51,7 +51,7 @@ function generateSitemap() {
     }
 
     // 2. Add commercial flange pages, city pages, export hubs & export cities
-    const redirectedCities = ['naharlagun', 'pasighat', 'tawang', 'ziro'];
+    const redirectedCities = [];
     const newFlangeRoutes = Object.keys(newFlangePagesData).map(normalizeUrl);
     const cityRoutes = keptCities
       .filter(city => !redirectedCities.includes(city.toLowerCase()))

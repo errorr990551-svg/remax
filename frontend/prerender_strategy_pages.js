@@ -68,6 +68,10 @@ const targetUrls = [
   '/nellore/',
   '/kurnool/',
   '/itanagar/',
+  '/naharlagun/',
+  '/pasighat/',
+  '/tawang/',
+  '/ziro/',
   '/market-area/andhra-pradesh/',
   '/market-area/arunachal-pradesh/',
   '/market-area/'

@@ -3525,5 +3525,1561 @@ export const cityStrategyData = {
         "url": "/products/flanges/"
       }
     ]
+  },
+  "naharlagun": {
+    "slug": "naharlagun",
+    "url": "/naharlagun/",
+    "transit": "7-10 days",
+    "price_bands": "ASTM A105 carbon steel: ₹115–140/kg; SS 304L/316L: ₹380–580/kg; Galvanised / AWWA: ₹130–165/kg",
+    "state": "Arunachal Pradesh",
+    "state_hub_url": "/market-area/arunachal-pradesh/",
+    "city": "Naharlagun",
+    "floor": 500,
+    "photo": {
+      "id": "P13",
+      "src": "/images/why.jpeg",
+      "caption": "Packed for long mountain road and rail freight to Naharlagun terminal.",
+      "alt": "Flanges crated and palletised for Naharlagun transport"
+    },
+    "video": {
+      "id": "V6",
+      "title": "Packing and Dispatch for Northeast Corridors",
+      "duration": "1:20",
+      "transcript": "Dispatch protocols: Protective wooden pallets, rust-preventive heavy oil coating, and individual plastic flange cap protection for long-distance transport to Naharlagun and Papum Pare projects."
+    },
+    "name": "Naharlagun",
+    "canonical": "https://remaxforge.com/naharlagun/",
+    "title": "Flange Supplier in Naharlagun | Flanges Manufacturer",
+    "meta_desc": "Flanges for Naharlagun hospital, public-building and fire-fighting projects, shipped from Mumbai with heat-traceable certificates. Written quotes.",
+    "h1": "Flange Supplier in Naharlagun",
+    "subline": "Flanges for Naharlagun hospital, public-building and fire-fighting projects, shipped from Mumbai with heat-traceable certificates.",
+    "sections": [
+      {
+        "sec_num": "1.0",
+        "sec_name": "Breadcrumb",
+        "element": "Breadcrumb trail",
+        "heading": "",
+        "copy": "Home › Areas We Supply › Arunachal Pradesh › Naharlagun",
+        "dev_note": "JSON-LD BreadcrumbList"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "H1",
+        "heading": "",
+        "copy": "Flange Supplier in Naharlagun",
+        "dev_note": "H1 tag"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "Subline",
+        "heading": "",
+        "copy": "Flanges for Naharlagun hospital, public-building and fire-fighting projects, shipped from Mumbai with heat-traceable certificates.",
+        "dev_note": "Subline below H1"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "Form A copy",
+        "heading": "",
+        "copy": "Remax Forge is an ISO 9001:2015 certified manufacturer of forged steel flanges in Mumbai supplying engineering contractors, fabricators, and institutions across Naharlagun and the Papum Pare district. We supply hospital HVAC and fire-fighting piping, public infrastructure, and rail-linked cargo consignments. Upload your BOQ or required sizes for an itemized written quote within one working day.",
+        "dev_note": "Intro above Form A"
+      },
+      {
+        "sec_num": "4.0",
+        "sec_name": "Local demand",
+        "element": "H2 + lead",
+        "heading": "Where Flanges Are Used in Naharlagun — Healthcare, Public Infrastructure and Rail Logistics",
+        "copy": "Naharlagun serves as the commercial hub and primary railway gateway for Arunachal Pradesh. Local piping demand centres on healthcare complexes like TRIHMS, institutional HVAC and fire mains, and municipal water pumping infrastructure.",
+        "dev_note": "Intro before local demand table"
+      },
+      {
+        "sec_num": "5.0",
+        "sec_name": "Materials guidance",
+        "element": "H2 + body",
+        "heading": "Choosing Flange Materials for Naharlagun Public Buildings, HVAC and Fire Mains",
+        "copy": "Fire-fighting ring mains in public and institutional buildings typically specify ASTM A105 carbon steel weld neck or slip-on flanges, often hot-dip galvanized to withstand high subtropical humidity. For hospital chilled water and central HVAC plant rooms, Class 150 and PN16 flanges machined to EN 1092-1 or ASME B16.5 ensure reliable leak-free performance under continuous operational cycles.",
+        "dev_note": "Materials guidance section"
+      },
+      {
+        "sec_num": "6.0",
+        "sec_name": "Product range",
+        "element": "H2 + intro",
+        "heading": "Flange Types We Supply to Naharlagun",
+        "copy": "Carbon steel ASTM A105, hot-dip galvanized, and stainless steel flanges are forged and machined in our Mumbai facility and dispatched to Naharlagun with heat-traceable EN 10204 3.1 material test certificates.",
+        "dev_note": "Product range intro"
+      },
+      {
+        "sec_num": "8.0",
+        "sec_name": "Delivery & documents",
+        "element": "H2 + body",
+        "heading": "Delivery to Naharlagun by Road and Rail Freight",
+        "copy": "Consignments depart Mumbai by road via Guwahati directly to Naharlagun, or by consolidated rail freight to the Naharlagun terminal. Transit typically takes 7-10 days after dispatch. Every shipment travels with a GST tax invoice (IGST), an electronic e-way bill, packing lists, and certified mill test reports.",
+        "dev_note": "Delivery section"
+      },
+      {
+        "sec_num": "9.0",
+        "sec_name": "Price guidance",
+        "element": "H2 + body",
+        "heading": "Flange Prices for Naharlagun Delivery",
+        "copy": "Flange pricing is determined by material grade, pressure rating, and machining specifications: ASTM A105 carbon steel: ₹115–140/kg; SS 304L/316L: ₹380–580/kg; Galvanised / AWWA: ₹130–165/kg. Road or rail freight to Naharlagun is itemized transparently as a separate line on your quote.",
+        "dev_note": "Price guidance"
+      },
+      {
+        "sec_num": "10.0",
+        "sec_name": "Areas served",
+        "element": "H2 + body",
+        "heading": "Areas We Deliver in and Around Naharlagun",
+        "copy": "We deliver directly to sites across Naharlagun township, the TRIHMS hospital campus, Model Village, Nirjuli, Banderdewa border checkpoint, Doimukh, and throughout Papum Pare district.",
+        "dev_note": "Areas served"
+      },
+      {
+        "sec_num": "11.0",
+        "sec_name": "Request a quote",
+        "element": "H2 + intro",
+        "heading": "Request a Written Quote for Naharlagun Delivery",
+        "copy": "Send your size list, pressure ratings, and project specifications through our full RFQ form below for a line-by-line quote within one working day.",
+        "dev_note": "RFQ section intro"
+      },
+      {
+        "sec_num": "12.0",
+        "sec_name": "FAQs",
+        "element": "H2",
+        "heading": "Flange Questions from Naharlagun Buyers",
+        "copy": "Common questions about flange specifications, hospital deliveries, and transport options to Naharlagun.",
+        "dev_note": "FAQ heading"
+      },
+      {
+        "sec_num": "13.0",
+        "sec_name": "Related pages",
+        "element": "H2",
+        "heading": "Related Flange & Area Pages",
+        "copy": "Explore Arunachal Pradesh supply networks and technical specifications.",
+        "dev_note": "Related links section"
+      },
+      {
+        "sec_num": "14.0",
+        "sec_name": "Bottom CTA",
+        "element": "H2 + body",
+        "heading": "Need Forged Flanges Delivered to Naharlagun?",
+        "copy": "Upload your BOQ or drawing for an itemized written quote from our Mumbai manufacturing works within one working day.",
+        "dev_note": "Bottom CTA"
+      }
+    ],
+    "shared_sections": {
+      "3.0": {
+        "sec_num": "3.0",
+        "sec_name": "Trust strip",
+        "element": "Band under the hero (no heading)",
+        "heading": "",
+        "copy": "GSTIN 27FFLPP0007K1ZA (verify on the GST portal) · GST-registered since 2020 · Proprietorship led by Vikas Purohit, CEO · Manufacturing unit in Mumbai, Maharashtra C.P Tank Road, Marine Lines, Mumbai · ISO 9001:2015 certified quality management system · Written quotes by email, no calls needed",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "7.0": {
+        "sec_num": "7.0",
+        "sec_name": "Manufacturing & QA",
+        "element": "H2 + P + photo + video",
+        "heading": "How every flange is made and checked",
+        "copy": "Every flange starts as a certified billet or bar whose heat number follows it through cutting, forging, heat treatment where the material specification requires it, CNC machining and drilling, and final marking of grade, class, size and heat number. Before dispatch we check dimensions against the governing standard and PMI, hardness, and ultrasonic testing, and issue material test certificates that tie each flange back to its heat. Buyer-nominated third-party inspection can witness any stage.",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "11.0": {
+        "sec_num": "11.0",
+        "sec_name": "Request a quote",
+        "element": "H2 + P + Form B (id=\"rfq\")",
+        "heading": "Request a written quote",
+        "copy": "A quote-ready enquiry lists: flange type · nominal size (NPS or DN) · pressure class or PN · facing (RF, FF or RTJ) · material specification and grade · bore or schedule for weld neck flanges · quantity · delivery location · testing and certificate needs (NACE, impact test, EN 10204 3.1/3.2, third-party inspection). Upload a BOQ or drawing and we will read it for you.",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "14.0": {
+        "sec_num": "14.0",
+        "sec_name": "Final CTA",
+        "element": "CTA band + button 'Get a written quote' → #rfq",
+        "heading": "",
+        "copy": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email within one working day. No phone calls needed - everything is in writing.",
+        "dev_note": "Edit here only - page rows reference this row."
+      }
+    },
+    "local_demand_table": [
+      {
+        "industry": "Healthcare & Institutional",
+        "local_sites": "TRIHMS (Tomo Riba Institute) & Capital Complex",
+        "where_used": "HVAC chilled water & medical gas auxiliary lines",
+        "specified": "ASTM A105 Weld Neck & Slip-On Class 150/300"
+      },
+      {
+        "industry": "Public Utilities & Fire Protection",
+        "local_sites": "Capital Administration & Public Buildings",
+        "where_used": "Fire hydrants, deluge loops, and pump rooms",
+        "specified": "Galvanized & Carbon Steel Flanges PN16 / Class 150"
+      },
+      {
+        "industry": "Railway Infrastructure",
+        "local_sites": "Naharlagun Railway Station & Freight Terminal",
+        "where_used": "Maintenance yard fuel lines & water delivery mains",
+        "specified": "ASME B16.5 Forged Steel Flanges"
+      },
+      {
+        "industry": "Municipal Water Infrastructure",
+        "local_sites": "Papum Pare PHE Water Supply Schemes",
+        "where_used": "Pumping stations & gravity distribution lines",
+        "specified": "EN 1092-1 PN10/PN16 & IS 6392 Plate Flanges"
+      }
+    ],
+    "product_range_table": [
+      {
+        "type": "Weld Neck Flange",
+        "url": "/products/flanges/weld-neck-flange/",
+        "typical_use": "High-pressure HVAC and pump discharge piping"
+      },
+      {
+        "type": "Slip-On Flange",
+        "url": "/products/flanges/slip-on-flange/",
+        "typical_use": "Fire-fighting ring mains and building water lines"
+      },
+      {
+        "type": "Blind Flange",
+        "url": "/products/flanges/blind-flange/",
+        "typical_use": "Pipeline end isolation and future expansion stubs"
+      },
+      {
+        "type": "Socket Weld Flange",
+        "url": "/products/flanges/socket-weld-flange/",
+        "typical_use": "Small-bore utility, chemical and steam connections"
+      },
+      {
+        "type": "Threaded Flange",
+        "url": "/products/flanges/threaded-flange/",
+        "typical_use": "Low-pressure lines where on-site welding is restricted"
+      },
+      {
+        "type": "Spectacle Blind Flange",
+        "url": "/products/flanges/spectacle-blind-flange/",
+        "typical_use": "Positive isolation during plant maintenance"
+      },
+      {
+        "type": "Large-Diameter Flange",
+        "url": "/products/flanges/",
+        "typical_use": "Water intake pipelines up to 48 inches"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can you deliver to hospital sites in Naharlagun?",
+        "answer": "Yes. We deliver directly to hospital projects, including TRIHMS (Tomo Riba Institute of Health & Medical Sciences) and public health facilities in Naharlagun. Flanges are supplied with heat-traceable EN 10204 3.1 inspection certificates matching design codes."
+      },
+      {
+        "question": "Is rail freight to Naharlagun an option?",
+        "answer": "Yes. Consolidated shipments from Mumbai can be routed via the Naharlagun railway station (the primary railhead serving the capital complex) or direct road transport via Guwahati depending on delivery urgency."
+      },
+      {
+        "question": "Do you supply fire-fighting flanges?",
+        "answer": "Yes. We manufacture and supply ASTM A105 carbon steel and hot-dip galvanized flanges drilled to Class 150, Class 300, and PN16 standards specifically for fire-fighting ring mains and HVAC plant rooms."
+      },
+      {
+        "question": "Do you have a stockist in Naharlagun?",
+        "answer": "No. Remax Forge manufactures in Mumbai and ships factory-direct to your site in Naharlagun, eliminating distributor margins and ensuring direct technical support with the forge."
+      },
+      {
+        "question": "How long does delivery from Mumbai to Naharlagun take?",
+        "answer": "Transit by road from Mumbai via Guwahati to Naharlagun typically takes 7-10 days after dispatch. We provide dispatch tracking and all necessary e-way bill documents."
+      },
+      {
+        "question": "What documentation is provided with Naharlagun consignments?",
+        "answer": "Every consignment travels with a GST tax invoice with IGST, generated e-way bill, packing list, and EN 10204 3.1 inspection test certificates linking each flange to its heat number."
+      }
+    ],
+    "related_links": [
+      {
+        "anchor": "Arunachal Pradesh Statewide Supply Hub",
+        "url": "/market-area/arunachal-pradesh/"
+      },
+      {
+        "anchor": "Itanagar Capital Region Flange Supply",
+        "url": "/itanagar/"
+      },
+      {
+        "anchor": "Weld Neck Flanges Specification",
+        "url": "/products/flanges/weld-neck-flange/"
+      },
+      {
+        "anchor": "Slip-On Flanges Range",
+        "url": "/products/flanges/slip-on-flange/"
+      },
+      {
+        "anchor": "National Supply Areas Index",
+        "url": "/market-area/"
+      }
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://remaxforge.com/naharlagun/#webpage",
+          "url": "https://remaxforge.com/naharlagun/",
+          "name": "Flange Supplier in Naharlagun | Flanges Manufacturer",
+          "description": "Flanges for Naharlagun hospital, public-building and fire-fighting projects, shipped from Mumbai with heat-traceable certificates. Written quotes.",
+          "breadcrumb": {
+            "@id": "https://remaxforge.com/naharlagun/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://remaxforge.com/naharlagun/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://remaxforge.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Areas We Supply",
+              "item": "https://remaxforge.com/market-area/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Arunachal Pradesh",
+              "item": "https://remaxforge.com/market-area/arunachal-pradesh/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Naharlagun",
+              "item": "https://remaxforge.com/naharlagun/"
+            }
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://remaxforge.com/naharlagun/#service",
+          "name": "Flange supply to Naharlagun",
+          "serviceType": "Industrial flange manufacturing and supply",
+          "provider": {
+            "@type": "Organization",
+            "name": "Remax Forge & Fittings",
+            "url": "https://remaxforge.com/"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "Naharlagun",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Arunachal Pradesh"
+            }
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://remaxforge.com/naharlagun/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Can you deliver to hospital sites in Naharlagun?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We deliver directly to hospital projects, including TRIHMS (Tomo Riba Institute of Health & Medical Sciences) and public health facilities in Naharlagun. Flanges are supplied with heat-traceable EN 10204 3.1 inspection certificates matching design codes."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is rail freight to Naharlagun an option?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Consolidated shipments from Mumbai can be routed via the Naharlagun railway station (the primary railhead serving the capital complex) or direct road transport via Guwahati depending on delivery urgency."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you supply fire-fighting flanges?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We manufacture and supply ASTM A105 carbon steel and hot-dip galvanized flanges drilled to Class 150, Class 300, and PN16 standards specifically for fire-fighting ring mains and HVAC plant rooms."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you have a stockist in Naharlagun?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Remax Forge manufactures in Mumbai and ships factory-direct to your site in Naharlagun, eliminating distributor margins and ensuring direct technical support with the forge."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pasighat": {
+    "slug": "pasighat",
+    "url": "/pasighat/",
+    "transit": "7-10 days",
+    "price_bands": "ASTM A105 carbon steel: ₹115–140/kg; SS 304L/316L: ₹380–580/kg; Galvanised / AWWA: ₹130–165/kg",
+    "state": "Arunachal Pradesh",
+    "state_hub_url": "/market-area/arunachal-pradesh/",
+    "city": "Pasighat",
+    "floor": 500,
+    "photo": {
+      "id": "P14",
+      "src": "/images/why.jpeg",
+      "caption": "Loading consignment for road transit via Guwahati and Dibrugarh to Pasighat.",
+      "alt": "Consignment loaded for East Siang transport"
+    },
+    "video": {
+      "id": "V8",
+      "title": "Mountain Logistics and Dispatch to Arunachal Pradesh",
+      "duration": "1:35",
+      "transcript": "Logistics coordination for mountain transport into Arunachal Pradesh: transit routing via Guwahati and Dibrugarh, transit documentation, and weather scheduling."
+    },
+    "name": "Pasighat",
+    "canonical": "https://remaxforge.com/pasighat/",
+    "title": "Flange Supplier in Pasighat | Flanges Manufacturer",
+    "meta_desc": "Flanges for East Siang water-supply schemes and institutions around Pasighat, shipped from Mumbai with certificates. Written quotes by email.",
+    "h1": "Flange Supplier in Pasighat",
+    "subline": "Flanges for East Siang water-supply schemes and institutions around Pasighat, shipped from Mumbai with certificates.",
+    "sections": [
+      {
+        "sec_num": "1.0",
+        "sec_name": "Breadcrumb",
+        "element": "Breadcrumb trail",
+        "heading": "",
+        "copy": "Home › Areas We Supply › Arunachal Pradesh › Pasighat",
+        "dev_note": "JSON-LD BreadcrumbList"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "H1",
+        "heading": "",
+        "copy": "Flange Supplier in Pasighat",
+        "dev_note": "H1 tag"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "Subline",
+        "heading": "",
+        "copy": "Flanges for East Siang water-supply schemes and institutions around Pasighat, shipped from Mumbai with certificates.",
+        "dev_note": "Subline below H1"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "Form A copy",
+        "heading": "",
+        "copy": "Remax Forge supplies precision-machined forged flanges from Mumbai directly to project sites, PHE water schemes, and institutions across Pasighat and the East Siang district. Consignments are dispatched by road via Guwahati and Dibrugarh with complete heat-traceable mill test certificates. Submit your required sizes for a same-day quotation.",
+        "dev_note": "Intro above Form A"
+      },
+      {
+        "sec_num": "4.0",
+        "sec_name": "Local demand",
+        "element": "H2 + lead",
+        "heading": "Where Flanges Are Used in Pasighat — Water Schemes, Institutions and River Infrastructure",
+        "copy": "Pasighat is the headquarters of East Siang district and the oldest town in Arunachal Pradesh. Local piping demands center on PHE rural and urban water supply networks, flood management embankments along the Siang river, and institutional campuses.",
+        "dev_note": "Intro before local demand table"
+      },
+      {
+        "sec_num": "5.0",
+        "sec_name": "Materials guidance",
+        "element": "H2 + body",
+        "heading": "Selecting Flange Materials for East Siang Water Works and Institutional Schemes",
+        "copy": "For potable water supply and irrigation pumping networks under the Jal Jeevan Mission and PHE Department, EN 1092-1 PN10/PN16 or IS 6392 plate and slip-on flanges are standard. Where galvanized pipe is specified, flanges are hot-dip galvanized after machining to preserve bolt-hole tolerances.",
+        "dev_note": "Materials guidance"
+      },
+      {
+        "sec_num": "6.0",
+        "sec_name": "Product range",
+        "element": "H2 + intro",
+        "heading": "Flange Types We Supply to Pasighat",
+        "copy": "Carbon steel ASTM A105, galvanized MS, and stainless steel flanges forged and machined in Mumbai, delivered to Pasighat sites with MTC 3.1 certificates.",
+        "dev_note": "Product range intro"
+      },
+      {
+        "sec_num": "8.0",
+        "sec_name": "Delivery & documents",
+        "element": "H2 + body",
+        "heading": "Delivery to Pasighat via Guwahati & Dibrugarh",
+        "copy": "Consignments depart Mumbai by road via Guwahati and Dibrugarh to Pasighat, typically taking 7-10 days. Deliveries travel with GST tax invoice, e-way bills, packing lists, and chemical/mechanical test certificates stamped to each heat number.",
+        "dev_note": "Delivery section"
+      },
+      {
+        "sec_num": "9.0",
+        "sec_name": "Price guidance",
+        "element": "H2 + body",
+        "heading": "Flange Prices for Pasighat Delivery",
+        "copy": "Indicative prices Ex-Mumbai works: ASTM A105 carbon steel: ₹115–140/kg; SS 304L/316L: ₹380–580/kg; Galvanised / AWWA: ₹130–165/kg. Freight to Pasighat is itemized as a separate line so landed costs are clear.",
+        "dev_note": "Price guidance"
+      },
+      {
+        "sec_num": "10.0",
+        "sec_name": "Areas served",
+        "element": "H2 + body",
+        "heading": "Areas We Deliver in and Around Pasighat",
+        "copy": "We supply project sites across Pasighat town, Geku, Mebo, Ruksin, Bilat, and surrounding East Siang administrative circles.",
+        "dev_note": "Areas served"
+      },
+      {
+        "sec_num": "11.0",
+        "sec_name": "Request a quote",
+        "element": "H2 + intro",
+        "heading": "Request a Written Quote for Pasighat Delivery",
+        "copy": "Upload your bill of quantities or size schedule for a prompt written quotation within one working day.",
+        "dev_note": "RFQ intro"
+      },
+      {
+        "sec_num": "12.0",
+        "sec_name": "FAQs",
+        "element": "H2",
+        "heading": "Flange Questions from Pasighat Buyers",
+        "copy": "Common questions about delivery times, water-scheme flange standards, and minimum orders for Pasighat.",
+        "dev_note": "FAQ heading"
+      },
+      {
+        "sec_num": "13.0",
+        "sec_name": "Related pages",
+        "element": "H2",
+        "heading": "Related Regional & Flange Pages",
+        "copy": "Explore Arunachal Pradesh supply hubs and technical flange standards.",
+        "dev_note": "Related links"
+      },
+      {
+        "sec_num": "14.0",
+        "sec_name": "Bottom CTA",
+        "element": "H2 + body",
+        "heading": "Need Forged Flanges Delivered to Pasighat?",
+        "copy": "Get in touch with our Mumbai engineering desk for prompt technical advice and itemized quotes.",
+        "dev_note": "Bottom CTA"
+      }
+    ],
+    "shared_sections": {
+      "3.0": {
+        "sec_num": "3.0",
+        "sec_name": "Trust strip",
+        "element": "Band under the hero (no heading)",
+        "heading": "",
+        "copy": "GSTIN 27FFLPP0007K1ZA (verify on the GST portal) · GST-registered since 2020 · Proprietorship led by Vikas Purohit, CEO · Manufacturing unit in Mumbai, Maharashtra C.P Tank Road, Marine Lines, Mumbai · ISO 9001:2015 certified quality management system · Written quotes by email, no calls needed",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "7.0": {
+        "sec_num": "7.0",
+        "sec_name": "Manufacturing & QA",
+        "element": "H2 + P + photo + video",
+        "heading": "How every flange is made and checked",
+        "copy": "Every flange starts as a certified billet or bar whose heat number follows it through cutting, forging, heat treatment where the material specification requires it, CNC machining and drilling, and final marking of grade, class, size and heat number. Before dispatch we check dimensions against the governing standard and PMI, hardness, and ultrasonic testing, and issue material test certificates that tie each flange back to its heat. Buyer-nominated third-party inspection can witness any stage.",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "11.0": {
+        "sec_num": "11.0",
+        "sec_name": "Request a quote",
+        "element": "H2 + P + Form B (id=\"rfq\")",
+        "heading": "Request a written quote",
+        "copy": "A quote-ready enquiry lists: flange type · nominal size (NPS or DN) · pressure class or PN · facing (RF, FF or RTJ) · material specification and grade · bore or schedule for weld neck flanges · quantity · delivery location · testing and certificate needs (NACE, impact test, EN 10204 3.1/3.2, third-party inspection). Upload a BOQ or drawing and we will read it for you.",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "14.0": {
+        "sec_num": "14.0",
+        "sec_name": "Final CTA",
+        "element": "CTA band + button 'Get a written quote' → #rfq",
+        "heading": "",
+        "copy": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email within one working day. No phone calls needed - everything is in writing.",
+        "dev_note": "Edit here only - page rows reference this row."
+      }
+    },
+    "local_demand_table": [
+      {
+        "industry": "Municipal Water Infrastructure",
+        "local_sites": "East Siang PHE & Jal Jeevan Mission schemes",
+        "where_used": "Pumping mains and reservoir distribution",
+        "specified": "PN10/PN16 Slip-on & Blind Flanges to IS 6392 / EN 1092-1"
+      },
+      {
+        "industry": "Institutional & Campus Facilities",
+        "local_sites": "Apex Professional University & Govt Institutions",
+        "where_used": "Utility cooling, plumbing, and fire mains",
+        "specified": "ASTM A105 Class 150 Raised Face Flanges"
+      },
+      {
+        "industry": "River Training & Flood Control",
+        "local_sites": "Siang River Basin Embankments & Pumping",
+        "where_used": "Dewatering and drainage bypass lines",
+        "specified": "Heavy-wall Plate & Blind Flanges"
+      },
+      {
+        "industry": "Hydro Exploration & Survey",
+        "local_sites": "Upper Siang Hydro Study & Survey Camps",
+        "where_used": "Camp utility and test drilling water lines",
+        "specified": "ASME B16.5 Class 150/300 Carbon Steel Flanges"
+      }
+    ],
+    "product_range_table": [
+      {
+        "type": "Slip-On Flange",
+        "url": "/products/flanges/slip-on-flange/",
+        "typical_use": "PHE water schemes and municipal pumping mains"
+      },
+      {
+        "type": "Blind Flange",
+        "url": "/products/flanges/blind-flange/",
+        "typical_use": "Pipeline end termination and inspection points"
+      },
+      {
+        "type": "Weld Neck Flange",
+        "url": "/products/flanges/weld-neck-flange/",
+        "typical_use": "High-pressure water and institutional boiler piping"
+      },
+      {
+        "type": "Socket Weld Flange",
+        "url": "/products/flanges/socket-weld-flange/",
+        "typical_use": "Small diameter institutional utility connections"
+      },
+      {
+        "type": "Threaded Flange",
+        "url": "/products/flanges/threaded-flange/",
+        "typical_use": "Quick-assembly site piping without hot work permits"
+      },
+      {
+        "type": "Spectacle Blind Flange",
+        "url": "/products/flanges/spectacle-blind-flange/",
+        "typical_use": "Maintenance isolation on intake pump headers"
+      },
+      {
+        "type": "Large-Diameter Flange",
+        "url": "/products/flanges/",
+        "typical_use": "Large bore gravity conduits up to 48 inches"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How long does delivery to Pasighat take?",
+        "answer": "Road transit from Mumbai via Guwahati and Dibrugarh typically takes 7-10 days after dispatch. We provide continuous tracking and handle all transit e-way documentation."
+      },
+      {
+        "question": "Do you supply PN10/PN16 water-scheme flanges?",
+        "answer": "Yes. We supply plate and forged steel flanges conforming to EN 1092-1 PN10/PN16, ASME B16.5 Class 150, and IS 6392 for PHE drinking water and irrigation lines across East Siang."
+      },
+      {
+        "question": "Is there a minimum order?",
+        "answer": "No minimum order value; freight is quoted at actual cost. Whether you require a single critical replacement flange or a complete project container, we quote line-by-line."
+      },
+      {
+        "question": "Do you have a stockist in Pasighat?",
+        "answer": "No. We ship directly from our Mumbai production facility to your Pasighat site with certified test reports (MTC 3.1) stamped to each flange's heat number."
+      },
+      {
+        "question": "Can you drill flanges to IS 6392 or custom bolt holes?",
+        "answer": "Yes. We machine flange bolt circles to ASME B16.5, EN 1092-1, IS 6392 (Table 1 to 17), or custom engineering drawings according to pump and valve specifications."
+      },
+      {
+        "question": "How are flanges protected against moisture during monsoon transit?",
+        "answer": "Consignments moving to Northeast India are coated with heavy rust-preventive varnish, wrapped in moisture-barrier film, and packed in treated wooden crates."
+      }
+    ],
+    "related_links": [
+      {
+        "anchor": "Arunachal Pradesh State Supply Hub",
+        "url": "/market-area/arunachal-pradesh/"
+      },
+      {
+        "anchor": "Itanagar & Naharlagun Flange Supply",
+        "url": "/itanagar/"
+      },
+      {
+        "anchor": "Slip-On Flanges Specification",
+        "url": "/products/flanges/slip-on-flange/"
+      },
+      {
+        "anchor": "Blind Flanges Program",
+        "url": "/products/flanges/blind-flange/"
+      },
+      {
+        "anchor": "National Supply Areas Index",
+        "url": "/market-area/"
+      }
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://remaxforge.com/pasighat/#webpage",
+          "url": "https://remaxforge.com/pasighat/",
+          "name": "Flange Supplier in Pasighat | Flanges Manufacturer",
+          "description": "Flanges for East Siang water-supply schemes and institutions around Pasighat, shipped from Mumbai with certificates. Written quotes by email.",
+          "breadcrumb": {
+            "@id": "https://remaxforge.com/pasighat/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://remaxforge.com/pasighat/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://remaxforge.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Areas We Supply",
+              "item": "https://remaxforge.com/market-area/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Arunachal Pradesh",
+              "item": "https://remaxforge.com/market-area/arunachal-pradesh/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Pasighat",
+              "item": "https://remaxforge.com/pasighat/"
+            }
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://remaxforge.com/pasighat/#service",
+          "name": "Flange supply to Pasighat",
+          "serviceType": "Industrial flange manufacturing and supply",
+          "provider": {
+            "@type": "Organization",
+            "name": "Remax Forge & Fittings",
+            "url": "https://remaxforge.com/"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "Pasighat",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Arunachal Pradesh"
+            }
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://remaxforge.com/pasighat/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How long does delivery to Pasighat take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Road transit from Mumbai via Guwahati and Dibrugarh typically takes 7-10 days after dispatch. We provide continuous tracking and handle all transit e-way documentation."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you supply PN10/PN16 water-scheme flanges?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We supply plate and forged steel flanges conforming to EN 1092-1 PN10/PN16, ASME B16.5 Class 150, and IS 6392 for PHE drinking water and irrigation lines across East Siang."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is there a minimum order?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No minimum order value; freight is quoted at actual cost. Whether you require a single critical replacement flange or a complete project container, we quote line-by-line."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you have a stockist in Pasighat?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. We ship directly from our Mumbai production facility to your Pasighat site with certified test reports (MTC 3.1) stamped to each flange's heat number."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tawang": {
+    "slug": "tawang",
+    "url": "/tawang/",
+    "transit": "8-12 days",
+    "price_bands": "ASTM A105: ₹115–140/kg; Low-temp LF2: ₹145–180/kg; SS 304L/316L: ₹380–580/kg; High-tensile alloy: ₹240–350/kg",
+    "state": "Arunachal Pradesh",
+    "state_hub_url": "/market-area/arunachal-pradesh/",
+    "city": "Tawang",
+    "floor": 500,
+    "photo": {
+      "id": "P08",
+      "src": "/images/industrial-flanges.jpeg",
+      "caption": "Heat treatment furnace for low-temperature ASTM A350 LF2 flanges supplying cold-climate Tawang infrastructure.",
+      "alt": "Heat treatment of low temperature steel flanges for Tawang"
+    },
+    "video": {
+      "id": "V3",
+      "title": "Heat Treatment and Low-Temperature Impact Testing",
+      "duration": "1:30",
+      "transcript": "Process overview: Heat treatment for low-temperature ASTM A350 LF2 Class 1 steel. Charpy V-notch impact toughness verified at -46 °C to prevent brittle fracture in sub-zero Himalayan installations."
+    },
+    "name": "Tawang",
+    "canonical": "https://remaxforge.com/tawang/",
+    "title": "Flange Supplier in Tawang | Flanges Manufacturer",
+    "meta_desc": "Flanges for Tawang defence, road and hydro contractors, including LF2 for sub-zero service. Packed for mountain transit from Mumbai. Written quotes.",
+    "h1": "Flange Supplier in Tawang",
+    "subline": "Flanges for Tawang defence, road and hydro contractors, including LF2 for sub-zero service. Packed for mountain transit from Mumbai.",
+    "sections": [
+      {
+        "sec_num": "1.0",
+        "sec_name": "Breadcrumb",
+        "element": "Breadcrumb trail",
+        "heading": "",
+        "copy": "Home › Areas We Supply › Arunachal Pradesh › Tawang",
+        "dev_note": "JSON-LD BreadcrumbList"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "H1",
+        "heading": "",
+        "copy": "Flange Supplier in Tawang",
+        "dev_note": "H1 tag"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "Subline",
+        "heading": "",
+        "copy": "Flanges for Tawang defence, road and hydro contractors, including LF2 for sub-zero service. Packed for mountain transit from Mumbai.",
+        "dev_note": "Subline below H1"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "Form A copy",
+        "heading": "",
+        "copy": "Remax Forge manufactures and supplies heavy-duty forged steel flanges from our Mumbai facility to defence infrastructure, Border Roads Organisation (BRO) projects, and hydropower sites in Tawang. We specialize in low-temperature ASTM A350 LF2 flanges Charpy impact-tested for sub-zero high-altitude winter service. Upload your BOQ for an itemized quote.",
+        "dev_note": "Intro above Form A"
+      },
+      {
+        "sec_num": "4.0",
+        "sec_name": "Local demand",
+        "element": "H2 + lead",
+        "heading": "Where Flanges Are Used in Tawang — Defence, High-Altitude Tunnels and Hydro Works",
+        "copy": "Tawang sits at 3,048 metres elevation, where harsh alpine winters require piping systems engineered against brittle fracture. Piping projects focus on border roads, cantonment heating and fuel handling, the Sela tunnel corridor, and run-of-river mini-hydel stations.",
+        "dev_note": "Intro before local demand table"
+      },
+      {
+        "sec_num": "5.0",
+        "sec_name": "Materials guidance",
+        "element": "H2 + body",
+        "heading": "High-Altitude Metallurgy: When to Specify ASTM A350 LF2 Over A105",
+        "copy": "Standard ASTM A105 carbon steel is rated down to -29 °C under ASME B16.5. In Tawang, where exposed winter installations experience sub-zero conditions coupled with ground frost, ASTM A350 LF2 Class 1 is mandated. LF2 forgings undergo normalizing or quench-and-temper heat treatment and require Charpy V-notch impact testing at -46 °C, ensuring high notch toughness and preventing catastrophic brittle failure.",
+        "dev_note": "Materials guidance"
+      },
+      {
+        "sec_num": "6.0",
+        "sec_name": "Product range",
+        "element": "H2 + intro",
+        "heading": "Flange Types We Supply to Tawang",
+        "copy": "Low-temperature A350 LF2, carbon steel A105, and stainless steel flanges forged in Mumbai and packed in weatherproof cases for mountain transit over the Sela corridor.",
+        "dev_note": "Product range intro"
+      },
+      {
+        "sec_num": "8.0",
+        "sec_name": "Delivery & documents",
+        "element": "H2 + body",
+        "heading": "Mountain Logistics and Delivery to Tawang via Sela Tunnel",
+        "copy": "Consignments depart Mumbai by road via Tezpur and the newly opened Sela Tunnel route directly to Tawang. Transit takes approximately 8-12 days depending on mountain weather. All shipments include IGST tax invoices, e-way bills, and certified MTCs with documented Charpy impact test values.",
+        "dev_note": "Delivery section"
+      },
+      {
+        "sec_num": "9.0",
+        "sec_name": "Price guidance",
+        "element": "H2 + body",
+        "heading": "Flange Prices for Tawang Delivery",
+        "copy": "Material prices: ASTM A105: ₹115–140/kg; Low-temp LF2: ₹145–180/kg; SS 304L/316L: ₹380–580/kg. Freight over mountain passes to Tawang is calculated at actual transporter tariffs and itemized clearly on your quotation.",
+        "dev_note": "Price guidance"
+      },
+      {
+        "sec_num": "10.0",
+        "sec_name": "Areas served",
+        "element": "H2 + body",
+        "heading": "Areas We Deliver in and Around Tawang",
+        "copy": "Direct delivery across Tawang town, Jang, Lumla, Zemithang border posts, Sela Tunnel approaches, and project locations across Tawang district.",
+        "dev_note": "Areas served"
+      },
+      {
+        "sec_num": "11.0",
+        "sec_name": "Request a quote",
+        "element": "H2 + intro",
+        "heading": "Request a Written Quote for Tawang Delivery",
+        "copy": "Submit your flange sizes, pressure class, and required impact test temperature for a written quotation within one working day.",
+        "dev_note": "RFQ intro"
+      },
+      {
+        "sec_num": "12.0",
+        "sec_name": "FAQs",
+        "element": "H2",
+        "heading": "Flange Questions from Tawang Buyers & Contractors",
+        "copy": "Answers regarding sub-zero LF2 flanges, BRO contractor supplies, winter transit, and mountain packaging.",
+        "dev_note": "FAQ heading"
+      },
+      {
+        "sec_num": "13.0",
+        "sec_name": "Related pages",
+        "element": "H2",
+        "heading": "Related Guides & Specifications",
+        "copy": "Explore low-temperature piping guidelines and Arunachal Pradesh distribution hubs.",
+        "dev_note": "Related links"
+      },
+      {
+        "sec_num": "14.0",
+        "sec_name": "Bottom CTA",
+        "element": "H2 + body",
+        "heading": "Need Low-Temperature Forged Flanges Delivered to Tawang?",
+        "copy": "Contact our technical sales team for ASTM A350 LF2 and A105 flange quotations certified for Himalayan service.",
+        "dev_note": "Bottom CTA"
+      }
+    ],
+    "shared_sections": {
+      "3.0": {
+        "sec_num": "3.0",
+        "sec_name": "Trust strip",
+        "element": "Band under the hero (no heading)",
+        "heading": "",
+        "copy": "GSTIN 27FFLPP0007K1ZA (verify on the GST portal) · GST-registered since 2020 · Proprietorship led by Vikas Purohit, CEO · Manufacturing unit in Mumbai, Maharashtra C.P Tank Road, Marine Lines, Mumbai · ISO 9001:2015 certified quality management system · Written quotes by email, no calls needed",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "7.0": {
+        "sec_num": "7.0",
+        "sec_name": "Manufacturing & QA",
+        "element": "H2 + P + photo + video",
+        "heading": "How every flange is made and checked",
+        "copy": "Every flange starts as a certified billet or bar whose heat number follows it through cutting, forging, heat treatment where the material specification requires it, CNC machining and drilling, and final marking of grade, class, size and heat number. Before dispatch we check dimensions against the governing standard and PMI, hardness, and ultrasonic testing, and issue material test certificates that tie each flange back to its heat. Buyer-nominated third-party inspection can witness any stage.",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "11.0": {
+        "sec_num": "11.0",
+        "sec_name": "Request a quote",
+        "element": "H2 + P + Form B (id=\"rfq\")",
+        "heading": "Request a written quote",
+        "copy": "A quote-ready enquiry lists: flange type · nominal size (NPS or DN) · pressure class or PN · facing (RF, FF or RTJ) · material specification and grade · bore or schedule for weld neck flanges · quantity · delivery location · testing and certificate needs (NACE, impact test, EN 10204 3.1/3.2, third-party inspection). Upload a BOQ or drawing and we will read it for you.",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "14.0": {
+        "sec_num": "14.0",
+        "sec_name": "Final CTA",
+        "element": "CTA band + button 'Get a written quote' → #rfq",
+        "heading": "",
+        "copy": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email within one working day. No phone calls needed - everything is in writing.",
+        "dev_note": "Edit here only - page rows reference this row."
+      }
+    },
+    "local_demand_table": [
+      {
+        "industry": "Defence & Border Infrastructure",
+        "local_sites": "BRO (Project Vartak) & Cantonments",
+        "where_used": "High-altitude fuel, heating, and water lines",
+        "specified": "ASTM A350 LF2 Class 1 & A105 Flanges (Impact tested at -46 °C)"
+      },
+      {
+        "industry": "Tunnel & Highway Infrastructure",
+        "local_sites": "Sela Tunnel & Mountain Highway Passages",
+        "where_used": "Ventilation, drainage, and emergency fire mains",
+        "specified": "Hot-Dip Galvanized & Epoxy-Coated Flanges Class 150/PN16"
+      },
+      {
+        "industry": "Hydroelectric Generation",
+        "local_sites": "Tawang Chu Stage I & II and Mini-Hydel Schemes",
+        "where_used": "Penstock auxiliary, bypass, and turbine cooling",
+        "specified": "Forged Carbon Steel & Stainless 304L/316L Class 300/600"
+      },
+      {
+        "industry": "Civil & Institutional Works",
+        "local_sites": "District Administration & Hospital Works",
+        "where_used": "Boiler heating and treated water systems",
+        "specified": "ASME B16.5 Weld Neck & Threaded Flanges"
+      }
+    ],
+    "product_range_table": [
+      {
+        "type": "Weld Neck Flange",
+        "url": "/products/flanges/weld-neck-flange/",
+        "typical_use": "High-pressure hydro penstock bypass & low-temp fuel lines"
+      },
+      {
+        "type": "Slip-On Flange",
+        "url": "/products/flanges/slip-on-flange/",
+        "typical_use": "Camp utility heating and water distribution"
+      },
+      {
+        "type": "Blind Flange",
+        "url": "/products/flanges/blind-flange/",
+        "typical_use": "Terminal line isolation and pressure test headers"
+      },
+      {
+        "type": "Threaded Flange",
+        "url": "/products/flanges/threaded-flange/",
+        "typical_use": "Cold-service utility lines without site welding"
+      },
+      {
+        "type": "Socket Weld Flange",
+        "url": "/products/flanges/socket-weld-flange/",
+        "typical_use": "Small-bore hydraulic and instrumentation lines"
+      },
+      {
+        "type": "Spectacle Blind Flange",
+        "url": "/products/flanges/spectacle-blind-flange/",
+        "typical_use": "Hydro turbine maintenance isolation"
+      },
+      {
+        "type": "Large-Diameter Flange",
+        "url": "/products/flanges/",
+        "typical_use": "Tunnel drainage conduits up to 48 inches"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do you deliver to Tawang in winter?",
+        "answer": "Yes, weather permitting via the Sela Tunnel route. The opening of the Sela Tunnel has drastically improved winter accessibility. Consignments are packed with weatherproof wrapping and rust-preventive coating for mountain transport."
+      },
+      {
+        "question": "When is A350 LF2 needed?",
+        "answer": "When minimum design metal temperatures fall below -29 °C during high-altitude Himalayan winters, ASTM A350 LF2 Class 1 forgings (Charpy V-notch impact-tested at -46 °C) are specified in place of standard ASTM A105."
+      },
+      {
+        "question": "Can you supply BRO or defence contractors?",
+        "answer": "Yes, we regularly quote and supply registered contractors for border road infrastructure (BRO Project Vartak), defence cantonments, and hydro works with complete mill test certificates and third-party inspection."
+      },
+      {
+        "question": "How is freight priced?",
+        "answer": "Material is priced line-by-line per kg or piece, and road freight to Tawang is itemized transparently as a separate line item on your formal quotation so you can evaluate landed costs accurately."
+      },
+      {
+        "question": "What certificates accompany low-temperature LF2 flanges?",
+        "answer": "All A350 LF2 orders are accompanied by EN 10204 3.1 mill test certificates documenting ladle chemistry, tensile properties, normalizing/quench heat treatment batches, and Charpy impact energy absorbed (Joules) at -46 °C."
+      },
+      {
+        "question": "How are machined flange faces protected during long transit?",
+        "answer": "Flanges are coated with heavy rust-preventive grease, fitted with plastic flange face protectors, and packed into seaworthy-grade wooden boxes to prevent transit gouges."
+      }
+    ],
+    "related_links": [
+      {
+        "anchor": "Arunachal Pradesh State Supply Hub",
+        "url": "/market-area/arunachal-pradesh/"
+      },
+      {
+        "anchor": "Itanagar & Naharlagun Flange Supply",
+        "url": "/itanagar/"
+      },
+      {
+        "anchor": "Weld Neck Flanges Specification",
+        "url": "/products/flanges/weld-neck-flange/"
+      },
+      {
+        "anchor": "A105 vs A350 LF2 Technical Guide",
+        "url": "/blogs/a105-vs-a350-lf2/"
+      },
+      {
+        "anchor": "National Supply Areas Index",
+        "url": "/market-area/"
+      }
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://remaxforge.com/tawang/#webpage",
+          "url": "https://remaxforge.com/tawang/",
+          "name": "Flange Supplier in Tawang | Flanges Manufacturer",
+          "description": "Flanges for Tawang defence, road and hydro contractors, including LF2 for sub-zero service. Packed for mountain transit from Mumbai. Written quotes.",
+          "breadcrumb": {
+            "@id": "https://remaxforge.com/tawang/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://remaxforge.com/tawang/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://remaxforge.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Areas We Supply",
+              "item": "https://remaxforge.com/market-area/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Arunachal Pradesh",
+              "item": "https://remaxforge.com/market-area/arunachal-pradesh/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Tawang",
+              "item": "https://remaxforge.com/tawang/"
+            }
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://remaxforge.com/tawang/#service",
+          "name": "Flange supply to Tawang",
+          "serviceType": "Industrial flange manufacturing and supply",
+          "provider": {
+            "@type": "Organization",
+            "name": "Remax Forge & Fittings",
+            "url": "https://remaxforge.com/"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "Tawang",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Arunachal Pradesh"
+            }
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://remaxforge.com/tawang/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Do you deliver to Tawang in winter?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, weather permitting via the Sela Tunnel route. The opening of the Sela Tunnel has drastically improved winter accessibility. Consignments are packed with weatherproof wrapping and rust-preventive coating for mountain transport."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "When is A350 LF2 needed?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "When minimum design metal temperatures fall below -29 °C during high-altitude Himalayan winters, ASTM A350 LF2 Class 1 forgings (Charpy V-notch impact-tested at -46 °C) are specified in place of standard ASTM A105."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can you supply BRO or defence contractors?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, we regularly quote and supply registered contractors for border road infrastructure (BRO Project Vartak), defence cantonments, and hydro works with complete mill test certificates and third-party inspection."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How is freight priced?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Material is priced line-by-line per kg or piece, and road freight to Tawang is itemized transparently as a separate line item on your formal quotation so you can evaluate landed costs accurately."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ziro": {
+    "slug": "ziro",
+    "url": "/ziro/",
+    "transit": "7-10 days",
+    "price_bands": "ASTM A105 carbon steel: ₹115–140/kg; SS 304L/316L: ₹380–580/kg; Galvanised / AWWA: ₹130–165/kg",
+    "state": "Arunachal Pradesh",
+    "state_hub_url": "/market-area/arunachal-pradesh/",
+    "city": "Ziro",
+    "floor": 500,
+    "photo": {
+      "id": "P05",
+      "src": "/images/why.jpeg",
+      "caption": "CNC turning of flange face and bore at our Mumbai facility for hydro and water infrastructure.",
+      "alt": "CNC machining of steel flange for hydro projects"
+    },
+    "video": {
+      "id": "V5",
+      "title": "Machining Large Diameter Flanges",
+      "duration": "1:18",
+      "transcript": "Production overview: Vertical turret lathe machining of large-diameter plate and forged flanges up to 48 inches according to ASME B16.47 and AWWA C207 specifications."
+    },
+    "name": "Ziro",
+    "canonical": "https://remaxforge.com/ziro/",
+    "title": "Flange Supplier in Ziro | Flanges Manufacturer",
+    "meta_desc": "Flanges for hydro auxiliaries and water-supply schemes around Ziro and Yazali, shipped from Mumbai with heat-traceable certificates. Quotes by email.",
+    "h1": "Flange Supplier in Ziro",
+    "subline": "Flanges for hydro auxiliaries and water-supply schemes around Ziro and Yazali, shipped from Mumbai with heat-traceable certificates.",
+    "sections": [
+      {
+        "sec_num": "1.0",
+        "sec_name": "Breadcrumb",
+        "element": "Breadcrumb trail",
+        "heading": "",
+        "copy": "Home › Areas We Supply › Arunachal Pradesh › Ziro",
+        "dev_note": "JSON-LD BreadcrumbList"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "H1",
+        "heading": "",
+        "copy": "Flange Supplier in Ziro",
+        "dev_note": "H1 tag"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "Subline",
+        "heading": "",
+        "copy": "Flanges for hydro auxiliaries and water-supply schemes around Ziro and Yazali, shipped from Mumbai with heat-traceable certificates.",
+        "dev_note": "Subline below H1"
+      },
+      {
+        "sec_num": "2.0",
+        "sec_name": "Hero",
+        "element": "Form A copy",
+        "heading": "",
+        "copy": "Remax Forge is a direct flange manufacturer in Mumbai supplying maintenance spares and pipeline fittings to the Ranganadi Hydroelectric Project at Yazali and water infrastructure schemes throughout Ziro and Lower Subansiri. Every flange is forged with verified chemical and mechanical properties. Request an email quote today.",
+        "dev_note": "Intro above Form A"
+      },
+      {
+        "sec_num": "4.0",
+        "sec_name": "Local demand",
+        "element": "H2 + lead",
+        "heading": "Where Flanges Are Used in Ziro — Hydropower Spares, Water Works and Agro Processing",
+        "copy": "Ziro is the administrative centre of Lower Subansiri district, located close to the Ranganadi Hydroelectric Project (NEEPCO, 405 MW) at Yazali. Flange requirements in the area cover hydroelectric plant maintenance, municipal drinking water schemes, and local agro-processing units.",
+        "dev_note": "Intro before local demand table"
+      },
+      {
+        "sec_num": "5.0",
+        "sec_name": "Materials guidance",
+        "element": "H2 + body",
+        "heading": "Selecting Flanges for Hydroelectric Auxiliary Lines and Subansiri Water Networks",
+        "copy": "Hydroelectric station auxiliary lines handling cooling water, drainage, and penstock bypass lines typically specify forged carbon steel ASTM A105 or low-temperature A350 LF2 weld neck and blind flanges rated Class 300 or Class 600. For drinking water gravity mains and irrigation supply in the Ziro valley, EN 1092-1 PN10/PN16 or IS 6392 plate flanges provide cost-effective and dependable service.",
+        "dev_note": "Materials guidance"
+      },
+      {
+        "sec_num": "6.0",
+        "sec_name": "Product range",
+        "element": "H2 + intro",
+        "heading": "Flange Types We Supply to Ziro",
+        "copy": "Forged steel weld neck, slip-on, blind, and spectacle flanges manufactured in Mumbai and delivered directly to project sites across Lower Subansiri.",
+        "dev_note": "Product range intro"
+      },
+      {
+        "sec_num": "8.0",
+        "sec_name": "Delivery & documents",
+        "element": "H2 + body",
+        "heading": "Delivery to Ziro & Yazali by Road Transport",
+        "copy": "Consignments depart Mumbai by road through Guwahati and North Lakhimpur to Ziro and Yazali, typically arriving in 7-10 days. All orders include GST invoices (IGST), e-way bills, packing lists, and certified MTCs.",
+        "dev_note": "Delivery section"
+      },
+      {
+        "sec_num": "9.0",
+        "sec_name": "Price guidance",
+        "element": "H2 + body",
+        "heading": "Flange Prices for Ziro Delivery",
+        "copy": "Indicative prices Ex-Mumbai works: ASTM A105 carbon steel: ₹115–140/kg; SS 304L/316L: ₹380–580/kg; Galvanised / AWWA: ₹130–165/kg. Road transport to Ziro is itemized transparently as a separate line.",
+        "dev_note": "Price guidance"
+      },
+      {
+        "sec_num": "10.0",
+        "sec_name": "Areas served",
+        "element": "H2 + body",
+        "heading": "Areas We Deliver in and Around Ziro",
+        "copy": "We deliver to project sites across Old Ziro, Hapoli township, Yazali (Ranganadi HEP site), Yachuli, and throughout Lower Subansiri district.",
+        "dev_note": "Areas served"
+      },
+      {
+        "sec_num": "11.0",
+        "sec_name": "Request a quote",
+        "element": "H2 + intro",
+        "heading": "Request a Written Quote for Ziro Delivery",
+        "copy": "Upload your BOQ or size requirements for a line-by-line written quote from our Mumbai manufacturing works within one working day.",
+        "dev_note": "RFQ intro"
+      },
+      {
+        "sec_num": "12.0",
+        "sec_name": "FAQs",
+        "element": "H2",
+        "heading": "Flange Questions from Ziro & Lower Subansiri Buyers",
+        "copy": "Answers regarding hydro auxiliary flanges, water scheme specifications, and transit to Ziro.",
+        "dev_note": "FAQ heading"
+      },
+      {
+        "sec_num": "13.0",
+        "sec_name": "Related pages",
+        "element": "H2",
+        "heading": "Related Hydro & Flange Pages",
+        "copy": "Explore Arunachal Pradesh supply networks and technical flange guides.",
+        "dev_note": "Related links"
+      },
+      {
+        "sec_num": "14.0",
+        "sec_name": "Bottom CTA",
+        "element": "H2 + body",
+        "heading": "Need Forged Flanges Delivered to Ziro?",
+        "copy": "Send your size list and specifications for quick factory-direct pricing and dispatch timelines.",
+        "dev_note": "Bottom CTA"
+      }
+    ],
+    "shared_sections": {
+      "3.0": {
+        "sec_num": "3.0",
+        "sec_name": "Trust strip",
+        "element": "Band under the hero (no heading)",
+        "heading": "",
+        "copy": "GSTIN 27FFLPP0007K1ZA (verify on the GST portal) · GST-registered since 2020 · Proprietorship led by Vikas Purohit, CEO · Manufacturing unit in Mumbai, Maharashtra C.P Tank Road, Marine Lines, Mumbai · ISO 9001:2015 certified quality management system · Written quotes by email, no calls needed",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "7.0": {
+        "sec_num": "7.0",
+        "sec_name": "Manufacturing & QA",
+        "element": "H2 + P + photo + video",
+        "heading": "How every flange is made and checked",
+        "copy": "Every flange starts as a certified billet or bar whose heat number follows it through cutting, forging, heat treatment where the material specification requires it, CNC machining and drilling, and final marking of grade, class, size and heat number. Before dispatch we check dimensions against the governing standard and PMI, hardness, and ultrasonic testing, and issue material test certificates that tie each flange back to its heat. Buyer-nominated third-party inspection can witness any stage.",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "11.0": {
+        "sec_num": "11.0",
+        "sec_name": "Request a quote",
+        "element": "H2 + P + Form B (id=\"rfq\")",
+        "heading": "Request a written quote",
+        "copy": "A quote-ready enquiry lists: flange type · nominal size (NPS or DN) · pressure class or PN · facing (RF, FF or RTJ) · material specification and grade · bore or schedule for weld neck flanges · quantity · delivery location · testing and certificate needs (NACE, impact test, EN 10204 3.1/3.2, third-party inspection). Upload a BOQ or drawing and we will read it for you.",
+        "dev_note": "Edit here only - page rows reference this row."
+      },
+      "14.0": {
+        "sec_num": "14.0",
+        "sec_name": "Final CTA",
+        "element": "CTA band + button 'Get a written quote' → #rfq",
+        "heading": "",
+        "copy": "Send your requirement - we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email within one working day. No phone calls needed - everything is in writing.",
+        "dev_note": "Edit here only - page rows reference this row."
+      }
+    },
+    "local_demand_table": [
+      {
+        "industry": "Hydropower Maintenance",
+        "local_sites": "Ranganadi HEP (NEEPCO, 405 MW) at Yazali",
+        "where_used": "Penstock drainage, turbine cooling, and auxiliary piping",
+        "specified": "ASTM A105 & A350 LF2 Weld Neck & Blind Flanges Class 300/600"
+      },
+      {
+        "industry": "Municipal Water Supply",
+        "local_sites": "Lower Subansiri PHE Drinking Water Schemes",
+        "where_used": "Valley water distribution and gravity supply",
+        "specified": "EN 1092-1 PN10/PN16 and IS 6392 Plate Flanges"
+      },
+      {
+        "industry": "Agro & Food Processing",
+        "local_sites": "Kiwi & Fruit Processing Facilities in Ziro",
+        "where_used": "Clean utility, washdown, and food-grade fluid lines",
+        "specified": "SS 304 / SS 316L Sanitary & Class 150 Flanges"
+      },
+      {
+        "industry": "Substation & Power Transmission",
+        "local_sites": "Lower Subansiri 132 kV Substation & Switchyard",
+        "where_used": "Transformer oil cooling loops and deluge fire mains",
+        "specified": "Galvanized Class 150 Slip-On Flanges"
+      }
+    ],
+    "product_range_table": [
+      {
+        "type": "Weld Neck Flange",
+        "url": "/products/flanges/weld-neck-flange/",
+        "typical_use": "Hydro station auxiliary cooling and penstock bypass lines"
+      },
+      {
+        "type": "Slip-On Flange",
+        "url": "/products/flanges/slip-on-flange/",
+        "typical_use": "PHE water distribution and substation deluge lines"
+      },
+      {
+        "type": "Blind Flange",
+        "url": "/products/flanges/blind-flange/",
+        "typical_use": "Hydro auxiliary line isolation and drainage end caps"
+      },
+      {
+        "type": "Spectacle Blind Flange",
+        "url": "/products/flanges/spectacle-blind-flange/",
+        "typical_use": "Positive line shutoff during annual hydro plant maintenance"
+      },
+      {
+        "type": "Socket Weld Flange",
+        "url": "/products/flanges/socket-weld-flange/",
+        "typical_use": "High-pressure instrumentation and governor oil lines"
+      },
+      {
+        "type": "Threaded Flange",
+        "url": "/products/flanges/threaded-flange/",
+        "typical_use": "Utility plant water supply without on-site welding"
+      },
+      {
+        "type": "Large-Diameter Flange",
+        "url": "/products/flanges/",
+        "typical_use": "Intake water manifolds and drainage lines up to 48 inches"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do you supply hydro auxiliary spares?",
+        "answer": "Yes. We manufacture carbon steel, stainless steel, and alloy flanges for cooling water, drainage, penstock bypass, and auxiliary lines supporting the Ranganadi Hydroelectric Project at Yazali and Lower Subansiri stations."
+      },
+      {
+        "question": "How long does delivery to Ziro take?",
+        "answer": "Transport from Mumbai by road through Guwahati and North Lakhimpur to Ziro typically takes 7-10 days after dispatch. All shipments travel under compliant GST e-way bills."
+      },
+      {
+        "question": "Do you supply water-scheme flanges?",
+        "answer": "Yes. We supply slip-on, plate, and blind flanges drilled to IS 6392, EN 1092-1 PN10/PN16, and Class 150 for PHE, JJM, and municipal water networks in Ziro and surrounding valleys."
+      },
+      {
+        "question": "Do you have a stockist in Ziro?",
+        "answer": "No local stockist. All products are forged and machined in Mumbai and delivered directly to your site or warehouse in Ziro with EN 10204 3.1 inspection test certificates."
+      },
+      {
+        "question": "Can you provide spectacle blinds for hydro plant overhauls?",
+        "answer": "Yes. We manufacture figure-8 spectacle blinds, paddle blinds, and spacers according to ASME B16.48 in Class 150 to Class 1500 for positive line isolation during scheduled overhauls."
+      },
+      {
+        "question": "What test certificates come with hydro auxiliary flanges?",
+        "answer": "We issue EN 10204 3.1 certificates detailing heat number, chemical composition, tensile yield strength, elongation, and hydrostatic test verification."
+      }
+    ],
+    "related_links": [
+      {
+        "anchor": "Arunachal Pradesh State Supply Hub",
+        "url": "/market-area/arunachal-pradesh/"
+      },
+      {
+        "anchor": "Itanagar & Naharlagun Flange Supply",
+        "url": "/itanagar/"
+      },
+      {
+        "anchor": "Weld Neck Flanges Specification",
+        "url": "/products/flanges/weld-neck-flange/"
+      },
+      {
+        "anchor": "Spectacle Blinds for Isolation",
+        "url": "/products/flanges/spectacle-blind-flange/"
+      },
+      {
+        "anchor": "National Supply Areas Index",
+        "url": "/market-area/"
+      }
+    ],
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebPage",
+          "@id": "https://remaxforge.com/ziro/#webpage",
+          "url": "https://remaxforge.com/ziro/",
+          "name": "Flange Supplier in Ziro | Flanges Manufacturer",
+          "description": "Flanges for hydro auxiliaries and water-supply schemes around Ziro and Yazali, shipped from Mumbai with heat-traceable certificates. Quotes by email.",
+          "breadcrumb": {
+            "@id": "https://remaxforge.com/ziro/#breadcrumb"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://remaxforge.com/ziro/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://remaxforge.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Areas We Supply",
+              "item": "https://remaxforge.com/market-area/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Arunachal Pradesh",
+              "item": "https://remaxforge.com/market-area/arunachal-pradesh/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 4,
+              "name": "Ziro",
+              "item": "https://remaxforge.com/ziro/"
+            }
+          ]
+        },
+        {
+          "@type": "Service",
+          "@id": "https://remaxforge.com/ziro/#service",
+          "name": "Flange supply to Ziro",
+          "serviceType": "Industrial flange manufacturing and supply",
+          "provider": {
+            "@type": "Organization",
+            "name": "Remax Forge & Fittings",
+            "url": "https://remaxforge.com/"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "Ziro",
+            "containedInPlace": {
+              "@type": "AdministrativeArea",
+              "name": "Arunachal Pradesh"
+            }
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://remaxforge.com/ziro/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Do you supply hydro auxiliary spares?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We manufacture carbon steel, stainless steel, and alloy flanges for cooling water, drainage, penstock bypass, and auxiliary lines supporting the Ranganadi Hydroelectric Project at Yazali and Lower Subansiri stations."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does delivery to Ziro take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Transport from Mumbai by road through Guwahati and North Lakhimpur to Ziro typically takes 7-10 days after dispatch. All shipments travel under compliant GST e-way bills."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you supply water-scheme flanges?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We supply slip-on, plate, and blind flanges drilled to IS 6392, EN 1092-1 PN10/PN16, and Class 150 for PHE, JJM, and municipal water networks in Ziro and surrounding valleys."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you have a stockist in Ziro?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No local stockist. All products are forged and machined in Mumbai and delivered directly to your site or warehouse in Ziro with EN 10204 3.1 inspection test certificates."
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 };

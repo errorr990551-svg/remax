@@ -231,7 +231,13 @@ const StateHubPage = ({ forcedKey }) => {
                     <option value="/kurnool/">Kurnool (Pinnapuram & HNSS)</option>
                   </>
                 ) : (
-                  <option value="/itanagar/">Itanagar & Naharlagun (Capital Region)</option>
+                  <>
+                    <option value="/itanagar/">Itanagar (Capital Complex)</option>
+                    <option value="/naharlagun/">Naharlagun (Hospital & Rail Head)</option>
+                    <option value="/pasighat/">Pasighat (East Siang Water Schemes)</option>
+                    <option value="/tawang/">Tawang (Defence & BRO Cold Service)</option>
+                    <option value="/ziro/">Ziro (Hydro Auxiliaries & Water Networks)</option>
+                  </>
                 )}
               </select>
             </div>
@@ -259,6 +265,18 @@ const StateHubPage = ({ forcedKey }) => {
               }
               if (hLower.includes('itanagar')) {
                 cityLinks.push({ name: 'Itanagar City Page', url: '/itanagar/' });
+              }
+              if (hLower.includes('naharlagun')) {
+                cityLinks.push({ name: 'Naharlagun City Page', url: '/naharlagun/' });
+              }
+              if (hLower.includes('pasighat')) {
+                cityLinks.push({ name: 'Pasighat City Page', url: '/pasighat/' });
+              }
+              if (hLower.includes('tawang')) {
+                cityLinks.push({ name: 'Tawang City Page', url: '/tawang/' });
+              }
+              if (hLower.includes('ziro')) {
+                cityLinks.push({ name: 'Ziro City Page', url: '/ziro/' });
               }
 
               return (
@@ -410,44 +428,59 @@ const StateHubPage = ({ forcedKey }) => {
       </section>
 
       {/* 12.0 FAQs */}
-      <section className="py-14 bg-white border-b border-slate-200">
+      <section className="py-20 sm:py-24 bg-slate-50 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mb-8">
-            <span className="text-xs font-bold uppercase tracking-wider text-[#D71920] block mb-1">
+          <div className="text-center mb-12 sm:mb-16">
+            <span className="text-xs font-bold uppercase tracking-wider text-[#D71920] block mb-2">
               Common Questions & Clarifications
             </span>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-2">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] mb-4">
               Questions About Flange Supply to {pageData.city}
             </h2>
+            <div className="h-1 w-20 mx-auto rounded bg-[#D71920] mb-4"></div>
+            <p className="text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
+              Answers regarding statewide logistics, GST documentation, material specifications, and project deliveries.
+            </p>
           </div>
 
-          <div className="max-w-3xl space-y-3">
-            {pageData.faqs?.map((faq, idx) => (
-              <div 
-                key={idx} 
-                className="border border-slate-200 rounded-xl overflow-hidden bg-slate-50 transition"
-              >
-                <button
-                  type="button"
-                  onClick={() => toggleFaq(idx)}
-                  className="w-full text-left px-5 py-4 font-bold text-slate-900 text-sm sm:text-base flex items-center justify-between gap-4 hover:bg-slate-100 transition"
-                >
-                  <span>{faq.question}</span>
-                  {openFaq === idx ? (
-                    <ChevronUp size={18} className="text-[#D71920] shrink-0" />
-                  ) : (
-                    <ChevronDown size={18} className="text-slate-400 shrink-0" />
-                  )}
-                </button>
+          <div className="max-w-4xl mx-auto space-y-4">
+            {pageData.faqs?.map((faq, idx) => {
+              const isOpen = openFaq === idx;
+              return (
                 <div 
-                  className={`px-5 pb-4 text-xs sm:text-sm text-slate-600 leading-relaxed border-t border-slate-200/50 pt-3 ${
-                    openFaq === idx ? 'block' : 'hidden sm:block sm:opacity-90'
+                  key={idx} 
+                  className={`bg-white rounded-lg shadow-sm border transition-all duration-300 ${
+                    isOpen ? 'border-[#D71920] ring-1 ring-[#D71920]' : 'border-slate-200 hover:border-slate-300'
                   }`}
                 >
-                  <p>{faq.answer}</p>
+                  <button
+                    type="button"
+                    onClick={() => toggleFaq(idx)}
+                    className="w-full text-left p-6 flex items-center justify-between gap-4 group cursor-pointer"
+                  >
+                    <h3 className={`text-base sm:text-lg font-bold transition-colors ${
+                      isOpen ? 'text-[#D71920]' : 'text-[#0F172A] group-hover:text-[#D71920]'
+                    }`}>
+                      {faq.question}
+                    </h3>
+                    <div className={`shrink-0 transition-transform duration-300 ${
+                      isOpen ? 'rotate-180 text-[#D71920]' : 'text-slate-400 group-hover:text-[#D71920]'
+                    }`}>
+                      <ChevronDown size={24} />
+                    </div>
+                  </button>
+                  <div 
+                    className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                      isOpen ? 'max-h-[600px] opacity-100 pb-6 px-6' : 'max-h-0 opacity-0'
+                    }`}
+                  >
+                    <p className="text-slate-600 leading-relaxed pt-3 border-t border-slate-100 whitespace-pre-line text-sm sm:text-base">
+                      {faq.answer.trim()}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

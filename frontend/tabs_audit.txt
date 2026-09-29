@@ -1,0 +1,150 @@
+=== SHEET: READ ME FIRST ===
+Dimensions: 70 rows, 6 cols
+R1: Remax Forge & Fittings - city pages for Andhra Pradesh and Arunachal Pradesh: strategy and developer build pack |  |  |  |  | 
+R2: remaxforge.com · prepared by errorr.in · research 27 Sep 2026 · workbook 28 Sep 2026 |  |  |  |  | 
+R4: STANDING RULE - FORMS ONLY: no visible phone number, no tel: link, no WhatsApp link or widget, and no telephone property in schema - on any page, image, video or email signature. Every lead comes through a form. |  |  |  |  | 
+R6: Where things stand (live formulas) |  |  |  |  | 
+
+=== SHEET: 1. Decision Summary ===
+Dimensions: 27 rows, 19 cols
+R1: 1. Decision summary - what happens to each of the 10 URLs |  |  |  |  |  |  |  |  |  |  | 
+R2: GSC pages export, 20 Feb - 6 Aug 2026 (master plan, sheet '12. GSC Raw Data - Pages'). Each URL shows up twice in GSC - with and without the trailing slash - which is the duplicate-URL fault C-01 fixes. |  |  |  |  |  |  |  |  |  |  | 
+R4:  | GSC period covered (months): 20 Feb - 6 Aug 2026 | 5.5 | Blue = hardcoded assumption. Change it if the export covers a different period; the per-month figures below recalculate. |  |  |  |  |  |  |  | 
+R5:  | Decision for Naharlagun, Pasighat, Tawang and Ziro | Option A (recommended) | Yellow = choose. Option A: 301 each town to the combined page. Option B: keep as mini-pages - only if the keep-if condition in tab 6 (Option B block) is true. Tabs 2, 5, 6 and 12 follow this cell. |  |  |  |  |  |  |  | 
+
+=== SHEET: 2. SERP Benchmark ===
+Dimensions: 28 rows, 10 cols
+R1: 2. SERP benchmark - 'flanges manufacturer in {city}' and 'flange supplier in {city}' (20 searches) |  |  |  |  |  |  |  |  | 
+R2: Checked 27 Sep 2026 with a web-search API, not geo-located Google India - positions shift by location and device. Re-check in an incognito window set to the city, or with a rank tracker, before reporting. No Remax page appeared in any result set. |  |  |  |  |  |  |  |  | 
+R4: # | City | Keyword | Results seen (in order) | Dedicated local competitor page? | Why they rank | Their weaknesses | How Remax outranks them | Difficulty (1 easy - 5 hard) | Remax target URL
+R5: 1.0 | Visakhapatnam | flanges manufacturer in Visakhapatnam | 1 TradeIndia - blind flanges, Visakhapatnam category page | 2 TradeIndia - SS flanges, Visakhapatnam | 3 IndiaMART - local retailer listing | 4 Nitech Stainless - templated city page | 5 Justdial - 47 flange manufacturers | 6 Justdial - MS flange manufacturers | 7 Workwise vendor page | 8 Kalikund Steel - alloy steel flanges city page | 9 Rudra Impex - templated city page | Yes (4 templated competitor pages) | Directories: domain authority, huge category-by-city page grids, local listings with prices and reviews. Competitor pages: exact-match URL/title/H1, thousands of internally linked city pages, aged domains. | Templated copy with city-swap errors: Nitech's Vizag page says it made its name 'in the Hyderabad market'; Rudra Impex lists carbide cutters and conveyor belts as flange types and mentions Hubli, Dhar and Chennai. No local industry, no delivery facts, no prices; phone/WhatsApp-first CTAs. | Get indexed and linked first (C-01, C-03 to C-05). Then out-content them on local substance: AM/NS Anakapalli, HPCL, ports, Pharma City; coastal/sour/oxygen material guidance; delivery and document facts; price guidance; GSTIN and real factory media. Realistic target: first page below the directories. | 4.0 | /visakhapatnam/
+R6: 2.0 | Visakhapatnam | flange supplier in Visakhapatnam | 1 TradeIndia - SS flanges | 2 Riddhi Siddhi Metal Impex - templated city page | 3 Dolphin Rubber - flange gaskets | 4 stainlesssteelscrews.in - flange bolts | 5 Nitech Stainless | 6 Kanakbhuvan - pipe fittings city page | 7 Justdial | 8 Kalikund Steel | 9 Rudra Impex | Yes (templated) | Same as above; two results are intent mismatches (gaskets, bolts), a sign Google lacks good matches. | Riddhi Siddhi claims EIL/IBR/ARAMCO approvals with no evidence on the page and says it covers 'more than 55 cities in Visakhapatnam'. | Same page as the manufacturer query (one URL per city). Answer supplier-intent questions directly in FAQs (local stock? delivery time? documents?). | 3.0 | /visakhapatnam/
+
+=== SHEET: 3. Competitor Patterns ===
+Dimensions: 15 rows, 6 cols
+R1: 3. Competitor patterns - who ranks for these city keywords, why, and how Remax beats each pattern |  |  |  |  | 
+R2: Patterns seen across the 20 result sets in tab 2. The lesson: every ranking page wins on exact-match structure and internal linking, not on content quality - Remax can match the structure and beat the content. |  |  |  |  | 
+R4: # | Competitor / pattern | Page type | Why it ranks | Weakness | How Remax beats it
+R5: 1.0 | IndiaMART / TradeIndia / Justdial / aajjo / Workwise | Directory / marketplace | Domain authority; category x city page grids; local listings with prices, ratings and reviews. | Generic; the buyer must call several sellers; many listings are Mumbai firms 'also serving' the city. Listings expose phone numbers. | Do not fight on authority. Win the dedicated-page slot beneath them and convert better (written quotes, prices, documents). Listing there conflicts with the forms-only rule - client's call.
+R6: 2.0 | Kalikund Steel (kalikundsteel.com/city/...) | Material x city matrix (2021) | Hundreds of exact-match pages, heavy internal linking, locality names stuffed into keyword lists. | Unreadable keyword strings; no buyer information; old. | Capture material variants with H2 sections on ONE city page (never separate city x material pages - avoids the thin-page trap).
+
+=== SHEET: 4. Viraj & Sagar Benchmark ===
+Dimensions: 25 rows, 7 cols
+R1: 4. Viraj & Sagar Steel benchmark - what to copy, what to skip |  |  |  |  |  | 
+R2: Viraj = content depth (capability disclosure). Sagar = educational tables. Remax adopts the depth and the education, fixes the errors, and keeps forms-only lead capture. |  |  |  |  |  | 
+R4: # | Element | Viraj (viraj.com/stainless-steel-flanges/) | Sagar Steel (sagarsteel.net/flanges-manufacturer-india/) | What Remax should publish | Where | Adopt?
+R5: 1.0 | Capability disclosure | Integrated forge shop: cutting, forging, ring rolling, CNC lathes, CNC drilling, high-capacity forging press, mobile manipulator; in-house heat treatment and laboratory. | Generic claims ('best state of technology'). | Machine list with photos: forging press or hammer (tonnage), CNC lathes (count, max swing), drilling/VMC, heat-treatment furnace, testing equipment - only what exists. | /manufacturing/ page (new or existing) + 120-word summary on city pages | YES
+R6: 2.0 | Capacity & size range | 18,000 MT per annum; stainless flanges from 1/2" to 40". | 1/2" (15 NB) to 48" (1200 NB), DN10-DN5000. | Monthly capacity and size range per flange type and standard. | Spec tables on product pages; one line on city pages | YES
+
+=== SHEET: 5. Keyword Map ===
+Dimensions: 99 rows, 9 cols
+R1: 5. Keyword map - every keyword points to ONE URL per city (no separate manufacturer / supplier / material pages) |  |  |  |  |  |  |  | 
+R2: No volume column on purpose: the GSC export shows zero city-level queries for these pages in about 5.5 months, and third-party volume estimates at city level are unreliable. Treat every row as low-volume, high-intent. |  |  |  |  |  |  |  | 
+R4: # | Page | Keyword | Type | Intent | Target URL | Where it goes on the page | Priority | Note
+R5: 1.0 | Visakhapatnam | flange supplier in visakhapatnam | Primary | Commercial - find a supplier | /visakhapatnam/ | Title (front), H1, FAQ 1 | P1 | 
+R6: 2.0 | Visakhapatnam | flanges manufacturer in visakhapatnam | Primary | Commercial - find a maker | /visakhapatnam/ | Title (after the |), subline under H1 ('flanges manufacturer in Mumbai supplying ...'), meta description | P1 | Honest framing: manufacturer in Mumbai, supplier to the city.
+
+=== SHEET: 6. On-Page Specs ===
+Dimensions: 20 rows, 26 cols
+R1: 6. On-page specs - one row per URL. A page publishes only when column Z says READY. |  |  |  |  |  |  |  |  |  |  | 
+R2: Title <= 60 chars, meta 120-160 chars. Word floors stop thin pages - they are not targets, never pad. Word counts and open placeholders are live formulas over tabs 8, 8b and 9. |  |  |  |  |  |  |  |  |  |  | 
+R4: Page key | Page | Canonical URL (absolute, slash form) | Build status | Priority | Title tag | Title chars | Title check | Meta description | Meta chars | Meta check | H1
+R5: vizag | Visakhapatnam | https://remaxforge.com/visakhapatnam/ | REBUILD | P1 | Flange Supplier in Visakhapatnam | Flanges Manufacturer | 55 | OK | Forged flanges for Vizag and Anakapalli steel plants, the refinery, ports and Pharma City. CS, SS, alloy and NACE grades from Mumbai. Written quotes. | 149 | OK | Flange Supplier in Visakhapatnam (Vizag)
+R6: vijayawada | Vijayawada | https://remaxforge.com/vijayawada/ | REBUILD | P1 | Flange Supplier in Vijayawada | Flanges Manufacturer | 52 | OK | Flanges for Vijayawada power stations, Kondapalli industry and Amaravati water and building works. ASME, EN and IS drilling. Written quotes by email. | 149 | OK | Flange Supplier in Vijayawada & the Amaravati Capital Region
+
+=== SHEET: 7. Page Template (Dev) ===
+Dimensions: 26 rows, 8 cols
+R1: 7. Page template for the developer - 14 sections, same order on every city page |  |  |  |  |  |  | 
+R2: Build once as a component, fill from tabs 8, 8b and 9. Hubs use sections 1-3, their own sections, then 7, 11-14. |  |  |  |  |  |  | 
+R4: # | Section | What goes in it | Content source | Words | Uniqueness | HTML / component notes | Lead-capture role
+R5: 1.0 | Breadcrumb | Home › Areas We Supply › {State} › {City} | Tab 8 'Breadcrumb' row; BreadcrumbList in tab 11 | 5 | Template | <nav aria-label="Breadcrumb"><ol> … </ol></nav>. Every link in slash form; last item is plain text (the current page). If /market-area/ is not built, drop that level here AND in the JSON-LD. | -
+R6: 2.0 | Hero | H1, subline, hero paragraph + Form A (2-step quick quote) | Tab 8 'H1', 'Subline', 'Hero' rows; tab 10 Form A | 70-100 | Unique | Exactly one <h1>. Desktop: form in the right column, above the fold. Mobile: form directly under the hero paragraph. No phone number, no tel: link, no WhatsApp or 'Call us' button. | Primary conversion point
+
+=== SHEET: 8. City Content (Paste) ===
+Dimensions: 144 rows, 11 cols
+R1: 8. City content (paste-ready) - copy each cell into the matching section of the template (tab 7) |  |  |  |  |  |  |  |  |  | 
+R2: Light-yellow cells still contain [CLIENT ...], [CONFIRM] or [DEV] markers - replace them with real data from tab 15 or delete the sentence. SHARED rows at the top feed every page (edit once; the page rows below update). |  |  |  |  |  |  |  |  |  | 
+R4: Page key | URL | Sec # | Section | Element | Heading (H2) | Copy (paste-ready) | Words | Status | Uniqueness | Dev note
+R5: SHARED | all city + hub pages | 3.0 | Trust strip | Band under the hero (no heading) |  | GSTIN 27FFLPP0007K1ZA (verify on the GST portal) · GST-registered since 2020 · Proprietorship led by Vikas Purohit, CEO · Manufacturing unit in Mumbai, Maharashtra [CLIENT: locality] · [CLIENT: real certifications only, e.g. ISO 9001:2015 — delete if none] · Written quotes by email, no calls needed | 46 | CLIENT INPUT | Shared | Edit here only - page rows reference this row.
+R6: SHARED | all city + hub pages | 7.0 | Manufacturing & QA | H2 + P + photo + video | How every flange is made and checked | Every flange starts as a certified billet or bar whose heat number follows it through cutting, forging, heat treatment where the material specification requires it, CNC machining and drilling, and final marking of grade, class, size and heat number. Before dispatch we check dimensions against the governing standard and [CLIENT: list only tests actually done in-house, e.g. PMI, hardness, ultrasonic], and issue material test certificates that tie each flange back to its heat. Buyer-nominated third-party inspection can witness any stage [CONFIRM]. | 88 | CLIENT INPUT | Shared | Edit here only - page rows reference this row.
+
+=== SHEET: 8b. Page Tables (Paste) ===
+Dimensions: 72 rows, 10 cols
+R1: 8b. Page tables (paste-ready) - the local-demand table and the product-range table for each city page |  |  |  |  |  |  |  |  | 
+R2: Build both as real HTML tables (not images). Product links are slash-form; rows marked [CONFIRM] need the slug checked before launch (otherwise link /products/flanges/). |  |  |  |  |  |  |  |  | 
+R4: Page key | Table | Row | Column 1 | Column 2 | Column 3 | Column 4 | Words | Status | Note
+R5: vizag | Local demand | 1.0 | Integrated steel | Visakhapatnam Steel Plant (RINL); AM/NS India's 8.2 MTPA greenfield plant at Rajayyapeta, Anakapalli (foundation stone laid March 2026, steelmaking targeted for 2029) | Cooling water, compressed air, fuel gas, oxygen / nitrogen / argon distribution, hydraulic systems | A105 weld neck and slip-on, Class 150-300 RF for water and air; 304L/316L for industrial gases (oxygen service needs cleaned, certified components); blind and spectacle blinds for isolation | 66 | Ready | Headers: Industry | Local sites and projects | Where flanges are used | What is usually specified
+R6: vizag | Local demand | 2.0 | Refining & fuel terminals | HPCL Visakh Refinery and petroleum product terminals around the port | Process and utility lines, hydrocarbon storage and loading, flare headers | A105 weld neck RF/RTJ from Class 150 upward; A182 F5/F9 where hot, sulphur-bearing streams need chrome-moly; NACE MR0103 / ISO 17945 for wet H2S refinery service | 50 | Ready | 
+
+=== SHEET: 9. FAQs (Paste) ===
+Dimensions: 50 rows, 9 cols
+R1: 9. FAQs (paste-ready) - visible on the page AND in the FAQPage JSON-LD (tab 11 rebuilds the JSON from these cells) |  |  |  |  |  |  |  | 
+R2: Edit here only. Question 1 on every city page answers 'local supplier or shipped from Mumbai?' honestly - keep it that way. |  |  |  |  |  |  |  | 
+R4: Page key | URL | # | Question | Answer | Words | Status | In FAQPage JSON-LD? | Note
+R5: vizag | /visakhapatnam/ | 1.0 | Are you a local flange supplier in Visakhapatnam, or do you ship from Mumbai? | We ship from Mumbai. Remax Forge manufactures and dispatches from its Mumbai unit [CLIENT: confirm] and delivers to Visakhapatnam and Anakapalli by road. You deal directly with the manufacturer, so questions about grade, heat treatment or certificates are answered by the people who made the flange. | 60 | CLIENT INPUT | Yes | 
+R6: vizag | /visakhapatnam/ | 2.0 | How long does delivery to Visakhapatnam take? | Transit is typically [CLIENT: X-Y days] after dispatch. Production time depends on size, grade and quantity - standard carbon-steel sizes are quicker than alloy or large-bore forgings - and your quote states both dates. | 41 | CLIENT INPUT | Yes | 
+
+=== SHEET: 10. Lead Capture Forms ===
+Dimensions: 79 rows, 8 cols
+R1: 10. Lead capture - forms only. No phone number, no tel: link, no WhatsApp, no telephone in schema - anywhere. |  |  |  |  |  |  | 
+R2: Form A = 2-step quick quote in the hero. Form B = full RFQ at #rfq. Form C = gated weight & dimension chart. Every form carries the hidden fields below so each lead arrives tagged with its city and source. |  |  |  |  |  |  | 
+R4: A. Form fields |  |  |  |  |  |  | 
+R5: Form | Step | Field label | Field name | Type | Required | Options / placeholder / copy | Validation / note
+R6: A - hero quick quote | 1.0 | Flange type | product | select | Yes | Weld neck · Slip-on · Blind · Spectacle blind / spade / spacer · Socket weld · Threaded · Lap joint · Mixed BOQ / other | One option
+
+=== SHEET: 11. Schema JSON-LD ===
+Dimensions: 21 rows, 8 cols
+R1: 11. Schema JSON-LD - copy the VALUE of column D into <script type="application/ld+json"> on each page |  |  |  |  |  |  | 
+R2: Live formulas: page names come from tab 6, FAQ text from tab 9, company details from tab 15 - edit those tabs, never this one. No telephone property anywhere (standing rule). No Product, Offer or LocalBusiness on city pages. |  |  |  |  |  |  | 
+R4: Page key | URL | Where it goes | JSON-LD (copy the cell value) | Characters | Telephone check | Placeholders | Note
+R5: SITEWIDE | every page | Site layout <head>, once. Coordinate with daily-log ticket T2-a so only ONE Organization node exists. | {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://remaxforge.com/#organization","name":"Remax Forge & Fittings","url":"https://remaxforge.com/","vatID":"27FFLPP0007K1ZA","numberOfEmployees":{"@type":"QuantitativeValue","maxValue":10},"address":{"@type":"PostalAddress","addressLocality":"Mumbai","addressRegion":"Maharashtra","addressCountry":"IN"}},{"@type":"WebSite","@id":"https://remaxforge.com/#website","url":"https://remaxforge.com/","name":"Remax Forge & Fittings","publisher":{"@id":"https://remaxforge.com/#organization"},"inLanguage":"en-IN"},{"@type":"Person","@id":"https://remaxforge.com/#vikas-purohit","name":"Vikas Purohit","jobTitle":"CEO","worksFor":{"@id":"https://remaxforge.com/#organization"}}]} | 750 | OK - none | None | Organization (with GSTIN as vatID), WebSite, Person (Vikas Purohit, CEO). Optional parts appear only when tab 15 rows I-10, I-11, I-32, I-33, I-34 are filled.
+R6: vizag | https://remaxforge.com/visakhapatnam/ | That page's <head> (or end of <body>) | {"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://remaxforge.com/visakhapatnam/#webpage","url":"https://remaxforge.com/visakhapatnam/","name":"Flange Supplier in Visakhapatnam | Flanges Manufacturer","description":"Forged flanges for Vizag and Anakapalli steel plants, the refinery, ports and Pharma City. CS, SS, alloy and NACE grades from Mumbai. Written quotes.","isPartOf":{"@id":"https://remaxforge.com/#website"},"about":{"@id":"https://remaxforge.com/#organization"},"breadcrumb":{"@id":"https://remaxforge.com/visakhapatnam/#breadcrumb"},"inLanguage":"en-IN"},{"@type":"BreadcrumbList","@id":"https://remaxforge.com/visakhapatnam/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://remaxforge.com/"},{"@type":"ListItem","position":2,"name":"Areas We Supply","item":"https://remaxforge.com/market-area/"},{"@type":"ListItem","position":3,"name":"Andhra Pradesh","item":"https://remaxforge.com/market-area/andhra-pradesh/"},{"@type":"ListItem","position":4,"name":"Visakhapatnam","item":"https://remaxforge.com/visakhapatnam/"}]},{"@type":"Service","@id":"https://remaxforge.com/visakhapatnam/#service","name":"Flange supply to Visakhapatnam","serviceType":"Forged pipe flange manufacturing and supply","provider":{"@id":"https://remaxforge.com/#organization"},"areaServed":[{"@type":"City","name":"Visakhapatnam","containedInPlace":{"@type":"State","name":"Andhra Pradesh"}},{"@type":"AdministrativeArea","name":"Anakapalli district"}],"availableChannel":{"@type":"ServiceChannel","name":"Online request for quotation","serviceUrl":"https://remaxforge.com/visakhapatnam/#rfq"},"url":"https://remaxforge.com/visakhapatnam/"},{"@type":"FAQPage","@id":"https://remaxforge.com/visakhapatnam/#faq","mainEntity":[{"@type":"Question","name":"Are you a local flange supplier in Visakhapatnam, or do you ship from Mumbai?","acceptedAnswer":{"@type":"Answer","text":"We ship from Mumbai. Remax Forge manufactures and dispatches from its Mumbai unit [CLIENT: confirm] and delivers to Visakhapatnam and Anakapalli by road. You deal directly with the manufacturer, so questions about grade, heat treatment or certificates are answered by the people who made the flange."}},{"@type":"Question","name":"How long does delivery to Visakhapatnam take?","acceptedAnswer":{"@type":"Answer","text":"Transit is typically [CLIENT: X-Y days] after dispatch. Production time depends on size, grade and quantity - standard carbon-steel sizes are quicker than alloy or large-bore forgings - and your quote states both dates."}},{"@type":"Question","name":"Can you supply contractors working on the Anakapalli steel project or refinery jobs?","acceptedAnswer":{"@type":"Answer","text":"Yes, against the project's own material specification and vendor document requirements: inspection and test plan, third-party inspection, EN 10204 3.1 or 3.2 certificates [CONFIRM]. If the project only buys from an approved vendor list, check that first; we can support registration where the owner allows it. [CLIENT: list any genuine approvals or registrations, otherwise keep this wording.]"}},{"@type":"Question","name":"Which flange material should I use for seawater or harbour-side lines?","acceptedAnswer":{"@type":"Answer","text":"For flanges wetted by pumped seawater, super duplex (A182 F53/F55) or 6Mo (F44) is the usual choice - 316L and standard duplex (F51/F60) can suffer crevice corrosion at the gasket face in warm seawater, so keep them to splash-zone and marine-air duty. Coated carbon steel is common on freshwater fire-water rings. The line designer decides - send us the line list and we quote to it."}},{"@type":"Question","name":"Do you supply NACE MR0103 / MR0175 compliant flanges?","acceptedAnswer":{"@type":"Answer","text":"[CONFIRM] Yes. Mention the standard in your enquiry and we supply hardness-controlled material with certificates that reference it. See our sour-service flange page for details."}},{"@type":"Question","name":"What paperwork comes with a delivery to Andhra Pradesh?","acceptedAnswer":{"@type":"Answer","text":"A GST tax invoice charged with IGST, an e-way bill for consignments above Rs 50,000, a packing list, and material test certificates traceable to the heat number on each flange."}},{"@type":"Question","name":"Can I get a quote without calling anyone?","acceptedAnswer":{"@type":"Answer","text":"Yes - that is how we work. Fill the form or upload your BOQ and we reply by email with a written, line-by-line quote. Everything stays in writing, which makes approvals and purchase-order matching easier."}}]}]} | 4602 | OK - none | Has placeholders - fill tab 15 first | WebPage + BreadcrumbList + Service (areaServed, ServiceChannel → #rfq) + FAQPage.
+
+=== SHEET: 12. Links-Redirects-Index ===
+Dimensions: 106 rows, 8 cols
+R1: 12. Internal links, 301 redirects, sitemap and indexing order |  |  |  |  |  |  | 
+R2: Every href in slash form (C-01). No internal link may point at a redirected URL. Sections B-D follow the Option A/B switch in tab 1 and the READY gate in tab 6. |  |  |  |  |  |  | 
+R4: A. Internal link map - add every link below (anchors are descriptive; vary them, never 'click here') |  |  |  |  |  |  | 
+R5: # | From page | To URL | Anchor text | Placement | Priority | Slash check | Note
+R6: 1.0 | /visakhapatnam/ | /market-area/andhra-pradesh/ | Flange supply across Andhra Pradesh | Related pages (section 13) | P1 | OK | Also the breadcrumb's state level.
+
+=== SHEET: 13. Media Plan ===
+Dimensions: 70 rows, 9 cols
+R1: 13. Media plan - one factory shoot (15 photos) and 5 short videos cover all 9 pages |  |  |  |  |  |  |  | 
+R2: Shoot once at the Mumbai unit; each page reuses 2-3 photos with its own caption. Rows marked [CONFIRM] are shot only if that capability is confirmed in tab 15. |  |  |  |  |  |  |  | 
+R4: A. Shot list |  |  |  |  |  |  |  | 
+R5: ID | Shot | Direction | Must NOT appear | Alt text (draft) | File name | Needs confirmation | Used on | Status
+R6: P01 | Unit exterior / entrance | Wide daylight shot of the entrance and name board; straighten verticals; no vehicles in front. | Phone numbers or WhatsApp on the signboard (crop or retouch), number plates, neighbours' signs | Entrance of the Remax Forge & Fittings manufacturing unit in Mumbai | remax-forge-mumbai-unit.webp | - | Guntur | To shoot
+
+=== SHEET: 14. Reference Data ===
+Dimensions: 59 rows, 8 cols
+R1: 14. Reference data for writers - verified facts to teach from (and the errors not to copy) |  |  |  |  |  |  | 
+R2: Values from the governing standards as commonly published; verify each against the current edition the client holds before a number goes live. Paraphrase - ASME, ASTM and EN texts are copyrighted, so never paste their tables. |  |  |  |  |  |  | 
+R4: A. Pressure-temperature ratings - ASME B16.5, Material Group 1.1 (e.g. A105), at -29 °C to 38 °C |  |  |  |  |  |  | 
+R5: Class | Max working pressure (bar g) | Max working pressure (psig) | Check: bar x 14.504 | Consistent? |  |  | 
+R6: Class 150 | 19.6 | 285.0 | 284.27448 | OK |  |  | 
+
+=== SHEET: 15. Client Inputs ===
+Dimensions: 47 rows, 8 cols
+R1: 15. Client inputs - the only facts this plan cannot supply. Yellow cells = fill in. |  |  |  |  |  |  | 
+R2: Leave a cell blank if unsure - never guess. Every [CLIENT ...] / [CONFIRM] marker in tabs 8, 8b and 9 maps to a row here. Row 7 is a worked example of the expected format. |  |  |  |  |  |  | 
+R4:  | Inputs still missing | 40 of 40 |  |  |  |  | 
+R5:  | Missing AND blocking publish | 28 |  |  |  |  | 
+R6: ID | Input needed | Used in | Replaces placeholder | Format / example | CLIENT ANSWER | Status | Blocks publish?
+
+=== SHEET: 16. Tests & Rollout ===
+Dimensions: 182 rows, 11 cols
+R1: 16. Tickets, QA script, rollout plan and KPIs |  |  |  |  |  |  |  |  |  | 
+R2: Every ticket carries its own acceptance test - a ticket is Done only when the test passes on the live site. Status cells (yellow) are for the developer and Akshat to update. |  |  |  |  |  |  |  |  |  | 
+R4: A. Tickets |  |  |  |  |  |  |  |  |  | 
+R5: ID | Ticket | What to do | Acceptance test | Owner | Effort | Priority | Depends on | Week | Status | Daily-log link
+R6: DL | Daily-log P0s that gate everything | Ship the open P0s from the daily SEO log before any new page: T1-b trailingSlash (= C-01), T1-e strip tel: (= C-02), T0-a sitemap lists /products/ with a real lastmod, T1-a static nav, T1-j link the flange hub and repoint the footer, T0-c CI guard so none of it reverts. | Each ticket's own acceptance test in the daily-log workbook (tab 3). | Dev | ~70 min + CI guard | P0 | - | W0 | To do | Day 41: T1-b, T1-e, T0-a, T1-a, T1-j, T0-c; A-64
+
+=== SHEET: 17. Sources ===
+Dimensions: 74 rows, 6 cols
+R1: 17. Sources - where every fact came from, and which claims still need a check before publishing |  |  |  |  | 
+R2: Web research done 27 Sep 2026. Anything in section D came from general knowledge, not a source fetched for this plan - verify it or delete the name (keep the industry). |  |  |  |  | 
+R4: A. Verified during research - local facts used on the pages |  |  |  |  | 
+R5: # | Fact used | Pages | Source | URL | Source date
+R6: 1.0 | AM/NS India's 8.2 MTPA integrated steel plant at Rajayyapeta, Anakapalli district; foundation stone laid | Visakhapatnam, AP hub | AM/NS India project page | https://www.amns.in/Ap | Checked 27 Sep 2026
+

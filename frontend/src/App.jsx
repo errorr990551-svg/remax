@@ -458,7 +458,7 @@ function App() {
         <Route path='/market-area/arunachal-pradesh' element={<StateHubPage forcedKey="ar_hub" />} />
         <Route path='/market-area/arunachal-pradesh/' element={<StateHubPage forcedKey="ar_hub" />} />
 
-        {/* 6 Rebuilt City Strategy Pages */}
+        {/* 10 Strategy City Pages */}
         <Route path='/visakhapatnam' element={<CityPageStrategy forcedKey="vizag" />} />
         <Route path='/visakhapatnam/' element={<CityPageStrategy forcedKey="vizag" />} />
         <Route path='/vijayawada' element={<CityPageStrategy forcedKey="vijayawada" />} />
@@ -471,6 +471,14 @@ function App() {
         <Route path='/kurnool/' element={<CityPageStrategy forcedKey="kurnool" />} />
         <Route path='/itanagar' element={<CityPageStrategy forcedKey="itanagar" />} />
         <Route path='/itanagar/' element={<CityPageStrategy forcedKey="itanagar" />} />
+        <Route path='/naharlagun' element={<CityPageStrategy forcedKey="naharlagun" />} />
+        <Route path='/naharlagun/' element={<CityPageStrategy forcedKey="naharlagun" />} />
+        <Route path='/pasighat' element={<CityPageStrategy forcedKey="pasighat" />} />
+        <Route path='/pasighat/' element={<CityPageStrategy forcedKey="pasighat" />} />
+        <Route path='/tawang' element={<CityPageStrategy forcedKey="tawang" />} />
+        <Route path='/tawang/' element={<CityPageStrategy forcedKey="tawang" />} />
+        <Route path='/ziro' element={<CityPageStrategy forcedKey="ziro" />} />
+        <Route path='/ziro/' element={<CityPageStrategy forcedKey="ziro" />} />
 
         <Route path='/sitemap' element={<SitemapRedirect />} />
         <Route path='/sitemap.xml' element={<SitemapRedirect />} />
