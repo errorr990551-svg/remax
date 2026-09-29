@@ -50,7 +50,13 @@ const StateHubPage = ({ forcedKey }) => {
   };
 
   // Extract sections
-  const heroIntro = pageData.sections?.find(s => s.sec_num === '2.0' || s.sec_num === 2.0)?.copy || '';
+  const heroIntro = pageData.sections?.find(s => (s.sec_num === '2.0' || s.sec_num === 2.0) && s.element?.includes('Form A'))?.copy 
+    || pageData.sections?.filter(s => s.sec_num === '2.0' || s.sec_num === 2.0)?.[2]?.copy 
+    || '';
+  const heroSubline = pageData.subline 
+    || pageData.sections?.find(s => (s.sec_num === '2.0' || s.sec_num === 2.0) && s.element?.includes('Subline'))?.copy 
+    || pageData.meta_desc 
+    || '';
   const hubSections = pageData.sections?.filter(s => s.sec_num.startsWith('4.')) || [];
 
   const sharedTrust = pageData.shared_sections?.['3.0'] || pageData.shared_sections?.['3'] || {};
@@ -100,8 +106,8 @@ const StateHubPage = ({ forcedKey }) => {
                 {pageData.h1}
               </h1>
 
-              <p className="text-base sm:text-lg text-slate-300 font-medium leading-relaxed">
-                {pageData.meta_desc}
+              <p className="text-base sm:text-lg text-slate-200 font-medium leading-relaxed">
+                {heroSubline}
               </p>
 
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-slate-300 leading-relaxed">

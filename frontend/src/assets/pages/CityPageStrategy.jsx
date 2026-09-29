@@ -62,7 +62,14 @@ const CityPageStrategy = ({ forcedKey }) => {
     return pageData.sections?.find(s => parseFloat(s.sec_num) === target);
   };
 
-  const heroIntro = getSec(2.0)?.copy || '';
+  const heroIntro = pageData.sections?.find(s => parseFloat(s.sec_num) === 2.0 && s.element?.includes('Form A'))?.copy 
+    || pageData.sections?.filter(s => parseFloat(s.sec_num) === 2.0)?.[2]?.copy 
+    || '';
+  const heroSubline = pageData.subline 
+    || pageData.sections?.find(s => parseFloat(s.sec_num) === 2.0 && s.element?.includes('Subline'))?.copy 
+    || pageData.meta_desc 
+    || '';
+
   const localDemandIntro = getSec(4.0)?.copy || '';
   const materialsCopy = getSec(5.0)?.copy || '';
   const productRangeIntro = getSec(6.0)?.copy || '';
@@ -125,8 +132,8 @@ const CityPageStrategy = ({ forcedKey }) => {
                 {pageData.h1}
               </h1>
 
-              <p className="text-base sm:text-lg text-slate-300 font-medium leading-relaxed">
-                {pageData.meta_desc}
+              <p className="text-base sm:text-lg text-slate-200 font-medium leading-relaxed">
+                {heroSubline}
               </p>
 
               <div className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-slate-300 leading-relaxed">
@@ -218,7 +225,7 @@ const CityPageStrategy = ({ forcedKey }) => {
               Industrial Demand & Sourcing
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-3">
-              Where Flanges Are Used in {pageData.city}
+              {getSec(4.0)?.heading || `Where Flanges Are Used in ${pageData.city}`}
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               {localDemandIntro}
@@ -267,7 +274,7 @@ const CityPageStrategy = ({ forcedKey }) => {
               Engineering Selection & Metallurgy
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-4">
-              Materials Guidance for {pageData.city} Projects
+              {getSec(5.0)?.heading || `Materials Guidance for ${pageData.city} Projects`}
             </h2>
             <div className="prose prose-slate max-w-none text-sm sm:text-base text-slate-700 leading-relaxed space-y-4">
               {materialsCopy.split('\n').map((para, i) => (
@@ -286,7 +293,7 @@ const CityPageStrategy = ({ forcedKey }) => {
               Manufacturing Program
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-3">
-              Flange Types We Supply to {pageData.city}
+              {getSec(6.0)?.heading || `Flange Types We Supply to ${pageData.city}`}
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               {productRangeIntro}
@@ -332,7 +339,7 @@ const CityPageStrategy = ({ forcedKey }) => {
               Quality Assurance & Traceability
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-3">
-              How Every Flange Is Made and Checked
+              {getSec(7.0)?.heading || sharedMfg.heading || 'How Every Flange Is Made and Checked'}
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               {sharedMfg.copy}
@@ -414,7 +421,7 @@ const CityPageStrategy = ({ forcedKey }) => {
               Logistics & Commercial Documentation
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-3">
-              Delivery to {pageData.city} Sites
+              {getSec(8.0)?.heading || `Delivery to ${pageData.city} Sites`}
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed mb-6">
               {deliveryCopy}
@@ -446,7 +453,7 @@ const CityPageStrategy = ({ forcedKey }) => {
               Transparent Commercials
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-3">
-              Price Guidance for {pageData.city} Buyers
+              {getSec(9.0)?.heading || `Price Guidance for ${pageData.city} Buyers`}
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed mb-6">
               {priceCopy}
@@ -475,7 +482,7 @@ const CityPageStrategy = ({ forcedKey }) => {
               Supply Network Coverage
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-3">
-              Areas Served in and Around {pageData.city}
+              {getSec(10.0)?.heading || `Areas Served in and Around ${pageData.city}`}
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               {areasCopy}
@@ -518,7 +525,7 @@ const CityPageStrategy = ({ forcedKey }) => {
               Direct Manufacturer Enquiry
             </span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 mb-3">
-              Request a Written Quote for {pageData.city}
+              {getSec(11.0)?.heading || sharedQuote.heading || `Request a Written Quote for ${pageData.city}`}
             </h2>
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               {sharedQuote.copy}
@@ -542,7 +549,7 @@ const CityPageStrategy = ({ forcedKey }) => {
               Common Questions & Clarifications
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-2">
-              Frequently Asked Questions by {pageData.city} Buyers
+              {getSec(12.0)?.heading || `Frequently Asked Questions by ${pageData.city} Buyers`}
             </h2>
             <p className="text-sm text-slate-600">
               Detailed answers covering technical specifications, testing certifications, transit times, and commercial terms for {pageData.city}.
@@ -586,7 +593,7 @@ const CityPageStrategy = ({ forcedKey }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mb-6">
             <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-2">
-              Related Pages & Guides
+              {getSec(13.0)?.heading || 'Related Pages & Guides'}
             </h2>
             <p className="text-xs sm:text-sm text-slate-600">
               Explore related state hubs, industrial piping specifications, and material engineering guides.
@@ -612,7 +619,7 @@ const CityPageStrategy = ({ forcedKey }) => {
       <section className="py-12 bg-slate-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl font-extrabold mb-3">
-            Need Forged Flanges Delivered to {pageData.city}?
+            {getSec(14.0)?.heading || sharedCta.heading || `Need Forged Flanges Delivered to ${pageData.city}?`}
           </h2>
           <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto mb-6 leading-relaxed">
             {sharedCta.copy}
