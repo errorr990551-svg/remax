@@ -21,7 +21,7 @@ const SEOManager = () => {
 
     // 0. Check if path matches one of our 9 city/hub/market-area pages in cityStrategyData
     let strategyPage = null;
-    for (const [k, cfg] of Object.entries(cityStrategyData)) {
+    for (const cfg of Object.values(cityStrategyData)) {
       if (cfg.url === canonicalPath || cfg.url.replace(/\/$/, '') === pathname.replace(/\/$/, '')) {
         strategyPage = cfg;
         break;
@@ -292,6 +292,35 @@ const SEOManager = () => {
         breadcrumbsHome,
         { name: formatName(parts[0] || 'Page'), path: canonicalPath }
       ]));
+    }
+
+    const knownStaticPaths = new Set([
+      '/', '/contact/', '/about-us/', '/quality/', '/certification/', '/certificates/',
+      '/career/', '/brochure/', '/market-area/', '/export/', '/oil-gas-pipe-fittings/',
+      '/pipe-fittings-manufacturer-india/', '/buttweld-fittings-exporter-india/',
+      '/blogs/'
+    ]);
+
+    const isKnownPath = 
+      knownStaticPaths.has(canonicalPath) ||
+      Boolean(pageMeta.title) ||
+      Boolean(sheet4MetaData[canonicalPath]) ||
+      Boolean(sheet4MetaData[pathname]) ||
+      Boolean(newFlangePagesData[canonicalPath]) ||
+      Boolean(newFlangePagesData[pathname]) ||
+      canonicalPath.startsWith('/tech-info/') ||
+      canonicalPath.startsWith('/export/') ||
+      canonicalPath.startsWith('/market-area/') ||
+      canonicalPath.startsWith('/materials/') ||
+      canonicalPath.startsWith('/standards/') ||
+      canonicalPath.startsWith('/industries/') ||
+      canonicalPath.startsWith('/blogs/') ||
+      Boolean(marketAreaData[parts[parts.length - 1]?.toLowerCase()]);
+
+    if (!isKnownPath) {
+      title = '404 - Page Not Found | Remax Forge & Fittings';
+      description = 'The page you requested could not be found. Please check the URL or return to our homepage.';
+      noindex = true;
     }
 
     // Update document title

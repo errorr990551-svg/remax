@@ -18,7 +18,7 @@ const StainlessSteelGrades = () => {
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
             <Link to="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></Link>
             <ChevronRight size={14} />
-            <Link to="/blogs" className="hover:text-[#D71920] transition-colors">Blogs</Link>
+            <Link to="/blogs/" className="hover:text-[#D71920] transition-colors">Blogs</Link>
             <ChevronRight size={14} />
             <span className="text-[#D71920] font-medium truncate">Stainless Steel Grades</span>
           </div>
@@ -252,7 +252,7 @@ const StainlessSteelGrades = () => {
               </p>
               
               <Link 
-                to="/contact" 
+                to="/contact/" 
                 className="inline-flex items-center gap-2 bg-[#D71920] text-white font-bold px-6 py-3 rounded-lg hover:bg-white hover:text-[#D71920] transition-colors relative z-10 shadow-lg"
               >
                 Contact Remax Forge & Fittings <ChevronRight size={18} />
@@ -262,7 +262,7 @@ const StainlessSteelGrades = () => {
           </div>
           
           <div className="mt-12 pt-8 border-t border-slate-100 flex items-center justify-between">
-             <Link to="/blogs" className="flex items-center gap-2 text-slate-500 hover:text-[#D71920] font-medium transition-colors">
+             <Link to="/blogs/" className="flex items-center gap-2 text-slate-500 hover:text-[#D71920] font-medium transition-colors">
                <ArrowLeft size={16} /> Back to Blogs
              </Link>
           </div>

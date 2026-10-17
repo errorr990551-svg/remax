@@ -95,7 +95,7 @@ const WeldNeck = () => {
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
             <a href="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></a>
             <ChevronRight size={14} />
-            <a href="/products" className="hover:text-[#D71920] transition-colors">Products</a>
+            <a href="/products/flanges/" className="hover:text-[#D71920] transition-colors">Products</a>
             <ChevronRight size={14} />
             <span className="text-slate-400">Flanges</span>
             <ChevronRight size={14} />
@@ -155,7 +155,7 @@ const WeldNeck = () => {
               <button onClick={() => openQuotePopup()} className="px-8 py-3 rounded font-bold text-white bg-[#D71920] hover:shadow-xl transition-all transform hover:-translate-y-1 flex items-center gap-2">
                 Request Quote <ArrowRight size={18} />
               </button>
-              <a href="/contact" className="px-6 py-3 rounded font-bold text-slate-700 bg-white border border-slate-300 hover:border-slate-500 transition-all flex items-center gap-2">
+              <a href="/contact/" className="px-6 py-3 rounded font-bold text-slate-700 bg-white border border-slate-300 hover:border-slate-500 transition-all flex items-center gap-2">
                 <Download size={18} className="text-slate-500" /> Download Catalogue
               </a>
             </div>
@@ -228,7 +228,7 @@ const WeldNeck = () => {
 
             <div className="p-4 bg-red-50/50 rounded-xl border border-red-100/50">
               <p className="text-xs md:text-sm text-slate-700 font-bold leading-relaxed">
-                🔗 For lower-pressure applications, our <a href="/products/flanges/slip-on-flange" className="text-[#D71920] hover:underline font-extrabold">Slip On Flange</a> is more economical. For pipe end closures, see our <a href="/products/flanges/blind-flange" className="text-[#D71920] hover:underline font-extrabold">Blind Flange</a>. Compare our <a href="/products/flanges" className="text-[#D71920] hover:underline font-extrabold">complete flange range</a>.
+                🔗 For lower-pressure applications, our <a href="/products/flanges/slip-on-flange/" className="text-[#D71920] hover:underline font-extrabold">Slip On Flange</a> is more economical. For pipe end closures, see our <a href="/products/flanges/blind-flange/" className="text-[#D71920] hover:underline font-extrabold">Blind Flange</a>. Compare our <a href="/products/flanges/" className="text-[#D71920] hover:underline font-extrabold">complete flange range</a>.
               </p>
             </div>
           </div>
@@ -378,7 +378,7 @@ const WeldNeck = () => {
             <div className="mt-5 p-4 bg-blue-50 border border-blue-100 rounded-lg">
               <p className="text-xs text-blue-800 font-semibold leading-relaxed">
                 💡 For low-to-medium pressure general service, the more economical{' '}
-                <a href="/products/flanges/slip-on-flange" className="text-[#D71920] hover:underline font-bold">Slip On Flange</a>{' '}
+                <a href="/products/flanges/slip-on-flange/" className="text-[#D71920] hover:underline font-bold">Slip On Flange</a>{' '}
                 may be a better fit. Weld Neck is specified where safety and code compliance demand the highest integrity connection.
               </p>
             </div>
@@ -443,10 +443,10 @@ const WeldNeck = () => {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap gap-4">
-            <a href="/products/flanges/slip-on-flange" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
+            <a href="/products/flanges/slip-on-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
               <ChevronRight size={14} /> View Slip On Flange →
             </a>
-            <a href="/products/flanges/socket-weld-flange" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
+            <a href="/products/flanges/socket-weld-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
               <ChevronRight size={14} /> View Socket Weld Flange →
             </a>
           </div>
@@ -474,7 +474,7 @@ const WeldNeck = () => {
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 shrink-0">
-            <a href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D71920] hover:bg-red-600 text-white font-bold rounded-xl transition-all shadow-lg whitespace-nowrap">
+            <a href="/contact/" className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D71920] hover:bg-red-600 text-white font-bold rounded-xl transition-all shadow-lg whitespace-nowrap">
               <Download size={18} /> Request PDF Catalogue
             </a>
             <button onClick={() => openQuotePopup()} className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl transition-all border border-white/20 whitespace-nowrap">

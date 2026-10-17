@@ -19,7 +19,7 @@ const SocketWeldReducerInsert = () => {
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
             <a href="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></a>
             <ChevronRight size={14} />
-            <a href="/products" className="hover:text-[#D71920] transition-colors">Products</a>
+            <a href="/products/flanges/" className="hover:text-[#D71920] transition-colors">Products</a>
             <ChevronRight size={14} />
             <span className="text-slate-400">Socket Weld Fittings</span>
             <ChevronRight size={14} />

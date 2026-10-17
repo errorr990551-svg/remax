@@ -80,9 +80,19 @@ const ProductMenuModal = () => {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4">
               {productData[activeCategoryIndex].subcategories.map((subItem, subIndex) => {
-                const linkHref = `/products/${createSlug(
+                let linkHref = `/products/${createSlug(
                   productData[activeCategoryIndex].category
                 )}/${createSlug(subItem)}/`;
+
+                if (subItem === "Forged Fittings") {
+                  linkHref = "/products/forged-fittings/";
+                } else if (subItem === "Alloy Steel Pipes") {
+                  linkHref = "/products/pipes/alloy-steel-pipes/";
+                } else if (subItem === "Boiler Quality Plate") {
+                  linkHref = "/product-details/boiler-quality-plate/";
+                } else if (subItem === "Hardox Plate") {
+                  linkHref = "/product-details/hardox-plate/";
+                }
 
                 return (
                   <Link

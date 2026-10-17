@@ -44,14 +44,14 @@ function generateSitemap() {
     let match;
     while ((match = routeRegex.exec(appContent)) !== null) {
       const route = match[1];
-      // Filter out dynamic routes (like :cityName, :stateName/:cityName) and sitemap routes
-      if (!route.includes(':') && !route.includes('sitemap')) {
+      // Filter out dynamic routes (like :cityName, :stateName/:cityName), wildcard, and sitemap routes
+      if (!route.includes(':') && !route.includes('sitemap') && route !== '*' && route !== '/products' && route !== '/products/') {
         routes.push(normalizeUrl(route));
       }
     }
 
     // 2. Add commercial flange pages, city pages, export hubs & export cities
-    const redirectedCities = [];
+    const redirectedCities = ['naharlagun', 'pasighat', 'tawang', 'ziro'];
     const newFlangeRoutes = Object.keys(newFlangePagesData).map(normalizeUrl);
     const cityRoutes = keptCities
       .filter(city => !redirectedCities.includes(city.toLowerCase()))

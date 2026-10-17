@@ -130,12 +130,14 @@ import MarineIndustry from './assets/pages/industries/MarineIndustry.jsx';
 import ChemicalProcessingIndustry from './assets/pages/industries/ChemicalProcessingIndustry.jsx';
 
 import SEOManager from './assets/components/common/SEOManager.jsx';
+import NotFound from './assets/pages/NotFound.jsx';
 
 import FloatingQuoteButton from './assets/components/common/FloatingQuoteButton.jsx';
 import StickyMobileBar from './assets/components/common/StickyMobileBar.jsx';
 import ExitIntentModal from './assets/components/common/ExitIntentModal.jsx';
 
-const legacyFlangeRedirects = {
+const legacyProductRedirects = {
+  // Legacy Flange Product Details redirects
   '/product-details/weldneck-flange': '/products/flanges/weld-neck-flange/',
   '/product-details/weldneck-flange/': '/products/flanges/weld-neck-flange/',
   '/product-details/blind-flange': '/products/flanges/blind-flange/',
@@ -147,7 +149,97 @@ const legacyFlangeRedirects = {
   '/product-details/slip-on-flange': '/products/flanges/slip-on-flange/',
   '/product-details/slip-on-flange/': '/products/flanges/slip-on-flange/',
   '/product-details/stub-end-flange': '/products/flanges/lap-joint-flange/',
-  '/product-details/stub-end-flange/': '/products/flanges/lap-joint-flange/'
+  '/product-details/stub-end-flange/': '/products/flanges/lap-joint-flange/',
+
+  // General products category redirect
+  '/products': '/products/flanges/',
+  '/products/': '/products/flanges/',
+
+  // Obsolete Plates redirects (to active plate pages)
+  '/products/plates/quend-plate': '/product-details/hardox-plate/',
+  '/products/plates/quend-plate/': '/product-details/hardox-plate/',
+  '/products/plates/quard-plate': '/product-details/hardox-plate/',
+  '/products/plates/quard-plate/': '/product-details/hardox-plate/',
+  '/products/plates/hardox-plate': '/product-details/hardox-plate/',
+  '/products/plates/hardox-plate/': '/product-details/hardox-plate/',
+  '/products/plates/manganese-plate': '/product-details/hardox-plate/',
+  '/products/plates/manganese-plate/': '/product-details/hardox-plate/',
+  '/products/plates/chequered-plate': '/product-details/boiler-quality-plate/',
+  '/products/plates/chequered-plate/': '/product-details/boiler-quality-plate/',
+  '/products/plates/aluminium-plate': '/product-details/boiler-quality-plate/',
+  '/products/plates/aluminium-plate/': '/product-details/boiler-quality-plate/',
+  '/products/plates/boiler-quality-plate': '/product-details/boiler-quality-plate/',
+  '/products/plates/boiler-quality-plate/': '/product-details/boiler-quality-plate/',
+  '/products/plates/carbon-steel-plate': '/product-details/boiler-quality-plate/',
+  '/products/plates/carbon-steel-plate/': '/product-details/boiler-quality-plate/',
+  '/products/plates/corten-steel-plate': '/product-details/boiler-quality-plate/',
+  '/products/plates/corten-steel-plate/': '/product-details/boiler-quality-plate/',
+  '/products/plates/stainless-steel-plate': '/product-details/boiler-quality-plate/',
+  '/products/plates/stainless-steel-plate/': '/product-details/boiler-quality-plate/',
+  '/products/plates/nickel-alloy-plate': '/product-details/boiler-quality-plate/',
+  '/products/plates/nickel-alloy-plate/': '/product-details/boiler-quality-plate/',
+  '/products/plates/chrome-moly-plate': '/product-details/boiler-quality-plate/',
+  '/products/plates/chrome-moly-plate/': '/product-details/boiler-quality-plate/',
+  '/products/plates/pressure-vessel-plate': '/product-details/boiler-quality-plate/',
+  '/products/plates/pressure-vessel-plate/': '/product-details/boiler-quality-plate/',
+  '/products/plates/offshore-steel-plate': '/product-details/boiler-quality-plate/',
+  '/products/plates/offshore-steel-plate/': '/product-details/boiler-quality-plate/',
+
+  // Obsolete Pipes redirects (to active /products/pipes/alloy-steel-pipes/)
+  '/products/pipes/aluminium-pipe': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/aluminium-pipe/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/stainless-steel-pipes': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/stainless-steel-pipes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/carbon-steel-pipes': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/carbon-steel-pipes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/hastelloy-pipes': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/hastelloy-pipes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/incoloy-pipe': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/incoloy-pipe/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/monel-pipe': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/monel-pipe/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/titanium-pipe': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/titanium-pipe/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/tantalum-pipe': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/tantalum-pipe/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/duplex-steel-superduplex-steel-pipe': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/duplex-steel-superduplex-steel-pipe/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/nickel-pipe': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/nickel-pipe/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/mild-steel-pipes': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/mild-steel-pipes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/copper-pipes': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/copper-pipes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/brass-pipes': '/products/pipes/alloy-steel-pipes/',
+  '/products/pipes/brass-pipes/': '/products/pipes/alloy-steel-pipes/',
+
+  // Obsolete Tubes redirects (to active /products/pipes/alloy-steel-pipes/)
+  '/products/tubes/copper-tube': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/copper-tube/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/tantalum-tubes': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/tantalum-tubes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/stainless-steel-tubes': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/stainless-steel-tubes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/carbon-steel-tubes': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/carbon-steel-tubes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/hastelloy-tubes': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/hastelloy-tubes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/incoloy-tubes': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/incoloy-tubes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/monel-tubes': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/monel-tubes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/titanium-tubes': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/titanium-tubes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/aluminium-tubes': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/aluminium-tubes/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/duplex-steel-super-duplex-steel-tube': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/duplex-steel-super-duplex-steel-tube/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/nickel-tube': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/nickel-tube/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/alloy-steel-tube': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/alloy-steel-tube/': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/brass-tube': '/products/pipes/alloy-steel-pipes/',
+  '/products/tubes/brass-tube/': '/products/pipes/alloy-steel-pipes/'
 };
 
 const optionARedirects = {
@@ -172,9 +264,9 @@ const TrailingSlashRedirector = () => {
       return;
     }
 
-    // 1. Legacy Product Details redirects for Flanges
-    if (legacyFlangeRedirects[pathname]) {
-      navigate(legacyFlangeRedirects[pathname], { replace: true });
+    // 1. Legacy Product Details redirects
+    if (legacyProductRedirects[pathname]) {
+      navigate(legacyProductRedirects[pathname], { replace: true });
       return;
     }
 
@@ -479,13 +571,21 @@ function App() {
         <Route path='/tawang/' element={<CityPageStrategy forcedKey="tawang" />} />
         <Route path='/ziro' element={<CityPageStrategy forcedKey="ziro" />} />
         <Route path='/ziro/' element={<CityPageStrategy forcedKey="ziro" />} />
-
         <Route path='/sitemap' element={<SitemapRedirect />} />
         <Route path='/sitemap.xml' element={<SitemapRedirect />} />
+
+        {/* Legacy Product Redirects */}
+        {Object.entries(legacyProductRedirects).map(([oldPath, newPath]) => (
+          <Route key={oldPath} path={oldPath} element={<Navigate to={newPath} replace />} />
+        ))}
+
         <Route path='/:cityName' element={<CityPage />} />
         <Route path='/:cityName/' element={<CityPage />} />
         <Route path='/:stateName/:cityName' element={<CityPage />} />
         <Route path='/:stateName/:cityName/' element={<CityPage />} />
+
+        {/* 404 Catch-All */}
+        <Route path='*' element={<NotFound />} />
       </Routes>
 
       {/* Sitewide Interactive CRO Components */}

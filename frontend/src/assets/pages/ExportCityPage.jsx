@@ -100,7 +100,7 @@ const ExportCityPage = () => {
               <Home size={14} /> Home
             </Link>
             <span>/</span>
-            <Link to="/export" className="hover:text-white">Where We Export</Link>
+            <Link to="/export/" className="hover:text-white">Where We Export</Link>
             <span>/</span>
             <Link to={`/export/${cityData.countrySlug}`} className="hover:text-white">{cityData.country}</Link>
             <span>/</span>

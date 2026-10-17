@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { useNavigate, useParams, Navigate, Link } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Globe, Settings, Clock, CheckCircle2, Factory, Award, Truck, PenTool, ChevronLeft, ChevronRight, HelpCircle, ChevronDown, ChevronUp, Home } from 'lucide-react';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 import { useProductMenu } from '../context/ProductMenuContext.jsx';
 import MetaTags from '../components/common/MetaTags.jsx';
+import NotFound from './NotFound.jsx';
 import { marketAreaData } from '../data/marketAreaData.js';
 
 const CityPage = () => {
@@ -11,7 +12,6 @@ const CityPage = () => {
   const { openQuotePopup } = useQuotePopup();
   const { openProductMenu } = useProductMenu();
   
-  const KEPT_CITIES = Object.keys(marketAreaData);
   const lowercaseCity = cityName?.toLowerCase();
   
   // Resolve key to support flat lookup
@@ -24,15 +24,8 @@ const CityPage = () => {
   };
 
   if (!lowercaseCity || !data) {
-    return <Navigate to="/market-area" replace />;
+    return <NotFound />;
   }
-
-  const scrollToProducts = () => {
-    const section = document.getElementById('products-section');
-    if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
 
   const clientLogos = [
     "/images/1.webp", "/images/3.webp", "/images/4.webp", "/images/5.webp", "/images/6.webp", "/images/8.webp", "/images/9.webp", "/images/10.webp", "/images/11.svg", "/images/12.webp", "/images/13.webp", "/images/14.webp", "/images/15.webp", "/images/16.webp", "/images/17.webp", "/images/19.webp", "/images/c2.webp", "/images/Adani_2012_logo.webp", "/images/air-products-logo.webp", "/images/Arcelor_Mittal.svg.webp", "/images/BHEL_logo.svg.webp", "/images/bhilosa.webp", "/images/deccan.webp", "/images/deepak-chem-tech.webp", "/images/DESMET.jpg.webp", "/images/gardner-denver.webp", "/images/gnfc.webp", "/images/godrej-logo.jpg.webp", "/images/gujrat-state-fertilizers.webp", "/images/Hindustan-Petroleum.webp", "/images/indian-oil.jpg.webp", "/images/isrro.jpg.webp", "/images/jindal-steel.webp", "/images/jsw.webp", "/images/larsen.webp", "/images/linde.webp", "/images/nrl-og-logo.webp", "/images/ongc.webp", "/images/paharpur.webp", "/images/pidilite-logo.jpg.webp", "/images/Praj.jpg.webp", "/images/Shree_Renuka_Sugars.jpg.webp", "/images/tata-steel.jpg.webp", "/images/thyssenkurpp.webp", "/images/upl.webp", "/images/wipro-logo-300x300.webp"
@@ -66,7 +59,8 @@ const CityPage = () => {
         title={data.meta.title}
         description={data.meta.description}
         keywords={data.meta.keywords}
-        robots={KEPT_CITIES.includes(lowercaseCity) ? "index, follow" : "noindex, nofollow"}
+        canonical={`https://remaxforge.com/${lowercaseCity}/`}
+        robots="index, follow"
       />
       <style>
         {`
@@ -103,7 +97,7 @@ const CityPage = () => {
             <div className="flex items-center gap-2 text-sm text-slate-300 mb-6 font-medium">
               <Link to="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></Link>
               <ChevronRight size={14} className="text-slate-400" />
-              <Link to="/market-area" className="hover:text-[#D71920] transition-colors">Market Area</Link>
+              <Link to="/market-area/" className="hover:text-[#D71920] transition-colors">Market Area</Link>
               <ChevronRight size={14} className="text-slate-400" />
               <span className="text-[#D71920] font-bold">{data.city}</span>
             </div>

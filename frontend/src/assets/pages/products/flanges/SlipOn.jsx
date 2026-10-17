@@ -105,7 +105,7 @@ const SlipOn = () => {
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
             <a href="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></a>
             <ChevronRight size={14} />
-            <a href="/products" className="hover:text-[#D71920] transition-colors">Products</a>
+            <a href="/products/flanges/" className="hover:text-[#D71920] transition-colors">Products</a>
             <ChevronRight size={14} />
             <span className="text-slate-400">Flanges</span>
             <ChevronRight size={14} />
@@ -175,7 +175,7 @@ const SlipOn = () => {
                  Request Quote <ArrowRight size={18} />
                </button>
                <a
-                 href="/contact"
+                 href="/contact/"
                  className="px-6 py-3 rounded font-bold text-slate-700 bg-white border border-slate-300 hover:border-slate-500 transition-all flex items-center gap-2"
                >
                  <Download size={18} className="text-slate-500" />
@@ -255,7 +255,7 @@ const SlipOn = () => {
 
             <div className="p-4 bg-red-50/50 rounded-xl border border-red-100/50 mt-2">
               <p className="text-xs md:text-sm text-slate-700 font-bold leading-relaxed">
-                🔗 For high-pressure, cyclic, or critical service, see our <a href="/products/flanges/weld-neck-flange" className="text-[#D71920] hover:underline font-extrabold">Weld Neck Flange</a>. Compare our <a href="/products/flanges" className="text-[#D71920] hover:underline font-extrabold">complete flange range</a> for your project.
+                🔗 For high-pressure, cyclic, or critical service, see our <a href="/products/flanges/weld-neck-flange/" className="text-[#D71920] hover:underline font-extrabold">Weld Neck Flange</a>. Compare our <a href="/products/flanges/" className="text-[#D71920] hover:underline font-extrabold">complete flange range</a> for your project.
               </p>
             </div>
           </div>
@@ -433,7 +433,7 @@ const SlipOn = () => {
               <div className="mt-5 p-4 bg-blue-50 border border-blue-100 rounded-lg">
                 <p className="text-xs text-blue-800 font-semibold leading-relaxed">
                   💡 For the above services, consider our{' '}
-                  <a href="/products/flanges/weld-neck-flange" className="text-[#D71920] hover:underline font-bold">Weld Neck Flange</a>{' '}
+                  <a href="/products/flanges/weld-neck-flange/" className="text-[#D71920] hover:underline font-bold">Weld Neck Flange</a>{' '}
                   which offers full pressure rating and superior fatigue life.
                 </p>
               </div>
@@ -504,10 +504,10 @@ const SlipOn = () => {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap gap-4">
-            <a href="/products/flanges/weld-neck-flange" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
+            <a href="/products/flanges/weld-neck-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
               <ChevronRight size={14} /> View Weld Neck Flange →
             </a>
-            <a href="/products/flanges/socket-weld-flange" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
+            <a href="/products/flanges/socket-weld-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
               <ChevronRight size={14} /> View Socket Weld Flange →
             </a>
           </div>
@@ -538,7 +538,7 @@ const SlipOn = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 shrink-0">
             <a
-              href="/contact"
+              href="/contact/"
               className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D71920] hover:bg-red-600 text-white font-bold rounded-xl transition-all shadow-lg hover:shadow-red-600/30 whitespace-nowrap"
             >
               <Download size={18} />

@@ -16,7 +16,7 @@ const ExportHubPage = () => {
   const hub = exportHubsData[countrySlug];
 
   if (!hub) {
-    return <Navigate to="/export" replace />;
+    return <Navigate to="/export/" replace />;
   }
 
   // Filter cities for this country
@@ -95,7 +95,7 @@ const ExportHubPage = () => {
               <Home size={14} /> Home
             </Link>
             <span>/</span>
-            <Link to="/export" className="hover:text-white">Where We Export</Link>
+            <Link to="/export/" className="hover:text-white">Where We Export</Link>
             <span>/</span>
             <span className="text-red-400 font-medium">{hub.country}</span>
           </nav>

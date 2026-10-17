@@ -85,7 +85,7 @@ const Threaded = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
             <a href="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></a>
-            <ChevronRight size={14} /><a href="/products" className="hover:text-[#D71920] transition-colors">Products</a>
+            <ChevronRight size={14} /><a href="/products/flanges/" className="hover:text-[#D71920] transition-colors">Products</a>
             <ChevronRight size={14} /><span className="text-slate-400">Flanges</span>
             <ChevronRight size={14} /><span className="text-[#D71920] font-medium">Threaded Flange</span>
           </div>
@@ -130,7 +130,7 @@ const Threaded = () => {
             </div>
             <div className="mt-10 flex gap-4">
               <button onClick={() => openQuotePopup()} className="px-8 py-3 rounded font-bold text-white bg-[#D71920] hover:shadow-xl transition-all transform hover:-translate-y-1 flex items-center gap-2">Request Quote <ArrowRight size={18} /></button>
-              <a href="/contact" className="px-6 py-3 rounded font-bold text-slate-700 bg-white border border-slate-300 hover:border-slate-500 transition-all flex items-center gap-2"><Download size={18} className="text-slate-500" /> Download Catalogue</a>
+              <a href="/contact/" className="px-6 py-3 rounded font-bold text-slate-700 bg-white border border-slate-300 hover:border-slate-500 transition-all flex items-center gap-2"><Download size={18} className="text-slate-500" /> Download Catalogue</a>
             </div>
           </div>
         </div>
@@ -201,7 +201,7 @@ const Threaded = () => {
             </div>
             <div className="p-4 bg-red-50/50 rounded-xl border border-red-100/50">
               <p className="text-xs md:text-sm text-slate-700 font-bold leading-relaxed">
-                🔗 For high-pressure applications requiring welded connections, see our <a href="/products/flanges/weld-neck-flange" className="text-[#D71920] hover:underline font-extrabold">Weld Neck Flange</a>. For small-bore high-pressure welded connections, see <a href="/products/flanges/socket-weld-flange" className="text-[#D71920] hover:underline font-extrabold">Socket Weld Flange</a>.
+                🔗 For high-pressure applications requiring welded connections, see our <a href="/products/flanges/weld-neck-flange/" className="text-[#D71920] hover:underline font-extrabold">Weld Neck Flange</a>. For small-bore high-pressure welded connections, see <a href="/products/flanges/socket-weld-flange/" className="text-[#D71920] hover:underline font-extrabold">Socket Weld Flange</a>.
               </p>
             </div>
           </div>
@@ -344,8 +344,8 @@ const Threaded = () => {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap gap-4">
-            <a href="/products/flanges/weld-neck-flange" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1"><ChevronRight size={14} /> View Weld Neck Flange →</a>
-            <a href="/products/flanges/socket-weld-flange" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1"><ChevronRight size={14} /> View Socket Weld Flange →</a>
+            <a href="/products/flanges/weld-neck-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1"><ChevronRight size={14} /> View Weld Neck Flange →</a>
+            <a href="/products/flanges/socket-weld-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1"><ChevronRight size={14} /> View Socket Weld Flange →</a>
           </div>
         </div>
 
@@ -362,7 +362,7 @@ const Threaded = () => {
             <p className="text-slate-400 text-sm leading-relaxed max-w-lg">Complete technical catalogue including NPT/BSP dimension tables, material grades, standards, and thread specification data.</p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 shrink-0">
-            <a href="/contact" className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D71920] hover:bg-red-600 text-white font-bold rounded-xl transition-all shadow-lg whitespace-nowrap"><Download size={18} /> Request PDF Catalogue</a>
+            <a href="/contact/" className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D71920] hover:bg-red-600 text-white font-bold rounded-xl transition-all shadow-lg whitespace-nowrap"><Download size={18} /> Request PDF Catalogue</a>
             <button onClick={() => openQuotePopup()} className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl transition-all border border-white/20 whitespace-nowrap">Get Instant Quote <ArrowRight size={18} /></button>
           </div>
         </div>

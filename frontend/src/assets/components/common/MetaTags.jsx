@@ -46,9 +46,16 @@ const MetaTags = ({
     setMetaTag('author', author);
     setMetaTag('publisher', publisher);
 
-    // Set canonical URL to the provided one, or default to the production URL
-    const canonicalUrl = canonical || 'https://remaxforge.com' + window.location.pathname;
-    setLinkTag('canonical', canonicalUrl);
+    // Set canonical URL to the provided one, or default to the production URL with trailing slash
+    let cleanPath = window.location.pathname;
+    if (cleanPath !== '/' && !cleanPath.endsWith('/')) {
+      cleanPath += '/';
+    }
+    let targetCanonical = canonical || `https://remaxforge.com${cleanPath}`;
+    if (targetCanonical !== 'https://remaxforge.com/' && targetCanonical.endsWith('/') === false) {
+      targetCanonical += '/';
+    }
+    setLinkTag('canonical', targetCanonical);
 
   }, [title, description, keywords, canonical, robots, author, publisher]);
 
