@@ -22,7 +22,16 @@ exports.submitContactForm = async (req, res) => {
       quantity,
       requirements,
       page_url,
+      website_hp,
     } = req.body || {};
+
+    // 1. Anti-spam honeypot detection (Fixes M1)
+    if (website_hp) {
+      return res.status(200).json({
+        success: true,
+        message: "Your inquiry has been received. Our sales engineers will contact you shortly."
+      });
+    }
 
     const contactName = (name || fullName || "").trim();
     const contactEmail = (email || emailAddress || "").trim();
@@ -37,6 +46,17 @@ exports.submitContactForm = async (req, res) => {
         success: false, 
         message: "Please fill in your name and contact details (email or phone)" 
       });
+    }
+
+    // Server-side phone format validation (Fixes M1)
+    if (contactPhone) {
+      const cleanPhone = contactPhone.replace(/[\s\-\+\(\)]/g, "");
+      if (cleanPhone.length < 7 || !/^\d+$/.test(cleanPhone)) {
+        return res.status(400).json({ 
+          success: false, 
+          message: "Please enter a valid contact phone number (at least 7 digits)" 
+        });
+      }
     }
 
     // Build human-readable message combining all provided context

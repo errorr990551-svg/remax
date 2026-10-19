@@ -256,11 +256,11 @@ const Navbar = () => {
           </div>
 
           {/* RIGHT SIDE (Desktop CTA & Mobile Toggle) */}
-          <div className="flex items-center gap-4">
-            <div className="hidden lg:block">
+          <div className="flex items-center gap-4 shrink-0">
+            <div className="hidden lg:block shrink-0">
               <Link
                 to="/contact/"
-                className="px-6 py-3 rounded font-bold hover:shadow-lg text-sm bg-[#D71920] text-white transition-all transform hover:-translate-y-0.5"
+                className="whitespace-nowrap px-6 py-2.5 rounded font-bold hover:shadow-lg text-sm bg-[#D71920] text-white transition-all transform hover:-translate-y-0.5 inline-block"
               >
                 Contact Us
               </Link>
@@ -272,6 +272,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen(!isOpen)}
                 className="p-2 rounded-md text-[#0F172A] hover:bg-slate-100 focus:outline-none transition-colors"
                 aria-label="Toggle menu"
+                aria-expanded={isOpen}
               >
                 {isOpen ? <X size={28} /> : <Menu size={28} />}
               </button>
@@ -287,7 +288,6 @@ const Navbar = () => {
         }`}
       >
         <div className="px-4 pt-4 pb-8 space-y-2">
-          
           {/* Direct Links */}
           <Link 
             to="/" 

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './App.css';
 import './index.css';
 
-import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
+import { Route, Routes, useLocation, useNavigate, Navigate } from 'react-router-dom';
 import Navbar from './assets/components/common/Navbar.jsx';
 import Home from './assets/pages/Home.jsx';
 import Footer from './assets/components/common/Footer.jsx';
@@ -154,6 +154,20 @@ const legacyProductRedirects = {
   // General products category redirect
   '/products': '/products/flanges/',
   '/products/': '/products/flanges/',
+  '/products/buttweld-fittings': '/products/buttweld-fittings/butt-weld-elbow-fittings/',
+  '/products/buttweld-fittings/': '/products/buttweld-fittings/butt-weld-elbow-fittings/',
+  '/materials': '/materials/carbon-steel-flanges/',
+  '/materials/': '/materials/carbon-steel-flanges/',
+  '/industries': '/industries/oil-and-gas/',
+  '/industries/': '/industries/oil-and-gas/',
+  '/product-details': '/product-details/boiler-quality-plate/',
+  '/product-details/': '/product-details/boiler-quality-plate/',
+  '/tech-info': '/tech-info/dimension-chart/',
+  '/tech-info/': '/tech-info/dimension-chart/',
+  '/about': '/about-us/',
+  '/about/': '/about-us/',
+  '/certificates': '/certification/',
+  '/certificates/': '/certification/',
 
   // Obsolete Plates redirects (to active plate pages)
   '/products/plates/quend-plate': '/product-details/hardox-plate/',
@@ -318,8 +332,8 @@ function App() {
         <Route path='/quality/' element={<Quality />} />
         <Route path='/certification' element={<Certification />} />
         <Route path='/certification/' element={<Certification />} />
-        <Route path='/certificates' element={<Certification />} />
-        <Route path='/certificates/' element={<Certification />} />
+        <Route path='/certificates' element={<Navigate to="/certification/" replace />} />
+        <Route path='/certificates/' element={<Navigate to="/certification/" replace />} />
         <Route path='/career' element={<CareerPage />} />
         <Route path='/career/' element={<CareerPage />} />
         <Route path='/brochure' element={<BrochureGating />} />
@@ -393,8 +407,10 @@ function App() {
         <Route path='/tech-info/mechanical-properties/' element={<MechanicalProperties />} />
         <Route path='/tech-info/weight-chart' element={<WeightChart />} />
         <Route path='/tech-info/weight-chart/' element={<WeightChart />} />
-        <Route path='/tech-info/dimensions' element={<DimensionChart />} />
-        <Route path='/tech-info/dimensions/' element={<DimensionChart />} />
+        <Route path='/tech-info/dimension-chart' element={<DimensionChart />} />
+        <Route path='/tech-info/dimension-chart/' element={<DimensionChart />} />
+        <Route path='/tech-info/dimensions' element={<Navigate to="/tech-info/dimension-chart/" replace />} />
+        <Route path='/tech-info/dimensions/' element={<Navigate to="/tech-info/dimension-chart/" replace />} />
 
         {/* Flanges Category Hub & Types */}
         <Route path='/products/flanges' element={<FlangesCategoryHub />} />
@@ -563,14 +579,14 @@ function App() {
         <Route path='/kurnool/' element={<CityPageStrategy forcedKey="kurnool" />} />
         <Route path='/itanagar' element={<CityPageStrategy forcedKey="itanagar" />} />
         <Route path='/itanagar/' element={<CityPageStrategy forcedKey="itanagar" />} />
-        <Route path='/naharlagun' element={<CityPageStrategy forcedKey="naharlagun" />} />
-        <Route path='/naharlagun/' element={<CityPageStrategy forcedKey="naharlagun" />} />
-        <Route path='/pasighat' element={<CityPageStrategy forcedKey="pasighat" />} />
-        <Route path='/pasighat/' element={<CityPageStrategy forcedKey="pasighat" />} />
-        <Route path='/tawang' element={<CityPageStrategy forcedKey="tawang" />} />
-        <Route path='/tawang/' element={<CityPageStrategy forcedKey="tawang" />} />
-        <Route path='/ziro' element={<CityPageStrategy forcedKey="ziro" />} />
-        <Route path='/ziro/' element={<CityPageStrategy forcedKey="ziro" />} />
+        <Route path='/naharlagun' element={<Navigate to="/itanagar/" replace />} />
+        <Route path='/naharlagun/' element={<Navigate to="/itanagar/" replace />} />
+        <Route path='/pasighat' element={<Navigate to="/market-area/arunachal-pradesh/" replace />} />
+        <Route path='/pasighat/' element={<Navigate to="/market-area/arunachal-pradesh/" replace />} />
+        <Route path='/tawang' element={<Navigate to="/market-area/arunachal-pradesh/" replace />} />
+        <Route path='/tawang/' element={<Navigate to="/market-area/arunachal-pradesh/" replace />} />
+        <Route path='/ziro' element={<Navigate to="/market-area/arunachal-pradesh/" replace />} />
+        <Route path='/ziro/' element={<Navigate to="/market-area/arunachal-pradesh/" replace />} />
         <Route path='/sitemap' element={<SitemapRedirect />} />
         <Route path='/sitemap.xml' element={<SitemapRedirect />} />
 

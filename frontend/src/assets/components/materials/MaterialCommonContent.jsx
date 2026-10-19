@@ -147,6 +147,31 @@ const MaterialCommonContent = ({ material }) => {
         </div>
       </section>
 
+      {/* Forging, Heat Treatment & Quality Inspection Protocols (Fixes M7 Thin Content) */}
+      <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+        <h2 className="text-2xl font-bold text-slate-900 mb-4">Forging, Heat Treatment & Quality Inspection Protocols</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-600 text-sm leading-relaxed">
+          <div className="space-y-3">
+            <h3 className="text-base font-bold text-slate-900">Forging & Thermal Processing</h3>
+            <p>
+              Flanges in {material.name} are manufactured via precision closed-die or open-die forging to establish continuous metallurgical grain flow along the flange hub and neck contour. Raw billets are heated in calibrated gas-fired furnaces under strictly controlled soak temperatures to eliminate microstructural defects.
+            </p>
+            <p>
+              Depending on the alloy grade, components undergo certified thermal conditioning: normalizing for carbon steels (A105N, A350 LF2), rapid water quench solution annealing at 1040°C–1120°C for stainless and duplex grades, or controlled aging for nickel superalloys. This ensures exceptional notch toughness, yield strength, and resistance to stress corrosion cracking.
+            </p>
+          </div>
+          <div className="space-y-3">
+            <h3 className="text-base font-bold text-slate-900">Dimensional Tolerances & Certification</h3>
+            <p>
+              Final machining is executed on heavy-duty CNC turning centers to guarantee precise raised face, flat face, or ring type joint (RTJ) dimensions compliant with ASME B16.5, ASME B16.47, DIN, or EN 1092-1 standards. Gasket contact surfaces receive spiral or concentric serrations strictly controlled between 125 and 250 µin Ra.
+            </p>
+            <p>
+              Every production heat is issued with an EN 10204 Type 3.1 inspection certificate containing full heat chemistry, mechanical tensile test data, and Charpy impact values. Independent Third-Party Inspection (TPI) by Lloyd&apos;s, BV, DNV-GL, TÜV, and SGS is readily accommodated for global EPC and refinery contracts.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Reciprocal Internal Links Hub */}
       {material.relatedLinks && (
         <section className="bg-slate-900 text-white p-6 md:p-8 rounded-2xl">

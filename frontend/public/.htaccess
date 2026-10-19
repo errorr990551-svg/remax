@@ -1,0 +1,43 @@
+# Remax Forge & Fittings — Apache / LiteSpeed Web Server Configuration
+Options -Indexes
+DirectoryIndex index.html
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # 1. Parent Directory / Category Hub 301 Redirects (Fixes H1 403 Forbidden)
+  RewriteRule ^products/?$ /products/flanges/ [R=301,L]
+  RewriteRule ^products/buttweld-fittings/?$ /products/buttweld-fittings/butt-weld-elbow-fittings/ [R=301,L]
+  RewriteRule ^materials/?$ /materials/carbon-steel-flanges/ [R=301,L]
+  RewriteRule ^industries/?$ /industries/oil-and-gas/ [R=301,L]
+  RewriteRule ^product-details/?$ /product-details/boiler-quality-plate/ [R=301,L]
+  RewriteRule ^tech-info/?$ /tech-info/dimension-chart/ [R=301,L]
+  RewriteRule ^tech-info/dimensions/?$ /tech-info/dimension-chart/ [R=301,L]
+  RewriteRule ^about/?$ /about-us/ [R=301,L]
+  RewriteRule ^certificates/?$ /certification/ [R=301,L]
+
+  # 2. Non-Self-Canonical City Redirects (Fixes H3)
+  RewriteRule ^naharlagun/?$ /itanagar/ [R=301,L]
+  RewriteRule ^pasighat/?$ /market-area/arunachal-pradesh/ [R=301,L]
+  RewriteRule ^tawang/?$ /market-area/arunachal-pradesh/ [R=301,L]
+  RewriteRule ^ziro/?$ /market-area/arunachal-pradesh/ [R=301,L]
+
+  # 3. Force trailing slash on URLs without extensions
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5})$
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteRule ^(.*)$ /$1/ [R=301,L]
+
+  # 4. If requested URL exists as a physical file or directory with index.html, serve it directly
+  RewriteCond %{REQUEST_FILENAME} -f
+  RewriteRule ^ - [L]
+
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^ - [L]
+
+  # 5. Fallback rule: return real HTTP 404 for unknown URLs (Fixes C3 Soft 404!)
+  RewriteRule ^ - [R=404,L]
+</IfModule>

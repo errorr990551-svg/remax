@@ -126,15 +126,15 @@ const Footer = () => {
               Contact Us
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-[#D71920] rounded"></span>
             </h3>
-            <ul className="space-y-6">
+            <ul className="space-y-5">
               <li className="flex items-start gap-4">
                 <div className="mt-1 bg-[#D71920] p-2 rounded-full shrink-0">
                   <MapPin size={16} className="text-white" />
                 </div>
                 <div className="text-slate-400 text-sm leading-relaxed">
                   <span className="block text-white font-semibold mb-1">Head Office:</span>
-                  135, New Madhav Baug, C.P Tank Road, <br />
-                  Marine Line, Mumbai - 400004.
+                  135, New Madhav Baug, C.P. Tank Road,<br />
+                  Bhuleshwar, Mumbai - 400004, Maharashtra, India.
                 </div>
               </li>
               <li className="pt-2">
@@ -145,7 +145,7 @@ const Footer = () => {
                   <Phone size={14} /> Request Callback
                 </button>
               </li>
-              <li className="flex items-start gap-4 pt-2">
+              <li className="flex items-start gap-4">
                 <div className="mt-1 bg-[#D71920] p-2 rounded-full shrink-0">
                   <Mail size={16} className="text-white" />
                 </div>
@@ -165,6 +165,32 @@ const Footer = () => {
                 </div>
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* Popular Industry & Technical Guides (Fixes L4 Orphan Pages) */}
+        <div className="border-t border-slate-800 pt-8 mt-8">
+          <div className="text-xs text-slate-400 font-semibold mb-3 uppercase tracking-wider">
+            Popular Technical & Supply Guides:
+          </div>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-slate-400">
+            <Link to="/oil-gas-pipe-fittings/" className="hover:text-[#D71920] transition-colors">Oil & Gas Pipe Fittings</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/pipe-fittings-manufacturer-india/" className="hover:text-[#D71920] transition-colors">Pipe Fittings Manufacturer India</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/buttweld-fittings-exporter-india/" className="hover:text-[#D71920] transition-colors">Buttweld Fittings Exporter India</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/tech-info/pipe-dimensions/" className="hover:text-[#D71920] transition-colors">Pipe Dimensions Guide</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/export/uae/" className="hover:text-[#D71920] transition-colors">Export to UAE</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/export/usa/" className="hover:text-[#D71920] transition-colors">Export to USA</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/materials/stainless-steel-304-flanges/" className="hover:text-[#D71920] transition-colors">SS 304 Flanges</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/materials/stainless-steel-321-347-flanges/" className="hover:text-[#D71920] transition-colors">SS 321 / 347 Flanges</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/materials/super-duplex-zeron-100-flanges/" className="hover:text-[#D71920] transition-colors">Zeron 100 Flanges</Link>
           </div>
         </div>
 

@@ -48,6 +48,19 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
     }
   }, [isOpen]);
 
+  // Handle Esc Key to close modal (Fixes M3)
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') {
+        handleClose();
+      }
+    };
+    if (isVisible) {
+      window.addEventListener('keydown', handleKeyDown);
+    }
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isVisible]);
+
   const handleClose = () => {
     localStorage.setItem('remax_popup_dismissed', 'true');
     sessionStorage.setItem('remax_popup_dismissed', 'true');
@@ -68,6 +81,13 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
   // Handle Submit (BACKEND API CALL)
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Honeypot check for bots (Fixes M1)
+    if (formData.website_hp) {
+      handleClose();
+      return;
+    }
+
     setLoading(true);
 
     try {
@@ -103,6 +123,7 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
         company: "",
         location: "",
         message: "",
+        website_hp: ""
       });
 
       // Wait 1.5s for the toast to be seen before closing
@@ -121,7 +142,7 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-4 font-sans">
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-4 font-sans" role="dialog" aria-modal="true" aria-labelledby="modal-title">
       {/* Toast Notification */}
       {toast.show && (
         <div className={`fixed top-5 right-5 z-[9999] flex items-center gap-3 px-5 py-3 rounded-xl shadow-2xl border transition-all duration-300 transform translate-y-0 scale-100 ${
@@ -146,19 +167,30 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
         {/* Close Button */}
         <button 
           onClick={handleClose}
-          className="absolute top-4 right-4 text-slate-400 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 p-2 rounded-full transition-colors shadow-sm"
+          className="absolute top-4 right-4 text-slate-400 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 p-2 rounded-full transition-colors shadow-sm cursor-pointer"
           aria-label="Close popup"
         >
           <X size={20} strokeWidth={2.5} />
         </button>
 
         {/* Title */}
-        <h3 className="text-2xl md:text-3xl font-bold text-[#0F172A] mb-6">
+        <h3 id="modal-title" className="text-2xl md:text-3xl font-bold text-[#0F172A] mb-6">
           Send Us a Message
         </h3>
 
         {/* Form matching Image 2 */}
         <form onSubmit={handleSubmit} className="space-y-5">
+          {/* Honeypot anti-spam field */}
+          <input
+            type="text"
+            name="website_hp"
+            value={formData.website_hp || ''}
+            onChange={handleChange}
+            tabIndex={-1}
+            autoComplete="off"
+            style={{ display: 'none' }}
+            aria-hidden="true"
+          />
             
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {/* Name */}
@@ -173,6 +205,7 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
                 value={formData.name}
                 onChange={handleChange}
                 placeholder="Your Name"
+                autoComplete="name"
                 className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 placeholder-slate-400"
                 required
               />
@@ -190,6 +223,9 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
                 value={formData.phone}
                 onChange={handleChange}
                 placeholder="+91 XXXXX XXXXX"
+                pattern="[0-9+ -]{8,18}"
+                minLength={8}
+                autoComplete="tel"
                 className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 placeholder-slate-400"
                 required
               />
@@ -209,6 +245,7 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="you@company.com"
+                autoComplete="email"
                 className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 placeholder-slate-400"
                 required
               />
@@ -226,6 +263,7 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
                 value={formData.company}
                 onChange={handleChange}
                 placeholder="Company Name"
+                autoComplete="organization"
                 className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 placeholder-slate-400"
               />
             </div>
@@ -243,6 +281,7 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
               value={formData.location}
               onChange={handleChange}
               placeholder="City, State, Country"
+              autoComplete="address-level2"
               className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 placeholder-slate-400"
             />
           </div>

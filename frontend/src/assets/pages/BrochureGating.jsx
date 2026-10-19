@@ -2,23 +2,33 @@ import React, { useState } from 'react';
 import { Download, FileCheck, CheckCircle2, Shield } from 'lucide-react';
 import api from '../services/api.js';
 import TrustBar from '../components/common/TrustBar.jsx';
+import MetaTags from '../components/common/MetaTags.jsx';
 
 const BrochureGating = () => {
   const [formData, setFormData] = useState({
     name: '',
     company: '',
     phone: '',
-    email: ''
+    email: '',
+    website_hp: ''
   });
   const [loading, setLoading] = useState(false);
   const [downloadStarted, setDownloadStarted] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (formData.website_hp) {
+      // Bot detected via honeypot
+      setDownloadStarted(true);
+      return;
+    }
     setLoading(true);
 
     const payload = {
-      ...formData,
+      name: formData.name,
+      company: formData.company,
+      phone: formData.phone,
+      email: formData.email,
       message: '[BROCHURE DOWNLOAD REQUEST] Visitor requested official product catalog PDF.',
       page_url: window.location.href
     };
@@ -49,6 +59,11 @@ const BrochureGating = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-28 pb-16 px-4 font-sans">
+      <MetaTags 
+        title="Download Technical Product Catalog (PDF) | Remax Forge"
+        description="Download the complete Remax Forge & Fittings technical catalog. ASME dimensions, weight charts, material grades (A105, SS 316, Duplex), and flange ratings."
+        keywords="Remax Forge Brochure, Pipe Fittings Catalog PDF, Flange Dimensions PDF, ASME B16.5 Dimensions Chart, Forged Fittings Catalog"
+      />
       <div className="max-w-4xl mx-auto">
         <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-slate-200 grid md:grid-cols-5">
           
@@ -58,9 +73,9 @@ const BrochureGating = () => {
               <span className="text-[#D71920] font-bold text-xs uppercase tracking-widest block mb-2">
                 Official Catalog 2026
               </span>
-              <h2 className="text-2xl md:text-3xl font-extrabold leading-tight mb-4">
+              <h1 className="text-2xl md:text-3xl font-extrabold leading-tight mb-4">
                 Remax Technical Product Brochure
-              </h2>
+              </h1>
               <p className="text-slate-300 text-xs leading-relaxed mb-6">
                 Complete engineering specification guide including ASME B16.5 / B16.9 / B16.11 dimension charts, material chemical compositions, and pressure rating tables.
               </p>
@@ -87,7 +102,7 @@ const BrochureGating = () => {
             {downloadStarted ? (
               <div className="text-center py-8">
                 <CheckCircle2 className="w-16 h-16 text-emerald-500 mx-auto mb-4 animate-bounce" />
-                <h3 className="text-2xl font-extrabold text-slate-900 mb-2">Your Download Has Started!</h3>
+                <h2 className="text-2xl font-extrabold text-slate-900 mb-2">Your Download Has Started!</h2>
                 <p className="text-sm text-slate-600 mb-6">
                   If the download did not start automatically, click the button below:
                 </p>
@@ -101,9 +116,9 @@ const BrochureGating = () => {
               </div>
             ) : (
               <div>
-                <h3 className="text-2xl font-extrabold text-slate-900 mb-1">
+                <h2 className="text-2xl font-extrabold text-slate-900 mb-1">
                   Download Official Catalog (PDF)
-                </h3>
+                </h2>
                 <p className="text-xs text-slate-500 mb-4">
                   Please provide your contact details to instantly access the PDF download.
                 </p>
@@ -111,12 +126,28 @@ const BrochureGating = () => {
                 <TrustBar className="my-2 py-2" />
 
                 <form onSubmit={handleSubmit} className="space-y-4 mt-4">
+                  {/* Honeypot field for bot protection */}
+                  <input
+                    type="text"
+                    name="website_hp"
+                    id="brochure-website-hp"
+                    value={formData.website_hp}
+                    onChange={(e) => setFormData({ ...formData, website_hp: e.target.value })}
+                    style={{ display: 'none' }}
+                    tabIndex="-1"
+                    autoComplete="off"
+                    aria-hidden="true"
+                  />
+
                   <div>
-                    <label className="block text-xs font-semibold text-slate-700 mb-1">Full Name *</label>
+                    <label htmlFor="brochure-name" className="block text-xs font-semibold text-slate-700 mb-1">Full Name *</label>
                     <input
                       type="text"
+                      id="brochure-name"
+                      name="name"
                       required
-                      placeholder="Name"
+                      placeholder="Your Name"
+                      autoComplete="name"
                       value={formData.name}
                       onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       className="w-full px-4 py-2.5 text-xs rounded-lg border border-slate-300 focus:border-[#D71920] outline-none"
@@ -124,11 +155,14 @@ const BrochureGating = () => {
                   </div>
 
                   <div>
-                    <label className="block text-xs font-semibold text-slate-700 mb-1">Company Name *</label>
+                    <label htmlFor="brochure-company" className="block text-xs font-semibold text-slate-700 mb-1">Company Name *</label>
                     <input
                       type="text"
+                      id="brochure-company"
+                      name="company"
                       required
-                      placeholder="Company"
+                      placeholder="Company Name"
+                      autoComplete="organization"
                       value={formData.company}
                       onChange={(e) => setFormData({ ...formData, company: e.target.value })}
                       className="w-full px-4 py-2.5 text-xs rounded-lg border border-slate-300 focus:border-[#D71920] outline-none"
@@ -137,22 +171,30 @@ const BrochureGating = () => {
 
                   <div className="grid grid-cols-2 gap-3">
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1">Phone Number *</label>
+                      <label htmlFor="brochure-phone" className="block text-xs font-semibold text-slate-700 mb-1">Phone Number *</label>
                       <input
                         type="tel"
+                        id="brochure-phone"
+                        name="phone"
                         required
                         placeholder="+91 98765 43210"
+                        autoComplete="tel"
+                        pattern="[0-9+ -]{8,18}"
+                        title="Please enter a valid phone number (minimum 8 digits)"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         className="w-full px-4 py-2.5 text-xs rounded-lg border border-slate-300 focus:border-[#D71920] outline-none"
                       />
                     </div>
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1">Email Address *</label>
+                      <label htmlFor="brochure-email" className="block text-xs font-semibold text-slate-700 mb-1">Email Address *</label>
                       <input
                         type="email"
+                        id="brochure-email"
+                        name="email"
                         required
                         placeholder="purchasing@company.com"
+                        autoComplete="email"
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         className="w-full px-4 py-2.5 text-xs rounded-lg border border-slate-300 focus:border-[#D71920] outline-none"
@@ -163,7 +205,7 @@ const BrochureGating = () => {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full bg-[#D71920] hover:bg-red-700 text-white font-bold py-3.5 rounded-xl transition-all shadow-lg text-xs uppercase tracking-wider flex items-center justify-center gap-2"
+                    className="w-full bg-[#D71920] hover:bg-red-700 text-white font-bold py-3.5 rounded-xl transition-all shadow-lg text-xs uppercase tracking-wider flex items-center justify-center gap-2 cursor-pointer"
                   >
                     <Download className="w-4 h-4" />
                     <span>{loading ? 'Preparing Catalog...' : 'Download Product Brochure (PDF)'}</span>

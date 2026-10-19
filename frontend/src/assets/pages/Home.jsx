@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { ArrowRight, ShieldCheck, Globe, Settings, Clock, CheckCircle2, Calendar, Factory, Award, Truck, PenTool, Recycle, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 import { useProductMenu } from '../context/ProductMenuContext.jsx';
@@ -212,11 +212,11 @@ const Home = () => {
 
 
   return (
-    <div className="w-full">
+    <div className="w-full overflow-x-clip">
       <MetaTags 
-        title="Forged Fittings & Flanges Manufacturer in India | Remax Forge & Fittings"
-        description="Remax Forge & Fittings is an ISO 9001:2015 certified manufacturer of high-quality forged fittings, flanges, and high-pressure components. Exporting precision-engineered solutions to 45+ countries. Request a quote today!"
-        keywords="Forged Fittings Manufacturer, Industrial Flanges India, Stainless Steel Forged Fittings, Socket Weld Fittings, Buttweld Fittings, High-Pressure Components, ASME Standard Flanges, Remax Forge Mumbai, Precision Forging Services, Industrial Pipe Fittings Exporter."
+        title="Flanges & Forged Fittings Manufacturer India | Remax Forge"
+        description="ISO 9001 certified manufacturer of flanges, buttweld & forged fittings in Mumbai. Trusted by ONGC & L&T. Exporting to 45+ countries. Get a quote in 30 min."
+        keywords="Forged Fittings Manufacturer, Industrial Flanges India, Stainless Steel Forged Fittings, Socket Weld Fittings, Buttweld Fittings, High-Pressure Components, ASME Standard Flanges, Remax Forge Mumbai."
       />
         {/* Styles for Infinite Scroll Animation */}
         <style>
@@ -280,14 +280,13 @@ const Home = () => {
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
 
-              <a 
-                href="/remax-forge-fittings-brochure.pdf" 
-                download 
+              <Link 
+                to="/brochure/" 
                 className="w-full sm:w-auto px-8 py-4 rounded font-bold text-white border-2 border-white/30 bg-white/10 backdrop-blur-sm transition-all transform hover:-translate-y-1 hover:shadow-2xl hover:bg-white/20 flex items-center justify-center gap-2 group whitespace-nowrap shrink-0 min-w-[180px]"
               >
                 DOWNLOAD BROCHURE
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -342,7 +341,7 @@ const Home = () => {
               
               {/* Floating Experience Box */}
               <div 
-                className="absolute -bottom-6 -right-6 md:bottom-8 md:-right-8 p-6 md:p-8 rounded-lg shadow-xl text-white max-w-[200px]"
+                className="absolute -bottom-4 right-0 md:bottom-8 md:right-2 p-5 md:p-8 rounded-lg shadow-xl text-white max-w-[200px] z-10"
                 style={{ backgroundColor: '#D71920' }}
               >
                 <div className="text-4xl md:text-5xl font-extrabold mb-1">20+</div>
@@ -413,16 +412,16 @@ const Home = () => {
             {/* Navigation Arrows on Sides */}
             <div 
               onClick={prevProductSlide}
-              className="absolute top-1/2 -left-4 md:-left-12 -translate-y-1/2 z-30 cursor-pointer text-slate-400 hover:text-[#D71920] transition-colors bg-white rounded-full p-1 shadow-md hover:shadow-lg hidden md:flex"
+              className="absolute top-1/2 -left-2 md:-left-4 -translate-y-1/2 z-30 cursor-pointer text-slate-400 hover:text-[#D71920] transition-colors bg-white rounded-full p-1 shadow-md hover:shadow-lg hidden md:flex"
             >
-              <ChevronLeft size={40} />
+              <ChevronLeft size={36} />
             </div>
             
             <div 
               onClick={nextProductSlide}
-              className="absolute top-1/2 -right-4 md:-right-12 -translate-y-1/2 z-30 cursor-pointer text-slate-400 hover:text-[#D71920] transition-colors bg-white rounded-full p-1 shadow-md hover:shadow-lg hidden md:flex"
+              className="absolute top-1/2 -right-2 md:-right-4 -translate-y-1/2 z-30 cursor-pointer text-slate-400 hover:text-[#D71920] transition-colors bg-white rounded-full p-1 shadow-md hover:shadow-lg hidden md:flex"
             >
-              <ChevronRight size={40} />
+              <ChevronRight size={36} />
             </div>
 
             {/* Mobile Navigation (Always Visible) */}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, ChevronRight, Home } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
+import MetaTags from '../../../components/common/MetaTags.jsx';
 
 const SocketWeldReducerInsert = () => {
     const { openQuotePopup } = useQuotePopup();
@@ -13,6 +14,11 @@ const SocketWeldReducerInsert = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
+      <MetaTags 
+        title="Socket Weld Reducer Insert Fittings | Remax Forge"
+        description="Forged socket weld reducer inserts per ASME B16.11 and MSS SP-79. Precision machined in A105, SS 316, and alloy steel. Class 3000# & 6000#. Get a quote."
+        keywords="Socket Weld Reducer Insert, MSS SP-79 Insert, Forged Reducer Insert, Class 3000 Reducer, Socket Weld Fittings Mumbai"
+      />
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,9 +29,9 @@ const SocketWeldReducerInsert = () => {
             <ChevronRight size={14} />
             <span className="text-slate-400">Socket Weld Fittings</span>
             <ChevronRight size={14} />
-            <span className="text-[#D71920] font-medium">Socket weld Reducer Insert Fittings</span>
+            <span className="text-[#D71920] font-medium">Socket Weld Reducer Insert Fittings</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Socket weld Reducer Insert Fittings</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Socket Weld Reducer Insert Fittings</h1>
         </div>
       </div>
 

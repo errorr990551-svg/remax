@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, ChevronRight, Home } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
+import MetaTags from '../../../components/common/MetaTags.jsx';
 
 const SocketWeldNipple = () => {
     const { openQuotePopup } = useQuotePopup();
@@ -13,6 +14,11 @@ const SocketWeldNipple = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
+      <MetaTags 
+        title="Socket Weld Nipple Fittings | ASME B16.11 | Remax Forge"
+        description="High-pressure forged socket weld nipple fittings in carbon steel, stainless steel, and alloy steel. Class 3000# & 6000#, EN 10204 3.1 MTC, factory direct."
+        keywords="Socket Weld Nipple, ASME B16.11 Nipple, Forged Pipe Nipple, Class 3000 Nipple, Socket Weld Fittings Mumbai"
+      />
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -23,9 +29,9 @@ const SocketWeldNipple = () => {
             <ChevronRight size={14} />
             <span className="text-slate-400">Socket Weld Fittings</span>
             <ChevronRight size={14} />
-            <span className="text-[#D71920] font-medium">Socket weld Nipple Fittings</span>
+            <span className="text-[#D71920] font-medium">Socket Weld Nipple Fittings</span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Socket weld Nipple Fittings</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight">Socket Weld Nipple Fittings</h1>
         </div>
       </div>
 

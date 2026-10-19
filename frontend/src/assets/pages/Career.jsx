@@ -21,6 +21,8 @@ import {
   Check
 } from 'lucide-react';
 
+import MetaTags from '../components/common/MetaTags.jsx';
+
 const CareerPage = () => {
   // Data for "Why Choose Remax"
   const whyUsGrid = [
@@ -86,6 +88,11 @@ const CareerPage = () => {
 
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
+      <MetaTags 
+        title="Careers at Remax Forge & Fittings | Job Openings Mumbai"
+        description="Join the engineering and forging team at Remax Forge & Fittings. Current job vacancies in production, CNC machining, sales engineering, and quality control."
+        keywords="Remax Forge Careers, Jobs in Mumbai, Engineering Jobs, Sales Executive Forging Industry, CNC Machinist Jobs"
+      />
       
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-8">
@@ -119,7 +126,7 @@ const CareerPage = () => {
             {whyUsGrid.map((item, index) => (
               <div 
                 key={index} 
-                className="bg-white p-8 rounded-lg border-t-4 border-[#D71920] shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group border border-slate-100"
+                className="bg-white p-8 rounded-lg border-t-4 border-t-[#D71920] shadow-lg hover:shadow-xl hover:-translate-y-2 transition-all duration-300 group border border-slate-100"
               >
                 <div 
                   className="mb-6 inline-flex items-center justify-center w-16 h-16 rounded-full bg-slate-100 text-[#D71920] group-hover:bg-[#D71920] group-hover:text-white transition-colors duration-300"
@@ -297,10 +304,6 @@ const CareerPage = () => {
                   Prefer a direct approach? Send your CV and cover letter directly to our recruitment team.
                 </p>
                 <div className="flex flex-col gap-3">
-                  <a href="mailto:hr@remaxforge.com" className="inline-flex items-center font-bold text-lg text-[#0F172A] hover:text-[#D71920] transition-colors no-underline">
-                    <span className="w-2 h-2 bg-[#D71920] rounded-full mr-3"></span>
-                    hr@remaxforge.com
-                  </a>
                   <a href="mailto:careers@remaxforge.com" className="inline-flex items-center font-bold text-lg text-[#0F172A] hover:text-[#D71920] transition-colors no-underline">
                     <span className="w-2 h-2 bg-[#D71920] rounded-full mr-3"></span>
                     careers@remaxforge.com

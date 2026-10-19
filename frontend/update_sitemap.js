@@ -41,17 +41,34 @@ function generateSitemap() {
     
     const routeRegex = /path=['"]([^'"]+)['"]/g;
     const routes = [];
+    const redirectedCities = ['naharlagun', 'pasighat', 'tawang', 'ziro'];
     let match;
     while ((match = routeRegex.exec(appContent)) !== null) {
       const route = match[1];
-      // Filter out dynamic routes (like :cityName, :stateName/:cityName), wildcard, and sitemap routes
-      if (!route.includes(':') && !route.includes('sitemap') && route !== '*' && route !== '/products' && route !== '/products/') {
+      // Filter out dynamic routes, wildcard, sitemap, redirected parent paths, and non-canonical pages
+      const excludedRoutes = [
+        '/products', '/products/',
+        '/products/buttweld-fittings', '/products/buttweld-fittings/',
+        '/materials', '/materials/',
+        '/industries', '/industries/',
+        '/product-details', '/product-details/',
+        '/tech-info', '/tech-info/',
+        '/tech-info/dimensions', '/tech-info/dimensions/',
+        '/about', '/about/',
+        '/certificates', '/certificates/'
+      ];
+      if (
+        !route.includes(':') && 
+        !route.includes('sitemap') && 
+        route !== '*' && 
+        !excludedRoutes.includes(route) &&
+        !redirectedCities.some(r => route.toLowerCase() === `/${r}` || route.toLowerCase() === `/${r}/`)
+      ) {
         routes.push(normalizeUrl(route));
       }
     }
 
     // 2. Add commercial flange pages, city pages, export hubs & export cities
-    const redirectedCities = ['naharlagun', 'pasighat', 'tawang', 'ziro'];
     const newFlangeRoutes = Object.keys(newFlangePagesData).map(normalizeUrl);
     const cityRoutes = keptCities
       .filter(city => !redirectedCities.includes(city.toLowerCase()))
@@ -78,7 +95,7 @@ function generateSitemap() {
 `;
 
     canonicalUrls.forEach(url => {
-      const loc = `${baseUrl}${url === '/' ? '' : url}`;
+      const loc = `${baseUrl}${url === '/' ? '/' : url}`;
       xml += `  <url>
     <loc>${loc}</loc>
     <lastmod>${lastmod}</lastmod>

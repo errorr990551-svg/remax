@@ -138,22 +138,19 @@ export const sheet4MetaData = {
     "priority": "P2"
   },
   "/products/socket-weld-fittings/socket-weld-coupling-fittings/": {
-    "title": "Socket Weld Coupling Manufacturer | 3000/6000/9000# | Remax",
-    "description": "Forged socket weld couplings ASME B16.11, class 3000/6000/9000, A105/F316L/F11. Full & half couplings ex-Mumbai. MTC 3.1, same-day quote.",
-    "h1": "Socket Weld Coupling Manufacturer (ASME B16.11)",
-    "priority": "P2"
+    "title": "Socket Weld Coupling Fittings | Full & Half | Remax",
+    "description": "Class 3000# & 6000# full couplings, half couplings, and reducing couplings per ASME B16.11. Forged in Mumbai with complete 100% PMI and 3.1 certification.",
+    "h1": "Socket Weld Coupling Fittings"
   },
   "/products/socket-weld-fittings/socket-weld-elbow-fittings/": {
-    "title": "Socket Weld Elbow Manufacturer | ASME B16.11 | Remax Forge",
-    "description": "Forged SW elbows 45/90 deg, class 3000/6000/9000 ASME B16.11. A105, SS, alloy. High-pressure small-bore lines. Mumbai factory, MTC 3.1.",
-    "h1": "Socket Weld Elbow Manufacturer (ASME B16.11)",
-    "priority": "P2"
+    "title": "Socket Weld Elbow Fittings (90° & 45°) | Remax Forge",
+    "description": "Forged 90-degree and 45-degree socket weld elbows per ASME B16.11. Class 3000#, 6000#, and 9000# in carbon steel, stainless steel, and nickel alloys.",
+    "h1": "Socket Weld Elbow Fittings"
   },
   "/products/socket-weld-fittings/socket-weld-tee-fittings/": {
-    "title": "Socket Weld Tee Manufacturer | ASME B16.11 | Remax Forge",
-    "description": "Forged socket weld tees equal & reducing, class 3000/6000/9000. A105/F316L/F51. ISO 9001 Mumbai manufacturer, MTC 3.1, fast quotes.",
-    "h1": "Socket Weld Tee Manufacturer (ASME B16.11)",
-    "priority": "P2"
+    "title": "Socket Weld Tee Fittings | Equal & Reducing | Remax",
+    "description": "ASME B16.11 forged socket weld equal tees and reducing tees. Class 3000# and 6000# in A105, SS 304/316, and Alloy Steel with EN 10204 3.1 MTC inspection.",
+    "h1": "Socket Weld Tee Fittings"
   },
   "/products/forged-fittings/": {
     "title": "Forged Pipe Fittings Manufacturer India | B16.11 | Remax",
@@ -234,22 +231,19 @@ export const sheet4MetaData = {
     "priority": "P2"
   },
   "/certification/": {
-    "title": "Certifications | ISO 9001:2015 & Test Certificates | Remax",
-    "description": "View our ISO 9001:2015 certificate, EN 10204 3.1/3.2 MTCs, NACE MR0175 compliance & third-party inspection options (BV, SGS, TUV).",
-    "h1": "Certifications & Compliance",
-    "priority": "P2"
+    "title": "Certifications & Approvals | ISO 9001:2015 | Remax Forge",
+    "description": "Remax Forge quality accreditations: ISO 9001:2015, IBR approval, PED 2014/68/EU compliance, and third-party inspection certifications from TUV, SGS & DNV.",
+    "h1": "Accreditations & Certificates"
   },
   "/buttweld-fittings-exporter-india/": {
-    "title": "Buttweld Fittings Exporter India | 45+ Countries | Remax",
-    "description": "Export-grade buttweld fittings ASME B16.9 shipped to USA, UAE, Saudi Arabia & 45+ countries. Third-party inspection, export docs & short lead times.",
-    "h1": "Buttweld Fittings Exporter from India",
-    "priority": "P1"
+    "title": "Buttweld Fittings Exporter India | ASME B16.9 | Remax",
+    "description": "Premier Indian exporter of ASME B16.9 seamless buttweld elbows, tees, and reducers. Serving oil & gas, refineries, and EPC clients in USA, UAE, and Europe.",
+    "h1": "Buttweld Fittings Exporter India"
   },
   "/pipe-fittings-manufacturer-india/": {
-    "title": "Pipe Fittings Manufacturer in India | ISO 9001 | Remax Forge",
-    "description": "Leading pipe fittings manufacturer in India - buttweld, socket weld, threaded & flanges. Factory + testing lab in Mumbai. MTC 3.1. Quote in 30 minutes.",
-    "h1": "Pipe Fittings Manufacturer in India",
-    "priority": "P1"
+    "title": "Pipe Fittings Manufacturer in India | Remax Forge",
+    "description": "Leading ISO 9001 manufacturer of buttweld and forged pipe fittings in Mumbai, India. Exporting ASTM A234 WPB, SS 316, and Duplex fittings to 45+ countries.",
+    "h1": "Pipe Fittings Manufacturer in India"
   },
   "/mumbai/": {
     "title": "Pipe Fittings & Flanges Supplier in Mumbai | Remax Forge",
@@ -486,7 +480,7 @@ export const sheet4MetaData = {
     "priority": "P1"
   },
   "/industries/pharmaceutical/": {
-    "title": "Pharmaceutical Flange Supplier India | SS 316L Sanitary Grade",
+    "title": "Pharmaceutical Flange Supplier India | SS 316L Sanitary | Re",
     "description": "Flanges & fittings for pharma/biotech: SS 316L, sanitary finish options, full MTC traceability. Third-party inspection available. Quote in 30 minutes.",
     "h1": "Pipe Flanges & Fittings for Pharmaceutical & Biotech",
     "priority": "P1"
@@ -510,534 +504,845 @@ export const sheet4MetaData = {
     "priority": "P1"
   },
   "/industries/chemical-processing/": {
-    "title": "Chemical Processing Flange Supplier India | 316L, Hastelloy, Inconel",
+    "title": "Chemical Processing Flange Supplier India | 316L, | Remax",
     "description": "Flanges & fittings for chemical processing: 316L, Hastelloy C-276, Inconel 625 for aggressive media. Full MTC traceability. Quote in 30 minutes.",
     "h1": "Pipe Flanges & Fittings for Chemical Processing",
     "priority": "P1"
   },
   "/products/flanges/blind-flange-for-marine/": {
-    "title": "Blind Flange for Marine Industry | ASME B16.5 BLRF | Remax Forge",
-    "description": "Forged blind flanges engineered for marine service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Blind Flange for Marine | ASME B16.5 BLRF | Remax",
+    "description": "Forged blind flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Blind Flange for Marine Industry"
   },
   "/products/flanges/blind-flange-for-marine": {
-    "title": "Blind Flange for Marine Industry | ASME B16.5 BLRF | Remax Forge",
-    "description": "Forged blind flanges engineered for marine service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Blind Flange for Marine | ASME B16.5 BLRF | Remax",
+    "description": "Forged blind flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Blind Flange for Marine Industry"
   },
   "/products/flanges/blind-flange-for-mining/": {
-    "title": "Blind Flange for Mining Industry | ASME B16.5 BLRF | Remax Forge",
-    "description": "Forged blind flanges engineered for mining service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Blind Flange for Mining | ASME B16.5 BLRF | Remax",
+    "description": "Forged blind flanges for mining service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Blind Flange for Mining Industry"
   },
   "/products/flanges/blind-flange-for-mining": {
-    "title": "Blind Flange for Mining Industry | ASME B16.5 BLRF | Remax Forge",
-    "description": "Forged blind flanges engineered for mining service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Blind Flange for Mining | ASME B16.5 BLRF | Remax",
+    "description": "Forged blind flanges for mining service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Blind Flange for Mining Industry"
   },
   "/products/flanges/blind-flange-for-pharmaceutical/": {
-    "title": "Blind Flange for Pharmaceutical Industry | ASME B16.5 BLRF | Remax Forge",
-    "description": "Forged blind flanges engineered for pharmaceutical service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Blind Flange for Pharmaceutical | ASME B16.5 BLRF | Remax",
+    "description": "Forged blind flanges for pharmaceutical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Blind Flange for Pharmaceutical Industry"
   },
   "/products/flanges/blind-flange-for-pharmaceutical": {
-    "title": "Blind Flange for Pharmaceutical Industry | ASME B16.5 BLRF | Remax Forge",
-    "description": "Forged blind flanges engineered for pharmaceutical service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Blind Flange for Pharmaceutical | ASME B16.5 BLRF | Remax",
+    "description": "Forged blind flanges for pharmaceutical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Blind Flange for Pharmaceutical Industry"
   },
   "/products/flanges/blind-flange-for-water-infrastructure/": {
-    "title": "Blind Flange for Water Infrastructure Industry | ASME B16.5 BLRF | Remax Forge",
-    "description": "Forged blind flanges engineered for water infrastructure service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Blind Flange for Water Infrastructure | ASME B16.5 BLRF | Re",
+    "description": "Forged blind flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Blind Flange for Water Infrastructure Industry"
   },
   "/products/flanges/blind-flange-for-water-infrastructure": {
-    "title": "Blind Flange for Water Infrastructure Industry | ASME B16.5 BLRF | Remax Forge",
-    "description": "Forged blind flanges engineered for water infrastructure service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Blind Flange for Water Infrastructure | ASME B16.5 BLRF | Re",
+    "description": "Forged blind flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Blind Flange for Water Infrastructure Industry"
   },
   "/products/flanges/blind-flange-for-oil-and-gas/": {
-    "title": "Blind Flange for Oil & Gas Industry | ASME B16.5 BLRF | Remax Forge",
-    "description": "Forged blind flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Blind Flange for Oil & Gas | ASME B16.5 BLRF | Remax",
+    "description": "Forged blind flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Blind Flange for Oil & Gas Industry"
   },
   "/products/flanges/blind-flange-for-oil-and-gas": {
-    "title": "Blind Flange for Oil & Gas Industry | ASME B16.5 BLRF | Remax Forge",
-    "description": "Forged blind flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Blind Flange for Oil & Gas | ASME B16.5 BLRF | Remax",
+    "description": "Forged blind flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Blind Flange for Oil & Gas Industry"
   },
   "/products/flanges/weld-neck-flange-for-oil-and-gas/": {
-    "title": "Weld Neck Flange for Oil & Gas Industry | ASME B16.5 WNRF | Remax Forge",
-    "description": "Forged weld neck flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Weld Neck Flange for Oil & Gas | ASME B16.5 WNRF | Remax",
+    "description": "Forged weld neck flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Weld Neck Flange for Oil & Gas Industry"
   },
   "/products/flanges/weld-neck-flange-for-oil-and-gas": {
-    "title": "Weld Neck Flange for Oil & Gas Industry | ASME B16.5 WNRF | Remax Forge",
-    "description": "Forged weld neck flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Weld Neck Flange for Oil & Gas | ASME B16.5 WNRF | Remax",
+    "description": "Forged weld neck flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Weld Neck Flange for Oil & Gas Industry"
   },
   "/products/flanges/weld-neck-flange-for-power-generation/": {
-    "title": "Weld Neck Flange for Power Generation Industry | ASME B16.5 WNRF | Remax Forge",
-    "description": "Forged weld neck flanges engineered for power generation service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Weld Neck Flange for Power Generation | ASME B16.5 WNRF | Re",
+    "description": "Forged weld neck flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Weld Neck Flange for Power Generation Industry"
   },
   "/products/flanges/weld-neck-flange-for-power-generation": {
-    "title": "Weld Neck Flange for Power Generation Industry | ASME B16.5 WNRF | Remax Forge",
-    "description": "Forged weld neck flanges engineered for power generation service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Weld Neck Flange for Power Generation | ASME B16.5 WNRF | Re",
+    "description": "Forged weld neck flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Weld Neck Flange for Power Generation Industry"
   },
   "/products/flanges/weld-neck-flange-for-petrochemical/": {
-    "title": "Weld Neck Flange for Petrochemical Industry | ASME B16.5 WNRF | Remax Forge",
-    "description": "Forged weld neck flanges engineered for petrochemical service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Weld Neck Flange for Petrochemical | ASME B16.5 WNRF | Remax",
+    "description": "Forged weld neck flanges for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Weld Neck Flange for Petrochemical Industry"
   },
   "/products/flanges/weld-neck-flange-for-petrochemical": {
-    "title": "Weld Neck Flange for Petrochemical Industry | ASME B16.5 WNRF | Remax Forge",
-    "description": "Forged weld neck flanges engineered for petrochemical service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Weld Neck Flange for Petrochemical | ASME B16.5 WNRF | Remax",
+    "description": "Forged weld neck flanges for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Weld Neck Flange for Petrochemical Industry"
   },
   "/products/flanges/weld-neck-flange-for-marine/": {
-    "title": "Weld Neck Flange for Marine Industry | ASME B16.5 WNRF | Remax Forge",
-    "description": "Forged weld neck flanges engineered for marine service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Weld Neck Flange for Marine | ASME B16.5 WNRF | Remax",
+    "description": "Forged weld neck flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Weld Neck Flange for Marine Industry"
   },
   "/products/flanges/weld-neck-flange-for-marine": {
-    "title": "Weld Neck Flange for Marine Industry | ASME B16.5 WNRF | Remax Forge",
-    "description": "Forged weld neck flanges engineered for marine service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Weld Neck Flange for Marine | ASME B16.5 WNRF | Remax",
+    "description": "Forged weld neck flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Weld Neck Flange for Marine Industry"
   },
   "/products/flanges/slip-on-flange-for-water-infrastructure/": {
-    "title": "Slip-On Flange for Water Infrastructure Industry | ASME B16.5 SORF | Remax Forge",
-    "description": "Forged slip-on flanges engineered for water infrastructure service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Slip-On Flange for Water Infrastructure | ASME B16.5 | Remax",
+    "description": "Forged slip-on flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Slip-On Flange for Water Infrastructure Industry"
   },
   "/products/flanges/slip-on-flange-for-water-infrastructure": {
-    "title": "Slip-On Flange for Water Infrastructure Industry | ASME B16.5 SORF | Remax Forge",
-    "description": "Forged slip-on flanges engineered for water infrastructure service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Slip-On Flange for Water Infrastructure | ASME B16.5 | Remax",
+    "description": "Forged slip-on flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Slip-On Flange for Water Infrastructure Industry"
   },
   "/products/flanges/slip-on-flange-for-power-generation/": {
-    "title": "Slip-On Flange for Power Generation Industry | ASME B16.5 SORF | Remax Forge",
-    "description": "Forged slip-on flanges engineered for power generation service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Slip-On Flange for Power Generation | ASME B16.5 SORF | | Re",
+    "description": "Forged slip-on flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Slip-On Flange for Power Generation Industry"
   },
   "/products/flanges/slip-on-flange-for-power-generation": {
-    "title": "Slip-On Flange for Power Generation Industry | ASME B16.5 SORF | Remax Forge",
-    "description": "Forged slip-on flanges engineered for power generation service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Slip-On Flange for Power Generation | ASME B16.5 SORF | | Re",
+    "description": "Forged slip-on flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Slip-On Flange for Power Generation Industry"
   },
   "/products/flanges/slip-on-flange-for-oil-and-gas/": {
-    "title": "Slip-On Flange for Oil & Gas Industry | ASME B16.5 SORF | Remax Forge",
-    "description": "Forged slip-on flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Slip-On Flange for Oil & Gas | ASME B16.5 SORF | Remax",
+    "description": "Forged slip-on flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Slip-On Flange for Oil & Gas Industry"
   },
   "/products/flanges/slip-on-flange-for-oil-and-gas": {
-    "title": "Slip-On Flange for Oil & Gas Industry | ASME B16.5 SORF | Remax Forge",
-    "description": "Forged slip-on flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Slip-On Flange for Oil & Gas | ASME B16.5 SORF | Remax",
+    "description": "Forged slip-on flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Slip-On Flange for Oil & Gas Industry"
   },
   "/products/flanges/socket-weld-flange-for-oil-and-gas/": {
-    "title": "Socket Weld Flange for Oil & Gas Industry | ASME B16.5 SWRF | Remax Forge",
-    "description": "Forged socket weld flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Socket Weld Flange for Oil & Gas | ASME B16.5 SWRF | Remax",
+    "description": "Forged socket weld flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Socket Weld Flange for Oil & Gas Industry"
   },
   "/products/flanges/socket-weld-flange-for-oil-and-gas": {
-    "title": "Socket Weld Flange for Oil & Gas Industry | ASME B16.5 SWRF | Remax Forge",
-    "description": "Forged socket weld flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Socket Weld Flange for Oil & Gas | ASME B16.5 SWRF | Remax",
+    "description": "Forged socket weld flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Socket Weld Flange for Oil & Gas Industry"
   },
   "/products/flanges/socket-weld-flange-for-chemical-processing/": {
-    "title": "Socket Weld Flange for Chemical Processing Industry | ASME B16.5 SWRF | Remax Forge",
-    "description": "Forged socket weld flanges engineered for chemical processing service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Socket Weld Flange for Chemical Processing | ASME B16.5 | Re",
+    "description": "Forged socket weld flanges engineered for chemical processing service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Socket Weld Flange for Chemical Processing Industry"
   },
   "/products/flanges/socket-weld-flange-for-chemical-processing": {
-    "title": "Socket Weld Flange for Chemical Processing Industry | ASME B16.5 SWRF | Remax Forge",
-    "description": "Forged socket weld flanges engineered for chemical processing service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Socket Weld Flange for Chemical Processing | ASME B16.5 | Re",
+    "description": "Forged socket weld flanges engineered for chemical processing service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Socket Weld Flange for Chemical Processing Industry"
   },
   "/products/flanges/threaded-flange-for-water-infrastructure/": {
-    "title": "Threaded Flange for Water Infrastructure Industry | ASME B16.5 THRF | Remax Forge",
-    "description": "Forged threaded flanges engineered for water infrastructure service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Threaded Flange for Water Infrastructure | ASME B16.5 | Rema",
+    "description": "Forged threaded flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Threaded Flange for Water Infrastructure Industry"
   },
   "/products/flanges/threaded-flange-for-water-infrastructure": {
-    "title": "Threaded Flange for Water Infrastructure Industry | ASME B16.5 THRF | Remax Forge",
-    "description": "Forged threaded flanges engineered for water infrastructure service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Threaded Flange for Water Infrastructure | ASME B16.5 | Rema",
+    "description": "Forged threaded flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Threaded Flange for Water Infrastructure Industry"
   },
   "/products/flanges/threaded-flange-for-general-industrial/": {
-    "title": "Threaded Flange for General Industrial Industry | ASME B16.5 THRF | Remax Forge",
-    "description": "Forged threaded flanges engineered for general industrial service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Threaded Flange for General Industrial | ASME B16.5 THRF | R",
+    "description": "Forged threaded flanges engineered for general industrial service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Threaded Flange for General Industrial Industry"
   },
   "/products/flanges/threaded-flange-for-general-industrial": {
-    "title": "Threaded Flange for General Industrial Industry | ASME B16.5 THRF | Remax Forge",
-    "description": "Forged threaded flanges engineered for general industrial service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Threaded Flange for General Industrial | ASME B16.5 THRF | R",
+    "description": "Forged threaded flanges engineered for general industrial service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Threaded Flange for General Industrial Industry"
   },
   "/products/flanges/lap-joint-flange-for-oil-and-gas/": {
-    "title": "Lap Joint Flange for Oil & Gas Industry | ASME B16.5 LJRF | Remax Forge",
-    "description": "Forged lap joint flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Lap Joint Flange for Oil & Gas | ASME B16.5 LJRF | Remax",
+    "description": "Forged lap joint flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Lap Joint Flange for Oil & Gas Industry"
   },
   "/products/flanges/lap-joint-flange-for-oil-and-gas": {
-    "title": "Lap Joint Flange for Oil & Gas Industry | ASME B16.5 LJRF | Remax Forge",
-    "description": "Forged lap joint flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Lap Joint Flange for Oil & Gas | ASME B16.5 LJRF | Remax",
+    "description": "Forged lap joint flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Lap Joint Flange for Oil & Gas Industry"
   },
   "/products/flanges/lap-joint-flange-for-petrochemical/": {
-    "title": "Lap Joint Flange for Petrochemical Industry | ASME B16.5 LJRF | Remax Forge",
-    "description": "Forged lap joint flanges engineered for petrochemical service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Lap Joint Flange for Petrochemical | ASME B16.5 LJRF | Remax",
+    "description": "Forged lap joint flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Lap Joint Flange for Petrochemical Industry"
   },
   "/products/flanges/lap-joint-flange-for-petrochemical": {
-    "title": "Lap Joint Flange for Petrochemical Industry | ASME B16.5 LJRF | Remax Forge",
-    "description": "Forged lap joint flanges engineered for petrochemical service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Lap Joint Flange for Petrochemical | ASME B16.5 LJRF | Remax",
+    "description": "Forged lap joint flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Lap Joint Flange for Petrochemical Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-oil-and-gas/": {
-    "title": "Spectacle Blind Flange for Oil & Gas Industry | ASME B16.5 SPEC | Remax Forge",
-    "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Spectacle Blind Flange for Oil & Gas | ASME B16.5 SPEC | | R",
+    "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Spectacle Blind Flange for Oil & Gas Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-oil-and-gas": {
-    "title": "Spectacle Blind Flange for Oil & Gas Industry | ASME B16.5 SPEC | Remax Forge",
-    "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Spectacle Blind Flange for Oil & Gas | ASME B16.5 SPEC | | R",
+    "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Spectacle Blind Flange for Oil & Gas Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-petrochemical/": {
-    "title": "Spectacle Blind Flange for Petrochemical Industry | ASME B16.5 SPEC | Remax Forge",
-    "description": "Forged spectacle blind flanges engineered for petrochemical service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Spectacle Blind Flange for Petrochemical | ASME B16.5 | Rema",
+    "description": "Forged spectacle blind flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Spectacle Blind Flange for Petrochemical Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-petrochemical": {
-    "title": "Spectacle Blind Flange for Petrochemical Industry | ASME B16.5 SPEC | Remax Forge",
-    "description": "Forged spectacle blind flanges engineered for petrochemical service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Spectacle Blind Flange for Petrochemical | ASME B16.5 | Rema",
+    "description": "Forged spectacle blind flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Spectacle Blind Flange for Petrochemical Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-power-generation/": {
-    "title": "Spectacle Blind Flange for Power Generation Industry | ASME B16.5 SPEC | Remax Forge",
-    "description": "Forged spectacle blind flanges engineered for power generation service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Spectacle Blind Flange for Power Generation | ASME B16.5 | R",
+    "description": "Forged spectacle blind flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Spectacle Blind Flange for Power Generation Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-power-generation": {
-    "title": "Spectacle Blind Flange for Power Generation Industry | ASME B16.5 SPEC | Remax Forge",
-    "description": "Forged spectacle blind flanges engineered for power generation service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Spectacle Blind Flange for Power Generation | ASME B16.5 | R",
+    "description": "Forged spectacle blind flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Spectacle Blind Flange for Power Generation Industry"
   },
   "/products/flanges/rtj-flange-ring-type-joint-for-oil-and-gas/": {
-    "title": "RTJ Flange (Ring Type Joint) for Oil & Gas Industry | ASME B16.5 RTJ | Remax Forge",
-    "description": "Forged rtj flange (ring type joint)s engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "RTJ Flange (Ring Type Joint) for Oil & Gas | ASME B16.5 | Re",
+    "description": "Forged rtj flange (ring type joint)s engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Oil & Gas Industry"
   },
   "/products/flanges/rtj-flange-ring-type-joint-for-oil-and-gas": {
-    "title": "RTJ Flange (Ring Type Joint) for Oil & Gas Industry | ASME B16.5 RTJ | Remax Forge",
-    "description": "Forged rtj flange (ring type joint)s engineered for oil & gas service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "RTJ Flange (Ring Type Joint) for Oil & Gas | ASME B16.5 | Re",
+    "description": "Forged rtj flange (ring type joint)s engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Oil & Gas Industry"
   },
   "/products/flanges/rtj-flange-ring-type-joint-for-petrochemical/": {
-    "title": "RTJ Flange (Ring Type Joint) for Petrochemical Industry | ASME B16.5 RTJ | Remax Forge",
-    "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "RTJ Flange (Ring Type Joint) for Petrochemical | ASME | Rema",
+    "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Petrochemical Industry"
   },
   "/products/flanges/rtj-flange-ring-type-joint-for-petrochemical": {
-    "title": "RTJ Flange (Ring Type Joint) for Petrochemical Industry | ASME B16.5 RTJ | Remax Forge",
-    "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "RTJ Flange (Ring Type Joint) for Petrochemical | ASME | Rema",
+    "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Petrochemical Industry"
   },
   "/products/flanges/socket-weld-flange-for-power-generation/": {
-    "title": "Socket Weld Flange for Power Generation Industry | ASME B16.5 SWRF | Remax Forge",
-    "description": "Forged socket weld flanges engineered for power generation service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Socket Weld Flange for Power Generation | ASME B16.5 | Remax",
+    "description": "Forged socket weld flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Socket Weld Flange for Power Generation Industry"
   },
   "/products/flanges/socket-weld-flange-for-power-generation": {
-    "title": "Socket Weld Flange for Power Generation Industry | ASME B16.5 SWRF | Remax Forge",
-    "description": "Forged socket weld flanges engineered for power generation service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Socket Weld Flange for Power Generation | ASME B16.5 | Remax",
+    "description": "Forged socket weld flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Socket Weld Flange for Power Generation Industry"
   },
   "/products/flanges/lap-joint-flange-for-water-infrastructure/": {
-    "title": "Lap Joint Flange for Water Infrastructure Industry | ASME B16.5 LJRF | Remax Forge",
-    "description": "Forged lap joint flanges engineered for water infrastructure service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Lap Joint Flange for Water Infrastructure | ASME B16.5 | Rem",
+    "description": "Forged lap joint flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Lap Joint Flange for Water Infrastructure Industry"
   },
   "/products/flanges/lap-joint-flange-for-water-infrastructure": {
-    "title": "Lap Joint Flange for Water Infrastructure Industry | ASME B16.5 LJRF | Remax Forge",
-    "description": "Forged lap joint flanges engineered for water infrastructure service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Lap Joint Flange for Water Infrastructure | ASME B16.5 | Rem",
+    "description": "Forged lap joint flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Lap Joint Flange for Water Infrastructure Industry"
   },
   "/products/flanges/threaded-flange-for-marine/": {
-    "title": "Threaded Flange for Marine Industry | ASME B16.5 THRF | Remax Forge",
-    "description": "Forged threaded flanges engineered for marine service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Threaded Flange for Marine | ASME B16.5 THRF | Remax",
+    "description": "Forged threaded flanges engineered for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Threaded Flange for Marine Industry"
   },
   "/products/flanges/threaded-flange-for-marine": {
-    "title": "Threaded Flange for Marine Industry | ASME B16.5 THRF | Remax Forge",
-    "description": "Forged threaded flanges engineered for marine service. ASME B16.5 compliant, EN 10204 3.1 MTC, 3rd-party inspection available. Mumbai manufacturer, 45+ country exports. Quote in 30 min.",
+    "title": "Threaded Flange for Marine | ASME B16.5 THRF | Remax",
+    "description": "Forged threaded flanges engineered for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Threaded Flange for Marine Industry"
   },
   "/products/flanges/flanges-manufacturer-mumbai/": {
     "title": "Flanges Manufacturer in Mumbai | ASME B16.5 | Remax Forge",
-    "description": "Flangess forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone call needed.",
+    "description": "Flangess forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone...",
     "h1": "Flanges Manufacturer in Mumbai"
   },
   "/products/flanges/flanges-manufacturer-mumbai": {
     "title": "Flanges Manufacturer in Mumbai | ASME B16.5 | Remax Forge",
-    "description": "Flangess forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone call needed.",
+    "description": "Flangess forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone...",
     "h1": "Flanges Manufacturer in Mumbai"
   },
   "/products/flanges/flanges-manufacturer-rajkot/": {
     "title": "Flanges Manufacturer in Rajkot | ASME B16.5 | Remax Forge",
-    "description": "Flangess forged and machined in-house in Rajkot. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone call needed.",
+    "description": "Flangess forged and machined in-house in Rajkot. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone...",
     "h1": "Flanges Manufacturer in Rajkot"
   },
   "/products/flanges/flanges-manufacturer-rajkot": {
     "title": "Flanges Manufacturer in Rajkot | ASME B16.5 | Remax Forge",
-    "description": "Flangess forged and machined in-house in Rajkot. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone call needed.",
+    "description": "Flangess forged and machined in-house in Rajkot. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone...",
     "h1": "Flanges Manufacturer in Rajkot"
   },
   "/products/flanges/weld-neck-flange-manufacturer-mumbai/": {
-    "title": "Weld Neck Flange Manufacturer in Mumbai | ASME B16.5 | Remax Forge",
-    "description": "Weld Neck Flanges forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone call needed.",
+    "title": "Weld Neck Flange Manufacturer in Mumbai | ASME B16.5 | Remax",
+    "description": "Weld Neck Flanges forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes —...",
     "h1": "Weld Neck Flange Manufacturer in Mumbai"
   },
   "/products/flanges/weld-neck-flange-manufacturer-mumbai": {
-    "title": "Weld Neck Flange Manufacturer in Mumbai | ASME B16.5 | Remax Forge",
-    "description": "Weld Neck Flanges forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone call needed.",
+    "title": "Weld Neck Flange Manufacturer in Mumbai | ASME B16.5 | Remax",
+    "description": "Weld Neck Flanges forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes —...",
     "h1": "Weld Neck Flange Manufacturer in Mumbai"
   },
   "/products/flanges/blind-flange-manufacturer-mumbai/": {
-    "title": "Blind Flange Manufacturer in Mumbai | ASME B16.5 | Remax Forge",
-    "description": "Blind Flanges forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone call needed.",
+    "title": "Blind Flange Manufacturer in Mumbai | ASME B16.5 | Remax",
+    "description": "Blind Flanges forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no...",
     "h1": "Blind Flange Manufacturer in Mumbai"
   },
   "/products/flanges/blind-flange-manufacturer-mumbai": {
-    "title": "Blind Flange Manufacturer in Mumbai | ASME B16.5 | Remax Forge",
-    "description": "Blind Flanges forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no phone call needed.",
+    "title": "Blind Flange Manufacturer in Mumbai | ASME B16.5 | Remax",
+    "description": "Blind Flanges forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request. Get a quote in 30 minutes — no...",
     "h1": "Blind Flange Manufacturer in Mumbai"
   },
   "/products/flanges/ss316-weld-neck-flange-manufacturer/": {
-    "title": "SS316  Weld Neck Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged weld neck flanges in SS316 / SS316L. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "SS316  Weld Neck Flange Manufacturer | ASME B16.5 | Remax",
+    "description": "Forged weld neck flanges in SS316 / SS316L. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer,...",
     "h1": "SS316  Weld Neck Flange Manufacturer"
   },
   "/products/flanges/ss316-weld-neck-flange-manufacturer": {
-    "title": "SS316  Weld Neck Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged weld neck flanges in SS316 / SS316L. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "SS316  Weld Neck Flange Manufacturer | ASME B16.5 | Remax",
+    "description": "Forged weld neck flanges in SS316 / SS316L. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer,...",
     "h1": "SS316  Weld Neck Flange Manufacturer"
   },
   "/products/flanges/duplex-blind-flange-manufacturer/": {
-    "title": "Duplex 2205  Blind Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged blind flanges in Duplex 2205 / Super Duplex 2507. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "Duplex 2205  Blind Flange Manufacturer | ASME B16.5 | Remax",
+    "description": "Forged blind flanges in Duplex 2205 / Super Duplex 2507. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai...",
     "h1": "Duplex 2205  Blind Flange Manufacturer"
   },
   "/products/flanges/duplex-blind-flange-manufacturer": {
-    "title": "Duplex 2205  Blind Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged blind flanges in Duplex 2205 / Super Duplex 2507. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "Duplex 2205  Blind Flange Manufacturer | ASME B16.5 | Remax",
+    "description": "Forged blind flanges in Duplex 2205 / Super Duplex 2507. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai...",
     "h1": "Duplex 2205  Blind Flange Manufacturer"
   },
   "/products/flanges/carbon-slip-on-flange-manufacturer/": {
-    "title": "Carbon Steel A105 Slip-On Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged slip-on flanges in Carbon Steel A105. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "Carbon Steel A105 Slip-On Flange Manufacturer | ASME | Remax",
+    "description": "Forged slip-on flanges in Carbon Steel A105. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer,...",
     "h1": "Carbon Steel A105 Slip-On Flange Manufacturer"
   },
   "/products/flanges/carbon-slip-on-flange-manufacturer": {
-    "title": "Carbon Steel A105 Slip-On Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged slip-on flanges in Carbon Steel A105. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "Carbon Steel A105 Slip-On Flange Manufacturer | ASME | Remax",
+    "description": "Forged slip-on flanges in Carbon Steel A105. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer,...",
     "h1": "Carbon Steel A105 Slip-On Flange Manufacturer"
   },
   "/products/flanges/alloy-weld-neck-flange-manufacturer/": {
-    "title": "Alloy Steel F11 Weld Neck Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged weld neck flanges in Alloy Steel F11/F22. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "Alloy Steel F11 Weld Neck Flange Manufacturer | ASME | Remax",
+    "description": "Forged weld neck flanges in Alloy Steel F11/F22. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai...",
     "h1": "Alloy Steel F11 Weld Neck Flange Manufacturer"
   },
   "/products/flanges/alloy-weld-neck-flange-manufacturer": {
-    "title": "Alloy Steel F11 Weld Neck Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged weld neck flanges in Alloy Steel F11/F22. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "Alloy Steel F11 Weld Neck Flange Manufacturer | ASME | Remax",
+    "description": "Forged weld neck flanges in Alloy Steel F11/F22. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai...",
     "h1": "Alloy Steel F11 Weld Neck Flange Manufacturer"
   },
   "/products/flanges/nickel-blind-flange-manufacturer/": {
-    "title": "Nickel Alloy (Inconel Blind Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged blind flanges in Nickel Alloy (Inconel/Monel/Hastelloy). Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "Nickel Alloy (Inconel Blind Flange Manufacturer | ASME | Rem",
+    "description": "Forged blind flanges in Nickel Alloy (Inconel/Monel/Hastelloy). Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry....",
     "h1": "Nickel Alloy (Inconel Blind Flange Manufacturer"
   },
   "/products/flanges/nickel-blind-flange-manufacturer": {
-    "title": "Nickel Alloy (Inconel Blind Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged blind flanges in Nickel Alloy (Inconel/Monel/Hastelloy). Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "Nickel Alloy (Inconel Blind Flange Manufacturer | ASME | Rem",
+    "description": "Forged blind flanges in Nickel Alloy (Inconel/Monel/Hastelloy). Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry....",
     "h1": "Nickel Alloy (Inconel Blind Flange Manufacturer"
   },
   "/products/flanges/ss304-slip-on-flange-manufacturer/": {
-    "title": "SS304  Slip-On Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged slip-on flanges in SS304 / SS304L. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "SS304  Slip-On Flange Manufacturer | ASME B16.5 | Remax",
+    "description": "Forged slip-on flanges in SS304 / SS304L. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer,...",
     "h1": "SS304  Slip-On Flange Manufacturer"
   },
   "/products/flanges/ss304-slip-on-flange-manufacturer": {
-    "title": "SS304  Slip-On Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "Forged slip-on flanges in SS304 / SS304L. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer, export-ready. Quote in 30 min.",
+    "title": "SS304  Slip-On Flange Manufacturer | ASME B16.5 | Remax",
+    "description": "Forged slip-on flanges in SS304 / SS304L. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer,...",
     "h1": "SS304  Slip-On Flange Manufacturer"
   },
   "/products/flanges/high-pressure-flange-manufacturer/": {
-    "title": "Class 900/1500/2500 High-Pressure Flanges | Remax Forge & Fittings",
-    "description": "Class 900/1500/2500 High-Pressure Flanges forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure, EN 10204 3.1 MTC. Quote in 30 min.",
+    "title": "Class 900/1500/2500 High-Pressure Flanges | Remax",
+    "description": "Class 900/1500/2500 High-Pressure Flanges forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure,...",
     "h1": "Class 900/1500/2500 High-Pressure Flanges"
   },
   "/products/flanges/high-pressure-flange-manufacturer": {
-    "title": "Class 900/1500/2500 High-Pressure Flanges | Remax Forge & Fittings",
-    "description": "Class 900/1500/2500 High-Pressure Flanges forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure, EN 10204 3.1 MTC. Quote in 30 min.",
+    "title": "Class 900/1500/2500 High-Pressure Flanges | Remax",
+    "description": "Class 900/1500/2500 High-Pressure Flanges forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure,...",
     "h1": "Class 900/1500/2500 High-Pressure Flanges"
   },
   "/products/flanges/rtj-face-flange-manufacturer/": {
-    "title": "Ring Type Joint (RTJ) Face Flanges — all types | Remax Forge & Fittings",
-    "description": "Ring Type Joint (RTJ) Face Flanges — all types forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure, EN 10204 3.1 MTC. Quote in 30 min.",
+    "title": "Ring Type Joint (RTJ) Face Flanges — all types | Remax",
+    "description": "Ring Type Joint (RTJ) Face Flanges — all types forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working...",
     "h1": "Ring Type Joint (RTJ) Face Flanges — all types"
   },
   "/products/flanges/rtj-face-flange-manufacturer": {
-    "title": "Ring Type Joint (RTJ) Face Flanges — all types | Remax Forge & Fittings",
-    "description": "Ring Type Joint (RTJ) Face Flanges — all types forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure, EN 10204 3.1 MTC. Quote in 30 min.",
+    "title": "Ring Type Joint (RTJ) Face Flanges — all types | Remax",
+    "description": "Ring Type Joint (RTJ) Face Flanges — all types forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working...",
     "h1": "Ring Type Joint (RTJ) Face Flanges — all types"
   },
   "/products/flanges/class-150-flange-supplier/": {
     "title": "Class 150 General Utility Flanges | Remax Forge & Fittings",
-    "description": "Class 150 General Utility Flanges forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure, EN 10204 3.1 MTC. Quote in 30 min.",
+    "description": "Class 150 General Utility Flanges forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure, EN...",
     "h1": "Class 150 General Utility Flanges"
   },
   "/products/flanges/class-150-flange-supplier": {
     "title": "Class 150 General Utility Flanges | Remax Forge & Fittings",
-    "description": "Class 150 General Utility Flanges forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure, EN 10204 3.1 MTC. Quote in 30 min.",
+    "description": "Class 150 General Utility Flanges forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure, EN...",
     "h1": "Class 150 General Utility Flanges"
   },
   "/blogs/rtj-vs-raised-face-flange/": {
-    "title": "RTJ vs Raised Face (RF) Flange — Which to Specify | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "title": "RTJ vs Raised Face (RF) Flange — Which to Specify | Remax",
+    "description": "Compare Ring Type Joint (RTJ) vs Raised Face (RF) flanges. High-pressure sealing mechanics, temperature ratings, gasket selection, and ASME B16.5 standards.",
     "h1": "RTJ vs Raised Face (RF) Flange — Which to Specify"
   },
   "/blogs/rtj-vs-raised-face-flange": {
-    "title": "RTJ vs Raised Face (RF) Flange — Which to Specify | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "title": "RTJ vs Raised Face (RF) Flange — Which to Specify | Remax",
+    "description": "Compare Ring Type Joint (RTJ) vs Raised Face (RF) flanges. High-pressure sealing mechanics, temperature ratings, gasket selection, and ASME B16.5 standards.",
     "h1": "RTJ vs Raised Face (RF) Flange — Which to Specify"
   },
   "/blogs/blind-flange-vs-spectacle-blind/": {
-    "title": "Blind Flange vs Spectacle Blind — Isolation Method Comparison | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "title": "Blind Flange vs Spectacle Blind — Isolation Method | Remax",
+    "description": "Blind flange vs spectacle blind comparison. Permanent end closure vs positive line isolation for piping maintenance, turnaround safety, and ASME B16.48 rules.",
     "h1": "Blind Flange vs Spectacle Blind — Isolation Method Comparison"
   },
   "/blogs/blind-flange-vs-spectacle-blind": {
-    "title": "Blind Flange vs Spectacle Blind — Isolation Method Comparison | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "title": "Blind Flange vs Spectacle Blind — Isolation Method | Remax",
+    "description": "Blind flange vs spectacle blind comparison. Permanent end closure vs positive line isolation for piping maintenance, turnaround safety, and ASME B16.48 rules.",
     "h1": "Blind Flange vs Spectacle Blind — Isolation Method Comparison"
   },
   "/blogs/class-150-vs-class-300-flange/": {
     "title": "Class 150 vs Class 300 Flange — What Changes | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong...",
     "h1": "Class 150 vs Class 300 Flange — What Changes"
   },
   "/blogs/class-150-vs-class-300-flange": {
     "title": "Class 150 vs Class 300 Flange — What Changes | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong...",
     "h1": "Class 150 vs Class 300 Flange — What Changes"
   },
   "/blogs/socket-weld-vs-threaded-flange/": {
-    "title": "Socket Weld vs Threaded Flange — Strength & Application | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "title": "Socket Weld vs Threaded Flange — Strength & Application | Re",
+    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong...",
     "h1": "Socket Weld vs Threaded Flange — Strength & Application"
   },
   "/blogs/socket-weld-vs-threaded-flange": {
-    "title": "Socket Weld vs Threaded Flange — Strength & Application | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "title": "Socket Weld vs Threaded Flange — Strength & Application | Re",
+    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong...",
     "h1": "Socket Weld vs Threaded Flange — Strength & Application"
   },
   "/blogs/lap-joint-vs-weld-neck-flange/": {
-    "title": "Lap Joint vs Weld Neck Flange — When to Choose Each | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "title": "Lap Joint vs Weld Neck Flange — When to Choose Each | Remax",
+    "description": "Lap joint vs weld neck flange engineering guide. Stub end mating, cost savings with carbon steel backing on exotic alloy pipe, and bolt alignment ease.",
     "h1": "Lap Joint vs Weld Neck Flange — When to Choose Each"
   },
   "/blogs/lap-joint-vs-weld-neck-flange": {
-    "title": "Lap Joint vs Weld Neck Flange — When to Choose Each | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "title": "Lap Joint vs Weld Neck Flange — When to Choose Each | Remax",
+    "description": "Lap joint vs weld neck flange engineering guide. Stub end mating, cost savings with carbon steel backing on exotic alloy pipe, and bolt alignment ease.",
     "h1": "Lap Joint vs Weld Neck Flange — When to Choose Each"
   },
   "/blogs/weld-neck-vs-slip-on-flange/": {
-    "title": "Weld Neck vs Slip-On Flange — Full Cost & Strength Comparison | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
-    "h1": "Weld Neck vs Slip-On Flange — Full Cost & Strength Comparison"
+    "title": "Weld Neck vs Slip-On Flange: Strength & Cost Guide | Remax",
+    "description": "Compare Weld Neck (WNRF) vs Slip-On (SORF) flanges. Analysis of fatigue strength, welding costs, pressure limits (ASME B16.5), and engineering selection.",
+    "h1": "Weld Neck vs. Slip-On Flange: Strength, Fatigue & Cost Analysis"
   },
   "/blogs/weld-neck-vs-slip-on-flange": {
-    "title": "Weld Neck vs Slip-On Flange — Full Cost & Strength Comparison | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
-    "h1": "Weld Neck vs Slip-On Flange — Full Cost & Strength Comparison"
+    "title": "Weld Neck vs Slip-On Flange: Strength & Cost Guide | Remax",
+    "description": "Compare Weld Neck (WNRF) vs Slip-On (SORF) flanges. Analysis of fatigue strength, welding costs, pressure limits (ASME B16.5), and engineering selection.",
+    "h1": "Weld Neck vs. Slip-On Flange: Strength, Fatigue & Cost Analysis"
   },
   "/blogs/blind-flange-vs-blank-flange/": {
-    "title": "Blind Flange vs Blank Flange — Is There a Difference | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "title": "Blind Flange vs Blank Flange — Is There a Difference | Remax",
+    "description": "Blind flange vs blank flange terminology explained. ASME B16.5 bolted blind discs vs paddle blanks / spade blinds, testing methods, and piping specs.",
     "h1": "Blind Flange vs Blank Flange — Is There a Difference"
   },
   "/blogs/blind-flange-vs-blank-flange": {
-    "title": "Blind Flange vs Blank Flange — Is There a Difference | Remax Forge",
-    "description": "A clear, standards-based comparison to help you specify correctly the first time — avoids the #1 cause of flange RFQ rejections: incomplete or wrong specification. ASME B16.5 referenced throughout.",
+    "title": "Blind Flange vs Blank Flange — Is There a Difference | Remax",
+    "description": "Blind flange vs blank flange terminology explained. ASME B16.5 bolted blind discs vs paddle blanks / spade blinds, testing methods, and piping specs.",
     "h1": "Blind Flange vs Blank Flange — Is There a Difference"
   },
   "/products/flanges/non-porous-lined-blind-flange/": {
-    "title": "Non-Porous & Lined Blind Flanges for Corrosive Service | Remax Forge & Fittings",
-    "description": "Non-Porous & Lined Blind Flanges for Corrosive Service — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "Non-Porous & Lined Blind Flanges for Corrosive Service | | R",
+    "description": "Non-Porous & Lined Blind Flanges for Corrosive Service. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "Non-Porous & Lined Blind Flanges for Corrosive Service"
   },
   "/products/flanges/non-porous-lined-blind-flange": {
-    "title": "Non-Porous & Lined Blind Flanges for Corrosive Service | Remax Forge & Fittings",
-    "description": "Non-Porous & Lined Blind Flanges for Corrosive Service — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "Non-Porous & Lined Blind Flanges for Corrosive Service | | R",
+    "description": "Non-Porous & Lined Blind Flanges for Corrosive Service. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "Non-Porous & Lined Blind Flanges for Corrosive Service"
   },
   "/products/flanges/sour-service-nace-flange/": {
-    "title": "Sour Service (NACE / H2S) Forged Flanges | Remax Forge & Fittings",
-    "description": "Sour Service (NACE / H2S) Forged Flanges — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "Sour Service (NACE / H2S) Forged Flanges | Remax",
+    "description": "Sour Service (NACE / H2S) Forged Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "Sour Service (NACE / H2S) Forged Flanges"
   },
   "/products/flanges/sour-service-nace-flange": {
-    "title": "Sour Service (NACE / H2S) Forged Flanges | Remax Forge & Fittings",
-    "description": "Sour Service (NACE / H2S) Forged Flanges — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "Sour Service (NACE / H2S) Forged Flanges | Remax",
+    "description": "Sour Service (NACE / H2S) Forged Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "Sour Service (NACE / H2S) Forged Flanges"
   },
   "/products/flanges/custom-special-flange-manufacturer/": {
-    "title": "Custom & Special Flanges — Machined to Your Drawing | Remax Forge & Fittings",
-    "description": "Custom & Special Flanges — Machined to Your Drawing — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "Custom & Special Flanges | Remax",
+    "description": "Custom & Special Flanges — Machined to Your Drawing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "Custom & Special Flanges — Machined to Your Drawing"
   },
   "/products/flanges/custom-special-flange-manufacturer": {
-    "title": "Custom & Special Flanges — Machined to Your Drawing | Remax Forge & Fittings",
-    "description": "Custom & Special Flanges — Machined to Your Drawing — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "Custom & Special Flanges | Remax",
+    "description": "Custom & Special Flanges — Machined to Your Drawing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "Custom & Special Flanges — Machined to Your Drawing"
   },
   "/products/flanges/subsea-offshore-flange-manufacturer/": {
-    "title": "Flanges for Subsea & Offshore Piping | Remax Forge & Fittings",
-    "description": "Flanges for Subsea & Offshore Piping — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "Flanges for Subsea & Offshore Piping | Remax",
+    "description": "Flanges for Subsea & Offshore Piping. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "Flanges for Subsea & Offshore Piping"
   },
   "/products/flanges/subsea-offshore-flange-manufacturer": {
-    "title": "Flanges for Subsea & Offshore Piping | Remax Forge & Fittings",
-    "description": "Flanges for Subsea & Offshore Piping — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "Flanges for Subsea & Offshore Piping | Remax",
+    "description": "Flanges for Subsea & Offshore Piping. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "Flanges for Subsea & Offshore Piping"
   },
   "/about/iso-9001-certified-flange-manufacturer/": {
-    "title": "ISO 9001 Certified Forged Flange Manufacturing | Remax Forge & Fittings",
-    "description": "ISO 9001 Certified Forged Flange Manufacturing — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "ISO 9001 Certified Forged Flanges | Remax",
+    "description": "ISO 9001 Certified Forged Flange Manufacturing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "ISO 9001 Certified Forged Flange Manufacturing"
   },
   "/about/iso-9001-certified-flange-manufacturer": {
-    "title": "ISO 9001 Certified Forged Flange Manufacturing | Remax Forge & Fittings",
-    "description": "ISO 9001 Certified Forged Flange Manufacturing — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "ISO 9001 Certified Forged Flanges | Remax",
+    "description": "ISO 9001 Certified Forged Flange Manufacturing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "ISO 9001 Certified Forged Flange Manufacturing"
   },
   "/products/flanges/high-temperature-cryogenic-flange/": {
-    "title": "High-Temperature & Cryogenic Service Flanges | Remax Forge & Fittings",
-    "description": "High-Temperature & Cryogenic Service Flanges — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "High-Temperature & Cryogenic Service Flanges | Remax",
+    "description": "High-Temperature & Cryogenic Service Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "High-Temperature & Cryogenic Service Flanges"
   },
   "/products/flanges/high-temperature-cryogenic-flange": {
-    "title": "High-Temperature & Cryogenic Service Flanges | Remax Forge & Fittings",
-    "description": "High-Temperature & Cryogenic Service Flanges — forged and tested in-house in Mumbai. EN 10204 3.1 MTC, 3rd-party inspection (SGS/Lloyd's/DNV) available on request. Quote in 30 minutes.",
+    "title": "High-Temperature & Cryogenic Service Flanges | Remax",
+    "description": "High-Temperature & Cryogenic Service Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "High-Temperature & Cryogenic Service Flanges"
   },
   "/products/flanges/": {
-    "title": "Forged Flanges Manufacturer in India | ASME B16.5 & B16.47 | Remax Forge",
-    "description": "ISO 9001 certified manufacturer of ASME B16.5 & B16.47 forged flanges in Mumbai. Weld Neck, Slip On, Blind, Socket Weld, Threaded, Lap Joint, Spectacle Blind. 30-min quote.",
+    "title": "Forged Flanges Manufacturer India | ASME B16.5 & B16.47 | Re",
+    "description": "ISO 9001 certified manufacturer of ASME B16.5 & B16.47 forged flanges in Mumbai. Weld Neck, Slip On, Blind, Socket Weld, Threaded, Lap Joint, Spectacle...",
     "h1": "Forged Flanges Manufacturer in India"
+  }
+,
+  "/products/socket-weld-fittings/": {
+    "title": "Socket Weld Fittings Manufacturer & Supplier | Remax Forge",
+    "description": "ISO 9001 manufacturer of ASME B16.11 forged socket weld fittings in Mumbai. Elbows, tees, couplings, unions, nipples. 3000#, 6000#, 9000#. MTC 3.1.",
+    "h1": "Forged Socket Weld Fittings Manufacturer"
+  },
+  "/products/socket-weld-fittings": {
+    "title": "Socket Weld Fittings Manufacturer & Supplier | Remax Forge",
+    "description": "ISO 9001 manufacturer of ASME B16.11 forged socket weld fittings in Mumbai. Elbows, tees, couplings, unions, nipples. 3000#, 6000#, 9000#. MTC 3.1.",
+    "h1": "Forged Socket Weld Fittings Manufacturer"
+  },
+  "/products/socket-weld-fittings/socket-weld-nipple-fittings/": {
+    "title": "Socket Weld Nipple Fittings | ASME B16.11 | Remax Forge",
+    "description": "High-pressure forged socket weld nipple fittings in carbon steel, stainless steel, and alloy steel. Class 3000# & 6000#, EN 10204 3.1 MTC, factory direct.",
+    "h1": "Socket Weld Nipple Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-nipple-fittings": {
+    "title": "Socket Weld Nipple Fittings | ASME B16.11 | Remax Forge",
+    "description": "High-pressure forged socket weld nipple fittings in carbon steel, stainless steel, and alloy steel. Class 3000# & 6000#, EN 10204 3.1 MTC, factory direct.",
+    "h1": "Socket Weld Nipple Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-reducer-insert-fittings/": {
+    "title": "Socket Weld Reducer Insert Fittings | Remax Forge",
+    "description": "Forged socket weld reducer inserts per ASME B16.11 and MSS SP-79. Precision machined in A105, SS 316, and alloy steel. Class 3000# & 6000#. Get a quote.",
+    "h1": "Socket Weld Reducer Insert Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-reducer-insert-fittings": {
+    "title": "Socket Weld Reducer Insert Fittings | Remax Forge",
+    "description": "Forged socket weld reducer inserts per ASME B16.11 and MSS SP-79. Precision machined in A105, SS 316, and alloy steel. Class 3000# & 6000#. Get a quote.",
+    "h1": "Socket Weld Reducer Insert Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-bushing-fittings/": {
+    "title": "Socket Weld Bushing Fittings | ASME B16.11 | Remax Forge",
+    "description": "ASME B16.11 forged socket weld bushings in carbon steel, stainless steel, and nickel alloys. Class 3000# & 6000# reducing bushings with EN 10204 3.1 MTC.",
+    "h1": "Socket Weld Bushing Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-bushing-fittings": {
+    "title": "Socket Weld Bushing Fittings | ASME B16.11 | Remax Forge",
+    "description": "ASME B16.11 forged socket weld bushings in carbon steel, stainless steel, and nickel alloys. Class 3000# & 6000# reducing bushings with EN 10204 3.1 MTC.",
+    "h1": "Socket Weld Bushing Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-cap-fittings/": {
+    "title": "Socket Weld End Caps | ASME B16.11 Forged | Remax Forge",
+    "description": "Heavy-duty forged socket weld pipe caps per ASME B16.11. Class 3000#, 6000#, 9000# pipe end closures in A105, 304L, 316L, and Alloy Steel. Instant quote.",
+    "h1": "Socket Weld Cap Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-cap-fittings": {
+    "title": "Socket Weld End Caps | ASME B16.11 Forged | Remax Forge",
+    "description": "Heavy-duty forged socket weld pipe caps per ASME B16.11. Class 3000#, 6000#, 9000# pipe end closures in A105, 304L, 316L, and Alloy Steel. Instant quote.",
+    "h1": "Socket Weld Cap Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-cross-fittings/": {
+    "title": "Socket Weld Cross Fittings | 4-Way Forged | Remax Forge",
+    "description": "Class 3000# & 6000# forged socket weld crosses per ASME B16.11. 4-way distribution fittings in carbon steel, stainless steel, and duplex. Full MTC 3.1.",
+    "h1": "Socket Weld Cross Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-cross-fittings": {
+    "title": "Socket Weld Cross Fittings | 4-Way Forged | Remax Forge",
+    "description": "Class 3000# & 6000# forged socket weld crosses per ASME B16.11. 4-way distribution fittings in carbon steel, stainless steel, and duplex. Full MTC 3.1.",
+    "h1": "Socket Weld Cross Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-lateral-tee-fittings/": {
+    "title": "Socket Weld Lateral Tee Fittings (45°) | Remax Forge",
+    "description": "45-degree forged socket weld lateral tees manufactured to ASME B16.11. Class 3000# & 6000# for smooth low-resistance branching in process piping systems.",
+    "h1": "Socket Weld Lateral Tee Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-lateral-tee-fittings": {
+    "title": "Socket Weld Lateral Tee Fittings (45°) | Remax Forge",
+    "description": "45-degree forged socket weld lateral tees manufactured to ASME B16.11. Class 3000# & 6000# for smooth low-resistance branching in process piping systems.",
+    "h1": "Socket Weld Lateral Tee Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-plug-fittings/": {
+    "title": "Socket Weld Plug Fittings | High Pressure | Remax Forge",
+    "description": "Forged socket weld and round/hex head plugs per ASME B16.11. Class 3000# & 6000# in ASTM A105, SS 316L, and alloy steel. Leak-proof line terminations.",
+    "h1": "Socket Weld Plug Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-plug-fittings": {
+    "title": "Socket Weld Plug Fittings | High Pressure | Remax Forge",
+    "description": "Forged socket weld and round/hex head plugs per ASME B16.11. Class 3000# & 6000# in ASTM A105, SS 316L, and alloy steel. Leak-proof line terminations.",
+    "h1": "Socket Weld Plug Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-union-fittings/": {
+    "title": "Socket Weld Union Fittings | ASME B16.11 | Remax Forge",
+    "description": "Forged socket weld unions with ground metal-to-metal seat (MSS SP-83). Class 3000# & 6000# unions for quick line disassembly. ASTM A105, SS 316. MTC 3.1.",
+    "h1": "Socket Weld Union Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-union-fittings": {
+    "title": "Socket Weld Union Fittings | ASME B16.11 | Remax Forge",
+    "description": "Forged socket weld unions with ground metal-to-metal seat (MSS SP-83). Class 3000# & 6000# unions for quick line disassembly. ASTM A105, SS 316. MTC 3.1.",
+    "h1": "Socket Weld Union Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-coupling-fittings": {
+    "title": "Socket Weld Coupling Fittings | Full & Half | Remax",
+    "description": "Class 3000# & 6000# full couplings, half couplings, and reducing couplings per ASME B16.11. Forged in Mumbai with complete 100% PMI and 3.1 certification.",
+    "h1": "Socket Weld Coupling Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-elbow-fittings": {
+    "title": "Socket Weld Elbow Fittings (90° & 45°) | Remax Forge",
+    "description": "Forged 90-degree and 45-degree socket weld elbows per ASME B16.11. Class 3000#, 6000#, and 9000# in carbon steel, stainless steel, and nickel alloys.",
+    "h1": "Socket Weld Elbow Fittings"
+  },
+  "/products/socket-weld-fittings/socket-weld-tee-fittings": {
+    "title": "Socket Weld Tee Fittings | Equal & Reducing | Remax",
+    "description": "ASME B16.11 forged socket weld equal tees and reducing tees. Class 3000# and 6000# in A105, SS 304/316, and Alloy Steel with EN 10204 3.1 MTC inspection.",
+    "h1": "Socket Weld Tee Fittings"
+  },
+  "/products/buttweld-fittings/butt-weld-bends-fittings/": {
+    "title": "Butt Weld Pipe Bends | 3D, 5D Long Radius | Remax Forge",
+    "description": "Seamless and welded buttweld pipe bends (3D, 5D, 6D, 10D radius) per ASME B16.49 / B16.9. Manufactured in Mumbai in carbon, alloy, and stainless steel.",
+    "h1": "Butt Weld Bends Fittings"
+  },
+  "/products/buttweld-fittings/butt-weld-bends-fittings": {
+    "title": "Butt Weld Pipe Bends | 3D, 5D Long Radius | Remax Forge",
+    "description": "Seamless and welded buttweld pipe bends (3D, 5D, 6D, 10D radius) per ASME B16.49 / B16.9. Manufactured in Mumbai in carbon, alloy, and stainless steel.",
+    "h1": "Butt Weld Bends Fittings"
+  },
+  "/products/buttweld-fittings/butt-weld-reducers-fittings/": {
+    "title": "Butt Weld Reducers | Concentric & Eccentric | Remax",
+    "description": "ASME B16.9 concentric and eccentric buttweld reducers. Schedule 10 to XXS in ASTM A234 WPB, SS 316, and Alloy Steel. Factory hydro-tested with 3.1 MTC.",
+    "h1": "Butt Weld Reducers Fittings"
+  },
+  "/products/buttweld-fittings/butt-weld-reducers-fittings": {
+    "title": "Butt Weld Reducers | Concentric & Eccentric | Remax",
+    "description": "ASME B16.9 concentric and eccentric buttweld reducers. Schedule 10 to XXS in ASTM A234 WPB, SS 316, and Alloy Steel. Factory hydro-tested with 3.1 MTC.",
+    "h1": "Butt Weld Reducers Fittings"
+  },
+  "/products/buttweld-fittings/butt-weld-tee-fittings/": {
+    "title": "Butt Weld Tee Fittings | Straight & Reducing | Remax",
+    "description": "Seamless and fabricated buttweld straight and reducing tees per ASME B16.9. Sizes 1/2\" to 36\" in WPB, WP316L, and Duplex 2205. Certified quality from Mumbai.",
+    "h1": "Butt Weld Tee Fittings"
+  },
+  "/products/buttweld-fittings/butt-weld-tee-fittings": {
+    "title": "Butt Weld Tee Fittings | Straight & Reducing | Remax",
+    "description": "Seamless and fabricated buttweld straight and reducing tees per ASME B16.9. Sizes 1/2\" to 36\" in WPB, WP316L, and Duplex 2205. Certified quality from Mumbai.",
+    "h1": "Butt Weld Tee Fittings"
+  },
+  "/brochure/": {
+    "title": "Download Technical Product Catalog (PDF) | Remax Forge",
+    "description": "Download the complete Remax Forge & Fittings technical catalog. ASME dimensions, weight charts, material grades (A105, SS 316, Duplex), and flange ratings.",
+    "h1": "Remax Technical Product Brochure"
+  },
+  "/brochure": {
+    "title": "Download Technical Product Catalog (PDF) | Remax Forge",
+    "description": "Download the complete Remax Forge & Fittings technical catalog. ASME dimensions, weight charts, material grades (A105, SS 316, Duplex), and flange ratings.",
+    "h1": "Remax Technical Product Brochure"
+  },
+  "/career/": {
+    "title": "Careers at Remax Forge & Fittings | Job Openings Mumbai",
+    "description": "Join the engineering and forging team at Remax Forge & Fittings. Current job vacancies in production, CNC machining, sales engineering, and quality control.",
+    "h1": "Careers at Remax Forge & Fittings"
+  },
+  "/career": {
+    "title": "Careers at Remax Forge & Fittings | Job Openings Mumbai",
+    "description": "Join the engineering and forging team at Remax Forge & Fittings. Current job vacancies in production, CNC machining, sales engineering, and quality control.",
+    "h1": "Careers at Remax Forge & Fittings"
+  },
+  "/certification": {
+    "title": "Certifications & Approvals | ISO 9001:2015 | Remax Forge",
+    "description": "Remax Forge quality accreditations: ISO 9001:2015, IBR approval, PED 2014/68/EU compliance, and third-party inspection certifications from TUV, SGS & DNV.",
+    "h1": "Accreditations & Certificates"
+  },
+  "/certificates/": {
+    "title": "Certifications & Approvals | ISO 9001:2015 | Remax Forge",
+    "description": "Remax Forge quality accreditations: ISO 9001:2015, IBR approval, PED 2014/68/EU compliance, and third-party inspection certifications from TUV, SGS & DNV.",
+    "h1": "Accreditations & Certificates"
+  },
+  "/certificates": {
+    "title": "Certifications & Approvals | ISO 9001:2015 | Remax Forge",
+    "description": "Remax Forge quality accreditations: ISO 9001:2015, IBR approval, PED 2014/68/EU compliance, and third-party inspection certifications from TUV, SGS & DNV.",
+    "h1": "Accreditations & Certificates"
+  },
+  "/export/uae/": {
+    "title": "Flange Supplier UAE & Middle East | ASME B16.5 | Remax",
+    "description": "Leading manufacturer exporting ASME B16.5 flanges & forged fittings to UAE (Dubai, Abu Dhabi, Sharjah). ADNOC compliant, EN 10204 3.1 MTC. Rapid sea freight.",
+    "h1": "Flange Supplier & Exporter to United Arab Emirates"
+  },
+  "/export/uae": {
+    "title": "Flange Supplier UAE & Middle East | ASME B16.5 | Remax",
+    "description": "Leading manufacturer exporting ASME B16.5 flanges & forged fittings to UAE (Dubai, Abu Dhabi, Sharjah). ADNOC compliant, EN 10204 3.1 MTC. Rapid sea freight.",
+    "h1": "Flange Supplier & Exporter to United Arab Emirates"
+  },
+  "/export/usa/": {
+    "title": "Flange Supplier United States | ASME / ANSI | Remax Forge",
+    "description": "Exporting ASME B16.5 / B16.47 flanges and fittings to USA (Houston, New Orleans, Gulf Coast). Domestic EPC compliance, EN 10204 3.1 MTC, competitive pricing.",
+    "h1": "Flange Supplier & Exporter to United States"
+  },
+  "/export/usa": {
+    "title": "Flange Supplier United States | ASME / ANSI | Remax Forge",
+    "description": "Exporting ASME B16.5 / B16.47 flanges and fittings to USA (Houston, New Orleans, Gulf Coast). Domestic EPC compliance, EN 10204 3.1 MTC, competitive pricing.",
+    "h1": "Flange Supplier & Exporter to United States"
+  },
+  "/oil-gas-pipe-fittings/": {
+    "title": "Oil & Gas Pipe Fittings & Flanges | NACE MR0175 | Remax",
+    "description": "Forged fittings and flanges for upstream and downstream oil & gas projects. Sour service (NACE MR0175) and high-yield alloys in stock. Fast RFQ quotes.",
+    "h1": "Oil & Gas Pipe Fittings & Flanges"
+  },
+  "/oil-gas-pipe-fittings": {
+    "title": "Oil & Gas Pipe Fittings & Flanges | NACE MR0175 | Remax",
+    "description": "Forged fittings and flanges for upstream and downstream oil & gas projects. Sour service (NACE MR0175) and high-yield alloys in stock. Fast RFQ quotes.",
+    "h1": "Oil & Gas Pipe Fittings & Flanges"
+  },
+  "/tech-info/pipe-dimensions/": {
+    "title": "Pipe Dimensions & Schedule Chart | ANSI B36.10 | Remax",
+    "description": "Comprehensive ANSI/ASME B36.10M and B36.19M pipe dimensions chart. Outer diameters, wall thicknesses, and internal diameters from NPS 1/8 to NPS 36.",
+    "h1": "Pipe Dimensions & Schedule Chart"
+  },
+  "/tech-info/pipe-dimensions": {
+    "title": "Pipe Dimensions & Schedule Chart | ANSI B36.10 | Remax",
+    "description": "Comprehensive ANSI/ASME B36.10M and B36.19M pipe dimensions chart. Outer diameters, wall thicknesses, and internal diameters from NPS 1/8 to NPS 36.",
+    "h1": "Pipe Dimensions & Schedule Chart"
+  },
+  "/tech-info/dimension-chart/": {
+    "title": "Flange Dimension Chart | ASME B16.5 Classes | Remax Forge",
+    "description": "Complete ASME B16.5 flange dimension tables for Class 150 to 2500#. Outer diameters, bolt circle diameters, hole counts, and thicknesses from 1/2\" to 24\".",
+    "h1": "Flange Dimension Chart"
+  },
+  "/tech-info/dimension-chart": {
+    "title": "Flange Dimension Chart | ASME B16.5 Classes | Remax Forge",
+    "description": "Complete ASME B16.5 flange dimension tables for Class 150 to 2500#. Outer diameters, bolt circle diameters, hole counts, and thicknesses from 1/2\" to 24\".",
+    "h1": "Flange Dimension Chart"
+  },
+  "/pipe-fittings-manufacturer-india": {
+    "title": "Pipe Fittings Manufacturer in India | Remax Forge",
+    "description": "Leading ISO 9001 manufacturer of buttweld and forged pipe fittings in Mumbai, India. Exporting ASTM A234 WPB, SS 316, and Duplex fittings to 45+ countries.",
+    "h1": "Pipe Fittings Manufacturer in India"
+  },
+  "/buttweld-fittings-exporter-india": {
+    "title": "Buttweld Fittings Exporter India | ASME B16.9 | Remax",
+    "description": "Premier Indian exporter of ASME B16.9 seamless buttweld elbows, tees, and reducers. Serving oil & gas, refineries, and EPC clients in USA, UAE, and Europe.",
+    "h1": "Buttweld Fittings Exporter India"
+  },
+  "/blogs/a105-vs-a350-lf2/": {
+    "title": "ASTM A105 vs A350 LF2: Low Temp Steel Comparison | Remax",
+    "description": "ASTM A105 vs A350 LF2 comparison for piping engineers. Impact testing (-46°C Charpy V-notch), chemistry, heat treatment, ASME B31.3 low-temp selection.",
+    "h1": "ASTM A105 vs. ASTM A350 LF2: Low-Temperature Comparison"
+  },
+  "/blogs/a105-vs-a350-lf2": {
+    "title": "ASTM A105 vs A350 LF2: Low Temp Steel Comparison | Remax",
+    "description": "ASTM A105 vs A350 LF2 comparison for piping engineers. Impact testing (-46°C Charpy V-notch), chemistry, heat treatment, ASME B31.3 low-temp selection.",
+    "h1": "ASTM A105 vs. ASTM A350 LF2: Low-Temperature Comparison"
+  },
+  "/blogs/duplex-vs-super-duplex/": {
+    "title": "Duplex vs Super Duplex Stainless Steel Guide | Remax",
+    "description": "Duplex 2205 vs Super Duplex 2507 comparison. PREN numbers, pitting resistance, yield strength, seawater corrosion, and offshore piping specification.",
+    "h1": "Duplex vs. Super Duplex Stainless Steel: PREN, Strength & Corrosion"
+  },
+  "/blogs/duplex-vs-super-duplex": {
+    "title": "Duplex vs Super Duplex Stainless Steel Guide | Remax",
+    "description": "Duplex 2205 vs Super Duplex 2507 comparison. PREN numbers, pitting resistance, yield strength, seawater corrosion, and offshore piping specification.",
+    "h1": "Duplex vs. Super Duplex Stainless Steel: PREN, Strength & Corrosion"
+  },
+  "/blogs/ibr-approved-fittings-guide/": {
+    "title": "IBR Approved Pipe Fittings Guide: Rules & MTC | Remax",
+    "description": "Complete guide to IBR approved pipe fittings and flanges. Form III-C, Form IV-A, inspection procedures, and steam piping compliance under IBR 1950.",
+    "h1": "The Complete Guide to IBR Approved Pipe Fittings & Flanges"
+  },
+  "/blogs/ibr-approved-fittings-guide": {
+    "title": "IBR Approved Pipe Fittings Guide: Rules & MTC | Remax",
+    "description": "Complete guide to IBR approved pipe fittings and flanges. Form III-C, Form IV-A, inspection procedures, and steam piping compliance under IBR 1950.",
+    "h1": "The Complete Guide to IBR Approved Pipe Fittings & Flanges"
+  },
+  "/blogs/mtc-en10204-explained/": {
+    "title": "EN 10204 MTC Guide: 2.1, 2.2, 3.1 & 3.2 Differences | Remax",
+    "description": "Understand EN 10204 inspection documents: 2.1, 2.2, 3.1, and 3.2 Mill Test Certificates. Traceability, chemical analysis, and 3rd-party inspection rules.",
+    "h1": "MTC EN 10204 Explained: 2.1, 2.2, 3.1 & 3.2 Certificates"
+  },
+  "/blogs/mtc-en10204-explained": {
+    "title": "EN 10204 MTC Guide: 2.1, 2.2, 3.1 & 3.2 Differences | Remax",
+    "description": "Understand EN 10204 inspection documents: 2.1, 2.2, 3.1, and 3.2 Mill Test Certificates. Traceability, chemical analysis, and 3rd-party inspection rules.",
+    "h1": "MTC EN 10204 Explained: 2.1, 2.2, 3.1 & 3.2 Certificates"
+  },
+  "/blogs/flange-pressure-class-guide/": {
+    "title": "Flange Pressure Classes: 150# to 2500# Guide | Remax",
+    "description": "ASME B16.5 flange pressure classes explained: 150, 300, 600, 900, 1500, and 2500#. Pressure-temperature ratings, hydrostatic test rules, and selection.",
+    "h1": "Flange Pressure Classes Explained: Class 150 to 2500#"
+  },
+  "/blogs/flange-pressure-class-guide": {
+    "title": "Flange Pressure Classes: 150# to 2500# Guide | Remax",
+    "description": "ASME B16.5 flange pressure classes explained: 150, 300, 600, 900, 1500, and 2500#. Pressure-temperature ratings, hydrostatic test rules, and selection.",
+    "h1": "Flange Pressure Classes Explained: Class 150 to 2500#"
+  },
+  "/blogs/flange-face-types/": {
+    "title": "Flange Face Types: RF, FF, RTJ & T&G Guide | Remax Forge",
+    "description": "Guide to flange facing types: Raised Face (RF), Flat Face (FF), Ring Type Joint (RTJ), and Tongue & Groove. Gasket compatibility and surface finish rules.",
+    "h1": "Flange Face Types Explained: RF, FF, RTJ & Tongue-and-Groove"
+  },
+  "/blogs/flange-face-types": {
+    "title": "Flange Face Types: RF, FF, RTJ & T&G Guide | Remax Forge",
+    "description": "Guide to flange facing types: Raised Face (RF), Flat Face (FF), Ring Type Joint (RTJ), and Tongue & Groove. Gasket compatibility and surface finish rules.",
+    "h1": "Flange Face Types Explained: RF, FF, RTJ & Tongue-and-Groove"
+  },
+  "/blogs/asme-b16-5-vs-b16-47/": {
+    "title": "ASME B16.5 vs B16.47 Flange Standard Guide | Remax Forge",
+    "description": "ASME B16.5 vs ASME B16.47 comparison for piping engineers. Size limits (up to NPS 24 vs NPS 60), Series A vs Series B differences, and bolting requirements.",
+    "h1": "ASME B16.5 vs. ASME B16.47: Complete Standards Comparison"
+  },
+  "/blogs/asme-b16-5-vs-b16-47": {
+    "title": "ASME B16.5 vs B16.47 Flange Standard Guide | Remax Forge",
+    "description": "ASME B16.5 vs ASME B16.47 comparison for piping engineers. Size limits (up to NPS 24 vs NPS 60), Series A vs Series B differences, and bolting requirements.",
+    "h1": "ASME B16.5 vs. ASME B16.47: Complete Standards Comparison"
+  },
+  "/blogs/hardox-400-vs-450/": {
+    "title": "Hardox 400 vs Hardox 450: Wear Plate Comparison | Remax",
+    "description": "Hardox 400 vs Hardox 450 wear plate comparison: Brinell hardness, yield strength, impact toughness, weldability, and heavy mining liner service life.",
+    "h1": "Hardox 400 vs. Hardox 450: Hardness & Wear Life Comparison"
+  },
+  "/blogs/hardox-400-vs-450": {
+    "title": "Hardox 400 vs Hardox 450: Wear Plate Comparison | Remax",
+    "description": "Hardox 400 vs Hardox 450 wear plate comparison: Brinell hardness, yield strength, impact toughness, weldability, and heavy mining liner service life.",
+    "h1": "Hardox 400 vs. Hardox 450: Hardness & Wear Life Comparison"
   }
 };

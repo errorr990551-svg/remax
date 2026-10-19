@@ -33,6 +33,13 @@ const ContactUs = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Honeypot check for spam bots (Fixes M1)
+    if (formData.website_hp) {
+      showToast("Message sent successfully! Our experts will contact you soon.", "success");
+      return;
+    }
+
     setLoading(true);
 
     try {
@@ -116,8 +123,8 @@ const ContactUs = () => {
                 <div>
                   <h3 className="text-xl font-bold text-[#0F172A] mb-1">Factory Address</h3>
                   <p className="text-slate-600 leading-relaxed">
-                    135 new Madhav Baug,<br />
-                    Bhuleshwar, Mumbai, Maharashtra 400004
+                    135, New Madhav Baug, C.P. Tank Road,<br />
+                    Bhuleshwar, Mumbai - 400004, Maharashtra, India.
                   </p>
                 </div>
               </div>
@@ -177,14 +184,28 @@ const ContactUs = () => {
           <div className="bg-white p-8 md:p-10 rounded-2xl shadow-xl border border-slate-100">
             <h3 className="text-2xl font-bold text-[#0F172A] mb-6">Send Us a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
+              {/* Anti-spam honeypot */}
+              <input
+                type="text"
+                name="website_hp"
+                value={formData.website_hp || ''}
+                onChange={handleChange}
+                tabIndex={-1}
+                autoComplete="off"
+                style={{ display: 'none' }}
+                aria-hidden="true"
+              />
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-semibold text-slate-700 mb-2">Name</label>
                   <input 
                     type="text" 
-                    id="name" 
+                    id="name"
+                    name="name" 
                     value={formData.name}
                     onChange={handleChange}
+                    autoComplete="name"
                     className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700"
                     placeholder="Your Name"
                     required
@@ -194,9 +215,13 @@ const ContactUs = () => {
                   <label htmlFor="phone" className="block text-sm font-semibold text-slate-700 mb-2">Phone No</label>
                   <input 
                     type="tel" 
-                    id="phone" 
+                    id="phone"
+                    name="phone"
                     value={formData.phone}
                     onChange={handleChange}
+                    pattern="[0-9+ -]{8,18}"
+                    minLength={8}
+                    autoComplete="tel"
                     className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700"
                     placeholder="+91 XXXXX XXXXX"
                     required
@@ -209,9 +234,11 @@ const ContactUs = () => {
                   <label htmlFor="email" className="block text-sm font-semibold text-slate-700 mb-2">Email</label>
                   <input 
                     type="email" 
-                    id="email" 
+                    id="email"
+                    name="email" 
                     value={formData.email}
                     onChange={handleChange}
+                    autoComplete="email"
                     className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700"
                     placeholder="you@company.com"
                     required
@@ -221,9 +248,11 @@ const ContactUs = () => {
                   <label htmlFor="company" className="block text-sm font-semibold text-slate-700 mb-2">Company</label>
                   <input 
                     type="text" 
-                    id="company" 
+                    id="company"
+                    name="company" 
                     value={formData.company}
                     onChange={handleChange}
+                    autoComplete="organization"
                     className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700"
                     placeholder="Company Name"
                   />
@@ -234,9 +263,11 @@ const ContactUs = () => {
                 <label htmlFor="location" className="block text-sm font-semibold text-slate-700 mb-2">Location</label>
                 <input 
                   type="text" 
-                  id="location" 
+                  id="location"
+                  name="location" 
                   value={formData.location}
                   onChange={handleChange}
+                  autoComplete="address-level2"
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700"
                   placeholder="City, State, Country"
                 />
@@ -245,7 +276,8 @@ const ContactUs = () => {
               <div>
                 <label htmlFor="message" className="block text-sm font-semibold text-slate-700 mb-2">Message</label>
                 <textarea 
-                  id="message" 
+                  id="message"
+                  name="message" 
                   value={formData.message}
                   onChange={handleChange}
                   rows="4" 

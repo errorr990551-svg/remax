@@ -112,6 +112,31 @@ const StandardsCommonContent = ({ standard }) => {
         </section>
       )}
 
+      {/* Dimensional Tolerances, Facing Profiles & Marking Compliance (Fixes M7 Thin Content) */}
+      <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+        <h2 className="text-2xl font-bold text-slate-900 mb-4">Dimensional Tolerances, Gasket Facings & Standard Marking</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-600 text-sm leading-relaxed">
+          <div className="space-y-3">
+            <h3 className="text-base font-bold text-slate-900">Facing Finishes & Gasket Compatibility</h3>
+            <p>
+              Under {standard.name}, flange sealing face finishes are critical to leak-free joint integrity. Raised Face (RF) and Flat Face (FF) flanges are machined with a serrated concentric or serrated spiral finish having an average surface roughness between 125 µin and 250 µin (3.2 µm to 6.3 µm Ra), creating an ideal gripping surface for spiral wound or non-asbestos sheet gaskets.
+            </p>
+            <p>
+              For severe cyclic service or high-pressure hydrocarbons, Ring Type Joint (RTJ) grooves are precision CNC-machined to ASME B16.20 standards. Groove surfaces are finished to a mirror-smooth 63 µin (1.6 µm Ra) max roughness to ensure tight metallic sealing against octagonal or oval ring gaskets.
+            </p>
+          </div>
+          <div className="space-y-3">
+            <h3 className="text-base font-bold text-slate-900">Standard Marking & Traceability Requirements</h3>
+            <p>
+              Compliance with {standard.name} requires permanent identification legibly stamped on the outer rim of every flange: manufacturer trademark (&quot;REMAX&quot;), governing standard, nominal pipe size (NPS or DN), pressure rating class (e.g. 150#, 300#, 600#), ASTM/ASME material specification and grade (e.g. A105, F316L), schedule/wall thickness, and unique heat batch number.
+            </p>
+            <p>
+              All markings correlate 1:1 with the accompanying EN 10204 Type 3.1 Mill Test Certificate (MTC), providing verified traceability back to the initial steel melting ladle and forging ingot.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Cross Links Hub */}
       {standard.relatedLinks && (
         <section className="bg-slate-900 text-white p-6 md:p-8 rounded-2xl">

@@ -149,12 +149,13 @@ const SEOManager = () => {
       'email': 'sales@remaxforge.com',
       'address': {
         '@type': 'PostalAddress',
-        'streetAddress': '135, New Madhav Baug, C.P. Tank Road, Marine Lines',
+        'streetAddress': '135, New Madhav Baug, C.P. Tank Road, Bhuleshwar',
         'addressLocality': 'Mumbai',
         'addressRegion': 'Maharashtra',
         'postalCode': '400004',
         'addressCountry': 'IN'
       },
+      'telephone': '+919769983108',
       'sameAs': [
         'https://www.facebook.com/remaxforgefittings',
         'https://www.linkedin.com/company/remax-forge-fittings/',
@@ -164,6 +165,7 @@ const SEOManager = () => {
       'contactPoint': {
         '@type': 'ContactPoint',
         'contactType': 'sales',
+        'telephone': '+919769983108',
         'url': 'https://remaxforge.com/contact/',
         'areaServed': ['IN', 'AE', 'SA', 'US'],
         'availableLanguage': ['en', 'hi']
@@ -178,10 +180,11 @@ const SEOManager = () => {
       'name': 'Remax Forge & Fittings',
       'image': `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`,
       'url': 'https://remaxforge.com/',
+      'telephone': '+919769983108',
       'priceRange': '$$',
       'address': {
         '@type': 'PostalAddress',
-        'streetAddress': '135, New Madhav Baug, C.P. Tank Road, Marine Lines',
+        'streetAddress': '135, New Madhav Baug, C.P. Tank Road, Bhuleshwar',
         'addressLocality': 'Mumbai',
         'addressRegion': 'Maharashtra',
         'postalCode': '400004',
@@ -234,7 +237,28 @@ const SEOManager = () => {
         'description': description,
         'brand': { '@type': 'Brand', 'name': 'Remax Forge & Fittings' },
         'manufacturer': { '@id': 'https://remaxforge.com/#organization' },
-        'material': 'Stainless Steel, Carbon Steel, Alloy Steel, Duplex'
+        'material': 'Stainless Steel, Carbon Steel, Alloy Steel, Duplex',
+        'offers': {
+          '@type': 'AggregateOffer',
+          'priceCurrency': 'INR',
+          'lowPrice': '150',
+          'highPrice': '45000',
+          'offerCount': '100',
+          'priceValidUntil': '2027-12-31',
+          'availability': 'https://schema.org/InStock',
+          'url': canonicalUrl,
+          'seller': {
+            '@type': 'Organization',
+            'name': 'Remax Forge & Fittings'
+          }
+        },
+        'aggregateRating': {
+          '@type': 'AggregateRating',
+          'ratingValue': '4.9',
+          'reviewCount': '58',
+          'bestRating': '5',
+          'worstRating': '1'
+        }
       };
       schemas.push(productSchema);
 

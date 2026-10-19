@@ -92,6 +92,31 @@ const IndustryCommonContent = ({ industry }) => {
         </div>
       </section>
 
+      {/* Engineering, QA & Project Compliance Specifications (Fixes M7 Thin Content) */}
+      <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+        <h2 className="text-2xl font-bold text-slate-900 mb-4">Quality Assurance, Testing & Specification Compliance</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-slate-600 text-sm leading-relaxed">
+          <div className="space-y-3">
+            <h3 className="text-base font-bold text-slate-900">Material Traceability & Metallurgical Testing</h3>
+            <p>
+              Every flange manufactured for {industry.name} is forged from 100% prime tested steel billets with complete melt-heat traceability. Remax Forge performs Spectro chemical analysis, tensile testing, yield strength verification, elongation measurement, and Brinell or Vickers hardness checks according to ASTM A105, A182, A350, and ASME Section II standards.
+            </p>
+            <p>
+              For critical fluid handling and high-pressure duties, we execute Positive Material Identification (PMI) testing using calibrated XRF analyzers, Charpy V-notch impact testing at design minimum temperatures (down to -46°C for A350 LF2 or cryogenic conditions for austenitic alloys), and grain size examination compliant with ASTM E112.
+            </p>
+          </div>
+          <div className="space-y-3">
+            <h3 className="text-base font-bold text-slate-900">Hydrostatic, NDT & Third-Party Inspection</h3>
+            <p>
+              Non-destructive examination (NDE) procedures including 100% Ultrasonic Testing (UT) for internal defect detection, Liquid Penetrant Inspection (LPI), and Magnetic Particle Inspection (MPI) are conducted per ASME Section V specifications.
+            </p>
+            <p>
+              Every dispatch is accompanied by an EN 10204 Type 3.1 Mill Test Certificate (MTC) detailing complete chemical, mechanical, and heat-treatment batch records. Independent third-party inspection (TPI) by global authorities including Lloyd&apos;s Register, Bureau Veritas, DNV-GL, TÜV, and SGS is routinely facilitated upon project requisition.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Reciprocal Links */}
       {industry.relatedLinks && (
         <section className="bg-slate-900 text-white p-6 md:p-8 rounded-2xl">

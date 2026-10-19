@@ -91,35 +91,83 @@ async function run() {
 
   // Launch headless browser using Edge path
   console.log('Launching headless Edge browser...');
-  let browser = await puppeteer.launch({
-    executablePath: edgePath,
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
-  });
+  
+  const launchBrowser = async () => {
+    return await puppeteer.launch({
+      executablePath: edgePath,
+      headless: true,
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-gpu',
+        '--disable-background-networking',
+        '--disable-background-timer-throttling',
+        '--disable-backgrounding-occluded-windows',
+        '--disable-breakpad',
+        '--disable-component-update',
+        '--disable-default-apps',
+        '--disable-domain-reliability',
+        '--disable-extensions',
+        '--disable-features=AudioServiceOutOfProcess',
+        '--disable-hang-monitor',
+        '--disable-ipc-flooding-protection',
+        '--disable-popup-blocking',
+        '--disable-prompt-on-repost',
+        '--disable-renderer-backgrounding',
+        '--disable-sync',
+        '--force-color-profile=srgb',
+        '--metrics-recording-only',
+        '--no-first-run',
+        '--safebrowsing-disable-auto-update',
+        '--enable-automation',
+        '--password-store=basic',
+        '--use-mock-keychain'
+      ]
+    });
+  };
+
+  let browser = await launchBrowser();
+
+  const createOptimizedPage = async (b) => {
+    const p = await b.newPage();
+    await p.setViewport({ width: 1440, height: 900 });
+    await p.setRequestInterception(true);
+    p.on('request', (req) => {
+      const resourceType = req.resourceType();
+      if (['image', 'media', 'font'].includes(resourceType)) {
+        req.abort();
+      } else {
+        req.continue();
+      }
+    });
+    return p;
+  };
 
   // Track the pre-rendered homepage content separately
   let prerenderedHomeHtml = '';
-  let page = await browser.newPage();
-  await page.setViewport({ width: 1440, height: 900 });
+  let page = await createOptimizedPage(browser);
 
   for (let i = 0; i < urls.length; i++) {
     const url = urls[i];
     const targetUrl = `http://localhost:${PORT}${url}`;
-    console.log(`[${i + 1}/${urls.length}] Rendering: ${targetUrl}`);
+    
+    // Periodically recycle page to avoid memory leaks
+    if (i > 0 && i % 30 === 0) {
+      try {
+        await page.close();
+      } catch (_) {}
+      page = await createOptimizedPage(browser);
+    }
 
     try {
-      if (browser.process() === null || !browser.connected) {
-        browser = await puppeteer.launch({
-          executablePath: edgePath,
-          headless: true,
-          args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
-        });
-        page = await browser.newPage();
-        await page.setViewport({ width: 1440, height: 900 });
+      if (!browser.connected) {
+        browser = await launchBrowser();
+        page = await createOptimizedPage(browser);
       }
 
-      await page.goto(targetUrl, { waitUntil: 'networkidle0', timeout: 20000 });
-      await new Promise(r => setTimeout(r, 400));
+      await page.goto(targetUrl, { waitUntil: 'networkidle0', timeout: 15000 });
+      await new Promise(r => setTimeout(r, 200));
 
       const html = await page.content();
 
@@ -132,14 +180,17 @@ async function run() {
         }
         fs.writeFileSync(path.join(routeFolder, 'index.html'), html, 'utf8');
       }
+
+      if ((i + 1) % 50 === 0 || i === urls.length - 1) {
+        console.log(`[${i + 1}/${urls.length}] Rendered: ${targetUrl}`);
+      }
     } catch (e) {
       console.error(`Failed to pre-render ${url}:`, e.message);
       try {
         if (page) await page.close();
       } catch (_) {}
       try {
-        page = await browser.newPage();
-        await page.setViewport({ width: 1440, height: 900 });
+        page = await createOptimizedPage(browser);
       } catch (_) {}
     }
   }
@@ -149,6 +200,40 @@ async function run() {
     fs.writeFileSync(path.join(distPath, 'index.html'), prerenderedHomeHtml, 'utf8');
     console.log('Saved pre-rendered homepage to dist/index.html');
   }
+
+  // Category Hub Redirect index.html files (prevents 403 Forbidden on LiteSpeed/Apache directory access)
+  const categoryRedirects = [
+    { dir: 'products', target: '/products/flanges/' },
+    { dir: 'products/buttweld-fittings', target: '/products/buttweld-fittings/butt-weld-elbow-fittings/' },
+    { dir: 'materials', target: '/materials/carbon-steel-flanges/' },
+    { dir: 'industries', target: '/industries/oil-and-gas/' },
+    { dir: 'product-details', target: '/product-details/boiler-quality-plate/' },
+    { dir: 'tech-info', target: '/tech-info/dimension-chart/' },
+    { dir: 'about', target: '/about-us/' },
+    { dir: 'certificates', target: '/certification/' }
+  ];
+
+  categoryRedirects.forEach(({ dir, target }) => {
+    const targetDir = path.join(distPath, dir);
+    if (!fs.existsSync(targetDir)) {
+      fs.mkdirSync(targetDir, { recursive: true });
+    }
+    const redirectHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0;url=${target}">
+  <link rel="canonical" href="https://remaxforge.com${target}">
+  <title>Redirecting...</title>
+  <script>window.location.replace("${target}");</script>
+</head>
+<body>
+  <p>Redirecting to <a href="${target}">${target}</a>...</p>
+</body>
+</html>`;
+    fs.writeFileSync(path.join(targetDir, 'index.html'), redirectHtml, 'utf8');
+  });
+  console.log('Category redirect index.html files generated successfully.');
 
   console.log('Closing browser and stopping server...');
   try {
