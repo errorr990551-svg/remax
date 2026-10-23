@@ -163,56 +163,67 @@ async function run() {
     return p;
   };
 
+  // Support fast skip if SKIP_PRERENDER is enabled
+  if (process.env.SKIP_PRERENDER === 'true') {
+    console.log('⚡ SKIP_PRERENDER is set. Skipping Puppeteer pre-rendering.');
+    server.close();
+    // Still generate category redirects
+    generateCategoryRedirects();
+    return;
+  }
+
   // Track the pre-rendered homepage content separately
   let prerenderedHomeHtml = '';
-  let page = await createOptimizedPage(browser);
+  const CONCURRENCY = parseInt(process.env.PRERENDER_CONCURRENCY || '6', 10);
+  console.log(`🚀 Starting high-speed parallel pre-rendering with ${CONCURRENCY} workers...`);
 
-  for (let i = 0; i < urls.length; i++) {
-    const url = urls[i];
-    const targetUrl = `http://localhost:${PORT}${url}`;
-    
-    // Periodically recycle page to avoid memory leaks
-    if (i > 0 && i % 30 === 0) {
-      try {
-        await page.close();
-      } catch (_) {}
-      page = await createOptimizedPage(browser);
-    }
+  let currentIndex = 0;
+  let completedCount = 0;
 
-    try {
-      if (!browser.connected) {
-        browser = await launchBrowser();
+  async function worker() {
+    let page = await createOptimizedPage(browser);
+    while (true) {
+      const idx = currentIndex++;
+      if (idx >= urls.length) {
+        try { await page.close(); } catch (_) {}
+        break;
+      }
+      const url = urls[idx];
+      const targetUrl = `http://localhost:${PORT}${url}`;
+
+      // Periodically recycle page to release memory
+      if (idx > 0 && idx % 35 === 0) {
+        try { await page.close(); } catch (_) {}
         page = await createOptimizedPage(browser);
       }
 
-      await page.goto(targetUrl, { waitUntil: 'networkidle0', timeout: 15000 });
-      await new Promise(r => setTimeout(r, 200));
+      try {
+        await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 12000 });
+        await page.waitForSelector('#root > *', { timeout: 3000 }).catch(() => {});
+        const html = await page.content();
 
-      const html = await page.content();
-
-      if (url === '/') {
-        prerenderedHomeHtml = html;
-      } else {
-        const routeFolder = path.join(distPath, url);
-        if (!fs.existsSync(routeFolder)) {
-          fs.mkdirSync(routeFolder, { recursive: true });
+        if (url === '/') {
+          prerenderedHomeHtml = html;
+        } else {
+          const routeFolder = path.join(distPath, url);
+          if (!fs.existsSync(routeFolder)) {
+            fs.mkdirSync(routeFolder, { recursive: true });
+          }
+          fs.writeFileSync(path.join(routeFolder, 'index.html'), html, 'utf8');
         }
-        fs.writeFileSync(path.join(routeFolder, 'index.html'), html, 'utf8');
+      } catch (e) {
+        console.error(`Failed to pre-render ${url}:`, e.message);
       }
 
-      if ((i + 1) % 50 === 0 || i === urls.length - 1) {
-        console.log(`[${i + 1}/${urls.length}] Rendered: ${targetUrl}`);
+      completedCount++;
+      if (completedCount % 50 === 0 || completedCount === urls.length) {
+        console.log(`[${completedCount}/${urls.length}] Rendered: ${targetUrl}`);
       }
-    } catch (e) {
-      console.error(`Failed to pre-render ${url}:`, e.message);
-      try {
-        if (page) await page.close();
-      } catch (_) {}
-      try {
-        page = await createOptimizedPage(browser);
-      } catch (_) {}
     }
   }
+
+  const workers = Array.from({ length: CONCURRENCY }, () => worker());
+  await Promise.all(workers);
 
   // Save the pre-rendered homepage at the very end
   if (prerenderedHomeHtml) {
@@ -220,7 +231,17 @@ async function run() {
     console.log('Saved pre-rendered homepage to dist/index.html');
   }
 
-  // Category Hub Redirect index.html files (prevents 403 Forbidden on LiteSpeed/Apache directory access)
+  generateCategoryRedirects();
+
+  console.log('Closing browser and stopping server...');
+  try {
+    await browser.close();
+  } catch (_) {}
+  server.close();
+  console.log('Pre-rendering completed successfully!');
+}
+
+function generateCategoryRedirects() {
   const categoryRedirects = [
     { dir: 'products', target: '/products/flanges/' },
     { dir: 'products/buttweld-fittings', target: '/products/buttweld-fittings/butt-weld-elbow-fittings/' },
@@ -253,13 +274,6 @@ async function run() {
     fs.writeFileSync(path.join(targetDir, 'index.html'), redirectHtml, 'utf8');
   });
   console.log('Category redirect index.html files generated successfully.');
-
-  console.log('Closing browser and stopping server...');
-  try {
-    await browser.close();
-  } catch (_) {}
-  server.close();
-  console.log('Pre-rendering completed successfully!');
 }
 
 run().catch(err => {

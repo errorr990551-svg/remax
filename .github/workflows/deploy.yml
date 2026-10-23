@@ -5,6 +5,12 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      skip_prerender:
+        description: 'Skip HTML pre-rendering (Fast 30s build)'
+        required: false
+        type: boolean
+        default: false
 
 jobs:
   build-and-deploy:
@@ -19,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
           cache-dependency-path: frontend/package-lock.json
 
@@ -29,6 +35,9 @@ jobs:
 
       - name: Build Frontend & Generate Prerendered Pages
         working-directory: frontend
+        env:
+          PRERENDER_CONCURRENCY: 6
+          SKIP_PRERENDER: ${{ github.event.inputs.skip_prerender || 'false' }}
         run: npm run build
 
       - name: Package Build into Zip & Prepare Auto-Extractor
@@ -49,10 +58,35 @@ jobs:
           sed -i "s/__SECRET_TOKEN__/${DEPLOY_TOKEN}/g" deploy-package/deploy_extract.php
           echo "Package prepared with deploy.zip and deploy_extract.php"
 
+      - name: 🔍 Resolve & Sanitize FTP Server Host
+        run: |
+          RAW_SERVER="${{ secrets.FTP_SERVER }}"
+          # Clean protocol prefix (ftp://, ftps://, etc.), port (:21), trailing slashes, whitespace
+          CLEAN=$(echo "$RAW_SERVER" | sed -e 's|^[a-zA-Z]*://||' -e 's|:[0-9]*$||' -e 's|/.*$||' -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+          
+          echo "Testing DNS resolution for cleaned host: '$CLEAN'"
+          if ! getent hosts "$CLEAN" > /dev/null 2>&1; then
+            echo "⚠️ '$CLEAN' did not resolve directly."
+            # If user entered 'ftp.remaxforge.com', fallback to 'remaxforge.com'
+            STRIPPED=$(echo "$CLEAN" | sed 's|^ftp\.||')
+            if getent hosts "$STRIPPED" > /dev/null 2>&1; then
+              echo "✅ Fallback to '$STRIPPED' resolved successfully!"
+              CLEAN="$STRIPPED"
+            elif getent hosts "remaxforge.com" > /dev/null 2>&1; then
+              echo "✅ Fallback to apex domain 'remaxforge.com' resolved!"
+              CLEAN="remaxforge.com"
+            fi
+          else
+            echo "✅ '$CLEAN' resolved successfully!"
+          fi
+          
+          echo "RESOLVED_FTP_SERVER=$CLEAN" >> $GITHUB_ENV
+          echo "Using FTP server: $CLEAN"
+
       - name: Upload Zip & Extractor via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: ${{ env.RESOLVED_FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./deploy-package/
