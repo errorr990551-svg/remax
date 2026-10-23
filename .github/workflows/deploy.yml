@@ -1,0 +1,153 @@
+name: Hostinger Zip Deploy with PHP Auto-Extract
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    name: Build & Fast Deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: 📦 Install Frontend Dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: 🏗️ Build Frontend & Generate Prerendered Pages
+        working-directory: frontend
+        run: npm run build
+
+      - name: 🗜️ Package Build into Zip & Prepare Auto-Extractor
+        run: |
+          mkdir -p deploy-package
+          
+          # Compress dist contents into deploy.zip (ensuring .htaccess and dotfiles are included)
+          cd frontend/dist
+          zip -r ../../deploy-package/deploy.zip .
+          cd ../..
+          
+          # Generate a secure one-time secret token
+          DEPLOY_TOKEN=$(openssl rand -hex 16)
+          echo "DEPLOY_TOKEN=${DEPLOY_TOKEN}" >> $GITHUB_ENV
+          
+          # Create the PHP auto-extract script
+          cat << 'EOF' > deploy-package/deploy_extract.php
+<?php
+// Hostinger Zip Auto-Extractor for Remax Forge
+set_time_limit(300);
+ini_set('memory_limit', '512M');
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+$secret = '__SECRET_TOKEN__';
+$token = isset($_GET['token']) ? $_GET['token'] : '';
+
+if (empty($token) || $token !== $secret) {
+    http_response_code(403);
+    die('ERROR: Unauthorized - Invalid or missing token.');
+}
+
+$targetDir = __DIR__;
+$zipFile = $targetDir . '/deploy.zip';
+
+if (!file_exists($zipFile)) {
+    http_response_code(404);
+    die('ERROR: deploy.zip not found in ' . $targetDir);
+}
+
+if (!class_exists('ZipArchive')) {
+    http_response_code(500);
+    die('ERROR: PHP ZipArchive extension is not enabled on this server.');
+}
+
+$zip = new ZipArchive();
+$res = $zip->open($zipFile);
+
+if ($res === TRUE) {
+    $extracted = $zip->extractTo($targetDir);
+    $zip->close();
+
+    if ($extracted) {
+        // Auto-cleanup: remove temporary zip and this extractor script
+        @unlink($zipFile);
+        @unlink(__FILE__);
+        echo "DEPLOY_SUCCESS: Files extracted and temporary deploy files deleted successfully!";
+        exit;
+    } else {
+        http_response_code(500);
+        die('ERROR: Failed to extract files from archive.');
+    }
+} else {
+    http_response_code(500);
+    die('ERROR: ZipArchive open failed with error code: ' . $res);
+}
+?>
+EOF
+
+          # Replace secret token placeholder in the PHP script
+          sed -i "s/__SECRET_TOKEN__/${DEPLOY_TOKEN}/g" deploy-package/deploy_extract.php
+          echo "Package prepared with deploy.zip and deploy_extract.php"
+
+      - name: 🚀 Upload Zip & Extractor via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./deploy-package/
+          server-dir: ${{ secrets.FTP_DIR || './' }}
+          dangerous-clean-slate: false
+
+      - name: ⚡ Trigger Remote Auto-Extract & Verification
+        run: |
+          echo "Waiting for remote filesystem sync..."
+          sleep 3
+          
+          MAX_ATTEMPTS=5
+          ATTEMPT=1
+          SUCCESS=0
+          
+          while [ $ATTEMPT -le $MAX_ATTEMPTS ]; do
+            echo "Attempt $ATTEMPT of $MAX_ATTEMPTS: Calling deploy_extract.php..."
+            HTTP_STATUS=$(curl -s -o /tmp/deploy_response.txt -w "%{http_code}" -L --max-time 180 "https://remaxforge.com/deploy_extract.php?token=${DEPLOY_TOKEN}")
+            RESPONSE=$(cat /tmp/deploy_response.txt)
+            
+            echo "HTTP Status: ${HTTP_STATUS}"
+            echo "Response: ${RESPONSE}"
+            
+            if [[ "${RESPONSE}" == *"DEPLOY_SUCCESS"* ]]; then
+              echo "🎉 Deployment successfully extracted and verified on Hostinger!"
+              SUCCESS=1
+              break
+            elif [[ "${HTTP_STATUS}" == "404" ]]; then
+              echo "File not ready or wrong path, waiting 5 seconds..."
+              sleep 5
+            else
+              echo "Waiting 5 seconds before next retry..."
+              sleep 5
+            fi
+            ATTEMPT=$((ATTEMPT + 1))
+          done
+          
+          if [ $SUCCESS -ne 1 ]; then
+            echo "❌ Deployment auto-extraction failed."
+            if [[ "${HTTP_STATUS}" == "404" ]]; then
+              echo "👉 TIP: If deploy_extract.php returned 404, your Hostinger FTP account may point to the user root directory instead of public_html."
+              echo "👉 To fix, add a GitHub Secret named FTP_DIR with value: public_html/"
+            fi
+            exit 1
+          fi
