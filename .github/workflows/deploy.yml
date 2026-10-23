@@ -64,20 +64,10 @@ jobs:
           # Clean protocol prefix (ftp://, ftps://, etc.), port (:21), trailing slashes, whitespace
           CLEAN=$(echo "$RAW_SERVER" | sed -e 's|^[a-zA-Z]*://||' -e 's|:[0-9]*$||' -e 's|/.*$||' -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
           
-          echo "Testing DNS resolution for cleaned host: '$CLEAN'"
-          if ! getent hosts "$CLEAN" > /dev/null 2>&1; then
-            echo "⚠️ '$CLEAN' did not resolve directly."
-            # If user entered 'ftp.remaxforge.com', fallback to 'remaxforge.com'
-            STRIPPED=$(echo "$CLEAN" | sed 's|^ftp\.||')
-            if getent hosts "$STRIPPED" > /dev/null 2>&1; then
-              echo "✅ Fallback to '$STRIPPED' resolved successfully!"
-              CLEAN="$STRIPPED"
-            elif getent hosts "remaxforge.com" > /dev/null 2>&1; then
-              echo "✅ Fallback to apex domain 'remaxforge.com' resolved!"
-              CLEAN="remaxforge.com"
-            fi
-          else
-            echo "✅ '$CLEAN' resolved successfully!"
+          echo "Sanitized FTP host/IP: '$CLEAN'"
+          if [ -z "$CLEAN" ]; then
+            echo "❌ Error: FTP_SERVER secret is empty!"
+            exit 1
           fi
           
           echo "RESOLVED_FTP_SERVER=$CLEAN" >> $GITHUB_ENV
