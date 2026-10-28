@@ -20,7 +20,7 @@ const WhereWeExport = () => {
   return (
     <div className="w-full font-sans bg-slate-50 min-h-screen text-slate-800">
       <MetaTags
-        title="Where We Export | Global Flange & Fitting Markets | Remax Forge"
+        title="Where We Export | Global Flange & Fittings Markets"
         description="Explore Remax Forge's global export hubs across 19 countries and 453 industrial cities. Manufactured in Mumbai, certified to ASME B16.5 & EN 10204 3.1 MTC."
         keywords="global flange export, flange exporter india, where we export, international flange supplier"
         robots="index, follow"

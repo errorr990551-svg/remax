@@ -7,8 +7,8 @@ const OilAndGasFittings = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="High-Pressure Pipe Fittings for Oil & Gas: Safety & Standards"
-        description="Explore the essential role of forged fittings and flanges in oil and gas applications. Learn about ASME standards, material traceability, and ensuring facility safety."
+        title="Oil Refinery Fittings & Pipe Guide | Remax Forge"
+        description="Discover essential oil refinery fittings and oil and gas pipe components. Read our complete guide for material specifications and applications."
         keywords="Oil and Gas Pipe Fittings, High-pressure forged components, ASME B16.11 standards, material test certificates (MTC), upstream and downstream piping, Remax Forge & Fittings"
       />
       
@@ -26,7 +26,7 @@ const OilAndGasFittings = () => {
             Oil & Gas Sector Technical Reference
           </div>
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight mb-6">
-            High-Pressure Pipe Fittings for Oil & Gas: Standards, Materials, and Best Practices
+            The Complete Guide to Oil Refinery Fittings and Pipe Components
           </h1>
           <div className="flex flex-wrap items-center gap-6 text-sm text-slate-300">
             <span className="flex items-center gap-2"><User size={16} className="text-[#D71920]" /> Remax Forge & Fittings</span>
@@ -50,6 +50,20 @@ const OilAndGasFittings = () => {
 
           <div className="prose prose-slate max-w-none">
             
+            <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Essential Oil Refinery Fittings and Applications</h2>
+            <p className="text-slate-600 leading-relaxed mb-4">
+              In oil refineries, specialized pipe fittings must withstand high temperatures, corrosive hydrocarbons, hydrogen attack, and extreme operating pressures. Downstream processing units—such as crude distillation units (CDU), vacuum distillation (VDU), fluid catalytic cracking (FCCU), hydrotreaters, and delayed cokers—demand uncompromising pipe fittings designed to strict ASME B16.9 and ASME B16.11 specifications.
+            </p>
+            <p className="text-slate-600 leading-relaxed mb-4">
+              Key oil refinery fittings manufactured and supplied by Remax Forge include:
+            </p>
+            <ul className="list-disc pl-6 text-slate-600 mb-6 space-y-2">
+              <li><strong>Alloy Steel WP11, WP22 & WP91 Fittings:</strong> Engineered for high-temperature catalytic cracking and steam reformer units where high-temperature creep strength is mandatory.</li>
+              <li><strong>ASTM A105 / A234 WPB Carbon Steel Fittings:</strong> Standard workhorses for atmospheric transfer lines, cooling loops, and high-pressure steam utility piping.</li>
+              <li><strong>NACE MR0175 / ISO 15156 Sour Service Fittings:</strong> Specially heat-treated forged and butt-weld fittings resistant to sulfide stress cracking (SSC) in sour crude and amine treating units.</li>
+              <li><strong>ASME B16.48 Spectacle Blinds & Spades:</strong> Positive mechanical isolation devices code-mandated during unit turnarounds and maintenance operations.</li>
+            </ul>
+
             <h2 className="text-2xl font-bold text-[#0F172A] mb-4">Where the Stakes Are Highest</h2>
             <p className="text-slate-600 leading-relaxed mb-4">
               The oil and gas industry operates at the intersection of extreme conditions and extreme consequences. Wellheads generating pressures exceeding 15,000 psi. Subsea equipment at water depths where ambient pressure is crushing. Process trains handling hydrocarbons that ignite at room temperature. Sour gas streams where a single stressed component can fracture without warning.

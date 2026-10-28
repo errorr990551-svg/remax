@@ -8,7 +8,7 @@ const Blogs = () => {
     {
       id: 'pipe-flanges-guide',
       title: 'The Complete Guide to Pipe Flanges: Types, Standards, Materials, and Selection',
-      excerpt: 'Comprehensive guide to industrial pipe flanges. Learn about flange types (Weld Neck, Slip-On, Blind), facing, pressure classes, materials, and selection for piping systems.',
+      excerpt: 'Comprehensive pipe flanges guide covering materials, types, sour service stainless forged flanges, and standard pressure classes for industrial use.',
       image: '/images/b(2)-1.jpeg',
       date: 'Technical Reference',
       author: 'Remax Forge & Fittings',
@@ -16,7 +16,7 @@ const Blogs = () => {
     {
       id: 'forged-vs-cast-fittings',
       title: 'Forged Fittings vs. Cast Fittings: Which Is Right for Your Industrial Application?',
-      excerpt: 'Compare Forged vs. Cast fittings for industrial use. Learn about strength, durability, and pressure ratings to choose the right component for your piping system.',
+      excerpt: 'Compare forged vs cast fittings for industrial piping. Learn about grain structure, pressure ratings, ASME standards, and durability to choose the best.',
       image: '/images/b4.jpeg',
       date: 'Expert Insights',
       author: 'Remax Forge & Fittings',
@@ -24,7 +24,7 @@ const Blogs = () => {
     {
       id: 'stainless-steel-grades-explained',
       title: 'Stainless Steel Grades Explained: Choosing the Right Grade for Fittings',
-      excerpt: "Understand the differences between SS 304, 316, 316L, and duplex grades for industrial pipe fittings. Learn which stainless steel grade fits your environment's corrosion and pressure needs.",
+      excerpt: "Understand SS 304, 316, 316L, and duplex grades for pipe fittings. Learn how to select the right grade for your corrosion and pressure requirements.",
       image: '/images/b3-1.jpeg',
       date: 'Materials Engineering',
       author: 'Remax Forge & Fittings',
@@ -32,7 +32,7 @@ const Blogs = () => {
     {
       id: 'oil-and-gas-pipe-fittings-guide',
       title: 'High-Pressure Pipe Fittings for Oil & Gas: Safety & Standards',
-      excerpt: 'Explore the essential role of forged fittings and flanges in oil and gas applications. Learn about ASME standards, material traceability, and ensuring facility safety.',
+      excerpt: 'Discover essential oil refinery fittings and oil and gas pipe components. Read our complete guide for material specifications and applications.',
       image: '/images/b4-1.jpeg',
       date: 'Oil & Gas Sector',
       author: 'Remax Forge & Fittings',
@@ -40,7 +40,7 @@ const Blogs = () => {
     {
       id: 'butt-weld-fittings-guide',
       title: 'Butt-Weld Fittings Guide: Welding Standards & Quality Control',
-      excerpt: 'Master the technicalities of butt-weld fittings. Learn about ASTM A234 grades, PWHT requirements, and ASME B31.3 weld examination standards for piping systems.',
+      excerpt: 'Learn how butt weld pipe fittings work, including welding standards, dimensions, and visual inspection criteria for weld joint penetration.',
       image: '/images/b5-1.jpeg',
       date: 'Engineering Reference',
       author: 'Remax Forge & Fittings',
@@ -48,7 +48,7 @@ const Blogs = () => {
     {
       id: 'alloy-steel-power-gen-guide',
       title: 'Alloy Steel Pipe Fittings for Power Generation: Materials & Standards',
-      excerpt: 'A technical guide to alloy steel pipe fittings in power plants. Learn about high-temperature grades like P91, F22, and F11, IBR compliance, and preventing flow-accelerated corrosion.',
+      excerpt: 'Technical guide to alloy steel fittings in power plants. Learn about high-temperature grades P91, F22, F11, IBR compliance, and flow-accelerated corrosion.',
       image: '/images/b6-1.jpeg',
       date: 'Power Sector',
       author: 'Remax Forge & Fittings',

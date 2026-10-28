@@ -7,8 +7,8 @@ const PipeFlangesGuide = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="The Complete Guide to Pipe Flanges: Types, Standards, Materials | Remax Forge"
-        description="Comprehensive guide to industrial pipe flanges. Learn about flange types (Weld Neck, Slip-On, Blind), facing, pressure classes, materials, and selection for piping systems."
+        title="Pipe Flanges Guide: Materials & Standards | Remax Forge"
+        description="Comprehensive pipe flanges guide covering materials, types, sour service stainless forged flanges, and standard pressure classes for industrial use."
         keywords="Pipe Flanges, Weld Neck Flange, Slip-On Flange, Blind Flange, Flange Facing, ASME B16.5, Industrial Piping, Flange Materials, Remax Forge"
       />
       
@@ -282,11 +282,24 @@ const PipeFlangesGuide = () => {
             </ul>
 
             <h3 className="text-xl font-bold mb-2 text-[#D71920]">Nickel Alloys</h3>
-            <ul className="list-disc pl-6 mb-10 space-y-2 text-slate-600 marker:text-[#D71920]">
+            <ul className="list-disc pl-6 mb-6 space-y-2 text-slate-600 marker:text-[#D71920]">
               <li><strong>Inconel 625</strong> (UNS N06625) — Exceptional corrosion resistance in highly aggressive environments including concentrated acids, seawater, and flue gases. Frequently specified for offshore riser flanges and chemical reactor nozzles.</li>
               <li><strong>Hastelloy C-276</strong> (UNS N10276) — Outstanding resistance to reducing acids, chlorides, and mixed acid environments. Standard in FGD (flue gas desulfurization) systems and chemical plant waste acid handling.</li>
               <li><strong>Monel 400</strong> (UNS N04400) — Copper-nickel alloy with exceptional resistance to hydrofluoric acid and seawater. Specified in HF alkylation units and marine systems.</li>
             </ul>
+
+            <h3 className="text-xl font-bold mb-3 text-[#0F172A]">Sour Service Stainless Forged Flanges & NACE MR0175 Compliance</h3>
+            <p className="text-slate-600 leading-relaxed mb-4">
+              In upstream oil & gas production, sour gas and wet hydrogen sulfide (H₂S) streams represent one of the most hazardous operating environments. At Remax Forge, our sour service forged flanges are engineered to fully comply with <strong>NACE MR0175 / ISO 15156</strong> standards:
+            </p>
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 mb-8 space-y-3">
+              <h4 className="font-bold text-slate-800 text-sm uppercase tracking-wide">Key Technical Specifications for Sour Service Flanges:</h4>
+              <ul className="list-disc pl-5 text-sm space-y-2 text-slate-600">
+                <li><strong>Strict Hardness Controls:</strong> Standard ASTM A105 carbon steel must not exceed 22 HRC (250 HBW). Forged stainless steel F316/F316L and Duplex 2205 undergo controlled solution annealing and water quenching to ensure no deleterious intermetallic phases (sigma phase).</li>
+                <li><strong>HIC & SSC Resistance:</strong> Materials are tested for Sulfide Stress Cracking (SSC) and Hydrogen-Induced Cracking (HIC) per NACE TM0284 / TM0177 to guarantee zero sub-surface cracking under high sour partial pressures.</li>
+                <li><strong>Material Traceability & 3.1 MTC:</strong> Every sour service flange is engraved with heat numbers, batch codes, and supplied with EN 10204 3.1 certification verifying chemical composition (restricted sulfur & phosphorus limits), tensile properties, and 100% PMI verification.</li>
+              </ul>
+            </div>
 
 
             {/* Section: Bolting and Gaskets */}

@@ -1,6 +1,7 @@
 import http from 'http';
 import fs from 'fs';
 import path from 'path';
+import os from 'os';
 import puppeteer from 'puppeteer-core';
 import { execSync } from 'child_process';
 
@@ -108,6 +109,18 @@ async function run() {
 
   console.log(`Found ${urls.length} URLs in sitemap to pre-render.`);
 
+  // Support fast skip if SKIP_PRERENDER is enabled
+  if (process.env.SKIP_PRERENDER === 'true') {
+    console.log('⚡ SKIP_PRERENDER is set. Skipping Puppeteer pre-rendering.');
+    server.close();
+    // Still generate category redirects
+    generateCategoryRedirects();
+    return;
+  }
+
+  // Create isolated temp profile directory for headless browser
+  const tempProfileDir = fs.mkdtempSync(path.join(os.tmpdir(), 'remax-edge-profile-'));
+
   // Launch headless browser using Edge path
   console.log('Launching headless Edge browser...');
   
@@ -115,6 +128,7 @@ async function run() {
     return await puppeteer.launch({
       executablePath: edgePath,
       headless: true,
+      userDataDir: tempProfileDir,
       args: [
         '--no-sandbox',
         '--disable-setuid-sandbox',
@@ -162,15 +176,6 @@ async function run() {
     });
     return p;
   };
-
-  // Support fast skip if SKIP_PRERENDER is enabled
-  if (process.env.SKIP_PRERENDER === 'true') {
-    console.log('⚡ SKIP_PRERENDER is set. Skipping Puppeteer pre-rendering.');
-    server.close();
-    // Still generate category redirects
-    generateCategoryRedirects();
-    return;
-  }
 
   // Track the pre-rendered homepage content separately
   let prerenderedHomeHtml = '';
@@ -236,6 +241,9 @@ async function run() {
   console.log('Closing browser and stopping server...');
   try {
     await browser.close();
+  } catch (_) {}
+  try {
+    fs.rmSync(tempProfileDir, { recursive: true, force: true });
   } catch (_) {}
   server.close();
   console.log('Pre-rendering completed successfully!');

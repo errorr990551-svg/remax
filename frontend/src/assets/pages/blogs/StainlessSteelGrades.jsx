@@ -7,7 +7,7 @@ const StainlessSteelGrades = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="Stainless Steel Grades Explained: Choosing the Right Grade for Fittings"
+        title="Stainless Steel Grades Explained (304, 316, Duplex)"
         description="Understand the differences between SS 304, 316, 316L, and duplex grades for industrial pipe fittings. Learn which stainless steel grade fits your environment's corrosion and pressure needs."
         keywords="Stainless Steel Grades for Pipe Fittings, SS 304 vs 316 fittings, industrial grade stainless steel, corrosion resistance in piping, austenitic stainless steel properties, Remax Forge & Fittings materials"
       />

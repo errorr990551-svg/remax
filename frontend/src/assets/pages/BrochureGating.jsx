@@ -127,10 +127,12 @@ const BrochureGating = () => {
 
                 <form onSubmit={handleSubmit} className="space-y-4 mt-4">
                   {/* Honeypot field for bot protection */}
+                  <label htmlFor="brochure-website-hp" className="sr-only">Leave this field blank</label>
                   <input
                     type="text"
                     name="website_hp"
                     id="brochure-website-hp"
+                    aria-label="Do not fill this field"
                     value={formData.website_hp}
                     onChange={(e) => setFormData({ ...formData, website_hp: e.target.value })}
                     style={{ display: 'none' }}

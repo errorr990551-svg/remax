@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { sheet4MetaData } from '../../data/sheet4MetaData.js';
 import { newFlangePagesData } from '../../data/newFlangePagesData.js';
-import { marketAreaData } from '../../data/marketAreaData.js';
+import { marketAreaMeta } from '../../data/marketAreaMeta.js';
 import { cityStrategyData } from '../../data/cityStrategyData.js';
 import flangeFaqs from '../../data/flange_faqs.json';
 
@@ -306,10 +306,10 @@ const SEOManager = () => {
 
     } else {
       const citySlug = parts[parts.length - 1]?.toLowerCase() || '';
-      const cityData = marketAreaData[citySlug];
+      const cityData = marketAreaMeta[citySlug];
       if (cityData) {
-        title = cityData.meta?.title || title;
-        description = cityData.meta?.description || description;
+        title = cityData.title || title;
+        description = cityData.description || description;
       }
 
       schemas.push(makeBreadcrumbs([
@@ -339,7 +339,7 @@ const SEOManager = () => {
       canonicalPath.startsWith('/standards/') ||
       canonicalPath.startsWith('/industries/') ||
       canonicalPath.startsWith('/blogs/') ||
-      Boolean(marketAreaData[parts[parts.length - 1]?.toLowerCase()]);
+      Boolean(marketAreaMeta[parts[parts.length - 1]?.toLowerCase()]);
 
     if (!isKnownPath) {
       title = '404 - Page Not Found | Remax Forge & Fittings';

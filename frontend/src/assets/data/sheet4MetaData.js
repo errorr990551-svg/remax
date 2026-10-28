@@ -1,8 +1,8 @@
 export const sheet4MetaData = {
   "/": {
-    "title": "",
-    "description": "",
-    "h1": "",
+    "title": "Flanges & Pipe Fittings Manufacturer India | Remax Forge",
+    "description": "ISO 9001 manufacturer of flanges, buttweld & forged fittings in Mumbai. ASME B16.5, EN 10204 3.1 MTC. Fast global dispatch. Request a quote today.",
+    "h1": "Flanges & Pipe Fittings Manufacturer & Exporter in India",
     "priority": "RULES FOR DEV: Title <= 60 chars (col D), Description <= 155 chars (col F) - both computed live; if you edit, keep within limits. One H1 per page exactly as col G. Remove meta-keywords tag while deploying. Socket-weld pages not listed: copy the coupling/elbow/tee pattern with the product name swapped. Remaining product-details pages (titanium pipe, incoloy, copper tubes, nickel plate, quend/quard): pattern = \"<Product> Supplier India | <grade/spec> | Remax Forge\"."
   },
   "/product-details/boiler-quality-plate/": {
@@ -12,9 +12,9 @@ export const sheet4MetaData = {
     "priority": "P0"
   },
   "/blogs/oil-and-gas-pipe-fittings-guide/": {
-    "title": "Oil & Gas Pipe Fittings: Types & Selection | Remax Forge",
-    "description": "Engineer’s guide to oil & gas pipe fittings - buttweld, forged & flanges, ASME B16.9/B16.5, material grades, pressure classes. From a Mumbai manufacturer.",
-    "h1": "Oil & Gas Pipe Fittings - Complete Selection Guide",
+    "title": "Oil Refinery Fittings & Pipe Guide | Remax Forge",
+    "description": "Discover essential oil refinery fittings and oil and gas pipe components. Read our complete guide for material specifications and applications.",
+    "h1": "The Complete Guide to Oil Refinery Fittings and Pipe Components",
     "priority": "P0"
   },
   "/blogs/stainless-steel-grades-explained/": {
@@ -36,20 +36,20 @@ export const sheet4MetaData = {
     "priority": "P0"
   },
   "/products/flanges/spectacle-blind-flange/": {
-    "title": "Spectacle Blind Flange Manufacturer | ASME B16.48 | Remax",
-    "description": "Figure-8 spectacle blinds to ASME B16.48, Class 150-2500, CS/SS/duplex/alloy. One-piece positive isolation, EN 10204 3.1 MTC. Same-day quote from Mumbai.",
+    "title": "Spectacle Blind Flanges & Spec Blinds | Remax Forge",
+    "description": "High-quality spectacle blind flanges and spec blinds engineered for reliable pipe line isolation. Request specifications and quotes at Remax Forge.",
     "h1": "Spectacle Blind Flange Manufacturer (Figure-8 / Spec Blind)",
     "priority": "P1"
   },
   "/products/flanges/blind-flange/": {
-    "title": "Blind Flange Manufacturer India | ASME B16.5 | Remax Forge",
-    "description": "Blind flanges in A105, SS 304/316L, duplex & alloy steel. ASME B16.5/B16.47, Class 150-2500, RF/FF/RTJ. ISO 9001 Mumbai plant, MTC 3.1. Quote in 30 min.",
+    "title": "Blind Flanges Manufacturer & Supplier | Remax Forge",
+    "description": "Explore durable blind flanges manufactured to industry standards by Remax Forge. Request a quote for custom dimensions, materials, and fast delivery.",
     "h1": "Blind Flange Manufacturer - ASME B16.5 / B16.47",
     "priority": "P1"
   },
   "/products/flanges/weld-neck-flange/": {
-    "title": "Weld Neck Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "WNRF weld neck flanges A105/A182 F304/F316L, Class 150-2500, ASME B16.5 & B16.47. Forged in Mumbai, EN 10204 3.1 MTC, export to 45+ countries.",
+    "title": "Weld Neck Flange Manufacturer | Remax Forge",
+    "description": "Explore industrial weld neck flanges from Remax Forge. High-quality flange solutions built to specification. Request a quote or learn more today.",
     "h1": "Weld Neck Flange Manufacturer (WNRF) - ASME B16.5",
     "priority": "P1"
   },
@@ -60,8 +60,8 @@ export const sheet4MetaData = {
     "priority": "P1"
   },
   "/products/flanges/socket-weld-flange/": {
-    "title": "Socket Weld Flange Manufacturer | ASME B16.5 | Remax Forge",
-    "description": "SWRF socket weld flanges for high-pressure small-bore lines. A105/F316L/F51, Class 150-1500, ASME B16.5. ISO 9001 Mumbai manufacturer. Same-day quote.",
+    "title": "Socket Weld Flange Manufacturer | Remax Forge",
+    "description": "Explore socket weld flanges from Remax Forge. Built for high-pressure piping systems with reliable leak-proof sealing. Request your custom quote today.",
     "h1": "Socket Weld Flange Manufacturer (SWRF)",
     "priority": "P1"
   },
@@ -72,9 +72,9 @@ export const sheet4MetaData = {
     "priority": "P1"
   },
   "/products/flanges/lap-joint-flange/": {
-    "title": "Lap Joint Flange Manufacturer | With Stub Ends | Remax Forge",
-    "description": "Lap joint flanges + stub ends for easy alignment & costly-alloy savings. A105 backing with SS/alloy stub ends. ASME B16.5. Mumbai factory, MTC 3.1.",
-    "h1": "Lap Joint Flange Manufacturer (with Stub Ends)",
+    "title": "Lap Joint Flanges (LJ & LJFF Flange) | Remax Forge",
+    "description": "Explore quality lap joint flanges (LJ flange and LJFF flange) from Remax Forge. View specifications, dimensions, and request a quote today.",
+    "h1": "Lap Joint Flange (LJ / LJFF) Manufacturer",
     "priority": "P1"
   },
   "/products/flanges/long-weld-neck-flange/": {
@@ -189,15 +189,15 @@ export const sheet4MetaData = {
     "priority": "P2"
   },
   "/blogs/pipe-flanges-guide/": {
-    "title": "Pipe Flanges: Types, Faces & Classes Guide | Remax Forge",
-    "description": "All 8 flange types compared - weld neck, slip-on, blind, socket weld & more. Faces (RF/FF/RTJ), pressure classes & selection help from a manufacturer.",
-    "h1": "Pipe Flanges Guide: Every Type, Face & Pressure Class",
+    "title": "Pipe Flanges Guide: Materials & Standards | Remax Forge",
+    "description": "Comprehensive pipe flanges guide covering materials, types, sour service stainless forged flanges, and standard pressure classes for industrial use.",
+    "h1": "The Complete Guide to Pipe Flanges: Materials & Types",
     "priority": "P1"
   },
   "/blogs/butt-weld-fittings-guide/": {
-    "title": "Butt Weld Fittings Guide: Types, Dimensions | Remax Forge",
-    "description": "Buttweld fittings explained - elbows, tees, reducers, caps & stub ends. ASME B16.9 dimensions, materials and buying checklist from a Mumbai manufacturer.",
-    "h1": "Butt Weld Fittings: Complete Engineering Guide",
+    "title": "Butt Weld Pipe Fittings: Complete Engineering Guide",
+    "description": "Learn how butt weld pipe fittings work, including welding standards, dimensions, and visual inspection criteria for weld joint penetration.",
+    "h1": "The Complete Guide to Butt Weld Pipe Fittings",
     "priority": "P1"
   },
   "/blogs/forged-vs-cast-fittings/": {
@@ -1010,14 +1010,14 @@ export const sheet4MetaData = {
     "h1": "Flanges for Subsea & Offshore Piping"
   },
   "/about/iso-9001-certified-flange-manufacturer/": {
-    "title": "ISO 9001 Certified Forged Flanges | Remax",
-    "description": "ISO 9001 Certified Forged Flange Manufacturing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
-    "h1": "ISO 9001 Certified Forged Flange Manufacturing"
+    "title": "ISO 9001 Certified Flanges for Bulk Orders | Remax Forge",
+    "description": "Source ISO 9001 certified forged flanges for bulk orders and industrial procurement. Quality-assured steel forging manufacturer.",
+    "h1": "ISO 9001 Certified Forged Flange Manufacturing & Bulk Orders"
   },
   "/about/iso-9001-certified-flange-manufacturer": {
-    "title": "ISO 9001 Certified Forged Flanges | Remax",
-    "description": "ISO 9001 Certified Forged Flange Manufacturing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
-    "h1": "ISO 9001 Certified Forged Flange Manufacturing"
+    "title": "ISO 9001 Certified Flanges for Bulk Orders | Remax Forge",
+    "description": "Source ISO 9001 certified forged flanges for bulk orders and industrial procurement. Quality-assured steel forging manufacturer.",
+    "h1": "ISO 9001 Certified Forged Flange Manufacturing & Bulk Orders"
   },
   "/products/flanges/high-temperature-cryogenic-flange/": {
     "title": "High-Temperature & Cryogenic Service Flanges | Remax",

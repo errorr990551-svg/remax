@@ -72,7 +72,7 @@ const CommercialFlangePage = () => {
           <div className="flex flex-wrap gap-4 items-center">
             <button
               onClick={() => openQuotePopup(h1)}
-              className="bg-[#D71920] hover:bg-[#b5141a] text-white font-bold py-3 px-6 rounded-lg transition-all shadow-md flex items-center gap-2"
+              className="bg-[#D71920] hover:bg-[#b5141a] text-white font-bold py-3 px-6 rounded-lg transition-all shadow-md flex items-center gap-2 cursor-pointer"
             >
               Get Instant Quote in 30 Min <ArrowRight size={16} />
             </button>
@@ -81,6 +81,28 @@ const CommercialFlangePage = () => {
               <span>EN 10204 3.1 MTC & 3rd-Party Inspection (SGS/Lloyd's/DNV)</span>
             </div>
           </div>
+
+          {canonicalPath.includes('iso-9001-certified-flange-manufacturer') && (
+            <div className="mt-8 bg-white/10 backdrop-blur-md p-6 rounded-2xl border border-white/20 text-white max-w-4xl">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div>
+                  <div className="inline-block bg-emerald-500 text-white text-[10px] font-extrabold px-2.5 py-0.5 rounded-full uppercase tracking-wider mb-2">
+                    Bulk Procurement Priority Desk
+                  </div>
+                  <h2 className="text-xl font-bold text-white mb-1">Direct Factory Procurement for ISO 9001 Forged Flanges</h2>
+                  <p className="text-xs text-slate-300 max-w-2xl leading-relaxed">
+                    Source certified commodity and custom forged flanges in volume. Direct factory pricing from our Mumbai plant, rapid 30-minute RFQ turnaround, and door-to-door dispatch with complete 3.1 chemical & mechanical traceability.
+                  </p>
+                </div>
+                <button
+                  onClick={() => openQuotePopup('ISO 9001 Bulk Order RFQ')}
+                  className="bg-[#D71920] hover:bg-red-700 text-white font-bold py-3 px-6 rounded-xl text-xs uppercase tracking-wider shrink-0 shadow-lg cursor-pointer flex items-center gap-2 transition-transform hover:scale-105"
+                >
+                  Submit Bulk RFQ <ArrowRight size={14} />
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       </div>
 

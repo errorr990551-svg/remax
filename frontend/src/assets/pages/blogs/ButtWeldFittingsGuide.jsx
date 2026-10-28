@@ -7,8 +7,8 @@ const ButtWeldFittingsGuide = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="Butt-Weld Fittings Guide: Welding Standards & Quality Control | Remax Forge"
-        description="Master the technicalities of butt-weld fittings. Learn about ASTM A234 grades, PWHT requirements, and ASME B31.3 weld examination standards for piping systems."
+        title="Butt Weld Pipe Fittings: Complete Engineering Guide"
+        description="Learn how butt weld pipe fittings work, including welding standards, dimensions, and visual inspection criteria for weld joint penetration."
         keywords="Butt-Weld Fittings Specifications, ASTM A234 WPB fittings, Post-Weld Heat Treatment (PWHT), ASME B31.3 welding standards, NDE for pipe fittings, Remax quality verification"
       />
       
@@ -226,13 +226,51 @@ const ButtWeldFittingsGuide = () => {
               Preheat is required for carbon and alloy steels to prevent hydrogen cracking. PWHT is required for carbon and alloy steel above certain wall thicknesses or for specific alloy grades to relieve residual stresses and soften the HAZ.
             </p>
 
-            <h3 className="text-xl font-bold text-[#0F172A] mb-10">Weld Examination (ASME B31.3)</h3>
-            <ul className="list-disc pl-6 mb-10 space-y-2 marker:text-[#D71920]">
-              <li><strong>Normal fluid service:</strong> 5% random radiography</li>
-              <li><strong>Category D service:</strong> Visual inspection only</li>
-              <li><strong>Severe cyclic service:</strong> 100% radiography</li>
-              <li><strong>High-pressure service:</strong> 100% volumetric examination</li>
+            <h3 className="text-xl font-bold text-[#0F172A] mb-3">Weld Examination & Non-Destructive Testing (ASME B31.3)</h3>
+            <ul className="list-disc pl-6 mb-6 space-y-2 marker:text-[#D71920]">
+              <li><strong>Normal fluid service:</strong> 5% random radiography (RT) or ultrasonic testing (UT)</li>
+              <li><strong>Category D fluid service:</strong> 100% visual inspection (VT)</li>
+              <li><strong>Severe cyclic service:</strong> 100% radiography / volumetric examination</li>
+              <li><strong>High-pressure service:</strong> 100% RT/UT plus surface examination (MT/PT)</li>
             </ul>
+
+            <h3 className="text-xl font-bold text-[#0F172A] mb-3">Visual Inspection Standards for Butt-Welded Joint Penetration</h3>
+            <p className="leading-relaxed mb-4">
+              Per ASME B31.3 Table 341.3.2 and AWS D1.1, visual inspection (VT) is mandatory for every single butt-weld joint before any volumetric NDT:
+            </p>
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 mb-6">
+              <h4 className="font-bold text-[#0F172A] text-sm mb-3 uppercase tracking-wide">Key Acceptance Criteria for Joint Penetration & Fusion:</h4>
+              <ul className="list-disc pl-5 text-sm space-y-2 text-slate-700">
+                <li><strong>Complete Joint Penetration:</strong> Full penetration of the root pass with uniform root bead reinforcement (maximum 1.5 mm to 3 mm reinforcement depending on wall thickness). Zero lack of penetration (LOP) allowed in Normal or Severe Cyclic service.</li>
+                <li><strong>Zero Lack of Fusion (LOF):</strong> Complete coalescence between weld metal and base metal fitting/pipe bevels throughout all passes.</li>
+                <li><strong>Root Concavity (Suck-back):</strong> Total joint thickness including root concavity must not fall below the nominal pipe wall thickness (t). Maximum concavity depth must not exceed 1 mm.</li>
+                <li><strong>Undercut Limits:</strong> Undercutting adjacent to the weld cap must not exceed 1.0 mm or 1/4 nominal wall thickness (whichever is smaller).</li>
+                <li><strong>Internal Hi-Lo Misalignment:</strong> Maximum internal offset between fitting bevel and pipe bore should not exceed 1.6 mm (1/16") to avoid stress concentration.</li>
+              </ul>
+            </div>
+
+            <h3 className="text-xl font-bold text-[#0F172A] mb-3">ASME B16.9 Schedules & Dimensional Specifications</h3>
+            <p className="leading-relaxed mb-4">
+              Butt-weld pipe fittings are dimensioned to ASME B16.9 (NPS ½" to 48") and manufactured to match pipe wall thicknesses across ASME B36.10M (carbon/alloy) and ASME B36.19M (stainless steel):
+            </p>
+            <div className="overflow-x-auto mb-8">
+              <table className="w-full text-xs text-left border-collapse border border-slate-300">
+                <thead className="bg-[#0F172A] text-white">
+                  <tr>
+                    <th className="p-2.5 border">Fitting Size (NPS)</th>
+                    <th className="p-2.5 border">Common Schedules</th>
+                    <th className="p-2.5 border">Standard Bevel Specs</th>
+                    <th className="p-2.5 border">Primary Applicable Standards</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-200">
+                  <tr className="bg-white"><td className="p-2 border font-semibold">½" to 1½" (Small Bore)</td><td className="p-2 border">Sch 40, 80, 160, XXS</td><td className="p-2 border">Plain bevel (37.5° ± 2.5°)</td><td className="p-2 border">ASME B16.9 / ASTM A234 WPB / A403 WP316L</td></tr>
+                  <tr className="bg-slate-50"><td className="p-2 border font-semibold">2" to 12" (Standard Process)</td><td className="p-2 border">Sch 10, 20, 40 (STD), 80 (XS), 160</td><td className="p-2 border">37.5° bevel per ASME B16.25</td><td className="p-2 border">ASME B16.9 / ASTM A234 / A420 WPL6</td></tr>
+                  <tr className="bg-white"><td className="p-2 border font-semibold">14" to 24" (Large Bore)</td><td className="p-2 border">STD, XS, Sch 40 to 120</td><td className="p-2 border">Compound bevel (t &gt; 22mm)</td><td className="p-2 border">MSS SP-75 / ASME B16.9</td></tr>
+                  <tr className="bg-slate-50"><td className="p-2 border font-semibold">26" to 48" (Pipelines & Headers)</td><td className="p-2 border">Custom specified wall (t)</td><td className="p-2 border">Compound J/V-bevel per welding WPS</td><td className="p-2 border">MSS SP-75 / ASME B16.9</td></tr>
+                </tbody>
+              </table>
+            </div>
 
             {/* Image 4: Butt-weld pipe inspection / NDT testing */}
             <div className="mb-10 rounded-xl overflow-hidden shadow-sm">

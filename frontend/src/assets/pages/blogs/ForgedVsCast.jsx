@@ -7,8 +7,8 @@ const ForgedVsCast = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="Forged Fittings vs. Cast Fittings: Which is Best? | Remax Forge"
-        description="Compare Forged vs. Cast fittings for industrial use. Learn about strength, durability, and pressure ratings to choose the right component for your piping system."
+        title="Forged vs Cast Fittings: Which is Best? | Remax Forge"
+        description="Compare forged vs cast fittings for industrial piping. Learn about grain structure, pressure ratings, ASME standards, and durability to choose the best."
         keywords="Forged Fittings vs Cast Fittings, Industrial pipe fittings, High-pressure forged components, Casting vs Forging process, ASME B16.11 standards, Stainless steel fittings manufacturer"
       />
       

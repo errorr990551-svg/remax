@@ -7,7 +7,7 @@ const Quality = () => {
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
         title="Quality Assurance & Certifications | Remax Forge & Fittings"
-        description="Remax Forge & Fittings ensures zero-defect delivery through stringent Quality Control. From Material Control to EN 10204 3.1 certification, we guarantee precision-engineered fittings and flanges for global safety."
+        description="Remax Forge ensures zero-defect delivery through rigorous QC, chemical testing, PMI, and EN 10204 3.1 certification for flanges and pipe fittings."
         keywords="Quality Assurance Forged Fittings, Material Test Report (MTR), EN 10204 3.1 Certification, Destructive and Non-Destructive Testing, ISO 9001 Quality Control Mumbai, PMI Testing Flanges, Ultrasonic Testing Pipe Fittings, Remax Quality Policy."
       />
       {/* Breadcrumb Header */}

@@ -1,6 +1,6 @@
 export const marketAreaData = {
   "visakhapatnam": {
-    "url": "/visakhapatnam",
+    "url": "/visakhapatnam/",
     "state": "Andhra Pradesh",
     "city": "Visakhapatnam",
     "tier": 1.0,
@@ -35,7 +35,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Visakhapatnam",
-    "introParagraph": "Visakhapatnam's buyers order piping hardware for concrete reasons: RINL Vizag Steel Plant, HPCL Visakh Refinery, Hindustan Shipyard, pharma SEZ, Visakhapatnam Port. From our Mumbai works we supply <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Autonagar, Parawada (JNPC Pharma City), Duvvada VSEZ, Gajuwaka, in A105, A350 LF2, SS 304 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Visakhapatnam's buyers order piping hardware for concrete reasons: RINL Vizag Steel Plant, HPCL Visakh Refinery, Hindustan Shipyard, pharma SEZ, Visakhapatnam Port. From our Mumbai works we supply <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Autonagar, Parawada (JNPC Pharma City), Duvvada VSEZ, Gajuwaka, in A105, A350 LF2, SS 304 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH16 via Pune–Hyderabad–Vijayawada. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Visakhapatnam. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -46,11 +46,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -62,11 +62,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           }
         ]
       },
@@ -78,11 +78,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -94,11 +94,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -255,24 +255,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Vijayawada",
-        "url": "/vijayawada"
+        "url": "/vijayawada/"
       },
       {
         "name": "Guntur",
-        "url": "/guntur"
+        "url": "/guntur/"
       },
       {
         "name": "Nellore",
-        "url": "/nellore"
+        "url": "/nellore/"
       },
       {
         "name": "Kurnool",
-        "url": "/kurnool"
+        "url": "/kurnool/"
       }
     ]
   },
   "vijayawada": {
-    "url": "/vijayawada",
+    "url": "/vijayawada/",
     "state": "Andhra Pradesh",
     "city": "Vijayawada",
     "tier": 2.0,
@@ -307,7 +307,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Vijayawada",
-    "introParagraph": "Supplying Vijayawada means understanding Kondapalli thermal & gas power cluster, agro & food processing, Amaravati infrastructure works. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> from Mumbai into Autonagar Industrial Estate, Kondapalli IDA — A105, F11/F22/F91 (IBR), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Vijayawada means understanding Kondapalli thermal & gas power cluster, agro & food processing, Amaravati infrastructure works. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> from Mumbai into Autonagar Industrial Estate, Kondapalli IDA — A105, F11/F22/F91 (IBR), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH65 via Pune–Hyderabad. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Vijayawada. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -318,11 +318,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -334,11 +334,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -350,11 +350,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -511,24 +511,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Visakhapatnam",
-        "url": "/visakhapatnam"
+        "url": "/visakhapatnam/"
       },
       {
         "name": "Guntur",
-        "url": "/guntur"
+        "url": "/guntur/"
       },
       {
         "name": "Nellore",
-        "url": "/nellore"
+        "url": "/nellore/"
       },
       {
         "name": "Kurnool",
-        "url": "/kurnool"
+        "url": "/kurnool/"
       }
     ]
   },
   "guntur": {
-    "url": "/guntur",
+    "url": "/guntur/",
     "state": "Andhra Pradesh",
     "city": "Guntur",
     "tier": 3.0,
@@ -563,7 +563,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Guntur",
-    "introParagraph": "Around Autonagar Guntur, agro-processing units, procurement runs on Chilli & tobacco processing, spinning mills, cement plants in Palnadu belt. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Autonagar Guntur, agro-processing units, procurement runs on Chilli & tobacco processing, spinning mills, cement plants in Palnadu belt. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH65 via Hyderabad. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Guntur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -574,11 +574,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -590,11 +590,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       },
@@ -606,11 +606,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -755,24 +755,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Visakhapatnam",
-        "url": "/visakhapatnam"
+        "url": "/visakhapatnam/"
       },
       {
         "name": "Vijayawada",
-        "url": "/vijayawada"
+        "url": "/vijayawada/"
       },
       {
         "name": "Nellore",
-        "url": "/nellore"
+        "url": "/nellore/"
       },
       {
         "name": "Kurnool",
-        "url": "/kurnool"
+        "url": "/kurnool/"
       }
     ]
   },
   "nellore": {
-    "url": "/nellore",
+    "url": "/nellore/",
     "state": "Andhra Pradesh",
     "city": "Nellore",
     "tier": 2.0,
@@ -807,7 +807,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Nellore",
-    "introParagraph": "Nellore's buyers order piping hardware for concrete reasons: Krishnapatnam Port, thermal power stations, aqua feed & food processing. From our Mumbai works we supply <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> into Naidupeta & Menakur industrial hubs, Krishnapatnam port zone, in SS 316L, Cu-Ni on request — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Nellore's buyers order piping hardware for concrete reasons: Krishnapatnam Port, thermal power stations, aqua feed & food processing. From our Mumbai works we supply <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> into Naidupeta & Menakur industrial hubs, Krishnapatnam port zone, in SS 316L, Cu-Ni on request — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH48 via Bengaluru–Tirupati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Nellore. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -818,11 +818,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -834,11 +834,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -850,11 +850,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -1011,24 +1011,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Visakhapatnam",
-        "url": "/visakhapatnam"
+        "url": "/visakhapatnam/"
       },
       {
         "name": "Vijayawada",
-        "url": "/vijayawada"
+        "url": "/vijayawada/"
       },
       {
         "name": "Guntur",
-        "url": "/guntur"
+        "url": "/guntur/"
       },
       {
         "name": "Kurnool",
-        "url": "/kurnool"
+        "url": "/kurnool/"
       }
     ]
   },
   "kurnool": {
-    "url": "/kurnool",
+    "url": "/kurnool/",
     "state": "Andhra Pradesh",
     "city": "Kurnool",
     "tier": 3.0,
@@ -1063,7 +1063,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kurnool",
-    "introParagraph": "Supplying Kurnool means understanding Cement & mineral processing, Orvakal mega industrial hub, solar park BOP works. Remax Forge ships <a href=\"/product-details/hardox-plate\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> from Mumbai into Orvakal Industrial Node (APIIC) — A105, Hardox 400/450, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Kurnool means understanding Cement & mineral processing, Orvakal mega industrial hub, solar park BOP works. Remax Forge ships <a href=\"/product-details/hardox-plate/\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> from Mumbai into Orvakal Industrial Node (APIIC) — A105, Hardox 400/450, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH44 via Pune–Hyderabad. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Kurnool. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -1074,11 +1074,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       },
@@ -1090,11 +1090,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -1106,11 +1106,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -1255,24 +1255,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Visakhapatnam",
-        "url": "/visakhapatnam"
+        "url": "/visakhapatnam/"
       },
       {
         "name": "Vijayawada",
-        "url": "/vijayawada"
+        "url": "/vijayawada/"
       },
       {
         "name": "Guntur",
-        "url": "/guntur"
+        "url": "/guntur/"
       },
       {
         "name": "Nellore",
-        "url": "/nellore"
+        "url": "/nellore/"
       }
     ]
   },
   "itanagar": {
-    "url": "/itanagar",
+    "url": "/itanagar/",
     "state": "Arunachal Pradesh",
     "city": "Itanagar",
     "tier": 3.0,
@@ -1307,7 +1307,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Itanagar",
-    "introParagraph": "Around State capital region; PHED & hydel project sites, procurement runs on State infrastructure, PHED water supply schemes, small hydel projects. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in A105, SS 304, galvanized options, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around State capital region; PHED & hydel project sites, procurement runs on State infrastructure, PHED water supply schemes, small hydel projects. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in A105, SS 304, galvanized options, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH27 via Kolkata–Siliguri–Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Itanagar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -1318,11 +1318,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -1334,11 +1334,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       }
@@ -1483,24 +1483,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Naharlagun",
-        "url": "/naharlagun"
+        "url": "/naharlagun/"
       },
       {
         "name": "Pasighat",
-        "url": "/pasighat"
+        "url": "/pasighat/"
       },
       {
         "name": "Tawang",
-        "url": "/tawang"
+        "url": "/tawang/"
       },
       {
         "name": "Ziro",
-        "url": "/ziro"
+        "url": "/ziro/"
       }
     ]
   },
   "naharlagun": {
-    "url": "/naharlagun",
+    "url": "/naharlagun/",
     "state": "Arunachal Pradesh",
     "city": "Naharlagun",
     "tier": 3.0,
@@ -1535,7 +1535,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Naharlagun",
-    "introParagraph": "Naharlagun's buyers order piping hardware for concrete reasons: Public utilities, water supply infrastructure, construction. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Twin city of Itanagar; govt infrastructure works, in A105, SS 304, galvanized options — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Naharlagun's buyers order piping hardware for concrete reasons: Public utilities, water supply infrastructure, construction. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Twin city of Itanagar; govt infrastructure works, in A105, SS 304, galvanized options — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH27 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Naharlagun. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -1546,11 +1546,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -1562,11 +1562,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -1711,24 +1711,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Itanagar",
-        "url": "/itanagar"
+        "url": "/itanagar/"
       },
       {
         "name": "Pasighat",
-        "url": "/pasighat"
+        "url": "/pasighat/"
       },
       {
         "name": "Tawang",
-        "url": "/tawang"
+        "url": "/tawang/"
       },
       {
         "name": "Ziro",
-        "url": "/ziro"
+        "url": "/ziro/"
       }
     ]
   },
   "pasighat": {
-    "url": "/pasighat",
+    "url": "/pasighat/",
     "state": "Arunachal Pradesh",
     "city": "Pasighat",
     "tier": 3.0,
@@ -1763,7 +1763,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Pasighat",
-    "introParagraph": "Supplying Pasighat means understanding Small hydel, agro processing, riverine infrastructure. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into East Siang district HQ — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Pasighat means understanding Small hydel, agro processing, riverine infrastructure. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into East Siang district HQ — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH27 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Pasighat. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -1774,11 +1774,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -1790,11 +1790,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -1939,24 +1939,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Itanagar",
-        "url": "/itanagar"
+        "url": "/itanagar/"
       },
       {
         "name": "Naharlagun",
-        "url": "/naharlagun"
+        "url": "/naharlagun/"
       },
       {
         "name": "Tawang",
-        "url": "/tawang"
+        "url": "/tawang/"
       },
       {
         "name": "Ziro",
-        "url": "/ziro"
+        "url": "/ziro/"
       }
     ]
   },
   "tawang": {
-    "url": "/tawang",
+    "url": "/tawang/",
     "state": "Arunachal Pradesh",
     "city": "Tawang",
     "tier": 3.0,
@@ -1991,7 +1991,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Tawang",
-    "introParagraph": "Around High-altitude district HQ; BRO & hydel project sites, procurement runs on Hydel projects, BRO/defence border infrastructure, water supply schemes. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> in A105, A350 LF2 (low-temp), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around High-altitude district HQ; BRO & hydel project sites, procurement runs on Hydel projects, BRO/defence border infrastructure, water supply schemes. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> in A105, A350 LF2 (low-temp), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH27 via Guwahati–Tezpur (high-altitude leg). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 10 days to Tawang. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -2002,11 +2002,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -2018,11 +2018,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -2034,11 +2034,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -2183,24 +2183,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Itanagar",
-        "url": "/itanagar"
+        "url": "/itanagar/"
       },
       {
         "name": "Naharlagun",
-        "url": "/naharlagun"
+        "url": "/naharlagun/"
       },
       {
         "name": "Pasighat",
-        "url": "/pasighat"
+        "url": "/pasighat/"
       },
       {
         "name": "Ziro",
-        "url": "/ziro"
+        "url": "/ziro/"
       }
     ]
   },
   "ziro": {
-    "url": "/ziro",
+    "url": "/ziro/",
     "state": "Arunachal Pradesh",
     "city": "Ziro",
     "tier": 3.0,
@@ -2235,7 +2235,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Ziro",
-    "introParagraph": "Ziro's buyers order piping hardware for concrete reasons: Small hydel (Subansiri basin projects nearby), agro processing. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> into Lower Subansiri district HQ, in A105, A350 LF2 (low-temp) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Ziro's buyers order piping hardware for concrete reasons: Small hydel (Subansiri basin projects nearby), agro processing. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> into Lower Subansiri district HQ, in A105, A350 LF2 (low-temp) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH27 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Ziro. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -2246,11 +2246,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -2262,11 +2262,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -2411,24 +2411,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Itanagar",
-        "url": "/itanagar"
+        "url": "/itanagar/"
       },
       {
         "name": "Naharlagun",
-        "url": "/naharlagun"
+        "url": "/naharlagun/"
       },
       {
         "name": "Pasighat",
-        "url": "/pasighat"
+        "url": "/pasighat/"
       },
       {
         "name": "Tawang",
-        "url": "/tawang"
+        "url": "/tawang/"
       }
     ]
   },
   "guwahati": {
-    "url": "/guwahati",
+    "url": "/guwahati/",
     "state": "Assam",
     "city": "Guwahati",
     "tier": 1.0,
@@ -2463,7 +2463,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Guwahati",
-    "introParagraph": "Supplying Guwahati means understanding IOCL Guwahati Refinery (Noonmati), gas distribution, tea processing, NE trade hub. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into Amingaon & Bamunimaidan industrial areas, Changsari — A105, F11/F22, SS 316L, Duplex 2205, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Guwahati means understanding IOCL Guwahati Refinery (Noonmati), gas distribution, tea processing, NE trade hub. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into Amingaon & Bamunimaidan industrial areas, Changsari — A105, F11/F22, SS 316L, Duplex 2205, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH27 via Kolkata–Siliguri. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 7 days to Guwahati. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -2474,11 +2474,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           }
         ]
       },
@@ -2490,11 +2490,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Elbow",
-            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings"
+            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings/"
           }
         ]
       },
@@ -2506,11 +2506,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -2667,24 +2667,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Silchar",
-        "url": "/silchar"
+        "url": "/silchar/"
       },
       {
         "name": "Dibrugarh",
-        "url": "/dibrugarh"
+        "url": "/dibrugarh/"
       },
       {
         "name": "Jorhat",
-        "url": "/jorhat"
+        "url": "/jorhat/"
       },
       {
         "name": "Tezpur",
-        "url": "/tezpur"
+        "url": "/tezpur/"
       }
     ]
   },
   "silchar": {
-    "url": "/silchar",
+    "url": "/silchar/",
     "state": "Assam",
     "city": "Silchar",
     "tier": 3.0,
@@ -2719,7 +2719,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Silchar",
-    "introParagraph": "Around Cachar district industrial units, procurement runs on Tea processing, paper mill belt legacy, Barak Valley infrastructure. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Cachar district industrial units, procurement runs on Tea processing, paper mill belt legacy, Barak Valley infrastructure. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH27+NH6 via Guwahati–Shillong. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Silchar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -2730,11 +2730,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -2746,11 +2746,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -2895,24 +2895,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Guwahati",
-        "url": "/guwahati"
+        "url": "/guwahati/"
       },
       {
         "name": "Dibrugarh",
-        "url": "/dibrugarh"
+        "url": "/dibrugarh/"
       },
       {
         "name": "Jorhat",
-        "url": "/jorhat"
+        "url": "/jorhat/"
       },
       {
         "name": "Tezpur",
-        "url": "/tezpur"
+        "url": "/tezpur/"
       }
     ]
   },
   "dibrugarh": {
-    "url": "/dibrugarh",
+    "url": "/dibrugarh/",
     "state": "Assam",
     "city": "Dibrugarh",
     "tier": 2.0,
@@ -2947,7 +2947,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Dibrugarh",
-    "introParagraph": "Dibrugarh's buyers order piping hardware for concrete reasons: Oil India upstream fields, Brahmaputra Cracker & Polymer (BCPL), ONGC, tea industry. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> and <a href=\"/products/flanges/lap-joint-flange\" class=\"text-[#D71920] hover:underline font-semibold\">lap joint flanges</a> into Duliajan (Oil India HQ), Lepetkata (BCPL cracker), in A105, F52/F60 on request, SS 316L — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Dibrugarh's buyers order piping hardware for concrete reasons: Oil India upstream fields, Brahmaputra Cracker & Polymer (BCPL), ONGC, tea industry. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> and <a href=\"/products/flanges/lap-joint-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">lap joint flanges</a> into Duliajan (Oil India HQ), Lepetkata (BCPL cracker), in A105, F52/F60 on request, SS 316L — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH27 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Dibrugarh. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -2958,11 +2958,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Elbow",
-            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings"
+            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings/"
           }
         ]
       },
@@ -2974,11 +2974,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -2990,11 +2990,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -3151,24 +3151,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Guwahati",
-        "url": "/guwahati"
+        "url": "/guwahati/"
       },
       {
         "name": "Silchar",
-        "url": "/silchar"
+        "url": "/silchar/"
       },
       {
         "name": "Jorhat",
-        "url": "/jorhat"
+        "url": "/jorhat/"
       },
       {
         "name": "Tezpur",
-        "url": "/tezpur"
+        "url": "/tezpur/"
       }
     ]
   },
   "jorhat": {
-    "url": "/jorhat",
+    "url": "/jorhat/",
     "state": "Assam",
     "city": "Jorhat",
     "tier": 3.0,
@@ -3203,7 +3203,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Jorhat",
-    "introParagraph": "Supplying Jorhat means understanding ONGC operations, tea research & processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> and <a href=\"/products/flanges/lap-joint-flange\" class=\"text-[#D71920] hover:underline font-semibold\">lap joint flanges</a> from Mumbai into Cinnamara industrial estate — A105, F52/F60 on request, SS 316L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Jorhat means understanding ONGC operations, tea research & processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> and <a href=\"/products/flanges/lap-joint-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">lap joint flanges</a> from Mumbai into Cinnamara industrial estate — A105, F52/F60 on request, SS 316L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH27 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Jorhat. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -3214,11 +3214,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Elbow",
-            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings"
+            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings/"
           }
         ]
       },
@@ -3230,11 +3230,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -3379,24 +3379,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Guwahati",
-        "url": "/guwahati"
+        "url": "/guwahati/"
       },
       {
         "name": "Silchar",
-        "url": "/silchar"
+        "url": "/silchar/"
       },
       {
         "name": "Dibrugarh",
-        "url": "/dibrugarh"
+        "url": "/dibrugarh/"
       },
       {
         "name": "Tezpur",
-        "url": "/tezpur"
+        "url": "/tezpur/"
       }
     ]
   },
   "tezpur": {
-    "url": "/tezpur",
+    "url": "/tezpur/",
     "state": "Assam",
     "city": "Tezpur",
     "tier": 3.0,
@@ -3431,7 +3431,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Tezpur",
-    "introParagraph": "Around Sonitpur district units, procurement runs on Agro processing, defence establishments, Brahmaputra bridge/infra works. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Sonitpur district units, procurement runs on Agro processing, defence establishments, Brahmaputra bridge/infra works. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH27 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Tezpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -3442,11 +3442,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -3458,11 +3458,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -3474,11 +3474,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -3623,24 +3623,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Guwahati",
-        "url": "/guwahati"
+        "url": "/guwahati/"
       },
       {
         "name": "Silchar",
-        "url": "/silchar"
+        "url": "/silchar/"
       },
       {
         "name": "Dibrugarh",
-        "url": "/dibrugarh"
+        "url": "/dibrugarh/"
       },
       {
         "name": "Jorhat",
-        "url": "/jorhat"
+        "url": "/jorhat/"
       }
     ]
   },
   "patna": {
-    "url": "/patna",
+    "url": "/patna/",
     "state": "Bihar",
     "city": "Patna",
     "tier": 2.0,
@@ -3675,7 +3675,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Patna",
-    "introParagraph": "Patna's buyers order piping hardware for concrete reasons: Food processing, Barauni refinery belt (~110 km), state infrastructure. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Fatuha & Patliputra industrial areas, Bihta, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Patna's buyers order piping hardware for concrete reasons: Food processing, Barauni refinery belt (~110 km), state infrastructure. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Fatuha & Patliputra industrial areas, Bihta, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH19 via Nagpur–Varanasi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Patna. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -3686,11 +3686,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -3702,11 +3702,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           }
         ]
       },
@@ -3718,11 +3718,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -3879,24 +3879,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Gaya",
-        "url": "/gaya"
+        "url": "/gaya/"
       },
       {
         "name": "Bhagalpur",
-        "url": "/bhagalpur"
+        "url": "/bhagalpur/"
       },
       {
         "name": "Muzaffarpur",
-        "url": "/muzaffarpur"
+        "url": "/muzaffarpur/"
       },
       {
         "name": "Darbhanga",
-        "url": "/darbhanga"
+        "url": "/darbhanga/"
       }
     ]
   },
   "gaya": {
-    "url": "/gaya",
+    "url": "/gaya/",
     "state": "Bihar",
     "city": "Gaya",
     "tier": 3.0,
@@ -3931,7 +3931,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Gaya",
-    "introParagraph": "Supplying Gaya means understanding Agro processing, stone crushing, religious-tourism infrastructure. Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Gaya industrial area (BIADA) — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Gaya means understanding Agro processing, stone crushing, religious-tourism infrastructure. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Gaya industrial area (BIADA) — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH19 via Varanasi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Gaya. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -3942,11 +3942,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -3958,11 +3958,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -4107,24 +4107,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Patna",
-        "url": "/patna"
+        "url": "/patna/"
       },
       {
         "name": "Bhagalpur",
-        "url": "/bhagalpur"
+        "url": "/bhagalpur/"
       },
       {
         "name": "Muzaffarpur",
-        "url": "/muzaffarpur"
+        "url": "/muzaffarpur/"
       },
       {
         "name": "Darbhanga",
-        "url": "/darbhanga"
+        "url": "/darbhanga/"
       }
     ]
   },
   "bhagalpur": {
-    "url": "/bhagalpur",
+    "url": "/bhagalpur/",
     "state": "Bihar",
     "city": "Bhagalpur",
     "tier": 3.0,
@@ -4159,7 +4159,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bhagalpur",
-    "introParagraph": "Around Barari industrial estate; NTPC Kahalgaon nearby, procurement runs on Silk & textile cluster, NTPC Kahalgaon super thermal power (~30 km). We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304, A105, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Barari industrial estate; NTPC Kahalgaon nearby, procurement runs on Silk & textile cluster, NTPC Kahalgaon super thermal power (~30 km). We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304, A105, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH33 via Varanasi–Patna. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Bhagalpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -4170,11 +4170,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -4186,11 +4186,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       }
@@ -4335,24 +4335,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Patna",
-        "url": "/patna"
+        "url": "/patna/"
       },
       {
         "name": "Gaya",
-        "url": "/gaya"
+        "url": "/gaya/"
       },
       {
         "name": "Muzaffarpur",
-        "url": "/muzaffarpur"
+        "url": "/muzaffarpur/"
       },
       {
         "name": "Darbhanga",
-        "url": "/darbhanga"
+        "url": "/darbhanga/"
       }
     ]
   },
   "muzaffarpur": {
-    "url": "/muzaffarpur",
+    "url": "/muzaffarpur/",
     "state": "Bihar",
     "city": "Muzaffarpur",
     "tier": 3.0,
@@ -4387,7 +4387,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Muzaffarpur",
-    "introParagraph": "Muzaffarpur's buyers order piping hardware for concrete reasons: Litchi & food processing, Kanti thermal power station, light engineering. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Bela industrial area (BIADA), in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Muzaffarpur's buyers order piping hardware for concrete reasons: Litchi & food processing, Kanti thermal power station, light engineering. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Bela industrial area (BIADA), in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH22 via Patna. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Muzaffarpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -4398,11 +4398,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -4414,11 +4414,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -4430,11 +4430,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -4579,24 +4579,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Patna",
-        "url": "/patna"
+        "url": "/patna/"
       },
       {
         "name": "Gaya",
-        "url": "/gaya"
+        "url": "/gaya/"
       },
       {
         "name": "Bhagalpur",
-        "url": "/bhagalpur"
+        "url": "/bhagalpur/"
       },
       {
         "name": "Darbhanga",
-        "url": "/darbhanga"
+        "url": "/darbhanga/"
       }
     ]
   },
   "darbhanga": {
-    "url": "/darbhanga",
+    "url": "/darbhanga/",
     "state": "Bihar",
     "city": "Darbhanga",
     "tier": 3.0,
@@ -4631,7 +4631,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Darbhanga",
-    "introParagraph": "Supplying Darbhanga means understanding Makhana & agro processing, emerging medical/urban infrastructure. Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into BIADA units, makhana processing belt — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Darbhanga means understanding Makhana & agro processing, emerging medical/urban infrastructure. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into BIADA units, makhana processing belt — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH27 via Patna. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Darbhanga. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -4642,11 +4642,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -4658,11 +4658,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -4807,24 +4807,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Patna",
-        "url": "/patna"
+        "url": "/patna/"
       },
       {
         "name": "Gaya",
-        "url": "/gaya"
+        "url": "/gaya/"
       },
       {
         "name": "Bhagalpur",
-        "url": "/bhagalpur"
+        "url": "/bhagalpur/"
       },
       {
         "name": "Muzaffarpur",
-        "url": "/muzaffarpur"
+        "url": "/muzaffarpur/"
       }
     ]
   },
   "raipur": {
-    "url": "/raipur",
+    "url": "/raipur/",
     "state": "Chhattisgarh",
     "city": "Raipur",
     "tier": 1.0,
@@ -4859,7 +4859,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Raipur",
-    "introParagraph": "Around Urla, Siltara & Bhanpuri industrial areas, procurement runs on Sponge iron & steel rolling cluster (250+ units), ferro alloys, agro processing. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Urla, Siltara & Bhanpuri industrial areas, procurement runs on Sponge iron & steel rolling cluster (250+ units), ferro alloys, agro processing. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH53 via Nagpur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Raipur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -4870,11 +4870,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -4886,11 +4886,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -4902,11 +4902,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -5063,24 +5063,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bhilai",
-        "url": "/bhilai"
+        "url": "/bhilai/"
       },
       {
         "name": "Bilaspur",
-        "url": "/bilaspur"
+        "url": "/bilaspur/"
       },
       {
         "name": "Korba",
-        "url": "/korba"
+        "url": "/korba/"
       },
       {
         "name": "Durg",
-        "url": "/durg"
+        "url": "/durg/"
       }
     ]
   },
   "bhilai": {
-    "url": "/bhilai",
+    "url": "/bhilai/",
     "state": "Chhattisgarh",
     "city": "Bhilai",
     "tier": 1.0,
@@ -5115,7 +5115,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bhilai",
-    "introParagraph": "Bhilai's buyers order piping hardware for concrete reasons: SAIL Bhilai Steel Plant, heavy engineering & plant ancillaries, rail structurals. From our Mumbai works we supply <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Bhilai industrial estate, Hathkhoj, in A105, A350 LF2, SS 304 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Bhilai's buyers order piping hardware for concrete reasons: SAIL Bhilai Steel Plant, heavy engineering & plant ancillaries, rail structurals. From our Mumbai works we supply <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Bhilai industrial estate, Hathkhoj, in A105, A350 LF2, SS 304 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH53 via Nagpur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Bhilai. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -5126,11 +5126,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -5142,11 +5142,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           }
         ]
       },
@@ -5158,11 +5158,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -5319,24 +5319,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Raipur",
-        "url": "/raipur"
+        "url": "/raipur/"
       },
       {
         "name": "Bilaspur",
-        "url": "/bilaspur"
+        "url": "/bilaspur/"
       },
       {
         "name": "Korba",
-        "url": "/korba"
+        "url": "/korba/"
       },
       {
         "name": "Durg",
-        "url": "/durg"
+        "url": "/durg/"
       }
     ]
   },
   "bilaspur": {
-    "url": "/bilaspur",
+    "url": "/bilaspur/",
     "state": "Chhattisgarh",
     "city": "Bilaspur",
     "tier": 3.0,
@@ -5371,7 +5371,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bilaspur",
-    "introParagraph": "Supplying Bilaspur means understanding SECL coal operations, NTPC Sipat super thermal (~25 km), SECR railway zone. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> from Mumbai into Sirgitti & Tifra industrial areas — A105, F11/F22/F91 (IBR), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Bilaspur means understanding SECL coal operations, NTPC Sipat super thermal (~25 km), SECR railway zone. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> from Mumbai into Sirgitti & Tifra industrial areas — A105, F11/F22/F91 (IBR), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH130 via Raipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Bilaspur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -5382,11 +5382,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -5398,11 +5398,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           }
         ]
       },
@@ -5414,11 +5414,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       }
@@ -5563,24 +5563,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Raipur",
-        "url": "/raipur"
+        "url": "/raipur/"
       },
       {
         "name": "Bhilai",
-        "url": "/bhilai"
+        "url": "/bhilai/"
       },
       {
         "name": "Korba",
-        "url": "/korba"
+        "url": "/korba/"
       },
       {
         "name": "Durg",
-        "url": "/durg"
+        "url": "/durg/"
       }
     ]
   },
   "korba": {
-    "url": "/korba",
+    "url": "/korba/",
     "state": "Chhattisgarh",
     "city": "Korba",
     "tier": 2.0,
@@ -5615,7 +5615,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Korba",
-    "introParagraph": "Around Korba industrial belt, procurement runs on NTPC Korba & CSPGCL thermal stations, BALCO aluminium smelter, SECL mines. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Korba industrial belt, procurement runs on NTPC Korba & CSPGCL thermal stations, BALCO aluminium smelter, SECL mines. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH130 via Raipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Korba. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -5626,11 +5626,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -5642,11 +5642,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -5658,11 +5658,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       }
@@ -5819,24 +5819,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Raipur",
-        "url": "/raipur"
+        "url": "/raipur/"
       },
       {
         "name": "Bhilai",
-        "url": "/bhilai"
+        "url": "/bhilai/"
       },
       {
         "name": "Bilaspur",
-        "url": "/bilaspur"
+        "url": "/bilaspur/"
       },
       {
         "name": "Durg",
-        "url": "/durg"
+        "url": "/durg/"
       }
     ]
   },
   "durg": {
-    "url": "/durg",
+    "url": "/durg/",
     "state": "Chhattisgarh",
     "city": "Durg",
     "tier": 3.0,
@@ -5871,7 +5871,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Durg",
-    "introParagraph": "Durg's buyers order piping hardware for concrete reasons: Engineering ancillaries to Bhilai Steel Plant, agro processing. From our Mumbai works we supply <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Borai industrial growth centre, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Durg's buyers order piping hardware for concrete reasons: Engineering ancillaries to Bhilai Steel Plant, agro processing. From our Mumbai works we supply <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Borai industrial growth centre, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH53 via Nagpur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Durg. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -5882,11 +5882,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -5898,11 +5898,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -6047,24 +6047,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Raipur",
-        "url": "/raipur"
+        "url": "/raipur/"
       },
       {
         "name": "Bhilai",
-        "url": "/bhilai"
+        "url": "/bhilai/"
       },
       {
         "name": "Bilaspur",
-        "url": "/bilaspur"
+        "url": "/bilaspur/"
       },
       {
         "name": "Korba",
-        "url": "/korba"
+        "url": "/korba/"
       }
     ]
   },
   "gandhinagar": {
-    "url": "/gandhinagar",
+    "url": "/gandhinagar/",
     "state": "Gujarat",
     "city": "Gandhinagar",
     "tier": 3.0,
@@ -6099,7 +6099,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Gandhinagar",
-    "introParagraph": "Supplying Gandhinagar means understanding Electronics, GIFT City infrastructure, proximity to Ahmedabad industrial belt. Remax Forge ships <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into GIDC Electronics Estate, Mahatma Mandir zone — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Gandhinagar means understanding Electronics, GIFT City infrastructure, proximity to Ahmedabad industrial belt. Remax Forge ships <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into GIDC Electronics Estate, Mahatma Mandir zone — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH48 via Vadodara. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Gandhinagar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -6110,11 +6110,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -6126,11 +6126,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -6275,24 +6275,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Ahmedabad",
-        "url": "/ahmedabad"
+        "url": "/ahmedabad/"
       },
       {
         "name": "Surat",
-        "url": "/surat"
+        "url": "/surat/"
       },
       {
         "name": "Rajkot",
-        "url": "/rajkot"
+        "url": "/rajkot/"
       },
       {
         "name": "Vadodara",
-        "url": "/vadodara"
+        "url": "/vadodara/"
       }
     ]
   },
   "ahmedabad": {
-    "url": "/ahmedabad",
+    "url": "/ahmedabad/",
     "state": "Gujarat",
     "city": "Ahmedabad",
     "tier": 1.0,
@@ -6327,7 +6327,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Ahmedabad",
-    "introParagraph": "Around GIDC Vatva, Naroda, Odhav, Sanand, procurement runs on Chemicals & dyes, pharmaceuticals, engineering, auto (Sanand belt). We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/317L, Duplex 2205, Alloy 20, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around GIDC Vatva, Naroda, Odhav, Sanand, procurement runs on Chemicals & dyes, pharmaceuticals, engineering, auto (Sanand belt). We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/317L, Duplex 2205, Alloy 20, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH48 direct (~530 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Ahmedabad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -6338,11 +6338,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -6354,11 +6354,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -6370,11 +6370,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -6386,11 +6386,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -6547,24 +6547,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Gandhinagar",
-        "url": "/gandhinagar"
+        "url": "/gandhinagar/"
       },
       {
         "name": "Surat",
-        "url": "/surat"
+        "url": "/surat/"
       },
       {
         "name": "Rajkot",
-        "url": "/rajkot"
+        "url": "/rajkot/"
       },
       {
         "name": "Vadodara",
-        "url": "/vadodara"
+        "url": "/vadodara/"
       }
     ]
   },
   "surat": {
-    "url": "/surat",
+    "url": "/surat/",
     "state": "Gujarat",
     "city": "Surat",
     "tier": 1.0,
@@ -6599,7 +6599,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Surat",
-    "introParagraph": "Surat's buyers order piping hardware for concrete reasons: Hazira: RIL, ONGC, L&T Heavy Engg, AM/NS steel; textiles & dyeing. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Hazira industrial complex, Sachin GIDC, Pandesara, in SS 316L/317L, Duplex 2205, Alloy 20 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Surat's buyers order piping hardware for concrete reasons: Hazira: RIL, ONGC, L&T Heavy Engg, AM/NS steel; textiles & dyeing. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Hazira industrial complex, Sachin GIDC, Pandesara, in SS 316L/317L, Duplex 2205, Alloy 20 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH48 direct (~280 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Surat. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -6610,11 +6610,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -6626,11 +6626,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -6642,11 +6642,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -6658,11 +6658,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -6819,24 +6819,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Gandhinagar",
-        "url": "/gandhinagar"
+        "url": "/gandhinagar/"
       },
       {
         "name": "Ahmedabad",
-        "url": "/ahmedabad"
+        "url": "/ahmedabad/"
       },
       {
         "name": "Rajkot",
-        "url": "/rajkot"
+        "url": "/rajkot/"
       },
       {
         "name": "Vadodara",
-        "url": "/vadodara"
+        "url": "/vadodara/"
       }
     ]
   },
   "rajkot": {
-    "url": "/rajkot",
+    "url": "/rajkot/",
     "state": "Gujarat",
     "city": "Rajkot",
     "tier": 1.0,
@@ -6871,7 +6871,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Rajkot",
-    "introParagraph": "Supplying Rajkot means understanding Casting & forging cluster, machine tools, diesel engines & auto components. Remax Forge ships <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into Shapar-Veraval, Metoda GIDC, Aji GIDC — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Rajkot means understanding Casting & forging cluster, machine tools, diesel engines & auto components. Remax Forge ships <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into Shapar-Veraval, Metoda GIDC, Aji GIDC — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH48+NH47 via Ahmedabad. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Rajkot. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -6882,11 +6882,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -6898,11 +6898,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -7059,24 +7059,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Gandhinagar",
-        "url": "/gandhinagar"
+        "url": "/gandhinagar/"
       },
       {
         "name": "Ahmedabad",
-        "url": "/ahmedabad"
+        "url": "/ahmedabad/"
       },
       {
         "name": "Surat",
-        "url": "/surat"
+        "url": "/surat/"
       },
       {
         "name": "Vadodara",
-        "url": "/vadodara"
+        "url": "/vadodara/"
       }
     ]
   },
   "vadodara": {
-    "url": "/vadodara",
+    "url": "/vadodara/",
     "state": "Gujarat",
     "city": "Vadodara",
     "tier": 1.0,
@@ -7111,7 +7111,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Vadodara",
-    "introParagraph": "Around GIDC Makarpura, Nandesari chemical estate, Savli, procurement runs on IOCL Koyali refinery, GSFC & GACL, heavy engineering (L&T, ABB), petrochemicals. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, F11/F22, SS 316L, Duplex 2205, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around GIDC Makarpura, Nandesari chemical estate, Savli, procurement runs on IOCL Koyali refinery, GSFC & GACL, heavy engineering (L&T, ABB), petrochemicals. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, F11/F22, SS 316L, Duplex 2205, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH48 direct (~430 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Vadodara. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -7122,11 +7122,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           }
         ]
       },
@@ -7138,11 +7138,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -7154,11 +7154,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Butt Weld Tee",
-            "url": "/products/buttweld-fittings/butt-weld-tee-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-tee-fittings/"
           }
         ]
       },
@@ -7170,11 +7170,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -7331,24 +7331,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Gandhinagar",
-        "url": "/gandhinagar"
+        "url": "/gandhinagar/"
       },
       {
         "name": "Ahmedabad",
-        "url": "/ahmedabad"
+        "url": "/ahmedabad/"
       },
       {
         "name": "Surat",
-        "url": "/surat"
+        "url": "/surat/"
       },
       {
         "name": "Rajkot",
-        "url": "/rajkot"
+        "url": "/rajkot/"
       }
     ]
   },
   "shimla": {
-    "url": "/shimla",
+    "url": "/shimla/",
     "state": "Himachal Pradesh",
     "city": "Shimla",
     "tier": 3.0,
@@ -7383,7 +7383,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Shimla",
-    "introParagraph": "Shimla's buyers order piping hardware for concrete reasons: State utilities, hydel project procurement (SJVN belt), water supply schemes. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> into State capital; hydel project offices, in A105, A350 LF2 (low-temp) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Shimla's buyers order piping hardware for concrete reasons: State utilities, hydel project procurement (SJVN belt), water supply schemes. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> into State capital; hydel project offices, in A105, A350 LF2 (low-temp) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH48 via Delhi–Chandigarh. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Shimla. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -7394,11 +7394,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -7410,11 +7410,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -7559,24 +7559,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Dharamshala",
-        "url": "/dharamshala"
+        "url": "/dharamshala/"
       },
       {
         "name": "Solan",
-        "url": "/solan"
+        "url": "/solan/"
       },
       {
         "name": "Mandi",
-        "url": "/mandi"
+        "url": "/mandi/"
       },
       {
         "name": "Baddi",
-        "url": "/baddi"
+        "url": "/baddi/"
       }
     ]
   },
   "dharamshala": {
-    "url": "/dharamshala",
+    "url": "/dharamshala/",
     "state": "Himachal Pradesh",
     "city": "Dharamshala",
     "tier": 3.0,
@@ -7611,7 +7611,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Dharamshala",
-    "introParagraph": "Supplying Dharamshala means understanding Tourism infrastructure, small hydel, agro processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into Kangra district units — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Dharamshala means understanding Tourism infrastructure, small hydel, agro processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into Kangra district units — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: via Delhi–Pathankot. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Dharamshala. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -7622,11 +7622,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -7638,11 +7638,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -7787,24 +7787,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Shimla",
-        "url": "/shimla"
+        "url": "/shimla/"
       },
       {
         "name": "Solan",
-        "url": "/solan"
+        "url": "/solan/"
       },
       {
         "name": "Mandi",
-        "url": "/mandi"
+        "url": "/mandi/"
       },
       {
         "name": "Baddi",
-        "url": "/baddi"
+        "url": "/baddi/"
       }
     ]
   },
   "solan": {
-    "url": "/solan",
+    "url": "/solan/",
     "state": "Himachal Pradesh",
     "city": "Solan",
     "tier": 2.0,
@@ -7839,7 +7839,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Solan",
-    "introParagraph": "Around Solan-Parwanoo industrial belt, procurement runs on Pharma & breweries, packaging, proximity to Baddi BBN cluster. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/304L, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Solan-Parwanoo industrial belt, procurement runs on Pharma & breweries, packaging, proximity to Baddi BBN cluster. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/304L, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH48 via Delhi–Chandigarh. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Solan. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -7850,11 +7850,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -7866,11 +7866,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -7882,11 +7882,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -8043,24 +8043,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Shimla",
-        "url": "/shimla"
+        "url": "/shimla/"
       },
       {
         "name": "Dharamshala",
-        "url": "/dharamshala"
+        "url": "/dharamshala/"
       },
       {
         "name": "Mandi",
-        "url": "/mandi"
+        "url": "/mandi/"
       },
       {
         "name": "Baddi",
-        "url": "/baddi"
+        "url": "/baddi/"
       }
     ]
   },
   "mandi": {
-    "url": "/mandi",
+    "url": "/mandi/",
     "state": "Himachal Pradesh",
     "city": "Mandi",
     "tier": 3.0,
@@ -8095,7 +8095,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Mandi",
-    "introParagraph": "Mandi's buyers order piping hardware for concrete reasons: BBMB & HPPCL hydel projects, water infrastructure. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> into Hydel project belt (Larji, Pandoh, Beas basin), in A105, A350 LF2 (low-temp) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Mandi's buyers order piping hardware for concrete reasons: BBMB & HPPCL hydel projects, water infrastructure. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> into Hydel project belt (Larji, Pandoh, Beas basin), in A105, A350 LF2 (low-temp) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: via Delhi–Chandigarh. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Mandi. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -8106,11 +8106,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -8122,11 +8122,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -8271,24 +8271,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Shimla",
-        "url": "/shimla"
+        "url": "/shimla/"
       },
       {
         "name": "Dharamshala",
-        "url": "/dharamshala"
+        "url": "/dharamshala/"
       },
       {
         "name": "Solan",
-        "url": "/solan"
+        "url": "/solan/"
       },
       {
         "name": "Baddi",
-        "url": "/baddi"
+        "url": "/baddi/"
       }
     ]
   },
   "baddi": {
-    "url": "/baddi",
+    "url": "/baddi/",
     "state": "Himachal Pradesh",
     "city": "Baddi",
     "tier": 1.0,
@@ -8323,7 +8323,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Baddi",
-    "introParagraph": "Supplying Baddi means understanding India's largest pharma manufacturing cluster, packaging, boilers & process utilities. Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Baddi-Barotiwala-Nalagarh (BBN) industrial area — SS 316L/304L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Baddi means understanding India's largest pharma manufacturing cluster, packaging, boilers & process utilities. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Baddi-Barotiwala-Nalagarh (BBN) industrial area — SS 316L/304L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH48 via Delhi–Chandigarh. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Baddi. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -8334,11 +8334,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -8350,11 +8350,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -8366,11 +8366,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -8527,24 +8527,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Shimla",
-        "url": "/shimla"
+        "url": "/shimla/"
       },
       {
         "name": "Dharamshala",
-        "url": "/dharamshala"
+        "url": "/dharamshala/"
       },
       {
         "name": "Solan",
-        "url": "/solan"
+        "url": "/solan/"
       },
       {
         "name": "Mandi",
-        "url": "/mandi"
+        "url": "/mandi/"
       }
     ]
   },
   "jamshedpur": {
-    "url": "/jamshedpur",
+    "url": "/jamshedpur/",
     "state": "Jharkhand",
     "city": "Jamshedpur",
     "tier": 1.0,
@@ -8579,7 +8579,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Jamshedpur",
-    "introParagraph": "Around Adityapur industrial area (AIADA), Gamharia, procurement runs on Tata Steel, Tata Motors & ancillary belt (1,000+ units), heavy engineering. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Adityapur industrial area (AIADA), Gamharia, procurement runs on Tata Steel, Tata Motors & ancillary belt (1,000+ units), heavy engineering. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH53+NH18 via Nagpur–Raipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Jamshedpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -8590,11 +8590,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -8606,11 +8606,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -8622,11 +8622,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           }
         ]
       }
@@ -8783,24 +8783,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Dhanbad",
-        "url": "/dhanbad"
+        "url": "/dhanbad/"
       },
       {
         "name": "Ranchi",
-        "url": "/ranchi"
+        "url": "/ranchi/"
       },
       {
         "name": "Bokaro",
-        "url": "/bokaro"
+        "url": "/bokaro/"
       },
       {
         "name": "Deoghar",
-        "url": "/deoghar"
+        "url": "/deoghar/"
       }
     ]
   },
   "dhanbad": {
-    "url": "/dhanbad",
+    "url": "/dhanbad/",
     "state": "Jharkhand",
     "city": "Dhanbad",
     "tier": 3.0,
@@ -8835,7 +8835,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Dhanbad",
-    "introParagraph": "Dhanbad's buyers order piping hardware for concrete reasons: BCCL coal & washeries, HURL Sindri fertilizer plant (revived). From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> into BCCL coalfield belt, Sindri, in SS 316L, Alloy 20, Duplex — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Dhanbad's buyers order piping hardware for concrete reasons: BCCL coal & washeries, HURL Sindri fertilizer plant (revived). From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> into BCCL coalfield belt, Sindri, in SS 316L, Alloy 20, Duplex — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH19 via Varanasi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Dhanbad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -8846,11 +8846,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Butt Weld Tee",
-            "url": "/products/buttweld-fittings/butt-weld-tee-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-tee-fittings/"
           }
         ]
       },
@@ -8862,11 +8862,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -8878,11 +8878,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       }
@@ -9027,24 +9027,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Jamshedpur",
-        "url": "/jamshedpur"
+        "url": "/jamshedpur/"
       },
       {
         "name": "Ranchi",
-        "url": "/ranchi"
+        "url": "/ranchi/"
       },
       {
         "name": "Bokaro",
-        "url": "/bokaro"
+        "url": "/bokaro/"
       },
       {
         "name": "Deoghar",
-        "url": "/deoghar"
+        "url": "/deoghar/"
       }
     ]
   },
   "ranchi": {
-    "url": "/ranchi",
+    "url": "/ranchi/",
     "state": "Jharkhand",
     "city": "Ranchi",
     "tier": 2.0,
@@ -9079,7 +9079,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Ranchi",
-    "introParagraph": "Supplying Ranchi means understanding Heavy Engineering Corporation (HEC), CMPDI, state infrastructure. Remax Forge ships <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into Tupudana & Namkum industrial areas, HEC township — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Ranchi means understanding Heavy Engineering Corporation (HEC), CMPDI, state infrastructure. Remax Forge ships <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into Tupudana & Namkum industrial areas, HEC township — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH43 via Raipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Ranchi. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -9090,11 +9090,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -9106,11 +9106,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -9122,11 +9122,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -9283,24 +9283,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Jamshedpur",
-        "url": "/jamshedpur"
+        "url": "/jamshedpur/"
       },
       {
         "name": "Dhanbad",
-        "url": "/dhanbad"
+        "url": "/dhanbad/"
       },
       {
         "name": "Bokaro",
-        "url": "/bokaro"
+        "url": "/bokaro/"
       },
       {
         "name": "Deoghar",
-        "url": "/deoghar"
+        "url": "/deoghar/"
       }
     ]
   },
   "bokaro": {
-    "url": "/bokaro",
+    "url": "/bokaro/",
     "state": "Jharkhand",
     "city": "Bokaro",
     "tier": 1.0,
@@ -9335,7 +9335,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bokaro",
-    "introParagraph": "Around Bokaro industrial area, Balidih, procurement runs on SAIL Bokaro Steel Plant, ancillary engineering, coke & power units. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Bokaro industrial area, Balidih, procurement runs on SAIL Bokaro Steel Plant, ancillary engineering, coke & power units. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH19 via Varanasi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Bokaro. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -9346,11 +9346,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -9362,11 +9362,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -9378,11 +9378,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -9539,24 +9539,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Jamshedpur",
-        "url": "/jamshedpur"
+        "url": "/jamshedpur/"
       },
       {
         "name": "Dhanbad",
-        "url": "/dhanbad"
+        "url": "/dhanbad/"
       },
       {
         "name": "Ranchi",
-        "url": "/ranchi"
+        "url": "/ranchi/"
       },
       {
         "name": "Deoghar",
-        "url": "/deoghar"
+        "url": "/deoghar/"
       }
     ]
   },
   "deoghar": {
-    "url": "/deoghar",
+    "url": "/deoghar/",
     "state": "Jharkhand",
     "city": "Deoghar",
     "tier": 3.0,
@@ -9591,7 +9591,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Deoghar",
-    "introParagraph": "Deoghar's buyers order piping hardware for concrete reasons: Agro processing, AIIMS & airport infrastructure works. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Devipur industrial area, plastic park, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Deoghar's buyers order piping hardware for concrete reasons: Agro processing, AIIMS & airport infrastructure works. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Devipur industrial area, plastic park, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH19 via Varanasi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Deoghar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -9602,11 +9602,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -9618,11 +9618,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -9767,24 +9767,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Jamshedpur",
-        "url": "/jamshedpur"
+        "url": "/jamshedpur/"
       },
       {
         "name": "Dhanbad",
-        "url": "/dhanbad"
+        "url": "/dhanbad/"
       },
       {
         "name": "Ranchi",
-        "url": "/ranchi"
+        "url": "/ranchi/"
       },
       {
         "name": "Bokaro",
-        "url": "/bokaro"
+        "url": "/bokaro/"
       }
     ]
   },
   "bengaluru": {
-    "url": "/bengaluru",
+    "url": "/bengaluru/",
     "state": "Karnataka",
     "city": "Bengaluru",
     "tier": 1.0,
@@ -9819,7 +9819,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bengaluru",
-    "introParagraph": "Supplying Bengaluru means understanding HAL & ISRO aerospace, machine tools (HMT belt), pharma & biotech, precision engineering. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> from Mumbai into Peenya (among Asia's largest estates), Bommasandra, Jigani, Electronic City — SS 316L, Inconel 625 & Monel on order, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Bengaluru means understanding HAL & ISRO aerospace, machine tools (HMT belt), pharma & biotech, precision engineering. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> from Mumbai into Peenya (among Asia's largest estates), Bommasandra, Jigani, Electronic City — SS 316L, Inconel 625 & Monel on order, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH48 via Pune–Tumakuru (~980 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Bengaluru. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -9830,11 +9830,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -9846,11 +9846,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -9862,11 +9862,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -10023,24 +10023,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Mysuru",
-        "url": "/mysuru"
+        "url": "/mysuru/"
       },
       {
         "name": "Hubballi Dharwad",
-        "url": "/hubballi-dharwad"
+        "url": "/hubballi-dharwad/"
       },
       {
         "name": "Mangaluru",
-        "url": "/mangaluru"
+        "url": "/mangaluru/"
       },
       {
         "name": "Belagavi",
-        "url": "/belagavi"
+        "url": "/belagavi/"
       }
     ]
   },
   "mysuru": {
-    "url": "/mysuru",
+    "url": "/mysuru/",
     "state": "Karnataka",
     "city": "Mysuru",
     "tier": 3.0,
@@ -10075,7 +10075,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Mysuru",
-    "introParagraph": "Around Hebbal & Metagalli industrial areas, procurement runs on Pharma, food processing, auto components. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/304L, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Hebbal & Metagalli industrial areas, procurement runs on Pharma, food processing, auto components. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/304L, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH48 via Bengaluru. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Mysuru. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -10086,11 +10086,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -10102,11 +10102,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -10118,11 +10118,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -10267,24 +10267,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bengaluru",
-        "url": "/bengaluru"
+        "url": "/bengaluru/"
       },
       {
         "name": "Hubballi Dharwad",
-        "url": "/hubballi-dharwad"
+        "url": "/hubballi-dharwad/"
       },
       {
         "name": "Mangaluru",
-        "url": "/mangaluru"
+        "url": "/mangaluru/"
       },
       {
         "name": "Belagavi",
-        "url": "/belagavi"
+        "url": "/belagavi/"
       }
     ]
   },
   "hubballi-dharwad": {
-    "url": "/hubballi-dharwad",
+    "url": "/hubballi-dharwad/",
     "state": "Karnataka",
     "city": "Hubballi-Dharwad",
     "tier": 2.0,
@@ -10319,7 +10319,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Hubballi-Dharwad",
-    "introParagraph": "Hubballi-Dharwad's buyers order piping hardware for concrete reasons: Machine tools & engineering, railway workshop (SWR HQ), agro machinery. From our Mumbai works we supply <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Tarihal & Belur industrial areas, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Hubballi-Dharwad's buyers order piping hardware for concrete reasons: Machine tools & engineering, railway workshop (SWR HQ), agro machinery. From our Mumbai works we supply <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Tarihal & Belur industrial areas, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH48 via Pune (~570 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Hubballi-Dharwad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -10330,11 +10330,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -10346,11 +10346,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           }
         ]
       },
@@ -10362,11 +10362,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -10523,24 +10523,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bengaluru",
-        "url": "/bengaluru"
+        "url": "/bengaluru/"
       },
       {
         "name": "Mysuru",
-        "url": "/mysuru"
+        "url": "/mysuru/"
       },
       {
         "name": "Mangaluru",
-        "url": "/mangaluru"
+        "url": "/mangaluru/"
       },
       {
         "name": "Belagavi",
-        "url": "/belagavi"
+        "url": "/belagavi/"
       }
     ]
   },
   "mangaluru": {
-    "url": "/mangaluru",
+    "url": "/mangaluru/",
     "state": "Karnataka",
     "city": "Mangaluru",
     "tier": 1.0,
@@ -10575,7 +10575,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Mangaluru",
-    "introParagraph": "Supplying Mangaluru means understanding MRPL refinery, Mangalore Chemicals & Fertilizers, New Mangalore Port, petrochem. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into Baikampady industrial area, MSEZ — A105, F11/F22, SS 316L, Duplex 2205, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Mangaluru means understanding MRPL refinery, Mangalore Chemicals & Fertilizers, New Mangalore Port, petrochem. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into Baikampady industrial area, MSEZ — A105, F11/F22, SS 316L, Duplex 2205, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH66 via Goa (~890 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Mangaluru. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -10586,11 +10586,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           }
         ]
       },
@@ -10602,11 +10602,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Butt Weld Tee",
-            "url": "/products/buttweld-fittings/butt-weld-tee-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-tee-fittings/"
           }
         ]
       },
@@ -10618,11 +10618,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -10779,24 +10779,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bengaluru",
-        "url": "/bengaluru"
+        "url": "/bengaluru/"
       },
       {
         "name": "Mysuru",
-        "url": "/mysuru"
+        "url": "/mysuru/"
       },
       {
         "name": "Hubballi Dharwad",
-        "url": "/hubballi-dharwad"
+        "url": "/hubballi-dharwad/"
       },
       {
         "name": "Belagavi",
-        "url": "/belagavi"
+        "url": "/belagavi/"
       }
     ]
   },
   "belagavi": {
-    "url": "/belagavi",
+    "url": "/belagavi/",
     "state": "Karnataka",
     "city": "Belagavi",
     "tier": 2.0,
@@ -10831,7 +10831,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Belagavi",
-    "introParagraph": "Around Udyambag industrial estate, Auto Nagar, procurement runs on Foundry & hydraulics cluster, aerospace precision components (SEZ), sugar plants. We serve this demand from Mumbai with <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Udyambag industrial estate, Auto Nagar, procurement runs on Foundry & hydraulics cluster, aerospace precision components (SEZ), sugar plants. We serve this demand from Mumbai with <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH48 via Pune–Kolhapur (~500 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Belagavi. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -10842,11 +10842,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -10858,11 +10858,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -10874,11 +10874,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -11035,24 +11035,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bengaluru",
-        "url": "/bengaluru"
+        "url": "/bengaluru/"
       },
       {
         "name": "Mysuru",
-        "url": "/mysuru"
+        "url": "/mysuru/"
       },
       {
         "name": "Hubballi Dharwad",
-        "url": "/hubballi-dharwad"
+        "url": "/hubballi-dharwad/"
       },
       {
         "name": "Mangaluru",
-        "url": "/mangaluru"
+        "url": "/mangaluru/"
       }
     ]
   },
   "thrissur": {
-    "url": "/thrissur",
+    "url": "/thrissur/",
     "state": "Kerala",
     "city": "Thrissur",
     "tier": 3.0,
@@ -11087,7 +11087,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Thrissur",
-    "introParagraph": "Thrissur's buyers order piping hardware for concrete reasons: Engineering fabrication, rubber processing, gold & food processing. From our Mumbai works we supply <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Ollur & Athani industrial areas, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Thrissur's buyers order piping hardware for concrete reasons: Engineering fabrication, rubber processing, gold & food processing. From our Mumbai works we supply <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Ollur & Athani industrial areas, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH66 via Mangaluru. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Thrissur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -11098,11 +11098,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -11114,11 +11114,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -11263,24 +11263,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Kollam",
-        "url": "/kollam"
+        "url": "/kollam/"
       },
       {
         "name": "Kozhikode",
-        "url": "/kozhikode"
+        "url": "/kozhikode/"
       },
       {
         "name": "Kochi",
-        "url": "/kochi"
+        "url": "/kochi/"
       },
       {
         "name": "Thiruvananthapuram",
-        "url": "/thiruvananthapuram"
+        "url": "/thiruvananthapuram/"
       }
     ]
   },
   "kollam": {
-    "url": "/kollam",
+    "url": "/kollam/",
     "state": "Kerala",
     "city": "Kollam",
     "tier": 3.0,
@@ -11315,7 +11315,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kollam",
-    "introParagraph": "Supplying Kollam means understanding KMML titanium complex (Chavara), ceramics, cashew processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Kundara industrial belt; KMML Chavara nearby — SS 316L/317L, Duplex 2205, Alloy 20, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Kollam means understanding KMML titanium complex (Chavara), ceramics, cashew processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Kundara industrial belt; KMML Chavara nearby — SS 316L/317L, Duplex 2205, Alloy 20, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH66 coastal route. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Kollam. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -11326,11 +11326,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -11342,11 +11342,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -11358,11 +11358,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -11507,24 +11507,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Thrissur",
-        "url": "/thrissur"
+        "url": "/thrissur/"
       },
       {
         "name": "Kozhikode",
-        "url": "/kozhikode"
+        "url": "/kozhikode/"
       },
       {
         "name": "Kochi",
-        "url": "/kochi"
+        "url": "/kochi/"
       },
       {
         "name": "Thiruvananthapuram",
-        "url": "/thiruvananthapuram"
+        "url": "/thiruvananthapuram/"
       }
     ]
   },
   "kozhikode": {
-    "url": "/kozhikode",
+    "url": "/kozhikode/",
     "state": "Kerala",
     "city": "Kozhikode",
     "tier": 3.0,
@@ -11559,7 +11559,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kozhikode",
-    "introParagraph": "Around Kinfra park, West Hill industrial units, procurement runs on Timber & plywood, footwear, light engineering. We serve this demand from Mumbai with <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Kinfra park, West Hill industrial units, procurement runs on Timber & plywood, footwear, light engineering. We serve this demand from Mumbai with <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH66 via Mangaluru. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Kozhikode. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -11570,11 +11570,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -11586,11 +11586,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -11735,24 +11735,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Thrissur",
-        "url": "/thrissur"
+        "url": "/thrissur/"
       },
       {
         "name": "Kollam",
-        "url": "/kollam"
+        "url": "/kollam/"
       },
       {
         "name": "Kochi",
-        "url": "/kochi"
+        "url": "/kochi/"
       },
       {
         "name": "Thiruvananthapuram",
-        "url": "/thiruvananthapuram"
+        "url": "/thiruvananthapuram/"
       }
     ]
   },
   "kochi": {
-    "url": "/kochi",
+    "url": "/kochi/",
     "state": "Kerala",
     "city": "Kochi",
     "tier": 1.0,
@@ -11787,7 +11787,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kochi",
-    "introParagraph": "Kochi's buyers order piping hardware for concrete reasons: BPCL Kochi Refinery, Cochin Shipyard, FACT fertilizers, Cochin Port & LNG terminal. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Ambalamugal (BPCL-KR belt), Edayar, Willingdon Island, in A105, F11/F22, SS 316L, Duplex 2205 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Kochi's buyers order piping hardware for concrete reasons: BPCL Kochi Refinery, Cochin Shipyard, FACT fertilizers, Cochin Port & LNG terminal. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Ambalamugal (BPCL-KR belt), Edayar, Willingdon Island, in A105, F11/F22, SS 316L, Duplex 2205 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH66 via Mangaluru (~1,380 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Kochi. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -11798,11 +11798,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           }
         ]
       },
@@ -11814,11 +11814,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -11830,11 +11830,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Butt Weld Tee",
-            "url": "/products/buttweld-fittings/butt-weld-tee-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-tee-fittings/"
           }
         ]
       }
@@ -11991,24 +11991,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Thrissur",
-        "url": "/thrissur"
+        "url": "/thrissur/"
       },
       {
         "name": "Kollam",
-        "url": "/kollam"
+        "url": "/kollam/"
       },
       {
         "name": "Kozhikode",
-        "url": "/kozhikode"
+        "url": "/kozhikode/"
       },
       {
         "name": "Thiruvananthapuram",
-        "url": "/thiruvananthapuram"
+        "url": "/thiruvananthapuram/"
       }
     ]
   },
   "thiruvananthapuram": {
-    "url": "/thiruvananthapuram",
+    "url": "/thiruvananthapuram/",
     "state": "Kerala",
     "city": "Thiruvananthapuram",
     "tier": 2.0,
@@ -12043,7 +12043,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Thiruvananthapuram",
-    "introParagraph": "Supplying Thiruvananthapuram means understanding VSSC/ISRO aerospace, Travancore Titanium, Vizhinjam deep-water port works. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> from Mumbai into Kinfra & Veli industrial estates, Vizhinjam port zone — SS 316L, Inconel 625 & Monel on order, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Thiruvananthapuram means understanding VSSC/ISRO aerospace, Travancore Titanium, Vizhinjam deep-water port works. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> from Mumbai into Kinfra & Veli industrial estates, Vizhinjam port zone — SS 316L, Inconel 625 & Monel on order, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH66 coastal route. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Thiruvananthapuram. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -12054,11 +12054,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -12070,11 +12070,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -12086,11 +12086,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -12247,24 +12247,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Thrissur",
-        "url": "/thrissur"
+        "url": "/thrissur/"
       },
       {
         "name": "Kollam",
-        "url": "/kollam"
+        "url": "/kollam/"
       },
       {
         "name": "Kozhikode",
-        "url": "/kozhikode"
+        "url": "/kozhikode/"
       },
       {
         "name": "Kochi",
-        "url": "/kochi"
+        "url": "/kochi/"
       }
     ]
   },
   "ujjain": {
-    "url": "/ujjain",
+    "url": "/ujjain/",
     "state": "Madhya Pradesh",
     "city": "Ujjain",
     "tier": 3.0,
@@ -12299,7 +12299,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Ujjain",
-    "introParagraph": "Around Vikram Udyogpuri, Tarana industrial area, procurement runs on Agro & soya processing, Simhastha/urban infrastructure. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Vikram Udyogpuri, Tarana industrial area, procurement runs on Agro & soya processing, Simhastha/urban infrastructure. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH52 via Indore. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Ujjain. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -12310,11 +12310,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -12326,11 +12326,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -12475,24 +12475,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Gwalior",
-        "url": "/gwalior"
+        "url": "/gwalior/"
       },
       {
         "name": "Jabalpur",
-        "url": "/jabalpur"
+        "url": "/jabalpur/"
       },
       {
         "name": "Bhopal",
-        "url": "/bhopal"
+        "url": "/bhopal/"
       },
       {
         "name": "Indore",
-        "url": "/indore"
+        "url": "/indore/"
       }
     ]
   },
   "gwalior": {
-    "url": "/gwalior",
+    "url": "/gwalior/",
     "state": "Madhya Pradesh",
     "city": "Gwalior",
     "tier": 3.0,
@@ -12527,7 +12527,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Gwalior",
-    "introParagraph": "Gwalior's buyers order piping hardware for concrete reasons: Auto components, FMCG & packaging, defence establishments. From our Mumbai works we supply <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Malanpur-Banmore industrial belt, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Gwalior's buyers order piping hardware for concrete reasons: Auto components, FMCG & packaging, defence establishments. From our Mumbai works we supply <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Malanpur-Banmore industrial belt, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH44 via Indore–Guna. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Gwalior. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -12538,11 +12538,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -12554,11 +12554,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -12570,11 +12570,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -12719,24 +12719,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Ujjain",
-        "url": "/ujjain"
+        "url": "/ujjain/"
       },
       {
         "name": "Jabalpur",
-        "url": "/jabalpur"
+        "url": "/jabalpur/"
       },
       {
         "name": "Bhopal",
-        "url": "/bhopal"
+        "url": "/bhopal/"
       },
       {
         "name": "Indore",
-        "url": "/indore"
+        "url": "/indore/"
       }
     ]
   },
   "jabalpur": {
-    "url": "/jabalpur",
+    "url": "/jabalpur/",
     "state": "Madhya Pradesh",
     "city": "Jabalpur",
     "tier": 2.0,
@@ -12771,7 +12771,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Jabalpur",
-    "introParagraph": "Supplying Jabalpur means understanding Gun Carriage Factory, Vehicle Factory & GIF ordnance cluster, mineral processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> from Mumbai into Richhai & Adhartal industrial areas, ordnance belt — SS 316L, Inconel 625 & Monel on order, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Jabalpur means understanding Gun Carriage Factory, Vehicle Factory & GIF ordnance cluster, mineral processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> from Mumbai into Richhai & Adhartal industrial areas, ordnance belt — SS 316L, Inconel 625 & Monel on order, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH34 via Nagpur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Jabalpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -12782,11 +12782,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -12798,11 +12798,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -12814,11 +12814,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           }
         ]
       }
@@ -12975,24 +12975,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Ujjain",
-        "url": "/ujjain"
+        "url": "/ujjain/"
       },
       {
         "name": "Gwalior",
-        "url": "/gwalior"
+        "url": "/gwalior/"
       },
       {
         "name": "Bhopal",
-        "url": "/bhopal"
+        "url": "/bhopal/"
       },
       {
         "name": "Indore",
-        "url": "/indore"
+        "url": "/indore/"
       }
     ]
   },
   "bhopal": {
-    "url": "/bhopal",
+    "url": "/bhopal/",
     "state": "Madhya Pradesh",
     "city": "Bhopal",
     "tier": 2.0,
@@ -13027,7 +13027,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bhopal",
-    "introParagraph": "Around Mandideep & Govindpura industrial areas, procurement runs on BHEL Bhopal (heavy electricals), HEG graphite, engineering & fabrication. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Mandideep & Govindpura industrial areas, procurement runs on BHEL Bhopal (heavy electricals), HEG graphite, engineering & fabrication. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH46 via Nashik–Indore. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Bhopal. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -13038,11 +13038,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -13054,11 +13054,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -13070,11 +13070,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           }
         ]
       }
@@ -13231,24 +13231,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Ujjain",
-        "url": "/ujjain"
+        "url": "/ujjain/"
       },
       {
         "name": "Gwalior",
-        "url": "/gwalior"
+        "url": "/gwalior/"
       },
       {
         "name": "Jabalpur",
-        "url": "/jabalpur"
+        "url": "/jabalpur/"
       },
       {
         "name": "Indore",
-        "url": "/indore"
+        "url": "/indore/"
       }
     ]
   },
   "indore": {
-    "url": "/indore",
+    "url": "/indore/",
     "state": "Madhya Pradesh",
     "city": "Indore",
     "tier": 1.0,
@@ -13283,7 +13283,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Indore",
-    "introParagraph": "Indore's buyers order piping hardware for concrete reasons: Auto & commercial vehicles (Pithampur), pharma, soya & food processing, engineering. From our Mumbai works we supply <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Pithampur (Detroit of MP), Sanwer Road, Palda, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Indore's buyers order piping hardware for concrete reasons: Auto & commercial vehicles (Pithampur), pharma, soya & food processing, engineering. From our Mumbai works we supply <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Pithampur (Detroit of MP), Sanwer Road, Palda, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH52 via Nashik (~590 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Indore. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -13294,11 +13294,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -13310,11 +13310,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -13326,11 +13326,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -13487,24 +13487,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Ujjain",
-        "url": "/ujjain"
+        "url": "/ujjain/"
       },
       {
         "name": "Gwalior",
-        "url": "/gwalior"
+        "url": "/gwalior/"
       },
       {
         "name": "Jabalpur",
-        "url": "/jabalpur"
+        "url": "/jabalpur/"
       },
       {
         "name": "Bhopal",
-        "url": "/bhopal"
+        "url": "/bhopal/"
       }
     ]
   },
   "mumbai": {
-    "url": "/mumbai",
+    "url": "/mumbai/",
     "state": "Maharashtra",
     "city": "Mumbai",
     "tier": 1.0,
@@ -13539,7 +13539,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Mumbai",
-    "introParagraph": "Supplying Mumbai means understanding HQ city: HPCL & BPCL refineries, RCF Chembur, Mazagon Dock, BARC, JNPT belt. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into MIDC Andheri, Taloja & Rabale (TTC), port zone — A105, F11/F22, SS 316L, Duplex 2205, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Mumbai means understanding HQ city: HPCL & BPCL refineries, RCF Chembur, Mazagon Dock, BARC, JNPT belt. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into MIDC Andheri, Taloja & Rabale (TTC), port zone — A105, F11/F22, SS 316L, Duplex 2205, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: Local dispatch — same-day/next-day. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Mumbai. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -13550,11 +13550,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           }
         ]
       },
@@ -13566,11 +13566,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -13582,11 +13582,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -13598,11 +13598,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -13759,24 +13759,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Nagpur",
-        "url": "/nagpur"
+        "url": "/nagpur/"
       },
       {
         "name": "Nashik",
-        "url": "/nashik"
+        "url": "/nashik/"
       },
       {
         "name": "Pune",
-        "url": "/pune"
+        "url": "/pune/"
       },
       {
         "name": "Thane",
-        "url": "/thane"
+        "url": "/thane/"
       }
     ]
   },
   "nagpur": {
-    "url": "/nagpur",
+    "url": "/nagpur/",
     "state": "Maharashtra",
     "city": "Nagpur",
     "tier": 2.0,
@@ -13811,7 +13811,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Nagpur",
-    "introParagraph": "Around Butibori & Hingna MIDC, MIHAN SEZ, procurement runs on Power gear & transmission, MIHAN aerospace/logistics, Koradi-Khaperkheda thermal belt. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Butibori & Hingna MIDC, MIHAN SEZ, procurement runs on Power gear & transmission, MIHAN aerospace/logistics, Koradi-Khaperkheda thermal belt. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH48+NH53 via Pune–Amravati (~830 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Nagpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -13822,11 +13822,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -13838,11 +13838,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -13854,11 +13854,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       }
@@ -14015,24 +14015,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Mumbai",
-        "url": "/mumbai"
+        "url": "/mumbai/"
       },
       {
         "name": "Nashik",
-        "url": "/nashik"
+        "url": "/nashik/"
       },
       {
         "name": "Pune",
-        "url": "/pune"
+        "url": "/pune/"
       },
       {
         "name": "Thane",
-        "url": "/thane"
+        "url": "/thane/"
       }
     ]
   },
   "nashik": {
-    "url": "/nashik",
+    "url": "/nashik/",
     "state": "Maharashtra",
     "city": "Nashik",
     "tier": 1.0,
@@ -14067,7 +14067,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Nashik",
-    "introParagraph": "Nashik's buyers order piping hardware for concrete reasons: HAL Ozar aircraft division, auto & engineering (Mahindra, Bosch belt), wineries. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> into Ambad, Satpur & Sinnar MIDC, in SS 316L, Inconel 625 & Monel on order — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Nashik's buyers order piping hardware for concrete reasons: HAL Ozar aircraft division, auto & engineering (Mahindra, Bosch belt), wineries. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> into Ambad, Satpur & Sinnar MIDC, in SS 316L, Inconel 625 & Monel on order — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH160 direct (~170 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Nashik. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -14078,11 +14078,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -14094,11 +14094,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -14110,11 +14110,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -14271,24 +14271,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Mumbai",
-        "url": "/mumbai"
+        "url": "/mumbai/"
       },
       {
         "name": "Nagpur",
-        "url": "/nagpur"
+        "url": "/nagpur/"
       },
       {
         "name": "Pune",
-        "url": "/pune"
+        "url": "/pune/"
       },
       {
         "name": "Thane",
-        "url": "/thane"
+        "url": "/thane/"
       }
     ]
   },
   "pune": {
-    "url": "/pune",
+    "url": "/pune/",
     "state": "Maharashtra",
     "city": "Pune",
     "tier": 1.0,
@@ -14323,7 +14323,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Pune",
-    "introParagraph": "Supplying Pune means understanding Auto capital (Tata, Bajaj, VW belt), engineering & machine tools, defence R&D. Remax Forge ships <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into Chakan, Ranjangaon, Bhosari & Pimpri-Chinchwad MIDC — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Pune means understanding Auto capital (Tata, Bajaj, VW belt), engineering & machine tools, defence R&D. Remax Forge ships <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into Chakan, Ranjangaon, Bhosari & Pimpri-Chinchwad MIDC — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH48 direct (~150 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Pune. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -14334,11 +14334,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -14350,11 +14350,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -14366,11 +14366,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -14527,24 +14527,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Mumbai",
-        "url": "/mumbai"
+        "url": "/mumbai/"
       },
       {
         "name": "Nagpur",
-        "url": "/nagpur"
+        "url": "/nagpur/"
       },
       {
         "name": "Nashik",
-        "url": "/nashik"
+        "url": "/nashik/"
       },
       {
         "name": "Thane",
-        "url": "/thane"
+        "url": "/thane/"
       }
     ]
   },
   "thane": {
-    "url": "/thane",
+    "url": "/thane/",
     "state": "Maharashtra",
     "city": "Thane",
     "tier": 2.0,
@@ -14579,7 +14579,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Thane",
-    "introParagraph": "Around Wagle Estate, TTC MIDC fringe, procurement runs on Chemicals & specialty processing, engineering, cable & electricals. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/317L, Duplex 2205, Alloy 20, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Wagle Estate, TTC MIDC fringe, procurement runs on Chemicals & specialty processing, engineering, cable & electricals. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/317L, Duplex 2205, Alloy 20, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: Local dispatch (~30 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Thane. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -14590,11 +14590,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -14606,11 +14606,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -14767,24 +14767,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Mumbai",
-        "url": "/mumbai"
+        "url": "/mumbai/"
       },
       {
         "name": "Nagpur",
-        "url": "/nagpur"
+        "url": "/nagpur/"
       },
       {
         "name": "Nashik",
-        "url": "/nashik"
+        "url": "/nashik/"
       },
       {
         "name": "Pune",
-        "url": "/pune"
+        "url": "/pune/"
       }
     ]
   },
   "imphal": {
-    "url": "/imphal",
+    "url": "/imphal/",
     "state": "Manipur",
     "city": "Imphal",
     "tier": 3.0,
@@ -14819,7 +14819,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Imphal",
-    "introParagraph": "Imphal's buyers order piping hardware for concrete reasons: State utilities, food park, PHED water schemes. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Takyelpat industrial estate, in A105, SS 304, galvanized options — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Imphal's buyers order piping hardware for concrete reasons: State utilities, food park, PHED water schemes. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Takyelpat industrial estate, in A105, SS 304, galvanized options — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH27+NH37 via Guwahati–Silchar. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Imphal. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -14830,11 +14830,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -14846,11 +14846,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -14995,24 +14995,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Thoubal",
-        "url": "/thoubal"
+        "url": "/thoubal/"
       },
       {
         "name": "Bishnupur",
-        "url": "/bishnupur"
+        "url": "/bishnupur/"
       },
       {
         "name": "Kakching",
-        "url": "/kakching"
+        "url": "/kakching/"
       },
       {
         "name": "Churachandpur",
-        "url": "/churachandpur"
+        "url": "/churachandpur/"
       }
     ]
   },
   "thoubal": {
-    "url": "/thoubal",
+    "url": "/thoubal/",
     "state": "Manipur",
     "city": "Thoubal",
     "tier": 3.0,
@@ -15047,7 +15047,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Thoubal",
-    "introParagraph": "Supplying Thoubal means understanding Agro processing, sugar mill legacy, water infrastructure. Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into District agro units — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Thoubal means understanding Agro processing, sugar mill legacy, water infrastructure. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into District agro units — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: via Imphal. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Thoubal. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -15058,11 +15058,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -15074,11 +15074,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -15223,24 +15223,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Imphal",
-        "url": "/imphal"
+        "url": "/imphal/"
       },
       {
         "name": "Bishnupur",
-        "url": "/bishnupur"
+        "url": "/bishnupur/"
       },
       {
         "name": "Kakching",
-        "url": "/kakching"
+        "url": "/kakching/"
       },
       {
         "name": "Churachandpur",
-        "url": "/churachandpur"
+        "url": "/churachandpur/"
       }
     ]
   },
   "bishnupur": {
-    "url": "/bishnupur",
+    "url": "/bishnupur/",
     "state": "Manipur",
     "city": "Bishnupur",
     "tier": 3.0,
@@ -15275,7 +15275,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bishnupur",
-    "introParagraph": "Around Loktak project area, procurement runs on NHPC Loktak hydro power station, fisheries & agro. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> in A105, A350 LF2 (low-temp), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Loktak project area, procurement runs on NHPC Loktak hydro power station, fisheries & agro. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> in A105, A350 LF2 (low-temp), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: via Imphal. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Bishnupur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -15286,11 +15286,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -15302,11 +15302,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -15451,24 +15451,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Imphal",
-        "url": "/imphal"
+        "url": "/imphal/"
       },
       {
         "name": "Thoubal",
-        "url": "/thoubal"
+        "url": "/thoubal/"
       },
       {
         "name": "Kakching",
-        "url": "/kakching"
+        "url": "/kakching/"
       },
       {
         "name": "Churachandpur",
-        "url": "/churachandpur"
+        "url": "/churachandpur/"
       }
     ]
   },
   "kakching": {
-    "url": "/kakching",
+    "url": "/kakching/",
     "state": "Manipur",
     "city": "Kakching",
     "tier": 3.0,
@@ -15503,7 +15503,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kakching",
-    "introParagraph": "Kakching's buyers order piping hardware for concrete reasons: Agro processing, irrigation infrastructure. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into District agro belt, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Kakching's buyers order piping hardware for concrete reasons: Agro processing, irrigation infrastructure. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into District agro belt, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: via Imphal. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Kakching. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -15514,11 +15514,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -15530,11 +15530,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -15679,24 +15679,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Imphal",
-        "url": "/imphal"
+        "url": "/imphal/"
       },
       {
         "name": "Thoubal",
-        "url": "/thoubal"
+        "url": "/thoubal/"
       },
       {
         "name": "Bishnupur",
-        "url": "/bishnupur"
+        "url": "/bishnupur/"
       },
       {
         "name": "Churachandpur",
-        "url": "/churachandpur"
+        "url": "/churachandpur/"
       }
     ]
   },
   "churachandpur": {
-    "url": "/churachandpur",
+    "url": "/churachandpur/",
     "state": "Manipur",
     "city": "Churachandpur",
     "tier": 3.0,
@@ -15731,7 +15731,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Churachandpur",
-    "introParagraph": "Supplying Churachandpur means understanding Small hydel, agro processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into District HQ units — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Churachandpur means understanding Small hydel, agro processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into District HQ units — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: via Imphal. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 10 days to Churachandpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -15742,11 +15742,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -15758,11 +15758,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -15907,24 +15907,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Imphal",
-        "url": "/imphal"
+        "url": "/imphal/"
       },
       {
         "name": "Thoubal",
-        "url": "/thoubal"
+        "url": "/thoubal/"
       },
       {
         "name": "Bishnupur",
-        "url": "/bishnupur"
+        "url": "/bishnupur/"
       },
       {
         "name": "Kakching",
-        "url": "/kakching"
+        "url": "/kakching/"
       }
     ]
   },
   "cherrapunji": {
-    "url": "/cherrapunji",
+    "url": "/cherrapunji/",
     "state": "Meghalaya",
     "city": "Cherrapunji",
     "tier": 3.0,
@@ -15959,7 +15959,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Cherrapunji",
-    "introParagraph": "Around Sohra limestone belt, procurement runs on Limestone & cement legacy units, tourism infrastructure. We serve this demand from Mumbai with <a href=\"/product-details/hardox-plate\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> in A105, Hardox 400/450, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Sohra limestone belt, procurement runs on Limestone & cement legacy units, tourism infrastructure. We serve this demand from Mumbai with <a href=\"/product-details/hardox-plate/\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> in A105, Hardox 400/450, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH27+NH6 via Guwahati–Shillong. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Cherrapunji. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -15970,11 +15970,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       },
@@ -15986,11 +15986,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -16135,24 +16135,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Nongpoh",
-        "url": "/nongpoh"
+        "url": "/nongpoh/"
       },
       {
         "name": "Shillong",
-        "url": "/shillong"
+        "url": "/shillong/"
       },
       {
         "name": "Tura",
-        "url": "/tura"
+        "url": "/tura/"
       },
       {
         "name": "Williamnagar",
-        "url": "/williamnagar"
+        "url": "/williamnagar/"
       }
     ]
   },
   "nongpoh": {
-    "url": "/nongpoh",
+    "url": "/nongpoh/",
     "state": "Meghalaya",
     "city": "Nongpoh",
     "tier": 2.0,
@@ -16187,7 +16187,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Nongpoh",
-    "introParagraph": "Nongpoh's buyers order piping hardware for concrete reasons: Ferro alloys, cement & steel re-rolling units at Byrnihat. From our Mumbai works we supply <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Byrnihat industrial area (EPIP), in A105, A350 LF2, SS 304 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Nongpoh's buyers order piping hardware for concrete reasons: Ferro alloys, cement & steel re-rolling units at Byrnihat. From our Mumbai works we supply <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Byrnihat industrial area (EPIP), in A105, A350 LF2, SS 304 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH6 via Guwahati (~60 km from Guwahati). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 7 days to Nongpoh. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -16198,11 +16198,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -16214,11 +16214,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       }
@@ -16375,24 +16375,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Cherrapunji",
-        "url": "/cherrapunji"
+        "url": "/cherrapunji/"
       },
       {
         "name": "Shillong",
-        "url": "/shillong"
+        "url": "/shillong/"
       },
       {
         "name": "Tura",
-        "url": "/tura"
+        "url": "/tura/"
       },
       {
         "name": "Williamnagar",
-        "url": "/williamnagar"
+        "url": "/williamnagar/"
       }
     ]
   },
   "shillong": {
-    "url": "/shillong",
+    "url": "/shillong/",
     "state": "Meghalaya",
     "city": "Shillong",
     "tier": 3.0,
@@ -16427,7 +16427,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Shillong",
-    "introParagraph": "Supplying Shillong means understanding State utilities, hydel (MeECL), water supply schemes. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into State capital; MePDCL project sites — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Shillong means understanding State utilities, hydel (MeECL), water supply schemes. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into State capital; MePDCL project sites — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH6 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Shillong. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -16438,11 +16438,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -16454,11 +16454,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -16603,24 +16603,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Cherrapunji",
-        "url": "/cherrapunji"
+        "url": "/cherrapunji/"
       },
       {
         "name": "Nongpoh",
-        "url": "/nongpoh"
+        "url": "/nongpoh/"
       },
       {
         "name": "Tura",
-        "url": "/tura"
+        "url": "/tura/"
       },
       {
         "name": "Williamnagar",
-        "url": "/williamnagar"
+        "url": "/williamnagar/"
       }
     ]
   },
   "tura": {
-    "url": "/tura",
+    "url": "/tura/",
     "state": "Meghalaya",
     "city": "Tura",
     "tier": 3.0,
@@ -16655,7 +16655,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Tura",
-    "introParagraph": "Around Garo Hills district HQ, procurement runs on Agro processing, water infrastructure. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Garo Hills district HQ, procurement runs on Agro processing, water infrastructure. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Tura. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -16666,11 +16666,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -16682,11 +16682,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -16831,24 +16831,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Cherrapunji",
-        "url": "/cherrapunji"
+        "url": "/cherrapunji/"
       },
       {
         "name": "Nongpoh",
-        "url": "/nongpoh"
+        "url": "/nongpoh/"
       },
       {
         "name": "Shillong",
-        "url": "/shillong"
+        "url": "/shillong/"
       },
       {
         "name": "Williamnagar",
-        "url": "/williamnagar"
+        "url": "/williamnagar/"
       }
     ]
   },
   "williamnagar": {
-    "url": "/williamnagar",
+    "url": "/williamnagar/",
     "state": "Meghalaya",
     "city": "Williamnagar",
     "tier": 3.0,
@@ -16883,7 +16883,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Williamnagar",
-    "introParagraph": "Williamnagar's buyers order piping hardware for concrete reasons: Coal belt logistics, agro processing. From our Mumbai works we supply <a href=\"/product-details/hardox-plate\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> into East Garo Hills HQ, in A105, Hardox 400/450 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Williamnagar's buyers order piping hardware for concrete reasons: Coal belt logistics, agro processing. From our Mumbai works we supply <a href=\"/product-details/hardox-plate/\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> into East Garo Hills HQ, in A105, Hardox 400/450 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Williamnagar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -16894,11 +16894,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       },
@@ -16910,11 +16910,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -17059,24 +17059,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Cherrapunji",
-        "url": "/cherrapunji"
+        "url": "/cherrapunji/"
       },
       {
         "name": "Nongpoh",
-        "url": "/nongpoh"
+        "url": "/nongpoh/"
       },
       {
         "name": "Shillong",
-        "url": "/shillong"
+        "url": "/shillong/"
       },
       {
         "name": "Tura",
-        "url": "/tura"
+        "url": "/tura/"
       }
     ]
   },
   "aizawl": {
-    "url": "/aizawl",
+    "url": "/aizawl/",
     "state": "Mizoram",
     "city": "Aizawl",
     "tier": 3.0,
@@ -17111,7 +17111,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Aizawl",
-    "introParagraph": "Supplying Aizawl means understanding State utilities, PHED water schemes, bamboo processing. Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Zuangtui industrial estate — A105, SS 304, galvanized options, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Aizawl means understanding State utilities, PHED water schemes, bamboo processing. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Zuangtui industrial estate — A105, SS 304, galvanized options, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH306 via Silchar. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Aizawl. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -17122,11 +17122,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -17138,11 +17138,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -17287,24 +17287,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Champhai",
-        "url": "/champhai"
+        "url": "/champhai/"
       },
       {
         "name": "Kolasib",
-        "url": "/kolasib"
+        "url": "/kolasib/"
       },
       {
         "name": "Lunglei",
-        "url": "/lunglei"
+        "url": "/lunglei/"
       },
       {
         "name": "Serchhip",
-        "url": "/serchhip"
+        "url": "/serchhip/"
       }
     ]
   },
   "champhai": {
-    "url": "/champhai",
+    "url": "/champhai/",
     "state": "Mizoram",
     "city": "Champhai",
     "tier": 3.0,
@@ -17339,7 +17339,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Champhai",
-    "introParagraph": "Around Border trade town, procurement runs on Border trade infrastructure, agro processing. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Border trade town, procurement runs on Border trade infrastructure, agro processing. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: via Aizawl. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 10 days to Champhai. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -17350,11 +17350,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -17366,11 +17366,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -17515,24 +17515,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Aizawl",
-        "url": "/aizawl"
+        "url": "/aizawl/"
       },
       {
         "name": "Kolasib",
-        "url": "/kolasib"
+        "url": "/kolasib/"
       },
       {
         "name": "Lunglei",
-        "url": "/lunglei"
+        "url": "/lunglei/"
       },
       {
         "name": "Serchhip",
-        "url": "/serchhip"
+        "url": "/serchhip/"
       }
     ]
   },
   "kolasib": {
-    "url": "/kolasib",
+    "url": "/kolasib/",
     "state": "Mizoram",
     "city": "Kolasib",
     "tier": 3.0,
@@ -17567,7 +17567,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kolasib",
-    "introParagraph": "Kolasib's buyers order piping hardware for concrete reasons: Hydel (Bairabi/Tuirial belt), agro. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> into Bairabi dam area, in A105, A350 LF2 (low-temp) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Kolasib's buyers order piping hardware for concrete reasons: Hydel (Bairabi/Tuirial belt), agro. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> into Bairabi dam area, in A105, A350 LF2 (low-temp) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: via Silchar. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Kolasib. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -17578,11 +17578,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -17594,11 +17594,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -17743,24 +17743,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Aizawl",
-        "url": "/aizawl"
+        "url": "/aizawl/"
       },
       {
         "name": "Champhai",
-        "url": "/champhai"
+        "url": "/champhai/"
       },
       {
         "name": "Lunglei",
-        "url": "/lunglei"
+        "url": "/lunglei/"
       },
       {
         "name": "Serchhip",
-        "url": "/serchhip"
+        "url": "/serchhip/"
       }
     ]
   },
   "lunglei": {
-    "url": "/lunglei",
+    "url": "/lunglei/",
     "state": "Mizoram",
     "city": "Lunglei",
     "tier": 3.0,
@@ -17795,7 +17795,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Lunglei",
-    "introParagraph": "Supplying Lunglei means understanding Water supply schemes, agro processing. Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into South Mizoram HQ — A105, SS 304, galvanized options, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Lunglei means understanding Water supply schemes, agro processing. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into South Mizoram HQ — A105, SS 304, galvanized options, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: via Aizawl. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 10 days to Lunglei. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -17806,11 +17806,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -17822,11 +17822,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -17971,24 +17971,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Aizawl",
-        "url": "/aizawl"
+        "url": "/aizawl/"
       },
       {
         "name": "Champhai",
-        "url": "/champhai"
+        "url": "/champhai/"
       },
       {
         "name": "Kolasib",
-        "url": "/kolasib"
+        "url": "/kolasib/"
       },
       {
         "name": "Serchhip",
-        "url": "/serchhip"
+        "url": "/serchhip/"
       }
     ]
   },
   "serchhip": {
-    "url": "/serchhip",
+    "url": "/serchhip/",
     "state": "Mizoram",
     "city": "Serchhip",
     "tier": 3.0,
@@ -18023,7 +18023,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Serchhip",
-    "introParagraph": "Around District HQ units, procurement runs on Agro processing, small infrastructure works. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around District HQ units, procurement runs on Agro processing, small infrastructure works. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: via Aizawl. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 10 days to Serchhip. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -18034,11 +18034,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -18050,11 +18050,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -18199,24 +18199,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Aizawl",
-        "url": "/aizawl"
+        "url": "/aizawl/"
       },
       {
         "name": "Champhai",
-        "url": "/champhai"
+        "url": "/champhai/"
       },
       {
         "name": "Kolasib",
-        "url": "/kolasib"
+        "url": "/kolasib/"
       },
       {
         "name": "Lunglei",
-        "url": "/lunglei"
+        "url": "/lunglei/"
       }
     ]
   },
   "dimapur": {
-    "url": "/dimapur",
+    "url": "/dimapur/",
     "state": "Nagaland",
     "city": "Dimapur",
     "tier": 3.0,
@@ -18251,7 +18251,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Dimapur",
-    "introParagraph": "Dimapur's buyers order piping hardware for concrete reasons: Nagaland's commercial hub, light engineering, agro processing. From our Mumbai works we supply <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Ganeshnagar industrial estate, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Dimapur's buyers order piping hardware for concrete reasons: Nagaland's commercial hub, light engineering, agro processing. From our Mumbai works we supply <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Ganeshnagar industrial estate, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH27 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Dimapur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -18262,11 +18262,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -18278,11 +18278,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -18427,24 +18427,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Kohima",
-        "url": "/kohima"
+        "url": "/kohima/"
       },
       {
         "name": "Mokokchung",
-        "url": "/mokokchung"
+        "url": "/mokokchung/"
       },
       {
         "name": "Tuensang",
-        "url": "/tuensang"
+        "url": "/tuensang/"
       },
       {
         "name": "Wokha",
-        "url": "/wokha"
+        "url": "/wokha/"
       }
     ]
   },
   "kohima": {
-    "url": "/kohima",
+    "url": "/kohima/",
     "state": "Nagaland",
     "city": "Kohima",
     "tier": 3.0,
@@ -18479,7 +18479,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kohima",
-    "introParagraph": "Supplying Kohima means understanding State utilities, water supply infrastructure. Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into State capital — A105, SS 304, galvanized options, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Kohima means understanding State utilities, water supply infrastructure. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into State capital — A105, SS 304, galvanized options, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: via Dimapur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Kohima. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -18490,11 +18490,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -18506,11 +18506,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -18655,24 +18655,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Dimapur",
-        "url": "/dimapur"
+        "url": "/dimapur/"
       },
       {
         "name": "Mokokchung",
-        "url": "/mokokchung"
+        "url": "/mokokchung/"
       },
       {
         "name": "Tuensang",
-        "url": "/tuensang"
+        "url": "/tuensang/"
       },
       {
         "name": "Wokha",
-        "url": "/wokha"
+        "url": "/wokha/"
       }
     ]
   },
   "mokokchung": {
-    "url": "/mokokchung",
+    "url": "/mokokchung/",
     "state": "Nagaland",
     "city": "Mokokchung",
     "tier": 3.0,
@@ -18707,7 +18707,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Mokokchung",
-    "introParagraph": "Around District HQ, procurement runs on Agro processing, small hydel. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around District HQ, procurement runs on Agro processing, small hydel. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: via Dimapur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Mokokchung. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -18718,11 +18718,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -18734,11 +18734,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       }
@@ -18883,24 +18883,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Dimapur",
-        "url": "/dimapur"
+        "url": "/dimapur/"
       },
       {
         "name": "Kohima",
-        "url": "/kohima"
+        "url": "/kohima/"
       },
       {
         "name": "Tuensang",
-        "url": "/tuensang"
+        "url": "/tuensang/"
       },
       {
         "name": "Wokha",
-        "url": "/wokha"
+        "url": "/wokha/"
       }
     ]
   },
   "tuensang": {
-    "url": "/tuensang",
+    "url": "/tuensang/",
     "state": "Nagaland",
     "city": "Tuensang",
     "tier": 3.0,
@@ -18935,7 +18935,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Tuensang",
-    "introParagraph": "Tuensang's buyers order piping hardware for concrete reasons: Agro processing, water schemes. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into District HQ, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Tuensang's buyers order piping hardware for concrete reasons: Agro processing, water schemes. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into District HQ, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: via Dimapur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 10 days to Tuensang. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -18946,11 +18946,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -18962,11 +18962,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -19111,24 +19111,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Dimapur",
-        "url": "/dimapur"
+        "url": "/dimapur/"
       },
       {
         "name": "Kohima",
-        "url": "/kohima"
+        "url": "/kohima/"
       },
       {
         "name": "Mokokchung",
-        "url": "/mokokchung"
+        "url": "/mokokchung/"
       },
       {
         "name": "Wokha",
-        "url": "/wokha"
+        "url": "/wokha/"
       }
     ]
   },
   "wokha": {
-    "url": "/wokha",
+    "url": "/wokha/",
     "state": "Nagaland",
     "city": "Wokha",
     "tier": 3.0,
@@ -19163,7 +19163,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Wokha",
-    "introParagraph": "Supplying Wokha means understanding NEEPCO Doyang hydro station, agro. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into Doyang project area — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Wokha means understanding NEEPCO Doyang hydro station, agro. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into Doyang project area — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: via Dimapur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Wokha. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -19174,11 +19174,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -19190,11 +19190,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -19339,24 +19339,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Dimapur",
-        "url": "/dimapur"
+        "url": "/dimapur/"
       },
       {
         "name": "Kohima",
-        "url": "/kohima"
+        "url": "/kohima/"
       },
       {
         "name": "Mokokchung",
-        "url": "/mokokchung"
+        "url": "/mokokchung/"
       },
       {
         "name": "Tuensang",
-        "url": "/tuensang"
+        "url": "/tuensang/"
       }
     ]
   },
   "sambalpur": {
-    "url": "/sambalpur",
+    "url": "/sambalpur/",
     "state": "Odisha",
     "city": "Sambalpur",
     "tier": 2.0,
@@ -19391,7 +19391,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Sambalpur",
-    "introParagraph": "Around Hirakud industrial belt, procurement runs on Hindalco Hirakud smelter & power, MCL coalfields, Hirakud dam systems. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Hirakud industrial belt, procurement runs on Hindalco Hirakud smelter & power, MCL coalfields, Hirakud dam systems. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH53 via Nagpur–Raipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Sambalpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -19402,11 +19402,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -19418,11 +19418,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -19434,11 +19434,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       }
@@ -19595,24 +19595,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Rourkela",
-        "url": "/rourkela"
+        "url": "/rourkela/"
       },
       {
         "name": "Berhampur",
-        "url": "/berhampur"
+        "url": "/berhampur/"
       },
       {
         "name": "Cuttack",
-        "url": "/cuttack"
+        "url": "/cuttack/"
       },
       {
         "name": "Bhubaneswar",
-        "url": "/bhubaneswar"
+        "url": "/bhubaneswar/"
       }
     ]
   },
   "rourkela": {
-    "url": "/rourkela",
+    "url": "/rourkela/",
     "state": "Odisha",
     "city": "Rourkela",
     "tier": 1.0,
@@ -19647,7 +19647,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Rourkela",
-    "introParagraph": "Rourkela's buyers order piping hardware for concrete reasons: SAIL Rourkela Steel Plant, fertilizer & cement units, engineering ancillaries. From our Mumbai works we supply <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Kalunga & Mandiakudar industrial estates, in A105, A350 LF2, SS 304 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Rourkela's buyers order piping hardware for concrete reasons: SAIL Rourkela Steel Plant, fertilizer & cement units, engineering ancillaries. From our Mumbai works we supply <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Kalunga & Mandiakudar industrial estates, in A105, A350 LF2, SS 304 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH53 via Raipur (~1,300 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Rourkela. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -19658,11 +19658,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -19674,11 +19674,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Butt Weld Tee",
-            "url": "/products/buttweld-fittings/butt-weld-tee-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-tee-fittings/"
           }
         ]
       },
@@ -19690,11 +19690,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -19851,24 +19851,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Sambalpur",
-        "url": "/sambalpur"
+        "url": "/sambalpur/"
       },
       {
         "name": "Berhampur",
-        "url": "/berhampur"
+        "url": "/berhampur/"
       },
       {
         "name": "Cuttack",
-        "url": "/cuttack"
+        "url": "/cuttack/"
       },
       {
         "name": "Bhubaneswar",
-        "url": "/bhubaneswar"
+        "url": "/bhubaneswar/"
       }
     ]
   },
   "berhampur": {
-    "url": "/berhampur",
+    "url": "/berhampur/",
     "state": "Odisha",
     "city": "Berhampur",
     "tier": 3.0,
@@ -19903,7 +19903,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Berhampur",
-    "introParagraph": "Supplying Berhampur means understanding Tata Steel SEZ Gopalpur, Indian Rare Earths (OSCOM), MSME units. Remax Forge ships <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into Gopalpur industrial park zone — A105, A350 LF2, SS 304, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Berhampur means understanding Tata Steel SEZ Gopalpur, Indian Rare Earths (OSCOM), MSME units. Remax Forge ships <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into Gopalpur industrial park zone — A105, A350 LF2, SS 304, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH16 via Visakhapatnam. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Berhampur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -19914,11 +19914,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -19930,11 +19930,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -19946,11 +19946,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -20095,24 +20095,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Sambalpur",
-        "url": "/sambalpur"
+        "url": "/sambalpur/"
       },
       {
         "name": "Rourkela",
-        "url": "/rourkela"
+        "url": "/rourkela/"
       },
       {
         "name": "Cuttack",
-        "url": "/cuttack"
+        "url": "/cuttack/"
       },
       {
         "name": "Bhubaneswar",
-        "url": "/bhubaneswar"
+        "url": "/bhubaneswar/"
       }
     ]
   },
   "cuttack": {
-    "url": "/cuttack",
+    "url": "/cuttack/",
     "state": "Odisha",
     "city": "Cuttack",
     "tier": 3.0,
@@ -20147,7 +20147,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Cuttack",
-    "introParagraph": "Around Jagatpur & Khapuria industrial estates, procurement runs on Ferro alloys, fabrication & MSME engineering. We serve this demand from Mumbai with <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Jagatpur & Khapuria industrial estates, procurement runs on Ferro alloys, fabrication & MSME engineering. We serve this demand from Mumbai with <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH16 via Visakhapatnam. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Cuttack. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -20158,11 +20158,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -20174,11 +20174,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -20323,24 +20323,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Sambalpur",
-        "url": "/sambalpur"
+        "url": "/sambalpur/"
       },
       {
         "name": "Rourkela",
-        "url": "/rourkela"
+        "url": "/rourkela/"
       },
       {
         "name": "Berhampur",
-        "url": "/berhampur"
+        "url": "/berhampur/"
       },
       {
         "name": "Bhubaneswar",
-        "url": "/bhubaneswar"
+        "url": "/bhubaneswar/"
       }
     ]
   },
   "bhubaneswar": {
-    "url": "/bhubaneswar",
+    "url": "/bhubaneswar/",
     "state": "Odisha",
     "city": "Bhubaneswar",
     "tier": 2.0,
@@ -20375,7 +20375,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bhubaneswar",
-    "introParagraph": "Bhubaneswar's buyers order piping hardware for concrete reasons: State infra & utilities; IOCL Paradip refinery belt (~90 km); engineering. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Mancheswar & Chandaka industrial estates, Khurda, in A105, F11/F22, SS 316L, Duplex 2205 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Bhubaneswar's buyers order piping hardware for concrete reasons: State infra & utilities; IOCL Paradip refinery belt (~90 km); engineering. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Mancheswar & Chandaka industrial estates, Khurda, in A105, F11/F22, SS 316L, Duplex 2205 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH16 via Visakhapatnam. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Bhubaneswar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -20386,11 +20386,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           }
         ]
       },
@@ -20402,11 +20402,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -20418,11 +20418,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -20579,24 +20579,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Sambalpur",
-        "url": "/sambalpur"
+        "url": "/sambalpur/"
       },
       {
         "name": "Rourkela",
-        "url": "/rourkela"
+        "url": "/rourkela/"
       },
       {
         "name": "Berhampur",
-        "url": "/berhampur"
+        "url": "/berhampur/"
       },
       {
         "name": "Cuttack",
-        "url": "/cuttack"
+        "url": "/cuttack/"
       }
     ]
   },
   "bathinda": {
-    "url": "/bathinda",
+    "url": "/bathinda/",
     "state": "Punjab",
     "city": "Bathinda",
     "tier": 1.0,
@@ -20631,7 +20631,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bathinda",
-    "introParagraph": "Supplying Bathinda means understanding HMEL Guru Gobind Singh Refinery, NFL fertilizer plant, thermal legacy. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into HMEL refinery zone, NFL township — A105, F11/F22, SS 316L, Duplex 2205, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Bathinda means understanding HMEL Guru Gobind Singh Refinery, NFL fertilizer plant, thermal legacy. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into HMEL refinery zone, NFL township — A105, F11/F22, SS 316L, Duplex 2205, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH48+NH52 via Jaipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Bathinda. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -20642,11 +20642,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           }
         ]
       },
@@ -20658,11 +20658,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Butt Weld Tee",
-            "url": "/products/buttweld-fittings/butt-weld-tee-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-tee-fittings/"
           }
         ]
       },
@@ -20674,11 +20674,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       }
@@ -20835,24 +20835,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Patiala",
-        "url": "/patiala"
+        "url": "/patiala/"
       },
       {
         "name": "Jalandhar",
-        "url": "/jalandhar"
+        "url": "/jalandhar/"
       },
       {
         "name": "Amritsar",
-        "url": "/amritsar"
+        "url": "/amritsar/"
       },
       {
         "name": "Ludhiana",
-        "url": "/ludhiana"
+        "url": "/ludhiana/"
       }
     ]
   },
   "patiala": {
-    "url": "/patiala",
+    "url": "/patiala/",
     "state": "Punjab",
     "city": "Patiala",
     "tier": 3.0,
@@ -20887,7 +20887,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Patiala",
-    "introParagraph": "Around Focal Point Patiala, Rajpura belt, procurement runs on Agricultural implements & foundries, Rajpura thermal plant, cutting tools. We serve this demand from Mumbai with <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Focal Point Patiala, Rajpura belt, procurement runs on Agricultural implements & foundries, Rajpura thermal plant, cutting tools. We serve this demand from Mumbai with <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH44 via Delhi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Patiala. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -20898,11 +20898,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -20914,11 +20914,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -20930,11 +20930,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -21079,24 +21079,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bathinda",
-        "url": "/bathinda"
+        "url": "/bathinda/"
       },
       {
         "name": "Jalandhar",
-        "url": "/jalandhar"
+        "url": "/jalandhar/"
       },
       {
         "name": "Amritsar",
-        "url": "/amritsar"
+        "url": "/amritsar/"
       },
       {
         "name": "Ludhiana",
-        "url": "/ludhiana"
+        "url": "/ludhiana/"
       }
     ]
   },
   "jalandhar": {
-    "url": "/jalandhar",
+    "url": "/jalandhar/",
     "state": "Punjab",
     "city": "Jalandhar",
     "tier": 2.0,
@@ -21131,7 +21131,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Jalandhar",
-    "introParagraph": "Jalandhar's buyers order piping hardware for concrete reasons: Hand tools & valves cluster, sports goods, forging units. From our Mumbai works we supply <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Focal Point Extension, Leather Complex, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Jalandhar's buyers order piping hardware for concrete reasons: Hand tools & valves cluster, sports goods, forging units. From our Mumbai works we supply <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Focal Point Extension, Leather Complex, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH44 via Delhi–Ludhiana. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Jalandhar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -21142,11 +21142,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -21158,11 +21158,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -21319,24 +21319,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bathinda",
-        "url": "/bathinda"
+        "url": "/bathinda/"
       },
       {
         "name": "Patiala",
-        "url": "/patiala"
+        "url": "/patiala/"
       },
       {
         "name": "Amritsar",
-        "url": "/amritsar"
+        "url": "/amritsar/"
       },
       {
         "name": "Ludhiana",
-        "url": "/ludhiana"
+        "url": "/ludhiana/"
       }
     ]
   },
   "amritsar": {
-    "url": "/amritsar",
+    "url": "/amritsar/",
     "state": "Punjab",
     "city": "Amritsar",
     "tier": 3.0,
@@ -21371,7 +21371,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Amritsar",
-    "introParagraph": "Supplying Amritsar means understanding Textiles & shawls, food processing (Verka), rice mills. Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Focal Point Amritsar, Verka belt — SS 304, A105, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Amritsar means understanding Textiles & shawls, food processing (Verka), rice mills. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Focal Point Amritsar, Verka belt — SS 304, A105, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH44 via Delhi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Amritsar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -21382,11 +21382,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -21398,11 +21398,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -21547,24 +21547,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bathinda",
-        "url": "/bathinda"
+        "url": "/bathinda/"
       },
       {
         "name": "Patiala",
-        "url": "/patiala"
+        "url": "/patiala/"
       },
       {
         "name": "Jalandhar",
-        "url": "/jalandhar"
+        "url": "/jalandhar/"
       },
       {
         "name": "Ludhiana",
-        "url": "/ludhiana"
+        "url": "/ludhiana/"
       }
     ]
   },
   "ludhiana": {
-    "url": "/ludhiana",
+    "url": "/ludhiana/",
     "state": "Punjab",
     "city": "Ludhiana",
     "tier": 1.0,
@@ -21599,7 +21599,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Ludhiana",
-    "introParagraph": "Around Focal Points I–VIII, Dhandari Kalan, procurement runs on Cycle & auto parts capital, fasteners & forgings, hosiery machinery, machine tools. We serve this demand from Mumbai with <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Focal Points I–VIII, Dhandari Kalan, procurement runs on Cycle & auto parts capital, fasteners & forgings, hosiery machinery, machine tools. We serve this demand from Mumbai with <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH44 via Delhi (~1,340 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Ludhiana. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -21610,11 +21610,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -21626,11 +21626,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -21642,11 +21642,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -21803,24 +21803,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bathinda",
-        "url": "/bathinda"
+        "url": "/bathinda/"
       },
       {
         "name": "Patiala",
-        "url": "/patiala"
+        "url": "/patiala/"
       },
       {
         "name": "Jalandhar",
-        "url": "/jalandhar"
+        "url": "/jalandhar/"
       },
       {
         "name": "Amritsar",
-        "url": "/amritsar"
+        "url": "/amritsar/"
       }
     ]
   },
   "bikaner": {
-    "url": "/bikaner",
+    "url": "/bikaner/",
     "state": "Rajasthan",
     "city": "Bikaner",
     "tier": 3.0,
@@ -21855,7 +21855,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bikaner",
-    "introParagraph": "Bikaner's buyers order piping hardware for concrete reasons: Ceramics, wool processing, agro & papad-bhujia cluster. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Karni & Bichhwal industrial areas, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Bikaner's buyers order piping hardware for concrete reasons: Ceramics, wool processing, agro & papad-bhujia cluster. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Karni & Bichhwal industrial areas, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH48+NH62 via Jaipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Bikaner. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -21866,11 +21866,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -21882,11 +21882,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       }
@@ -22031,28 +22031,28 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Ajmer",
-        "url": "/ajmer"
+        "url": "/ajmer/"
       },
       {
         "name": "Kota",
-        "url": "/kota"
+        "url": "/kota/"
       },
       {
         "name": "Jodhpur",
-        "url": "/jodhpur"
+        "url": "/jodhpur/"
       },
       {
         "name": "Jaipur",
-        "url": "/jaipur"
+        "url": "/jaipur/"
       },
       {
         "name": "Udaipur Rajasthan",
-        "url": "/udaipur-rajasthan"
+        "url": "/udaipur-rajasthan/"
       }
     ]
   },
   "ajmer": {
-    "url": "/ajmer",
+    "url": "/ajmer/",
     "state": "Rajasthan",
     "city": "Ajmer",
     "tier": 3.0,
@@ -22087,7 +22087,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Ajmer",
-    "introParagraph": "Supplying Ajmer means understanding Marble processing, cement belt (Beawar–Nasirabad), railway workshop. Remax Forge ships <a href=\"/product-details/hardox-plate\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> from Mumbai into Makhupura & Palra industrial areas — A105, Hardox 400/450, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Ajmer means understanding Marble processing, cement belt (Beawar–Nasirabad), railway workshop. Remax Forge ships <a href=\"/product-details/hardox-plate/\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> from Mumbai into Makhupura & Palra industrial areas — A105, Hardox 400/450, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH48 via Udaipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Ajmer. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -22098,11 +22098,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       },
@@ -22114,11 +22114,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           }
         ]
       },
@@ -22130,11 +22130,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -22279,28 +22279,28 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bikaner",
-        "url": "/bikaner"
+        "url": "/bikaner/"
       },
       {
         "name": "Kota",
-        "url": "/kota"
+        "url": "/kota/"
       },
       {
         "name": "Jodhpur",
-        "url": "/jodhpur"
+        "url": "/jodhpur/"
       },
       {
         "name": "Jaipur",
-        "url": "/jaipur"
+        "url": "/jaipur/"
       },
       {
         "name": "Udaipur Rajasthan",
-        "url": "/udaipur-rajasthan"
+        "url": "/udaipur-rajasthan/"
       }
     ]
   },
   "kota": {
-    "url": "/kota",
+    "url": "/kota/",
     "state": "Rajasthan",
     "city": "Kota",
     "tier": 2.0,
@@ -22335,7 +22335,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kota",
-    "introParagraph": "Around Indraprastha industrial area, Gadepan, procurement runs on Chambal Fertilisers (Gadepan), DCM Shriram, Kota thermal, instrumentation legacy. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> in SS 316L, Alloy 20, Duplex, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Indraprastha industrial area, Gadepan, procurement runs on Chambal Fertilisers (Gadepan), DCM Shriram, Kota thermal, instrumentation legacy. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> in SS 316L, Alloy 20, Duplex, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH52 via Indore. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Kota. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -22346,11 +22346,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Butt Weld Tee",
-            "url": "/products/buttweld-fittings/butt-weld-tee-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-tee-fittings/"
           }
         ]
       },
@@ -22362,11 +22362,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -22378,11 +22378,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -22539,28 +22539,28 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bikaner",
-        "url": "/bikaner"
+        "url": "/bikaner/"
       },
       {
         "name": "Ajmer",
-        "url": "/ajmer"
+        "url": "/ajmer/"
       },
       {
         "name": "Jodhpur",
-        "url": "/jodhpur"
+        "url": "/jodhpur/"
       },
       {
         "name": "Jaipur",
-        "url": "/jaipur"
+        "url": "/jaipur/"
       },
       {
         "name": "Udaipur Rajasthan",
-        "url": "/udaipur-rajasthan"
+        "url": "/udaipur-rajasthan/"
       }
     ]
   },
   "jodhpur": {
-    "url": "/jodhpur",
+    "url": "/jodhpur/",
     "state": "Rajasthan",
     "city": "Jodhpur",
     "tier": 3.0,
@@ -22595,7 +22595,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Jodhpur",
-    "introParagraph": "Jodhpur's buyers order piping hardware for concrete reasons: Handicrafts & furniture, guar gum processing, steel re-rolling. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Boranada & Basni industrial areas, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Jodhpur's buyers order piping hardware for concrete reasons: Handicrafts & furniture, guar gum processing, steel re-rolling. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Boranada & Basni industrial areas, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH62 via Udaipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Jodhpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -22606,11 +22606,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -22622,11 +22622,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -22638,11 +22638,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -22787,28 +22787,28 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bikaner",
-        "url": "/bikaner"
+        "url": "/bikaner/"
       },
       {
         "name": "Ajmer",
-        "url": "/ajmer"
+        "url": "/ajmer/"
       },
       {
         "name": "Kota",
-        "url": "/kota"
+        "url": "/kota/"
       },
       {
         "name": "Jaipur",
-        "url": "/jaipur"
+        "url": "/jaipur/"
       },
       {
         "name": "Udaipur Rajasthan",
-        "url": "/udaipur-rajasthan"
+        "url": "/udaipur-rajasthan/"
       }
     ]
   },
   "jaipur": {
-    "url": "/jaipur",
+    "url": "/jaipur/",
     "state": "Rajasthan",
     "city": "Jaipur",
     "tier": 2.0,
@@ -22843,7 +22843,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Jaipur",
-    "introParagraph": "Supplying Jaipur means understanding Engineering & auto components, gems & jewellery, textiles printing belt. Remax Forge ships <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into VKI, Sitapura & Bagru industrial areas, Mahindra SEZ — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Jaipur means understanding Engineering & auto components, gems & jewellery, textiles printing belt. Remax Forge ships <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into VKI, Sitapura & Bagru industrial areas, Mahindra SEZ — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH48 via Udaipur (~1,150 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Jaipur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -22854,11 +22854,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -22870,11 +22870,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -22886,11 +22886,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -23047,28 +23047,28 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bikaner",
-        "url": "/bikaner"
+        "url": "/bikaner/"
       },
       {
         "name": "Ajmer",
-        "url": "/ajmer"
+        "url": "/ajmer/"
       },
       {
         "name": "Kota",
-        "url": "/kota"
+        "url": "/kota/"
       },
       {
         "name": "Jodhpur",
-        "url": "/jodhpur"
+        "url": "/jodhpur/"
       },
       {
         "name": "Udaipur Rajasthan",
-        "url": "/udaipur-rajasthan"
+        "url": "/udaipur-rajasthan/"
       }
     ]
   },
   "udaipur-rajasthan": {
-    "url": "/udaipur-rajasthan",
+    "url": "/udaipur-rajasthan/",
     "state": "Rajasthan",
     "city": "Udaipur",
     "tier": 2.0,
@@ -23103,7 +23103,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Udaipur",
-    "introParagraph": "Around Madri & Sukher industrial areas, procurement runs on Hindustan Zinc smelting complex, marble & mineral processing, tourism infra. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Madri & Sukher industrial areas, procurement runs on Hindustan Zinc smelting complex, marble & mineral processing, tourism infra. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH48 direct (~750 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Udaipur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -23114,11 +23114,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -23130,11 +23130,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       },
@@ -23146,11 +23146,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -23307,28 +23307,28 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Bikaner",
-        "url": "/bikaner"
+        "url": "/bikaner/"
       },
       {
         "name": "Ajmer",
-        "url": "/ajmer"
+        "url": "/ajmer/"
       },
       {
         "name": "Kota",
-        "url": "/kota"
+        "url": "/kota/"
       },
       {
         "name": "Jodhpur",
-        "url": "/jodhpur"
+        "url": "/jodhpur/"
       },
       {
         "name": "Jaipur",
-        "url": "/jaipur"
+        "url": "/jaipur/"
       }
     ]
   },
   "mangan": {
-    "url": "/mangan",
+    "url": "/mangan/",
     "state": "Sikkim",
     "city": "Mangan",
     "tier": 3.0,
@@ -23363,7 +23363,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Mangan",
-    "introParagraph": "Mangan's buyers order piping hardware for concrete reasons: NHPC Teesta hydro stages, water infrastructure. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> into North Sikkim; Teesta hydel belt, in A105, A350 LF2 (low-temp) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Mangan's buyers order piping hardware for concrete reasons: NHPC Teesta hydro stages, water infrastructure. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> into North Sikkim; Teesta hydel belt, in A105, A350 LF2 (low-temp) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH10 via Siliguri–Gangtok. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 7 days to Mangan. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -23374,11 +23374,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -23390,11 +23390,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -23539,24 +23539,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Geyzing",
-        "url": "/geyzing"
+        "url": "/geyzing/"
       },
       {
         "name": "Namchi",
-        "url": "/namchi"
+        "url": "/namchi/"
       },
       {
         "name": "Jorethang",
-        "url": "/jorethang"
+        "url": "/jorethang/"
       },
       {
         "name": "Gangtok",
-        "url": "/gangtok"
+        "url": "/gangtok/"
       }
     ]
   },
   "geyzing": {
-    "url": "/geyzing",
+    "url": "/geyzing/",
     "state": "Sikkim",
     "city": "Geyzing",
     "tier": 3.0,
@@ -23591,7 +23591,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Geyzing",
-    "introParagraph": "Supplying Geyzing means understanding Small hydel, tourism infrastructure. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into West Sikkim HQ — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Geyzing means understanding Small hydel, tourism infrastructure. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into West Sikkim HQ — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH10 via Siliguri. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 7 days to Geyzing. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -23602,11 +23602,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -23618,11 +23618,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -23767,24 +23767,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Mangan",
-        "url": "/mangan"
+        "url": "/mangan/"
       },
       {
         "name": "Namchi",
-        "url": "/namchi"
+        "url": "/namchi/"
       },
       {
         "name": "Jorethang",
-        "url": "/jorethang"
+        "url": "/jorethang/"
       },
       {
         "name": "Gangtok",
-        "url": "/gangtok"
+        "url": "/gangtok/"
       }
     ]
   },
   "namchi": {
-    "url": "/namchi",
+    "url": "/namchi/",
     "state": "Sikkim",
     "city": "Namchi",
     "tier": 3.0,
@@ -23819,7 +23819,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Namchi",
-    "introParagraph": "Around South Sikkim HQ, procurement runs on Pharma belt fringe (Majitar corridor), tourism infra. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/304L, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around South Sikkim HQ, procurement runs on Pharma belt fringe (Majitar corridor), tourism infra. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/304L, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH10 via Siliguri. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 7 days to Namchi. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -23830,11 +23830,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -23846,11 +23846,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -23995,24 +23995,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Mangan",
-        "url": "/mangan"
+        "url": "/mangan/"
       },
       {
         "name": "Geyzing",
-        "url": "/geyzing"
+        "url": "/geyzing/"
       },
       {
         "name": "Jorethang",
-        "url": "/jorethang"
+        "url": "/jorethang/"
       },
       {
         "name": "Gangtok",
-        "url": "/gangtok"
+        "url": "/gangtok/"
       }
     ]
   },
   "jorethang": {
-    "url": "/jorethang",
+    "url": "/jorethang/",
     "state": "Sikkim",
     "city": "Jorethang",
     "tier": 3.0,
@@ -24047,7 +24047,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Jorethang",
-    "introParagraph": "Jorethang's buyers order piping hardware for concrete reasons: Pharma & processing units (Majitar–Rangpo corridor access), hydel. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into South Sikkim industrial pocket, in SS 316L/304L — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Jorethang's buyers order piping hardware for concrete reasons: Pharma & processing units (Majitar–Rangpo corridor access), hydel. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into South Sikkim industrial pocket, in SS 316L/304L — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH10 via Siliguri. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 7 days to Jorethang. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -24058,11 +24058,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -24074,11 +24074,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       }
@@ -24223,24 +24223,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Mangan",
-        "url": "/mangan"
+        "url": "/mangan/"
       },
       {
         "name": "Geyzing",
-        "url": "/geyzing"
+        "url": "/geyzing/"
       },
       {
         "name": "Namchi",
-        "url": "/namchi"
+        "url": "/namchi/"
       },
       {
         "name": "Gangtok",
-        "url": "/gangtok"
+        "url": "/gangtok/"
       }
     ]
   },
   "gangtok": {
-    "url": "/gangtok",
+    "url": "/gangtok/",
     "state": "Sikkim",
     "city": "Gangtok",
     "tier": 2.0,
@@ -24275,7 +24275,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Gangtok",
-    "introParagraph": "Supplying Gangtok means understanding Pharma manufacturing corridor (Sun, Cipla, Zydus belt), NHPC Teesta hydel. Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Rangpo–Majitar–Singtam pharma corridor (East Sikkim) — SS 316L/304L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Gangtok means understanding Pharma manufacturing corridor (Sun, Cipla, Zydus belt), NHPC Teesta hydel. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Rangpo–Majitar–Singtam pharma corridor (East Sikkim) — SS 316L/304L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH10 via Siliguri (~2,200 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 6 days to Gangtok. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -24286,11 +24286,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -24302,11 +24302,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       }
@@ -24463,24 +24463,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Mangan",
-        "url": "/mangan"
+        "url": "/mangan/"
       },
       {
         "name": "Geyzing",
-        "url": "/geyzing"
+        "url": "/geyzing/"
       },
       {
         "name": "Namchi",
-        "url": "/namchi"
+        "url": "/namchi/"
       },
       {
         "name": "Jorethang",
-        "url": "/jorethang"
+        "url": "/jorethang/"
       }
     ]
   },
   "salem": {
-    "url": "/salem",
+    "url": "/salem/",
     "state": "Tamil Nadu",
     "city": "Salem",
     "tier": 1.0,
@@ -24515,7 +24515,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Salem",
-    "introParagraph": "Around SIPCOT Salem, magnesite belt, procurement runs on SAIL Salem Steel Plant (stainless), magnesite & minerals, sago processing. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around SIPCOT Salem, magnesite belt, procurement runs on SAIL Salem Steel Plant (stainless), magnesite & minerals, sago processing. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH48 via Bengaluru (~1,180 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Salem. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -24526,11 +24526,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -24542,11 +24542,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       },
@@ -24558,11 +24558,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -24719,24 +24719,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Tiruchirappalli",
-        "url": "/tiruchirappalli"
+        "url": "/tiruchirappalli/"
       },
       {
         "name": "Madurai",
-        "url": "/madurai"
+        "url": "/madurai/"
       },
       {
         "name": "Coimbatore",
-        "url": "/coimbatore"
+        "url": "/coimbatore/"
       },
       {
         "name": "Chennai",
-        "url": "/chennai"
+        "url": "/chennai/"
       }
     ]
   },
   "tiruchirappalli": {
-    "url": "/tiruchirappalli",
+    "url": "/tiruchirappalli/",
     "state": "Tamil Nadu",
     "city": "Tiruchirappalli",
     "tier": 1.0,
@@ -24771,7 +24771,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Tiruchirappalli",
-    "introParagraph": "Tiruchirappalli's buyers order piping hardware for concrete reasons: BHEL Trichy boiler plant & India's largest boiler-fabrication cluster, OFT ordnance. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> into BHEL township, Thuvakudi SIDCO, fabrication belt, in A105, F11/F22/F91 (IBR) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Tiruchirappalli's buyers order piping hardware for concrete reasons: BHEL Trichy boiler plant & India's largest boiler-fabrication cluster, OFT ordnance. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> into BHEL township, Thuvakudi SIDCO, fabrication belt, in A105, F11/F22/F91 (IBR) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH48 via Bengaluru–Salem (~1,270 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Tiruchirappalli. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -24782,11 +24782,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -24798,11 +24798,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -24814,11 +24814,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       }
@@ -24975,24 +24975,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Salem",
-        "url": "/salem"
+        "url": "/salem/"
       },
       {
         "name": "Madurai",
-        "url": "/madurai"
+        "url": "/madurai/"
       },
       {
         "name": "Coimbatore",
-        "url": "/coimbatore"
+        "url": "/coimbatore/"
       },
       {
         "name": "Chennai",
-        "url": "/chennai"
+        "url": "/chennai/"
       }
     ]
   },
   "madurai": {
-    "url": "/madurai",
+    "url": "/madurai/",
     "state": "Tamil Nadu",
     "city": "Madurai",
     "tier": 3.0,
@@ -25027,7 +25027,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Madurai",
-    "introParagraph": "Supplying Madurai means understanding Rubber & tyre processing, granite, agro machinery. Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Kappalur & Urangampatti SIDCO estates — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Madurai means understanding Rubber & tyre processing, granite, agro machinery. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Kappalur & Urangampatti SIDCO estates — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH48 via Bengaluru–Dindigul. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Madurai. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -25038,11 +25038,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -25054,11 +25054,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -25070,11 +25070,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -25219,24 +25219,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Salem",
-        "url": "/salem"
+        "url": "/salem/"
       },
       {
         "name": "Tiruchirappalli",
-        "url": "/tiruchirappalli"
+        "url": "/tiruchirappalli/"
       },
       {
         "name": "Coimbatore",
-        "url": "/coimbatore"
+        "url": "/coimbatore/"
       },
       {
         "name": "Chennai",
-        "url": "/chennai"
+        "url": "/chennai/"
       }
     ]
   },
   "coimbatore": {
-    "url": "/coimbatore",
+    "url": "/coimbatore/",
     "state": "Tamil Nadu",
     "city": "Coimbatore",
     "tier": 1.0,
@@ -25271,7 +25271,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Coimbatore",
-    "introParagraph": "Around Peelamedu, SIDCO Kurichi, Arasur foundry belt, procurement runs on Pump & motor capital of India, foundry cluster (600+), textile machinery, wet grinders. We serve this demand from Mumbai with <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Peelamedu, SIDCO Kurichi, Arasur foundry belt, procurement runs on Pump & motor capital of India, foundry cluster (600+), textile machinery, wet grinders. We serve this demand from Mumbai with <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH48 via Bengaluru–Salem (~1,080 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Coimbatore. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -25282,11 +25282,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -25298,11 +25298,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -25314,11 +25314,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -25475,24 +25475,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Salem",
-        "url": "/salem"
+        "url": "/salem/"
       },
       {
         "name": "Tiruchirappalli",
-        "url": "/tiruchirappalli"
+        "url": "/tiruchirappalli/"
       },
       {
         "name": "Madurai",
-        "url": "/madurai"
+        "url": "/madurai/"
       },
       {
         "name": "Chennai",
-        "url": "/chennai"
+        "url": "/chennai/"
       }
     ]
   },
   "chennai": {
-    "url": "/chennai",
+    "url": "/chennai/",
     "state": "Tamil Nadu",
     "city": "Chennai",
     "tier": 1.0,
@@ -25527,7 +25527,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Chennai",
-    "introParagraph": "Chennai's buyers order piping hardware for concrete reasons: CPCL refinery & Manali petrochemicals, auto corridor (Hyundai, Daimler), Ennore port & thermal. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Manali petro belt, Ambattur & Guindy estates, Oragadam-Sriperumbudur, in A105, F11/F22, SS 316L, Duplex 2205 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Chennai's buyers order piping hardware for concrete reasons: CPCL refinery & Manali petrochemicals, auto corridor (Hyundai, Daimler), Ennore port & thermal. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Manali petro belt, Ambattur & Guindy estates, Oragadam-Sriperumbudur, in A105, F11/F22, SS 316L, Duplex 2205 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH48 via Bengaluru (~1,330 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Chennai. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -25538,11 +25538,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           }
         ]
       },
@@ -25554,11 +25554,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -25570,11 +25570,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -25586,11 +25586,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       }
@@ -25747,24 +25747,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Salem",
-        "url": "/salem"
+        "url": "/salem/"
       },
       {
         "name": "Tiruchirappalli",
-        "url": "/tiruchirappalli"
+        "url": "/tiruchirappalli/"
       },
       {
         "name": "Madurai",
-        "url": "/madurai"
+        "url": "/madurai/"
       },
       {
         "name": "Coimbatore",
-        "url": "/coimbatore"
+        "url": "/coimbatore/"
       }
     ]
   },
   "hyderabad": {
-    "url": "/hyderabad",
+    "url": "/hyderabad/",
     "state": "Telangana",
     "city": "Hyderabad",
     "tier": 1.0,
@@ -25799,7 +25799,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Hyderabad",
-    "introParagraph": "Supplying Hyderabad means understanding Bulk drug & pharma capital, BHEL R.C. Puram, aerospace & defence (Adibatla TASL belt). Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Jeedimetla, Bollaram, Pashamylaram, Genome Valley, Adibatla — SS 316L/304L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Hyderabad means understanding Bulk drug & pharma capital, BHEL R.C. Puram, aerospace & defence (Adibatla TASL belt). Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Jeedimetla, Bollaram, Pashamylaram, Genome Valley, Adibatla — SS 316L/304L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH65 via Pune–Solapur (~710 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Hyderabad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -25810,11 +25810,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -25826,11 +25826,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -25842,11 +25842,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -25858,11 +25858,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -26019,24 +26019,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Warangal",
-        "url": "/warangal"
+        "url": "/warangal/"
       },
       {
         "name": "Nizamabad",
-        "url": "/nizamabad"
+        "url": "/nizamabad/"
       },
       {
         "name": "Khammam",
-        "url": "/khammam"
+        "url": "/khammam/"
       },
       {
         "name": "Ramagundam",
-        "url": "/ramagundam"
+        "url": "/ramagundam/"
       }
     ]
   },
   "warangal": {
-    "url": "/warangal",
+    "url": "/warangal/",
     "state": "Telangana",
     "city": "Warangal",
     "tier": 3.0,
@@ -26071,7 +26071,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Warangal",
-    "introParagraph": "Around Madikonda IT/industrial zone, textile park, procurement runs on Kakatiya mega textile park, agro processing. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304, A105, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Madikonda IT/industrial zone, textile park, procurement runs on Kakatiya mega textile park, agro processing. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304, A105, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH65 via Hyderabad. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Warangal. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -26082,11 +26082,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -26098,11 +26098,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -26247,24 +26247,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Hyderabad",
-        "url": "/hyderabad"
+        "url": "/hyderabad/"
       },
       {
         "name": "Nizamabad",
-        "url": "/nizamabad"
+        "url": "/nizamabad/"
       },
       {
         "name": "Khammam",
-        "url": "/khammam"
+        "url": "/khammam/"
       },
       {
         "name": "Ramagundam",
-        "url": "/ramagundam"
+        "url": "/ramagundam/"
       }
     ]
   },
   "nizamabad": {
-    "url": "/nizamabad",
+    "url": "/nizamabad/",
     "state": "Telangana",
     "city": "Nizamabad",
     "tier": 3.0,
@@ -26299,7 +26299,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Nizamabad",
-    "introParagraph": "Nizamabad's buyers order piping hardware for concrete reasons: Turmeric & agro processing, rice mills. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Nizamabad industrial estate, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Nizamabad's buyers order piping hardware for concrete reasons: Turmeric & agro processing, rice mills. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Nizamabad industrial estate, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH65 via Hyderabad. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Nizamabad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -26310,11 +26310,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -26326,11 +26326,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -26475,24 +26475,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Hyderabad",
-        "url": "/hyderabad"
+        "url": "/hyderabad/"
       },
       {
         "name": "Warangal",
-        "url": "/warangal"
+        "url": "/warangal/"
       },
       {
         "name": "Khammam",
-        "url": "/khammam"
+        "url": "/khammam/"
       },
       {
         "name": "Ramagundam",
-        "url": "/ramagundam"
+        "url": "/ramagundam/"
       }
     ]
   },
   "khammam": {
-    "url": "/khammam",
+    "url": "/khammam/",
     "state": "Telangana",
     "city": "Khammam",
     "tier": 3.0,
@@ -26527,7 +26527,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Khammam",
-    "introParagraph": "Supplying Khammam means understanding Granite processing, agro, Sattupalli coal belt fringe. Remax Forge ships <a href=\"/product-details/hardox-plate\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> from Mumbai into Khammam industrial units — A105, Hardox 400/450, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Khammam means understanding Granite processing, agro, Sattupalli coal belt fringe. Remax Forge ships <a href=\"/product-details/hardox-plate/\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> from Mumbai into Khammam industrial units — A105, Hardox 400/450, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH65 via Hyderabad–Suryapet. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Khammam. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -26538,11 +26538,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       },
@@ -26554,11 +26554,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -26570,11 +26570,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       }
@@ -26719,24 +26719,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Hyderabad",
-        "url": "/hyderabad"
+        "url": "/hyderabad/"
       },
       {
         "name": "Warangal",
-        "url": "/warangal"
+        "url": "/warangal/"
       },
       {
         "name": "Nizamabad",
-        "url": "/nizamabad"
+        "url": "/nizamabad/"
       },
       {
         "name": "Ramagundam",
-        "url": "/ramagundam"
+        "url": "/ramagundam/"
       }
     ]
   },
   "ramagundam": {
-    "url": "/ramagundam",
+    "url": "/ramagundam/",
     "state": "Telangana",
     "city": "Ramagundam",
     "tier": 1.0,
@@ -26771,7 +26771,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Ramagundam",
-    "introParagraph": "Around NTPC & SCCL township belt, procurement runs on NTPC Ramagundam super thermal (2,600 MW), SCCL coal, RFCL fertilizer plant. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around NTPC & SCCL township belt, procurement runs on NTPC Ramagundam super thermal (2,600 MW), SCCL coal, RFCL fertilizer plant. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH63 via Hyderabad (~950 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Ramagundam. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -26782,11 +26782,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -26798,11 +26798,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Butt Weld Tee",
-            "url": "/products/buttweld-fittings/butt-weld-tee-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-tee-fittings/"
           }
         ]
       },
@@ -26814,11 +26814,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       }
@@ -26975,24 +26975,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Hyderabad",
-        "url": "/hyderabad"
+        "url": "/hyderabad/"
       },
       {
         "name": "Warangal",
-        "url": "/warangal"
+        "url": "/warangal/"
       },
       {
         "name": "Nizamabad",
-        "url": "/nizamabad"
+        "url": "/nizamabad/"
       },
       {
         "name": "Khammam",
-        "url": "/khammam"
+        "url": "/khammam/"
       }
     ]
   },
   "kailashahar": {
-    "url": "/kailashahar",
+    "url": "/kailashahar/",
     "state": "Tripura",
     "city": "Kailashahar",
     "tier": 3.0,
@@ -27027,7 +27027,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kailashahar",
-    "introParagraph": "Kailashahar's buyers order piping hardware for concrete reasons: Agro processing, water schemes. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Unakoti district HQ, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Kailashahar's buyers order piping hardware for concrete reasons: Agro processing, water schemes. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Unakoti district HQ, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH8 via Guwahati–Agartala. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Kailashahar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -27038,11 +27038,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -27054,11 +27054,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -27203,24 +27203,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Belonia",
-        "url": "/belonia"
+        "url": "/belonia/"
       },
       {
         "name": "Dharmanagar",
-        "url": "/dharmanagar"
+        "url": "/dharmanagar/"
       },
       {
         "name": "Udaipur Tripura",
-        "url": "/udaipur-tripura"
+        "url": "/udaipur-tripura/"
       },
       {
         "name": "Agartala",
-        "url": "/agartala"
+        "url": "/agartala/"
       }
     ]
   },
   "belonia": {
-    "url": "/belonia",
+    "url": "/belonia/",
     "state": "Tripura",
     "city": "Belonia",
     "tier": 3.0,
@@ -27255,7 +27255,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Belonia",
-    "introParagraph": "Supplying Belonia means understanding Agro processing, border trade infra. Remax Forge ships <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into South Tripura HQ — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Belonia means understanding Agro processing, border trade infra. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into South Tripura HQ — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: via Agartala. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Belonia. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -27266,11 +27266,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -27282,11 +27282,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -27431,24 +27431,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Kailashahar",
-        "url": "/kailashahar"
+        "url": "/kailashahar/"
       },
       {
         "name": "Dharmanagar",
-        "url": "/dharmanagar"
+        "url": "/dharmanagar/"
       },
       {
         "name": "Udaipur Tripura",
-        "url": "/udaipur-tripura"
+        "url": "/udaipur-tripura/"
       },
       {
         "name": "Agartala",
-        "url": "/agartala"
+        "url": "/agartala/"
       }
     ]
   },
   "dharmanagar": {
-    "url": "/dharmanagar",
+    "url": "/dharmanagar/",
     "state": "Tripura",
     "city": "Dharmanagar",
     "tier": 3.0,
@@ -27483,7 +27483,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Dharmanagar",
-    "introParagraph": "Around North Tripura HQ, procurement runs on Agro processing, rubber belt. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around North Tripura HQ, procurement runs on Agro processing, rubber belt. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH8 via Silchar. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Dharmanagar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -27494,11 +27494,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -27510,11 +27510,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -27659,24 +27659,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Kailashahar",
-        "url": "/kailashahar"
+        "url": "/kailashahar/"
       },
       {
         "name": "Belonia",
-        "url": "/belonia"
+        "url": "/belonia/"
       },
       {
         "name": "Udaipur Tripura",
-        "url": "/udaipur-tripura"
+        "url": "/udaipur-tripura/"
       },
       {
         "name": "Agartala",
-        "url": "/agartala"
+        "url": "/agartala/"
       }
     ]
   },
   "udaipur-tripura": {
-    "url": "/udaipur-tripura",
+    "url": "/udaipur-tripura/",
     "state": "Tripura",
     "city": "Udaipur",
     "tier": 3.0,
@@ -27711,7 +27711,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Udaipur",
-    "introParagraph": "Udaipur's buyers order piping hardware for concrete reasons: OTPC Palatana gas power plant (726 MW) belt, agro & rubber. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> into Gomati district; Palatana power belt, in A105, F11/F22/F91 (IBR) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Udaipur's buyers order piping hardware for concrete reasons: OTPC Palatana gas power plant (726 MW) belt, agro & rubber. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> into Gomati district; Palatana power belt, in A105, F11/F22/F91 (IBR) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH8 via Agartala. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Udaipur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -27722,11 +27722,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -27738,11 +27738,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Elbow",
-            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings"
+            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings/"
           }
         ]
       },
@@ -27754,11 +27754,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -27903,24 +27903,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Kailashahar",
-        "url": "/kailashahar"
+        "url": "/kailashahar/"
       },
       {
         "name": "Belonia",
-        "url": "/belonia"
+        "url": "/belonia/"
       },
       {
         "name": "Dharmanagar",
-        "url": "/dharmanagar"
+        "url": "/dharmanagar/"
       },
       {
         "name": "Agartala",
-        "url": "/agartala"
+        "url": "/agartala/"
       }
     ]
   },
   "agartala": {
-    "url": "/agartala",
+    "url": "/agartala/",
     "state": "Tripura",
     "city": "Agartala",
     "tier": 2.0,
@@ -27955,7 +27955,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Agartala",
-    "introParagraph": "Supplying Agartala means understanding ONGC Tripura gas fields, OTPC Palatana CCGT, rubber & agro processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> and <a href=\"/products/flanges/lap-joint-flange\" class=\"text-[#D71920] hover:underline font-semibold\">lap joint flanges</a> from Mumbai into Bodhjungnagar industrial growth centre — A105, F52/F60 on request, SS 316L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Agartala means understanding ONGC Tripura gas fields, OTPC Palatana CCGT, rubber & agro processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> and <a href=\"/products/flanges/lap-joint-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">lap joint flanges</a> from Mumbai into Bodhjungnagar industrial growth centre — A105, F52/F60 on request, SS 316L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH8 via Guwahati (~3,200 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Agartala. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -27966,11 +27966,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Elbow",
-            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings"
+            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings/"
           }
         ]
       },
@@ -27982,11 +27982,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -27998,11 +27998,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -28159,24 +28159,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Kailashahar",
-        "url": "/kailashahar"
+        "url": "/kailashahar/"
       },
       {
         "name": "Belonia",
-        "url": "/belonia"
+        "url": "/belonia/"
       },
       {
         "name": "Dharmanagar",
-        "url": "/dharmanagar"
+        "url": "/dharmanagar/"
       },
       {
         "name": "Udaipur Tripura",
-        "url": "/udaipur-tripura"
+        "url": "/udaipur-tripura/"
       }
     ]
   },
   "varanasi": {
-    "url": "/varanasi",
+    "url": "/varanasi/",
     "state": "Uttar Pradesh",
     "city": "Varanasi",
     "tier": 2.0,
@@ -28211,7 +28211,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Varanasi",
-    "introParagraph": "Around Ramnagar & Chandpur industrial estates, BLW, procurement runs on Banaras Locomotive Works, textiles (silk), food processing, gas grid works. We serve this demand from Mumbai with <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Ramnagar & Chandpur industrial estates, BLW, procurement runs on Banaras Locomotive Works, textiles (silk), food processing, gas grid works. We serve this demand from Mumbai with <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH53+NH19 via Nagpur (~1,500 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Varanasi. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -28222,11 +28222,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           }
         ]
       },
@@ -28238,11 +28238,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -28254,11 +28254,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -28415,24 +28415,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Agra",
-        "url": "/agra"
+        "url": "/agra/"
       },
       {
         "name": "Ghaziabad",
-        "url": "/ghaziabad"
+        "url": "/ghaziabad/"
       },
       {
         "name": "Lucknow",
-        "url": "/lucknow"
+        "url": "/lucknow/"
       },
       {
         "name": "Kanpur",
-        "url": "/kanpur"
+        "url": "/kanpur/"
       }
     ]
   },
   "agra": {
-    "url": "/agra",
+    "url": "/agra/",
     "state": "Uttar Pradesh",
     "city": "Agra",
     "tier": 3.0,
@@ -28467,7 +28467,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Agra",
-    "introParagraph": "Agra's buyers order piping hardware for concrete reasons: Iron foundry cluster, footwear, cold storage & food processing. From our Mumbai works we supply <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Foundry Nagar, Sikandra & EPIP Shastripuram, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Agra's buyers order piping hardware for concrete reasons: Iron foundry cluster, footwear, cold storage & food processing. From our Mumbai works we supply <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Foundry Nagar, Sikandra & EPIP Shastripuram, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH44 via Gwalior. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Agra. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -28478,11 +28478,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -28494,11 +28494,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -28643,24 +28643,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Varanasi",
-        "url": "/varanasi"
+        "url": "/varanasi/"
       },
       {
         "name": "Ghaziabad",
-        "url": "/ghaziabad"
+        "url": "/ghaziabad/"
       },
       {
         "name": "Lucknow",
-        "url": "/lucknow"
+        "url": "/lucknow/"
       },
       {
         "name": "Kanpur",
-        "url": "/kanpur"
+        "url": "/kanpur/"
       }
     ]
   },
   "ghaziabad": {
-    "url": "/ghaziabad",
+    "url": "/ghaziabad/",
     "state": "Uttar Pradesh",
     "city": "Ghaziabad",
     "tier": 1.0,
@@ -28695,7 +28695,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Ghaziabad",
-    "introParagraph": "Supplying Ghaziabad means understanding Major engineering & fabrication belt (NCR), electricals, steel processing, pipes. Remax Forge ships <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into Sahibabad, Meerut Road & South Side industrial areas — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Ghaziabad means understanding Major engineering & fabrication belt (NCR), electricals, steel processing, pipes. Remax Forge ships <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into Sahibabad, Meerut Road & South Side industrial areas — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH48 via Jaipur–Delhi (~1,400 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Ghaziabad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -28706,11 +28706,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -28722,11 +28722,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -28738,11 +28738,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           }
         ]
       }
@@ -28899,24 +28899,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Varanasi",
-        "url": "/varanasi"
+        "url": "/varanasi/"
       },
       {
         "name": "Agra",
-        "url": "/agra"
+        "url": "/agra/"
       },
       {
         "name": "Lucknow",
-        "url": "/lucknow"
+        "url": "/lucknow/"
       },
       {
         "name": "Kanpur",
-        "url": "/kanpur"
+        "url": "/kanpur/"
       }
     ]
   },
   "lucknow": {
-    "url": "/lucknow",
+    "url": "/lucknow/",
     "state": "Uttar Pradesh",
     "city": "Lucknow",
     "tier": 2.0,
@@ -28951,7 +28951,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Lucknow",
-    "introParagraph": "Around Talkatora, Amausi & Chinhat industrial areas, procurement runs on HAL Lucknow accessories division, state infra & utilities, food processing. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> in SS 316L, Inconel 625 & Monel on order, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Talkatora, Amausi & Chinhat industrial areas, procurement runs on HAL Lucknow accessories division, state infra & utilities, food processing. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> in SS 316L, Inconel 625 & Monel on order, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH19+NH30 via Kanpur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Lucknow. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -28962,11 +28962,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -28978,11 +28978,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -28994,11 +28994,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -29155,24 +29155,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Varanasi",
-        "url": "/varanasi"
+        "url": "/varanasi/"
       },
       {
         "name": "Agra",
-        "url": "/agra"
+        "url": "/agra/"
       },
       {
         "name": "Ghaziabad",
-        "url": "/ghaziabad"
+        "url": "/ghaziabad/"
       },
       {
         "name": "Kanpur",
-        "url": "/kanpur"
+        "url": "/kanpur/"
       }
     ]
   },
   "kanpur": {
-    "url": "/kanpur",
+    "url": "/kanpur/",
     "state": "Uttar Pradesh",
     "city": "Kanpur",
     "tier": 1.0,
@@ -29207,7 +29207,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kanpur",
-    "introParagraph": "Kanpur's buyers order piping hardware for concrete reasons: Ordnance factories cluster, leather & chemicals, Panki thermal, engineering. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> into Dada Nagar, Fazalganj & Panki industrial areas, in SS 316L, Inconel 625 & Monel on order — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Kanpur's buyers order piping hardware for concrete reasons: Ordnance factories cluster, leather & chemicals, Panki thermal, engineering. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> into Dada Nagar, Fazalganj & Panki industrial areas, in SS 316L, Inconel 625 & Monel on order — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH44+NH19 via Jhansi (~1,320 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Kanpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -29218,11 +29218,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       },
@@ -29234,11 +29234,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -29250,11 +29250,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -29266,11 +29266,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -29427,24 +29427,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Varanasi",
-        "url": "/varanasi"
+        "url": "/varanasi/"
       },
       {
         "name": "Agra",
-        "url": "/agra"
+        "url": "/agra/"
       },
       {
         "name": "Ghaziabad",
-        "url": "/ghaziabad"
+        "url": "/ghaziabad/"
       },
       {
         "name": "Lucknow",
-        "url": "/lucknow"
+        "url": "/lucknow/"
       }
     ]
   },
   "rishikesh": {
-    "url": "/rishikesh",
+    "url": "/rishikesh/",
     "state": "Uttarakhand",
     "city": "Rishikesh",
     "tier": 3.0,
@@ -29479,7 +29479,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Rishikesh",
-    "introParagraph": "Supplying Rishikesh means understanding THDC Tehri hydel belt access, pharma legacy (IDPL), tourism infra. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into IDPL legacy campus, Shyampur units — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Rishikesh means understanding THDC Tehri hydel belt access, pharma legacy (IDPL), tourism infra. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into IDPL legacy campus, Shyampur units — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH48 via Delhi–Haridwar. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Rishikesh. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -29490,11 +29490,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Spectacle Blind Flange",
-            "url": "/products/flanges/spectacle-blind-flange"
+            "url": "/products/flanges/spectacle-blind-flange/"
           },
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           }
         ]
       },
@@ -29506,11 +29506,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -29655,24 +29655,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Haldwani",
-        "url": "/haldwani"
+        "url": "/haldwani/"
       },
       {
         "name": "Roorkee",
-        "url": "/roorkee"
+        "url": "/roorkee/"
       },
       {
         "name": "Haridwar",
-        "url": "/haridwar"
+        "url": "/haridwar/"
       },
       {
         "name": "Dehradun",
-        "url": "/dehradun"
+        "url": "/dehradun/"
       }
     ]
   },
   "haldwani": {
-    "url": "/haldwani",
+    "url": "/haldwani/",
     "state": "Uttarakhand",
     "city": "Haldwani",
     "tier": 3.0,
@@ -29707,7 +29707,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Haldwani",
-    "introParagraph": "Around SIDCUL fringe, stone & timber units, procurement runs on Agro & timber processing, stone crushing, Kumaon trade hub. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around SIDCUL fringe, stone & timber units, procurement runs on Agro & timber processing, stone crushing, Kumaon trade hub. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH9 via Delhi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Haldwani. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -29718,11 +29718,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -29734,11 +29734,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           },
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           }
         ]
       }
@@ -29883,24 +29883,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Rishikesh",
-        "url": "/rishikesh"
+        "url": "/rishikesh/"
       },
       {
         "name": "Roorkee",
-        "url": "/roorkee"
+        "url": "/roorkee/"
       },
       {
         "name": "Haridwar",
-        "url": "/haridwar"
+        "url": "/haridwar/"
       },
       {
         "name": "Dehradun",
-        "url": "/dehradun"
+        "url": "/dehradun/"
       }
     ]
   },
   "roorkee": {
-    "url": "/roorkee",
+    "url": "/roorkee/",
     "state": "Uttarakhand",
     "city": "Roorkee",
     "tier": 2.0,
@@ -29935,7 +29935,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Roorkee",
-    "introParagraph": "Roorkee's buyers order piping hardware for concrete reasons: Engineering & fabrication units, pharma & FMCG (Bhagwanpur), IIT-driven R&D. From our Mumbai works we supply <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into SIDCUL adjacent belt, Bhagwanpur, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Roorkee's buyers order piping hardware for concrete reasons: Engineering & fabrication units, pharma & FMCG (Bhagwanpur), IIT-driven R&D. From our Mumbai works we supply <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into SIDCUL adjacent belt, Bhagwanpur, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH334 via Delhi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Roorkee. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -29946,11 +29946,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -29962,11 +29962,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -30123,24 +30123,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Rishikesh",
-        "url": "/rishikesh"
+        "url": "/rishikesh/"
       },
       {
         "name": "Haldwani",
-        "url": "/haldwani"
+        "url": "/haldwani/"
       },
       {
         "name": "Haridwar",
-        "url": "/haridwar"
+        "url": "/haridwar/"
       },
       {
         "name": "Dehradun",
-        "url": "/dehradun"
+        "url": "/dehradun/"
       }
     ]
   },
   "haridwar": {
-    "url": "/haridwar",
+    "url": "/haridwar/",
     "state": "Uttarakhand",
     "city": "Haridwar",
     "tier": 1.0,
@@ -30175,7 +30175,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Haridwar",
-    "introParagraph": "Supplying Haridwar means understanding BHEL Haridwar heavy electricals, SIDCUL auto & FMCG cluster (Hero, ITC belt). Remax Forge ships <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> from Mumbai into SIDCUL Haridwar (IIE), BHEL township — A105, F11/F22/F91 (IBR), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Haridwar means understanding BHEL Haridwar heavy electricals, SIDCUL auto & FMCG cluster (Hero, ITC belt). Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> from Mumbai into SIDCUL Haridwar (IIE), BHEL township — A105, F11/F22/F91 (IBR), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH334 via Delhi (~1,600 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Haridwar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -30186,11 +30186,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -30202,11 +30202,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -30218,11 +30218,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       }
@@ -30379,24 +30379,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Rishikesh",
-        "url": "/rishikesh"
+        "url": "/rishikesh/"
       },
       {
         "name": "Haldwani",
-        "url": "/haldwani"
+        "url": "/haldwani/"
       },
       {
         "name": "Roorkee",
-        "url": "/roorkee"
+        "url": "/roorkee/"
       },
       {
         "name": "Dehradun",
-        "url": "/dehradun"
+        "url": "/dehradun/"
       }
     ]
   },
   "dehradun": {
-    "url": "/dehradun",
+    "url": "/dehradun/",
     "state": "Uttarakhand",
     "city": "Dehradun",
     "tier": 2.0,
@@ -30431,7 +30431,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Dehradun",
-    "introParagraph": "Around Selaqui industrial area (SIDCUL), procurement runs on ONGC HQ & IIP, Selaqui pharma & electronics, defence establishments. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> and <a href=\"/products/flanges/lap-joint-flange\" class=\"text-[#D71920] hover:underline font-semibold\">lap joint flanges</a> in A105, F52/F60 on request, SS 316L, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Selaqui industrial area (SIDCUL), procurement runs on ONGC HQ & IIP, Selaqui pharma & electronics, defence establishments. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> and <a href=\"/products/flanges/lap-joint-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">lap joint flanges</a> in A105, F52/F60 on request, SS 316L, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH307 via Delhi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Dehradun. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -30442,11 +30442,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Elbow",
-            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings"
+            "url": "/products/socket-weld-fittings/socket-weld-elbow-fittings/"
           }
         ]
       },
@@ -30458,11 +30458,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -30474,11 +30474,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           },
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           }
         ]
       }
@@ -30635,24 +30635,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Rishikesh",
-        "url": "/rishikesh"
+        "url": "/rishikesh/"
       },
       {
         "name": "Haldwani",
-        "url": "/haldwani"
+        "url": "/haldwani/"
       },
       {
         "name": "Roorkee",
-        "url": "/roorkee"
+        "url": "/roorkee/"
       },
       {
         "name": "Haridwar",
-        "url": "/haridwar"
+        "url": "/haridwar/"
       }
     ]
   },
   "siliguri": {
-    "url": "/siliguri",
+    "url": "/siliguri/",
     "state": "West Bengal",
     "city": "Siliguri",
     "tier": 3.0,
@@ -30687,7 +30687,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Siliguri",
-    "introParagraph": "Siliguri's buyers order piping hardware for concrete reasons: Gateway logistics to NE & Sikkim, tea processing, plywood. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Sevoke Road & Dabgram industrial belt, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Siliguri's buyers order piping hardware for concrete reasons: Gateway logistics to NE & Sikkim, tea processing, plywood. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Sevoke Road & Dabgram industrial belt, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH27 via Kolkata. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Siliguri. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -30698,11 +30698,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Butt Weld Elbow",
-            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+            "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
           }
         ]
       },
@@ -30714,11 +30714,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Concentric Reducer",
-            "url": "/products/buttweld-fittings/concentric-reducer"
+            "url": "/products/buttweld-fittings/concentric-reducer/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       }
@@ -30863,24 +30863,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Durgapur",
-        "url": "/durgapur"
+        "url": "/durgapur/"
       },
       {
         "name": "Asansol",
-        "url": "/asansol"
+        "url": "/asansol/"
       },
       {
         "name": "Kolkata",
-        "url": "/kolkata"
+        "url": "/kolkata/"
       },
       {
         "name": "Kharagpur",
-        "url": "/kharagpur"
+        "url": "/kharagpur/"
       }
     ]
   },
   "durgapur": {
-    "url": "/durgapur",
+    "url": "/durgapur/",
     "state": "West Bengal",
     "city": "Durgapur",
     "tier": 1.0,
@@ -30915,7 +30915,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Durgapur",
-    "introParagraph": "Supplying Durgapur means understanding SAIL Durgapur Steel Plant, DPL power, heavy engineering & fabrication corridor. Remax Forge ships <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into Durgapur industrial belt (DSP, DPL) — A105, A350 LF2, SS 304, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Durgapur means understanding SAIL Durgapur Steel Plant, DPL power, heavy engineering & fabrication corridor. Remax Forge ships <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into Durgapur industrial belt (DSP, DPL) — A105, A350 LF2, SS 304, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH19 via Nagpur–Asansol (~1,750 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Durgapur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -30926,11 +30926,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -30942,11 +30942,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       },
@@ -30958,11 +30958,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -31119,24 +31119,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Siliguri",
-        "url": "/siliguri"
+        "url": "/siliguri/"
       },
       {
         "name": "Asansol",
-        "url": "/asansol"
+        "url": "/asansol/"
       },
       {
         "name": "Kolkata",
-        "url": "/kolkata"
+        "url": "/kolkata/"
       },
       {
         "name": "Kharagpur",
-        "url": "/kharagpur"
+        "url": "/kharagpur/"
       }
     ]
   },
   "asansol": {
-    "url": "/asansol",
+    "url": "/asansol/",
     "state": "West Bengal",
     "city": "Asansol",
     "tier": 2.0,
@@ -31171,7 +31171,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Asansol",
-    "introParagraph": "Around Burnpur (IISCO), ECL coal belt, procurement runs on SAIL IISCO Burnpur steel plant, ECL collieries, railway workshop. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Around Burnpur (IISCO), ECL coal belt, procurement runs on SAIL IISCO Burnpur steel plant, ECL collieries, railway workshop. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
     "logistics": "Route: NH19 via Nagpur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Asansol. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
     "sectors": [
       {
@@ -31182,11 +31182,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -31198,11 +31198,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           }
         ]
       },
@@ -31214,11 +31214,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           },
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           }
         ]
       }
@@ -31375,24 +31375,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Siliguri",
-        "url": "/siliguri"
+        "url": "/siliguri/"
       },
       {
         "name": "Durgapur",
-        "url": "/durgapur"
+        "url": "/durgapur/"
       },
       {
         "name": "Kolkata",
-        "url": "/kolkata"
+        "url": "/kolkata/"
       },
       {
         "name": "Kharagpur",
-        "url": "/kharagpur"
+        "url": "/kharagpur/"
       }
     ]
   },
   "kolkata": {
-    "url": "/kolkata",
+    "url": "/kolkata/",
     "state": "West Bengal",
     "city": "Kolkata",
     "tier": 1.0,
@@ -31427,7 +31427,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kolkata",
-    "introParagraph": "Kolkata's buyers order piping hardware for concrete reasons: Howrah foundry & engineering belt, Kolkata-Haldia port system, chemicals, IOCL Haldia (~120 km). From our Mumbai works we supply <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Howrah engineering cluster, Taratala, port zone, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Kolkata's buyers order piping hardware for concrete reasons: Howrah foundry & engineering belt, Kolkata-Haldia port system, chemicals, IOCL Haldia (~120 km). From our Mumbai works we supply <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Howrah engineering cluster, Taratala, port zone, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
     "logistics": "Route: NH53+NH16 via Nagpur (~1,900 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Kolkata. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -31438,11 +31438,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       },
@@ -31454,11 +31454,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Blind Flange",
-            "url": "/products/flanges/blind-flange"
+            "url": "/products/flanges/blind-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       },
@@ -31470,11 +31470,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Weld Neck Flange",
-            "url": "/products/flanges/weld-neck-flange"
+            "url": "/products/flanges/weld-neck-flange/"
           },
           {
             "name": "Alloy Steel Pipes",
-            "url": "/products/pipes/alloy-steel-pipes"
+            "url": "/products/pipes/alloy-steel-pipes/"
           }
         ]
       },
@@ -31486,11 +31486,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           },
           {
             "name": "Socket Weld Fittings",
-            "url": "/products/socket-weld-fittings"
+            "url": "/products/socket-weld-fittings/"
           }
         ]
       }
@@ -31647,24 +31647,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Siliguri",
-        "url": "/siliguri"
+        "url": "/siliguri/"
       },
       {
         "name": "Durgapur",
-        "url": "/durgapur"
+        "url": "/durgapur/"
       },
       {
         "name": "Asansol",
-        "url": "/asansol"
+        "url": "/asansol/"
       },
       {
         "name": "Kharagpur",
-        "url": "/kharagpur"
+        "url": "/kharagpur/"
       }
     ]
   },
   "kharagpur": {
-    "url": "/kharagpur",
+    "url": "/kharagpur/",
     "state": "West Bengal",
     "city": "Kharagpur",
     "tier": 3.0,
@@ -31699,7 +31699,7 @@ export const marketAreaData = {
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kharagpur",
-    "introParagraph": "Supplying Kharagpur means understanding SER railway workshop, Tata Metaliks (foundry pig iron), IIT R&D. Remax Forge ships <a href=\"/products/forged-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/flanges/slip-on-flange\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into Vidyasagar industrial park — A105, SS 304, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Supplying Kharagpur means understanding SER railway workshop, Tata Metaliks (foundry pig iron), IIT R&D. Remax Forge ships <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into Vidyasagar industrial park — A105, SS 304, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
     "logistics": "Route: NH16 via Bhubaneswar route. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Kharagpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
@@ -31710,11 +31710,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Hardox Plate",
-            "url": "/product-details/hardox-plate"
+            "url": "/product-details/hardox-plate/"
           }
         ]
       },
@@ -31726,11 +31726,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Boiler Quality Plate",
-            "url": "/product-details/boiler-quality-plate"
+            "url": "/product-details/boiler-quality-plate/"
           },
           {
             "name": "Slip On Flange",
-            "url": "/products/flanges/slip-on-flange"
+            "url": "/products/flanges/slip-on-flange/"
           }
         ]
       },
@@ -31742,11 +31742,11 @@ export const marketAreaData = {
         "links": [
           {
             "name": "Forged Fittings",
-            "url": "/products/forged-fittings"
+            "url": "/products/forged-fittings/"
           },
           {
             "name": "Threaded Flange",
-            "url": "/products/flanges/threaded-flange"
+            "url": "/products/flanges/threaded-flange/"
           }
         ]
       }
@@ -31891,24 +31891,24 @@ export const marketAreaData = {
     "nearbyCities": [
       {
         "name": "Siliguri",
-        "url": "/siliguri"
+        "url": "/siliguri/"
       },
       {
         "name": "Durgapur",
-        "url": "/durgapur"
+        "url": "/durgapur/"
       },
       {
         "name": "Asansol",
-        "url": "/asansol"
+        "url": "/asansol/"
       },
       {
         "name": "Kolkata",
-        "url": "/kolkata"
+        "url": "/kolkata/"
       }
     ]
   },
   "howrah": {
-  "url": "/howrah",
+  "url": "/howrah/",
   "state": "West Bengal",
   "city": "Howrah",
   "tier": 2.0,
@@ -31954,11 +31954,11 @@ export const marketAreaData = {
       "links": [
         {
           "name": "Weld Neck Flange",
-          "url": "/products/flanges/weld-neck-flange"
+          "url": "/products/flanges/weld-neck-flange/"
         },
         {
           "name": "Socket Weld Fittings",
-          "url": "/products/socket-weld-fittings"
+          "url": "/products/socket-weld-fittings/"
         }
       ]
     },
@@ -31970,11 +31970,11 @@ export const marketAreaData = {
       "links": [
         {
           "name": "Blind Flange",
-          "url": "/products/flanges/blind-flange"
+          "url": "/products/flanges/blind-flange/"
         },
         {
           "name": "Slip On Flange",
-          "url": "/products/flanges/slip-on-flange"
+          "url": "/products/flanges/slip-on-flange/"
         }
       ]
     },
@@ -31986,11 +31986,11 @@ export const marketAreaData = {
       "links": [
         {
           "name": "Threaded Flange",
-          "url": "/products/flanges/threaded-flange"
+          "url": "/products/flanges/threaded-flange/"
         },
         {
           "name": "Butt Weld Elbow",
-          "url": "/products/buttweld-fittings/butt-weld-elbow-fittings"
+          "url": "/products/buttweld-fittings/butt-weld-elbow-fittings/"
         }
       ]
     }
@@ -32085,19 +32085,19 @@ export const marketAreaData = {
   "nearbyCities": [
     {
       "name": "Kolkata",
-      "url": "/kolkata"
+      "url": "/kolkata/"
     },
     {
       "name": "Durgapur",
-      "url": "/durgapur"
+      "url": "/durgapur/"
     },
     {
       "name": "Asansol",
-      "url": "/asansol"
+      "url": "/asansol/"
     },
     {
       "name": "Kharagpur",
-      "url": "/kharagpur"
+      "url": "/kharagpur/"
     }
   ]
 }

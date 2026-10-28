@@ -63,6 +63,7 @@ const MarketAreaIndex = () => {
         { name: "Gaya", path: "/gaya/" },
         { name: "Bhagalpur", path: "/bhagalpur/" },
         { name: "Muzaffarpur", path: "/muzaffarpur/" },
+        { name: "Darbhanga", path: "/darbhanga/" },
       ]
     },
     {
@@ -126,6 +127,46 @@ const MarketAreaIndex = () => {
         { name: "Howrah", path: "/howrah/" },
         { name: "Durgapur", path: "/durgapur/" },
         { name: "Asansol", path: "/asansol/" },
+      ]
+    },
+    {
+      name: "Kerala",
+      cities: [
+        { name: "Kochi", path: "/kochi/" },
+        { name: "Thiruvananthapuram", path: "/thiruvananthapuram/" },
+        { name: "Kollam", path: "/kollam/" },
+      ]
+    },
+    {
+      name: "Uttarakhand",
+      cities: [
+        { name: "Dehradun", path: "/dehradun/" },
+        { name: "Haridwar", path: "/haridwar/" },
+        { name: "Rishikesh", path: "/rishikesh/" },
+      ]
+    },
+    {
+      name: "Madhya Pradesh",
+      cities: [
+        { name: "Bhopal", path: "/bhopal/" },
+        { name: "Indore", path: "/indore/" },
+        { name: "Gwalior", path: "/gwalior/" },
+        { name: "Jabalpur", path: "/jabalpur/" },
+        { name: "Ujjain", path: "/ujjain/" },
+      ]
+    },
+    {
+      name: "Sikkim",
+      cities: [
+        { name: "Gangtok", path: "/gangtok/" },
+      ]
+    },
+    {
+      name: "Nagaland",
+      cities: [
+        { name: "Dimapur", path: "/dimapur/" },
+        { name: "Kohima", path: "/kohima/" },
+        { name: "Tuensang", path: "/tuensang/" },
       ]
     }
   ];

@@ -1750,9 +1750,9 @@ export const newFlangePagesData = {
     "url": "/about/iso-9001-certified-flange-manufacturer/",
     "primaryKw": "iso 9001 certified forged flange procurement",
     "secondaryKw": "iso 9001 certified forged flange procurement",
-    "title": "ISO 9001 Certified Forged Flanges | Remax",
-    "description": "ISO 9001 Certified Forged Flange Manufacturing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
-    "h1": "ISO 9001 Certified Forged Flange Manufacturing",
+    "title": "ISO 9001 Certified Flanges for Bulk Orders | Remax Forge",
+    "description": "Source ISO 9001 certified forged flanges for bulk orders and industrial procurement. Quality-assured steel forging manufacturer.",
+    "h1": "ISO 9001 Certified Forged Flanges & Bulk Procurement",
     "outline": [
       "Direct answer to the specific buyer need in the H1 (don't bury it).",
       "Process/testing detail specific to this claim (traceability, PMI, hardness, NACE MR0175 reference where relevant).",

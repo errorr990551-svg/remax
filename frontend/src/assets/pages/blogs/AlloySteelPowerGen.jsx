@@ -7,8 +7,8 @@ const AlloySteelPowerGen = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="Alloy Steel Pipe Fittings for Power Generation: Materials & Standards | Remax Forge"
-        description="A technical guide to alloy steel pipe fittings in power plants. Learn about high-temperature grades like P91, F22, and F11, IBR compliance, and preventing flow-accelerated corrosion."
+        title="Alloy Steel Fittings for Power Generation | Remax Forge"
+        description="Technical guide to alloy steel fittings in power plants. Learn about high-temperature grades P91, F22, F11, IBR compliance, and flow-accelerated corrosion."
         keywords="Alloy Steel Pipe Fittings for Power Plants, Grade 91 (P91) steel fittings, high-pressure steam piping, IBR approved fittings India, creep-resistant alloy steel, Remax Forge power sector solutions"
       />
       

@@ -89,8 +89,8 @@ const ContactUs = () => {
         </div>
       )}
       <MetaTags 
-        title="Contact Remax Forge & Fittings | Forged Fittings Manufacturer Mumbai"
-        description="Get a custom quote from Remax Forge & Fittings. Contact our Mumbai factory for high-quality flanges and forged fittings. Reach us at +91 97699 83108 or visit us at Bhuleshwar, Mumbai."
+        title="Contact Remax Forge | Fittings & Flanges Manufacturer"
+        description="Get a custom quote from Remax Forge & Fittings. Contact our Mumbai works for high-quality flanges and fittings. Call +91 97699 83108 or request quote online."
         keywords="Remax Forge Contact Number, Forged Fittings Supplier Mumbai, Flange Manufacturer Address India, Industrial Fittings Sales Email, Remax Forge Bhuleshwar Mumbai, Custom Forging Quote, Pipe Fittings Exporter Contact."
       />
       {/* Breadcrumb Header */}
@@ -185,9 +185,12 @@ const ContactUs = () => {
             <h3 className="text-2xl font-bold text-[#0F172A] mb-6">Send Us a Message</h3>
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Anti-spam honeypot */}
+              <label htmlFor="website_hp" className="sr-only">Leave this field blank</label>
               <input
                 type="text"
+                id="website_hp"
                 name="website_hp"
+                aria-label="Do not fill this field"
                 value={formData.website_hp || ''}
                 onChange={handleChange}
                 tabIndex={-1}
@@ -317,4 +320,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default ContactUs;

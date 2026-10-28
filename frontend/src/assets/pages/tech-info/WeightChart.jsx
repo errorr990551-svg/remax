@@ -6,8 +6,8 @@ const WeightChart = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="Metal Weight Chart & Calculation Formulas | Remax Forge & Fittings"
-        description="Free technical resource for metal weight calculation. Find formulas for Stainless Steel, Carbon Steel, Copper, and Aluminium pipes, sheets, rounds, and bars. Includes a Tensile Strength conversion table for global projects."
+        title="Metal Weight Chart & Calculation Formulas | Remax"
+        description="Free metal weight calculation formulas for stainless steel, carbon steel, and alloy pipes, sheets, and bars. Includes global conversion factors."
         keywords="Pipe Weight Calculation Formula, Stainless Steel Sheet Weight Chart, Steel Round Bar Weight Calculator, Metal Weight Formula per Meter, Carbon Steel Plate Weight, Tensile Strength Conversion Table, Remax Forge Technical Tools, Industrial Metal Weight Chart Mumbai."
       />
       {/* Breadcrumb Header */}

@@ -168,29 +168,67 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Popular Industry & Technical Guides (Fixes L4 Orphan Pages) */}
+        {/* Popular Industry & Technical Guides */}
         <div className="border-t border-slate-800 pt-8 mt-8">
           <div className="text-xs text-slate-400 font-semibold mb-3 uppercase tracking-wider">
             Popular Technical & Supply Guides:
           </div>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-slate-400">
-            <Link to="/oil-gas-pipe-fittings/" className="hover:text-[#D71920] transition-colors">Oil & Gas Pipe Fittings</Link>
+            <Link to="/blogs/butt-weld-fittings-guide/" className="hover:text-[#D71920] transition-colors">Butt-Weld Fittings Guide</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/pipe-fittings-manufacturer-india/" className="hover:text-[#D71920] transition-colors">Pipe Fittings Manufacturer India</Link>
+            <Link to="/blogs/pipe-flanges-guide/" className="hover:text-[#D71920] transition-colors">Pipe Flanges Guide</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/buttweld-fittings-exporter-india/" className="hover:text-[#D71920] transition-colors">Buttweld Fittings Exporter India</Link>
+            <Link to="/blogs/oil-and-gas-pipe-fittings-guide/" className="hover:text-[#D71920] transition-colors">Oil & Gas Pipe Fittings</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/about/iso-9001-certified-flange-manufacturer/" className="hover:text-[#D71920] transition-colors">ISO 9001 Certified Flanges</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/products/flanges/socket-weld-flange/" className="hover:text-[#D71920] transition-colors">Socket Weld Flange</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/products/flanges/spectacle-blind-flange/" className="hover:text-[#D71920] transition-colors">Spectacle Blind Flange</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/product-details/hardox-plate/" className="hover:text-[#D71920] transition-colors">Hardox Plate</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/tech-info/chemical-composition/" className="hover:text-[#D71920] transition-colors">Chemical Composition</Link>
             <span className="text-slate-700">•</span>
             <Link to="/tech-info/pipe-dimensions/" className="hover:text-[#D71920] transition-colors">Pipe Dimensions Guide</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/pipe-fittings-manufacturer-india/" className="hover:text-[#D71920] transition-colors">Pipe Fittings Manufacturer India</Link>
             <span className="text-slate-700">•</span>
             <Link to="/export/uae/" className="hover:text-[#D71920] transition-colors">Export to UAE</Link>
             <span className="text-slate-700">•</span>
             <Link to="/export/usa/" className="hover:text-[#D71920] transition-colors">Export to USA</Link>
+          </div>
+        </div>
+
+        {/* Key Industrial Supply Locations */}
+        <div className="border-t border-slate-800/60 pt-6 mt-6">
+          <div className="text-xs text-slate-400 font-semibold mb-3 uppercase tracking-wider">
+            Key Industrial Supply Locations in India:
+          </div>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-slate-400">
+            <Link to="/durgapur/" className="hover:text-[#D71920] transition-colors">Durgapur</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/materials/stainless-steel-304-flanges/" className="hover:text-[#D71920] transition-colors">SS 304 Flanges</Link>
+            <Link to="/bilaspur/" className="hover:text-[#D71920] transition-colors">Bilaspur</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/materials/stainless-steel-321-347-flanges/" className="hover:text-[#D71920] transition-colors">SS 321 / 347 Flanges</Link>
+            <Link to="/kollam/" className="hover:text-[#D71920] transition-colors">Kollam</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/materials/super-duplex-zeron-100-flanges/" className="hover:text-[#D71920] transition-colors">Zeron 100 Flanges</Link>
+            <Link to="/haridwar/" className="hover:text-[#D71920] transition-colors">Haridwar</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/gangtok/" className="hover:text-[#D71920] transition-colors">Gangtok</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/tuensang/" className="hover:text-[#D71920] transition-colors">Tuensang</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/darbhanga/" className="hover:text-[#D71920] transition-colors">Darbhanga</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/ujjain/" className="hover:text-[#D71920] transition-colors">Ujjain</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/mumbai/" className="hover:text-[#D71920] transition-colors">Mumbai Works</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/kolkata/" className="hover:text-[#D71920] transition-colors">Kolkata</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/visakhapatnam/" className="hover:text-[#D71920] transition-colors">Visakhapatnam</Link>
+            <span className="text-slate-700">•</span>
+            <Link to="/chennai/" className="hover:text-[#D71920] transition-colors">Chennai</Link>
           </div>
         </div>
 

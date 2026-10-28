@@ -6,8 +6,8 @@ const MechanicalProperties = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="Stainless Steel Mechanical Properties Chart | Remax Forge & Fittings"
-        description="View mechanical properties for stainless steel grades 304, 316L, 321, and 410. Detailed chart for Tensile Strength (MPa), Yield Strength, Elongation, and Hardness (BHN/Rb) to ensure engineering compliance."
+        title="Stainless Steel Mechanical Properties Chart | Remax"
+        description="Mechanical properties chart for stainless steel 304, 316L, 321 & 410. Tensile strength, yield strength, elongation, and hardness to ensure compliance."
         keywords="Stainless Steel Mechanical Properties, Tensile Strength of SS 304, Yield Strength 316L, Steel Hardness Chart BHN, Elongation Percentage of Steel, ASTM Mechanical Requirements, Industrial Forging Specifications, Remax Forge Tech Info."
       />
       {/* Breadcrumb Header */}
