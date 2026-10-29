@@ -186,7 +186,7 @@ const AboutUs = () => {
              {/* Action Buttons */}
              <div className="mt-10 flex flex-wrap gap-4">
                <button 
-                 onClick={() => navigate('/quality')}
+                 onClick={() => navigate('/quality/')}
                  className="px-6 py-3 rounded-lg font-bold text-white transition-all transform hover:-translate-y-1 hover:shadow-lg flex items-center gap-2"
                  style={{ backgroundColor: '#D71920' }}
                >
@@ -194,7 +194,7 @@ const AboutUs = () => {
                  <ArrowRight size={18} />
                </button>
                <button 
-                 onClick={() => navigate('/certification')}
+                 onClick={() => navigate('/certification/')}
                  className="px-6 py-3 rounded-lg font-bold text-[#0F172A] border-2 border-[#0F172A] hover:bg-[#0F172A] hover:text-white transition-all transform hover:-translate-y-1 hover:shadow-lg flex items-center gap-2"
                >
                  <FileText size={18} />

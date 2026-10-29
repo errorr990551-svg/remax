@@ -46,19 +46,19 @@ const Home = () => {
       title: "Industrial Flanges",
       description: "Top-rated Flanges Manufacturer in India, producing Slip-on, Weld Neck, Blind, and Socket Weld flanges. Compliant with ASME B16.5 and B16.47 specifications.",
       image: "/images/industrial-flanges.jpeg",
-      link: "/products/flanges/slip-on-flange"
+      link: "/products/flanges/slip-on-flange/"
     },
     {
       title: "Buttweld Fittings",
       description: "High-durability seamless and welded fittings, including reducers and caps, engineered for smooth flow and maximum structural integrity.",
       image: "/images/but-weld-fittings.jpeg",
-      link: "/products/buttweld-fittings/butt-weld-elbow-fittings"
+      link: "/products/buttweld-fittings/butt-weld-elbow-fittings/"
     },
     {
       title: "Socket Weld Fittings",
       description: "Precision-crafted Socket Weld and Threaded Fittings (Elbows, Tees, Unions, and Couplings) designed for high-pressure systems.",
       image: "/images/socket-weld-fittings.jpeg",
-      link: "/products/socket-weld-fittings/socket-weld-coupling-fittings"
+      link: "/products/socket-weld-fittings/socket-weld-coupling-fittings/"
     }
   ];
 
@@ -378,7 +378,7 @@ const Home = () => {
               </div>
 
               <button 
-                onClick={() => navigate('/about-us')}
+                onClick={() => navigate('/about-us/')}
                 className="px-8 py-3 rounded font-bold text-white transition-all transform hover:-translate-y-1 hover:shadow-lg inline-flex items-center gap-2"
                 style={{ backgroundColor: '#0F172A' }}
               >
@@ -560,8 +560,8 @@ const Home = () => {
                 products: "Forged Flanges, RTJ Joints",
                 image: "https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=2070&auto=format&fit=crop",
                 links: [
-                  { name: "Butt Weld Elbow Fittings", url: "/products/buttweld-fittings/butt-weld-elbow-fittings" },
-                  { name: "Weld Neck Flange", url: "/products/flanges/weld-neck-flange" }
+                  { name: "Butt Weld Elbow Fittings", url: "/products/buttweld-fittings/butt-weld-elbow-fittings/" },
+                  { name: "Weld Neck Flange", url: "/products/flanges/weld-neck-flange/" }
                 ]
               },
               {
@@ -570,8 +570,8 @@ const Home = () => {
                 products: "Stainless Steel Fittings, Duplex Steel",
                 image: "/images/petro-chemical.jpeg",
                 links: [
-                  { name: "Socket Weld Coupling Fittings", url: "/products/socket-weld-fittings/socket-weld-coupling-fittings" },
-                  { name: "Threaded Flange", url: "/products/flanges/threaded-flange" }
+                  { name: "Socket Weld Coupling Fittings", url: "/products/socket-weld-fittings/socket-weld-coupling-fittings/" },
+                  { name: "Threaded Flange", url: "/products/flanges/threaded-flange/" }
                 ]
               },
               {
@@ -580,8 +580,8 @@ const Home = () => {
                 products: "IBR Approved Fittings, Alloy Steel",
                 image: "/images/power-plant.jpeg",
                 links: [
-                  { name: "Butt Weld Tee Fittings", url: "/products/buttweld-fittings/butt-weld-tee-fittings" },
-                  { name: "Concentric Reducer", url: "/products/buttweld-fittings/concentric-reducer" }
+                  { name: "Butt Weld Tee Fittings", url: "/products/buttweld-fittings/butt-weld-tee-fittings/" },
+                  { name: "Concentric Reducer", url: "/products/buttweld-fittings/concentric-reducer/" }
                 ]
               },
               {
@@ -590,8 +590,8 @@ const Home = () => {
                 products: "Copper Nickel & Monel Components",
                 image: "https://images.unsplash.com/photo-1494412519320-aa613dfb7738?q=80&w=2070&auto=format&fit=crop",
                 links: [
-                  { name: "Socket Weld Elbow Fittings", url: "/products/socket-weld-fittings/socket-weld-elbow-fittings" },
-                  { name: "Blind Flange", url: "/products/flanges/blind-flange" }
+                  { name: "Socket Weld Elbow Fittings", url: "/products/socket-weld-fittings/socket-weld-elbow-fittings/" },
+                  { name: "Blind Flange", url: "/products/flanges/blind-flange/" }
                 ]
               }
             ].map((item, index) => (
