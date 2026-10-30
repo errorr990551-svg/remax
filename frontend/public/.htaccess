@@ -82,6 +82,12 @@ ErrorDocument 410 /404.html
     Header set Cache-Control "public, max-age=2592000, stale-while-revalidate=86400"
   </FilesMatch>
 
+  # The Udyam certificate prints the company mobile & email: keep it out of search results
+  # (contact details are gated behind the quote form - see CLAUDE.md "Contact gate")
+  <FilesMatch "^udyam-registration-certificate\.pdf$">
+    Header set X-Robots-Tag "noindex, nofollow"
+  </FilesMatch>
+
   # Security & Performance Headers
   Header set X-Content-Type-Options "nosniff"
   Header set X-Frame-Options "SAMEORIGIN"

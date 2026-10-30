@@ -1,3 +1,5 @@
+import { unlockContactDetails } from "../data/contactDetails.js";
+
 // Tiny fetch-based client (replaces axios, which added ~35 KB to every page's JS).
 // Keeps the axios shape the forms rely on: resolves { data, status }, and on non-2xx
 // rejects with an Error carrying err.response = { data, status }.
@@ -23,6 +25,8 @@ const request = async (method, url, body) => {
     err.response = { data, status: res.status };
     throw err;
   }
+  // Any successful quote / contact form submission unlocks the gated contact details
+  if (method === "POST" && url === "/contact") unlockContactDetails();
   return { data, status: res.status };
 };
 

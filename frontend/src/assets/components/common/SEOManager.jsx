@@ -85,6 +85,7 @@ const SEOManager = () => {
     };
 
     // Standard Organization Schema per Sheet 6 #1
+    // No telephone/email here on purpose: contact details are gated behind the quote form (CLAUDE.md)
     const orgSchema = {
       '@context': 'https://schema.org',
       '@type': 'Organization',
@@ -94,7 +95,6 @@ const SEOManager = () => {
       'logo': `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`,
       'description': 'ISO 9001:2015 certified manufacturer of forged flanges, buttweld fittings and pipe fittings in Mumbai, India. Exporting to 45+ countries.',
       'foundingDate': '2004',
-      'email': 'sales@remaxforge.com',
       'address': {
         '@type': 'PostalAddress',
         'streetAddress': '135, New Madhav Baug, C.P. Tank Road, Bhuleshwar',
@@ -103,7 +103,6 @@ const SEOManager = () => {
         'postalCode': '400004',
         'addressCountry': 'IN'
       },
-      'telephone': '+919769983108',
       'sameAs': [
         'https://www.facebook.com/remaxforgefittings',
         'https://www.linkedin.com/company/remax-forge-fittings/',
@@ -113,7 +112,6 @@ const SEOManager = () => {
       'contactPoint': {
         '@type': 'ContactPoint',
         'contactType': 'sales',
-        'telephone': '+919769983108',
         'url': 'https://remaxforge.com/contact/',
         'areaServed': ['IN', 'AE', 'SA', 'US'],
         'availableLanguage': ['en', 'hi']
@@ -128,7 +126,6 @@ const SEOManager = () => {
       'name': 'Remax Forge & Fittings',
       'image': `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`,
       'url': 'https://remaxforge.com/',
-      'telephone': '+919769983108',
       'priceRange': '$$',
       'address': {
         '@type': 'PostalAddress',

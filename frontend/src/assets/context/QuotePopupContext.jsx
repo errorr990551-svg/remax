@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 import PopUp from "../pages/PopUp.jsx";
+import { isContactUnlocked, unlockContactDetails, CONTACT_UNLOCKED_EVENT } from "../data/contactDetails.js";
 
 const QuotePopupContext = createContext();
 
@@ -7,9 +8,14 @@ export const QuotePopupProvider = ({ children }) => {
   const [isQuoteOpen, setIsQuoteOpen] = useState(false);
   const [quoteProduct, setQuoteProduct] = useState("");
   const [isCallbackOpen, setIsCallbackOpen] = useState(false);
-  const [isUnlocked, setIsUnlocked] = useState(() => {
-    return localStorage.getItem("remax_contact_unlocked") === "true";
-  });
+  // Contact details (phone / WhatsApp / email) stay hidden until a quote/contact form is submitted
+  const [isUnlocked, setIsUnlocked] = useState(isContactUnlocked);
+
+  useEffect(() => {
+    const onUnlock = () => setIsUnlocked(true);
+    window.addEventListener(CONTACT_UNLOCKED_EVENT, onUnlock);
+    return () => window.removeEventListener(CONTACT_UNLOCKED_EVENT, onUnlock);
+  }, []);
 
   const openQuotePopup = (productName = "") => {
     setQuoteProduct(typeof productName === "string" ? productName : "");
@@ -29,8 +35,7 @@ export const QuotePopupProvider = ({ children }) => {
   };
 
   const unlockDetails = () => {
-    localStorage.setItem("remax_contact_unlocked", "true");
-    setIsUnlocked(true);
+    unlockContactDetails();
   };
 
   // Attach global functions and click interception for sitewide 'req a call' / 'Request Callback'

@@ -4,10 +4,13 @@ import LogoImg from "../../images/REMAX_FORGE_AND_FITTINGS-01.webp";
 import { useProductMenu } from '../../context/ProductMenuContext.jsx';
 import { productData } from '../../data/productsData.js';
 import { useQuotePopup } from '../../context/QuotePopupContext.jsx';
+import { getContactDetails } from '../../data/contactDetails.js';
 
 const Footer = () => {
   const { openProductMenu } = useProductMenu();
   const { isUnlocked, openQuotePopup, openCallbackPopup } = useQuotePopup();
+  // Site rule: contact details only after the quote/contact form has been submitted
+  const contact = isUnlocked ? getContactDetails() : null;
   return (
     <footer className="bg-[#0F172A] text-white pt-20 pb-28 lg:pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -151,7 +154,7 @@ const Footer = () => {
                 </div>
                 <div className="text-slate-400 text-sm">
                   <span className="block text-white font-semibold mb-1">Email Us:</span>
-                  {!isUnlocked ? (
+                  {!contact ? (
                     <button
                       type="button"
                       onClick={openQuotePopup}
@@ -160,7 +163,7 @@ const Footer = () => {
                       Show Email Details
                     </button>
                   ) : (
-                    <a href="mailto:sales@remaxforge.com" className="hover:text-white transition-colors block">sales@remaxforge.com</a>
+                    <a href={contact.emailHref} className="hover:text-white transition-colors block">{contact.email}</a>
                   )}
                 </div>
               </li>

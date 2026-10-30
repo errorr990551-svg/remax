@@ -3,10 +3,13 @@ import { Home, ChevronRight, Phone, Mail, MapPin, Send } from 'lucide-react';
 import api from '../services/api.js';
 import MetaTags from '../components/common/MetaTags.jsx';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
+import { getContactDetails } from '../data/contactDetails.js';
 
 const ContactUs = () => {
   const [loading, setLoading] = useState(false);
   const { isUnlocked, openQuotePopup } = useQuotePopup();
+  // Site rule: contact details only after the quote/contact form has been submitted
+  const contact = isUnlocked ? getContactDetails() : null;
   const [toast, setToast] = useState({ show: false, message: "", type: "success" });
   const [formData, setFormData] = useState({
     name: "",
@@ -90,7 +93,7 @@ const ContactUs = () => {
       )}
       <MetaTags 
         title="Contact Remax Forge | Fittings & Flanges Manufacturer"
-        description="Get a custom quote from Remax Forge & Fittings. Contact our Mumbai works for high-quality flanges and fittings. Call +91 97699 83108 or request quote online."
+        description="Get a custom quote from Remax Forge & Fittings. Contact our Mumbai works for high-quality flanges and fittings. Request a written quote online and get a reply within 30 minutes."
         keywords="Remax Forge Contact Number, Forged Fittings Supplier Mumbai, Flange Manufacturer Address India, Industrial Fittings Sales Email, Remax Forge Bhuleshwar Mumbai, Custom Forging Quote, Pipe Fittings Exporter Contact."
       />
       {/* Breadcrumb Header */}
@@ -135,21 +138,21 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-[#0F172A] mb-1">Phone</h3>
-                  {!isUnlocked ? (
+                  {!contact ? (
                     <button
                       type="button"
                       onClick={openQuotePopup}
-                      className="mt-1 py-1.5 px-3 bg-[#D71920] hover:bg-red-700 text-white text-xs font-bold rounded transition-colors uppercase tracking-wider shadow-sm"
+                      className="mt-1 py-2.5 px-4 bg-[#D71920] hover:bg-red-700 text-white text-xs font-bold rounded transition-colors uppercase tracking-wider shadow-sm"
                     >
                       Show Phone Details
                     </button>
                   ) : (
                     <>
                       <p className="text-slate-600 mb-1">
-                        <a href="tel:+919769983108" className="hover:text-[#D71920] transition-colors">+91 97699 83108</a>
+                        <a href={contact.phoneHref} className="hover:text-[#D71920] transition-colors">{contact.phoneDisplay}</a>
                       </p>
                       <p className="text-slate-600">
-                        <a href="tel:+912266109211" className="hover:text-[#D71920] transition-colors">022 6610 9211</a>
+                        <a href={contact.landlineHref} className="hover:text-[#D71920] transition-colors">{contact.landlineDisplay}</a>
                       </p>
                     </>
                   )}
@@ -162,17 +165,17 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-[#0F172A] mb-1">Email</h3>
-                  {!isUnlocked ? (
+                  {!contact ? (
                     <button
                       type="button"
                       onClick={openQuotePopup}
-                      className="mt-1 py-1.5 px-3 bg-[#D71920] hover:bg-red-700 text-white text-xs font-bold rounded transition-colors uppercase tracking-wider shadow-sm"
+                      className="mt-1 py-2.5 px-4 bg-[#D71920] hover:bg-red-700 text-white text-xs font-bold rounded transition-colors uppercase tracking-wider shadow-sm"
                     >
                       Show Email Details
                     </button>
                   ) : (
                     <p className="text-slate-600">
-                      <a href="mailto:sales@remaxforge.com" className="hover:text-[#D71920] transition-colors">sales@remaxforge.com</a>
+                      <a href={contact.emailHref} className="hover:text-[#D71920] transition-colors">{contact.email}</a>
                     </p>
                   )}
                 </div>

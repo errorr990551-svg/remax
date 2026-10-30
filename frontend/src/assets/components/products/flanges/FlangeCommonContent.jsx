@@ -26,6 +26,7 @@ import {
   ChevronRight
 } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
+import { getContactDetails } from '../../../data/contactDetails.js';
 import { Link } from 'react-router-dom';
 import dimensionsData from '../../../data/flange_dimensions.json';
 import flangeFaqs from '../../../data/flange_faqs.json';
@@ -590,6 +591,8 @@ export const WhyChooseRemax = () => {
    ---------------------------------------------------- */
 export const HowToOrder = () => {
   const { isUnlocked, openQuotePopup } = useQuotePopup();
+  // Site rule: contact details only after the quote/contact form has been submitted
+  const contact = isUnlocked ? getContactDetails() : null;
 
   const steps = [
     "Flange Type (e.g. Weld Neck, Slip On, Blind, etc.)",
@@ -640,29 +643,29 @@ export const HowToOrder = () => {
               Direct Inquiries
             </h3>
             <div className="space-y-4">
-              {!isUnlocked ? (
+              {!contact ? (
                 <button
                   type="button"
                   onClick={openQuotePopup}
                   className="w-full py-3 px-4 bg-[#D71920] hover:bg-red-700 text-white font-bold rounded-xl transition-all text-xs uppercase tracking-wider shadow-md flex items-center justify-center gap-2 cursor-pointer"
                 >
-                  <Mail size={16} /> Show Email Details
+                  <Mail size={16} /> Show Phone & Email
                 </button>
               ) : (
                 <>
                   <a 
-                    href="mailto:sales@remaxforge.com" 
+                    href={contact.emailHref}
                     className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200 hover:border-[#D71920] hover:text-[#D71920] transition-all group font-semibold text-slate-800 text-sm"
                   >
                     <Mail size={18} className="text-[#D71920] group-hover:scale-110 transition-transform" />
-                    <span>sales@remaxforge.com</span>
+                    <span>{contact.email}</span>
                   </a>
                   <a 
-                    href="tel:+919769983108" 
+                    href={contact.phoneHref}
                     className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200 hover:border-[#D71920] hover:text-[#D71920] transition-all group font-semibold text-slate-800 text-sm"
                   >
                     <Phone size={18} className="text-[#D71920] group-hover:scale-110 transition-transform" />
-                    <span>+91-97699 83108</span>
+                    <span>{contact.phoneDisplay}</span>
                   </a>
                 </>
               )}
