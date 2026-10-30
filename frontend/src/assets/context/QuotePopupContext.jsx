@@ -72,8 +72,11 @@ export const QuotePopupProvider = ({ children }) => {
 
     const path = window.location.pathname.toLowerCase();
     const isExcluded = path.includes("/thank-you") || path.includes("/contact");
+    // No auto-opening full-screen popup on phones/tablets: Google treats it as an intrusive
+    // interstitial (mobile ranking penalty). The sticky bar's "Get Quote" opens it on demand.
+    const isMobile = window.matchMedia("(max-width: 1023px)").matches;
 
-    if (!isDismissed && !isExcluded) {
+    if (!isDismissed && !isExcluded && !isMobile) {
       const timer = setTimeout(() => {
         const stillNotDismissed =
           localStorage.getItem("remax_rfq_popup_dismissed") === "true" ||

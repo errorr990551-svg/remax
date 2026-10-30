@@ -9,7 +9,7 @@ const Footer = () => {
   const { openProductMenu } = useProductMenu();
   const { isUnlocked, openQuotePopup, openCallbackPopup } = useQuotePopup();
   return (
-    <footer className="bg-[#0F172A] text-white pt-20 pb-10">
+    <footer className="bg-[#0F172A] text-white pt-20 pb-28 lg:pb-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Top Section: Grid Layout */}
@@ -65,7 +65,7 @@ const Footer = () => {
               Quick Links
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-[#D71920] rounded"></span>
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-1">
               {[
                 { name: 'Home', path: '/' },
                 { name: 'About Us', path: '/about-us/' },
@@ -79,7 +79,7 @@ const Footer = () => {
                 { name: 'Contact Us', path: '/contact/' }
               ].map((item) => (
                 <li key={item.name}>
-                  <Link to={item.path} className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm">
+                  <Link to={item.path} className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm py-1.5">
                     <ChevronRight size={14} className="text-[#D71920]" />
                     {item.name}
                   </Link>
@@ -94,7 +94,7 @@ const Footer = () => {
               Our Products
               <span className="absolute -bottom-2 left-0 w-12 h-1 bg-[#D71920] rounded"></span>
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-1">
               {productData.map((item, index) => {
                 const getCategoryLink = (category) => {
                   if (category === "Flanges") return "/products/flanges/slip-on-flange/";
@@ -109,7 +109,7 @@ const Footer = () => {
                     <Link 
                       to={getCategoryLink(item.category)}
                       onClick={() => openProductMenu(index)}
-                      className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm text-left w-full group"
+                      className="text-slate-400 hover:text-[#D71920] hover:pl-2 transition-all duration-300 flex items-center gap-2 text-sm py-1.5 text-left w-full group"
                     >
                       <ChevronRight size={14} className="text-[#D71920] group-hover:translate-x-1 transition-transform" />
                       {item.category}
@@ -155,7 +155,7 @@ const Footer = () => {
                     <button
                       type="button"
                       onClick={openQuotePopup}
-                      className="mt-1 py-1.5 px-3 bg-[#D71920] hover:bg-red-700 text-white text-xs font-bold rounded transition-colors uppercase tracking-wider shadow-sm cursor-pointer"
+                      className="mt-1 py-2.5 px-4 bg-[#D71920] hover:bg-red-700 text-white text-xs font-bold rounded transition-colors uppercase tracking-wider shadow-sm cursor-pointer"
                     >
                       Show Email Details
                     </button>
@@ -174,29 +174,29 @@ const Footer = () => {
             Popular Technical & Supply Guides:
           </div>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-slate-400">
-            <Link to="/blogs/butt-weld-fittings-guide/" className="hover:text-[#D71920] transition-colors">Butt-Weld Fittings Guide</Link>
+            <Link to="/blogs/butt-weld-fittings-guide/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Butt-Weld Fittings Guide</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/blogs/pipe-flanges-guide/" className="hover:text-[#D71920] transition-colors">Pipe Flanges Guide</Link>
+            <Link to="/blogs/pipe-flanges-guide/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Pipe Flanges Guide</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/blogs/oil-and-gas-pipe-fittings-guide/" className="hover:text-[#D71920] transition-colors">Oil & Gas Pipe Fittings</Link>
+            <Link to="/blogs/oil-and-gas-pipe-fittings-guide/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Oil & Gas Pipe Fittings</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/about/iso-9001-certified-flange-manufacturer/" className="hover:text-[#D71920] transition-colors">ISO 9001 Certified Flanges</Link>
+            <Link to="/about/iso-9001-certified-flange-manufacturer/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">ISO 9001 Certified Flanges</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/products/flanges/socket-weld-flange/" className="hover:text-[#D71920] transition-colors">Socket Weld Flange</Link>
+            <Link to="/products/flanges/socket-weld-flange/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Socket Weld Flange</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/products/flanges/spectacle-blind-flange/" className="hover:text-[#D71920] transition-colors">Spectacle Blind Flange</Link>
+            <Link to="/products/flanges/spectacle-blind-flange/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Spectacle Blind Flange</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/product-details/hardox-plate/" className="hover:text-[#D71920] transition-colors">Hardox Plate</Link>
+            <Link to="/product-details/hardox-plate/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Hardox Plate</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/tech-info/chemical-composition/" className="hover:text-[#D71920] transition-colors">Chemical Composition</Link>
+            <Link to="/tech-info/chemical-composition/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Chemical Composition</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/tech-info/pipe-dimensions/" className="hover:text-[#D71920] transition-colors">Pipe Dimensions Guide</Link>
+            <Link to="/tech-info/pipe-dimensions/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Pipe Dimensions Guide</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/pipe-fittings-manufacturer-india/" className="hover:text-[#D71920] transition-colors">Pipe Fittings Manufacturer India</Link>
+            <Link to="/pipe-fittings-manufacturer-india/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Pipe Fittings Manufacturer India</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/export/uae/" className="hover:text-[#D71920] transition-colors">Export to UAE</Link>
+            <Link to="/export/uae/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Export to UAE</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/export/usa/" className="hover:text-[#D71920] transition-colors">Export to USA</Link>
+            <Link to="/export/usa/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Export to USA</Link>
           </div>
         </div>
 
@@ -206,29 +206,29 @@ const Footer = () => {
             Key Industrial Supply Locations in India:
           </div>
           <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-slate-400">
-            <Link to="/durgapur/" className="hover:text-[#D71920] transition-colors">Durgapur</Link>
+            <Link to="/durgapur/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Durgapur</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/bilaspur/" className="hover:text-[#D71920] transition-colors">Bilaspur</Link>
+            <Link to="/bilaspur/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Bilaspur</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/kollam/" className="hover:text-[#D71920] transition-colors">Kollam</Link>
+            <Link to="/kollam/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Kollam</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/haridwar/" className="hover:text-[#D71920] transition-colors">Haridwar</Link>
+            <Link to="/haridwar/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Haridwar</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/gangtok/" className="hover:text-[#D71920] transition-colors">Gangtok</Link>
+            <Link to="/gangtok/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Gangtok</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/tuensang/" className="hover:text-[#D71920] transition-colors">Tuensang</Link>
+            <Link to="/tuensang/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Tuensang</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/darbhanga/" className="hover:text-[#D71920] transition-colors">Darbhanga</Link>
+            <Link to="/darbhanga/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Darbhanga</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/ujjain/" className="hover:text-[#D71920] transition-colors">Ujjain</Link>
+            <Link to="/ujjain/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Ujjain</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/mumbai/" className="hover:text-[#D71920] transition-colors">Mumbai Works</Link>
+            <Link to="/mumbai/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Mumbai Works</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/kolkata/" className="hover:text-[#D71920] transition-colors">Kolkata</Link>
+            <Link to="/kolkata/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Kolkata</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/visakhapatnam/" className="hover:text-[#D71920] transition-colors">Visakhapatnam</Link>
+            <Link to="/visakhapatnam/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Visakhapatnam</Link>
             <span className="text-slate-700">•</span>
-            <Link to="/chennai/" className="hover:text-[#D71920] transition-colors">Chennai</Link>
+            <Link to="/chennai/" className="inline-block py-1.5 hover:text-[#D71920] transition-colors">Chennai</Link>
           </div>
         </div>
 

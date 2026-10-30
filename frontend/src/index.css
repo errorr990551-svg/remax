@@ -1,6 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  /* Long words (e.g. "THIRUVANANTHAPURAM" in a big heading) wrap instead of widening the page */
+  h1, h2, h3, h4, h5, h6, p, li, td, th, dd, dt, blockquote {
+    overflow-wrap: break-word;
+  }
+}
+
+@media (max-width: 767px) {
+  /* iOS Safari zooms the page when a focused field's text is under 16px */
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]),
+  select,
+  textarea {
+    font-size: 16px !important;
+  }
+}
 /* Hero banner: 800px file for phones, 1600px for tablets/desktop (matches the preloads in index.html) */
 .hero-banner {
   background-image: url('/images/banner-mobile.webp');

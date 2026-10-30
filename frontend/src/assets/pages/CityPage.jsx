@@ -329,7 +329,7 @@ const CityPage = () => {
                         <Link
                           key={lIndex}
                           to={link.url}
-                          className="text-[9px] font-bold uppercase tracking-wider px-2.5 py-1.5 border border-white/30 text-white hover:bg-[#D71920] hover:border-[#D71920] transition-all duration-300 rounded backdrop-blur-sm"
+                          className="text-[11px] font-bold uppercase tracking-wider px-3 py-2 border border-white/30 text-white hover:bg-[#D71920] hover:border-[#D71920] transition-all duration-300 rounded backdrop-blur-sm"
                         >
                           {link.name}
                         </Link>

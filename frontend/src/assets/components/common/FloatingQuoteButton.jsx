@@ -113,7 +113,7 @@ const FloatingQuoteButton = () => {
       {/* Floating Button */}
       <button
         onClick={handleOpen}
-        className="fixed bottom-6 right-6 z-40 bg-[#D71920] hover:bg-red-700 text-white font-bold py-3 px-5 rounded-full shadow-2xl flex items-center gap-2 transition-all transform hover:scale-105 animate-bounce-subtle"
+        className="fixed bottom-6 right-6 z-40 bg-[#D71920] hover:bg-red-700 text-white font-bold py-3 px-5 rounded-full shadow-2xl hidden lg:flex items-center gap-2 transition-all transform hover:scale-105 animate-bounce-subtle"
         aria-label="Get Instant Quote"
       >
         <FileText className="w-5 h-5" />
@@ -165,7 +165,7 @@ const FloatingQuoteButton = () => {
 
                 <form onSubmit={handleSubmit} className="space-y-3 mt-4">
                   
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div>
                       <label className="block text-xs font-semibold text-slate-700 mb-1">Full Name *</label>
                       <input
@@ -193,7 +193,7 @@ const FloatingQuoteButton = () => {
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div>
                       <label className="block text-xs font-semibold text-slate-700 mb-1">Phone Number *</label>
                       <input
