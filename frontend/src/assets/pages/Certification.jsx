@@ -45,7 +45,7 @@ const Certification = () => {
       constitution: 'Proprietorship',
       jurisdiction: 'Mumbai, Maharashtra',
       issueDate: '03 September 2025',
-      pdfUrl: '/Remax GST Certificate.pdf',
+      pdfUrl: '/remax-gst-certificate.pdf',
       fileSize: '120 KB',
       verificationUrl: 'https://services.gst.gov.in/services/searchtp',
       highlights: [
@@ -67,7 +67,7 @@ const Certification = () => {
       constitution: 'Micro & Small Manufacturing Enterprise',
       jurisdiction: 'Mumbai, Maharashtra Works',
       issueDate: 'Active Official Registration',
-      pdfUrl: '/Udyam.pdf',
+      pdfUrl: '/udyam-registration-certificate.pdf',
       fileSize: '1.1 MB',
       verificationUrl: 'https://udyamregistration.gov.in/',
       highlights: [

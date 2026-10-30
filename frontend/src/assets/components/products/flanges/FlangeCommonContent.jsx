@@ -877,7 +877,7 @@ export const RelatedFlanges = ({ activeSlug }) => {
       {filtered.slice(0, 4).map((flange, idx) => (
         <Link 
           key={idx} 
-          to={`/products/flanges/${flange.slug}`}
+          to={`/products/flanges/${flange.slug}/`}
           className="group bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col justify-between"
         >
           <div className="bg-slate-50 p-4 flex justify-center items-center h-40 border-b border-slate-100">

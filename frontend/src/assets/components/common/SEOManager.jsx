@@ -57,7 +57,8 @@ const SEOManager = () => {
 
       const setLink = (rel, href, attributes = {}) => {
         if (!href) return;
-        let tag = document.querySelector(`link[rel="${rel}"]`);
+        const selector = attributes.hreflang ? `link[rel="${rel}"][hreflang="${attributes.hreflang}"]` : `link[rel="${rel}"]`;
+        let tag = document.querySelector(selector);
         if (tag) tag.setAttribute('href', href);
         else {
           tag = document.createElement('link');
@@ -82,6 +83,8 @@ const SEOManager = () => {
       setProp('og:url', `${baseUrl}${strategyPage.url}`);
       setProp('og:image', `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`);
       setProp('og:type', 'website');
+      setProp('og:site_name', 'Remax Forge & Fittings');
+      setProp('og:locale', 'en_IN');
 
       setMeta('twitter:card', 'summary_large_image');
       setMeta('twitter:title', strategyPage.title);
@@ -105,7 +108,13 @@ const SEOManager = () => {
     let title = pageMeta.title || 'Flanges & Pipe Fittings Manufacturer India | Remax Forge';
     let description = pageMeta.description || 'ISO 9001 manufacturer of flanges, buttweld & forged fittings in Mumbai. Trusted by ONGC, Tata Steel & L&T. Exporting to 45+ countries. Get a quote in 30 min.';
     let type = 'website';
-    let image = `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`;
+    // First content image actually rendered on the page (skips the navbar logo); falls back to the logo.
+    // Guessing /images/<slug>.webp pointed most product & blog schemas at files that do not exist.
+    const pageImg = Array.from(document.querySelectorAll('#root img')).find((el) => {
+      const src = el.getAttribute('src') || '';
+      return src.startsWith('/images/') && !src.includes('REMAX_FORGE_AND_FITTINGS') && !el.closest('nav, header, footer');
+    });
+    let image = pageImg ? encodeURI(`${baseUrl}${pageImg.getAttribute('src')}`) : `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`;
     let schemas = [];
     let noindex = false;
 
@@ -135,6 +144,29 @@ const SEOManager = () => {
     });
 
     const breadcrumbsHome = { name: 'Home', path: '/' };
+
+    // Intermediate levels that are real, indexable hub pages (/products/, /materials/ etc. are 301s)
+    const hubNames = {
+      '/blogs/': 'Blogs',
+      '/export/': 'Export',
+      '/market-area/': 'Market Area',
+      '/products/flanges/': 'Flanges',
+      '/products/socket-weld-fittings/': 'Socket Weld Fittings',
+      '/products/forged-fittings/': 'Forged Fittings'
+    };
+    const hubCrumbs = (path) => {
+      const segs = path.split('/').filter(Boolean);
+      const crumbs = [];
+      for (let i = 1; i < segs.length; i++) {
+        const hubPath = `/${segs.slice(0, i).join('/')}/`;
+        if (hubNames[hubPath]) {
+          crumbs.push({ name: hubNames[hubPath], path: hubPath });
+        } else if (/^\/(export|market-area)\/[^/]+\/$/.test(hubPath)) {
+          crumbs.push({ name: formatName(segs[i - 1]), path: hubPath });
+        }
+      }
+      return crumbs;
+    };
 
     // Standard Organization Schema per Sheet 6 #1
     const orgSchema = {
@@ -225,7 +257,7 @@ const SEOManager = () => {
       schemas.push(localBusinessSchema);
       schemas.push(makeBreadcrumbs([breadcrumbsHome, { name: formatName(parts[0]), path: canonicalPath }]));
 
-    } else if (canonicalPath.startsWith('/product-details/') || canonicalPath.startsWith('/products/')) {
+    } else if ((canonicalPath.startsWith('/product-details/') || canonicalPath.startsWith('/products/')) && !hubNames[canonicalPath]) {
       const productSlug = parts[parts.length - 1] || '';
       const productName = pageMeta.h1 || formatName(productSlug);
 
@@ -233,7 +265,7 @@ const SEOManager = () => {
         '@context': 'https://schema.org',
         '@type': 'Product',
         'name': productName,
-        'image': `${baseUrl}/images/${productSlug}.webp`,
+        'image': image,
         'description': description,
         'brand': { '@type': 'Brand', 'name': 'Remax Forge & Fittings' },
         'manufacturer': { '@id': 'https://remaxforge.com/#organization' },
@@ -251,13 +283,6 @@ const SEOManager = () => {
             '@type': 'Organization',
             'name': 'Remax Forge & Fittings'
           }
-        },
-        'aggregateRating': {
-          '@type': 'AggregateRating',
-          'ratingValue': '4.9',
-          'reviewCount': '58',
-          'bestRating': '5',
-          'worstRating': '1'
         }
       };
       schemas.push(productSchema);
@@ -277,14 +302,12 @@ const SEOManager = () => {
 
       schemas.push(makeBreadcrumbs([
         breadcrumbsHome,
-        { name: formatName(parts[0]), path: `/${parts[0]}/` },
+        ...hubCrumbs(canonicalPath),
         { name: productName, path: canonicalPath }
       ]));
 
-    } else if (canonicalPath.startsWith('/blogs/')) {
-      const blogSlug = parts[1] || '';
+    } else if (canonicalPath.startsWith('/blogs/') && parts.length > 1) {
       type = 'article';
-      image = `${baseUrl}/images/${blogSlug}.jpeg`;
 
       const articleSchema = {
         '@context': 'https://schema.org',
@@ -300,8 +323,8 @@ const SEOManager = () => {
       schemas.push(articleSchema);
       schemas.push(makeBreadcrumbs([
         breadcrumbsHome,
-        { name: 'Blogs', path: '/blogs/' },
-        { name: title, path: canonicalPath }
+        ...hubCrumbs(canonicalPath),
+        { name: pageMeta.h1 || title, path: canonicalPath }
       ]));
 
     } else {
@@ -314,7 +337,8 @@ const SEOManager = () => {
 
       schemas.push(makeBreadcrumbs([
         breadcrumbsHome,
-        { name: formatName(parts[0] || 'Page'), path: canonicalPath }
+        ...hubCrumbs(canonicalPath),
+        { name: pageMeta.h1 || formatName(parts[parts.length - 1] || 'Page'), path: canonicalPath }
       ]));
     }
 
@@ -379,7 +403,8 @@ const SEOManager = () => {
 
     const setLinkTag = (rel, href, attributes = {}) => {
       if (!href) return;
-      let tag = document.querySelector(`link[rel="${rel}"]`);
+      const selector = attributes.hreflang ? `link[rel="${rel}"][hreflang="${attributes.hreflang}"]` : `link[rel="${rel}"]`;
+      let tag = document.querySelector(selector);
       if (tag) {
         tag.setAttribute('href', href);
       } else {
@@ -418,6 +443,8 @@ const SEOManager = () => {
     setPropertyTag('og:url', canonicalUrl);
     setPropertyTag('og:image', image);
     setPropertyTag('og:type', type);
+    setPropertyTag('og:site_name', 'Remax Forge & Fittings');
+    setPropertyTag('og:locale', 'en_IN');
 
     setMetaTag('twitter:card', 'summary_large_image');
     setMetaTag('twitter:title', title);
