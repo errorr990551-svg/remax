@@ -74,7 +74,7 @@ const AlloySteelPowerGen = () => {
 
             {/* Image 2: Alloy steel composition chart */}
             <div className="mb-10 mt-10 rounded-xl overflow-hidden shadow-sm border border-slate-100">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b6-2.jpeg" 
                 alt="alloy steel pipe composition chart showing chromium molybdenum and carbon content for power plant applications" 
                 className="w-full h-auto"
@@ -108,7 +108,7 @@ const AlloySteelPowerGen = () => {
 
             {/* Image 3: Flow-accelerated corrosion diagram */}
             <div className="mb-10 rounded-xl overflow-hidden shadow-sm bg-slate-50 p-4 border border-slate-200">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b6-3.jpeg" 
                 alt="flow accelerated corrosion mechanism causing wall thinning in power plant piping systems" 
                 className="w-full h-auto"
@@ -138,7 +138,7 @@ const AlloySteelPowerGen = () => {
 
             {/* Image 4: Ultrasonic inspection of alloy steel pipe */}
             <div className="mb-10 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b6-4.jpeg" 
                 alt="ultrasonic thickness testing of high-temperature alloy steel piping in power generation industry" 
                 className="w-full h-auto"

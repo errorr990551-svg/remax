@@ -223,7 +223,7 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
                 value={formData.phone}
                 onChange={handleChange}
                 placeholder="+91 XXXXX XXXXX"
-                pattern="[0-9+ -]{8,18}"
+                pattern="[0-9+ \-]{8,18}"
                 minLength={8}
                 autoComplete="tel"
                 className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 placeholder-slate-400"

@@ -11,14 +11,10 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks(id) {
-          if (id.includes('node_modules')) {
-            if (id.includes('react') || id.includes('scheduler')) {
-              return 'vendor-react';
-            }
-            if (id.includes('lucide-react')) {
-              return 'vendor-lucide';
-            }
-            return 'vendor-other';
+          // Only the React runtime is shared by every page. Icons, axios, emailjs etc. are left to
+          // Rollup so they ship with the pages that use them instead of one sitewide vendor file.
+          if (/node_modules\/(react|react-dom|scheduler|react-router|react-router-dom)\//.test(id)) {
+            return 'vendor-react';
           }
           if (id.includes('marketAreaData.js')) {
             return 'data-market-area';

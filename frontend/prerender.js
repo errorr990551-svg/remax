@@ -210,16 +210,20 @@ async function run() {
 
       try {
         await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 12000 });
-        await page.waitForSelector('#root > *', { timeout: 3000 }).catch(() => {});
+        // Pages are lazy chunks: wait until the route has rendered (no Suspense fallback left)
+        await page.waitForFunction(
+          () => document.querySelector('#root > *') && !document.querySelector('[data-route-loading]'),
+          { timeout: 5000 }
+        ).catch(() => {});
         let html = await page.content();
 
         if (!(await page.$('#root > *'))) {
           blankPages.push(url);
         }
 
-        // The hero banner preload is only useful on the homepage
-        if (url !== '/') {
-          html = html.replace(/<link rel="preload" href="\/images\/banner\.jpeg"[^>]*>\s*/, '');
+        // Keep the hero banner preload only on pages that actually render it (home + city pages)
+        if (!html.split('<body')[1].includes('hero-banner')) {
+          html = html.replace(/<link rel="preload" href="\/images\/banner(-mobile)?\.webp"[^>]*>\s*/g, '');
         }
 
         if (url === '/') {

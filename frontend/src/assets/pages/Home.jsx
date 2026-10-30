@@ -86,40 +86,6 @@ const Home = () => {
     }
   ];
 
-  // Data for SLIDER Section (5 items with Images now)
-  const sliderItems = [
-    { 
-      image: "/images/advance-manufacturing.webp",
-      icon: <Factory size={32} />, 
-      title: "Advanced Manufacturing", 
-      description: "State-of-the-art machinery for precision forging." 
-    },
-    { 
-      image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop",
-      icon: <Award size={32} />, 
-      title: "Certified Excellence", 
-      description: "Adhering to strict international standards (ASME, ASTM)." 
-    },
-    { 
-      image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=2070&auto=format&fit=crop",
-      icon: <Truck size={32} />, 
-      title: "Fast Global Delivery", 
-      description: "Strategic logistics for short lead times worldwide." 
-    },
-    { 
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop",
-      icon: <PenTool size={32} />, 
-      title: "Technical Expertise", 
-      description: "Decades of engineering experience at your service." 
-    },
-    { 
-      image: "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=2070&auto=format&fit=crop",
-      icon: <Recycle size={32} />, 
-      title: "Sustainable Practices", 
-      description: "Eco-friendly manufacturing with 100% recyclable materials." 
-    }
-  ];
-
   // Data for Clients Section (Using placeholder logos)
   const clientLogos = [
     "/images/1.webp",
@@ -182,17 +148,6 @@ const Home = () => {
     setProductSlide((prev) => (prev === 0 ? productsList.length - 3 : prev - 1));
   };
 
-  // Original Feature Slider State
-  const [currentSlide, setCurrentSlide] = useState(0);
-
-  // Auto-slide effect
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % (sliderItems.length - 2)); 
-    }, 4000);
-    return () => clearInterval(timer);
-  }, [sliderItems.length]);
-
   // Auto-slide for Product Carousel
   useEffect(() => {
     const timer = setInterval(() => {
@@ -200,15 +155,6 @@ const Home = () => {
     }, 5000); // Slightly different timing for variety
     return () => clearInterval(timer);
   }, [productsList.length]);
-
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % (sliderItems.length - 2));
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev === 0 ? sliderItems.length - 3 : prev - 1));
-  };
-
 
 
   return (
@@ -237,12 +183,7 @@ const Home = () => {
       <div className="relative w-full min-h-[600px] md:h-[700px] flex items-center pt-20 md:pt-0">
         {/* Background Image (Banner) */}
         <div 
-          className="absolute inset-0 z-0"
-          style={{
-            backgroundImage: "url('/images/banner.jpeg')",
-            backgroundSize: 'cover',
-            backgroundPosition: 'top center',
-          }}
+          className="absolute inset-0 z-0 hero-banner bg-cover bg-top"
         >
           {/* Dark Overlay for Text Readability */}
           <div className="absolute inset-0 bg-slate-900/60 mix-blend-multiply"></div>

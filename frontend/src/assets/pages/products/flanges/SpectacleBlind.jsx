@@ -257,7 +257,7 @@ const SpectacleBlind = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-8">
             <div className="lg:col-span-8"><MaterialGradesTable productName="Spectacle Blind Flange" /></div>
             <div className="lg:col-span-4 bg-slate-50 border border-slate-200 rounded-2xl p-4 flex flex-col items-center justify-center">
-              <img src="/images/nickel-alloy-bar-500x500.webp" alt="Spectacle Blind Flange material grades stainless duplex inconel hastelloy" className="w-full h-auto max-h-[220px] object-contain rounded-xl shadow-sm mb-2" />
+              <img loading="lazy" decoding="async" src="/images/nickel-alloy-bar-500x500.webp" alt="Spectacle Blind Flange material grades stainless duplex inconel hastelloy" className="w-full h-auto max-h-[220px] object-contain rounded-xl shadow-sm mb-2" />
               <span className="text-[10px] text-slate-500 font-mono">Forged Raw Plate / Billets stock</span>
             </div>
           </div>

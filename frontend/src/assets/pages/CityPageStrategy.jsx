@@ -18,6 +18,7 @@ import {
   Tag
 } from 'lucide-react';
 import { cityStrategyData } from '../data/cityStrategyData.js';
+import useStrategySeo from '../components/common/useStrategySeo.js';
 import CityHeroQuoteForm from '../components/city/CityHeroQuoteForm.jsx';
 import CityFullRfqForm from '../components/city/CityFullRfqForm.jsx';
 
@@ -63,6 +64,7 @@ const CityPageStrategy = ({ forcedKey }) => {
   }
 
   const pageData = resolvedKey ? cityStrategyData[resolvedKey] : null;
+  useStrategySeo(pageData);
 
   const [openFaq, setOpenFaq] = useState(null);
   const [videoPlaying, setVideoPlaying] = useState(false);

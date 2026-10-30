@@ -306,7 +306,7 @@ const SlipOn = () => {
               <MaterialGradesTable productName="Slip On Flange" />
             </div>
             <div className="lg:col-span-4 bg-slate-50 border border-slate-200 rounded-2xl p-4 flex flex-col items-center justify-center">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/nickel-alloy-bar-500x500.webp" 
                 alt="Slip On Flange material grades stainless steel duplex inconel" 
                 className="w-full h-auto max-h-[220px] object-contain rounded-xl shadow-sm mb-2"

@@ -88,7 +88,7 @@ const OilAndGasFittings = () => {
 
             <h3 className="text-xl font-bold text-[#0F172A] mb-3">ASME B16.11 Pressure Classes in Oil & Gas Context</h3>
             <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b4-2.jpeg" 
                 alt="ASME B16.11 forged pipe fitting dimensions and pressure class technical specification chart" 
                 className="w-full h-auto"
@@ -105,7 +105,7 @@ const OilAndGasFittings = () => {
             </p>
 
             <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b4-3.jpeg" 
                 alt="severe corrosion damage in oil and gas pipeline caused by hydrogen sulfide sour service exposure" 
                 className="w-full h-auto"
@@ -137,7 +137,7 @@ const OilAndGasFittings = () => {
 
             <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Third-Party Inspection and Certification — What Oil & Gas Buyers Demand</h2>
             <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b4-4.jpeg" 
                 alt="quality inspection of high-pressure oil and gas pipeline fitting by industrial safety engineer" 
                 className="w-full h-auto"

@@ -80,13 +80,9 @@ const CityPage = () => {
       {/* Hero Section */}
       <div className="relative w-full min-h-[600px] md:h-[700px] flex items-center pt-24 md:pt-0">
         <div 
-          className="absolute inset-0 z-0"
+          className="absolute inset-0 z-0 hero-banner bg-cover bg-top"
           title={data.banner.imageAlt}
-          style={{
-            backgroundImage: "url('/images/banner.jpeg')",
-            backgroundSize: 'cover',
-            backgroundPosition: 'top center',
-          }}
+          
         >
           <div className="absolute inset-0 bg-slate-900/60 mix-blend-multiply"></div>
         </div>

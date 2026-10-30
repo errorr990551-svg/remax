@@ -181,7 +181,7 @@ const BrochureGating = () => {
                         required
                         placeholder="+91 98765 43210"
                         autoComplete="tel"
-                        pattern="[0-9+ -]{8,18}"
+                        pattern="[0-9+ \-]{8,18}"
                         title="Please enter a valid phone number (minimum 8 digits)"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}

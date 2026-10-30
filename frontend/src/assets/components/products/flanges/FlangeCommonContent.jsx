@@ -746,7 +746,7 @@ export const FlangeDimensionsTable = ({ slug, altText }) => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
         <div className="lg:col-span-5 bg-[#0F172A] rounded-2xl overflow-hidden shadow-lg border border-slate-800 p-4">
           <div className="flex flex-col items-center">
-            <img 
+            <img loading="lazy" decoding="async" 
               src={`/images/${slug}-dimensions.svg`} 
               alt={altText || `ASME B16.5 ${slug.replace(/-/g, ' ')} dimensions chart`} 
               className="w-full h-auto object-contain max-h-[280px]"
@@ -881,7 +881,7 @@ export const RelatedFlanges = ({ activeSlug }) => {
           className="group bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col justify-between"
         >
           <div className="bg-slate-50 p-4 flex justify-center items-center h-40 border-b border-slate-100">
-            <img 
+            <img loading="lazy" decoding="async" 
               src={flange.img} 
               alt={flange.name} 
               className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500 p-2"

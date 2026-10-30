@@ -20,7 +20,7 @@ const Footer = () => {
             {/* Logo Space */}
             <div className="flex items-center gap-3">
               <div className="bg-white px-4 py-3 rounded-xl shadow-md inline-flex items-center gap-2">
-                <img 
+                <img loading="lazy" decoding="async" 
                   src={LogoImg}
                   alt="Remax Logo" 
                   className="h-12 md:h-14 w-auto object-contain"

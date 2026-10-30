@@ -67,7 +67,7 @@ const StainlessSteelGrades = () => {
             </p>
 
             <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b3-2.jpeg" 
                 alt="types of stainless steel including austenitic ferritic martensitic and duplex grades comparison chart" 
                 className="w-full h-auto"
@@ -132,7 +132,7 @@ const StainlessSteelGrades = () => {
 
             <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">The Austenitic Grades in Depth — 304 vs 316 and Beyond</h2>
             <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b3-3.jpeg" 
                 alt="304 vs 316 stainless steel comparison showing corrosion resistance and industrial applications" 
                 className="w-full h-auto"
@@ -186,7 +186,7 @@ const StainlessSteelGrades = () => {
 
             <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Duplex Grades — When Strength and Corrosion Resistance Both Matter</h2>
             <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b3-4.jpeg" 
                 alt="stainless steel blind flanges installed on industrial piping system for high-pressure applications" 
                 className="w-full h-auto"

@@ -63,7 +63,7 @@ const PipeFlangesGuide = () => {
 
             {/* Section: Flange Types */}
             <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b(2)2.jpeg" 
                 alt="types of pipe flanges including weld neck slip on blind socket weld and threaded flange diagram" 
                 className="w-full h-auto"
@@ -163,7 +163,7 @@ const PipeFlangesGuide = () => {
 
             {/* Section: Flange Facing Types */}
             <div className="mb-8 mt-12 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b(2)3.jpeg" 
                 alt="raised face vs flat face flange comparison showing sealing surface differences in pipe flanges" 
                 className="w-full h-auto"
@@ -240,7 +240,7 @@ const PipeFlangesGuide = () => {
 
             {/* Section: Flange Materials */}
             <div className="mb-8 mt-12 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b(2)4.jpeg" 
                 alt="stack of industrial stainless steel pipe flanges in different sizes used in high-pressure piping systems" 
                 className="w-full h-auto"
