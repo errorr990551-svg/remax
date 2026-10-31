@@ -19,42 +19,74 @@
   ],
   "weld-neck-flange": [
     {
+      "question": "What is a weld neck flange?",
+      "answer": "A weld neck flange has a long tapered hub that is butt welded to the pipe. The hub carries stress gradually from the flange ring into the pipe wall, and the bore is machined to the pipe's inside diameter so there is no step in the flow path. It is the standard choice for high pressure, high or low temperature and cyclic service."
+    },
+    {
       "question": "What is the difference between ASME B16.5 and B16.47 weld neck flanges?",
-      "answer": "B16.5 covers sizes ½\" to 24\" in classes 150–2500; B16.47 covers 26\"–60\" in two series (A=MSS SP-44, B=API 605)."
+      "answer": "ASME B16.5 covers NPS ½ to 24 in Classes 150 to 2500. ASME B16.47 covers large diameter flanges from NPS 26 to 60 in two series that are not interchangeable: Series A (formerly MSS SP-44, heavier) and Series B (formerly API 605, more compact)."
+    },
+    {
+      "question": "What does WNRF mean?",
+      "answer": "WNRF is a weld neck raised face flange, the most common type. WNFF is weld neck flat face, used against flat-faced flanges such as cast iron or FRP equipment, and WNRTJ is weld neck ring type joint, used with metal ring gaskets in Class 600 and above and in high temperature service."
+    },
+    {
+      "question": "Why do I need to give the pipe schedule when ordering a weld neck flange?",
+      "answer": "The bore of a weld neck flange is machined to match the inside diameter of the pipe, which depends on the wall schedule (for example SCH 40, SCH 80 or SCH 160). A matched bore gives a smooth flow path and a good fit-up for the butt weld. A mismatch has to be tapered or counterbored at site."
+    },
+    {
+      "question": "Weld neck or slip-on flange: which should I use?",
+      "answer": "Use weld neck flanges for high pressure, temperature extremes, cyclic or vibrating service and where the weld must be radiographed. Slip-on flanges are cheaper and easier to align for low pressure utility lines, but their fatigue life is roughly one third of a weld neck, and ASME B31.3 restricts them in severe cyclic service."
     },
     {
       "question": "What pressure class weld neck flange do I need for 600 psi at 400°F in A105?",
-      "answer": "Class 300 per ASME B16.5 table 2-1.1."
+      "answer": "Class 300. Under ASME B16.5 Table 2-1.1 (Group 1.1 materials such as A105), Class 300 is rated at 635 psig at 400°F, while Class 150 is rated at only 200 psig at that temperature."
     },
     {
-      "question": "Do you supply IBR-approved weld neck flanges?",
-      "answer": "Yes, all our CS/alloy flanges are IBR approved under IBR 1950 regulation 84."
+      "question": "Which materials are weld neck flanges made from?",
+      "answer": "Common grades are ASTM A105 carbon steel, A350 LF2 for low temperature, A182 F304L / F316L stainless, F51 / F53 duplex, F11 / F22 / F91 alloy steel for high temperature, and nickel alloys such as Inconel 625 and Hastelloy C276. The flange material should match the pipe it is welded to."
     },
     {
-      "question": "What is the lead time for non-standard bore WNRF?",
-      "answer": "10–15 working days."
+      "question": "Do you supply IBR approved weld neck flanges?",
+      "answer": "Yes. Carbon and alloy steel weld neck flanges for boiler and steam piping can be supplied with IBR (Indian Boiler Regulations) documentation, including Form IIIC where required."
     },
     {
-      "question": "What NDT tests do you perform?",
-      "answer": "RT, UT, MPT, DPT, hardness, PMI — as per customer specification."
+      "question": "What tests are done on weld neck flanges?",
+      "answer": "Standard checks are visual and dimensional inspection, hardness and PMI on alloy grades, with an EN 10204 3.1 MTC. Ultrasonic, magnetic particle or dye penetrant testing, impact testing for low temperature grades and third-party inspection are available on request."
     }
   ],
   "blind-flange": [
     {
-      "question": "What is the maximum pressure rating for a Class 2500 blind flange in A105 at 100°F?",
-      "answer": "6170 psi as per ASME B16.5 Table 2-1.1."
+      "question": "What is a blind flange?",
+      "answer": "A blind flange is a solid disc with bolt holes but no bore. It is bolted to a mating flange to close off the end of a pipe, a valve or a vessel nozzle. Because it carries the full line pressure across its face, it is one of the most highly stressed flange types."
     },
     {
-      "question": "Can blind flanges be used as spectacle blinds?",
-      "answer": "No — spectacle blind is a permanent installed assembly with both blind and spacer; blind flange is a separate bolted cover."
+      "question": "What standard covers blind flange dimensions?",
+      "answer": "ASME B16.5 covers blind flanges from NPS ½ to 24 in Classes 150 to 2500, and ASME B16.47 Series A and B cover NPS 26 to 60. European projects use EN 1092-1 Type 05 blind flanges in PN ratings."
     },
     {
-      "question": "Do you supply RTJ-faced blind flanges?",
-      "answer": "Yes, in oval and octagonal ring grooves per ASME B16.20."
+      "question": "How thick is a Class 150 blind flange?",
+      "answer": "Under current ASME B16.5, the thickness excluding the 1.6 mm raised face is 17.5 mm for NPS 2, 22.3 mm for NPS 4, 30.2 mm for NPS 12 and 46.1 mm for NPS 24. Class 300 blind flanges are roughly 1.4 to 1.5 times thicker and larger in diameter."
     },
     {
-      "question": "What is the weight of a 12\" Class 600 blind flange in A105?",
-      "answer": "Approximately 68 kg — contact us for certified weight certificate."
+      "question": "How much does a 12 inch Class 600 blind flange weigh?",
+      "answer": "About 125 kg in carbon steel (A105). At 12 inches it is around 559 mm in diameter and 66 mm thick, so it weighs roughly three times as much as a Class 150 blind of the same size."
+    },
+    {
+      "question": "What is the maximum pressure rating of a Class 2500 A105 blind flange?",
+      "answer": "6170 psig at 100°F for Group 1.1 materials such as A105, per ASME B16.5 Table 2-1.1. The rating falls as temperature rises."
+    },
+    {
+      "question": "What is the difference between a blind flange and a spectacle blind?",
+      "answer": "A blind flange closes the end of a line and is removed to open it. A spectacle blind (figure-8) is a thinner plate fitted between two flanges inside the line. It has a solid half and an open half, so the line can be switched between open and isolated by swinging it."
+    },
+    {
+      "question": "Do you supply RTJ blind flanges?",
+      "answer": "Yes. Ring type joint blind flanges are supplied with the ring groove machined to ASME B16.5 for R-series oval or octagonal ring gaskets to ASME B16.20, typically in Class 600 and above."
+    },
+    {
+      "question": "Can a blind flange have a tapped hole?",
+      "answer": "Yes. Blind flanges can be supplied with a threaded (NPT) tapping for a vent, drain or pressure gauge, or with a reduced bore to drill out later. Specify the tapping size and position when ordering."
     }
   ],
   "socket-weld-flange": [

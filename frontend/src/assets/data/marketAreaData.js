@@ -308,7 +308,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Vijayawada",
     "introParagraph": "Supplying Vijayawada means understanding Kondapalli thermal & gas power cluster, agro & food processing, Amaravati infrastructure works. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> from Mumbai into Autonagar Industrial Estate, Kondapalli IDA — A105, F11/F22/F91 (IBR), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: NH65 via Pune–Hyderabad. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Vijayawada. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH65 via Pune–Hyderabad. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Vijayawada. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Power & Boilers",
@@ -383,7 +383,7 @@ export const marketAreaData = {
       },
       {
         "q": "Do you supply IBR-certified fittings for boiler and steam lines in Vijayawada?",
-        "a": "Yes. For steam service around Kondapalli thermal & gas power cluster we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Andhra Pradesh proceed without paperwork gaps."
+        "a": "Yes. For steam service around Kondapalli thermal & gas power cluster we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Andhra Pradesh proceed without paperwork gaps."
       },
       {
         "q": "How long does delivery to Vijayawada actually take?",
@@ -395,7 +395,7 @@ export const marketAreaData = {
       },
       {
         "q": "Which documents do you provide with supply to Vijayawada?",
-        "a": "Every Vijayawada dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Vijayawada dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "Do you accept small orders from Vijayawada?",
@@ -470,7 +470,7 @@ export const marketAreaData = {
             "name": "Do you supply IBR-certified fittings for boiler and steam lines in Vijayawada?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. For steam service around Kondapalli thermal & gas power cluster we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Andhra Pradesh proceed without paperwork gaps."
+              "text": "Yes. For steam service around Kondapalli thermal & gas power cluster we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Andhra Pradesh proceed without paperwork gaps."
             }
           },
           {
@@ -494,7 +494,7 @@ export const marketAreaData = {
             "name": "Which documents do you provide with supply to Vijayawada?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Vijayawada dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Vijayawada dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -646,7 +646,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Guntur in roughly 3 days by road (NH65 via Hyderabad). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Guntur manufactured?",
+        "q": "Do you have a manufacturing plant in Guntur?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Guntur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -735,7 +735,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Guntur manufactured?",
+            "name": "Do you have a manufacturing plant in Guntur?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Guntur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -808,7 +808,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Nellore",
     "introParagraph": "Nellore's buyers order piping hardware for concrete reasons: Krishnapatnam Port, thermal power stations, aqua feed & food processing. From our Mumbai works we supply <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> into Naidupeta & Menakur industrial hubs, Krishnapatnam port zone, in SS 316L, Cu-Ni on request — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
-    "logistics": "Route: NH48 via Bengaluru–Tirupati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Nellore. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH48 via Bengaluru–Tirupati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Nellore. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Ports & Marine",
@@ -895,7 +895,7 @@ export const marketAreaData = {
       },
       {
         "q": "What test certificates come with a Nellore order?",
-        "a": "Every Nellore dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Nellore dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "Is there a minimum order for delivery to Nellore?",
@@ -994,7 +994,7 @@ export const marketAreaData = {
             "name": "What test certificates come with a Nellore order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Nellore dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Nellore dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -1064,7 +1064,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kurnool",
     "introParagraph": "Supplying Kurnool means understanding Cement & mineral processing, Orvakal mega industrial hub, solar park BOP works. Remax Forge ships <a href=\"/product-details/hardox-plate/\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> from Mumbai into Orvakal Industrial Node (APIIC) — A105, Hardox 400/450, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: NH44 via Pune–Hyderabad. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Kurnool. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH44 via Pune–Hyderabad. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Kurnool. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Cement & Mining",
@@ -1151,7 +1151,7 @@ export const marketAreaData = {
       },
       {
         "q": "Which documents do you provide with supply to Kurnool?",
-        "a": "Every Kurnool dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Kurnool dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       }
     ],
     "schema": [
@@ -1246,7 +1246,7 @@ export const marketAreaData = {
             "name": "Which documents do you provide with supply to Kurnool?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Kurnool dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Kurnool dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           }
         ]
@@ -1374,7 +1374,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Itanagar in roughly 8 days by road (NH27 via Kolkata–Siliguri–Guwahati). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Itanagar manufactured?",
+        "q": "Do you have a manufacturing plant in Itanagar?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Itanagar is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -1463,7 +1463,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Itanagar manufactured?",
+            "name": "Do you have a manufacturing plant in Itanagar?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Itanagar is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -2074,7 +2074,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Tawang in roughly 10 days by road (NH27 via Guwahati–Tezpur (high-altitude leg)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Tawang manufactured?",
+        "q": "Do you have a manufacturing plant in Tawang?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Tawang is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -2163,7 +2163,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Tawang manufactured?",
+            "name": "Do you have a manufacturing plant in Tawang?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Tawang is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -2786,7 +2786,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Silchar in roughly 8 days by road (NH27+NH6 via Guwahati–Shillong). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Silchar manufactured?",
+        "q": "Do you have a manufacturing plant in Silchar?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Silchar is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -2875,7 +2875,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Silchar manufactured?",
+            "name": "Do you have a manufacturing plant in Silchar?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Silchar is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -3514,7 +3514,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Tezpur in roughly 8 days by road (NH27 via Guwahati). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Tezpur manufactured?",
+        "q": "Do you have a manufacturing plant in Tezpur?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Tezpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -3603,7 +3603,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Tezpur manufactured?",
+            "name": "Do you have a manufacturing plant in Tezpur?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Tezpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -4160,7 +4160,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bhagalpur",
     "introParagraph": "Around Barari industrial estate; NTPC Kahalgaon nearby, procurement runs on Silk & textile cluster, NTPC Kahalgaon super thermal power (~30 km). We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304, A105, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH33 via Varanasi–Patna. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Bhagalpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH33 via Varanasi–Patna. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Bhagalpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Textiles & Process",
@@ -4226,12 +4226,12 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Bhagalpur in roughly 5 days by road (NH33 via Varanasi–Patna). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Bhagalpur manufactured?",
+        "q": "Do you have a manufacturing plant in Bhagalpur?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Bhagalpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
         "q": "What QA documentation accompanies Bhagalpur dispatches?",
-        "a": "Every Bhagalpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Bhagalpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       }
     ],
     "schema": [
@@ -4315,7 +4315,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Bhagalpur manufactured?",
+            "name": "Do you have a manufacturing plant in Bhagalpur?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Bhagalpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -4326,7 +4326,7 @@ export const marketAreaData = {
             "name": "What QA documentation accompanies Bhagalpur dispatches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Bhagalpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Bhagalpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           }
         ]
@@ -4388,7 +4388,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Muzaffarpur",
     "introParagraph": "Muzaffarpur's buyers order piping hardware for concrete reasons: Litchi & food processing, Kanti thermal power station, light engineering. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Bela industrial area (BIADA), in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
-    "logistics": "Route: NH22 via Patna. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Muzaffarpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH22 via Patna. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Muzaffarpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Agro & Food Processing",
@@ -4475,7 +4475,7 @@ export const marketAreaData = {
       },
       {
         "q": "What test certificates come with a Muzaffarpur order?",
-        "a": "Every Muzaffarpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Muzaffarpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       }
     ],
     "schema": [
@@ -4570,7 +4570,7 @@ export const marketAreaData = {
             "name": "What test certificates come with a Muzaffarpur order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Muzaffarpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Muzaffarpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           }
         ]
@@ -4860,7 +4860,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Raipur",
     "introParagraph": "Around Urla, Siltara & Bhanpuri industrial areas, procurement runs on Sponge iron & steel rolling cluster (250+ units), ferro alloys, agro processing. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH53 via Nagpur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Raipur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH53 via Nagpur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Raipur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Steel & Metals",
@@ -4942,12 +4942,12 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Raipur in roughly 3 days by road (NH53 via Nagpur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Raipur manufactured?",
+        "q": "Do you have a manufacturing plant in Raipur?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Raipur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
         "q": "What QA documentation accompanies Raipur dispatches?",
-        "a": "Every Raipur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Raipur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "What is the MOQ for Raipur supply?",
@@ -5035,7 +5035,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Raipur manufactured?",
+            "name": "Do you have a manufacturing plant in Raipur?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Raipur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -5046,7 +5046,7 @@ export const marketAreaData = {
             "name": "What QA documentation accompanies Raipur dispatches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Raipur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Raipur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -5372,7 +5372,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bilaspur",
     "introParagraph": "Supplying Bilaspur means understanding SECL coal operations, NTPC Sipat super thermal (~25 km), SECR railway zone. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> from Mumbai into Sirgitti & Tifra industrial areas — A105, F11/F22/F91 (IBR), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: NH130 via Raipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Bilaspur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH130 via Raipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Bilaspur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Power & Boilers",
@@ -5447,7 +5447,7 @@ export const marketAreaData = {
       },
       {
         "q": "Do you supply IBR-certified fittings for boiler and steam lines in Bilaspur?",
-        "a": "Yes. For steam service around SECL coal operations we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Chhattisgarh proceed without paperwork gaps."
+        "a": "Yes. For steam service around SECL coal operations we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Chhattisgarh proceed without paperwork gaps."
       },
       {
         "q": "How long does delivery to Bilaspur actually take?",
@@ -5459,7 +5459,7 @@ export const marketAreaData = {
       },
       {
         "q": "Which documents do you provide with supply to Bilaspur?",
-        "a": "Every Bilaspur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Bilaspur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       }
     ],
     "schema": [
@@ -5530,7 +5530,7 @@ export const marketAreaData = {
             "name": "Do you supply IBR-certified fittings for boiler and steam lines in Bilaspur?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. For steam service around SECL coal operations we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Chhattisgarh proceed without paperwork gaps."
+              "text": "Yes. For steam service around SECL coal operations we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Chhattisgarh proceed without paperwork gaps."
             }
           },
           {
@@ -5554,7 +5554,7 @@ export const marketAreaData = {
             "name": "Which documents do you provide with supply to Bilaspur?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Bilaspur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Bilaspur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           }
         ]
@@ -5616,7 +5616,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Korba",
     "introParagraph": "Around Korba industrial belt, procurement runs on NTPC Korba & CSPGCL thermal stations, BALCO aluminium smelter, SECL mines. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH130 via Raipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Korba. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH130 via Raipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Korba. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Power & Boilers",
@@ -5691,19 +5691,19 @@ export const marketAreaData = {
       },
       {
         "q": "Do you supply IBR-certified fittings for boiler and steam lines in Korba?",
-        "a": "Yes. For steam service around NTPC Korba & CSPGCL thermal stations we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Chhattisgarh proceed without paperwork gaps."
+        "a": "Yes. For steam service around NTPC Korba & CSPGCL thermal stations we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Chhattisgarh proceed without paperwork gaps."
       },
       {
         "q": "What lead time should Korba buyers plan for?",
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Korba in roughly 4 days by road (NH130 via Raipur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Korba manufactured?",
+        "q": "Do you have a manufacturing plant in Korba?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Korba is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
         "q": "What QA documentation accompanies Korba dispatches?",
-        "a": "Every Korba dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Korba dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "What is the MOQ for Korba supply?",
@@ -5778,7 +5778,7 @@ export const marketAreaData = {
             "name": "Do you supply IBR-certified fittings for boiler and steam lines in Korba?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. For steam service around NTPC Korba & CSPGCL thermal stations we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Chhattisgarh proceed without paperwork gaps."
+              "text": "Yes. For steam service around NTPC Korba & CSPGCL thermal stations we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Chhattisgarh proceed without paperwork gaps."
             }
           },
           {
@@ -5791,7 +5791,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Korba manufactured?",
+            "name": "Do you have a manufacturing plant in Korba?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Korba is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -5802,7 +5802,7 @@ export const marketAreaData = {
             "name": "What QA documentation accompanies Korba dispatches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Korba dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Korba dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -6328,7 +6328,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Ahmedabad",
     "introParagraph": "Around GIDC Vatva, Naroda, Odhav, Sanand, procurement runs on Chemicals & dyes, pharmaceuticals, engineering, auto (Sanand belt). We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/317L, Duplex 2205, Alloy 20, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH48 direct (~530 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Ahmedabad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: NH48 direct (~530 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 day to Ahmedabad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
         "sector": "Petrochemical & Chemical",
@@ -6426,7 +6426,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Ahmedabad in roughly 1 days by road (NH48 direct (~530 km)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Ahmedabad manufactured?",
+        "q": "Do you have a manufacturing plant in Ahmedabad?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Ahmedabad is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -6519,7 +6519,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Ahmedabad manufactured?",
+            "name": "Do you have a manufacturing plant in Ahmedabad?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Ahmedabad is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -6600,7 +6600,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Surat",
     "introParagraph": "Surat's buyers order piping hardware for concrete reasons: Hazira: RIL, ONGC, L&T Heavy Engg, AM/NS steel; textiles & dyeing. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Hazira industrial complex, Sachin GIDC, Pandesara, in SS 316L/317L, Duplex 2205, Alloy 20 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
-    "logistics": "Route: NH48 direct (~280 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Surat. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: NH48 direct (~280 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 day to Surat. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
         "sector": "Petrochemical & Chemical",
@@ -7083,12 +7083,12 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in vadodara",
     "secondaryKeywords": "flange manufacturer in Vadodara; forged fittings supplier Vadodara; ASME B16.5 flanges Vadodara; pipe fittings Vadodara; RTJ flanges Vadodara",
     "meta": {
-      "title": "Industrial Flanges Supplier in Vadodara | ASME B16.5 | Remax",
-      "description": "ISO-certified flanges & forged fittings for Vadodara: Oil & Gas (Refining), Petrochemical & Chemical. ASME B16.5, 3.1 MTC, ~1-day delivery ex-Mumbai.",
+      "title": "Flange Manufacturer & Supplier in Vadodara | Remax Forge",
+      "description": "Flanges & pipe fittings for Vadodara refineries, petrochemical and chemical plants: WNRF/RTJ, A105, SS 316L, duplex, F11/F22 to ASME B16.5. ~1-day transit.",
       "keywords": "flange manufacturer in Vadodara; forged fittings supplier Vadodara; ASME B16.5 flanges Vadodara; pipe fittings Vadodara; RTJ flanges Vadodara"
     },
     "banner": {
-      "h1": "Flange Manufacturer Supplying Vadodara & Region",
+      "h1": "Flange Manufacturer & Supplier in Vadodara",
       "subheadline": "ISO 9001:2015 certified. Manufactured at our Mumbai facility, delivered to Vadodara — serving IOCL Koyali refinery and more. ASME B16.5/B16.47/B16.11 with EN 10204 3.1 MTC.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Vadodara",
       "highlights": [
@@ -7112,7 +7112,67 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Vadodara",
     "introParagraph": "Around GIDC Makarpura, Nandesari chemical estate, Savli, procurement runs on IOCL Koyali refinery, GSFC & GACL, heavy engineering (L&T, ABB), petrochemicals. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, F11/F22, SS 316L, Duplex 2205, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH48 direct (~430 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Vadodara. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "localGuide": {
+      "heading": "Flange Supply for Vadodara's Refinery, Chemical & Engineering Belt",
+      "paragraphs": [
+        "Vadodara is one of India's densest process-industry clusters. The IOCL Gujarat Refinery at Koyali, the Reliance petrochemical complex at Jawaharnagar (formerly IPCL), GSFC's fertilizer and chemical plant at Fertilizernagar and GACL's chlor-alkali works at Ranoli all sit within about 25 km of the city, supported by hundreds of chemical, pharmaceutical and engineering units in the GIDC estates.",
+        "That mix means Vadodara buyers ask for a wide spread of specifications in the same month: A105 and A350 LF2 weld neck flanges for hydrocarbon and utility lines, F11 / F22 alloy flanges for hot oil and steam, RTJ flanges for high-pressure service, SS 316L for chemical and pharma lines, and duplex where chlorides are present. We stock the common sizes in Mumbai and ship to Vadodara by road on the NH48 / Mumbai–Vadodara corridor (about 430 km), typically arriving the day after dispatch.",
+        "For shutdowns and turnarounds at Koyali, Jawaharnagar or Dahej, we can split deliveries so that critical items (spectacle blinds, RTJ flanges, alloy fittings) arrive first, with EN 10204 3.1 certificates, PMI reports and third-party inspection where the plant requires it."
+      ],
+      "areas": [
+        {
+          "name": "Koyali & Jawaharnagar",
+          "note": "refinery and petrochemical complexes, turnaround and project supply"
+        },
+        {
+          "name": "Nandesari GIDC",
+          "note": "chemical and dye-intermediate units, SS 316L and alloy fittings"
+        },
+        {
+          "name": "Makarpura GIDC",
+          "note": "heavy engineering, fabrication and equipment makers"
+        },
+        {
+          "name": "Savli, Manjusar & Por",
+          "note": "engineering, pharma and process plants in the newer estates"
+        },
+        {
+          "name": "Waghodia & Halol",
+          "note": "pharma, auto and general industry east of the city"
+        },
+        {
+          "name": "Bharuch, Dahej & Ankleshwar",
+          "note": "chemical and petrochemical estates on the same NH48 route south of Vadodara"
+        }
+      ],
+      "specs": [
+        {
+          "service": "Refinery hydrocarbon lines",
+          "spec": "A105 / A350 LF2 weld neck RF flanges, Class 150–600; RTJ for Class 900 and above"
+        },
+        {
+          "service": "Hot oil, steam & heater piping",
+          "spec": "A182 F11 / F22 flanges and A234 WP11 / WP22 fittings, with IBR documents for steam lines"
+        },
+        {
+          "service": "Chlor-alkali & caustic",
+          "spec": "SS 316L or nickel alloy flanges for caustic; material confirmed against the chlorine service (dry or wet)"
+        },
+        {
+          "service": "Fertilizer: ammonia & urea",
+          "spec": "A350 LF2 for ammonia; SS 316L (urea grade where specified) for urea and carbamate lines"
+        },
+        {
+          "service": "Pharma & specialty chemicals",
+          "spec": "SS 304L / 316L flanges and fittings, pickled and passivated"
+        },
+        {
+          "service": "Cooling water with chlorides",
+          "spec": "Duplex F51 / F60 or super duplex F53 flanges"
+        }
+      ]
+    },
+    "logistics": "Route: NH48 direct (~430 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 day to Vadodara. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
         "sector": "Oil & Gas (Refining)",
@@ -7210,7 +7270,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Vadodara in roughly 1 days by road (NH48 direct (~430 km)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Vadodara manufactured?",
+        "q": "Do you have a manufacturing plant in Vadodara?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Vadodara is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -7220,7 +7280,9 @@ export const marketAreaData = {
       {
         "q": "What is the MOQ for Vadodara supply?",
         "a": "We keep MOQs low for the Vadodara corridor — small lots are clubbed with our scheduled dispatches on this route, so a single-item trial order is workable. Project-quantity rates apply from roughly 100 pieces or 500 kg per grade."
-      }
+      },
+      {"q": "Can you supply flanges for refinery shutdowns in Vadodara at short notice?", "a": "Yes. Stocked sizes in A105, A350 LF2, SS 316L and F11 / F22 can be dispatched from Mumbai within 24–48 hours and reach Vadodara in about a day. For shutdown lists we prioritise critical items such as spectacle blinds, RTJ flanges and alloy fittings and confirm a dated delivery schedule with the quote."},
+      {"q": "Do you supply flanges to Dahej and Ankleshwar as well?", "a": "Yes. Bharuch, Dahej and Ankleshwar are on the same NH48 route as Vadodara, so orders for those estates ship on the same road dispatches with the same documentation (EN 10204 3.1 MTC, PMI and test reports)."}
     ],
     "schema": [
       {
@@ -7303,7 +7365,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Vadodara manufactured?",
+            "name": "Do you have a manufacturing plant in Vadodara?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Vadodara is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -7922,7 +7984,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Solan in roughly 4 days by road (NH48 via Delhi–Chandigarh). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Solan manufactured?",
+        "q": "Do you have a manufacturing plant in Solan?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Solan is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -8015,7 +8077,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Solan manufactured?",
+            "name": "Do you have a manufacturing plant in Solan?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Solan is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -8324,7 +8386,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Baddi",
     "introParagraph": "Supplying Baddi means understanding India's largest pharma manufacturing cluster, packaging, boilers & process utilities. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Baddi-Barotiwala-Nalagarh (BBN) industrial area — SS 316L/304L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: NH48 via Delhi–Chandigarh. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Baddi. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH48 via Delhi–Chandigarh. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Baddi. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Pharma & Biotech",
@@ -8411,7 +8473,7 @@ export const marketAreaData = {
       },
       {
         "q": "Which documents do you provide with supply to Baddi?",
-        "a": "Every Baddi dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Baddi dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "Do you accept small orders from Baddi?",
@@ -8510,7 +8572,7 @@ export const marketAreaData = {
             "name": "Which documents do you provide with supply to Baddi?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Baddi dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Baddi dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -8662,7 +8724,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Jamshedpur in roughly 4 days by road (NH53+NH18 via Nagpur–Raipur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Jamshedpur manufactured?",
+        "q": "Do you have a manufacturing plant in Jamshedpur?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Jamshedpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -8755,7 +8817,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Jamshedpur manufactured?",
+            "name": "Do you have a manufacturing plant in Jamshedpur?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Jamshedpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -8836,7 +8898,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Dhanbad",
     "introParagraph": "Dhanbad's buyers order piping hardware for concrete reasons: BCCL coal & washeries, HURL Sindri fertilizer plant (revived). From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> into BCCL coalfield belt, Sindri, in SS 316L, Alloy 20, Duplex — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
-    "logistics": "Route: NH19 via Varanasi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Dhanbad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH19 via Varanasi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Dhanbad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Fertilizers",
@@ -8923,7 +8985,7 @@ export const marketAreaData = {
       },
       {
         "q": "What test certificates come with a Dhanbad order?",
-        "a": "Every Dhanbad dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Dhanbad dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       }
     ],
     "schema": [
@@ -9018,7 +9080,7 @@ export const marketAreaData = {
             "name": "What test certificates come with a Dhanbad order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Dhanbad dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Dhanbad dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           }
         ]
@@ -9307,12 +9369,12 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in bokaro",
     "secondaryKeywords": "flange manufacturer in Bokaro; forged fittings supplier Bokaro; ASME B16.5 flanges Bokaro; pipe fittings Bokaro; industrial pipe fittings Bokaro",
     "meta": {
-      "title": "Bokaro Flange & Forged Fittings Supplier | Remax Forge",
-      "description": "ISO-certified flanges & forged fittings for Bokaro: Steel & Metals, Power & Boilers. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. 30-min quote.",
+      "title": "Flange Manufacturer & Supplier in Bokaro | Remax Forge",
+      "description": "Flanges, forged & butt-weld fittings for Bokaro steel, power and cement plants: A105, A350 LF2, SS 304/316L, F11/F22 to ASME B16.5, 3.1 MTC. ~5-day delivery.",
       "keywords": "flange manufacturer in Bokaro; forged fittings supplier Bokaro; ASME B16.5 flanges Bokaro; pipe fittings Bokaro; industrial pipe fittings Bokaro"
     },
     "banner": {
-      "h1": "Flanges, Fittings & Piping Components for Bokaro",
+      "h1": "Flange Manufacturer & Supplier for Bokaro Steel City",
       "subheadline": "ISO 9001:2015 certified. Manufactured at our Mumbai facility, delivered to Bokaro — serving SAIL Bokaro Steel Plant and more. ASME B16.5/B16.47/B16.11 with EN 10204 3.1 MTC.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Bokaro",
       "highlights": [
@@ -9336,7 +9398,63 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bokaro",
     "introParagraph": "Around Bokaro industrial area, Balidih, procurement runs on SAIL Bokaro Steel Plant, ancillary engineering, coke & power units. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH19 via Varanasi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Bokaro. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "localGuide": {
+      "heading": "Flange Supply for Bokaro's Steel, Power & Process Industries",
+      "paragraphs": [
+        "Bokaro's industry is built around the SAIL Bokaro Steel Plant, one of India's largest integrated steel plants, together with Electrosteel Steels (Vedanta) at Siyaljori, DVC's thermal power stations at Bokaro Thermal and Chandrapura, cement grinding units, and the engineering and fabrication firms of the Balidih industrial area. The Dhanbad–Jharia coal belt, about 40 km away, adds washery and mining demand.",
+        "Steel and power plants use a lot of piping that is not glamorous but must not fail: cooling and process water, compressed air, oxygen, nitrogen and fuel gas networks, steam and boiler feed lines, and slurry and ash handling. For these we supply A105 and A350 LF2 slip-on and weld neck flanges, F11 / F22 alloy flanges with IBR documents for steam, SS 304L / 316L for DM water and oxygen lines, and Hardox wear plate for chutes and liners.",
+        "Orders are dispatched from our Mumbai stock within 24–48 hours and reach Bokaro by road in about five days. For annual rate contracts and capital repairs, we can hold agreed stock and send scheduled consignments with EN 10204 3.1 certificates and inspection reports for each lot."
+      ],
+      "areas": [
+        {
+          "name": "Bokaro Steel City & Sector areas",
+          "note": "steel plant maintenance, capital repairs and contractors"
+        },
+        {
+          "name": "Balidih Industrial Area",
+          "note": "fabrication, engineering and ancillary units"
+        },
+        {
+          "name": "Siyaljori & Chas",
+          "note": "steel and process plants on the eastern side of the city"
+        },
+        {
+          "name": "Bokaro Thermal & Chandrapura",
+          "note": "thermal power stations, steam and boiler piping"
+        },
+        {
+          "name": "Dhanbad & Jharia coal belt",
+          "note": "washeries, mining and coal handling plants"
+        }
+      ],
+      "specs": [
+        {
+          "service": "Cooling & process water",
+          "spec": "A105 slip-on and weld neck RF flanges, Class 150, with A234 WPB butt weld fittings"
+        },
+        {
+          "service": "Steam & boiler feed",
+          "spec": "A105 or A182 F11 / F22 flanges, Class 300–1500, with IBR documentation"
+        },
+        {
+          "service": "Oxygen & nitrogen lines",
+          "spec": "SS 304L / 316L flanges and fittings, degreased and cleaned for oxygen service on request"
+        },
+        {
+          "service": "Fuel gas (BF / coke oven gas)",
+          "spec": "A105 weld neck flanges, spectacle blinds for positive isolation during maintenance"
+        },
+        {
+          "service": "DM water & chemical dosing",
+          "spec": "SS 316L flanges, socket weld and threaded fittings"
+        },
+        {
+          "service": "Slurry, ash & chutes",
+          "spec": "Hardox 400 / 450 wear plate and liners, cut to size"
+        }
+      ]
+    },
+    "logistics": "Route: NH19 via Varanasi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Bokaro. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Steel & Metals",
@@ -9418,17 +9536,19 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Bokaro in roughly 5 days by road (NH19 via Varanasi). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Bokaro manufactured?",
+        "q": "Do you have a manufacturing plant in Bokaro?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Bokaro is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
         "q": "What QA documentation accompanies Bokaro dispatches?",
-        "a": "Every Bokaro dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Bokaro dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "What is the MOQ for Bokaro supply?",
         "a": "We keep MOQs low for the Bokaro corridor — small lots are clubbed with our scheduled dispatches on this route, so a single-item trial order is workable. Project-quantity rates apply from roughly 100 pieces or 500 kg per grade."
-      }
+      },
+      {"q": "Do you supply spectacle blinds for gas lines in Bokaro steel plants?", "a": "Yes. We supply spectacle blinds and paddle blind sets to ASME B16.48, in A105 / A516 Gr.70 or stainless, for positive isolation of blast furnace gas, coke oven gas, oxygen and nitrogen lines during maintenance, with EN 10204 3.1 certificates."},
+      {"q": "Can you supply under an annual rate contract for Bokaro?", "a": "Yes. For plants and contractors in Bokaro we can agree fixed rates for a list of sizes and grades, hold that stock in Mumbai and send scheduled consignments, so maintenance teams are not waiting on one-off purchase orders."}
     ],
     "schema": [
       {
@@ -9511,7 +9631,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Bokaro manufactured?",
+            "name": "Do you have a manufacturing plant in Bokaro?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Bokaro is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -9522,7 +9642,7 @@ export const marketAreaData = {
             "name": "What QA documentation accompanies Bokaro dispatches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Bokaro dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Bokaro dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -10158,7 +10278,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Mysuru in roughly 3 days by road (NH48 via Bengaluru). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Mysuru manufactured?",
+        "q": "Do you have a manufacturing plant in Mysuru?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Mysuru is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -10247,7 +10367,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Mysuru manufactured?",
+            "name": "Do you have a manufacturing plant in Mysuru?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Mysuru is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -10914,7 +11034,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Belagavi in roughly 2 days by road (NH48 via Pune–Kolhapur (~500 km)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Belagavi manufactured?",
+        "q": "Do you have a manufacturing plant in Belagavi?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Belagavi is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -11007,7 +11127,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Belagavi manufactured?",
+            "name": "Do you have a manufacturing plant in Belagavi?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Belagavi is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -11626,7 +11746,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Kozhikode in roughly 4 days by road (NH66 via Mangaluru). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Kozhikode manufactured?",
+        "q": "Do you have a manufacturing plant in Kozhikode?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Kozhikode is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -11715,7 +11835,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Kozhikode manufactured?",
+            "name": "Do you have a manufacturing plant in Kozhikode?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Kozhikode is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -12366,7 +12486,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Ujjain in roughly 2 days by road (NH52 via Indore). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Ujjain manufactured?",
+        "q": "Do you have a manufacturing plant in Ujjain?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Ujjain is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -12455,7 +12575,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Ujjain manufactured?",
+            "name": "Do you have a manufacturing plant in Ujjain?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Ujjain is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -13028,7 +13148,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bhopal",
     "introParagraph": "Around Mandideep & Govindpura industrial areas, procurement runs on BHEL Bhopal (heavy electricals), HEG graphite, engineering & fabrication. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH46 via Nashik–Indore. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Bhopal. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH46 via Nashik–Indore. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Bhopal. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Power & Boilers",
@@ -13103,19 +13223,19 @@ export const marketAreaData = {
       },
       {
         "q": "Do you supply IBR-certified fittings for boiler and steam lines in Bhopal?",
-        "a": "Yes. For steam service around BHEL Bhopal (heavy electricals) we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Madhya Pradesh proceed without paperwork gaps."
+        "a": "Yes. For steam service around BHEL Bhopal (heavy electricals) we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Madhya Pradesh proceed without paperwork gaps."
       },
       {
         "q": "What lead time should Bhopal buyers plan for?",
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Bhopal in roughly 2 days by road (NH46 via Nashik–Indore). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Bhopal manufactured?",
+        "q": "Do you have a manufacturing plant in Bhopal?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Bhopal is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
         "q": "What QA documentation accompanies Bhopal dispatches?",
-        "a": "Every Bhopal dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Bhopal dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "What is the MOQ for Bhopal supply?",
@@ -13190,7 +13310,7 @@ export const marketAreaData = {
             "name": "Do you supply IBR-certified fittings for boiler and steam lines in Bhopal?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. For steam service around BHEL Bhopal (heavy electricals) we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Madhya Pradesh proceed without paperwork gaps."
+              "text": "Yes. For steam service around BHEL Bhopal (heavy electricals) we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Madhya Pradesh proceed without paperwork gaps."
             }
           },
           {
@@ -13203,7 +13323,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Bhopal manufactured?",
+            "name": "Do you have a manufacturing plant in Bhopal?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Bhopal is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -13214,7 +13334,7 @@ export const marketAreaData = {
             "name": "What QA documentation accompanies Bhopal dispatches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Bhopal dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Bhopal dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -13540,7 +13660,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Mumbai",
     "introParagraph": "Supplying Mumbai means understanding HQ city: HPCL & BPCL refineries, RCF Chembur, Mazagon Dock, BARC, JNPT belt. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into MIDC Andheri, Taloja & Rabale (TTC), port zone — A105, F11/F22, SS 316L, Duplex 2205, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: Local dispatch — same-day/next-day. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Mumbai. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Local dispatch — same-day/next-day. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 day to Mumbai. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
         "sector": "Oil & Gas (Refining)",
@@ -13812,7 +13932,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Nagpur",
     "introParagraph": "Around Butibori & Hingna MIDC, MIHAN SEZ, procurement runs on Power gear & transmission, MIHAN aerospace/logistics, Koradi-Khaperkheda thermal belt. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH48+NH53 via Pune–Amravati (~830 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Nagpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH48+NH53 via Pune–Amravati (~830 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Nagpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Power & Boilers",
@@ -13887,19 +14007,19 @@ export const marketAreaData = {
       },
       {
         "q": "Do you supply IBR-certified fittings for boiler and steam lines in Nagpur?",
-        "a": "Yes. For steam service around Power gear & transmission we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Maharashtra proceed without paperwork gaps."
+        "a": "Yes. For steam service around Power gear & transmission we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Maharashtra proceed without paperwork gaps."
       },
       {
         "q": "What lead time should Nagpur buyers plan for?",
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Nagpur in roughly 2 days by road (NH48+NH53 via Pune–Amravati (~830 km)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Nagpur manufactured?",
+        "q": "Do you have a manufacturing plant in Nagpur?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Nagpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
         "q": "What QA documentation accompanies Nagpur dispatches?",
-        "a": "Every Nagpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Nagpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "What is the MOQ for Nagpur supply?",
@@ -13974,7 +14094,7 @@ export const marketAreaData = {
             "name": "Do you supply IBR-certified fittings for boiler and steam lines in Nagpur?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. For steam service around Power gear & transmission we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Maharashtra proceed without paperwork gaps."
+              "text": "Yes. For steam service around Power gear & transmission we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Maharashtra proceed without paperwork gaps."
             }
           },
           {
@@ -13987,7 +14107,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Nagpur manufactured?",
+            "name": "Do you have a manufacturing plant in Nagpur?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Nagpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -13998,7 +14118,7 @@ export const marketAreaData = {
             "name": "What QA documentation accompanies Nagpur dispatches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Nagpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Nagpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -14068,7 +14188,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Nashik",
     "introParagraph": "Nashik's buyers order piping hardware for concrete reasons: HAL Ozar aircraft division, auto & engineering (Mahindra, Bosch belt), wineries. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> into Ambad, Satpur & Sinnar MIDC, in SS 316L, Inconel 625 & Monel on order — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
-    "logistics": "Route: NH160 direct (~170 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Nashik. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: NH160 direct (~170 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 day to Nashik. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
         "sector": "Aerospace & Defence",
@@ -14324,7 +14444,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Pune",
     "introParagraph": "Supplying Pune means understanding Auto capital (Tata, Bajaj, VW belt), engineering & machine tools, defence R&D. Remax Forge ships <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> from Mumbai into Chakan, Ranjangaon, Bhosari & Pimpri-Chinchwad MIDC — A105, SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: NH48 direct (~150 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Pune. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: NH48 direct (~150 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 day to Pune. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
         "sector": "Engineering & Auto",
@@ -14580,7 +14700,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Thane",
     "introParagraph": "Around Wagle Estate, TTC MIDC fringe, procurement runs on Chemicals & specialty processing, engineering, cable & electricals. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 316L/317L, Duplex 2205, Alloy 20, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: Local dispatch (~30 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 days to Thane. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Local dispatch (~30 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 1 day to Thane. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
     "sectors": [
       {
         "sector": "Petrochemical & Chemical",
@@ -14646,7 +14766,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Thane in roughly 1 days by road (Local dispatch (~30 km)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Thane manufactured?",
+        "q": "Do you have a manufacturing plant in Thane?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Thane is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -14739,7 +14859,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Thane manufactured?",
+            "name": "Do you have a manufacturing plant in Thane?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Thane is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -15342,7 +15462,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Bishnupur in roughly 9 days by road (via Imphal). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Bishnupur manufactured?",
+        "q": "Do you have a manufacturing plant in Bishnupur?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Bishnupur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -15431,7 +15551,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Bishnupur manufactured?",
+            "name": "Do you have a manufacturing plant in Bishnupur?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Bishnupur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -16026,7 +16146,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Cherrapunji in roughly 8 days by road (NH27+NH6 via Guwahati–Shillong). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Cherrapunji manufactured?",
+        "q": "Do you have a manufacturing plant in Cherrapunji?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Cherrapunji is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -16115,7 +16235,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Cherrapunji manufactured?",
+            "name": "Do you have a manufacturing plant in Cherrapunji?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Cherrapunji is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -16722,7 +16842,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Tura in roughly 9 days by road (via Guwahati). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Tura manufactured?",
+        "q": "Do you have a manufacturing plant in Tura?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Tura is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -16811,7 +16931,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Tura manufactured?",
+            "name": "Do you have a manufacturing plant in Tura?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Tura is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -17406,7 +17526,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Champhai in roughly 10 days by road (via Aizawl). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Champhai manufactured?",
+        "q": "Do you have a manufacturing plant in Champhai?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Champhai is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -17495,7 +17615,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Champhai manufactured?",
+            "name": "Do you have a manufacturing plant in Champhai?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Champhai is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -18090,7 +18210,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Serchhip in roughly 10 days by road (via Aizawl). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Serchhip manufactured?",
+        "q": "Do you have a manufacturing plant in Serchhip?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Serchhip is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -18179,7 +18299,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Serchhip manufactured?",
+            "name": "Do you have a manufacturing plant in Serchhip?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Serchhip is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -18774,7 +18894,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Mokokchung in roughly 9 days by road (via Dimapur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Mokokchung manufactured?",
+        "q": "Do you have a manufacturing plant in Mokokchung?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Mokokchung is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -18863,7 +18983,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Mokokchung manufactured?",
+            "name": "Do you have a manufacturing plant in Mokokchung?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Mokokchung is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -19392,7 +19512,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Sambalpur",
     "introParagraph": "Around Hirakud industrial belt, procurement runs on Hindalco Hirakud smelter & power, MCL coalfields, Hirakud dam systems. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH53 via Nagpur–Raipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Sambalpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH53 via Nagpur–Raipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Sambalpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Steel & Metals",
@@ -19474,12 +19594,12 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Sambalpur in roughly 4 days by road (NH53 via Nagpur–Raipur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Sambalpur manufactured?",
+        "q": "Do you have a manufacturing plant in Sambalpur?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Sambalpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
         "q": "What QA documentation accompanies Sambalpur dispatches?",
-        "a": "Every Sambalpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Sambalpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "What is the MOQ for Sambalpur supply?",
@@ -19567,7 +19687,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Sambalpur manufactured?",
+            "name": "Do you have a manufacturing plant in Sambalpur?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Sambalpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -19578,7 +19698,7 @@ export const marketAreaData = {
             "name": "What QA documentation accompanies Sambalpur dispatches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Sambalpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Sambalpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -20214,7 +20334,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Cuttack in roughly 5 days by road (NH16 via Visakhapatnam). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Cuttack manufactured?",
+        "q": "Do you have a manufacturing plant in Cuttack?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Cuttack is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -20303,7 +20423,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Cuttack manufactured?",
+            "name": "Do you have a manufacturing plant in Cuttack?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Cuttack is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -20632,7 +20752,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Bathinda",
     "introParagraph": "Supplying Bathinda means understanding HMEL Guru Gobind Singh Refinery, NFL fertilizer plant, thermal legacy. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into HMEL refinery zone, NFL township — A105, F11/F22, SS 316L, Duplex 2205, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: NH48+NH52 via Jaipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Bathinda. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH48+NH52 via Jaipur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Bathinda. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Oil & Gas (Refining)",
@@ -20719,7 +20839,7 @@ export const marketAreaData = {
       },
       {
         "q": "Which documents do you provide with supply to Bathinda?",
-        "a": "Every Bathinda dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Bathinda dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "Do you accept small orders from Bathinda?",
@@ -20818,7 +20938,7 @@ export const marketAreaData = {
             "name": "Which documents do you provide with supply to Bathinda?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Bathinda dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Bathinda dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -20888,7 +21008,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Patiala",
     "introParagraph": "Around Focal Point Patiala, Rajpura belt, procurement runs on Agricultural implements & foundries, Rajpura thermal plant, cutting tools. We serve this demand from Mumbai with <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> in A105, SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH44 via Delhi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Patiala. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH44 via Delhi. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Patiala. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Engineering & Auto",
@@ -20970,12 +21090,12 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Patiala in roughly 3 days by road (NH44 via Delhi). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Patiala manufactured?",
+        "q": "Do you have a manufacturing plant in Patiala?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Patiala is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
         "q": "What QA documentation accompanies Patiala dispatches?",
-        "a": "Every Patiala dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Patiala dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       }
     ],
     "schema": [
@@ -21059,7 +21179,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Patiala manufactured?",
+            "name": "Do you have a manufacturing plant in Patiala?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Patiala is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -21070,7 +21190,7 @@ export const marketAreaData = {
             "name": "What QA documentation accompanies Patiala dispatches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Patiala dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Patiala dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           }
         ]
@@ -21682,7 +21802,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Ludhiana in roughly 3 days by road (NH44 via Delhi (~1,340 km)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Ludhiana manufactured?",
+        "q": "Do you have a manufacturing plant in Ludhiana?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Ludhiana is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -21775,7 +21895,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Ludhiana manufactured?",
+            "name": "Do you have a manufacturing plant in Ludhiana?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Ludhiana is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -22336,7 +22456,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kota",
     "introParagraph": "Around Indraprastha industrial area, Gadepan, procurement runs on Chambal Fertilisers (Gadepan), DCM Shriram, Kota thermal, instrumentation legacy. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> in SS 316L, Alloy 20, Duplex, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH52 via Indore. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Kota. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH52 via Indore. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Kota. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Fertilizers",
@@ -22418,12 +22538,12 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Kota in roughly 3 days by road (NH52 via Indore). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Kota manufactured?",
+        "q": "Do you have a manufacturing plant in Kota?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Kota is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
         "q": "What QA documentation accompanies Kota dispatches?",
-        "a": "Every Kota dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Kota dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "What is the MOQ for Kota supply?",
@@ -22511,7 +22631,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Kota manufactured?",
+            "name": "Do you have a manufacturing plant in Kota?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Kota is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -22522,7 +22642,7 @@ export const marketAreaData = {
             "name": "What QA documentation accompanies Kota dispatches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Kota dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Kota dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -23186,7 +23306,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Udaipur in roughly 2 days by road (NH48 direct (~750 km)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Udaipur manufactured?",
+        "q": "Do you have a manufacturing plant in Udaipur?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Udaipur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -23279,7 +23399,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Udaipur manufactured?",
+            "name": "Do you have a manufacturing plant in Udaipur?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Udaipur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -23886,7 +24006,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Namchi in roughly 7 days by road (NH10 via Siliguri). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Namchi manufactured?",
+        "q": "Do you have a manufacturing plant in Namchi?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Namchi is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -23975,7 +24095,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Namchi manufactured?",
+            "name": "Do you have a manufacturing plant in Namchi?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Namchi is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -24598,7 +24718,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Salem in roughly 3 days by road (NH48 via Bengaluru (~1,180 km)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Salem manufactured?",
+        "q": "Do you have a manufacturing plant in Salem?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Salem is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -24691,7 +24811,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Salem manufactured?",
+            "name": "Do you have a manufacturing plant in Salem?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Salem is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -24772,7 +24892,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Tiruchirappalli",
     "introParagraph": "Tiruchirappalli's buyers order piping hardware for concrete reasons: BHEL Trichy boiler plant & India's largest boiler-fabrication cluster, OFT ordnance. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> into BHEL township, Thuvakudi SIDCO, fabrication belt, in A105, F11/F22/F91 (IBR) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
-    "logistics": "Route: NH48 via Bengaluru–Salem (~1,270 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Tiruchirappalli. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH48 via Bengaluru–Salem (~1,270 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Tiruchirappalli. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Power & Boilers",
@@ -24847,7 +24967,7 @@ export const marketAreaData = {
       },
       {
         "q": "Do you supply IBR-certified fittings for boiler and steam lines in Tiruchirappalli?",
-        "a": "Yes. For steam service around BHEL Trichy boiler plant & India's largest boiler-fabrication cluster we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Tamil Nadu proceed without paperwork gaps."
+        "a": "Yes. For steam service around BHEL Trichy boiler plant & India's largest boiler-fabrication cluster we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Tamil Nadu proceed without paperwork gaps."
       },
       {
         "q": "What is the realistic delivery time to Tiruchirappalli?",
@@ -24859,7 +24979,7 @@ export const marketAreaData = {
       },
       {
         "q": "What test certificates come with a Tiruchirappalli order?",
-        "a": "Every Tiruchirappalli dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Tiruchirappalli dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "Is there a minimum order for delivery to Tiruchirappalli?",
@@ -24934,7 +25054,7 @@ export const marketAreaData = {
             "name": "Do you supply IBR-certified fittings for boiler and steam lines in Tiruchirappalli?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. For steam service around BHEL Trichy boiler plant & India's largest boiler-fabrication cluster we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Tamil Nadu proceed without paperwork gaps."
+              "text": "Yes. For steam service around BHEL Trichy boiler plant & India's largest boiler-fabrication cluster we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Tamil Nadu proceed without paperwork gaps."
             }
           },
           {
@@ -24958,7 +25078,7 @@ export const marketAreaData = {
             "name": "What test certificates come with a Tiruchirappalli order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Tiruchirappalli dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Tiruchirappalli dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -25354,7 +25474,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Coimbatore in roughly 3 days by road (NH48 via Bengaluru–Salem (~1,080 km)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Coimbatore manufactured?",
+        "q": "Do you have a manufacturing plant in Coimbatore?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Coimbatore is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -25447,7 +25567,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Coimbatore manufactured?",
+            "name": "Do you have a manufacturing plant in Coimbatore?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Coimbatore is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -25528,7 +25648,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Chennai",
     "introParagraph": "Chennai's buyers order piping hardware for concrete reasons: CPCL refinery & Manali petrochemicals, auto corridor (Hyundai, Daimler), Ennore port & thermal. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">spectacle blind flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> into Manali petro belt, Ambattur & Guindy estates, Oragadam-Sriperumbudur, in A105, F11/F22, SS 316L, Duplex 2205 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
-    "logistics": "Route: NH48 via Bengaluru (~1,330 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Chennai. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH48 via Bengaluru (~1,330 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Chennai. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Oil & Gas (Refining)",
@@ -25631,7 +25751,7 @@ export const marketAreaData = {
       },
       {
         "q": "What test certificates come with a Chennai order?",
-        "a": "Every Chennai dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Chennai dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "Is there a minimum order for delivery to Chennai?",
@@ -25730,7 +25850,7 @@ export const marketAreaData = {
             "name": "What test certificates come with a Chennai order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Chennai dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Chennai dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -25800,7 +25920,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Hyderabad",
     "introParagraph": "Supplying Hyderabad means understanding Bulk drug & pharma capital, BHEL R.C. Puram, aerospace & defence (Adibatla TASL belt). Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into Jeedimetla, Bollaram, Pashamylaram, Genome Valley, Adibatla — SS 316L/304L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: NH65 via Pune–Solapur (~710 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Hyderabad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH65 via Pune–Solapur (~710 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 2 days to Hyderabad. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Pharma & Biotech",
@@ -25903,7 +26023,7 @@ export const marketAreaData = {
       },
       {
         "q": "Which documents do you provide with supply to Hyderabad?",
-        "a": "Every Hyderabad dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Hyderabad dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "Do you accept small orders from Hyderabad?",
@@ -26002,7 +26122,7 @@ export const marketAreaData = {
             "name": "Which documents do you provide with supply to Hyderabad?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Hyderabad dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Hyderabad dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -26138,7 +26258,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Warangal in roughly 3 days by road (NH65 via Hyderabad). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Warangal manufactured?",
+        "q": "Do you have a manufacturing plant in Warangal?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Warangal is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -26227,7 +26347,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Warangal manufactured?",
+            "name": "Do you have a manufacturing plant in Warangal?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Warangal is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -26528,7 +26648,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Khammam",
     "introParagraph": "Supplying Khammam means understanding Granite processing, agro, Sattupalli coal belt fringe. Remax Forge ships <a href=\"/product-details/hardox-plate/\" class=\"text-[#D71920] hover:underline font-semibold\">hardox plates</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> from Mumbai into Khammam industrial units — A105, Hardox 400/450, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: NH65 via Hyderabad–Suryapet. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Khammam. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH65 via Hyderabad–Suryapet. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Khammam. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Cement & Mining",
@@ -26615,7 +26735,7 @@ export const marketAreaData = {
       },
       {
         "q": "Which documents do you provide with supply to Khammam?",
-        "a": "Every Khammam dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Khammam dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       }
     ],
     "schema": [
@@ -26710,7 +26830,7 @@ export const marketAreaData = {
             "name": "Which documents do you provide with supply to Khammam?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Khammam dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Khammam dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           }
         ]
@@ -26772,7 +26892,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Ramagundam",
     "introParagraph": "Around NTPC & SCCL township belt, procurement runs on NTPC Ramagundam super thermal (2,600 MW), SCCL coal, RFCL fertilizer plant. We serve this demand from Mumbai with <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> in A105, F11/F22/F91 (IBR), built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH63 via Hyderabad (~950 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Ramagundam. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH63 via Hyderabad (~950 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 3 days to Ramagundam. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Power & Boilers",
@@ -26847,19 +26967,19 @@ export const marketAreaData = {
       },
       {
         "q": "Do you supply IBR-certified fittings for boiler and steam lines in Ramagundam?",
-        "a": "Yes. For steam service around NTPC Ramagundam super thermal (2 we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Telangana proceed without paperwork gaps."
+        "a": "Yes. For steam service around NTPC Ramagundam super thermal (2 we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Telangana proceed without paperwork gaps."
       },
       {
         "q": "What lead time should Ramagundam buyers plan for?",
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Ramagundam in roughly 3 days by road (NH63 via Hyderabad (~950 km)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Ramagundam manufactured?",
+        "q": "Do you have a manufacturing plant in Ramagundam?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Ramagundam is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
         "q": "What QA documentation accompanies Ramagundam dispatches?",
-        "a": "Every Ramagundam dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Ramagundam dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "What is the MOQ for Ramagundam supply?",
@@ -26934,7 +27054,7 @@ export const marketAreaData = {
             "name": "Do you supply IBR-certified fittings for boiler and steam lines in Ramagundam?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. For steam service around NTPC Ramagundam super thermal (2 we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Telangana proceed without paperwork gaps."
+              "text": "Yes. For steam service around NTPC Ramagundam super thermal (2 we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Telangana proceed without paperwork gaps."
             }
           },
           {
@@ -26947,7 +27067,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Ramagundam manufactured?",
+            "name": "Do you have a manufacturing plant in Ramagundam?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Ramagundam is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -26958,7 +27078,7 @@ export const marketAreaData = {
             "name": "What QA documentation accompanies Ramagundam dispatches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Ramagundam dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Ramagundam dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -27550,7 +27670,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Dharmanagar in roughly 9 days by road (NH8 via Silchar). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Dharmanagar manufactured?",
+        "q": "Do you have a manufacturing plant in Dharmanagar?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Dharmanagar is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -27639,7 +27759,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Dharmanagar manufactured?",
+            "name": "Do you have a manufacturing plant in Dharmanagar?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Dharmanagar is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -27712,7 +27832,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Udaipur",
     "introParagraph": "Udaipur's buyers order piping hardware for concrete reasons: OTPC Palatana gas power plant (726 MW) belt, agro & rubber. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> into Gomati district; Palatana power belt, in A105, F11/F22/F91 (IBR) — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
-    "logistics": "Route: NH8 via Agartala. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Udaipur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH8 via Agartala. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Udaipur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Power & Boilers",
@@ -27787,7 +27907,7 @@ export const marketAreaData = {
       },
       {
         "q": "Do you supply IBR-certified fittings for boiler and steam lines in Udaipur?",
-        "a": "Yes. For steam service around OTPC Palatana gas power plant (726 MW) belt we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Tripura proceed without paperwork gaps."
+        "a": "Yes. For steam service around OTPC Palatana gas power plant (726 MW) belt we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Tripura proceed without paperwork gaps."
       },
       {
         "q": "What is the realistic delivery time to Udaipur?",
@@ -27799,7 +27919,7 @@ export const marketAreaData = {
       },
       {
         "q": "What test certificates come with a Udaipur order?",
-        "a": "Every Udaipur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Udaipur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       }
     ],
     "schema": [
@@ -27870,7 +27990,7 @@ export const marketAreaData = {
             "name": "Do you supply IBR-certified fittings for boiler and steam lines in Udaipur?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. For steam service around OTPC Palatana gas power plant (726 MW) belt we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Tripura proceed without paperwork gaps."
+              "text": "Yes. For steam service around OTPC Palatana gas power plant (726 MW) belt we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Tripura proceed without paperwork gaps."
             }
           },
           {
@@ -27894,7 +28014,7 @@ export const marketAreaData = {
             "name": "What test certificates come with a Udaipur order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Udaipur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Udaipur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           }
         ]
@@ -27956,7 +28076,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Agartala",
     "introParagraph": "Supplying Agartala means understanding ONGC Tripura gas fields, OTPC Palatana CCGT, rubber & agro processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> and <a href=\"/products/flanges/lap-joint-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">lap joint flanges</a> from Mumbai into Bodhjungnagar industrial growth centre — A105, F52/F60 on request, SS 316L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: NH8 via Guwahati (~3,200 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Agartala. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH8 via Guwahati (~3,200 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Agartala. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Oil & Gas (Upstream)",
@@ -28043,7 +28163,7 @@ export const marketAreaData = {
       },
       {
         "q": "Which documents do you provide with supply to Agartala?",
-        "a": "Every Agartala dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Agartala dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "Do you accept small orders from Agartala?",
@@ -28142,7 +28262,7 @@ export const marketAreaData = {
             "name": "Which documents do you provide with supply to Agartala?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Agartala dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Agartala dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -28294,7 +28414,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Varanasi in roughly 4 days by road (NH53+NH19 via Nagpur (~1,500 km)). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Varanasi manufactured?",
+        "q": "Do you have a manufacturing plant in Varanasi?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Varanasi is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -28387,7 +28507,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Varanasi manufactured?",
+            "name": "Do you have a manufacturing plant in Varanasi?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Varanasi is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -29034,7 +29154,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Lucknow in roughly 4 days by road (NH19+NH30 via Kanpur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Lucknow manufactured?",
+        "q": "Do you have a manufacturing plant in Lucknow?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Lucknow is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -29127,7 +29247,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Lucknow manufactured?",
+            "name": "Do you have a manufacturing plant in Lucknow?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Lucknow is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -29208,7 +29328,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kanpur",
     "introParagraph": "Kanpur's buyers order piping hardware for concrete reasons: Ordnance factories cluster, leather & chemicals, Panki thermal, engineering. From our Mumbai works we supply <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges</a> and <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittingss</a> into Dada Nagar, Fazalganj & Panki industrial areas, in SS 316L, Inconel 625 & Monel on order — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
-    "logistics": "Route: NH44+NH19 via Jhansi (~1,320 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Kanpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH44+NH19 via Jhansi (~1,320 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Kanpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Aerospace & Defence",
@@ -29311,7 +29431,7 @@ export const marketAreaData = {
       },
       {
         "q": "What test certificates come with a Kanpur order?",
-        "a": "Every Kanpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Kanpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "Is there a minimum order for delivery to Kanpur?",
@@ -29410,7 +29530,7 @@ export const marketAreaData = {
             "name": "What test certificates come with a Kanpur order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Kanpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Kanpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -29774,7 +29894,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Haldwani in roughly 4 days by road (NH9 via Delhi). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Haldwani manufactured?",
+        "q": "Do you have a manufacturing plant in Haldwani?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Haldwani is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -29863,7 +29983,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Haldwani manufactured?",
+            "name": "Do you have a manufacturing plant in Haldwani?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Haldwani is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -30176,7 +30296,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Haridwar",
     "introParagraph": "Supplying Haridwar means understanding BHEL Haridwar heavy electricals, SIDCUL auto & FMCG cluster (Hero, ITC belt). Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-tee-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld tees</a> and <a href=\"/products/buttweld-fittings/concentric-reducer/\" class=\"text-[#D71920] hover:underline font-semibold\">concentric reducers</a> from Mumbai into SIDCUL Haridwar (IIE), BHEL township — A105, F11/F22/F91 (IBR), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: NH334 via Delhi (~1,600 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Haridwar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH334 via Delhi (~1,600 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 4 days to Haridwar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Power & Boilers",
@@ -30251,7 +30371,7 @@ export const marketAreaData = {
       },
       {
         "q": "Do you supply IBR-certified fittings for boiler and steam lines in Haridwar?",
-        "a": "Yes. For steam service around BHEL Haridwar heavy electricals we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Uttarakhand proceed without paperwork gaps."
+        "a": "Yes. For steam service around BHEL Haridwar heavy electricals we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Uttarakhand proceed without paperwork gaps."
       },
       {
         "q": "How long does delivery to Haridwar actually take?",
@@ -30263,7 +30383,7 @@ export const marketAreaData = {
       },
       {
         "q": "Which documents do you provide with supply to Haridwar?",
-        "a": "Every Haridwar dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Haridwar dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "Do you accept small orders from Haridwar?",
@@ -30338,7 +30458,7 @@ export const marketAreaData = {
             "name": "Do you supply IBR-certified fittings for boiler and steam lines in Haridwar?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. For steam service around BHEL Haridwar heavy electricals we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR Form II documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Uttarakhand proceed without paperwork gaps."
+              "text": "Yes. For steam service around BHEL Haridwar heavy electricals we supply A105, F11, F22 and F91 flanges, butt-weld tees and reducers with IBR documentation documentation, plus 3.1 MTCs and hydro test reports, so boiler inspectorate approvals in Uttarakhand proceed without paperwork gaps."
             }
           },
           {
@@ -30362,7 +30482,7 @@ export const marketAreaData = {
             "name": "Which documents do you provide with supply to Haridwar?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Haridwar dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Haridwar dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -30514,7 +30634,7 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Dehradun in roughly 4 days by road (NH307 via Delhi). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Dehradun manufactured?",
+        "q": "Do you have a manufacturing plant in Dehradun?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Dehradun is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
@@ -30607,7 +30727,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Dehradun manufactured?",
+            "name": "Do you have a manufacturing plant in Dehradun?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Dehradun is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -30916,7 +31036,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Durgapur",
     "introParagraph": "Supplying Durgapur means understanding SAIL Durgapur Steel Plant, DPL power, heavy engineering & fabrication corridor. Remax Forge ships <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> from Mumbai into Durgapur industrial belt (DSP, DPL) — A105, A350 LF2, SS 304, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
-    "logistics": "Route: NH19 via Nagpur–Asansol (~1,750 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Durgapur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH19 via Nagpur–Asansol (~1,750 km). Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Durgapur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Steel & Metals",
@@ -31003,7 +31123,7 @@ export const marketAreaData = {
       },
       {
         "q": "Which documents do you provide with supply to Durgapur?",
-        "a": "Every Durgapur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Durgapur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "Do you accept small orders from Durgapur?",
@@ -31102,7 +31222,7 @@ export const marketAreaData = {
             "name": "Which documents do you provide with supply to Durgapur?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Durgapur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Durgapur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {
@@ -31172,7 +31292,7 @@ export const marketAreaData = {
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Asansol",
     "introParagraph": "Around Burnpur (IISCO), ECL coal belt, procurement runs on SAIL IISCO Burnpur steel plant, ECL collieries, railway workshop. We serve this demand from Mumbai with <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a> and <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> in A105, A350 LF2, SS 304, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
-    "logistics": "Route: NH19 via Nagpur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Asansol. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR Form II where applicable.",
+    "logistics": "Route: NH19 via Nagpur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Asansol. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports, IBR documentation where applicable.",
     "sectors": [
       {
         "sector": "Steel & Metals",
@@ -31254,12 +31374,12 @@ export const marketAreaData = {
         "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Asansol in roughly 5 days by road (NH19 via Nagpur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
       },
       {
-        "q": "Where are your products for Asansol manufactured?",
+        "q": "Do you have a manufacturing plant in Asansol?",
         "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Asansol is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
       },
       {
         "q": "What QA documentation accompanies Asansol dispatches?",
-        "a": "Every Asansol dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+        "a": "Every Asansol dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
       },
       {
         "q": "What is the MOQ for Asansol supply?",
@@ -31347,7 +31467,7 @@ export const marketAreaData = {
           },
           {
             "@type": "Question",
-            "name": "Where are your products for Asansol manufactured?",
+            "name": "Do you have a manufacturing plant in Asansol?",
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Asansol is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
@@ -31358,7 +31478,7 @@ export const marketAreaData = {
             "name": "What QA documentation accompanies Asansol dispatches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Asansol dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR Form II for steam-service items. 100% PMI is standard on alloy and stainless lots."
+              "text": "Every Asansol dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, IBR documentation for steam-service items. 100% PMI is standard on alloy and stainless lots."
             }
           },
           {

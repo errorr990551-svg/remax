@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle2, ChevronRight, Home, Download, AlertTriangle } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
 import { 
@@ -37,10 +38,10 @@ const WeldNeck = () => {
   const advantages = [
     { icon: "💪", title: "Strongest Flange", desc: "Single full-penetration butt weld — the strongest weld joint possible; code-required for critical service." },
     { icon: "🔍", title: "Radiographic Inspection Possible", desc: "Full-penetration butt weld can be X-rayed (100% RT) to detect internal defects — ensuring zero-leak joints." },
-    { icon: "📏", title: "Perfect Bore Match", desc: "Hub bore machined to exact pipe bore — zero turbulence, zero pressure drop, zero erosion at the joint." },
-    { icon: "🌡️", title: "Best for Extremes", desc: "For high temp (up to 700°C alloy steel), high pressure (2500#), cryogenic (-196°C LNG), and cyclic fatigue." },
-    { icon: "🛡️", title: "Maximum Fatigue Life", desc: "Tapered hub distributes stress smoothly into pipe wall — outlasts Slip-On by 3× under fatigue loading." },
-    { icon: "📋", title: "Code-Mandated", desc: "Required by ASME B31.3 for lethal, high-temp, cyclic, and Class 900# and above critical service." },
+    { icon: "📏", title: "Matched Bore", desc: "Bore machined to the pipe inside diameter, so there is no step in the flow path to cause turbulence or erosion at the joint." },
+    { icon: "🌡️", title: "Best for Extremes", desc: "Suited to high pressure (up to Class 2500), high temperature alloy service (F11, F22, F91) and cryogenic service down to -196°C in 304L / 316L." },
+    { icon: "🛡️", title: "Maximum Fatigue Life", desc: "The tapered hub spreads stress into the pipe wall. A slip-on flange has roughly one third of the fatigue life of a weld neck under cyclic loading." },
+    { icon: "📋", title: "Preferred by Piping Specs", desc: "Most piping classes specify weld neck flanges for high pressure, toxic (Category M) and severe cyclic service; ASME B31.3 restricts slip-on flanges in severe cyclic service." },
     { icon: "🔧", title: "One Weld Only", desc: "Just one weld joint to inspect and maintain (vs. two fillet welds for Slip-On flanges)." },
   ];
 
@@ -59,7 +60,6 @@ const WeldNeck = () => {
     "Offshore platforms & FPSOs — subsea, topsides, wellhead connections",
     "Chemical plants — highly corrosive acids, caustics, solvents under pressure",
     "Compressor station discharge piping (cyclic high-pressure)",
-    "Nuclear power — Class 1 & 2 piping (with special material certifications)",
     "Any service requiring radiographic weld inspection per code",
   ];
 
@@ -72,7 +72,8 @@ const WeldNeck = () => {
     { label: "Standards", value: "ANSI/ASME B16.5, B16.47 Series A & B, EN 1092-1, DIN 2633/2635, JIS B2220, BS 4504, MSS SP-44, API 6A, API 605, GOST, AWWA" },
     { label: "Weld Type", value: "Single full-penetration V-groove butt weld (1 weld only)" },
     { label: "MTC", value: "EN 10204 3.1 standard; 3.2 on request; NACE MR0175/MR0103 available" },
-    { label: "Radiography", value: "100% RT available; mandatory for lethal/critical service per ASME B31.3" },
+    { label: "Bore", value: "Machined to the pipe schedule ordered (SCH 10S to XXS) or to a specified ID" },
+    { label: "Weld Inspection", value: "Butt weld can be 100% radiographed or ultrasonically tested, as required by the piping code and fluid service" },
     { label: "Lead Time", value: "7–14 days (standard); 3–6 weeks (special alloy/custom)" },
   ];
 
@@ -84,7 +85,7 @@ const WeldNeck = () => {
     { feature: "Bore Match to Pipe", wn: "Exact — zero turbulence", slipOn: "Slides over pipe OD", socketWeld: "Socket bore ≈ pipe OD" },
     { feature: "Installation Speed", wn: "Slower (precise cut & butt weld)", slipOn: "Faster (slide & fillet weld)", socketWeld: "Moderate" },
     { feature: "Cost (Relative)", wn: "Highest", slipOn: "Lowest", socketWeld: "Moderate" },
-    { feature: "Code-Mandated For", wn: "Lethal, cyclic, Class 900+", slipOn: "General/low-medium pressure", socketWeld: "Small-bore high pressure" },
+    { feature: "Typically Specified For", wn: "High pressure, toxic & severe cyclic service", slipOn: "Low pressure utility lines", socketWeld: "Small-bore (NPS 2 and below) process lines" },
   ];
 
   return (
@@ -92,16 +93,19 @@ const WeldNeck = () => {
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
-            <a href="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></a>
-            <ChevronRight size={14} />
-            <a href="/products/flanges/" className="hover:text-[#D71920] transition-colors">Products</a>
-            <ChevronRight size={14} />
-            <span className="text-slate-400">Flanges</span>
-            <ChevronRight size={14} />
-            <span className="text-[#D71920] font-medium">Weld Neck Flange</span>
-          </div>
-          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">Weld Neck Flange Manufacturer in India</h1>
+          <nav aria-label="Breadcrumb" className="mb-4">
+            <ol className="flex items-center gap-2 text-sm text-slate-400">
+              <li><Link to="/" aria-label="Home" className="hover:text-[#D71920] transition-colors"><Home size={14} /></Link></li>
+              <li aria-hidden="true"><ChevronRight size={14} /></li>
+              <li><Link to="/products/flanges/" className="hover:text-[#D71920] transition-colors">Flanges</Link></li>
+              <li aria-hidden="true"><ChevronRight size={14} /></li>
+              <li aria-current="page" className="text-[#D71920] font-medium">Weld Neck Flange</li>
+            </ol>
+          </nav>
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">Weld Neck Flange Manufacturer in India — ASME B16.5 / B16.47 WNRF &amp; RTJ</h1>
+          <p className="mt-4 max-w-3xl text-slate-300 text-sm md:text-base leading-relaxed">
+            Remax Forge manufactures forged weld neck flanges to ASME B16.5 (NPS ½" to 24") and B16.47 Series A / B (NPS 26" to 60"), Class 150 to 2500, with RF, FF or RTJ facing and the bore machined to your pipe schedule. We make them in A105, A350 LF2, stainless, duplex, alloy and nickel alloy grades, with an EN 10204 3.1 MTC.
+          </p>
         </div>
       </div>
 
@@ -124,8 +128,8 @@ const WeldNeck = () => {
         {/* Hero: Image & Key Features */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-8 items-center">
           <div className="rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group">
-            <img src="/images/weld-neck-flange.webp"
-              alt="Weld Neck Flange ASME B16.5 Class 150 Carbon Steel Manufacturer Mumbai India"
+            <img src="/images/weld-neck-flange.webp" width="1000" height="1000" fetchpriority="high"
+              alt="Forged weld neck raised face flange (WNRF) to ASME B16.5 made by Remax Forge"
               className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 p-8" />
             <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors"></div>
           </div>
@@ -155,9 +159,9 @@ const WeldNeck = () => {
               <button onClick={() => openQuotePopup()} className="px-8 py-3 rounded font-bold text-white bg-[#D71920] hover:shadow-xl transition-all transform hover:-translate-y-1 flex items-center gap-2">
                 Request Quote <ArrowRight size={18} />
               </button>
-              <a href="/contact/" className="px-6 py-3 rounded font-bold text-slate-700 bg-white border border-slate-300 hover:border-slate-500 transition-all flex items-center gap-2">
-                <Download size={18} className="text-slate-500" /> Download Catalogue
-              </a>
+              <Link to="/contact/" className="px-6 py-3 rounded font-bold text-slate-700 bg-white border border-slate-300 hover:border-slate-500 transition-all flex items-center gap-2">
+                <Download size={18} className="text-slate-500" /> Request Catalogue
+              </Link>
             </div>
           </div>
         </div>
@@ -215,8 +219,8 @@ const WeldNeck = () => {
                   "Tapered hub distributes mechanical stress smoothly — no abrupt stress transitions",
                   "Internal bore matches exactly to pipe bore — NO flow restriction, NO turbulence",
                   "Radiographic examination (X-ray) of the weld is possible — defects are detectable",
-                  "Required by code (ASME B31.3) for: lethal service, cyclic service, Class 900# and above in critical systems",
-                  "The ONLY flange type recommended for: high pressure, high temp, cryogenic, fatigue-loading, and corrosive media",
+                  "Specified by most piping classes for high pressure, toxic (Category M) and severe cyclic service; ASME B31.3 restricts slip-on flanges in severe cyclic service",
+                  "The usual choice for high pressure, high and low temperature, fatigue loading and hazardous fluids",
                 ].map((fact, idx) => (
                   <li key={idx} className="flex items-start gap-2.5">
                     <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[#D71920] shrink-0"></span>
@@ -228,7 +232,7 @@ const WeldNeck = () => {
 
             <div className="p-4 bg-red-50/50 rounded-xl border border-red-100/50">
               <p className="text-xs md:text-sm text-slate-700 font-bold leading-relaxed">
-                🔗 For lower-pressure applications, our <a href="/products/flanges/slip-on-flange/" className="text-[#D71920] hover:underline font-extrabold">Slip On Flange</a> is more economical. For pipe end closures, see our <a href="/products/flanges/blind-flange/" className="text-[#D71920] hover:underline font-extrabold">Blind Flange</a>. Compare our <a href="/products/flanges/" className="text-[#D71920] hover:underline font-extrabold">complete flange range</a>.
+                🔗 For lower-pressure applications, our <Link to="/products/flanges/slip-on-flange/" className="text-[#D71920] hover:underline font-extrabold">Slip On Flange</Link> is more economical. For pipe end closures, see our <Link to="/products/flanges/blind-flange/" className="text-[#D71920] hover:underline font-extrabold">Blind Flange</Link>. Compare our <Link to="/products/flanges/" className="text-[#D71920] hover:underline font-extrabold">complete flange range</Link>.
               </p>
             </div>
           </div>
@@ -276,7 +280,7 @@ const WeldNeck = () => {
             </div>
             <div className="lg:col-span-4 bg-slate-50 border border-slate-200 rounded-2xl p-4 flex flex-col items-center justify-center">
               <img loading="lazy" decoding="async" src="/images/nickel-alloy-bar-500x500.webp"
-                alt="Weld Neck Flange material grades stainless steel duplex inconel"
+                alt="Forged bar and billet stock used to make weld neck flanges"
                 className="w-full h-auto max-h-[220px] object-contain rounded-xl shadow-sm mb-2" />
               <span className="text-[10px] text-slate-500 font-mono">Forged Raw Billets stock</span>
             </div>
@@ -300,12 +304,41 @@ const WeldNeck = () => {
             ASME B16.5 Weld Neck Flange Dimensions Table
           </h2>
           <p className="text-slate-600 mb-2 text-sm md:text-base font-medium">
-            Detailed dimensional chart for Class 150# forged Weld Neck Flanges. Dimensions per ASME B16.5. Weights are approximate for Carbon Steel A105. Click column headers to sort:
+            Class 150 weld neck flange dimensions per ASME B16.5, from NPS ½" to 24". Click a column header to sort:
           </p>
           <p className="text-xs text-slate-500 italic mb-8">
-            Contact us for exact drawings, Class 300#/600#/900# dimensions, or downloadable PDF catalogue.
+            Certified drawings, weights and Class 300 to 2500 dimensions are supplied with every quote.
           </p>
-          <FlangeDimensionsTable slug="weld-neck-flange" altText="ASME B16.5 Weld Neck Flange dimensions chart" />
+          <FlangeDimensionsTable slug="weld-neck-flange" altText="ASME B16.5 weld neck flange drawing showing flange OD, thickness, hub diameter and length through hub" />
+
+          <h3 className="text-base font-bold text-slate-800 mt-10 mb-2">Pressure–Temperature Ratings: A105 / Group 1.1 (psig)</h3>
+          <p className="text-slate-600 text-sm mb-4">Maximum working pressure per ASME B16.5 Table 2-1.1. Pick the lowest class whose rating at your design temperature is above your design pressure.</p>
+          <div className="overflow-x-auto rounded-xl border border-slate-200">
+            <table className="w-full text-xs md:text-sm text-left border-collapse">
+              <thead>
+                <tr className="bg-[#0F172A] text-white">
+                  {["Temperature", "Class 150", "Class 300", "Class 400", "Class 600", "Class 900", "Class 1500", "Class 2500"].map((h) => (
+                    <th key={h} className="px-4 py-3 font-bold whitespace-nowrap border-r border-slate-700 last:border-0">{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ["-20 to 100°F (-29 to 38°C)", 285, 740, 990, 1480, 2220, 3705, 6170],
+                  ["400°F (204°C)", 200, 635, 845, 1265, 1900, 3170, 5280],
+                  ["600°F (316°C)", 140, 570, 760, 1135, 1705, 2840, 4730],
+                  ["800°F (427°C)", 80, 410, 550, 825, 1235, 2055, 3430],
+                ].map((row, idx) => (
+                  <tr key={idx} className={`border-b border-slate-200 ${idx % 2 === 0 ? 'bg-slate-50' : 'bg-white'}`}>
+                    {row.map((cell, cIdx) => (
+                      <td key={cIdx} className={`px-4 py-3 border-r border-slate-200 last:border-0 ${cIdx === 0 ? 'font-bold text-slate-800 whitespace-nowrap' : 'text-slate-600'}`}>{cell}</td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-slate-500 italic mt-2">Stainless, alloy and duplex grades have their own material group tables in ASME B16.5. Send us your design conditions and we will confirm the class.</p>
         </div>
 
         {/* H2-6: Face Types */}
@@ -378,7 +411,7 @@ const WeldNeck = () => {
             <div className="mt-5 p-4 bg-blue-50 border border-blue-100 rounded-lg">
               <p className="text-xs text-blue-800 font-semibold leading-relaxed">
                 💡 For low-to-medium pressure general service, the more economical{' '}
-                <a href="/products/flanges/slip-on-flange/" className="text-[#D71920] hover:underline font-bold">Slip On Flange</a>{' '}
+                <Link to="/products/flanges/slip-on-flange/" className="text-[#D71920] hover:underline font-bold">Slip On Flange</Link>{' '}
                 may be a better fit. Weld Neck is specified where safety and code compliance demand the highest integrity connection.
               </p>
             </div>
@@ -443,12 +476,12 @@ const WeldNeck = () => {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap gap-4">
-            <a href="/products/flanges/slip-on-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
+            <Link to="/products/flanges/slip-on-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
               <ChevronRight size={14} /> View Slip On Flange →
-            </a>
-            <a href="/products/flanges/socket-weld-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
+            </Link>
+            <Link to="/products/flanges/socket-weld-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
               <ChevronRight size={14} /> View Socket Weld Flange →
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -467,16 +500,16 @@ const WeldNeck = () => {
         <div className="bg-gradient-to-r from-[#0F172A] to-slate-800 rounded-2xl p-8 md:p-10 shadow-xl mb-12 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h2 className="text-2xl font-extrabold text-white mb-2">
-              📥 Download Weld Neck Flange Catalogue (PDF)
+              📥 Weld Neck Flange Catalogue (PDF)
             </h2>
             <p className="text-slate-400 text-sm leading-relaxed max-w-lg">
               Get the complete technical catalogue including product description, full ASME B16.5 Class 150#, 300#, 600# & 900# dimension tables, material grades, standards, and weight charts — ready to attach to your RFQ.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 shrink-0">
-            <a href="/contact/" className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D71920] hover:bg-red-600 text-white font-bold rounded-xl transition-all shadow-lg whitespace-nowrap">
+            <Link to="/contact/" className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D71920] hover:bg-red-600 text-white font-bold rounded-xl transition-all shadow-lg whitespace-nowrap">
               <Download size={18} /> Request PDF Catalogue
-            </a>
+            </Link>
             <button onClick={() => openQuotePopup()} className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl transition-all border border-white/20 whitespace-nowrap">
               Get Instant Quote <ArrowRight size={18} />
             </button>
@@ -488,10 +521,10 @@ const WeldNeck = () => {
         {/* FAQ */}
         <div id="faq" className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">
           <h2 className="text-3xl font-extrabold text-[#0F172A] border-l-4 border-[#D71920] pl-3 mb-4">
-            Frequently Asked Questions
+            Weld Neck Flange FAQs
           </h2>
           <p className="text-slate-600 text-sm md:text-base font-medium mb-8">
-            Find answers to the most common questions about Weld Neck Flanges — including WNRF vs WNFF, pipe schedule matching, API 6A, large bore B16.47, and temperature limits. Contact our metallurgical engineers for project-specific guidance.
+            Answers to common buyer questions: B16.5 vs B16.47, WNRF vs RTJ, pipe schedule matching, pressure class selection and materials.
           </p>
           <FlangeFAQs slug="weld-neck-flange" />
         </div>
@@ -499,7 +532,7 @@ const WeldNeck = () => {
         {/* Related Products */}
         <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm">
           <h2 className="text-3xl font-extrabold text-[#0F172A] border-l-4 border-[#D71920] pl-3 mb-4">
-            Related Products
+            Related Flanges
           </h2>
           <p className="text-slate-600 text-sm md:text-base font-medium mb-8">
             Compare our comprehensive range of industrial flanges to find the perfect fit for your piping project.

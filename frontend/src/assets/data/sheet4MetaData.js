@@ -55,15 +55,41 @@ export const sheet4MetaData = {
     "priority": "P1"
   },
   "/products/flanges/blind-flange/": {
-    "title": "Blind Flanges Manufacturer & Supplier | Remax Forge",
-    "description": "Explore durable blind flanges manufactured to industry standards by Remax Forge. Request a quote for custom dimensions, materials, and fast delivery.",
-    "h1": "Blind Flange Manufacturer - ASME B16.5 / B16.47",
+    "title": "Blind Flange Manufacturer India | ASME B16.5 Sizes & Weights",
+    "description": "ASME B16.5 & B16.47 blind flanges, NPS 1/2\"-60\", Class 150-2500, RF/FF/RTJ, in A105, SS 316L & duplex. Thickness & weight chart, 3.1 MTC, fast quote.",
+    "h1": "Blind Flange Manufacturer in India (ASME B16.5 / B16.47)",
+    "product": {
+      "name": "Blind Flange (ASME B16.5 / B16.47)",
+      "alternateName": ["Blank Flange", "BLRF Flange", "Blind Plate Flange"],
+      "category": "Pipe Flanges > Blind Flanges",
+      "material": "Carbon Steel (A105, A350 LF2), Stainless Steel (A182 F304L, F316L), Duplex (F51, F53), Alloy Steel (F11, F22), Nickel Alloys",
+      "additionalProperty": [
+        { "name": "Standard", "value": "ASME B16.5, ASME B16.47 Series A & B, EN 1092-1 Type 05" },
+        { "name": "Size range", "value": "NPS 1/2 to 60 (DN 15 to DN 1500)" },
+        { "name": "Pressure class", "value": "150, 300, 400, 600, 900, 1500, 2500; PN 6 to PN 400" },
+        { "name": "Facing", "value": "Raised Face (RF), Flat Face (FF), Ring Type Joint (RTJ)" },
+        { "name": "Certification", "value": "EN 10204 3.1 (3.2 on request)" }
+      ]
+    },
     "priority": "P1"
   },
   "/products/flanges/weld-neck-flange/": {
-    "title": "Weld Neck Flange Manufacturer | Remax Forge",
-    "description": "Explore industrial weld neck flanges from Remax Forge. High-quality flange solutions built to specification. Request a quote or learn more today.",
-    "h1": "Weld Neck Flange Manufacturer (WNRF) - ASME B16.5",
+    "title": "Weld Neck Flange Manufacturer India | ASME B16.5 | Remax",
+    "description": "ASME B16.5 & B16.47 weld neck flanges, NPS 1/2\"-60\", Class 150-2500, RF/RTJ, in A105, SS 316L, duplex & F11/F22. Dimension chart, 3.1 MTC, fast quote.",
+    "h1": "Weld Neck Flange Manufacturer in India (WNRF, ASME B16.5 / B16.47)",
+    "product": {
+      "name": "Weld Neck Flange (WNRF / WNRTJ)",
+      "alternateName": ["Welding Neck Flange", "WN Flange", "WNRF Flange", "WNRTJ Flange"],
+      "category": "Pipe Flanges > Weld Neck Flanges",
+      "material": "Carbon Steel (A105, A350 LF2), Stainless Steel (A182 F304L, F316L), Duplex (F51, F53), Alloy Steel (F11, F22, F91), Nickel Alloys",
+      "additionalProperty": [
+        { "name": "Standard", "value": "ASME B16.5, ASME B16.47 Series A & B, EN 1092-1 Type 11" },
+        { "name": "Size range", "value": "NPS 1/2 to 60 (DN 15 to DN 1500)" },
+        { "name": "Pressure class", "value": "150, 300, 400, 600, 900, 1500, 2500; PN 6 to PN 400" },
+        { "name": "Facing", "value": "Raised Face (RF), Flat Face (FF), Ring Type Joint (RTJ)" },
+        { "name": "Certification", "value": "EN 10204 3.1 (3.2 on request)" }
+      ]
+    },
     "priority": "P1"
   },
   "/products/flanges/slip-on-flange/": {
@@ -184,9 +210,9 @@ export const sheet4MetaData = {
     "priority": "P2"
   },
   "/tech-info/chemical-composition/": {
-    "title": "Steel Chemical Composition Chart | SS, CS & Alloy Grades",
-    "description": "Chemical composition tables for SS 304/316/321, duplex, A105, A182 F-grades, A234 WPB & more. Free reference by Remax Forge, Mumbai.",
-    "h1": "Chemical Composition Chart - All Steel Grades",
+    "title": "Steel Chemical Composition Chart: SS, Duplex, A105, F22",
+    "description": "Chemical composition of stainless steel 304/316L/321, duplex F51/F53/F55, A105, A350 LF2, A234 WPB and alloy F11/F22/F91, with PREN and element guide.",
+    "h1": "Steel Chemical Composition Chart (Stainless, Duplex, Carbon & Alloy Steel)",
     "priority": "P1"
   },
   "/tech-info/mechanical-properties/": {
@@ -202,9 +228,10 @@ export const sheet4MetaData = {
     "priority": "P2"
   },
   "/blogs/pipe-flanges-guide/": {
-    "title": "Pipe Flanges Guide: Materials & Standards | Remax Forge",
-    "description": "Comprehensive pipe flanges guide covering materials, types, sour service stainless forged flanges, and standard pressure classes for industrial use.",
-    "h1": "The Complete Guide to Pipe Flanges: Materials & Types",
+    "title": "Pipe Flanges Guide: Types, Standards, Classes & Materials",
+    "description": "Complete guide to pipe flanges: weld neck, slip-on, blind, socket weld, threaded and lap joint types, RF/FF/RTJ faces, ASME B16.5 classes and materials.",
+    "h1": "The Complete Guide to Pipe Flanges: Types, Standards, Materials, and Selection",
+    "article": { "datePublished": "2025-10-10", "dateModified": "2026-10-31" },
     "priority": "P1"
   },
   "/blogs/butt-weld-fittings-guide/": {

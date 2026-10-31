@@ -2,26 +2,60 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Home, ChevronRight, Clock, User, ArrowLeft } from 'lucide-react';
 import MetaTags from '../../components/common/MetaTags.jsx';
+import usePageSchema, { faqSchema } from '../../components/common/usePageSchema.js';
+
+const flangeTypes = [
+  { type: 'Weld Neck (WN)', to: '/products/flanges/weld-neck-flange/', joint: 'Butt weld', sizes: 'NPS ½–60', service: 'High pressure, high / low temperature, cyclic service' },
+  { type: 'Slip-On (SO)', to: '/products/flanges/slip-on-flange/', joint: 'Two fillet welds', sizes: 'NPS ½–60', service: 'Low pressure utilities, cooling water, general service' },
+  { type: 'Blind (BL)', to: '/products/flanges/blind-flange/', joint: 'None (bolted cover)', sizes: 'NPS ½–60', service: 'Closing pipe ends, nozzles and test points' },
+  { type: 'Socket Weld (SW)', to: '/products/flanges/socket-weld-flange/', joint: 'One fillet weld', sizes: 'NPS ½–3 (mostly ≤ 2)', service: 'Small-bore high pressure process and instrument lines' },
+  { type: 'Threaded (TH)', to: '/products/flanges/threaded-flange/', joint: 'Pipe thread, no weld', sizes: 'NPS ½–24 (mostly ≤ 4)', service: 'Low pressure, non-hazardous lines where welding is not allowed' },
+  { type: 'Lap Joint (LJ)', to: '/products/flanges/lap-joint-flange/', joint: 'Stub end butt welded', sizes: 'NPS ½–24', service: 'Frequent dismantling, costly alloy lines with CS backing flange' },
+  { type: 'Spectacle Blind', to: '/products/flanges/spectacle-blind-flange/', joint: 'Fitted between flanges', sizes: 'NPS ½–24', service: 'Positive isolation that is switched repeatedly' },
+];
+
+const faqs = [
+  { q: 'What are the main types of pipe flanges?', a: 'The main types are weld neck, slip-on, blind, socket weld, threaded and lap joint flanges, plus special types such as orifice flanges, long weld neck flanges and spectacle blinds. Weld neck flanges are used for high pressure and critical service, slip-on flanges for low pressure utilities, and blind flanges to close pipe ends.' },
+  { q: 'Which standard covers pipe flanges?', a: 'ASME B16.5 covers pipe flanges from NPS ½ to 24 in Classes 150 to 2500. ASME B16.47 covers NPS 26 to 60 (Series A and B). In Europe, EN 1092-1 covers PN-rated flanges. Line blinds are covered by ASME B16.48 and orifice flanges by ASME B16.36.' },
+  { q: 'What does flange pressure class mean?', a: 'The class (150, 300, 400, 600, 900, 1500, 2500) is a rating designation, not a pressure in psi. The allowable pressure depends on the class, the material group and the temperature. For example, an A105 Class 150 flange is rated 285 psig at ambient temperature but 170 psig at 500°F.' },
+  { q: 'What is the difference between RF, FF and RTJ flange faces?', a: 'A raised face (RF) concentrates bolt load on a raised gasket area and is the most common facing. A flat face (FF) is used against cast iron or FRP flanges with a full-face gasket. A ring type joint (RTJ) has a groove for a metal ring gasket and is used for high pressure and high temperature service, typically Class 600 and above.' },
+  { q: 'Which material is best for pipe flanges?', a: 'It depends on the service. A105 carbon steel suits most hydrocarbon, steam and water service; A350 LF2 suits low temperature down to -46°C; F304L / F316L stainless suit corrosive and cryogenic service; F51 / F53 duplex suit chlorides and seawater; and F11 / F22 / F91 alloy steel suit high temperature power and refinery lines.' },
+];
+
+const toc = [
+  ['types', 'Flange types'],
+  ['comparison', 'Quick comparison table'],
+  ['facings', 'Flange facing types'],
+  ['classes', 'Pressure classes'],
+  ['materials', 'Flange materials'],
+  ['bolting', 'Bolting and gaskets'],
+  ['inspection', 'Inspection and documents'],
+  ['faq', 'FAQs'],
+];
 
 const PipeFlangesGuide = () => {
+  usePageSchema([faqSchema(faqs)]);
+
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="Pipe Flanges Guide: Materials & Standards | Remax Forge"
-        description="Comprehensive pipe flanges guide covering materials, types, sour service stainless forged flanges, and standard pressure classes for industrial use."
+        title="Pipe Flanges Guide: Types, Standards, Classes & Materials"
+        description="Complete guide to pipe flanges: weld neck, slip-on, blind, socket weld, threaded and lap joint types, RF/FF/RTJ faces, ASME B16.5 classes and materials."
         keywords="Pipe Flanges, Weld Neck Flange, Slip-On Flange, Blind Flange, Flange Facing, ASME B16.5, Industrial Piping, Flange Materials, Remax Forge"
       />
       
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
-            <Link to="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></Link>
-            <ChevronRight size={14} />
-            <Link to="/blogs/" className="hover:text-[#D71920] transition-colors">Blogs</Link>
-            <ChevronRight size={14} />
-            <span className="text-[#D71920] font-medium truncate">Guide to Pipe Flanges</span>
-          </div>
+          <nav aria-label="Breadcrumb" className="mb-6">
+            <ol className="flex items-center gap-2 text-sm text-slate-400">
+              <li><Link to="/" aria-label="Home" className="hover:text-[#D71920] transition-colors"><Home size={14} /></Link></li>
+              <li aria-hidden="true"><ChevronRight size={14} /></li>
+              <li><Link to="/blogs/" className="hover:text-[#D71920] transition-colors">Blogs</Link></li>
+              <li aria-hidden="true"><ChevronRight size={14} /></li>
+              <li aria-current="page" className="text-[#D71920] font-medium truncate">Guide to Pipe Flanges</li>
+            </ol>
+          </nav>
           <div className="inline-block bg-[#D71920] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4">
             Technical Reference
           </div>
@@ -30,7 +64,7 @@ const PipeFlangesGuide = () => {
           </h1>
           <div className="flex flex-wrap items-center gap-6 text-sm text-slate-300">
             <span className="flex items-center gap-2"><User size={16} className="text-[#D71920]" /> Remax Forge & Fittings</span>
-            <span className="flex items-center gap-2"><Clock size={16} className="text-[#D71920]" /> Technical Reference for Engineering Professionals</span>
+            <span className="flex items-center gap-2"><Clock size={16} className="text-[#D71920]" /> Updated <time dateTime="2026-10-31">31 October 2026</time> · 15 min read</span>
           </div>
         </div>
       </div>
@@ -41,9 +75,12 @@ const PipeFlangesGuide = () => {
           
           {/* Primary Image: Installed piping system with flanges */}
           <div className="mb-10 rounded-xl overflow-hidden shadow-md max-w-2xl mx-auto">
-            <img 
-              src="/images/b(2)-1.jpeg" 
-              alt="industrial piping system with bolted pipe flanges used in oil gas and chemical processing plant" 
+            <img
+              src="/images/pipe-flanges-guide-hero.webp"
+              width="1200"
+              height="800"
+              fetchpriority="high"
+              alt="Industrial piping system with bolted pipe flanges in a process plant"
               className="w-full h-auto"
             />
           </div>
@@ -61,15 +98,28 @@ const PipeFlangesGuide = () => {
               At Remax Forge & Fittings, we manufacture flanges for every major industry sector, in materials ranging from carbon steel to exotic nickel alloys. This guide consolidates the technical knowledge our engineering team draws on daily, structured to help you make better flange specification decisions.
             </p>
 
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-10">
+              <p className="font-bold text-slate-800 mb-2">In short</p>
+              <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                A pipe flange joins pipe, valves and equipment with a bolted, gasketed joint that can be taken apart. Choose the <strong>type</strong> by how it attaches to the pipe (weld neck, slip-on, socket weld, threaded, lap joint, or blind for a closure), the <strong>facing</strong> by the gasket (RF, FF or RTJ), the <strong>class</strong> from the ASME B16.5 pressure–temperature tables, and the <strong>material</strong> to match the pipe and the fluid.
+              </p>
+              <p className="font-bold text-slate-800 mb-2 text-sm">Contents</p>
+              <ol className="grid grid-cols-1 sm:grid-cols-2 gap-1 text-sm list-decimal list-inside">
+                {toc.map(([id, label]) => (
+                  <li key={id}><a href={`#${id}`} className="text-[#D71920] font-semibold hover:underline">{label}</a></li>
+                ))}
+              </ol>
+            </div>
+
             {/* Section: Flange Types */}
             <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
               <img loading="lazy" decoding="async" 
-                src="/images/b(2)2.jpeg" 
+                src="/images/b(2)2.jpeg" width="807" height="661" 
                 alt="types of pipe flanges including weld neck slip on blind socket weld and threaded flange diagram" 
                 className="w-full h-auto"
               />
             </div>
-            <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Flange Types — Understanding the Design Options</h2>
+            <h2 id="types" className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2 scroll-mt-24">Flange Types — Understanding the Design Options</h2>
             <p className="text-slate-600 leading-relaxed mb-6">
               The term "flange" encompasses a wide variety of designs, each suited to different installation requirements, pressure-temperature conditions, and maintenance philosophies. ASME B16.5 (Pipe Flanges and Flanged Fittings, NPS 1/2 through NPS 24) and ASME B16.47 (Large Diameter Steel Flanges, NPS 26 through NPS 60) are the primary dimensional and rating standards in North America and most international markets.
             </p>
@@ -161,22 +211,46 @@ const PipeFlangesGuide = () => {
             </p>
 
 
+            <h2 id="comparison" className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2 scroll-mt-24">Pipe Flange Types Compared</h2>
+            <div className="overflow-x-auto rounded-xl border border-slate-200 mb-10 not-prose">
+              <table className="w-full text-sm text-left border-collapse">
+                <thead>
+                  <tr className="bg-[#0F172A] text-white">
+                    {['Flange type', 'Attachment', 'Typical sizes', 'Typical service'].map((h) => <th key={h} className="px-4 py-3 font-bold border-r border-slate-700 last:border-0">{h}</th>)}
+                  </tr>
+                </thead>
+                <tbody>
+                  {flangeTypes.map((row, idx) => (
+                    <tr key={row.type} className={`border-b border-slate-200 ${idx % 2 === 0 ? 'bg-slate-50' : 'bg-white'}`}>
+                      <td className="px-4 py-3 font-bold border-r border-slate-200"><Link to={row.to} className="text-[#D71920] hover:underline">{row.type}</Link></td>
+                      <td className="px-4 py-3 text-slate-600 border-r border-slate-200">{row.joint}</td>
+                      <td className="px-4 py-3 text-slate-600 border-r border-slate-200">{row.sizes}</td>
+                      <td className="px-4 py-3 text-slate-600">{row.service}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-slate-600 leading-relaxed mb-10">
+              For a head-to-head comparison of the two most common types, read <Link to="/blogs/weld-neck-vs-slip-on-flange/" className="text-[#D71920] font-semibold hover:underline">weld neck vs slip-on flange</Link>.
+            </p>
+
             {/* Section: Flange Facing Types */}
             <div className="mb-8 mt-12 rounded-xl overflow-hidden shadow-sm">
               <img loading="lazy" decoding="async" 
-                src="/images/b(2)3.jpeg" 
+                src="/images/b(2)3.jpeg" width="1024" height="1024" 
                 alt="raised face vs flat face flange comparison showing sealing surface differences in pipe flanges" 
                 className="w-full h-auto"
               />
             </div>
-            <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Flange Facing Types — The Critical Sealing Interface</h2>
+            <h2 id="facings" className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2 scroll-mt-24">Flange Facing Types — The Critical Sealing Interface</h2>
             <p className="text-slate-600 leading-relaxed mb-6">
               The flange face is the machined surface that contacts the gasket and creates the seal. Selecting the wrong facing for your gasket type and service conditions will result in a leaking joint.
             </p>
 
             <h3 className="text-xl font-bold mb-2 text-[#D71920]">Raised Face (RF)</h3>
             <p className="text-slate-600 leading-relaxed mb-4">
-              The raised face is the most common facing type, used with flat ring gaskets and spiral wound gaskets. The face is raised 1/16 inch (Class 150# and 300#) or 1/4 inch (Class 400# through 2500#) above the flange bolt circle.
+              The raised face is the most common facing type, used with flat ring gaskets and spiral wound gaskets. The raised face is 1/16 inch (1.6 mm) high on Class 150 and 300 flanges and 1/4 inch (6.4 mm) high on Class 400 to 2500 flanges.
             </p>
             <p className="text-slate-600 leading-relaxed mb-6">
               The raised area concentrates the bolt load onto the gasket area, increasing seating stress and improving leak tightness. The face surface finish is typically specified in terms of arithmetic average roughness (Ra) — commonly 125 to 250 microinches AARH for spiral wound gaskets, or 63 microinches for ring type joint facings.
@@ -212,7 +286,7 @@ const PipeFlangesGuide = () => {
 
 
             {/* Section: Flange Pressure Classes */}
-            <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Flange Pressure Classes — Understanding the Rating System</h2>
+            <h2 id="classes" className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2 scroll-mt-24">Flange Pressure Classes — Understanding the Rating System</h2>
             <p className="text-slate-600 leading-relaxed mb-6">
               ASME B16.5 defines seven pressure classes for flanges: 150#, 300#, 400#, 600#, 900#, 1500#, and 2500#. These designations do not directly indicate the maximum allowable working pressure — rather, the pressure rating of a flange is a function of both its class and its material group at a given temperature.
             </p>
@@ -222,7 +296,7 @@ const PipeFlangesGuide = () => {
               The pressure-temperature (P-T) rating tables in ASME B16.5 group materials into Material Groups (1.1, 1.2, 1.3, 2.1, 2.2, etc.). The allowable pressure for each class decreases as temperature increases, reflecting the reduction in yield strength at elevated temperatures.
             </p>
             <p className="text-slate-600 leading-relaxed mb-6">
-              For example, a Class 150# flange in Group 1.1 (which includes A105 carbon steel) is rated at approximately 285 psi at ambient temperature, but only about 150 psi at 500°F (260°C) and drops further as temperature rises. A Class 600# flange in the same material at ambient temperature is rated at approximately 1,480 psi.
+              For example, a Class 150# flange in Group 1.1 (which includes A105 carbon steel) is rated at 285 psig at ambient temperature, but only 170 psig at 500°F (260°C), and the rating drops further as temperature rises. A Class 600 flange in the same material is rated at 1,480 psig at ambient temperature. See the <Link to="/blogs/flange-pressure-class-guide/" className="text-[#D71920] font-semibold hover:underline">flange pressure class guide</Link> and <Link to="/blogs/class-150-vs-class-300-flange/" className="text-[#D71920] font-semibold hover:underline">Class 150 vs Class 300</Link> for worked examples.
             </p>
 
             <h3 className="text-xl font-bold text-[#0F172A] mb-3">Choosing the Right Class</h3>
@@ -231,22 +305,22 @@ const PipeFlangesGuide = () => {
               <li>The maximum operating pressure at the flange location</li>
               <li>The maximum operating temperature at the flange location</li>
               <li>The material group of the flange material</li>
-              <li>The applicable design code safety factor (typically the pressure is multiplied by 1.5 to establish the design pressure)</li>
+              <li>The design pressure and temperature set by the piping code and process design (normally with a margin above the maximum operating conditions, and not below the relief valve set pressure)</li>
             </ul>
             <p className="text-slate-600 leading-relaxed mb-10">
-              Look up the material group in ASME B16.5 Appendix E, then find the class whose P-T rating at your maximum temperature exceeds your design pressure. Always round up — never select a class whose rating is marginally above design pressure without considering future operating scenarios or pressure relief set points.
+              Look up the material group in ASME B16.5 Table 1A, then find the class whose P-T rating at your maximum temperature exceeds your design pressure. Always round up — never select a class whose rating is marginally above design pressure without considering future operating scenarios or pressure relief set points.
             </p>
 
 
             {/* Section: Flange Materials */}
             <div className="mb-8 mt-12 rounded-xl overflow-hidden shadow-sm">
               <img loading="lazy" decoding="async" 
-                src="/images/b(2)4.jpeg" 
+                src="/images/b(2)4.jpeg" width="400" height="400" 
                 alt="stack of industrial stainless steel pipe flanges in different sizes used in high-pressure piping systems" 
                 className="w-full h-auto"
               />
             </div>
-            <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Flange Materials — Matching Metal to Service</h2>
+            <h2 id="materials" className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2 scroll-mt-24">Flange Materials — Matching Metal to Service</h2>
             <p className="text-slate-600 leading-relaxed mb-6">
               Material selection for flanges follows the same principles as for any pressure-retaining component: you need sufficient strength at the operating temperature, adequate corrosion resistance for the fluid, compatibility with the gasket and bolt materials, and compliance with the applicable code and client specification.
             </p>
@@ -271,7 +345,7 @@ const PipeFlangesGuide = () => {
 
             <h3 className="text-xl font-bold mb-2 text-[#D71920]">Duplex and Super Duplex Stainless Steel</h3>
             <ul className="list-disc pl-6 mb-6 space-y-2 text-slate-600 marker:text-[#D71920]">
-              <li><strong>ASTM A182 F51</strong> (UNS S31803/S32205) — Duplex stainless, approximately twice the yield strength of austenitic grades, excellent resistance to chloride stress corrosion cracking. Used in offshore, desalination, and chemical processing.</li>
+              <li><strong>ASTM A182 F51 / F60</strong> (UNS S31803 / S32205) — Duplex stainless, approximately twice the yield strength of austenitic grades, excellent resistance to chloride stress corrosion cracking. Used in offshore, desalination, and chemical processing.</li>
               <li><strong>ASTM A182 F53</strong> (UNS S32750), <strong>F55</strong> (UNS S32760) — Super duplex, even higher strength and corrosion resistance. Specified for highly aggressive chloride environments such as seawater cooling, bleaching, and produced water handling.</li>
             </ul>
 
@@ -295,15 +369,15 @@ const PipeFlangesGuide = () => {
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 mb-8 space-y-3">
               <h4 className="font-bold text-slate-800 text-sm uppercase tracking-wide">Key Technical Specifications for Sour Service Flanges:</h4>
               <ul className="list-disc pl-5 text-sm space-y-2 text-slate-600">
-                <li><strong>Strict Hardness Controls:</strong> Standard ASTM A105 carbon steel must not exceed 22 HRC (250 HBW). Forged stainless steel F316/F316L and Duplex 2205 undergo controlled solution annealing and water quenching to ensure no deleterious intermetallic phases (sigma phase).</li>
-                <li><strong>HIC & SSC Resistance:</strong> Materials are tested for Sulfide Stress Cracking (SSC) and Hydrogen-Induced Cracking (HIC) per NACE TM0284 / TM0177 to guarantee zero sub-surface cracking under high sour partial pressures.</li>
+                <li><strong>Strict Hardness Controls:</strong> Carbon steel such as ASTM A105 must not exceed 22 HRC (about 237 HBW). Forged stainless steel F316/F316L and Duplex 2205 undergo controlled solution annealing and water quenching to ensure no deleterious intermetallic phases (sigma phase).</li>
+                <li><strong>HIC & SSC Resistance:</strong> Where the project specification requires it, materials are qualified for sulfide stress cracking (SSC) per NACE TM0177 and for hydrogen-induced cracking (HIC) per NACE TM0284.</li>
                 <li><strong>Material Traceability & 3.1 MTC:</strong> Every sour service flange is engraved with heat numbers, batch codes, and supplied with EN 10204 3.1 certification verifying chemical composition (restricted sulfur & phosphorus limits), tensile properties, and 100% PMI verification.</li>
               </ul>
             </div>
 
 
             {/* Section: Bolting and Gaskets */}
-            <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Bolting and Gaskets — The Complete Flange Joint System</h2>
+            <h2 id="bolting" className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2 scroll-mt-24">Bolting and Gaskets — The Complete Flange Joint System</h2>
             <p className="text-slate-600 leading-relaxed mb-6">
               A flange is only as reliable as the complete joint system — including the bolts, nuts, and gasket. Under-specifying any of these components negates the pressure capability of the best flange.
             </p>
@@ -316,7 +390,7 @@ const PipeFlangesGuide = () => {
               <strong>ASTM A193 B8M</strong> (316 SS) stud bolts with <strong>ASTM A194 8M</strong> nuts are used for stainless steel flanges in corrosive service.
             </p>
             <p className="text-slate-600 leading-relaxed mb-8">
-              For sour service (H₂S-containing), bolting must comply with NACE MR0175/ISO 15156, which limits the hardness and heat treatment of bolts to prevent sulfide stress cracking. B7M (softer B7 variant) is the standard sour-service bolting.
+              For sour service (H₂S-containing), bolting must comply with NACE MR0175/ISO 15156, which limits the hardness and heat treatment of bolts to prevent sulfide stress cracking. A193 B7M studs with A194 2HM nuts (hardness-limited versions of B7 / 2H) are the standard sour-service bolting.
             </p>
 
             <h3 className="text-xl font-bold text-[#0F172A] mb-3">Gasket Types and Seating Requirements</h3>
@@ -326,7 +400,7 @@ const PipeFlangesGuide = () => {
                   <tr>
                     <th className="py-3 px-4 text-left text-sm font-bold text-[#0F172A]">Gasket Type</th>
                     <th className="py-3 px-4 text-left text-sm font-bold text-[#0F172A]">Typical Application</th>
-                    <th className="py-3 px-4 text-left text-sm font-bold text-[#0F172A]">Seating Stress (m factor)</th>
+                    <th className="py-3 px-4 text-left text-sm font-bold text-[#0F172A]">Relative Seating Stress</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-100">
@@ -350,7 +424,7 @@ const PipeFlangesGuide = () => {
 
 
             {/* Section: Inspection */}
-            <h2 className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2">Inspection, Testing, and Documentation Requirements</h2>
+            <h2 id="inspection" className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2 scroll-mt-24">Inspection, Testing, and Documentation Requirements</h2>
             
             <h3 className="text-xl font-bold mb-2 text-[#D71920]">Mill Test Certificates (MTCs)</h3>
             <p className="text-slate-600 leading-relaxed mb-4">Every flange shipment should be accompanied by MTCs that document:</p>
@@ -384,6 +458,32 @@ const PipeFlangesGuide = () => {
               For alloy, stainless, and exotic alloy flanges, positive material identification using X-ray fluorescence (XRF) or optical emission spectroscopy (OES) confirms that the correct alloy has been used. This is mandatory on many oil & gas and petrochemical projects where alloy mix-up has caused catastrophic failures.
             </p>
 
+
+            <h2 id="faq" className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2 scroll-mt-24">Pipe Flange FAQs</h2>
+            <div className="space-y-6 mb-12">
+              {faqs.map((faq) => (
+                <div key={faq.q}>
+                  <h3 className="text-lg font-bold text-[#0F172A] mb-2">{faq.q}</h3>
+                  <p className="text-slate-600 leading-relaxed">{faq.a}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 mb-12">
+              <p className="font-bold text-slate-800 mb-3">Related guides</p>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
+                {[
+                  ['/blogs/flange-face-types/', 'Flange face types explained'],
+                  ['/blogs/rtj-vs-raised-face-flange/', 'RTJ vs raised face flange'],
+                  ['/blogs/asme-b16-5-vs-b16-47/', 'ASME B16.5 vs B16.47'],
+                  ['/blogs/blind-flange-vs-spectacle-blind/', 'Blind flange vs spectacle blind'],
+                  ['/blogs/mtc-en10204-explained/', 'EN 10204 MTC explained'],
+                  ['/tech-info/chemical-composition/', 'Steel chemical composition chart'],
+                ].map(([to, label]) => (
+                  <li key={to}><Link to={to} className="text-[#D71920] font-semibold hover:underline">{label}</Link></li>
+                ))}
+              </ul>
+            </div>
 
             {/* Section: Conclusion */}
             <div className="bg-[#0F172A] text-white p-8 md:p-10 rounded-2xl relative overflow-hidden shadow-xl mt-12">

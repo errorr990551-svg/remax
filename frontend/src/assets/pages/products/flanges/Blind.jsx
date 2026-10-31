@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle2, ChevronRight, Home, Download, AlertTriangle } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
 import { 
@@ -36,7 +37,7 @@ const Blind = () => {
 
   const useCases = [
     { icon: "🔒", title: "System Termination", desc: "Permanently seal the dead end of a pipeline (e.g. future expansion tap-off point)." },
-    { icon: "🧪", title: "Pressure Testing", desc: "Isolate a pipe section to hydro-test at 1.5× working pressure per code requirements." },
+    { icon: "🧪", title: "Pressure Testing", desc: "Close the ends of a pipe section for hydrostatic testing, typically at 1.5× design pressure under ASME B31.3." },
     { icon: "🛠️", title: "Maintenance Isolation", desc: "Temporarily blank off a nozzle while connected equipment is under maintenance or repair." },
     { icon: "🔮", title: "Future Access Point", desc: "Install now, drill out later when future connection or branch connection is needed." },
     { icon: "⚗️", title: "Vessel Nozzle Closure", desc: "Close unused nozzles on pressure vessels, storage tanks, columns, and reactors." },
@@ -70,10 +71,10 @@ const Blind = () => {
     { feature: "Has Central Bore?", blind: "No — solid plate", spectacleBlind: "No — blind disc + open ring", weldNeck: "Yes — bore = pipe ID" },
     { feature: "Purpose", blind: "Permanent or rare isolation", spectacleBlind: "Frequent cycling (maintenance)", weldNeck: "Pipe connection" },
     { feature: "Stays Connected During Use?", blind: "No — removed to open flow", spectacleBlind: "Yes — rotated in place", weldNeck: "Always connected" },
-    { feature: "Thickness at Higher Classes", blind: "Increases dramatically (4–5× from 150# to 900#)", spectacleBlind: "Same principle", weldNeck: "Standardized hub" },
-    { feature: "Cost (150# CS)", blind: "Lowest for permanent close", spectacleBlind: "Higher (two-piece assembly)", weldNeck: "Highest (hub + machining)" },
+    { feature: "Thickness at Higher Classes", blind: "About 2.5× from Class 150 to 900", spectacleBlind: "Set by ASME B16.48 per class", weldNeck: "Set by ASME B16.5 per class" },
+    { feature: "Cost (150# CS)", blind: "Lowest for permanent close", spectacleBlind: "Higher (one-piece figure-8, two discs)", weldNeck: "Highest (hub + machining)" },
     { feature: "Best For", blind: "Permanent closures & hydro-testing", spectacleBlind: "Repeated isolation cycling", weldNeck: "High-pressure piping joints" },
-    { feature: "Vent/Drain Hole Option?", blind: "Yes — NPT threaded hole", spectacleBlind: "Available on request", weldNeck: "N/A" },
+    { feature: "Vent/Drain Tapping?", blind: "Yes — NPT tapped hole on request", spectacleBlind: "Not usual", weldNeck: "N/A" },
   ];
 
   return (
@@ -81,16 +82,19 @@ const Blind = () => {
       {/* Breadcrumb Header */}
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
-            <a href="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></a>
-            <ChevronRight size={14} />
-            <a href="/products/flanges/" className="hover:text-[#D71920] transition-colors">Products</a>
-            <ChevronRight size={14} />
-            <span className="text-slate-400">Flanges</span>
-            <ChevronRight size={14} />
-            <span className="text-[#D71920] font-medium">Blind Flange</span>
-          </div>
-          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">Blind Flange Manufacturer in India</h1>
+          <nav aria-label="Breadcrumb" className="mb-4">
+            <ol className="flex items-center gap-2 text-sm text-slate-400">
+              <li><Link to="/" aria-label="Home" className="hover:text-[#D71920] transition-colors"><Home size={14} /></Link></li>
+              <li aria-hidden="true"><ChevronRight size={14} /></li>
+              <li><Link to="/products/flanges/" className="hover:text-[#D71920] transition-colors">Flanges</Link></li>
+              <li aria-hidden="true"><ChevronRight size={14} /></li>
+              <li aria-current="page" className="text-[#D71920] font-medium">Blind Flange</li>
+            </ol>
+          </nav>
+          <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">Blind Flange Manufacturer in India — ASME B16.5 / B16.47 BLRF &amp; RTJ</h1>
+          <p className="mt-4 max-w-3xl text-slate-300 text-sm md:text-base leading-relaxed">
+            Remax Forge manufactures forged blind flanges to ASME B16.5 (NPS ½" to 24") and B16.47 Series A / B (NPS 26" to 60"), Class 150 to 2500, with RF, FF or RTJ facing. We make them in A105, A350 LF2, stainless, duplex, alloy and nickel alloy grades, with an EN 10204 3.1 MTC. Class 150 and 300 thickness and weight charts are below.
+          </p>
         </div>
       </div>
 
@@ -113,8 +117,8 @@ const Blind = () => {
         {/* Hero: Image & Key Features */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-8 items-center">
           <div className="rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-white h-[400px] flex items-center justify-center relative group">
-            <img src="/images/blind-flanges.webp"
-              alt="Blind Flange ASME B16.5 Class 150 Carbon Steel Manufacturer Mumbai India"
+            <img src="/images/blind-flanges.webp" width="1600" height="1600" fetchpriority="high"
+              alt="Forged blind flanges with raised face (BLRF) to ASME B16.5 made by Remax Forge"
               className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 p-8" />
             <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors"></div>
           </div>
@@ -126,7 +130,7 @@ const Blind = () => {
             <div className="space-y-6">
               {[
                 { title: "No bore — solid plate design", desc: "The only flange with NO central opening. Withstands full system pressure applied across the entire plate area." },
-                { title: "Thickness increases at higher classes", desc: "Blind flange thickness doubles from Class 150# to 300# and increases 4–5× from 150# to 900#. Always specify class when ordering." },
+                { title: "Thickness increases at higher classes", desc: "A Class 300 blind is about 1.4–1.6× thicker than Class 150, and a Class 900 blind about 2.5× thicker. Always specify the class when ordering." },
                 { title: "Permanent closure or temporary isolation", desc: "Use for permanent pipe dead-ends, hydrostatic pressure testing, or maintenance blanking of vessel nozzles." },
               ].map((feature, idx) => (
                 <div key={idx} className="flex gap-4">
@@ -144,9 +148,9 @@ const Blind = () => {
               <button onClick={() => openQuotePopup()} className="px-8 py-3 rounded font-bold text-white bg-[#D71920] hover:shadow-xl transition-all transform hover:-translate-y-1 flex items-center gap-2">
                 Request Quote <ArrowRight size={18} />
               </button>
-              <a href="/contact/" className="px-6 py-3 rounded font-bold text-slate-700 bg-white border border-slate-300 hover:border-slate-500 transition-all flex items-center gap-2">
-                <Download size={18} className="text-slate-500" /> Download Catalogue
-              </a>
+              <Link to="/contact/" className="px-6 py-3 rounded font-bold text-slate-700 bg-white border border-slate-300 hover:border-slate-500 transition-all flex items-center gap-2">
+                <Download size={18} className="text-slate-500" /> Request Catalogue
+              </Link>
             </div>
           </div>
         </div>
@@ -224,9 +228,9 @@ const Blind = () => {
                 <div>
                   <p className="font-bold text-amber-800 mb-1">Important: Thickness & Weight Vary Significantly by Class</p>
                   <p className="text-amber-700 text-sm leading-relaxed">
-                    Blind flange thickness <strong>doubles</strong> from Class 150# to 300# and <strong>increases 4–5×</strong> from 150# to 900#. 
-                    Always specify your pressure class when ordering — the weight and price difference is significant.
-                    A 12" NPS blind flange weighs ~22 kg at Class 150# but ~100+ kg at Class 900#.
+                    A Class 300 blind flange is about <strong>1.4–1.6× thicker</strong> than Class 150 and larger in diameter, and a Class 900 blind is about <strong>2.5× thicker</strong>.
+                    Always specify your pressure class when ordering, because the weight and price difference is significant.
+                    A 12" blind flange weighs about 43 kg at Class 150, about 79 kg at Class 300 and about 170 kg at Class 900 (carbon steel).
                   </p>
                 </div>
               </div>
@@ -234,7 +238,7 @@ const Blind = () => {
 
             <div className="p-4 bg-red-50/50 rounded-xl border border-red-100/50">
               <p className="text-xs md:text-sm text-slate-700 font-bold leading-relaxed">
-                🔗 For frequent maintenance cycling, see our <a href="/products/flanges/spectacle-blind-flange/" className="text-[#D71920] hover:underline font-extrabold">Spectacle Blind Flange</a>. For high-pressure pipe connections, our <a href="/products/flanges/weld-neck-flange/" className="text-[#D71920] hover:underline font-extrabold">Weld Neck Flange</a> is code-mandated. Compare our <a href="/products/flanges/" className="text-[#D71920] hover:underline font-extrabold">complete flange range</a>.
+                🔗 For frequent maintenance cycling, see our <Link to="/products/flanges/spectacle-blind-flange/" className="text-[#D71920] hover:underline font-extrabold">Spectacle Blind Flange</Link>. For high-pressure pipe connections, our <Link to="/products/flanges/weld-neck-flange/" className="text-[#D71920] hover:underline font-extrabold">Weld Neck Flange</Link> is the standard choice. Compare our <Link to="/products/flanges/" className="text-[#D71920] hover:underline font-extrabold">complete flange range</Link>.
               </p>
             </div>
           </div>
@@ -282,7 +286,7 @@ const Blind = () => {
             </div>
             <div className="lg:col-span-4 bg-slate-50 border border-slate-200 rounded-2xl p-4 flex flex-col items-center justify-center">
               <img loading="lazy" decoding="async" src="/images/nickel-alloy-bar-500x500.webp"
-                alt="Blind Flange material grades stainless steel duplex inconel"
+                alt="Forged bar and billet stock used to make blind flanges"
                 className="w-full h-auto max-h-[220px] object-contain rounded-xl shadow-sm mb-2" />
               <span className="text-[10px] text-slate-500 font-mono">Forged Raw Billets stock</span>
             </div>
@@ -306,12 +310,15 @@ const Blind = () => {
             ASME B16.5 Blind Flange Dimensions Table
           </h2>
           <p className="text-slate-600 mb-2 text-sm md:text-base font-medium">
-            Dimensional chart for Class 150# and Class 300# forged Blind Flanges including minimum thickness and approximate weights. Dimensions per ASME B16.5. Weights are approximate for Carbon Steel A516 Gr.70:
+            Blind flange dimensions and weights per ASME B16.5 for Class 150 and Class 300, NPS ½" to 24". Weights are calculated for carbon steel (A105). Click a column header to sort.
           </p>
           <p className="text-xs text-slate-500 italic mb-8">
-            Note: Class 900# thickness is typically 3.5× the Class 150# value. Always specify class when ordering — weight and price differ significantly.
+            Certified drawings and weights for Class 600 to 2500 and B16.47 sizes are supplied with every quote.
           </p>
-          <FlangeDimensionsTable slug="blind-flange" altText="ASME B16.5 Blind Flange dimensions and weight chart" />
+          <h3 className="text-base font-bold text-slate-800 mb-4">Class 150 Blind Flange Dimensions &amp; Weights</h3>
+          <FlangeDimensionsTable slug="blind-flange" altText="ASME B16.5 blind flange drawing showing outside diameter, thickness, raised face and bolt circle" />
+          <h3 className="text-base font-bold text-slate-800 mt-10 mb-4">Class 300 Blind Flange Dimensions &amp; Weights</h3>
+          <FlangeDimensionsTable slug="blind-flange-300" hideImage />
         </div>
 
         {/* H2-6: Face Types */}
@@ -440,12 +447,12 @@ const Blind = () => {
             </table>
           </div>
           <div className="mt-4 flex flex-wrap gap-4">
-            <a href="/products/flanges/spectacle-blind-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
+            <Link to="/products/flanges/spectacle-blind-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
               <ChevronRight size={14} /> View Spectacle Blind Flange →
-            </a>
-            <a href="/products/flanges/weld-neck-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
+            </Link>
+            <Link to="/products/flanges/weld-neck-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1">
               <ChevronRight size={14} /> View Weld Neck Flange →
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -464,16 +471,16 @@ const Blind = () => {
         <div className="bg-gradient-to-r from-[#0F172A] to-slate-800 rounded-2xl p-8 md:p-10 shadow-xl mb-12 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <h2 className="text-2xl font-extrabold text-white mb-2">
-              📥 Download Blind Flange Catalogue (PDF)
+              📥 Blind Flange Catalogue (PDF)
             </h2>
             <p className="text-slate-400 text-sm leading-relaxed max-w-lg">
               Get the complete technical catalogue including product description, full ASME B16.5 Class 150# & 300# dimension and weight tables, material grades, standards — ready to attach to your RFQ.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 shrink-0">
-            <a href="/contact/" className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D71920] hover:bg-red-600 text-white font-bold rounded-xl transition-all shadow-lg whitespace-nowrap">
+            <Link to="/contact/" className="inline-flex items-center gap-2 px-7 py-3.5 bg-[#D71920] hover:bg-red-600 text-white font-bold rounded-xl transition-all shadow-lg whitespace-nowrap">
               <Download size={18} /> Request PDF Catalogue
-            </a>
+            </Link>
             <button onClick={() => openQuotePopup()} className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl transition-all border border-white/20 whitespace-nowrap">
               Get Instant Quote <ArrowRight size={18} />
             </button>
@@ -485,10 +492,10 @@ const Blind = () => {
         {/* FAQ */}
         <div id="faq" className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">
           <h2 className="text-3xl font-extrabold text-[#0F172A] border-l-4 border-[#D71920] pl-3 mb-4">
-            Frequently Asked Questions
+            Blind Flange FAQs
           </h2>
           <p className="text-slate-600 text-sm md:text-base font-medium mb-8">
-            Find answers to the most common questions about Blind Flanges — including Blind vs Spectacle Blind, thickness differences by class, vent holes, face types, and special alloy availability.
+            Answers to common buyer questions: standards, thickness and weight by class, pressure ratings, RTJ facing and tapped vent holes.
           </p>
           <FlangeFAQs slug="blind-flange" />
         </div>
@@ -496,7 +503,7 @@ const Blind = () => {
         {/* Related Products */}
         <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm">
           <h2 className="text-3xl font-extrabold text-[#0F172A] border-l-4 border-[#D71920] pl-3 mb-4">
-            Related Products
+            Related Flanges
           </h2>
           <p className="text-slate-600 text-sm md:text-base font-medium mb-8">
             Compare our comprehensive range of industrial flanges to find the perfect fit for your piping project.

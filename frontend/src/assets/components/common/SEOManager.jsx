@@ -237,8 +237,8 @@ const SEOManager = () => {
         'image': image,
         'author': { '@type': 'Organization', 'name': 'Remax Forge & Fittings', '@id': 'https://remaxforge.com/#organization' },
         'publisher': { '@id': 'https://remaxforge.com/#organization' },
-        'datePublished': '2025-10-10',
-        'dateModified': '2026-08-10',
+        'datePublished': pageMeta.article?.datePublished || '2025-10-10',
+        'dateModified': pageMeta.article?.dateModified || '2026-08-10',
         'mainEntityOfPage': canonicalUrl
       };
       schemas.push(articleSchema);
@@ -373,7 +373,7 @@ const SEOManager = () => {
     setMetaTag('twitter:image', image);
 
     // Inject JSON-LD Schemas
-    document.querySelectorAll('script[type="application/ld+json"]').forEach(script => script.remove());
+    document.querySelectorAll('script[type="application/ld+json"]:not([data-page-schema])').forEach(script => script.remove());
 
     schemas.forEach(schema => {
       const script = document.createElement('script');

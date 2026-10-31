@@ -6,6 +6,7 @@ import { useProductMenu } from '../context/ProductMenuContext.jsx';
 import MetaTags from '../components/common/MetaTags.jsx';
 import NotFound from './NotFound.jsx';
 import { marketAreaData } from '../data/marketAreaData.js';
+import usePageSchema, { faqSchema } from '../components/common/usePageSchema.js';
 
 const CityPage = () => {
   const { cityName } = useParams();
@@ -19,6 +20,13 @@ const CityPage = () => {
 
   const [openFaqIndex, setOpenFaqIndex] = useState(null);
 
+  // Service + FAQPage schema for this city (breadcrumbs come from SEOManager)
+  const serviceSchema = (data?.schema || []).find((schema) => schema['@type'] === 'Service');
+  usePageSchema(data ? [
+    ...(serviceSchema ? [{ ...serviceSchema, url: `https://remaxforge.com/${lowercaseCity}/` }] : []),
+    ...(data.faqs?.length ? [faqSchema(data.faqs)] : []),
+  ] : []);
+
   const toggleFaq = (index) => {
     setOpenFaqIndex(openFaqIndex === index ? null : index);
   };
@@ -26,6 +34,10 @@ const CityPage = () => {
   if (!lowercaseCity || !data) {
     return <NotFound />;
   }
+
+  // Route and road transit time come from the city's logistics note
+  const route = data.logistics?.match(/Route:\s*([^.]+?)\.\s/)?.[1];
+  const transitDays = Number(data.logistics?.match(/≈\s*(\d+(?:\.\d+)?)\s*day/)?.[1]);
 
   const clientLogos = [
     "/images/1.webp", "/images/3.webp", "/images/4.webp", "/images/5.webp", "/images/6.webp", "/images/8.webp", "/images/9.webp", "/images/10.webp", "/images/11.svg", "/images/12.webp", "/images/13.webp", "/images/14.webp", "/images/15.webp", "/images/16.webp", "/images/17.webp", "/images/19.webp", "/images/c2.webp", "/images/Adani_2012_logo.webp", "/images/air-products-logo.webp", "/images/Arcelor_Mittal.svg.webp", "/images/BHEL_logo.svg.webp", "/images/bhilosa.webp", "/images/deccan.webp", "/images/deepak-chem-tech.webp", "/images/DESMET.jpg.webp", "/images/gardner-denver.webp", "/images/gnfc.webp", "/images/godrej-logo.jpg.webp", "/images/gujrat-state-fertilizers.webp", "/images/Hindustan-Petroleum.webp", "/images/indian-oil.jpg.webp", "/images/isrro.jpg.webp", "/images/jindal-steel.webp", "/images/jsw.webp", "/images/larsen.webp", "/images/linde.webp", "/images/nrl-og-logo.webp", "/images/ongc.webp", "/images/paharpur.webp", "/images/pidilite-logo.jpg.webp", "/images/Praj.jpg.webp", "/images/Shree_Renuka_Sugars.jpg.webp", "/images/tata-steel.jpg.webp", "/images/thyssenkurpp.webp", "/images/upl.webp", "/images/wipro-logo-300x300.webp"
@@ -90,13 +102,15 @@ const CityPage = () => {
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 md:mt-16 pb-20">
           <div className="max-w-5xl">
             {/* Breadcrumbs */}
-            <div className="flex items-center gap-2 text-sm text-slate-300 mb-6 font-medium">
-              <Link to="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></Link>
-              <ChevronRight size={14} className="text-slate-400" />
-              <Link to="/market-area/" className="hover:text-[#D71920] transition-colors">Market Area</Link>
-              <ChevronRight size={14} className="text-slate-400" />
-              <span className="text-[#D71920] font-bold">{data.city}</span>
-            </div>
+            <nav aria-label="Breadcrumb" className="mb-6">
+              <ol className="flex items-center gap-2 text-sm text-slate-300 font-medium">
+                <li><Link to="/" aria-label="Home" className="hover:text-[#D71920] transition-colors"><Home size={14} /></Link></li>
+                <li aria-hidden="true"><ChevronRight size={14} className="text-slate-400" /></li>
+                <li><Link to="/market-area/" className="hover:text-[#D71920] transition-colors">Market Area</Link></li>
+                <li aria-hidden="true"><ChevronRight size={14} className="text-slate-400" /></li>
+                <li aria-current="page" className="text-[#D71920] font-bold">{data.city}</li>
+              </ol>
+            </nav>
 
             <div className="inline-block mb-4 px-4 py-1 rounded border border-white/30 bg-white/10 backdrop-blur-sm">
               <span className="text-white text-sm font-bold tracking-widest uppercase">
@@ -207,6 +221,54 @@ const CityPage = () => {
         </div>
       </div>
 
+      {/* City-specific guide (only for cities with researched local content) */}
+      {data.localGuide && (
+        <div className="py-16 md:py-20 bg-slate-50 border-t border-slate-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-2xl md:text-3xl font-extrabold text-[#0F172A] mb-4">{data.localGuide.heading}</h2>
+            <div className="h-1 w-24 mb-8 rounded bg-[#D71920]"></div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+              <div className="space-y-4 text-slate-600 leading-relaxed text-sm md:text-base">
+                {data.localGuide.paragraphs.map((para, idx) => <p key={idx}>{para}</p>)}
+                {data.localGuide.areas && (
+                  <>
+                    <h3 className="text-lg font-bold text-[#0F172A] pt-2">Industrial areas we deliver to</h3>
+                    <ul className="space-y-2">
+                      {data.localGuide.areas.map((area) => (
+                        <li key={area.name} className="flex items-start gap-2"><CheckCircle2 size={16} className="text-[#D71920] shrink-0 mt-1" /><span><strong className="text-slate-800">{area.name}</strong>: {area.note}</span></li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+              </div>
+              {data.localGuide.specs && (
+                <div>
+                  <h3 className="text-lg font-bold text-[#0F172A] mb-4">Typical specifications by service in {data.city}</h3>
+                  <div className="overflow-x-auto rounded-xl border border-slate-200 bg-white">
+                    <table className="w-full text-sm text-left border-collapse">
+                      <thead>
+                        <tr className="bg-[#0F172A] text-white">
+                          <th className="px-4 py-3 font-bold border-r border-slate-700">Service</th>
+                          <th className="px-4 py-3 font-bold">Flanges &amp; fittings usually specified</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {data.localGuide.specs.map((row, idx) => (
+                          <tr key={row.service} className={`border-b border-slate-200 ${idx % 2 === 0 ? 'bg-slate-50' : 'bg-white'}`}>
+                            <td className="px-4 py-3 font-semibold text-slate-800 border-r border-slate-200 align-top">{row.service}</td>
+                            <td className="px-4 py-3 text-slate-600 align-top">{row.spec}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Premium Forging Solutions (Product Slider/Grid) */}
       <div id="products-section" className="py-20 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -247,6 +309,24 @@ const CityPage = () => {
                 </div>
               </div>
             ))}
+          </div>
+
+          <div className="mt-12 text-center">
+            <h3 className="text-sm font-extrabold tracking-widest text-[#0F172A] uppercase mb-4">Products we supply to {data.city}</h3>
+            <div className="flex flex-wrap justify-center gap-3">
+              {[
+                ['Weld Neck Flanges', '/products/flanges/weld-neck-flange/'],
+                ['Slip On Flanges', '/products/flanges/slip-on-flange/'],
+                ['Blind Flanges', '/products/flanges/blind-flange/'],
+                ['Socket Weld Flanges', '/products/flanges/socket-weld-flange/'],
+                ['Spectacle Blinds', '/products/flanges/spectacle-blind-flange/'],
+                ['Butt Weld Elbows', '/products/buttweld-fittings/butt-weld-elbow-fittings/'],
+                ['Butt Weld Tees', '/products/buttweld-fittings/butt-weld-tee-fittings/'],
+                ['Forged Fittings', '/products/forged-fittings/'],
+              ].map(([label, to]) => (
+                <Link key={to} to={to} className="px-4 py-2 text-sm font-semibold text-slate-700 bg-white border border-slate-200 rounded-full hover:border-[#D71920] hover:text-[#D71920] transition-colors">{label}</Link>
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -366,11 +446,11 @@ const CityPage = () => {
               <div className="space-y-4">
                 <div className="flex justify-between border-b border-slate-100 pb-3 text-sm">
                   <span className="text-slate-500 font-medium">Primary Freight Route</span>
-                  <span className="text-[#0F172A] font-bold text-right">{data.route || "NH-48 Corridor"}</span>
+                  <span className="text-[#0F172A] font-bold text-right">{route || "Road freight from Mumbai"}</span>
                 </div>
                 <div className="flex justify-between border-b border-slate-100 pb-3 text-sm">
                   <span className="text-slate-500 font-medium">Estimated Transit Time</span>
-                  <span className="text-[#0F172A] font-bold text-right">~{Math.round(data.transit || 4)} Working Days</span>
+                  <span className="text-[#0F172A] font-bold text-right">{transitDays ? `~${transitDays} Working Day${transitDays === 1 ? '' : 's'}` : 'Confirmed with quote'}</span>
                 </div>
                 <div className="flex justify-between border-b border-slate-100 pb-3 text-sm">
                   <span className="text-slate-500 font-medium">Dispatch Schedule</span>
@@ -395,13 +475,13 @@ const CityPage = () => {
                 <div className="p-5 bg-white rounded-xl border border-slate-100 shadow-sm">
                   <h4 className="font-bold text-[#0F172A] mb-2">Seaworthy Packing</h4>
                   <p className="text-xs text-slate-500 leading-relaxed">
-                    Wooden crates or pallets wrapped with rust-preventive oils and plastics to survive coastal storage conditions.
+                    Wooden crates or pallets, with rust-preventive coating and wrapping to protect machined faces in transit and site storage.
                   </p>
                 </div>
                 <div className="p-5 bg-white rounded-xl border border-slate-100 shadow-sm">
                   <h4 className="font-bold text-[#0F172A] mb-2">Documents Pack</h4>
                   <p className="text-xs text-slate-500 leading-relaxed">
-                    Invoice, packing list, EN 10204 3.1 MTC, PMI reports, hydro test reports, and IBR Form II (if applicable) are dispatched with every order.
+                    Invoice, packing list, EN 10204 3.1 MTC, PMI reports, hydro test reports, and IBR documentation (if applicable) are dispatched with every order.
                   </p>
                 </div>
               </div>
@@ -423,7 +503,7 @@ const CityPage = () => {
                 <div key={`logo-1-${index}`} className="flex-shrink-0 w-36 h-24 flex items-center justify-center">
                   <img 
                     src={logo} 
-                    alt={`${getClientAltText(logo)} logo — supplier to ${data.city}`} 
+                    alt={`${getClientAltText(logo)} logo`} 
                     loading="lazy" 
                     className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300" 
                   />
@@ -435,7 +515,7 @@ const CityPage = () => {
                 <div key={`logo-2-${index}`} className="flex-shrink-0 w-36 h-24 flex items-center justify-center">
                   <img 
                     src={logo} 
-                    alt={`${getClientAltText(logo)} logo — supplier to ${data.city}`} 
+                    alt={`${getClientAltText(logo)} logo`} 
                     loading="lazy" 
                     className="max-w-full max-h-full object-contain filter grayscale hover:grayscale-0 transition-all duration-300" 
                   />

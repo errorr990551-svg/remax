@@ -704,14 +704,12 @@ export const HowToOrder = () => {
 /* ----------------------------------------------------
    11. Flange Dimensions Table
    ---------------------------------------------------- */
-export const FlangeDimensionsTable = ({ slug, altText }) => {
+export const FlangeDimensionsTable = ({ slug, altText, hideImage = false }) => {
   const data = dimensionsData[slug];
-  if (!data) return null;
-
   const [sortConfig, setSortConfig] = React.useState({ key: null, direction: 'asc' });
 
   const sortedRows = React.useMemo(() => {
-    let sortableItems = [...data.rows];
+    let sortableItems = [...(data?.rows || [])];
     if (sortConfig.key !== null) {
       sortableItems.sort((a, b) => {
         let valA = a[sortConfig.key] || '';
@@ -734,7 +732,7 @@ export const FlangeDimensionsTable = ({ slug, altText }) => {
       });
     }
     return sortableItems;
-  }, [data.rows, sortConfig]);
+  }, [data, sortConfig]);
 
   const requestSort = (index) => {
     let direction = 'asc';
@@ -744,10 +742,12 @@ export const FlangeDimensionsTable = ({ slug, altText }) => {
     setSortConfig({ key: index, direction });
   };
 
+  if (!data) return null;
+
   return (
     <div className="space-y-8">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        <div className="lg:col-span-5 bg-[#0F172A] rounded-2xl overflow-hidden shadow-lg border border-slate-800 p-4">
+        {!hideImage && <div className="lg:col-span-5 bg-[#0F172A] rounded-2xl overflow-hidden shadow-lg border border-slate-800 p-4">
           <div className="flex flex-col items-center">
             <img loading="lazy" decoding="async" 
               src={`/images/${slug}-dimensions.svg`} 
@@ -758,9 +758,9 @@ export const FlangeDimensionsTable = ({ slug, altText }) => {
               CAD Technical Layout — Remax Forge & Fittings
             </div>
           </div>
-        </div>
+        </div>}
 
-        <div className="lg:col-span-7 space-y-4">
+        <div className={`${hideImage ? 'lg:col-span-12' : 'lg:col-span-7'} space-y-4`}>
           <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-sm bg-white">
             <table className="w-full text-xs md:text-sm text-left border-collapse">
               <thead>
@@ -815,9 +815,8 @@ export const FlangeDimensionsTable = ({ slug, altText }) => {
    ---------------------------------------------------- */
 export const FlangeFAQs = ({ slug }) => {
   const faqs = flangeFaqs[slug];
-  if (!faqs) return null;
-
   const [openIdx, setOpenIdx] = React.useState(null);
+  if (!faqs) return null;
 
   const toggle = (idx) => {
     setOpenIdx(openIdx === idx ? null : idx);

@@ -117,8 +117,8 @@ export const marketAreaMeta = {
     "description": "ISO-certified flanges & forged fittings for Rajkot: Engineering & Auto, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai. 30-min quote."
   },
   "vadodara": {
-    "title": "Industrial Flanges Supplier in Vadodara | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Vadodara: Oil & Gas (Refining), Petrochemical & Chemical. ASME B16.5, 3.1 MTC, ~1-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier in Vadodara | Remax Forge",
+    "description": "Flanges & pipe fittings for Vadodara refineries, petrochemical and chemical plants: WNRF/RTJ, A105, SS 316L, duplex, F11/F22 to ASME B16.5. ~1-day transit."
   },
   "shimla": {
     "title": "Flange Manufacturer & Supplier in Shimla | Remax Forge",
@@ -153,8 +153,8 @@ export const marketAreaMeta = {
     "description": "ISO-certified flanges & forged fittings for Ranchi: Engineering & Auto, Steel & Metals. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
   },
   "bokaro": {
-    "title": "Bokaro Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Bokaro: Steel & Metals, Power & Boilers. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier in Bokaro | Remax Forge",
+    "description": "Flanges, forged & butt-weld fittings for Bokaro steel, power and cement plants: A105, A350 LF2, SS 304/316L, F11/F22 to ASME B16.5, 3.1 MTC. ~5-day delivery."
   },
   "deoghar": {
     "title": "Industrial Flanges Supplier in Deoghar | ASME B16.5 | Remax",
