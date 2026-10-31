@@ -36,9 +36,22 @@ export const sheet4MetaData = {
     "priority": "P0"
   },
   "/products/flanges/spectacle-blind-flange/": {
-    "title": "Spectacle Blind Flanges & Spec Blinds | Remax Forge",
-    "description": "High-quality spectacle blind flanges and spec blinds engineered for reliable pipe line isolation. Request specifications and quotes at Remax Forge.",
-    "h1": "Spectacle Blind Flange Manufacturer (Figure-8 / Spec Blind)",
+    "title": "Spectacle Blind Flange Manufacturer | ASME B16.48 | Remax",
+    "description": "Spectacle (figure-8) blind flanges to ASME B16.48: NPS 1/2\"-24\", Class 150-2500, RF/FF/RTJ, in carbon, stainless, duplex & alloy steel with 3.1 MTC.",
+    "h1": "Spectacle Blind Flange Manufacturer (Figure-8 Blind, ASME B16.48)",
+    "product": {
+      "name": "Spectacle Blind Flange (Figure-8 Blind)",
+      "alternateName": ["Figure-8 Blind", "Spec Blind", "Spectacle Plate", "Line Blind"],
+      "category": "Pipe Flanges > Line Blinds",
+      "material": "Carbon Steel (ASTM A516 Gr.70, A105, A350 LF2), Stainless Steel (A240 / A182 F304L, F316L), Duplex (F51, F53), Alloy Steel (F11, F22), Nickel Alloys",
+      "additionalProperty": [
+        { "name": "Standard", "value": "ASME B16.48" },
+        { "name": "Size range", "value": "NPS 1/2 to 24 (DN 15 to DN 600)" },
+        { "name": "Pressure class", "value": "150, 300, 600, 900, 1500, 2500" },
+        { "name": "Facing", "value": "Raised Face (RF), Flat Face (FF), Ring Type Joint (RTJ)" },
+        { "name": "Certification", "value": "EN 10204 3.1 (3.2 on request)" }
+      ]
+    },
     "priority": "P1"
   },
   "/products/flanges/blind-flange/": {

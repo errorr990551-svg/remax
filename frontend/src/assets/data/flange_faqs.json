@@ -139,20 +139,36 @@
   ],
   "spectacle-blind-flange": [
     {
-      "question": "What is the difference between a spectacle blind and a paddle blank?",
-      "answer": "A spectacle blind is a single-piece figure-8 with both blind disc and spacer connected; a paddle blank (paddle blind) is a separate disc inserted between flanges without the spacer."
+      "question": "What is a spectacle blind flange?",
+      "answer": "A spectacle blind (figure-8 blind) is a line blind made from one plate: a solid blind disc and an open spacer ring joined by a web. It is bolted between two pipe flanges. In the open position the ring lets the line flow; rotated 180 degrees, the solid disc blocks the line completely. Dimensions are covered by ASME B16.48."
     },
     {
-      "question": "What standard governs spectacle blind dimensions?",
-      "answer": "ASME B16.48 — covers Class 150 to 2500 in sizes 1/2\" to 24\"."
+      "question": "What is the difference between a spectacle blind and a paddle blind?",
+      "answer": "A spectacle blind is one piece, so the blind and spacer always stay together with the line and the position is visible from the web. A paddle blind (spade) and paddle spacer are two separate pieces that are swapped in and out. Paddle sets are lighter and are normally used in large sizes, typically above NPS 12 to 16, where a one-piece figure-8 becomes too heavy to handle."
     },
     {
-      "question": "Can a spectacle blind be used for permanent isolation?",
-      "answer": "It is designed for temporary isolation during maintenance; for permanent isolation, a blind flange is preferred."
+      "question": "What standard covers spectacle blind dimensions?",
+      "answer": "ASME B16.48 (Line Blanks) covers figure-8 blinds, paddle blanks and paddle spacers for Class 150, 300, 600, 900, 1500 and 2500, NPS 1/2 to 24, to fit ASME B16.5 flanges. It replaced the withdrawn API 590. Blank thickness for non-standard pressures can be calculated with ASME B31.3 para. 304.5.3."
     },
     {
-      "question": "Do you supply in duplex SS F51?",
-      "answer": "Yes — F51 spec blinds available for sour and chloride-rich environments."
+      "question": "Are spectacle blinds available in RTJ (ring type joint) facing?",
+      "answer": "Yes. ASME B16.48 covers raised face (RF) and ring joint (RTJ) line blanks; flat face (FF) is supplied for flat-faced flanges. RTJ spectacle blinds have a ring groove machined on both faces and are common in Class 600 and above."
+    },
+    {
+      "question": "Is the spacer ring the same thickness as the blind disc?",
+      "answer": "On a one-piece figure-8 blind, both the blind disc and the spacer ring are cut from the same plate, so they have the same thickness. This keeps the gap between the two flanges identical in both positions, so the piping does not have to be sprung apart differently when the blind is swung."
+    },
+    {
+      "question": "Which materials are spectacle blinds made from?",
+      "answer": "Most are machined from plate, such as ASTM A516 Gr.70 carbon steel or A240 304L/316L stainless, or from forgings such as A105, A350 LF2 (low temperature), A182 F316L, F51 duplex and F11/F22 alloy steel. The material should match the mating flanges and the line class; NACE MR0175 / MR0103 compliance can be supplied for sour service."
+    },
+    {
+      "question": "When should I use a spectacle blind instead of a blind flange?",
+      "answer": "Use a spectacle blind where a line must be switched between open and isolated repeatedly, for example around vessels, exchangers and pumps that are isolated for maintenance or turnarounds. Use a blind flange to permanently close a pipe end, nozzle or future tie-in point."
+    },
+    {
+      "question": "What information is needed to quote a spectacle blind?",
+      "answer": "Send NPS, pressure class, facing (RF, FF or RTJ), material grade, standard (ASME B16.48 or a project drawing), quantity and any extras such as NACE, low-temperature impact testing, PMI or third-party inspection. If the line is to a non-standard pressure or temperature, include the design conditions so the thickness can be checked."
     }
   ],
   "mumbai": [

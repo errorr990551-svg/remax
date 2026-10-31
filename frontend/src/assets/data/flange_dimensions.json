@@ -1011,152 +1011,105 @@
     "notes": "LWN Flanges are made to order — face OD and bolt circle follow ASME B16.5 for the selected NPS and class. Specify: NPS, Pressure Class, Material, Neck Length (mm), Bore Schedule, and Face Type when ordering. Lead time: 3–6 weeks."
   },
   "spectacle-blind-flange": {
-    "title": "ASME B16.48 SPECTACLE BLIND — CLASS 150# DIMENSIONS",
+    "title": "Spectacle blind fit-up: ASME B16.5 Class 150 mating flange dimensions",
     "headers": [
-      "NPS (inch)",
-      "Rating",
-      "Blind Plate OD (mm)",
-      "Ring OD (mm)",
-      "Ring Bore (mm)",
+      "NPS (in)",
+      "Pipe OD (mm)",
+      "Raised Face OD (mm)",
+      "Flange OD (mm)",
       "Bolt Circle (mm)",
-      "No. Bolts",
-      "Blind Thickness (mm)",
-      "Ring Thickness (mm)",
-      "Overall Width (mm)",
-      "Approx Wt CS (kg)"
+      "Bolts (no. x size)"
     ],
     "rows": [
       [
         "2",
-        "150#",
-        "152",
-        "152",
-        "54",
-        "121",
-        "4",
-        "9.5",
-        "6.4",
-        "330",
-        "1.8"
+        "60.3",
+        "92.1",
+        "152.4",
+        "120.7",
+        "4 x 5/8\""
       ],
       [
         "3",
-        "150#",
-        "190",
-        "190",
-        "79",
-        "152",
-        "4",
-        "9.5",
-        "6.4",
-        "408",
-        "3.0"
+        "88.9",
+        "127.0",
+        "190.5",
+        "152.4",
+        "4 x 5/8\""
       ],
       [
         "4",
-        "150#",
-        "229",
-        "229",
-        "104",
-        "190",
-        "8",
-        "9.5",
-        "6.4",
-        "483",
-        "4.5"
+        "114.3",
+        "157.2",
+        "228.6",
+        "190.5",
+        "8 x 5/8\""
       ],
       [
         "6",
-        "150#",
-        "279",
-        "279",
-        "154",
-        "241",
-        "8",
-        "12.7",
-        "9.5",
-        "584",
-        "8.5"
+        "168.3",
+        "215.9",
+        "279.4",
+        "241.3",
+        "8 x 3/4\""
       ],
       [
         "8",
-        "150#",
-        "343",
-        "343",
-        "206",
-        "298",
-        "8",
-        "12.7",
-        "9.5",
-        "711",
-        "14.0"
+        "219.1",
+        "269.9",
+        "342.9",
+        "298.5",
+        "8 x 3/4\""
       ],
       [
         "10",
-        "150#",
-        "406",
-        "406",
-        "260",
-        "362",
-        "12",
-        "14.3",
-        "9.5",
-        "838",
-        "22.0"
+        "273.1",
+        "323.8",
+        "406.4",
+        "362.0",
+        "12 x 7/8\""
       ],
       [
         "12",
-        "150#",
-        "483",
-        "483",
-        "311",
-        "432",
-        "12",
-        "15.9",
-        "12.7",
-        "991",
-        "34.0"
+        "323.8",
+        "381.0",
+        "482.6",
+        "431.8",
+        "12 x 7/8\""
+      ],
+      [
+        "14",
+        "355.6",
+        "412.8",
+        "533.4",
+        "476.3",
+        "12 x 1\""
       ],
       [
         "16",
-        "150#",
-        "597",
-        "597",
-        "413",
-        "540",
-        "16",
-        "17.5",
-        "14.3",
-        "1219",
-        "60.0"
+        "406.4",
+        "469.9",
+        "596.9",
+        "539.8",
+        "16 x 1\""
       ],
       [
         "20",
-        "150#",
-        "699",
-        "699",
-        "514",
-        "635",
-        "20",
-        "19.1",
-        "15.9",
-        "1422",
-        "98.0"
+        "508.0",
+        "584.2",
+        "698.5",
+        "635.0",
+        "20 x 1-1/8\""
       ],
       [
         "24",
-        "150#",
-        "813",
-        "813",
-        "616",
-        "749",
-        "20",
-        "22.4",
-        "17.5",
-        "1651",
-        "148.0"
+        "610.0",
+        "692.2",
+        "812.8",
+        "749.3",
+        "20 x 1-1/4\""
       ]
     ],
-    "notes": "Blind disc and ring have different thicknesses — the ring is thinner as it only provides spacing. Overall Width = total span of the figure-8 shape. Above NPS 16\", spectacle blinds become heavy — consider Paddle Blind instead. Dimensions per ASME B16.48. Weights are approximate for Carbon Steel A516 Gr.70."
+    "notes": "Mating flange data per ASME B16.5 Class 150. The spectacle blind sits inside the bolt circle and is located by the flange bolts; its outside diameter, plate thickness and web length for each size and class are taken from ASME B16.48 and shown on the certified drawing supplied with every quote. The blind disc and spacer ring of a one-piece figure-8 are the same thickness."
   }
 }

@@ -172,7 +172,7 @@ const SEOManager = () => {
 
     } else if ((canonicalPath.startsWith('/product-details/') || canonicalPath.startsWith('/products/')) && !hubNames[canonicalPath]) {
       const productSlug = parts[parts.length - 1] || '';
-      const productName = pageMeta.h1 || formatName(productSlug);
+      const productName = pageMeta.product?.name || pageMeta.h1 || formatName(productSlug);
 
       const productSchema = {
         '@context': 'https://schema.org',
@@ -198,6 +198,14 @@ const SEOManager = () => {
           }
         }
       };
+      // Optional per-page product facts from sheet4MetaData (alternate names, real specs)
+      if (pageMeta.product) {
+        const { additionalProperty, ...productFacts } = pageMeta.product;
+        Object.assign(productSchema, productFacts);
+        if (additionalProperty) {
+          productSchema.additionalProperty = additionalProperty.map((prop) => ({ '@type': 'PropertyValue', ...prop }));
+        }
+      }
       schemas.push(productSchema);
 
       const rawFaqs = flangeFaqs[productSlug] || (newFlangePagesData[canonicalPath] || newFlangePagesData[pathname] || {}).faqs;

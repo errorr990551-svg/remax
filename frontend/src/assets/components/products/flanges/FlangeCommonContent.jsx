@@ -870,7 +870,7 @@ export const RelatedFlanges = ({ activeSlug }) => {
     { name: "Threaded Flange", slug: "threaded-flange", img: "/images/threaded-flange.webp", desc: "No welding needed. Screws onto standard pipes." },
     { name: "Lap Joint Flange", slug: "lap-joint-flange", img: "/images/Stainless-steel-Lap-joint-flange-ASTM-4-inch.webp", desc: "For simple disassembly & hole alignment." },
     { name: "Long Weld Neck Flange", slug: "long-weld-neck-flange", img: "/images/long-weld-neck-flange-500x500.webp", desc: "Acts as vessel nozzle; saves welding prep." },
-    { name: "Spectacle Blind Flange", slug: "spectacle-blind-flange", img: "/images/Spectacle-Blind-Flange-Weld-Neck-Flange.webp", desc: "Figure-8 spade for simple maintenance block." }
+    { name: "Spectacle Blind Flange", slug: "spectacle-blind-flange", img: "/images/Spectacle-Blind-Flange-Weld-Neck-Flange.webp", desc: "Figure-8 line blind (ASME B16.48) for positive isolation." }
   ];
 
   const filtered = flanges.filter(f => f.slug !== activeSlug);
