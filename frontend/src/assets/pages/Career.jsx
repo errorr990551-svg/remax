@@ -22,8 +22,14 @@ import {
 } from 'lucide-react';
 
 import MetaTags from '../components/common/MetaTags.jsx';
+import { useQuotePopup } from '../context/QuotePopupContext.jsx';
+import { getContactDetails } from '../data/contactDetails.js';
 
 const CareerPage = () => {
+  const { isUnlocked, openQuotePopup } = useQuotePopup();
+  // Site rule: contact details only after the quote/contact form has been submitted
+  const contact = isUnlocked ? getContactDetails() : null;
+
   // Data for "Why Choose Remax"
   const whyUsGrid = [
     {
@@ -304,10 +310,20 @@ const CareerPage = () => {
                   Prefer a direct approach? Send your CV and cover letter directly to our recruitment team.
                 </p>
                 <div className="flex flex-col gap-3">
-                  <a href="mailto:careers@remaxforge.com" className="inline-flex items-center font-bold text-lg text-[#0F172A] hover:text-[#D71920] transition-colors no-underline">
-                    <span className="w-2 h-2 bg-[#D71920] rounded-full mr-3"></span>
-                    careers@remaxforge.com
-                  </a>
+                  {contact ? (
+                    <a href={contact.careersEmailHref} className="inline-flex items-center font-bold text-lg text-[#0F172A] hover:text-[#D71920] transition-colors no-underline">
+                      <span className="w-2 h-2 bg-[#D71920] rounded-full mr-3"></span>
+                      {contact.careersEmail}
+                    </a>
+                  ) : (
+                    <button
+                      type="button"
+                      onClick={() => openQuotePopup()}
+                      className="self-start py-3 px-5 bg-[#D71920] hover:bg-red-700 text-white text-xs font-bold rounded-lg transition-colors uppercase tracking-wider shadow-sm"
+                    >
+                      Show Email Address
+                    </button>
+                  )}
                 </div>
               </div>
 

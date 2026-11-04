@@ -165,10 +165,15 @@ async function run() {
   const createOptimizedPage = async (b) => {
     const p = await b.newPage();
     await p.setViewport({ width: 1440, height: 900 });
+    // Flag read by the analytics snippets in index.html so GTM/Clarity never run while
+    // pre-rendering (otherwise their injected <script> tags get baked into every static page)
+    await p.evaluateOnNewDocument(() => { window.__PRERENDER__ = true; });
     await p.setRequestInterception(true);
     p.on('request', (req) => {
       const resourceType = req.resourceType();
-      if (['image', 'media', 'font'].includes(resourceType)) {
+      const isThirdParty = !req.url().startsWith(`http://localhost:${PORT}`);
+      // Third-party requests are blocked too: no fake GA/Ads hits from localhost during builds
+      if (isThirdParty || ['image', 'media', 'font'].includes(resourceType)) {
         req.abort();
       } else {
         req.continue();
@@ -184,6 +189,7 @@ async function run() {
 
   let currentIndex = 0;
   let completedCount = 0;
+  const blankPages = [];
 
   async function worker() {
     let page = await createOptimizedPage(browser);
@@ -204,8 +210,21 @@ async function run() {
 
       try {
         await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 12000 });
-        await page.waitForSelector('#root > *', { timeout: 3000 }).catch(() => {});
-        const html = await page.content();
+        // Pages are lazy chunks: wait until the route has rendered (no Suspense fallback left)
+        await page.waitForFunction(
+          () => document.querySelector('#root > *') && !document.querySelector('[data-route-loading]'),
+          { timeout: 5000 }
+        ).catch(() => {});
+        let html = await page.content();
+
+        if (!(await page.$('#root > *'))) {
+          blankPages.push(url);
+        }
+
+        // Keep the hero banner preload only on pages that actually render it (home + city pages)
+        if (!html.split('<body')[1].includes('hero-banner')) {
+          html = html.replace(/<link rel="preload" href="\/images\/banner(-mobile)?\.webp"[^>]*>\s*/g, '');
+        }
 
         if (url === '/') {
           prerenderedHomeHtml = html;
@@ -229,6 +248,11 @@ async function run() {
 
   const workers = Array.from({ length: CONCURRENCY }, () => worker());
   await Promise.all(workers);
+
+  if (blankPages.length) {
+    console.warn(`⚠️  ${blankPages.length} page(s) rendered an empty #root (runtime crash?) and are served without content:`);
+    blankPages.forEach(u => console.warn(`   ${u}`));
+  }
 
   // Save the pre-rendered homepage at the very end
   if (prerenderedHomeHtml) {

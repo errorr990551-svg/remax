@@ -3,13 +3,15 @@ import { useEffect } from 'react';
 const MetaTags = ({ 
   title, 
   description, 
-  keywords,
   canonical,
   robots = "index, follow",
   author = "Remax Forge & Fittings",
   publisher = "Remax Forge & Fittings"
 }) => {
   useEffect(() => {
+    // meta keywords is ignored by Google and was intentionally removed sitewide (SEOManager)
+    document.querySelector('meta[name="keywords"]')?.remove();
+
     if (title) {
       document.title = title;
     }
@@ -40,8 +42,25 @@ const MetaTags = ({
       }
     };
 
+    const setPropertyTag = (property, content) => {
+      if (!content) return;
+      let tag = document.querySelector(`meta[property="${property}"]`);
+      if (tag) {
+        tag.setAttribute('content', content);
+      } else {
+        tag = document.createElement('meta');
+        tag.setAttribute('property', property);
+        tag.setAttribute('content', content);
+        document.head.appendChild(tag);
+      }
+    };
+
     setMetaTag('description', description);
-    setMetaTag('keywords', keywords);
+    // Keep social previews in sync with the page-level title/description
+    setPropertyTag('og:title', title);
+    setPropertyTag('og:description', description);
+    setMetaTag('twitter:title', title);
+    setMetaTag('twitter:description', description);
     setMetaTag('robots', robots);
     setMetaTag('author', author);
     setMetaTag('publisher', publisher);
@@ -56,8 +75,9 @@ const MetaTags = ({
       targetCanonical += '/';
     }
     setLinkTag('canonical', targetCanonical);
+    setPropertyTag('og:url', targetCanonical);
 
-  }, [title, description, keywords, canonical, robots, author, publisher]);
+  }, [title, description, canonical, robots, author, publisher]);
 
   return null;
 };

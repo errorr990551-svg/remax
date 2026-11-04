@@ -16,7 +16,7 @@ const ExportCityPage = () => {
   const cityData = exportCitiesData[fullKey];
 
   if (!cityData) {
-    return <Navigate to={`/export/${countrySlug}`} replace />;
+    return <Navigate to={`/export/${countrySlug}/`} replace />;
   }
 
   const toggleFaq = (index) => {
@@ -102,7 +102,7 @@ const ExportCityPage = () => {
             <span>/</span>
             <Link to="/export/" className="hover:text-white">Where We Export</Link>
             <span>/</span>
-            <Link to={`/export/${cityData.countrySlug}`} className="hover:text-white">{cityData.country}</Link>
+            <Link to={`/export/${cityData.countrySlug}/`} className="hover:text-white">{cityData.country}</Link>
             <span>/</span>
             <span className="text-red-400 font-medium">{cityData.city}</span>
           </nav>

@@ -171,7 +171,7 @@ const BrochureGating = () => {
                     />
                   </div>
 
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div>
                       <label htmlFor="brochure-phone" className="block text-xs font-semibold text-slate-700 mb-1">Phone Number *</label>
                       <input
@@ -181,7 +181,7 @@ const BrochureGating = () => {
                         required
                         placeholder="+91 98765 43210"
                         autoComplete="tel"
-                        pattern="[0-9+ -]{8,18}"
+                        pattern="[0-9+ \-]{8,18}"
                         title="Please enter a valid phone number (minimum 8 digits)"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}

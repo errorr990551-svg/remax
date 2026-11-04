@@ -129,7 +129,7 @@ const AboutUs = () => {
           </div>
           <div className="order-1 lg:order-2">
              <div className="h-[450px] w-full rounded-2xl shadow-xl overflow-hidden group">
-                <img 
+                <img loading="lazy" decoding="async" 
                   src="/images/aboutus.jpeg" 
                   alt="Leadership & Visionary Growth" 
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
@@ -205,7 +205,7 @@ const AboutUs = () => {
           <div className="space-y-6">
              {/* commitment image */}
              <div className="bg-white p-4 rounded-2xl shadow-xl border-4 border-white h-[400px] flex items-center justify-center overflow-hidden group">
-                <img 
+                <img loading="lazy" decoding="async" 
                   src="/images/commitment-1.webp" 
                   alt="Commitment to Quality" 
                   className="w-full h-full object-contain transform group-hover:scale-110 transition-transform duration-500"

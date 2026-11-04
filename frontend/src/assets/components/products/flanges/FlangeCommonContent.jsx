@@ -26,6 +26,7 @@ import {
   ChevronRight
 } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
+import { getContactDetails } from '../../../data/contactDetails.js';
 import { Link } from 'react-router-dom';
 import dimensionsData from '../../../data/flange_dimensions.json';
 import flangeFaqs from '../../../data/flange_faqs.json';
@@ -590,6 +591,8 @@ export const WhyChooseRemax = () => {
    ---------------------------------------------------- */
 export const HowToOrder = () => {
   const { isUnlocked, openQuotePopup } = useQuotePopup();
+  // Site rule: contact details only after the quote/contact form has been submitted
+  const contact = isUnlocked ? getContactDetails() : null;
 
   const steps = [
     "Flange Type (e.g. Weld Neck, Slip On, Blind, etc.)",
@@ -640,29 +643,29 @@ export const HowToOrder = () => {
               Direct Inquiries
             </h3>
             <div className="space-y-4">
-              {!isUnlocked ? (
+              {!contact ? (
                 <button
                   type="button"
                   onClick={openQuotePopup}
                   className="w-full py-3 px-4 bg-[#D71920] hover:bg-red-700 text-white font-bold rounded-xl transition-all text-xs uppercase tracking-wider shadow-md flex items-center justify-center gap-2 cursor-pointer"
                 >
-                  <Mail size={16} /> Show Email Details
+                  <Mail size={16} /> Show Phone & Email
                 </button>
               ) : (
                 <>
                   <a 
-                    href="mailto:sales@remaxforge.com" 
+                    href={contact.emailHref}
                     className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200 hover:border-[#D71920] hover:text-[#D71920] transition-all group font-semibold text-slate-800 text-sm"
                   >
                     <Mail size={18} className="text-[#D71920] group-hover:scale-110 transition-transform" />
-                    <span>sales@remaxforge.com</span>
+                    <span>{contact.email}</span>
                   </a>
                   <a 
-                    href="tel:+919769983108" 
+                    href={contact.phoneHref}
                     className="flex items-center gap-3 p-3 bg-white rounded-xl border border-slate-200 hover:border-[#D71920] hover:text-[#D71920] transition-all group font-semibold text-slate-800 text-sm"
                   >
                     <Phone size={18} className="text-[#D71920] group-hover:scale-110 transition-transform" />
-                    <span>+91-97699 83108</span>
+                    <span>{contact.phoneDisplay}</span>
                   </a>
                 </>
               )}
@@ -701,14 +704,12 @@ export const HowToOrder = () => {
 /* ----------------------------------------------------
    11. Flange Dimensions Table
    ---------------------------------------------------- */
-export const FlangeDimensionsTable = ({ slug, altText }) => {
+export const FlangeDimensionsTable = ({ slug, altText, hideImage = false }) => {
   const data = dimensionsData[slug];
-  if (!data) return null;
-
   const [sortConfig, setSortConfig] = React.useState({ key: null, direction: 'asc' });
 
   const sortedRows = React.useMemo(() => {
-    let sortableItems = [...data.rows];
+    let sortableItems = [...(data?.rows || [])];
     if (sortConfig.key !== null) {
       sortableItems.sort((a, b) => {
         let valA = a[sortConfig.key] || '';
@@ -731,7 +732,7 @@ export const FlangeDimensionsTable = ({ slug, altText }) => {
       });
     }
     return sortableItems;
-  }, [data.rows, sortConfig]);
+  }, [data, sortConfig]);
 
   const requestSort = (index) => {
     let direction = 'asc';
@@ -741,12 +742,14 @@ export const FlangeDimensionsTable = ({ slug, altText }) => {
     setSortConfig({ key: index, direction });
   };
 
+  if (!data) return null;
+
   return (
     <div className="space-y-8">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        <div className="lg:col-span-5 bg-[#0F172A] rounded-2xl overflow-hidden shadow-lg border border-slate-800 p-4">
+        {!hideImage && <div className="lg:col-span-5 bg-[#0F172A] rounded-2xl overflow-hidden shadow-lg border border-slate-800 p-4">
           <div className="flex flex-col items-center">
-            <img 
+            <img loading="lazy" decoding="async" 
               src={`/images/${slug}-dimensions.svg`} 
               alt={altText || `ASME B16.5 ${slug.replace(/-/g, ' ')} dimensions chart`} 
               className="w-full h-auto object-contain max-h-[280px]"
@@ -755,9 +758,9 @@ export const FlangeDimensionsTable = ({ slug, altText }) => {
               CAD Technical Layout — Remax Forge & Fittings
             </div>
           </div>
-        </div>
+        </div>}
 
-        <div className="lg:col-span-7 space-y-4">
+        <div className={`${hideImage ? 'lg:col-span-12' : 'lg:col-span-7'} space-y-4`}>
           <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-sm bg-white">
             <table className="w-full text-xs md:text-sm text-left border-collapse">
               <thead>
@@ -812,9 +815,8 @@ export const FlangeDimensionsTable = ({ slug, altText }) => {
    ---------------------------------------------------- */
 export const FlangeFAQs = ({ slug }) => {
   const faqs = flangeFaqs[slug];
-  if (!faqs) return null;
-
   const [openIdx, setOpenIdx] = React.useState(null);
+  if (!faqs) return null;
 
   const toggle = (idx) => {
     setOpenIdx(openIdx === idx ? null : idx);
@@ -867,7 +869,7 @@ export const RelatedFlanges = ({ activeSlug }) => {
     { name: "Threaded Flange", slug: "threaded-flange", img: "/images/threaded-flange.webp", desc: "No welding needed. Screws onto standard pipes." },
     { name: "Lap Joint Flange", slug: "lap-joint-flange", img: "/images/Stainless-steel-Lap-joint-flange-ASTM-4-inch.webp", desc: "For simple disassembly & hole alignment." },
     { name: "Long Weld Neck Flange", slug: "long-weld-neck-flange", img: "/images/long-weld-neck-flange-500x500.webp", desc: "Acts as vessel nozzle; saves welding prep." },
-    { name: "Spectacle Blind Flange", slug: "spectacle-blind-flange", img: "/images/Spectacle-Blind-Flange-Weld-Neck-Flange.webp", desc: "Figure-8 spade for simple maintenance block." }
+    { name: "Spectacle Blind Flange", slug: "spectacle-blind-flange", img: "/images/Spectacle-Blind-Flange-Weld-Neck-Flange.webp", desc: "Figure-8 line blind (ASME B16.48) for positive isolation." }
   ];
 
   const filtered = flanges.filter(f => f.slug !== activeSlug);
@@ -877,11 +879,11 @@ export const RelatedFlanges = ({ activeSlug }) => {
       {filtered.slice(0, 4).map((flange, idx) => (
         <Link 
           key={idx} 
-          to={`/products/flanges/${flange.slug}`}
+          to={`/products/flanges/${flange.slug}/`}
           className="group bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col justify-between"
         >
           <div className="bg-slate-50 p-4 flex justify-center items-center h-40 border-b border-slate-100">
-            <img 
+            <img loading="lazy" decoding="async" 
               src={flange.img} 
               alt={flange.name} 
               className="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform duration-500 p-2"

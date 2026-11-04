@@ -2,11 +2,14 @@ import React from 'react';
 import { Phone, MessageCircle, FileText } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 import { useQuotePopup } from '../../context/QuotePopupContext.jsx';
+import { getContactDetails } from '../../data/contactDetails.js';
 
 const StickyMobileBar = () => {
   const { pathname } = useLocation();
   const quoteContext = useQuotePopup();
   const openQuotePopup = quoteContext?.openQuotePopup;
+  // Site rule: phone/WhatsApp only work after the visitor has submitted the quote form
+  const contact = quoteContext?.isUnlocked ? getContactDetails() : null;
 
   const handleGetQuote = () => {
     if (openQuotePopup) {
@@ -21,25 +24,29 @@ const StickyMobileBar = () => {
     <>
       {/* Fixed Sticky Mobile Bar */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 z-40 bg-slate-900 border-t border-slate-800 p-2 shadow-2xl flex items-center gap-2">
-        <a
-          href="tel:+919769983108"
-          className="bg-slate-800 active:bg-slate-700 text-white font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs border border-slate-700 cursor-pointer"
-          aria-label="Call +91 97699 83108"
-        >
-          <Phone className="w-4 h-4 text-emerald-400" />
-          <span>Call</span>
-        </a>
+        {contact ? (
+          <a href={contact.phoneHref} className="bg-slate-800 active:bg-slate-700 text-white font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs border border-slate-700 cursor-pointer" aria-label="Call Remax Forge">
+            <Phone className="w-4 h-4 text-emerald-400" />
+            <span>Call</span>
+          </a>
+        ) : (
+          <button type="button" onClick={handleGetQuote} className="bg-slate-800 active:bg-slate-700 text-white font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs border border-slate-700 cursor-pointer" aria-label="Get quote to see phone number">
+            <Phone className="w-4 h-4 text-emerald-400" />
+            <span>Call</span>
+          </button>
+        )}
 
-        <a
-          href="https://wa.me/919769983108?text=Hello%20Remax%20Forge,%20I%20would%20like%20to%20inquire%20about%20flanges%20and%20fittings."
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-emerald-600 active:bg-emerald-700 text-white font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs shadow-md cursor-pointer"
-          aria-label="WhatsApp Us"
-        >
-          <MessageCircle className="w-4 h-4" />
-          <span>WhatsApp</span>
-        </a>
+        {contact ? (
+          <a href={contact.whatsapp} target="_blank" rel="noopener noreferrer" className="bg-emerald-600 active:bg-emerald-700 text-white font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs shadow-md cursor-pointer" aria-label="WhatsApp Us">
+            <MessageCircle className="w-4 h-4" />
+            <span>WhatsApp</span>
+          </a>
+        ) : (
+          <button type="button" onClick={handleGetQuote} className="bg-emerald-600 active:bg-emerald-700 text-white font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs shadow-md cursor-pointer" aria-label="Get quote to unlock WhatsApp">
+            <MessageCircle className="w-4 h-4" />
+            <span>WhatsApp</span>
+          </button>
+        )}
 
         <button
           onClick={handleGetQuote}

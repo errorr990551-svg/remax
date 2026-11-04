@@ -30,7 +30,7 @@ const StandardsCommonContent = ({ standard }) => {
       setSubmitted(true);
     } catch (err) {
       console.error(err);
-      setErrorMessage(err.response?.data?.message || 'Failed to submit inquiry. Please try again or contact sales@remaxforge.com directly.');
+      setErrorMessage(err.response?.data?.message || 'Failed to submit inquiry. Please check your connection and try again in a moment.');
     } finally {
       setLoading(false);
     }

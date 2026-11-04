@@ -35,8 +35,8 @@ function getPriority(normUrl) {
 
 function generateSitemap() {
   try {
-    // 1. Read App.jsx and extract static routes
-    const appJsxPath = path.resolve('src/App.jsx');
+    // 1. Read the route table (src/routes.jsx) and extract static routes
+    const appJsxPath = path.resolve('src/routes.jsx');
     const appContent = fs.readFileSync(appJsxPath, 'utf8');
     
     const routeRegex = /path=['"]([^'"]+)['"]/g;

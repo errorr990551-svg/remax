@@ -99,7 +99,7 @@ const ButtWeldFittingsGuide = () => {
 
             {/* Image 2: Butt-weld fittings types chart */}
             <div className="mb-10 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b5-2.jpeg" 
                 alt="types of stainless steel butt-weld fittings including elbows tees reducers caps and stub ends" 
                 className="w-full h-auto"
@@ -193,7 +193,7 @@ const ButtWeldFittingsGuide = () => {
 
             {/* Image 3: Hot induction bending machine */}
             <div className="mb-10 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b5-3.jpeg" 
                 alt="hot induction bending process used for manufacturing butt-weld pipe elbows and fittings" 
                 className="w-full h-auto"
@@ -274,7 +274,7 @@ const ButtWeldFittingsGuide = () => {
 
             {/* Image 4: Butt-weld pipe inspection / NDT testing */}
             <div className="mb-10 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b5-4.jpeg" 
                 alt="non-destructive testing and inspection of butt-weld pipe joint in industrial piping system" 
                 className="w-full h-auto"

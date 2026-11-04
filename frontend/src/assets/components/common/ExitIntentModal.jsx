@@ -91,7 +91,7 @@ const ExitIntentModal = () => {
       }, 3000);
     } catch (err) {
       console.error('Exit intent submission error:', err);
-      setErrorMessage(err.response?.data?.message || 'Failed to submit. Please contact sales@remaxforge.com directly.');
+      setErrorMessage(err.response?.data?.message || 'Failed to submit. Please check your connection and try again in a moment.');
     } finally {
       setLoading(false);
     }

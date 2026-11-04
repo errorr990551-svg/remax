@@ -1,3 +1,18 @@
+# Remax Forge & Fittings website
+
+## ⚠️ Contact gate - permanent rule
+
+Phone numbers, WhatsApp links and email addresses are **only shown after a visitor
+submits the Get Quote / contact form**. They live only in
+`src/assets/data/contactDetails.js` (encoded) and are rendered through
+`getContactDetails()` inside an `isUnlocked` branch. `npm run build` runs
+`check_contact_gate.js`, which **fails the build and blocks the deploy** if they are
+exposed anywhere else. Full rule: [CLAUDE.md](../CLAUDE.md).
+
+Run the check on its own with `npm run check:contact` (after `npm run build`).
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

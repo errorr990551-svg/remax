@@ -11,10 +11,12 @@ import {
   ExternalLink 
 } from 'lucide-react';
 import { cityStrategyData } from '../data/cityStrategyData.js';
+import useStrategySeo from '../components/common/useStrategySeo.js';
 import CityFullRfqForm from '../components/city/CityFullRfqForm.jsx';
 
 const MarketAreaIndex = () => {
   const pageData = cityStrategyData['market_area'];
+  useStrategySeo(pageData);
   const navigate = useNavigate();
 
   const scrollToRfq = () => {

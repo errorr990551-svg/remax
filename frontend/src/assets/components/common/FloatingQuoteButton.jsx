@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import api from '../../services/api.js';
 import TrustBar from './TrustBar.jsx';
 import { useQuotePopup } from '../../context/QuotePopupContext.jsx';
+import { getContactDetails } from '../../data/contactDetails.js';
 
 const FloatingQuoteButton = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,6 +17,8 @@ const FloatingQuoteButton = () => {
   const closeQuotePopup = quotePopupContext?.closeQuotePopup;
   const openQuotePopup = quotePopupContext?.openQuotePopup;
   const quoteContextProduct = quotePopupContext?.quoteProduct;
+  // Unlocked by a successful submission (services/api.js) - shown on the thank-you screen
+  const contact = quotePopupContext?.isUnlocked ? getContactDetails() : null;
 
   const [errorMessage, setErrorMessage] = useState('');
   const [formData, setFormData] = useState({
@@ -102,7 +105,7 @@ const FloatingQuoteButton = () => {
 
     } catch (err) {
       console.error('RFQ Submission Error:', err);
-      setErrorMessage(err.response?.data?.message || 'Failed to submit quote request. Please try again or contact sales@remaxforge.com directly.');
+      setErrorMessage(err.response?.data?.message || 'Failed to submit quote request. Please check your connection and try again in a moment.');
     } finally {
       setLoading(false);
     }
@@ -113,7 +116,7 @@ const FloatingQuoteButton = () => {
       {/* Floating Button */}
       <button
         onClick={handleOpen}
-        className="fixed bottom-6 right-6 z-40 bg-[#D71920] hover:bg-red-700 text-white font-bold py-3 px-5 rounded-full shadow-2xl flex items-center gap-2 transition-all transform hover:scale-105 animate-bounce-subtle"
+        className="fixed bottom-6 right-6 z-40 bg-[#D71920] hover:bg-red-700 text-white font-bold py-3 px-5 rounded-full shadow-2xl hidden lg:flex items-center gap-2 transition-all transform hover:scale-105 animate-bounce-subtle"
         aria-label="Get Instant Quote"
       >
         <FileText className="w-5 h-5" />
@@ -146,6 +149,19 @@ const FloatingQuoteButton = () => {
                 <p className="text-slate-600 text-sm">
                   Our sales team will send your written quotation within <strong>30 minutes</strong>.
                 </p>
+                {contact && (
+                  <div className="mt-6 grid gap-2 text-sm font-semibold">
+                    <a href={contact.phoneHref} className="py-3 px-4 rounded-lg border border-slate-200 hover:border-[#D71920] text-slate-800">
+                      Call {contact.phoneDisplay}
+                    </a>
+                    <a href={contact.whatsapp} target="_blank" rel="noopener noreferrer" className="py-3 px-4 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white">
+                      WhatsApp us
+                    </a>
+                    <a href={contact.emailHref} className="py-3 px-4 rounded-lg border border-slate-200 hover:border-[#D71920] text-slate-800">
+                      {contact.email}
+                    </a>
+                  </div>
+                )}
               </div>
             ) : (
               <div>
@@ -165,7 +181,7 @@ const FloatingQuoteButton = () => {
 
                 <form onSubmit={handleSubmit} className="space-y-3 mt-4">
                   
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div>
                       <label className="block text-xs font-semibold text-slate-700 mb-1">Full Name *</label>
                       <input
@@ -193,7 +209,7 @@ const FloatingQuoteButton = () => {
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div>
                       <label className="block text-xs font-semibold text-slate-700 mb-1">Phone Number *</label>
                       <input

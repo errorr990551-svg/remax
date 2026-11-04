@@ -21,10 +21,13 @@ import {
   ArrowRight
 } from 'lucide-react';
 import SEOManager from '../components/common/SEOManager';
+import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 
 const Certification = () => {
   const [copiedGst, setCopiedGst] = useState(false);
   const [activePreview, setActivePreview] = useState(null); // 'gst' | 'udyam' | null
+  // The Udyam certificate prints the company mobile & email, so it follows the contact gate (CLAUDE.md)
+  const { isUnlocked, openQuotePopup } = useQuotePopup();
 
   const handleCopyGst = () => {
     navigator.clipboard.writeText('27FFLPP0007K1ZA');
@@ -45,7 +48,7 @@ const Certification = () => {
       constitution: 'Proprietorship',
       jurisdiction: 'Mumbai, Maharashtra',
       issueDate: '03 September 2025',
-      pdfUrl: '/Remax GST Certificate.pdf',
+      pdfUrl: '/remax-gst-certificate.pdf',
       fileSize: '120 KB',
       verificationUrl: 'https://services.gst.gov.in/services/searchtp',
       highlights: [
@@ -67,7 +70,8 @@ const Certification = () => {
       constitution: 'Micro & Small Manufacturing Enterprise',
       jurisdiction: 'Mumbai, Maharashtra Works',
       issueDate: 'Active Official Registration',
-      pdfUrl: '/Udyam.pdf',
+      pdfUrl: '/udyam-registration-certificate.pdf',
+      containsContactDetails: true,
       fileSize: '1.1 MB',
       verificationUrl: 'https://udyamregistration.gov.in/',
       highlights: [
@@ -271,6 +275,17 @@ const Certification = () => {
 
               {/* Card Footer - Action Buttons */}
               <div className="p-6 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center gap-3">
+                {cert.containsContactDetails && !isUnlocked ? (
+                  <button
+                    type="button"
+                    onClick={() => openQuotePopup()}
+                    className="flex-1 min-w-[140px] inline-flex items-center justify-center gap-2 bg-[#D71920] hover:bg-red-700 text-white font-bold text-xs sm:text-sm py-2.5 px-4 rounded-xl shadow transition"
+                  >
+                    <Eye size={15} />
+                    <span>Request a Quote to View Certificate</span>
+                  </button>
+                ) : (
+                <>
                 <a
                   href={cert.pdfUrl}
                   target="_blank"
@@ -297,10 +312,12 @@ const Certification = () => {
                 >
                   {activePreview === cert.id ? 'Close Preview' : 'Inline Preview'}
                 </button>
+                </>
+                )}
               </div>
 
               {/* Inline PDF Preview Accordion */}
-              {activePreview === cert.id && (
+              {activePreview === cert.id && (!cert.containsContactDetails || isUnlocked) && (
                 <div className="border-t border-slate-200 bg-slate-100 p-4">
                   <div className="bg-white rounded-lg shadow border border-slate-300 overflow-hidden">
                     <div className="p-2 bg-slate-200 flex items-center justify-between text-xs text-slate-700 font-medium">

@@ -45,7 +45,7 @@ const Quality = () => {
                 />
             </div>
             {/* Decorative Element */}
-            <div className="absolute -z-10 -bottom-6 -right-6 w-full h-full bg-[#D71920]/10 rounded-2xl"></div>
+            <div className="hidden md:block absolute -z-10 -bottom-6 -right-6 w-full h-full bg-[#D71920]/10 rounded-2xl"></div>
           </div>
         </div>
 

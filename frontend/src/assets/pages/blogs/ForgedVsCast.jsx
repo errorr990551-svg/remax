@@ -63,7 +63,7 @@ const ForgedVsCast = () => {
 
             {/* Section: Forging Process */}
             <div className="mb-8 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b3.jpeg" 
                 alt="metal casting process with molten steel poured into mold showing porosity and defects" 
                 className="w-full h-auto"
@@ -100,7 +100,7 @@ const ForgedVsCast = () => {
 
             {/* Section: Casting Process */}
             <div className="mb-8 mt-12 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b2.jpeg" 
                 alt="steel billet hot forging process showing grain flow alignment in forged metal fittings" 
                 className="w-full h-auto"
@@ -132,7 +132,7 @@ const ForgedVsCast = () => {
 
             {/* Section: Comparison */}
             <div className="mb-8 mt-12 rounded-xl overflow-hidden shadow-sm">
-              <img 
+              <img loading="lazy" decoding="async" 
                 src="/images/b1.jpeg" 
                 alt="industrial hot forging process of high-pressure steel pipe fittings in manufacturing plant" 
                 className="w-full h-auto"

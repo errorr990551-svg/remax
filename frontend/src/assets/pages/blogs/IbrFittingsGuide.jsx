@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Home, ChevronRight, Clock, User, FileText, CheckCircle2, ShieldCheck, Flame } from 'lucide-react';
+import { Home, ChevronRight, Clock, User, FileText, CheckCircle2, ShieldCheck, Flame, Droplets } from 'lucide-react';
 import MetaTags from '../../components/common/MetaTags.jsx';
 import TrustBar from '../../components/common/TrustBar.jsx';
 
