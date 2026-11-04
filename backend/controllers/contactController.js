@@ -83,11 +83,9 @@ exports.submitContactForm = async (req, res) => {
       : `New Website Inquiry from ${contactName}`;
 
     await sendMail({
-      to: ["sales@remaxforge.com", "remaxforge@gmail.com"],
-      cc: [
-        "akshat99055@gmail.com",
-        "errorr990551@gmail.com",
-      ],
+      to: ["akshat99055@gmail.com"],
+      cc: ["errorr990551@gmail.com", ], 
+      
       subject: emailSubject,
       html: `
         <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; border: 1px solid #e2e8f0; border-radius: 8px; overflow: hidden;">
