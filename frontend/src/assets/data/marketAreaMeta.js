@@ -41,491 +41,491 @@ export const marketAreaMeta = {
     "description": "ISO-certified flanges & forged fittings for Ziro: Hydro Power & Water Infra, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "guwahati": {
-    "title": "Flange Manufacturer & Supplier in Guwahati | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Guwahati: Oil & Gas (Refining), Oil & Gas (Upstream). ASME B16.5, 3.1 MTC, ~7-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Guwahati | Remax Forge",
+    "description": "Flanges & forged fittings for Guwahati's refinery and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~7-day delivery ex-Mumbai."
   },
   "silchar": {
-    "title": "Flanges & Forged Fittings Supplier in Silchar | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Silchar: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~8-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Silchar | Remax Forge",
+    "description": "Flanges & forged fittings for Silchar's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~8-day delivery ex-Mumbai."
   },
   "dibrugarh": {
-    "title": "Flanges & Fittings Supplier in Dibrugarh | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Dibrugarh: Oil & Gas (Upstream), Petrochemical & Chemical. ASME B16.5, 3.1 MTC, ~8-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Dibrugarh | Remax Forge",
+    "description": "Flanges & forged fittings for Dibrugarh's oil & gas field and chemical units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~8-day delivery ex-Mumbai."
   },
   "jorhat": {
-    "title": "Jorhat Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Jorhat: Oil & Gas (Upstream), Agro & Food Processing. ASME B16.5, 3.1 MTC, ~8-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Jorhat | Remax Forge",
+    "description": "Flanges & forged fittings for Jorhat's oil & gas field and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~8-day delivery ex-Mumbai."
   },
   "tezpur": {
-    "title": "Industrial Flanges Supplier in Tezpur | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Tezpur: Agro & Food Processing, Aerospace & Defence. ASME B16.5, 3.1 MTC, ~8-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Tezpur | Remax Forge",
+    "description": "Flanges & forged fittings for Tezpur's food & agro and aerospace & defence units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~8-day delivery ex-Mumbai."
   },
   "patna": {
-    "title": "Flange Manufacturer & Supplier in Patna | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Patna: Agro & Food Processing, Oil & Gas (Refining). ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Patna | Remax Forge",
+    "description": "Flanges & forged fittings for Patna's food & agro and refinery units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "gaya": {
-    "title": "Flanges & Forged Fittings Supplier in Gaya | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Gaya: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Gaya | Remax Forge",
+    "description": "Flanges & forged fittings for Gaya's food & agro and cement & mining units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "bhagalpur": {
-    "title": "Flanges & Fittings Supplier in Bhagalpur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Bhagalpur: Textiles & Process, Power & Boilers. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Bhagalpur | Remax Forge",
+    "description": "Flanges & forged fittings for Bhagalpur's textile and power & boiler units: SS 304, A105, ASME B16.5, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "muzaffarpur": {
-    "title": "Muzaffarpur Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Muzaffarpur: Agro & Food Processing, Power & Boilers. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Muzaffarpur | Remax Forge",
+    "description": "Flanges & forged fittings for Muzaffarpur's food & agro and power & boiler units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "darbhanga": {
-    "title": "Flanges & Fittings Supplier in Darbhanga | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Darbhanga: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Darbhanga | Remax Forge",
+    "description": "Flanges & forged fittings for Darbhanga's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "raipur": {
-    "title": "Flange Manufacturer & Supplier in Raipur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Raipur: Steel & Metals, Power & Boilers. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Raipur | Remax Forge",
+    "description": "Flanges & forged fittings for Raipur's steel & metals and food & agro units: A105, A350 LF2, SS 304, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "bhilai": {
-    "title": "Flanges & Forged Fittings Supplier in Bhilai | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Bhilai: Steel & Metals, Railways & Heavy Fabrication. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Bhilai | Remax Forge",
+    "description": "Flanges & forged fittings for Bhilai's steel & metals and engineering units: A105, A350 LF2, SS 304, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "bilaspur": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Bilaspur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Bilaspur: Power & Boilers, Railways & Heavy Fabrication. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Bilaspur | Remax Forge",
+    "description": "Flanges & forged fittings for Bilaspur's cement & mining and power & boiler units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "korba": {
-    "title": "Korba Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Korba: Power & Boilers, Steel & Metals. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Korba | Remax Forge",
+    "description": "Flanges & forged fittings for Korba's power & boiler and steel & metals units: A105, F11/F22/F91 (IBR), ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "durg": {
-    "title": "Industrial Flanges Supplier in Durg | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Durg: Engineering & Auto, Steel & Metals. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Durg | Remax Forge",
+    "description": "Flanges & forged fittings for Durg's engineering and steel & metals units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "gandhinagar": {
-    "title": "Flange Manufacturer & Supplier in Gandhinagar | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Gandhinagar: Engineering & Auto, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Gandhinagar | Remax Forge",
+    "description": "Flanges & forged fittings for Gandhinagar's water & utility and engineering units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "ahmedabad": {
-    "title": "Flanges & Fittings Supplier in Ahmedabad | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Ahmedabad: Petrochemical & Chemical, Pharma & Biotech. ASME B16.5, 3.1 MTC, ~1-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Ahmedabad | Remax Forge",
+    "description": "Flanges & forged fittings for Ahmedabad's chemical and pharma units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~1-day delivery ex-Mumbai."
   },
   "surat": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Surat | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Surat: Petrochemical & Chemical, Steel & Metals. ASME B16.5, 3.1 MTC, ~1-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Surat | Remax Forge",
+    "description": "Flanges & forged fittings for Surat's oil & gas field and steel & metals units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~1-day delivery ex-Mumbai."
   },
   "rajkot": {
-    "title": "Rajkot Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Rajkot: Engineering & Auto, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Rajkot | Remax Forge",
+    "description": "Flanges & forged fittings for Rajkot's foundry & forging and engineering units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "vadodara": {
-    "title": "Flange Manufacturer & Supplier in Vadodara | Remax Forge",
-    "description": "Flanges & pipe fittings for Vadodara refineries, petrochemical and chemical plants: WNRF/RTJ, A105, SS 316L, duplex, F11/F22 to ASME B16.5. ~1-day transit."
+    "title": "Flange Manufacturer & Supplier for Vadodara | Remax Forge",
+    "description": "Flanges & forged fittings for Vadodara's refinery and fertilizer units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~1-day delivery ex-Mumbai."
   },
   "shimla": {
-    "title": "Flange Manufacturer & Supplier in Shimla | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Shimla: Hydro Power & Water Infra, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Shimla | Remax Forge",
+    "description": "Flanges & forged fittings for Shimla's water & utility and hydro power units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "dharamshala": {
-    "title": "Flanges & Fittings Supplier in Dharamshala | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Dharamshala: Hydro Power & Water Infra, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Dharamshala | Remax Forge",
+    "description": "Flanges & forged fittings for Dharamshala's water & utility and hydro power units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "solan": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Solan | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Solan: Pharma & Biotech, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Solan | Remax Forge",
+    "description": "Flanges & forged fittings for Solan's pharma and food & agro units: SS 316L/304L, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "mandi": {
-    "title": "Mandi Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Mandi: Hydro Power & Water Infra, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Mandi | Remax Forge",
+    "description": "Flanges & forged fittings for Mandi's hydro power and water & utility units: A105, A350 LF2 (low-temp), ASME B16.5, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "baddi": {
-    "title": "Industrial Flanges Supplier in Baddi | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Baddi: Pharma & Biotech, Power & Boilers. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Baddi | Remax Forge",
+    "description": "Flanges & forged fittings for Baddi's pharma and power & boiler units: SS 316L/304L, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "jamshedpur": {
-    "title": "Flange Manufacturer & Supplier in Jamshedpur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Jamshedpur: Steel & Metals, Engineering & Auto. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Jamshedpur | Remax Forge",
+    "description": "Flanges & forged fittings for Jamshedpur's steel & metals and engineering units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "dhanbad": {
-    "title": "Flanges & Forged Fittings Supplier in Dhanbad | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Dhanbad: Fertilizers, Power & Boilers. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Dhanbad | Remax Forge",
+    "description": "Flanges & forged fittings for Dhanbad's cement & mining and fertilizer units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "ranchi": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Ranchi | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Ranchi: Engineering & Auto, Steel & Metals. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Ranchi | Remax Forge",
+    "description": "Flanges & forged fittings for Ranchi's engineering and water & utility units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "bokaro": {
-    "title": "Flange Manufacturer & Supplier in Bokaro | Remax Forge",
-    "description": "Flanges, forged & butt-weld fittings for Bokaro steel, power and cement plants: A105, A350 LF2, SS 304/316L, F11/F22 to ASME B16.5, 3.1 MTC. ~5-day delivery."
+    "title": "Flange Manufacturer & Supplier for Bokaro | Remax Forge",
+    "description": "Flanges & forged fittings for Bokaro's steel & metals and engineering units: A105, A350 LF2, SS 304, ASME B16.5, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "deoghar": {
-    "title": "Industrial Flanges Supplier in Deoghar | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Deoghar: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Deoghar | Remax Forge",
+    "description": "Flanges & forged fittings for Deoghar's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "bengaluru": {
-    "title": "Flange Manufacturer & Supplier in Bengaluru | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Bengaluru: Aerospace & Defence, Engineering & Auto. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Bengaluru | Remax Forge",
+    "description": "Flanges & forged fittings for Bengaluru's aerospace & defence and engineering units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "mysuru": {
-    "title": "Flanges & Forged Fittings Supplier in Mysuru | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Mysuru: Pharma & Biotech, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Mysuru | Remax Forge",
+    "description": "Flanges & forged fittings for Mysuru's pharma and food & agro units: SS 316L/304L, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "hubballi-dharwad": {
     "title": "Flange Supplier in Hubballi-Dharwad | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Hubballi-Dharwad: Engineering & Auto, Railways & Heavy Fabrication. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai."
+    "description": "Flanges & forged fittings for Hubballi-Dharwad's engineering and railway & fabrication units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "mangaluru": {
-    "title": "Mangaluru Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Mangaluru: Oil & Gas (Refining), Fertilizers. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Mangaluru | Remax Forge",
+    "description": "Flanges & forged fittings for Mangaluru's refinery and chemical units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "belagavi": {
-    "title": "Industrial Flanges Supplier in Belagavi | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Belagavi: Engineering & Auto, Aerospace & Defence. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Belagavi | Remax Forge",
+    "description": "Flanges & forged fittings for Belagavi's foundry & forging and engineering units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "thrissur": {
-    "title": "Flange Manufacturer & Supplier in Thrissur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Thrissur: Engineering & Auto, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Thrissur | Remax Forge",
+    "description": "Flanges & forged fittings for Thrissur's engineering and food & agro units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "kollam": {
-    "title": "Flanges & Forged Fittings Supplier in Kollam | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Kollam: Petrochemical & Chemical, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Kollam | Remax Forge",
+    "description": "Flanges & forged fittings for Kollam's chemical and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "kozhikode": {
-    "title": "Flanges & Fittings Supplier in Kozhikode | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Kozhikode: Engineering & Auto, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Kozhikode | Remax Forge",
+    "description": "Flanges & forged fittings for Kozhikode's engineering and food & agro units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "kochi": {
-    "title": "Kochi Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Kochi: Oil & Gas (Refining), Ports & Marine. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Kochi | Remax Forge",
+    "description": "Flanges & forged fittings for Kochi's refinery and port & marine units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "thiruvananthapuram": {
     "title": "Flange Supplier in Thiruvananthapuram | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Thiruvananthapuram: Aerospace & Defence, Petrochemical & Chemical. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai."
+    "description": "Flanges & forged fittings for Thiruvananthapuram's aerospace & defence and chemical units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "ujjain": {
-    "title": "Flange Manufacturer & Supplier in Ujjain | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Ujjain: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Ujjain | Remax Forge",
+    "description": "Flanges & forged fittings for Ujjain's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "gwalior": {
-    "title": "Flanges & Forged Fittings Supplier in Gwalior | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Gwalior: Engineering & Auto, Aerospace & Defence. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Gwalior | Remax Forge",
+    "description": "Flanges & forged fittings for Gwalior's engineering and aerospace & defence units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "jabalpur": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Jabalpur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Jabalpur: Aerospace & Defence, Engineering & Auto. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Jabalpur | Remax Forge",
+    "description": "Flanges & forged fittings for Jabalpur's aerospace & defence and cement & mining units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "bhopal": {
-    "title": "Bhopal Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Bhopal: Power & Boilers, Engineering & Auto. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Bhopal | Remax Forge",
+    "description": "Flanges & forged fittings for Bhopal's power & boiler and engineering units: A105, F11/F22/F91 (IBR), ASME B16.5, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "indore": {
-    "title": "Industrial Flanges Supplier in Indore | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Indore: Engineering & Auto, Pharma & Biotech. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Indore | Remax Forge",
+    "description": "Flanges & forged fittings for Indore's engineering and pharma units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "mumbai": {
-    "title": "Flange Manufacturer & Supplier in Mumbai | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Mumbai: Oil & Gas (Refining), Ports & Marine. ASME B16.5, 3.1 MTC, ~1-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Mumbai | Remax Forge",
+    "description": "Flanges & forged fittings for Mumbai's refinery and fertilizer units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~1-day delivery ex-Mumbai."
   },
   "nagpur": {
-    "title": "Flanges & Forged Fittings Supplier in Nagpur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Nagpur: Power & Boilers, Engineering & Auto. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Nagpur | Remax Forge",
+    "description": "Flanges & forged fittings for Nagpur's power & boiler and engineering units: A105, F11/F22/F91 (IBR), ASME B16.5, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "nashik": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Nashik | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Nashik: Aerospace & Defence, Engineering & Auto. ASME B16.5, 3.1 MTC, ~1-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Nashik | Remax Forge",
+    "description": "Flanges & forged fittings for Nashik's aerospace & defence and engineering units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~1-day delivery ex-Mumbai."
   },
   "pune": {
-    "title": "Pune Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Pune: Engineering & Auto, Aerospace & Defence. ASME B16.5, 3.1 MTC, ~1-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Pune | Remax Forge",
+    "description": "Flanges & forged fittings for Pune's engineering and aerospace & defence units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~1-day delivery ex-Mumbai."
   },
   "thane": {
-    "title": "Industrial Flanges Supplier in Thane | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Thane: Petrochemical & Chemical, Engineering & Auto. ASME B16.5, 3.1 MTC, ~1-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Thane | Remax Forge",
+    "description": "Flanges & forged fittings for Thane's chemical and engineering units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~1-day delivery ex-Mumbai."
   },
   "imphal": {
-    "title": "Flange Manufacturer & Supplier in Imphal | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Imphal: Public Utilities & Water, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Imphal | Remax Forge",
+    "description": "Flanges & forged fittings for Imphal's water & utility and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "thoubal": {
-    "title": "Flanges & Forged Fittings Supplier in Thoubal | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Thoubal: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Thoubal | Remax Forge",
+    "description": "Flanges & forged fittings for Thoubal's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "bishnupur": {
-    "title": "Flanges & Fittings Supplier in Bishnupur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Bishnupur: Hydro Power & Water Infra, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Bishnupur | Remax Forge",
+    "description": "Flanges & forged fittings for Bishnupur's hydro power and power & boiler units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "kakching": {
-    "title": "Kakching Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Kakching: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Kakching | Remax Forge",
+    "description": "Flanges & forged fittings for Kakching's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "churachandpur": {
-    "title": "Flanges & Fittings Supplier in Churachandpur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Churachandpur: Hydro Power & Water Infra, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~10-day delivery ex-Mumbai."
+    "title": "Flange Supplier in Churachandpur | Remax Forge",
+    "description": "Flanges & forged fittings for Churachandpur's hydro power and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~10-day delivery ex-Mumbai."
   },
   "cherrapunji": {
-    "title": "Flange Manufacturer & Supplier in Cherrapunji | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Cherrapunji: Cement & Mining, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~8-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Cherrapunji | Remax Forge",
+    "description": "Flanges & forged fittings for Cherrapunji's cement & mining and water & utility units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~8-day delivery ex-Mumbai."
   },
   "nongpoh": {
-    "title": "Flanges & Forged Fittings Supplier in Nongpoh | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Nongpoh: Steel & Metals, Cement & Mining. ASME B16.5, 3.1 MTC, ~7-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Nongpoh | Remax Forge",
+    "description": "Flanges & forged fittings for Nongpoh's steel & metals and cement & mining units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~7-day delivery ex-Mumbai."
   },
   "shillong": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Shillong | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Shillong: Hydro Power & Water Infra, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~8-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Shillong | Remax Forge",
+    "description": "Flanges & forged fittings for Shillong's water & utility and hydro power units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~8-day delivery ex-Mumbai."
   },
   "tura": {
-    "title": "Tura Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Tura: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Tura | Remax Forge",
+    "description": "Flanges & forged fittings for Tura's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "williamnagar": {
-    "title": "Flanges & Fittings Supplier in Williamnagar | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Williamnagar: Cement & Mining, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Supplier in Williamnagar | Remax Forge",
+    "description": "Flanges & forged fittings for Williamnagar's cement & mining and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "aizawl": {
-    "title": "Flange Manufacturer & Supplier in Aizawl | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Aizawl: Public Utilities & Water, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Aizawl | Remax Forge",
+    "description": "Flanges & forged fittings for Aizawl's water & utility and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "champhai": {
-    "title": "Flanges & Forged Fittings Supplier in Champhai | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Champhai: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~10-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Champhai | Remax Forge",
+    "description": "Flanges & forged fittings for Champhai's water & utility and food & agro units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~10-day delivery ex-Mumbai."
   },
   "kolasib": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Kolasib | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Kolasib: Hydro Power & Water Infra, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Kolasib | Remax Forge",
+    "description": "Flanges & forged fittings for Kolasib's hydro power and food & agro units: A105, A350 LF2 (low-temp), ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "lunglei": {
-    "title": "Lunglei Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Lunglei: Public Utilities & Water, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~10-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Lunglei | Remax Forge",
+    "description": "Flanges & forged fittings for Lunglei's water & utility and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~10-day delivery ex-Mumbai."
   },
   "serchhip": {
-    "title": "Industrial Flanges Supplier in Serchhip | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Serchhip: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~10-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Serchhip | Remax Forge",
+    "description": "Flanges & forged fittings for Serchhip's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~10-day delivery ex-Mumbai."
   },
   "dimapur": {
-    "title": "Flange Manufacturer & Supplier in Dimapur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Dimapur: Engineering & Auto, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~8-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Dimapur | Remax Forge",
+    "description": "Flanges & forged fittings for Dimapur's engineering and food & agro units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~8-day delivery ex-Mumbai."
   },
   "kohima": {
-    "title": "Flanges & Forged Fittings Supplier in Kohima | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Kohima: Public Utilities & Water, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Kohima | Remax Forge",
+    "description": "Flanges & forged fittings for Kohima's water & utility and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "mokokchung": {
-    "title": "Flanges & Fittings Supplier in Mokokchung | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Mokokchung: Agro & Food Processing, Hydro Power & Water Infra. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Mokokchung | Remax Forge",
+    "description": "Flanges & forged fittings for Mokokchung's food & agro and hydro power units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "tuensang": {
-    "title": "Tuensang Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Tuensang: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~10-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Tuensang | Remax Forge",
+    "description": "Flanges & forged fittings for Tuensang's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~10-day delivery ex-Mumbai."
   },
   "wokha": {
-    "title": "Industrial Flanges Supplier in Wokha | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Wokha: Hydro Power & Water Infra, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Wokha | Remax Forge",
+    "description": "Flanges & forged fittings for Wokha's hydro power and food & agro units: A105, A350 LF2 (low-temp), ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "sambalpur": {
-    "title": "Flange Manufacturer & Supplier in Sambalpur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Sambalpur: Steel & Metals, Power & Boilers. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Sambalpur | Remax Forge",
+    "description": "Flanges & forged fittings for Sambalpur's steel & metals and power & boiler units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "rourkela": {
-    "title": "Flanges & Forged Fittings Supplier in Rourkela | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Rourkela: Steel & Metals, Fertilizers. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Rourkela | Remax Forge",
+    "description": "Flanges & forged fittings for Rourkela's steel & metals and fertilizer units: A105, A350 LF2, SS 304, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "berhampur": {
-    "title": "Flanges & Fittings Supplier in Berhampur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Berhampur: Steel & Metals, Ports & Marine. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Berhampur | Remax Forge",
+    "description": "Flanges & forged fittings for Berhampur's steel & metals and chemical units: A105, A350 LF2, SS 304, ASME B16.5, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "cuttack": {
-    "title": "Cuttack Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Cuttack: Engineering & Auto, Steel & Metals. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Cuttack | Remax Forge",
+    "description": "Flanges & forged fittings for Cuttack's steel & metals and engineering units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "bhubaneswar": {
-    "title": "Flanges & Fittings Supplier in Bhubaneswar | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Bhubaneswar: Oil & Gas (Refining), Engineering & Auto. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Bhubaneswar | Remax Forge",
+    "description": "Flanges & forged fittings for Bhubaneswar's water & utility and refinery units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "bathinda": {
-    "title": "Flange Manufacturer & Supplier in Bathinda | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Bathinda: Oil & Gas (Refining), Fertilizers. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Bathinda | Remax Forge",
+    "description": "Flanges & forged fittings for Bathinda's refinery and fertilizer units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "patiala": {
-    "title": "Flanges & Forged Fittings Supplier in Patiala | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Patiala: Engineering & Auto, Power & Boilers. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Patiala | Remax Forge",
+    "description": "Flanges & forged fittings for Patiala's foundry & forging and power & boiler units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "jalandhar": {
-    "title": "Flanges & Fittings Supplier in Jalandhar | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Jalandhar: Engineering & Auto, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Jalandhar | Remax Forge",
+    "description": "Flanges & forged fittings for Jalandhar's engineering and foundry & forging units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "amritsar": {
-    "title": "Amritsar Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Amritsar: Textiles & Process, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Amritsar | Remax Forge",
+    "description": "Flanges & forged fittings for Amritsar's textile and food & agro units: SS 304, A105, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "ludhiana": {
-    "title": "Industrial Flanges Supplier in Ludhiana | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Ludhiana: Engineering & Auto, Textiles & Process. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Ludhiana | Remax Forge",
+    "description": "Flanges & forged fittings for Ludhiana's engineering and foundry & forging units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "bikaner": {
-    "title": "Flange Manufacturer & Supplier in Bikaner | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Bikaner: Agro & Food Processing, Cement & Mining. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Bikaner | Remax Forge",
+    "description": "Flanges & forged fittings for Bikaner's textile and food & agro units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "ajmer": {
-    "title": "Flanges & Forged Fittings Supplier in Ajmer | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Ajmer: Cement & Mining, Railways & Heavy Fabrication. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Ajmer | Remax Forge",
+    "description": "Flanges & forged fittings for Ajmer's cement & mining and railway & fabrication units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "kota": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Kota | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Kota: Fertilizers, Power & Boilers. ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery from Mumbai. Quote in 30 minutes."
+    "title": "Flange Manufacturer & Supplier for Kota | Remax Forge",
+    "description": "Flanges & forged fittings for Kota's fertilizer and power & boiler units: SS 316L, Alloy 20, Duplex, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "jodhpur": {
-    "title": "Jodhpur Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Jodhpur: Agro & Food Processing, Engineering & Auto. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Jodhpur | Remax Forge",
+    "description": "Flanges & forged fittings for Jodhpur's food & agro and steel & metals units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "jaipur": {
-    "title": "Industrial Flanges Supplier in Jaipur | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Jaipur: Engineering & Auto, Textiles & Process. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Jaipur | Remax Forge",
+    "description": "Flanges & forged fittings for Jaipur's engineering and textile units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "udaipur-rajasthan": {
-    "title": "Flange Supplier in Udaipur, Rajasthan | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Udaipur (Rajasthan): Steel & Metals, Cement & Mining. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Udaipur | Remax Forge",
+    "description": "Flanges & forged fittings for Udaipur's steel & metals and cement & mining units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "mangan": {
-    "title": "Flanges & Forged Fittings Supplier in Mangan | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Mangan: Hydro Power & Water Infra, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~7-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Mangan | Remax Forge",
+    "description": "Flanges & forged fittings for Mangan's hydro power and water & utility units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~7-day delivery ex-Mumbai."
   },
   "geyzing": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Geyzing | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Geyzing: Hydro Power & Water Infra, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~7-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Geyzing | Remax Forge",
+    "description": "Flanges & forged fittings for Geyzing's hydro power and water & utility units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~7-day delivery ex-Mumbai."
   },
   "namchi": {
-    "title": "Namchi Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Namchi: Pharma & Biotech, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~7-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Namchi | Remax Forge",
+    "description": "Flanges & forged fittings for Namchi's pharma and water & utility units: SS 316L/304L, ASME B16.5, EN 10204 3.1 MTC, ~7-day delivery ex-Mumbai."
   },
   "jorethang": {
-    "title": "Flanges & Fittings Supplier in Jorethang | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Jorethang: Pharma & Biotech, Hydro Power & Water Infra. ASME B16.5, 3.1 MTC, ~7-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Jorethang | Remax Forge",
+    "description": "Flanges & forged fittings for Jorethang's pharma and hydro power units: SS 316L/304L, ASME B16.5, EN 10204 3.1 MTC, ~7-day delivery ex-Mumbai."
   },
   "gangtok": {
-    "title": "Flange Manufacturer & Supplier in Gangtok | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Gangtok: Pharma & Biotech, Hydro Power & Water Infra. ASME B16.5, 3.1 MTC, ~6-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Gangtok | Remax Forge",
+    "description": "Flanges & forged fittings for Gangtok's pharma and hydro power units: SS 316L/304L, ASME B16.5, EN 10204 3.1 MTC, ~6-day delivery ex-Mumbai."
   },
   "salem": {
-    "title": "Flanges & Forged Fittings Supplier in Salem | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Salem: Steel & Metals, Cement & Mining. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Salem | Remax Forge",
+    "description": "Flanges & forged fittings for Salem's steel & metals and cement & mining units: A105, A350 LF2, SS 304, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "tiruchirappalli": {
-    "title": "Flanges & Fittings Supplier in Tiruchirappalli | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Tiruchirappalli: Power & Boilers, Engineering & Auto. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Supplier in Tiruchirappalli | Remax Forge",
+    "description": "Flanges & forged fittings for Tiruchirappalli's power & boiler and aerospace & defence units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "madurai": {
-    "title": "Madurai Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Madurai: Agro & Food Processing, Engineering & Auto. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Madurai | Remax Forge",
+    "description": "Flanges & forged fittings for Madurai's food & agro and cement & mining units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "coimbatore": {
-    "title": "Flanges & Fittings Supplier in Coimbatore | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Coimbatore: Engineering & Auto, Textiles & Process. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Coimbatore | Remax Forge",
+    "description": "Flanges & forged fittings for Coimbatore's engineering and foundry & forging units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "chennai": {
-    "title": "Flange Manufacturer & Supplier in Chennai | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Chennai: Oil & Gas (Refining), Engineering & Auto. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Chennai | Remax Forge",
+    "description": "Flanges & forged fittings for Chennai's refinery and chemical units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "hyderabad": {
-    "title": "Flanges & Fittings Supplier in Hyderabad | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Hyderabad: Pharma & Biotech, Power & Boilers. ASME B16.5, 3.1 MTC, ~2-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Hyderabad | Remax Forge",
+    "description": "Flanges & forged fittings for Hyderabad's pharma and power & boiler units: SS 316L/304L, ASME B16.5, EN 10204 3.1 MTC, ~2-day delivery ex-Mumbai."
   },
   "warangal": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Warangal | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Warangal: Textiles & Process, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Warangal | Remax Forge",
+    "description": "Flanges & forged fittings for Warangal's textile and food & agro units: SS 304, A105, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "nizamabad": {
-    "title": "Nizamabad Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Nizamabad: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Nizamabad | Remax Forge",
+    "description": "Flanges & forged fittings for Nizamabad's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "khammam": {
-    "title": "Industrial Flanges Supplier in Khammam | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Khammam: Cement & Mining, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Khammam | Remax Forge",
+    "description": "Flanges & forged fittings for Khammam's cement & mining and food & agro units: A105, Hardox 400/450, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "ramagundam": {
-    "title": "Flange Manufacturer & Supplier in Ramagundam | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Ramagundam: Power & Boilers, Fertilizers. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Ramagundam | Remax Forge",
+    "description": "Flanges & forged fittings for Ramagundam's power & boiler and cement & mining units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "kailashahar": {
-    "title": "Flanges & Fittings Supplier in Kailashahar | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Kailashahar: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Kailashahar | Remax Forge",
+    "description": "Flanges & forged fittings for Kailashahar's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "belonia": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Belonia | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Belonia: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Belonia | Remax Forge",
+    "description": "Flanges & forged fittings for Belonia's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "dharmanagar": {
-    "title": "Dharmanagar Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Dharmanagar: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Dharmanagar | Remax Forge",
+    "description": "Flanges & forged fittings for Dharmanagar's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "udaipur-tripura": {
-    "title": "Flange Supplier in Udaipur, Tripura | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Udaipur (Tripura): Power & Boilers, Oil & Gas (Upstream). ASME B16.5, 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Udaipur | Remax Forge",
+    "description": "Flanges & forged fittings for Udaipur's power & boiler and food & agro units: A105, F11/F22/F91 (IBR), ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "agartala": {
-    "title": "Flange Manufacturer & Supplier in Agartala | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Agartala: Oil & Gas (Upstream), Power & Boilers. ASME B16.5, 3.1 MTC, ~8-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Agartala | Remax Forge",
+    "description": "Flanges & forged fittings for Agartala's oil & gas field and power & boiler units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~8-day delivery ex-Mumbai."
   },
   "varanasi": {
-    "title": "Flanges & Forged Fittings Supplier in Varanasi | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Varanasi: Railways & Heavy Fabrication, Textiles & Process. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Varanasi | Remax Forge",
+    "description": "Flanges & forged fittings for Varanasi's railway & fabrication and textile units: A105, SS 304, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "agra": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Agra | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Agra: Engineering & Auto, Agro & Food Processing. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Agra | Remax Forge",
+    "description": "Flanges & forged fittings for Agra's foundry & forging and food & agro units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "ghaziabad": {
-    "title": "Ghaziabad Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Ghaziabad: Engineering & Auto, Steel & Metals. ASME B16.5, 3.1 MTC, ~3-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Ghaziabad | Remax Forge",
+    "description": "Flanges & forged fittings for Ghaziabad's engineering and steel & metals units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~3-day delivery ex-Mumbai."
   },
   "lucknow": {
-    "title": "Industrial Flanges Supplier in Lucknow | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Lucknow: Aerospace & Defence, Engineering & Auto. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Lucknow | Remax Forge",
+    "description": "Flanges & forged fittings for Lucknow's aerospace & defence and water & utility units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "kanpur": {
-    "title": "Flange Manufacturer & Supplier in Kanpur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Kanpur: Aerospace & Defence, Engineering & Auto. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Kanpur | Remax Forge",
+    "description": "Flanges & forged fittings for Kanpur's aerospace & defence and chemical units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "rishikesh": {
-    "title": "Flanges & Fittings Supplier in Rishikesh | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Rishikesh: Hydro Power & Water Infra, Pharma & Biotech. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Rishikesh | Remax Forge",
+    "description": "Flanges & forged fittings for Rishikesh's hydro power and pharma units: A105, A350 LF2 (low-temp), ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "haldwani": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Haldwani | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Haldwani: Agro & Food Processing, Cement & Mining. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Haldwani | Remax Forge",
+    "description": "Flanges & forged fittings for Haldwani's food & agro and cement & mining units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "roorkee": {
-    "title": "Roorkee Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Roorkee: Engineering & Auto, Pharma & Biotech. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Roorkee | Remax Forge",
+    "description": "Flanges & forged fittings for Roorkee's engineering and pharma units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "haridwar": {
-    "title": "Industrial Flanges Supplier in Haridwar | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Haridwar: Power & Boilers, Engineering & Auto. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Haridwar | Remax Forge",
+    "description": "Flanges & forged fittings for Haridwar's power & boiler and engineering units: A105, F11/F22/F91 (IBR), ASME B16.5, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "dehradun": {
-    "title": "Flange Manufacturer & Supplier in Dehradun | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Dehradun: Oil & Gas (Upstream), Pharma & Biotech. ASME B16.5, 3.1 MTC, ~4-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Dehradun | Remax Forge",
+    "description": "Flanges & forged fittings for Dehradun's oil & gas field and pharma units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~4-day delivery ex-Mumbai."
   },
   "siliguri": {
-    "title": "Flanges & Forged Fittings Supplier in Siliguri | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Siliguri: Agro & Food Processing, Public Utilities & Water. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Siliguri | Remax Forge",
+    "description": "Flanges & forged fittings for Siliguri's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "durgapur": {
-    "title": "ASME B16.5 Flanges & Pipe Fittings in Durgapur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Durgapur: Steel & Metals, Power & Boilers. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Durgapur | Remax Forge",
+    "description": "Flanges & forged fittings for Durgapur's steel & metals and power & boiler units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "asansol": {
-    "title": "Asansol Flange & Forged Fittings Supplier | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Asansol: Steel & Metals, Railways & Heavy Fabrication. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Asansol | Remax Forge",
+    "description": "Flanges & forged fittings for Asansol's steel & metals and cement & mining units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "kolkata": {
-    "title": "Industrial Flanges Supplier in Kolkata | ASME B16.5 | Remax",
-    "description": "ISO-certified flanges & forged fittings for Kolkata: Engineering & Auto, Ports & Marine. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. 30-min quote."
+    "title": "Flange Manufacturer & Supplier for Kolkata | Remax Forge",
+    "description": "Flanges & forged fittings for Kolkata's foundry & forging and engineering units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "kharagpur": {
-    "title": "Flange Manufacturer & Supplier in Kharagpur | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Kharagpur: Railways & Heavy Fabrication, Steel & Metals. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai."
+    "title": "Flange Manufacturer & Supplier for Kharagpur | Remax Forge",
+    "description": "Flanges & forged fittings for Kharagpur's railway & fabrication and foundry & forging units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   },
   "howrah": {
-    "title": "Flanges & Fittings Supplier in Howrah | Remax Forge",
-    "description": "ISO-certified flanges & forged fittings for Howrah engineering, foundry & marine units. ASME B16.5, 3.1 MTC, ~5-day delivery ex-Mumbai. Get a fast quote."
+    "title": "Flange Manufacturer & Supplier for Howrah | Remax Forge",
+    "description": "Flanges & forged fittings for Howrah's engineering and foundry & forging units. ASME B16.5/B16.11, EN 10204 3.1 MTC, ~5-day delivery ex-Mumbai."
   }
 };

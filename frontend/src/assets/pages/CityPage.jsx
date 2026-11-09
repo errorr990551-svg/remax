@@ -182,7 +182,7 @@ const CityPage = () => {
                 style={{ backgroundColor: '#D71920' }}
               >
                 <div className="text-4xl md:text-5xl font-extrabold mb-1">ISO</div>
-                <div className="text-sm font-medium opacity-90 leading-tight">9001:2015 Certified Excellence</div>
+                <div className="text-sm font-medium opacity-90 leading-tight">ISO 9001:2015 Certified Works</div>
               </div>
             </div>
             <div className="space-y-8">
@@ -202,7 +202,7 @@ const CityPage = () => {
                   ISO 9001:2015 Certified Quality & Material Testing
                 </h2>
                 <p className="text-slate-600 leading-relaxed text-sm md:text-base text-left">
-                  At Remax Forge & Fittings, compliance and precision are non-negotiable. To ensure 100% reliability in high-pressure steam, oil and gas, and chemical utilities, all piping hardware is manufactured under a certified ISO 9001:2015 quality management system in our Mumbai facility. Before dispatching any order to {data.city}, every item undergoes rigorous destructive and non-destructive quality testing. This includes Positive Material Identification (PMI), hydrostatic pressure testing, ultrasonic flaws checks, and dimensional audits to ASME B16.5, B16.47, and B16.11 standards. Every dispatch is accompanied by an EN 10204 3.1 Mill Test Certificate (MTC), dimensional reports, and compliance docs.
+                  At Remax Forge & Fittings, every order is built to the governing standard. For high-pressure steam, oil and gas, and chemical utilities, all piping hardware is manufactured under a certified ISO 9001:2015 quality management system in our Mumbai facility. Before dispatching any order to {data.city}, every item undergoes rigorous destructive and non-destructive quality testing. This includes Positive Material Identification (PMI), hydrostatic pressure testing, ultrasonic flaw detection, and dimensional audits to ASME B16.5, B16.47, and B16.11 standards. Every dispatch is accompanied by an EN 10204 3.1 Mill Test Certificate (MTC), dimensional reports, and compliance docs.
                 </p>
               </div>
               
@@ -235,7 +235,7 @@ const CityPage = () => {
                     <h3 className="text-lg font-bold text-[#0F172A] pt-2">Industrial areas we deliver to</h3>
                     <ul className="space-y-2">
                       {data.localGuide.areas.map((area) => (
-                        <li key={area.name} className="flex items-start gap-2"><CheckCircle2 size={16} className="text-[#D71920] shrink-0 mt-1" /><span><strong className="text-slate-800">{area.name}</strong>: {area.note}</span></li>
+                        <li key={area.name} className="flex items-start gap-2"><CheckCircle2 size={16} className="text-[#D71920] shrink-0 mt-1" /><span><strong className="text-slate-800">{area.name}</strong>{area.note && <>: {area.note}</>}</span></li>
                       ))}
                     </ul>
                   </>
@@ -277,7 +277,7 @@ const CityPage = () => {
               PREMIUM SOLUTIONS IN {data.city.toUpperCase()}
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-4">
-              Premium Forging Solutions
+              Flanges & Forged Fittings We Supply
             </h2>
             <div className="h-1 w-20 mx-auto rounded" style={{ backgroundColor: '#D71920' }}></div>
           </div>
@@ -339,17 +339,17 @@ const CityPage = () => {
               Why Choose Remax Forge & Fittings in {data.city}?
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6">
-              Engineering The Extraordinary through Precision & Compliance
+              Why Buyers Choose Remax Forge & Fittings
             </h2>
             <div className="h-1 w-20 mx-auto rounded" style={{ backgroundColor: '#D71920' }}></div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { title: "ISO 9001:2015 Certified", desc: "Unlike standard suppliers, Remax Forge & Fittings operates a certified zero-defect manufacturing unit. We are premier Flanges Manufacturers, ensuring every component meets the stringent safety regulations. Our in-house testing lab conducts: Hydrostatic & Ultrasonic Testing, Positive Material Identification (PMI), Radiography & Magnetic Particle Inspection." },
-              { title: "Advanced CNC Precision", desc: "While competitors offer standard sizes, we excel in Custom Forging Solutions. Using state-of-the-art CNC machinery and forging hammers, we maintain tight tolerances for High-Pressure Forged Fittings (2000#, 3000#, 6000#, and 9000#) and Specialized Flange Faces (RTJ, Tongue & Groove, Male-Female)." },
-              { title: "Global Export Footprint", desc: "As a leading Flanges Exporter in India, we have perfected our logistics to serve over 45 countries, including the UAE, USA, and Saudi Arabia. Our strategic inventory management allows us to offer the shortest lead times in the industry." },
-              { title: "Technical Consultancy", desc: "We don't just sell fittings; we provide engineering solutions. Our team of experts assists you in selecting the correct pressure ratings and material grades to prevent corrosion and system failure in extreme environments." }
+              { title: "ISO 9001:2015 Certified", desc: "Flanges and forged fittings are made under an ISO 9001:2015 quality system at our Mumbai works. Alloy and stainless lots get 100% PMI, and hydrostatic, ultrasonic, radiography and magnetic particle testing are available on request. Every dispatch ships with an EN 10204 3.1 MTC." },
+              { title: "CNC Machining & Custom Parts", desc: "CNC machining and in-house forging cover standard and drawing-based parts: forged fittings in 2000#, 3000#, 6000# and 9000#, and flange faces in RF, FF, RTJ, tongue & groove and male-female." },
+              { title: "Global Export Footprint", desc: "We export to 45+ countries, including the UAE, USA and Saudi Arabia. Common sizes and grades are held in stock, so ex-stock orders are dispatched within 24–48 hours." },
+              { title: "Technical Consultancy", desc: "Our team helps you pick the pressure class, material grade and face type for your service conditions. You are welcome to audit the Mumbai works in person or by video before ordering." }
             ].map((item, index) => {
               const icons = [<Award size={40} />, <Factory size={40} />, <Globe size={40} />, <PenTool size={40} />];
               return (
