@@ -111,7 +111,7 @@ const PipeDimensions = () => {
             View ASME B16.5 and B16.47 flange bolt circle, raised face, and hub dimensions.
           </p>
           <Link
-            to="/tech-info/dimensions/"
+            to="/tech-info/dimension-chart/"
             className="inline-flex items-center gap-2 text-[#D71920] font-bold text-xs uppercase tracking-wider hover:underline"
           >
             Switch to Flange Dimension Charts <FileText className="w-4 h-4" />

@@ -34515,12 +34515,12 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in udaipur",
     "secondaryKeywords": "flange manufacturer in Udaipur; forged fittings supplier Udaipur; ASME B16.5 flanges Udaipur; pipe fittings Udaipur; IBR fittings Udaipur",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Udaipur | Remax Forge",
-      "description": "Flanges & forged fittings for Udaipur's power & boiler and food & agro units: A105, F11/F22/F91 (IBR), ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai.",
+      "title": "Flange Supplier for Udaipur, Tripura | Remax Forge",
+      "description": "Flanges & forged fittings for Udaipur, Tripura's power and agro units: A105, F11/F22/F91 (IBR), ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai.",
       "keywords": "flange manufacturer in Udaipur; forged fittings supplier Udaipur; ASME B16.5 flanges Udaipur; pipe fittings Udaipur; IBR fittings Udaipur"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Udaipur",
+      "h1": "Flange Manufacturer & Supplier for Udaipur, Tripura",
       "subheadline": "Flanges, butt-weld and forged fittings for Udaipur's power & boiler, food & agro and oil & gas field units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 9 days, with EN 10204 3.1 certificates.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Udaipur",
       "highlights": [

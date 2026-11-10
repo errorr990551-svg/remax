@@ -235,10 +235,6 @@ const StateHubPage = ({ forcedKey }) => {
                 ) : (
                   <>
                     <option value="/itanagar/">Itanagar (Capital Complex)</option>
-                    <option value="/naharlagun/">Naharlagun (Hospital & Rail Head)</option>
-                    <option value="/pasighat/">Pasighat (East Siang Water Schemes)</option>
-                    <option value="/tawang/">Tawang (Defence & BRO Cold Service)</option>
-                    <option value="/ziro/">Ziro (Hydro Auxiliaries & Water Networks)</option>
                   </>
                 )}
               </select>
@@ -267,18 +263,6 @@ const StateHubPage = ({ forcedKey }) => {
               }
               if (hLower.includes('itanagar')) {
                 cityLinks.push({ name: 'Itanagar City Page', url: '/itanagar/' });
-              }
-              if (hLower.includes('naharlagun')) {
-                cityLinks.push({ name: 'Naharlagun City Page', url: '/naharlagun/' });
-              }
-              if (hLower.includes('pasighat')) {
-                cityLinks.push({ name: 'Pasighat City Page', url: '/pasighat/' });
-              }
-              if (hLower.includes('tawang')) {
-                cityLinks.push({ name: 'Tawang City Page', url: '/tawang/' });
-              }
-              if (hLower.includes('ziro')) {
-                cityLinks.push({ name: 'Ziro City Page', url: '/ziro/' });
               }
 
               return (

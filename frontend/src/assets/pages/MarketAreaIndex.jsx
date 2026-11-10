@@ -43,10 +43,6 @@ const MarketAreaIndex = () => {
       hubUrl: "/market-area/arunachal-pradesh/",
       cities: [
         { name: "Itanagar", path: "/itanagar/" },
-        { name: "Naharlagun", path: "/naharlagun/" },
-        { name: "Pasighat", path: "/pasighat/" },
-        { name: "Tawang", path: "/tawang/" },
-        { name: "Ziro", path: "/ziro/" },
       ]
     },
     {
@@ -304,10 +300,6 @@ const MarketAreaIndex = () => {
                 <optgroup label="Arunachal Pradesh (Active Hub & Cities)">
                   <option value="/market-area/arunachal-pradesh/">All Arunachal Pradesh Hub</option>
                   <option value="/itanagar/">Itanagar (Capital Complex)</option>
-                  <option value="/naharlagun/">Naharlagun (Hospital & Rail Head)</option>
-                  <option value="/pasighat/">Pasighat (East Siang Water Schemes)</option>
-                  <option value="/tawang/">Tawang (Defence & BRO Cold Service)</option>
-                  <option value="/ziro/">Ziro (Hydro Auxiliaries & Water Networks)</option>
                 </optgroup>
               </select>
             </div>

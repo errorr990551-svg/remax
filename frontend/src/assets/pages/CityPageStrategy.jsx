@@ -564,10 +564,6 @@ const CityPageStrategy = ({ forcedKey }) => {
                 <div className="flex flex-wrap gap-2">
                   {[
                     { name: 'Itanagar', url: '/itanagar/' },
-                    { name: 'Naharlagun', url: '/naharlagun/' },
-                    { name: 'Pasighat', url: '/pasighat/' },
-                    { name: 'Tawang', url: '/tawang/' },
-                    { name: 'Ziro', url: '/ziro/' },
                     { name: 'Arunachal Pradesh State Hub', url: '/market-area/arunachal-pradesh/' }
                   ].filter(c => c.name !== pageData.city && !pageData.city.includes(c.name)).map((item, cIdx) => (
                     <Link

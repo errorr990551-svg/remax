@@ -7,7 +7,7 @@ const DimensionChart = () => {
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
         title="Pipe Dimension Chart & Schedule Table | Remax Forge"
-        description={'Access our comprehensive Pipe Dimension Chart covering sizes from 1/8" to 24". Detailed technical data on Outside Diameter, Wall Thickness, and Weight for Schedules 5S to XXS in Stainless & Carbon Steel.'}
+        description={'Pipe dimension chart, 1/8" to 24": outside diameter, wall thickness and weight for Schedules 5S to XXS in stainless and carbon steel.'}
         keywords="Pipe Dimension Chart, ASME B36.10 Pipe Sizes, Stainless Steel Pipe Schedule Table, Nominal Pipe Size (NPS) Chart, Pipe Wall Thickness Table, Schedule 40 Pipe Dimensions, XXS Pipe Weight Chart, Remax Forge Technical Specifications."
       />
       {/* Breadcrumb Header */}

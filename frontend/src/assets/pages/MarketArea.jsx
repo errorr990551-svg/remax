@@ -19,10 +19,6 @@ const MarketArea = () => {
       name: "ARUNACHAL PRADESH",
       cities: [
         { name: "Itanagar", path: "/itanagar/" },
-        { name: "Naharlagun", path: "/naharlagun/" },
-        { name: "Pasighat", path: "/pasighat/" },
-        { name: "Tawang", path: "/tawang/" },
-        { name: "Ziro", path: "/ziro/" },
       ]
     },
     {

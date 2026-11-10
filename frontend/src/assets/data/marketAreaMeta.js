@@ -457,8 +457,8 @@ export const marketAreaMeta = {
     "description": "Flanges & forged fittings for Dharmanagar's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "udaipur-tripura": {
-    "title": "Flange Manufacturer & Supplier for Udaipur | Remax Forge",
-    "description": "Flanges & forged fittings for Udaipur's power & boiler and food & agro units: A105, F11/F22/F91 (IBR), ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
+    "title": "Flange Supplier for Udaipur, Tripura | Remax Forge",
+    "description": "Flanges & forged fittings for Udaipur, Tripura's power and agro units: A105, F11/F22/F91 (IBR), ASME B16.5, EN 10204 3.1 MTC, ~9-day delivery ex-Mumbai."
   },
   "agartala": {
     "title": "Flange Manufacturer & Supplier for Agartala | Remax Forge",

@@ -650,12 +650,12 @@ export const sheet4MetaData = {
     "h1": "Slip-On Flange for Water Infrastructure Industry"
   },
   "/products/flanges/slip-on-flange-for-power-generation/": {
-    "title": "Slip-On Flange for Power Generation | ASME B16.5 SORF | Remax",
+    "title": "Slip-On Flange for Power Generation | ASME B16.5 | Remax",
     "description": "Forged slip-on flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Slip-On Flange for Power Generation Industry"
   },
   "/products/flanges/slip-on-flange-for-power-generation": {
-    "title": "Slip-On Flange for Power Generation | ASME B16.5 SORF | Remax",
+    "title": "Slip-On Flange for Power Generation | ASME B16.5 | Remax",
     "description": "Forged slip-on flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Slip-On Flange for Power Generation Industry"
   },
@@ -690,12 +690,12 @@ export const sheet4MetaData = {
     "h1": "Socket Weld Flange for Chemical Processing Industry"
   },
   "/products/flanges/threaded-flange-for-water-infrastructure/": {
-    "title": "Threaded Flange for Water Infrastructure | ASME B16.5 | Remax",
+    "title": "Threaded Flange for Water Infrastructure | Remax Forge",
     "description": "Forged threaded flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Threaded Flange for Water Infrastructure Industry"
   },
   "/products/flanges/threaded-flange-for-water-infrastructure": {
-    "title": "Threaded Flange for Water Infrastructure | ASME B16.5 | Remax",
+    "title": "Threaded Flange for Water Infrastructure | Remax Forge",
     "description": "Forged threaded flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Threaded Flange for Water Infrastructure Industry"
   },
@@ -730,22 +730,22 @@ export const sheet4MetaData = {
     "h1": "Lap Joint Flange for Petrochemical Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-oil-and-gas/": {
-    "title": "Spectacle Blind Flange for Oil & Gas | ASME B16.5 SPEC | Remax",
+    "title": "Spectacle Blind Flange for Oil & Gas | ASME B16.5 | Remax",
     "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Spectacle Blind Flange for Oil & Gas Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-oil-and-gas": {
-    "title": "Spectacle Blind Flange for Oil & Gas | ASME B16.5 SPEC | Remax",
+    "title": "Spectacle Blind Flange for Oil & Gas | ASME B16.5 | Remax",
     "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Spectacle Blind Flange for Oil & Gas Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-petrochemical/": {
-    "title": "Spectacle Blind Flange for Petrochemical | ASME B16.5 | Remax",
+    "title": "Spectacle Blind Flange for Petrochemical | Remax Forge",
     "description": "Forged spectacle blind flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Spectacle Blind Flange for Petrochemical Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-petrochemical": {
-    "title": "Spectacle Blind Flange for Petrochemical | ASME B16.5 | Remax",
+    "title": "Spectacle Blind Flange for Petrochemical | Remax Forge",
     "description": "Forged spectacle blind flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Spectacle Blind Flange for Petrochemical Industry"
   },
@@ -770,12 +770,12 @@ export const sheet4MetaData = {
     "h1": "RTJ Flange (Ring Type Joint) for Oil & Gas Industry"
   },
   "/products/flanges/rtj-flange-ring-type-joint-for-petrochemical/": {
-    "title": "RTJ Flange (Ring Type Joint) for Petrochemical | ASME | Remax",
+    "title": "RTJ Flange (Ring Type Joint) for Petrochemical | Remax",
     "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Petrochemical Industry"
   },
   "/products/flanges/rtj-flange-ring-type-joint-for-petrochemical": {
-    "title": "RTJ Flange (Ring Type Joint) for Petrochemical | ASME | Remax",
+    "title": "RTJ Flange (Ring Type Joint) for Petrochemical | Remax",
     "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Petrochemical Industry"
   },
@@ -790,12 +790,12 @@ export const sheet4MetaData = {
     "h1": "Socket Weld Flange for Power Generation Industry"
   },
   "/products/flanges/lap-joint-flange-for-water-infrastructure/": {
-    "title": "Lap Joint Flange for Water Infrastructure | ASME B16.5 | Remax",
+    "title": "Lap Joint Flange for Water Infrastructure | Remax Forge",
     "description": "Forged lap joint flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Lap Joint Flange for Water Infrastructure Industry"
   },
   "/products/flanges/lap-joint-flange-for-water-infrastructure": {
-    "title": "Lap Joint Flange for Water Infrastructure | ASME B16.5 | Remax",
+    "title": "Lap Joint Flange for Water Infrastructure | Remax Forge",
     "description": "Forged lap joint flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
     "h1": "Lap Joint Flange for Water Infrastructure Industry"
   },
@@ -961,22 +961,22 @@ export const sheet4MetaData = {
   },
   "/blogs/class-150-vs-class-300-flange/": {
     "title": "Class 150 vs Class 300 Flange — What Changes | Remax Forge",
-    "description": "Class 150 vs Class 300 flanges compared: pressure-temperature ratings, wall thickness, bolt count, weight and cost per ASME B16.5, plus when to specify each class.",
+    "description": "Class 150 vs Class 300 flanges compared: pressure-temperature ratings, wall thickness, bolt count, weight and cost per ASME B16.5, and when to specify each.",
     "h1": "Class 150 vs Class 300 Flange — What Changes"
   },
   "/blogs/class-150-vs-class-300-flange": {
     "title": "Class 150 vs Class 300 Flange — What Changes | Remax Forge",
-    "description": "Class 150 vs Class 300 flanges compared: pressure-temperature ratings, wall thickness, bolt count, weight and cost per ASME B16.5, plus when to specify each class.",
+    "description": "Class 150 vs Class 300 flanges compared: pressure-temperature ratings, wall thickness, bolt count, weight and cost per ASME B16.5, and when to specify each.",
     "h1": "Class 150 vs Class 300 Flange — What Changes"
   },
   "/blogs/socket-weld-vs-threaded-flange/": {
     "title": "Socket Weld vs Threaded Flange — Strength & Application",
-    "description": "Socket weld vs threaded flanges: strength, leak risk, fatigue and NPS limits per ASME B16.5, and which to choose for high-pressure, vibrating or flammable service.",
+    "description": "Socket weld vs threaded flanges: strength, leak risk, fatigue and NPS limits per ASME B16.5, and which suits high-pressure, vibrating or flammable service.",
     "h1": "Socket Weld vs Threaded Flange — Strength & Application"
   },
   "/blogs/socket-weld-vs-threaded-flange": {
     "title": "Socket Weld vs Threaded Flange — Strength & Application",
-    "description": "Socket weld vs threaded flanges: strength, leak risk, fatigue and NPS limits per ASME B16.5, and which to choose for high-pressure, vibrating or flammable service.",
+    "description": "Socket weld vs threaded flanges: strength, leak risk, fatigue and NPS limits per ASME B16.5, and which suits high-pressure, vibrating or flammable service.",
     "h1": "Socket Weld vs Threaded Flange — Strength & Application"
   },
   "/blogs/lap-joint-vs-weld-neck-flange/": {
@@ -1010,12 +1010,12 @@ export const sheet4MetaData = {
     "h1": "Blind Flange vs Blank Flange — Is There a Difference"
   },
   "/products/flanges/non-porous-lined-blind-flange/": {
-    "title": "Non-Porous & Lined Blind Flanges for Corrosive Service | Remax",
+    "title": "Non-Porous & Lined Blind Flanges for Corrosive Duty | Remax",
     "description": "Non-Porous & Lined Blind Flanges for Corrosive Service. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "Non-Porous & Lined Blind Flanges for Corrosive Service"
   },
   "/products/flanges/non-porous-lined-blind-flange": {
-    "title": "Non-Porous & Lined Blind Flanges for Corrosive Service | Remax",
+    "title": "Non-Porous & Lined Blind Flanges for Corrosive Duty | Remax",
     "description": "Non-Porous & Lined Blind Flanges for Corrosive Service. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
     "h1": "Non-Porous & Lined Blind Flanges for Corrosive Service"
   },
