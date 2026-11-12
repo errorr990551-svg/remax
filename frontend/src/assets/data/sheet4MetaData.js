@@ -277,12 +277,12 @@ export const sheet4MetaData = {
   },
   "/buttweld-fittings-exporter-india/": {
     "title": "Buttweld Fittings Exporter India | ASME B16.9 | Remax",
-    "description": "Premier Indian exporter of ASME B16.9 seamless buttweld elbows, tees, and reducers. Serving oil & gas, refineries, and EPC clients in USA, UAE, and Europe.",
+    "description": "ASME B16.9 elbows, tees, reducers and caps exported from Mumbai to 45+ countries with EN 10204 3.1 MTC. Send your MTO for an FOB or CIF quote within 30 minutes.",
     "h1": "Buttweld Fittings Exporter India"
   },
   "/pipe-fittings-manufacturer-india/": {
     "title": "Pipe Fittings Manufacturer in India | Remax Forge",
-    "description": "Leading ISO 9001 manufacturer of buttweld and forged pipe fittings in Mumbai, India. Exporting ASTM A234 WPB, SS 316, and Duplex fittings to 45+ countries.",
+    "description": "Buy flanges, buttweld and forged fittings direct from an ISO 9001 manufacturer in Mumbai. A105, SS 316L, duplex, F91; ex-stock in 24–48 h. Get a written quote.",
     "h1": "Pipe Fittings Manufacturer in India"
   },
   "/mumbai/": {
@@ -1267,12 +1267,12 @@ export const sheet4MetaData = {
   },
   "/oil-gas-pipe-fittings/": {
     "title": "Oil & Gas Pipe Fittings & Flanges | NACE MR0175 | Remax",
-    "description": "Forged fittings and flanges for upstream and downstream oil & gas projects. Sour service (NACE MR0175) and high-yield alloys in stock. Fast RFQ quotes.",
+    "description": "Flanges and fittings for oil & gas: Class 150–2500, NACE MR0175 sour service, duplex and F91. EN 10204 3.1/3.2 MTC. Send your MTO for a written quote in 30 min.",
     "h1": "Oil & Gas Pipe Fittings & Flanges"
   },
   "/oil-gas-pipe-fittings": {
     "title": "Oil & Gas Pipe Fittings & Flanges | NACE MR0175 | Remax",
-    "description": "Forged fittings and flanges for upstream and downstream oil & gas projects. Sour service (NACE MR0175) and high-yield alloys in stock. Fast RFQ quotes.",
+    "description": "Flanges and fittings for oil & gas: Class 150–2500, NACE MR0175 sour service, duplex and F91. EN 10204 3.1/3.2 MTC. Send your MTO for a written quote in 30 min.",
     "h1": "Oil & Gas Pipe Fittings & Flanges"
   },
   "/tech-info/pipe-dimensions/": {
@@ -1297,12 +1297,12 @@ export const sheet4MetaData = {
   },
   "/pipe-fittings-manufacturer-india": {
     "title": "Pipe Fittings Manufacturer in India | Remax Forge",
-    "description": "Leading ISO 9001 manufacturer of buttweld and forged pipe fittings in Mumbai, India. Exporting ASTM A234 WPB, SS 316, and Duplex fittings to 45+ countries.",
+    "description": "Buy flanges, buttweld and forged fittings direct from an ISO 9001 manufacturer in Mumbai. A105, SS 316L, duplex, F91; ex-stock in 24–48 h. Get a written quote.",
     "h1": "Pipe Fittings Manufacturer in India"
   },
   "/buttweld-fittings-exporter-india": {
     "title": "Buttweld Fittings Exporter India | ASME B16.9 | Remax",
-    "description": "Premier Indian exporter of ASME B16.9 seamless buttweld elbows, tees, and reducers. Serving oil & gas, refineries, and EPC clients in USA, UAE, and Europe.",
+    "description": "ASME B16.9 elbows, tees, reducers and caps exported from Mumbai to 45+ countries with EN 10204 3.1 MTC. Send your MTO for an FOB or CIF quote within 30 minutes.",
     "h1": "Buttweld Fittings Exporter India"
   },
   "/blogs/a105-vs-a350-lf2/": {

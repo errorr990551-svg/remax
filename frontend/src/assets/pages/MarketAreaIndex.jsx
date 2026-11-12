@@ -352,6 +352,57 @@ const MarketAreaIndex = () => {
 
       {/* 11.0 Request a Quote - Full RFQ */}
       <section className="py-16 bg-slate-100 border-b border-slate-200">
+
+        {/* Buying from Mumbai: transit, documents, pricing */}
+        <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-[#0F172A] border-l-4 border-[#D71920] pl-3 mb-3">
+            Buying Flanges from Mumbai for an Indian Plant
+          </h2>
+          <p className="text-slate-600 text-sm md:text-base font-medium mb-8 max-w-4xl">
+            Every city page on this site is served from the same ISO 9001:2015 works in Mumbai. What changes from state to state is the road transit time and the industries that buy. Here is what to expect wherever your plant is.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="rounded-xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="font-bold text-slate-900 text-lg mb-2">Road transit from Mumbai</h3>
+              <ul className="text-sm text-slate-600 space-y-1.5">
+                <li>Maharashtra, Gujarat: 1–2 days</li>
+                <li>Karnataka, Telangana, MP, Rajasthan: 2–3 days</li>
+                <li>Tamil Nadu, AP, Punjab, UP, Chhattisgarh: 3–4 days</li>
+                <li>Kerala, Bihar, Jharkhand, Odisha, HP, Uttarakhand: 4–5 days</li>
+                <li>West Bengal, Sikkim: 5–7 days; Northeast states: 7–10 days</li>
+              </ul>
+              <p className="text-xs text-slate-500 mt-3">Ex-stock items leave the warehouse within 24–48 hours of order confirmation.</p>
+            </div>
+            <div className="rounded-xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="font-bold text-slate-900 text-lg mb-2">Documents with every dispatch</h3>
+              <ul className="text-sm text-slate-600 space-y-1.5">
+                <li>GST tax invoice and e-way bill</li>
+                <li>EN 10204 3.1 mill test certificate per heat</li>
+                <li>Dimensional and visual inspection report</li>
+                <li>PMI report for alloy and stainless lots</li>
+                <li>IBR Form III-C for boiler-quality F11 / F22 / F91 items when ordered</li>
+                <li>Third-party inspection release note when your PO specifies it</li>
+              </ul>
+            </div>
+            <div className="rounded-xl border border-slate-200 bg-slate-50 p-6">
+              <h3 className="font-bold text-slate-900 text-lg mb-2">How prices are quoted</h3>
+              <ul className="text-sm text-slate-600 space-y-1.5">
+                <li>Per line, in writing, against your BOQ or drawing</li>
+                <li>Ex-works Mumbai or delivered to your site, as you prefer</li>
+                <li>Valid for the period stated on the quote; raw material is booked on order</li>
+                <li>Same unit price for one city or another; only freight differs</li>
+              </ul>
+              <p className="text-xs text-slate-500 mt-3">Plants and EPC contractors can audit the works in person or by video call before the first order.</p>
+            </div>
+          </div>
+          <div className="flex flex-wrap gap-3 items-center">
+            <span className="text-sm font-bold text-slate-700 mr-2">Most-requested city pages:</span>
+            {[['Mumbai','/mumbai/'],['Pune','/pune/'],['Ahmedabad','/ahmedabad/'],['Vadodara','/vadodara/'],['Surat','/surat/'],['Chennai','/chennai/'],['Hyderabad','/hyderabad/'],['Bengaluru','/bengaluru/'],['Visakhapatnam','/visakhapatnam/'],['Kolkata','/kolkata/'],['Ghaziabad','/ghaziabad/'],['Jamshedpur','/jamshedpur/']].map(([n,u]) => (
+              <Link key={u} to={u} className="text-xs font-semibold bg-slate-50 hover:bg-red-50 text-slate-700 hover:text-[#D71920] border border-slate-200 hover:border-red-200 px-3 py-1.5 rounded-lg transition">{n}</Link>
+            ))}
+          </div>
+        </div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-10">
             <span className="text-xs font-bold uppercase tracking-wider text-[#D71920] block mb-1">
