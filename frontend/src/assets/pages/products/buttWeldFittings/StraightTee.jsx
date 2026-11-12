@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, ChevronRight, Home } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
+import FittingBuyerGuide, { FittingIntro } from '../../../components/products/FittingBuyerGuide.jsx';
 
 const StraightTee = () => {
     const { openQuotePopup } = useQuotePopup();
@@ -111,12 +112,7 @@ const StraightTee = () => {
             {/* DESCRIPTION TAB */}
             {activeTab === 'description' && (
               <div className="space-y-6 text-slate-600 leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-500 text-justify">
-                <p>
-                  REMAX FORGE & FITTINGS is one of eminent manufacturers and suppliers of high grade Straight Tee. REMAX FORGE & FITTINGS overseas offers a commendable range of Straight Tee, for the prestigious client with competitive price. Export packaging is grade towards the protection, handling and transport of Straight Tee by air or sea freight, as such shares many characteristics with export and transport Straight Tee packing. Backed by a diligent teen of professional, we are engaged in offering an excellent quality range of Straight Tee.
-                </p>
-                <p>
-                  REMAX FORGE & FITTINGS is an Straight Tee stockholders and suppliers, delivering to whole of the world. We are an ISO 9001:2008,ISO 9001-2008, ISO 14001-2004, OHSAS 18001-2007, NSIC-CRISIL, EEPC, and QA-UKAS (ISO 9001-2008), SSI Certified company that follows total Quality Management System. and have been recognized as one of the world’s leading stockists and manufacturer of quality metals for over two decades and are committed to quick responses, unsurpassed quality, competitive pricing, reliable deliveries and an exhaustive inventory. Straight Tee to internationally approved quality standards for application. Straight Tee have excellent quality to fully satisfy customer's requirement. We can offer high quality electro polish fittings. Straight Tee are manufactured in accordance with national and international product standards, While we can also produce fittings as per special specification of our customers. In case of custom size fabricate Straight Tee; the welding is done carried out by qualified personnel.
-                </p>
+                <FittingIntro slug="straight-tee" />
 
                 <h3 className="text-xl font-bold text-[#0F172A] mt-8 mb-4 border-b border-slate-200 pb-2">
                   What Is Difference Between Straight Tee & Reducing Tee?
@@ -145,15 +141,15 @@ const StraightTee = () => {
                     <tbody>
                       {[
                         { label: "Type", value: "Butt weld Fitting" },
-                        { label: "Standard", value: "ANSI B 16.9, ANSI B16.28, MSS SP43, MSS P75, JIS2311, JIS 2312, JIS2313, DIN2605 , GB-12459, GB-T13401 etc." },
+                        { label: "Standard", value: "ASME B16.9, MSS SP-43, MSS SP-75, DIN 2605, JIS B2311/B2312/B2313, GB/T 12459" },
                         { label: "Material", value: "Stainless Steel, Duplex, Super Duplex, Carbon Steel, Alloy Steel, Monel, Inconel, Hastelloy, Titanium & Special Metals" },
-                        { label: "Size", value: "1/8” to 48”" },
+                        { label: "Size", value: "1/2” to 48”" },
                         { label: "Thickness", value: "SCH5S/10S, SCH20/40/80/160, STD/XS/XXS, SGP" },
                         { label: "Order", value: "Accept custom order" },
                         { label: "Quality Assurance", value: "All fittings and flanges are subject to strict inspection at each stage of the production process, from starting material purchasing to product dispatch. They are visually examined for conformity to ASTM, ASME, MSS, DIN, EN, and JIS codes and standards. Upon request, official certified Inspection Agencies can be called in to witness the material reports, dimensions and quality conformity of products." },
                         { label: "Marking & Packing", value: "Products are packaged to ensure that there is no damage during transit. In case of exports, standard export packaging is done in wooden cases. All buttweld fittings are marked with Grade, Lot No, Size, Degree and our trade mark. On special requests we can also, make custom marking on our products. #Protected by End Caps." },
                         { label: "Value Added Services", value: "Hot Dipped Galvanizing, Epoxy & FBE Coating, Electro Polish, Shot Blast / Sand Blast" },
-                        { label: "Test Certificates", value: "Manufacturer Test Certificate as per EN 10204 / 3.1B, Raw Materials Certificate, 100% Radiography Test Report, Third Party Inspection Report" }
+                        { label: "Test Certificates", value: "EN 10204 3.1 mill test certificate (3.2 with third-party inspection on request), PMI report on alloy/stainless lots, third-party inspection report" }
                       ].map((row, idx) => (
                         <tr key={idx} className={`border-b border-slate-200 ${idx % 2 === 0 ? 'bg-slate-50' : 'bg-white'}`}>
                           <td className="px-4 py-3 font-bold text-[#0F172A] w-1/4 align-top border-r border-slate-200">
@@ -192,6 +188,7 @@ const StraightTee = () => {
 
           </div>
         </div>
+        <FittingBuyerGuide slug="straight-tee" />
       </div>
     </div>
   );

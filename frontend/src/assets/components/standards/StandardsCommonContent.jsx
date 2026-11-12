@@ -58,6 +58,37 @@ const StandardsCommonContent = ({ standard }) => {
         </div>
       </section>
 
+      {standard.sections && standard.sections.map((sec) => (
+        <section key={sec.title} className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">{sec.title}</h2>
+          {sec.body.map((t, i) => <p key={i} className="text-slate-600 leading-relaxed mb-3">{t}</p>)}
+        </section>
+      ))}
+
+      {(standard.crossRef || standard.typeCodes) && (
+        <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">{standard.crossRef ? 'DIN to EN 1092-1 Flange Type Cross Reference' : 'JIS B2220 Flange Type Codes'}</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm text-left border-collapse border border-slate-200">
+              <thead className="bg-slate-100 text-slate-900">
+                <tr>
+                  <th className="px-4 py-3 border border-slate-200">{standard.crossRef ? 'Legacy DIN Standard' : 'Code'}</th>
+                  <th className="px-4 py-3 border border-slate-200">{standard.crossRef ? 'EN 1092-1 Equivalent' : 'Flange Type'}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {(standard.crossRef || standard.typeCodes).map((r, idx) => (
+                  <tr key={idx} className={idx % 2 === 0 ? 'bg-slate-50' : 'bg-white'}>
+                    <td className="px-4 py-3 border border-slate-200 font-semibold text-slate-900">{r.din || r.code}</td>
+                    <td className="px-4 py-3 border border-slate-200 text-slate-600">{r.en || r.desc}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
       {/* Comparison / Cross Reference Table */}
       {standard.comparisonTable && (
         <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">

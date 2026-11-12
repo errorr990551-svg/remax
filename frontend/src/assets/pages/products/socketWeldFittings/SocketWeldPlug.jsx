@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, ChevronRight, Home } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
+import FittingBuyerGuide, { FittingIntro } from '../../../components/products/FittingBuyerGuide.jsx';
 
 const SocketWeldPlug = () => {
     const { openQuotePopup } = useQuotePopup();
@@ -111,12 +112,7 @@ const SocketWeldPlug = () => {
             {/* DESCRIPTION TAB */}
             {activeTab === 'description' && (
               <div className="space-y-6 text-slate-600 leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-500 text-justify">
-                <p>
-                  REMAX FORGE & FITTINGS is one of eminent manufacturers and suppliers of high-grade Socket weld Plug Fittings. REMAX FORGE & FITTINGS overseas offers a commendable range of Socket weld Plug Fittings, for the prestigious client with competitive price. Export packaging is grade towards the protection, handling and transport of Socket weld Plug Fittings by air or sea freight, as such shares many characteristics with export and transport Socket weld Plug Fittings packing. Backed by a diligent teen of professional, we are engaged in offering an excellent quality range of Socket weld Plug Fittings.
-                </p>
-                <p>
-                  REMAX FORGE & FITTINGS is an Socket weld Plug Fittings stockholders and suppliers, delivering to whole of the world. We are an ISO 9001:2008,ISO 9001-2008, ISO 14001-2004, OHSAS 18001-2007, NSIC-CRISIL, EEPC, and QA-UKAS (ISO 9001-2008), SSI Certified company that follows total Quality Management System. and have been recognized as one of the world’s leading stockists and manufacturer of quality metals for over two decades and are committed to quick responses, unsurpassed quality, competitive pricing, reliable deliveries and an exhaustive inventory. Socket weld Plug Fittings to internationally approved quality standards for application. Socket weld Plug Fittings have excellent quality to fully satisfy customer's requirement. We can offer high quality electro polish fittings. Socket weld Plug Fittings are manufactured in accordance with national and international product standards, While we can also produce fittings as per special specification of our customers. In case of custom size fabricate Socket weld Plug Fittings; the welding is done carried out by qualified personnel.
-                </p>
+                <FittingIntro slug="socket-weld-plug-fittings" />
               </div>
             )}
 
@@ -128,16 +124,16 @@ const SocketWeldPlug = () => {
                     <tbody>
                       {[
                         { label: "Type", value: "Socket weld Plug" },
-                        { label: "Standard", value: "ASME B 16.11-09, BS2799, MSS SP 79, MSS SP 83, MSS SP 95, ASTM A 733" },
+                        { label: "Standard", value: "ASME B16.11, MSS SP-79, MSS SP-83, MSS SP-95, BS 3799, ASTM A733" },
                         { label: "Material", value: "Stainless Steel, Duplex, Super Duplex, Carbon Steel, Alloy Steel, Monel, Inconel, Hastelloy, Titanium & Special Metals" },
-                        { label: "Size", value: "1/8” to 48”" },
-                        { label: "Schedule", value: "Sch 5s to Sch XXS and other heady thickness." },
+                        { label: "Size", value: "1/8” to 4” NPS (ASME B16.11)" },
+                        { label: "Schedule", value: "Class 3000 ≈ Sch 80, Class 6000 ≈ Sch 160, Class 9000 ≈ XXS wall" },
                         { label: "End", value: "NPT, BSP, Socket Weld, Metric & Special Threads as per ANSI B1.20.1" },
-                        { label: "Rating", value: "2000Lbs, 3000Lbs, 6000 Lbs, 9000Lbs& 10000Lbs" },
+                        { label: "Rating", value: "Class 3000, 6000, 9000 (socket weld); Class 2000, 3000, 6000 (threaded)" },
                         { label: "Quality Assurance", value: "All fittings and flanges are subject to strict inspection at each stage of the production process, from starting material purchasing to product dispatch. They are visually examined for conformity to ASTM, ASME, MSS, DIN, EN, and JIS codes and standards. Upon request, official certified Inspection Agencies can be called in to witness the material reports, dimensions and quality conformity of products." },
                         { label: "Marking & Packing", value: "Products are packaged to ensure that there is no damage during transit. In case of exports, standard export packaging is done in wooden cases. All buttweld fittings are marked with Grade, Lot No, Size, Degree and our trade mark. On special requests we can also, make custom marking on our products. #Protected by End Caps." },
                         { label: "Value Added Services", value: "Hot Dipped Galvanizing, Epoxy & FBE Coating, Electro Polish, Shot Blast / Sand Blast, Pickled & Passivated" },
-                        { label: "Test Certificates", value: "Manufacturer Test Certificate as per EN 10204 / 3.1B, Raw Materials Certificate, 100% Radiography Test Report, Third Party Inspection Report" },
+                        { label: "Test Certificates", value: "EN 10204 3.1 mill test certificate (3.2 with third-party inspection on request), PMI report on alloy/stainless lots, third-party inspection report" },
                         { label: "Special Supplies", value: "Low Temperature Fittings" }
                       ].map((row, idx) => (
                         <tr key={idx} className={`border-b border-slate-200 ${idx % 2 === 0 ? 'bg-slate-50' : 'bg-white'}`}>
@@ -180,6 +176,7 @@ const SocketWeldPlug = () => {
 
           </div>
         </div>
+        <FittingBuyerGuide slug="socket-weld-plug-fittings" />
       </div>
     </div>
   );

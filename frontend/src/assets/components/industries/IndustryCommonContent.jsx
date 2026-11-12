@@ -44,6 +44,13 @@ const IndustryCommonContent = ({ industry }) => {
         <p className="text-slate-600 leading-relaxed">{industry.overview}</p>
       </section>
 
+      {industry.sections && industry.sections.map((sec) => (
+        <section key={sec.title} className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+          <h2 className="text-2xl font-bold text-slate-900 mb-4">{sec.title}</h2>
+          {sec.body.map((t, i) => <p key={i} className="text-slate-600 leading-relaxed mb-3">{t}</p>)}
+        </section>
+      ))}
+
       {/* Operating Challenges */}
       <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
         <h2 className="text-2xl font-bold text-slate-900 mb-4">Critical Operating Challenges & Design Constraints</h2>

@@ -108,13 +108,48 @@ export const standardsData = {
     crossRef: [
       { din: "DIN 2527", en: "EN 1092-1 Type 05 (Blind Flange)" },
       { din: "DIN 2573 / 2576", en: "EN 1092-1 Type 01 (Plate Slip-On)" },
-      { din: "DIN 2631 - 2635", en: "EN 1092-1 Type 11 (Weld Neck)" }
+      { din: "DIN 2631 - 2635", en: "EN 1092-1 Type 11 (Weld Neck)" },
+      { din: "DIN 2566", en: "EN 1092-1 Type 13 (Threaded, hubbed)" }
+    ],
+    sections: [
+      {
+        title: "Why DIN Flanges Are Still Ordered Today",
+        body: [
+          "Plants built in Europe, the Middle East and India before the EN changeover still carry DIN numbers on their P&IDs, isometrics and spare-part lists. Maintenance teams therefore keep ordering \"DIN 2633 PN16 weld neck\" or \"DIN 2576 PN10 slip-on\" even though new projects are written to EN 1092-1.",
+          "We supply both: flanges marked to the legacy DIN reference for like-for-like replacement, or EN 1092-1 flanges with the matching type number when your specification has been updated. Tell us which marking and certificate wording you need and we will quote accordingly."
+        ]
+      },
+      {
+        title: "PN Ratings and Drilling: What to Check",
+        body: [
+          "The PN number is the nominal pressure in bar at the reference temperature; the allowable pressure falls as temperature rises, so always check the pressure–temperature table for your material group.",
+          "PN 10 and PN 16 flanges share the same drilling up to DN 150. From DN 200 upward the bolt-hole count differs, so a PN 10 flange will not bolt to a PN 16 flange of the same size. When you replace a DIN flange with an EN 1092-1 flange, the bolt pattern matches but flange thickness and hub length may differ slightly, which matters where space or stud length is fixed."
+        ]
+      },
+      {
+        title: "Ordering DIN Flanges from Remax Forge",
+        body: [
+          "Send the DIN number (or EN type), PN rating, DN size, facing, material grade and quantity. Common grades include C22.8 / P250GH carbon steel, 1.4301 / 1.4404 (304 / 316L) stainless and 1.4462 duplex. Every lot ships with an EN 10204 3.1 certificate; 3.2 with SGS, BV, TUV or DNV inspection is available on request. You get a written quote within 30 minutes during working hours."
+        ]
+      }
     ],
     overview: "Although DIN 2501 was officially superseded by EN 1092-1 in the European Union, DIN flange callouts remain ubiquitous in existing plant maintenance specifications and international engineering drawings.",
     faqs: [
       {
         q: "Can an EN 1092-1 flange bolt directly to an existing DIN 2501 flange?",
         a: "Yes. For DN 10 through DN 600, EN 1092-1 maintains identical bolt circle diameters, bolt hole counts, and pitch dimensions as legacy DIN 2501."
+      },
+      {
+        q: "Is DIN 2501 still a valid standard?",
+        a: "DIN 2501 has been withdrawn and replaced by EN 1092-1, but it is still widely quoted on drawings and spare-part lists for existing plants. Flanges can be supplied and marked to either reference."
+      },
+      {
+        q: "Can a PN 10 flange be bolted to a PN 16 flange?",
+        a: "Up to DN 150 the drilling is the same, so they will bolt together, but the joint is only rated to the lower PN. From DN 200 upward the number of bolt holes differs and they do not match."
+      },
+      {
+        q: "Which DIN standard covers weld neck flanges?",
+        a: "Weld neck flanges are covered by DIN 2631 (PN 6), DIN 2632 (PN 10), DIN 2633 (PN 16), DIN 2634 (PN 25) and DIN 2635 (PN 40). The EN 1092-1 equivalent is Type 11."
       }
     ],
     relatedLinks: [
@@ -137,13 +172,49 @@ export const standardsData = {
       { code: "SOH", desc: "Slip-On Hubbed flange" },
       { code: "WN", desc: "Welding Neck flange" },
       { code: "BL", desc: "Blind flange" },
-      { code: "IT", desc: "Threaded flange" }
+      { code: "SW", desc: "Socket Welding flange" },
+      { code: "LJ", desc: "Lap Joint flange" },
+      { code: "TR", desc: "Threaded flange" },
+      { code: "IT", desc: "Integral flange" }
+    ],
+    sections: [
+      {
+        title: "Where JIS B2220 Flanges Are Specified",
+        body: [
+          "JIS flanges are standard on Japanese-, Korean- and many Chinese-built ships, and on process plants and packaged equipment designed to Japanese codes. Shipyards, ship-repair yards and plant owners replacing parts on this equipment need JIS drilling; an ASME or EN flange will not fit.",
+          "Sizes are written with an \"A\" suffix for the millimetre nominal size (for example 100A, equal to DN 100 or 4 inch) and the pressure class with a \"K\" suffix (for example 10K). A typical call-out is \"JIS B2220 10K 100A SOP RF\"."
+        ]
+      },
+      {
+        title: "JIS vs ASME vs EN Drilling",
+        body: [
+          "JIS, ASME B16.5 and EN 1092-1 flanges of the same nominal size have different outside diameters and bolt circles. At 4 inch / 100A, for example, an ASME Class 150 flange has a 190.5 mm bolt circle, an EN 1092-1 PN 16 flange 180 mm and a JIS 10K flange 175 mm. Always order to the standard shown on the mating flange or equipment nozzle."
+        ]
+      },
+      {
+        title: "Ordering JIS Flanges from Remax Forge",
+        body: [
+          "Send the pressure class (5K, 10K, 16K, 20K ...), size in A, flange type code, facing (RF or FF), material and quantity. We supply carbon steel (for example SS400) and stainless grades such as SUS304 and SUS316L, with an EN 10204 3.1 certificate and optional third-party inspection by SGS, BV, TUV or DNV. Written quote within 30 minutes during working hours."
+        ]
+      }
     ],
     overview: "JIS B2220 is the Japanese Industrial Standard for steel pipe flanges utilized throughout Asian shipbuilding, marine, and industrial plant engineering projects.",
     faqs: [
       {
         q: "What does '10K' mean in JIS B2220?",
         a: "'10K' represents a nominal pressure rating of approximately 10 kgf/cm² (1.0 MPa or ~150 psi). However, bolt patterns differ from ASME Class 150."
+      },
+      {
+        q: "What is the difference between SOP and SOH flanges?",
+        a: "SOP is a slip-on plate flange: a flat ring with no hub, welded to the pipe. SOH is a slip-on flange with a hub, which gives extra strength at the weld and is used where higher loads are expected."
+      },
+      {
+        q: "Can a JIS 10K flange replace an ASME Class 150 flange?",
+        a: "No. Although the pressure ratings are similar, the outside diameter, bolt circle and often the bolt size differ, so the flanges will not bolt together."
+      },
+      {
+        q: "What do 'A' and 'B' mean in JIS flange sizes?",
+        a: "'A' is the nominal size in millimetres (100A) and 'B' is the same size in inches (4B). 100A and 4B refer to the same pipe size."
       }
     ],
     relatedLinks: [

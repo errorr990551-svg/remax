@@ -49,6 +49,27 @@ export const industriesData = {
       "Resistance to repeated Steam-In-Place (SIP) and Clean-In-Place (CIP) chemicals",
       "Requirement for ultra-smooth surface finishes (Ra < 0.38 µm electropolished)"
     ],
+    sections: [
+      {
+        title: "Where Forged Flanges Fit in a Pharma Plant",
+        body: [
+          "Product-contact process lines in pharma and biotech mostly use sanitary clamp ferrules and orbital-welded tubing. Forged flanges are used where pipe sizes, pressures or equipment connections call for bolted joints: reactor and vessel nozzles, purified water and WFI generation and storage, clean and plant steam headers, jacket and utility services, and solvent and effluent lines in API plants.",
+          "For these services we supply 316L and 304L flanges with machined bores matched to the pipe schedule, so the weld joint has no step or crevice, and with optional mechanical polishing or electropolishing on wetted faces."
+        ]
+      },
+      {
+        title: "Why Low-Carbon 316L Is the Default",
+        body: [
+          "The \"L\" grades are limited to 0.030% carbon, which reduces carbide precipitation at weld heat-affected zones and so lowers the risk of intergranular corrosion after welding and repeated steam sterilisation. 316L also adds molybdenum for better resistance to chlorides in cleaning chemicals. For aggressive acid or halide duties in API synthesis, nickel alloys such as Hastelloy C-276 are used instead."
+        ]
+      },
+      {
+        title: "What to Send for a Pharma Flange Quote",
+        body: [
+          "Flange type, size, pressure class and standard (ASME B16.5 or EN 1092-1), material grade, bore or pipe schedule, required internal surface finish (Ra value) and whether electropolishing is needed, plus quantity and documents. Each lot ships with an EN 10204 3.1 certificate traceable to the heat number, with 100% PMI on stainless lots and third-party inspection on request. Written quote within 30 minutes during working hours."
+        ]
+      }
+    ],
     recommendedMaterials: [
       { grade: "ASTM A182 F316L (0.030% C max)", usage: "Primary sanitary fluid contact lines" },
       { grade: "ASTM A182 F304L", usage: "Non-contact utility clean steam lines" },
@@ -64,6 +85,14 @@ export const industriesData = {
       {
         q: "What surface finish is provided for pharmaceutical flanges?",
         a: "Standard pharma flanges are mechanically polished to Ra < 0.5 µm and can be electropolished down to Ra < 0.375 µm (15 µin) with full surface roughness certification."
+      }
+      ,{
+        q: "Why is 316L preferred over 316 for pharmaceutical piping?",
+        a: "316L has a lower carbon limit (0.030% max), which reduces sensitisation during welding and the risk of intergranular corrosion in service. Most dual-certified material meets both 316 and 316L."
+      },
+      {
+        q: "Can you supply flanges with machined bores to match tube or pipe schedule?",
+        a: "Yes. Weld neck flanges can be bored to the pipe schedule or tube ID you specify, so the internal joint is smooth and free of steps where product or cleaning fluid could collect."
       }
     ],
     relatedLinks: [
@@ -155,6 +184,28 @@ export const industriesData = {
       "Galvanic corrosion between dissimilar metals in marine environments",
       "Vibration and hull flex fatigue stresses on piping flange connections"
     ],
+    sections: [
+      {
+        title: "Choosing a Material for Seawater Service",
+        body: [
+          "316L is suitable for many shipboard freshwater, sanitary and deck services, but in warm or stagnant seawater it is prone to pitting and crevice corrosion under gaskets. Duplex 2205 (F51) offers much higher pitting resistance and strength, and super duplex (F53 / F55) is used for the most demanding seawater cooling, firewater and offshore systems.",
+          "90/10 copper-nickel (CuNi10Fe1Mn) remains a common choice for seawater intake and cooling piping on ships, and Monel 400 is used where high flow velocity and seawater erosion are a concern."
+        ]
+      },
+      {
+        title: "Standards Used on Ships and Offshore Units",
+        body: [
+          "Ships built in Japan, Korea and China often use JIS B2220 5K and 10K flanges, while European-built ships and many offshore units use EN 1092-1 or ASME B16.5. Replacement flanges must match the standard and drilling of the existing system, so please quote the standard from the drawing or from the old flange marking.",
+          "Where dissimilar metals meet, such as copper-nickel to steel, an insulating gasket and sleeve kit is normally used to limit galvanic corrosion."
+        ]
+      },
+      {
+        title: "Inspection for Class and Shipyard Projects",
+        body: [
+          "Every lot ships with an EN 10204 3.1 certificate traceable to the heat number. When a classification society or owner requires witness, we arrange EN 10204 3.2 certification with the nominated surveyor or inspection agency (such as DNV, ABS, Lloyd's Register, BV or SGS) before dispatch. Export orders are packed in seaworthy wooden cases and shipped from Nhava Sheva."
+        ]
+      }
+    ],
     recommendedMaterials: [
       { grade: "ASTM A182 F51 Duplex 2205", usage: "Main seawater cooling systems" },
       { grade: "ASTM A182 F316L", usage: "Bilge, ballast, and sanitary piping" },
@@ -170,6 +221,14 @@ export const industriesData = {
       {
         q: "Do your flanges carry classification society approval (DNV, ABS, Lloyd's)?",
         a: "Standard production includes EN 10204 3.1 MTCs with full raw material traceability. For marine projects requiring classification society witness (DNV, ABS, Lloyd's Register), third-party inspection and EN 10204 3.2 endorsement can be arranged prior to dispatch."
+      }
+      ,{
+        q: "Is 316L stainless steel good enough for seawater?",
+        a: "316L can pit and suffer crevice corrosion in warm or stagnant seawater, especially under gaskets. For continuous seawater service duplex 2205, super duplex or 90/10 copper-nickel are usually specified instead."
+      },
+      {
+        q: "Can you supply JIS flanges for ship repair?",
+        a: "Yes. We supply JIS B2220 flanges in 5K, 10K, 16K and 20K classes in carbon steel, stainless steel and other grades. Quote the class, size in A (for example 100A), flange type and facing."
       }
     ],
     relatedLinks: [
