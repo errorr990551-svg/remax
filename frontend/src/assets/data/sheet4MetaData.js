@@ -1256,14 +1256,14 @@ export const sheet4MetaData = {
     "h1": "Flange Supplier & Exporter to United Arab Emirates"
   },
   "/export/usa/": {
-    "title": "Flange Supplier United States | ASME / ANSI | Remax Forge",
-    "description": "Exporting ASME B16.5 / B16.47 flanges and fittings to USA (Houston, New Orleans, Gulf Coast). Domestic EPC compliance, EN 10204 3.1 MTC, competitive pricing.",
-    "h1": "Flange Supplier & Exporter to United States"
+    "title": "Import Flanges from India to the USA | Remax Forge",
+    "description": "Buying forged flanges from India for US delivery: AD/CVD duty check, HTS 7307 codes, origin marking, inspection and documents. Get a written quote.",
+    "h1": "Import Forged Flanges from India to the USA"
   },
   "/export/usa": {
-    "title": "Flange Supplier United States | ASME / ANSI | Remax Forge",
-    "description": "Exporting ASME B16.5 / B16.47 flanges and fittings to USA (Houston, New Orleans, Gulf Coast). Domestic EPC compliance, EN 10204 3.1 MTC, competitive pricing.",
-    "h1": "Flange Supplier & Exporter to United States"
+    "title": "Import Flanges from India to the USA | Remax Forge",
+    "description": "Buying forged flanges from India for US delivery: AD/CVD duty check, HTS 7307 codes, origin marking, inspection and documents. Get a written quote.",
+    "h1": "Import Forged Flanges from India to the USA"
   },
   "/oil-gas-pipe-fittings/": {
     "title": "Oil & Gas Pipe Fittings & Flanges | NACE MR0175 | Remax",

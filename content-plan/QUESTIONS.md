@@ -23,3 +23,14 @@ a question and the next daily run will use it.
 10. **Coatings and stub ends:** do you supply coated (galvanised or epoxy) flanges, and stub
     ends, or only bare forged flanges? The pages currently say "state it in the RFQ and the
     quotation confirms it".
+11. **US exports and duties:** have you shipped flanges to the USA, and do you have a company-specific
+    AD/CVD rate or entry history? The US pages tell buyers to check the rate with their broker.
+12. **ThomasNet:** the old `/export/usa/` page said "ThomasNet Listed Manufacturer". Is there a real
+    listing? It was removed until confirmed.
+13. **Regional standards:** can you make flanges to KS B 1503 (Korea) and SANS 1123 (South Africa)
+    tables, and supply EN grades such as P250GH and 1.4404 with PED documentation? The pages say
+    "quoted against your specification" and claim neither.
+14. **Letters of credit:** can export documents be prepared to match a buyer's LC (Bangladesh,
+    Nigeria)? The pages say only that we supply the MTC and shipping documents.
+15. **Classification societies:** can you arrange KR, ABS, DNV or Lloyd's Register witnessing? The
+    Korea page says "we confirm in the quotation what can be arranged".
