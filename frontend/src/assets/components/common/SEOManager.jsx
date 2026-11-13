@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { sheet4MetaData } from '../../data/sheet4MetaData.js';
 import { newFlangePagesData } from '../../data/newFlangePagesData.js';
+import { getCommercialFlangeFaqs } from '../../data/flangeApplicationContent.js';
 import { marketAreaMeta } from '../../data/marketAreaMeta.js';
 import flangeFaqs from '../../data/flange_faqs.json';
 
@@ -208,7 +209,7 @@ const SEOManager = () => {
       }
       schemas.push(productSchema);
 
-      const rawFaqs = flangeFaqs[productSlug] || (newFlangePagesData[canonicalPath] || newFlangePagesData[pathname] || {}).faqs;
+      const rawFaqs = flangeFaqs[productSlug] || getCommercialFlangeFaqs(canonicalPath, (newFlangePagesData[canonicalPath] || newFlangePagesData[pathname] || {}).faqs);
       if (rawFaqs && rawFaqs.length > 0) {
         schemas.push({
           '@context': 'https://schema.org',

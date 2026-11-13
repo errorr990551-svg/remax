@@ -17,3 +17,9 @@ a question and the next daily run will use it.
    searches. Can `/export/usa/` be redirected (301) to `/export/united-states/`? Until you
    decide, both stay and are written differently.
 8. **Incoterms:** which do you offer (EXW, FOB Nhava Sheva, CIF, DAP)?
+9. **"Get Quote in 30 Min":** the navbar and several pages promise a quote within 30
+   minutes, and the flange pages said "standard orders dispatched in 7–14 days". Are both
+   accurate? I removed them from the pages I rewrote and left the navbar button as it is.
+10. **Coatings and stub ends:** do you supply coated (galvanised or epoxy) flanges, and stub
+    ends, or only bare forged flanges? The pages currently say "state it in the RFQ and the
+    quotation confirms it".

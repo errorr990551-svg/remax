@@ -294,34 +294,80 @@ export const materialsData = {
     name: "Super Duplex Zeron 100 Flanges",
     h1: "Super Duplex Zeron 100 Flanges — ASTM A182 Grade F55",
     metaTitle: "Zeron 100 Flange Manufacturer India | ASTM A182 F55 UNS S32760",
-    metaDesc: "Super Duplex Zeron 100 flange manufacturer, Mumbai. UNS S32760 F55 with Cu+W additions, high resistance to sulfuric & hydrochloric acids. Quote in 30 min.",
+    metaDesc: "Buy super duplex Zeron 100 (UNS S32760, ASTM A182 F55) flanges for seawater, firewater and chloride service. Weld neck, blind, slip on, RTJ, Class 150–2500, with EN 10204 3.1 MTC.",
     unsNumber: "S32760 (F55)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F55",
     chemicalComposition: [
       { element: "Chromium (Cr)", a105: "24.0 - 26.0%", lf2: "24.0 - 26.0%" },
+      { element: "Nickel (Ni)", a105: "6.0 - 8.0%", lf2: "6.0 - 8.0%" },
       { element: "Molybdenum (Mo)", a105: "3.0 - 4.0%", lf2: "3.0 - 4.0%" },
+      { element: "Nitrogen (N)", a105: "0.20 - 0.30%", lf2: "0.20 - 0.30%" },
       { element: "Tungsten (W)", a105: "0.50 - 1.00%", lf2: "0.50 - 1.00%" },
-      { element: "Copper (Cu)", a105: "0.50 - 1.00%", lf2: "0.50 - 1.00%" }
+      { element: "Copper (Cu)", a105: "0.50 - 1.00%", lf2: "0.50 - 1.00%" },
+      { element: "Carbon (C)", a105: "0.030% max", lf2: "0.030% max" }
     ],
     mechanicalProperties: [
       { property: "Yield Strength", a105: "550 MPa (80 ksi) min", lf2: "550 MPa min" },
-      { property: "Tensile Strength", a105: "750 MPa (109 ksi) min", lf2: "750 MPa min" },
-      { property: "PREN", a105: "≥ 41.5", lf2: "≥ 41.5" }
+      { property: "Tensile Strength", a105: "750 - 895 MPa (109 - 130 ksi)", lf2: "750 - 895 MPa" },
+      { property: "PREN (Cr + 3.3Mo + 16N)", a105: "≥ 40", lf2: "≥ 40" }
     ],
     ptRatings: [
       { tempC: "Ambient (-29 to 38°C)", class150: "290 psi", class300: "750 psi", class600: "1500 psi", class900: "2250 psi" }
     ],
-    overview: "Zeron 100 (UNS S32760 / F55) is a highly alloyed super duplex stainless steel containing deliberate additions of Copper (0.5-1.0%) and Tungsten (0.5-1.0%) for superior performance in hot concentrated acids.",
+    overview: "Zeron 100 is a trade name for the super duplex stainless steel UNS S32760, forged to ASTM A182 Grade F55. Compared with super duplex 2507 (F53), it adds 0.5–1.0% tungsten and 0.5–1.0% copper. With a minimum PREN of 40 and a yield strength of 550 MPa, about twice that of 316L, it is specified where seawater, brine or chlorides would pit or crack standard stainless steel.",
     applications: [
-      "Sulfuric acid production plant piping",
-      "Offshore oil platform firewater systems",
-      "Geothermal brine injection systems",
-      "Pollution control scrubber systems"
+      "Seawater cooling, injection and firewater piping",
+      "Desalination: seawater intake, brine and high-pressure RO lines",
+      "Offshore topsides process and utility piping",
+      "Chloride-bearing chemical and scrubber systems"
+    ],
+    sections: [
+      {
+        h2: "Why buyers specify F55 instead of 316L or 2205",
+        paras: [
+          "316L stainless pits and suffers chloride stress corrosion cracking in warm seawater. Duplex 2205 (F51) resists much better but has a lower PREN, around 35. Super duplex grades such as F53 and F55 reach PREN 40 or more, which is why offshore and desalination specifications call for them on warm seawater and brine lines.",
+          "Strength matters too. Because the allowable stress of super duplex is much higher than that of austenitic stainless, the matching pipe and fittings can often be specified in thinner walls for the same pressure, saving weight on offshore structures.",
+        ],
+      },
+      {
+        h2: "F55 or F53: which to order",
+        paras: [
+          "Both are super duplex grades with similar strength and pitting resistance. F55 (S32760) contains tungsten and copper, and F53 (S32750) does not. Many projects accept either, but some owner specifications name one grade only, so order exactly the UNS number on your piping material specification. Do not substitute one for the other without the purchaser's written approval.",
+        ],
+      },
+      {
+        h2: "What to include in a Zeron 100 / F55 flange RFQ",
+        list: [
+          "Flange type, NPS, class and facing (RF or RTJ), plus the bore or schedule for weld neck flanges",
+          "Material: ASTM A182 F55 (UNS S32760), and whether the trade name Zeron 100 is required on the documents",
+          "Extra tests your specification calls for, such as ferrite content, ASTM G48 pitting test or ASTM A923 intermetallic phase test, with acceptance criteria",
+          "NACE MR0175 / ISO 15156 if the line is in sour service",
+          "Certificate type (EN 10204 3.1 or 3.2) and any third-party inspection",
+        ],
+      },
+      {
+        h2: "Fabrication notes",
+        paras: [
+          "Super duplex depends on its balance of ferrite and austenite. On-site welding should follow a qualified procedure with controlled heat input and interpass temperature and a suitable over-alloyed super duplex filler, or the weld and heat-affected zone can lose corrosion resistance. Super duplex is also not used for sustained high-temperature service because it embrittles. Check the allowable temperature range in your design code.",
+        ],
+      },
     ],
     faqs: [
       {
-        q: "Why does Zeron 100 include Copper and Tungsten additions?",
-        a: "Copper enhances corrosion resistance in non-oxidizing acids like sulfuric acid, while Tungsten reinforces resistance to pitting and crevice corrosion in acidic brine service."
+        q: "Is Zeron 100 the same as ASTM A182 F55?",
+        a: "Zeron 100 is a trade name for UNS S32760. Forged flanges in this alloy are ordered to ASTM A182 Grade F55, and the mill test certificate states the grade and UNS number."
+      },
+      {
+        q: "Why does Zeron 100 include copper and tungsten?",
+        a: "Tungsten adds to resistance against pitting and crevice corrosion, and copper improves resistance in some non-oxidising acid environments. They are the main chemical difference between F55 (S32760) and F53 (S32750)."
+      },
+      {
+        q: "Can F55 flanges be supplied for sour service?",
+        a: "Yes. State NACE MR0175 / ISO 15156 in your RFQ so the hardness limit is applied and confirmed on the EN 10204 3.1 certificate."
+      },
+      {
+        q: "Which flange types are available in F55?",
+        a: "Weld neck, slip on, blind, socket weld, threaded, lap joint and spectacle blinds can be made in F55 to ASME B16.5 and B16.47. Send the type, size, class and quantity through the quote form for a price."
       }
     ],
     relatedLinks: [

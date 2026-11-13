@@ -443,7 +443,7 @@ export const sheet4MetaData = {
   },
   "/materials/super-duplex-zeron-100-flanges/": {
     "title": "Zeron 100 Super Duplex Flange Manufacturer | ASTM A182 F55",
-    "description": "Super duplex Zeron 100 flange manufacturer, Mumbai. ASTM A182 F55, S32760, tungsten-enhanced pitting resistance. Class 150-2500. Quote in 30 min.",
+    "description": "Buy super duplex Zeron 100 flanges, ASTM A182 F55 / UNS S32760, for seawater, firewater and chloride service. Class 150–2500, EN 10204 3.1 MTC. Get a quote.",
     "h1": "Super Duplex Zeron 100 Flanges — ASTM A182 F55 (S32760)",
     "priority": "P1"
   },
@@ -580,13 +580,13 @@ export const sheet4MetaData = {
     "h1": "Blind Flange for Pharmaceutical Industry"
   },
   "/products/flanges/blind-flange-for-water-infrastructure/": {
-    "title": "Blind Flange for Water Infrastructure | ASME B16.5 BLRF",
-    "description": "Forged blind flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Blind Flange for Water Pipelines | Remax Forge",
+    "description": "Blind flanges for water mains, treatment plants and desalination: ASME B16.5/B16.47, EN 1092-1, flat or raised face, A105, SS316L, duplex. 3.1 MTC. Get a quote.",
     "h1": "Blind Flange for Water Infrastructure Industry"
   },
   "/products/flanges/blind-flange-for-water-infrastructure": {
-    "title": "Blind Flange for Water Infrastructure | ASME B16.5 BLRF",
-    "description": "Forged blind flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Blind Flange for Water Pipelines | Remax Forge",
+    "description": "Blind flanges for water mains, treatment plants and desalination: ASME B16.5/B16.47, EN 1092-1, flat or raised face, A105, SS316L, duplex. 3.1 MTC. Get a quote.",
     "h1": "Blind Flange for Water Infrastructure Industry"
   },
   "/products/flanges/blind-flange-for-oil-and-gas/": {
@@ -610,23 +610,23 @@ export const sheet4MetaData = {
     "h1": "Weld Neck Flange for Oil & Gas Industry"
   },
   "/products/flanges/weld-neck-flange-for-power-generation/": {
-    "title": "Weld Neck Flange for Power Generation | ASME B16.5 WNRF",
-    "description": "Forged weld neck flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Weld Neck Flange for Power Plants | F22, F91 | Remax Forge",
+    "description": "Weld neck flanges for power plant piping: ASME B16.5/B16.47, Class 150–2500, ASTM A105, A182 F11/F22/F91 for steam service. EN 10204 3.1 MTC. Get a quote.",
     "h1": "Weld Neck Flange for Power Generation Industry"
   },
   "/products/flanges/weld-neck-flange-for-power-generation": {
-    "title": "Weld Neck Flange for Power Generation | ASME B16.5 WNRF",
-    "description": "Forged weld neck flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Weld Neck Flange for Power Plants | F22, F91 | Remax Forge",
+    "description": "Weld neck flanges for power plant piping: ASME B16.5/B16.47, Class 150–2500, ASTM A105, A182 F11/F22/F91 for steam service. EN 10204 3.1 MTC. Get a quote.",
     "h1": "Weld Neck Flange for Power Generation Industry"
   },
   "/products/flanges/weld-neck-flange-for-petrochemical/": {
-    "title": "Weld Neck Flange for Petrochemical | ASME B16.5 WNRF | Remax",
-    "description": "Forged weld neck flanges for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Weld Neck Flange for Petrochemical Plants | Remax Forge",
+    "description": "Buy weld neck flanges for petrochemical piping: ASME B16.5/B16.47, Class 150–2500, A105, LF2, F304/F316L, F321, F11/F22. EN 10204 3.1 MTC. Get a quote.",
     "h1": "Weld Neck Flange for Petrochemical Industry"
   },
   "/products/flanges/weld-neck-flange-for-petrochemical": {
-    "title": "Weld Neck Flange for Petrochemical | ASME B16.5 WNRF | Remax",
-    "description": "Forged weld neck flanges for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Weld Neck Flange for Petrochemical Plants | Remax Forge",
+    "description": "Buy weld neck flanges for petrochemical piping: ASME B16.5/B16.47, Class 150–2500, A105, LF2, F304/F316L, F321, F11/F22. EN 10204 3.1 MTC. Get a quote.",
     "h1": "Weld Neck Flange for Petrochemical Industry"
   },
   "/products/flanges/weld-neck-flange-for-marine/": {
@@ -690,13 +690,13 @@ export const sheet4MetaData = {
     "h1": "Socket Weld Flange for Chemical Processing Industry"
   },
   "/products/flanges/threaded-flange-for-water-infrastructure/": {
-    "title": "Threaded Flange for Water Infrastructure | Remax Forge",
-    "description": "Forged threaded flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Threaded Flange for Water Lines | NPT / BSP | Remax Forge",
+    "description": "Threaded (screwed) flanges for galvanised and small-bore water piping: ASME B16.5, NPT per ASME B1.20.1, A105, SS304/316. EN 10204 3.1 MTC. Get a quote.",
     "h1": "Threaded Flange for Water Infrastructure Industry"
   },
   "/products/flanges/threaded-flange-for-water-infrastructure": {
-    "title": "Threaded Flange for Water Infrastructure | Remax Forge",
-    "description": "Forged threaded flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Threaded Flange for Water Lines | NPT / BSP | Remax Forge",
+    "description": "Threaded (screwed) flanges for galvanised and small-bore water piping: ASME B16.5, NPT per ASME B1.20.1, A105, SS304/316. EN 10204 3.1 MTC. Get a quote.",
     "h1": "Threaded Flange for Water Infrastructure Industry"
   },
   "/products/flanges/threaded-flange-for-general-industrial/": {
@@ -720,13 +720,13 @@ export const sheet4MetaData = {
     "h1": "Lap Joint Flange for Oil & Gas Industry"
   },
   "/products/flanges/lap-joint-flange-for-petrochemical/": {
-    "title": "Lap Joint Flange for Petrochemical | ASME B16.5 LJRF | Remax",
-    "description": "Forged lap joint flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Lap Joint Flange for Petrochemical Piping | Remax Forge",
+    "description": "Lap joint flanges with stub ends for petrochemical piping: carbon steel backing flange, alloy stub end. ASME B16.5, Class 150–600, 3.1 MTC. Get a quote.",
     "h1": "Lap Joint Flange for Petrochemical Industry"
   },
   "/products/flanges/lap-joint-flange-for-petrochemical": {
-    "title": "Lap Joint Flange for Petrochemical | ASME B16.5 LJRF | Remax",
-    "description": "Forged lap joint flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Lap Joint Flange for Petrochemical Piping | Remax Forge",
+    "description": "Lap joint flanges with stub ends for petrochemical piping: carbon steel backing flange, alloy stub end. ASME B16.5, Class 150–600, 3.1 MTC. Get a quote.",
     "h1": "Lap Joint Flange for Petrochemical Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-oil-and-gas/": {
@@ -740,23 +740,23 @@ export const sheet4MetaData = {
     "h1": "Spectacle Blind Flange for Oil & Gas Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-petrochemical/": {
-    "title": "Spectacle Blind Flange for Petrochemical | Remax Forge",
-    "description": "Forged spectacle blind flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Spectacle Blind for Petrochemical Plants | Remax Forge",
+    "description": "Spectacle blinds, paddle blanks and spacers for petrochemical isolation and turnarounds. ASME B16.48, Class 150–2500, RF/RTJ, A105, LF2, NACE. Get a quote.",
     "h1": "Spectacle Blind Flange for Petrochemical Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-petrochemical": {
-    "title": "Spectacle Blind Flange for Petrochemical | Remax Forge",
-    "description": "Forged spectacle blind flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Spectacle Blind for Petrochemical Plants | Remax Forge",
+    "description": "Spectacle blinds, paddle blanks and spacers for petrochemical isolation and turnarounds. ASME B16.48, Class 150–2500, RF/RTJ, A105, LF2, NACE. Get a quote.",
     "h1": "Spectacle Blind Flange for Petrochemical Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-power-generation/": {
-    "title": "Spectacle Blind Flange for Power Generation | ASME B16.5",
-    "description": "Forged spectacle blind flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Spectacle Blind for Power Plants | ASME B16.48 | Remax",
+    "description": "Spectacle blinds, paddle blanks and spacers for power plant isolation, to ASME B16.48, Class 150–2500, in A105, A516, F11, F22 and F91. 3.1 MTC. Get a quote.",
     "h1": "Spectacle Blind Flange for Power Generation Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-power-generation": {
-    "title": "Spectacle Blind Flange for Power Generation | ASME B16.5",
-    "description": "Forged spectacle blind flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Spectacle Blind for Power Plants | ASME B16.48 | Remax",
+    "description": "Spectacle blinds, paddle blanks and spacers for power plant isolation, to ASME B16.48, Class 150–2500, in A105, A516, F11, F22 and F91. 3.1 MTC. Get a quote.",
     "h1": "Spectacle Blind Flange for Power Generation Industry"
   },
   "/products/flanges/rtj-flange-ring-type-joint-for-oil-and-gas/": {
@@ -780,23 +780,23 @@ export const sheet4MetaData = {
     "h1": "RTJ Flange (Ring Type Joint) for Petrochemical Industry"
   },
   "/products/flanges/socket-weld-flange-for-power-generation/": {
-    "title": "Socket Weld Flange for Power Generation | ASME B16.5 | Remax",
-    "description": "Forged socket weld flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Socket Weld Flange for Power Plants | Remax Forge",
+    "description": "Socket weld flanges for small-bore power plant lines: drains, vents, instrument lines. ASME B16.5, A105, F11, F22, F91, F316L. 3.1 MTC. Get a quote.",
     "h1": "Socket Weld Flange for Power Generation Industry"
   },
   "/products/flanges/socket-weld-flange-for-power-generation": {
-    "title": "Socket Weld Flange for Power Generation | ASME B16.5 | Remax",
-    "description": "Forged socket weld flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Socket Weld Flange for Power Plants | Remax Forge",
+    "description": "Socket weld flanges for small-bore power plant lines: drains, vents, instrument lines. ASME B16.5, A105, F11, F22, F91, F316L. 3.1 MTC. Get a quote.",
     "h1": "Socket Weld Flange for Power Generation Industry"
   },
   "/products/flanges/lap-joint-flange-for-water-infrastructure/": {
-    "title": "Lap Joint Flange for Water Infrastructure | Remax Forge",
-    "description": "Forged lap joint flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Lap Joint Flange for Water Pipelines | Remax Forge",
+    "description": "Lap joint flanges for water treatment and desalination piping: carbon steel backing flange with SS316L or duplex stub end. ASME B16.5 / EN 1092-1. Get a quote.",
     "h1": "Lap Joint Flange for Water Infrastructure Industry"
   },
   "/products/flanges/lap-joint-flange-for-water-infrastructure": {
-    "title": "Lap Joint Flange for Water Infrastructure | Remax Forge",
-    "description": "Forged lap joint flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "title": "Lap Joint Flange for Water Pipelines | Remax Forge",
+    "description": "Lap joint flanges for water treatment and desalination piping: carbon steel backing flange with SS316L or duplex stub end. ASME B16.5 / EN 1092-1. Get a quote.",
     "h1": "Lap Joint Flange for Water Infrastructure Industry"
   },
   "/products/flanges/threaded-flange-for-marine/": {

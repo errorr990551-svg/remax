@@ -147,6 +147,21 @@ const MaterialCommonContent = ({ material }) => {
         </div>
       </section>
 
+      {/* Optional written buying guide sections */}
+      {(material.sections || []).map((sec) => (
+        <section key={sec.h2} className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200 space-y-4">
+          <h2 className="text-2xl font-bold text-slate-900">{sec.h2}</h2>
+          {(sec.paras || []).map((p) => <p key={p} className="text-slate-700 leading-relaxed text-sm md:text-base">{p}</p>)}
+          {sec.list && (
+            <ul className="space-y-2">
+              {sec.list.map((li) => (
+                <li key={li} className="flex items-start gap-3 text-slate-700 text-sm md:text-base"><CheckCircle className="w-5 h-5 text-[#D71920] shrink-0 mt-0.5" />{li}</li>
+              ))}
+            </ul>
+          )}
+        </section>
+      ))}
+
       {/* Forging, Heat Treatment & Quality Inspection Protocols (Fixes M7 Thin Content) */}
       <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
         <h2 className="text-2xl font-bold text-slate-900 mb-4">Forging, Heat Treatment & Quality Inspection Protocols</h2>

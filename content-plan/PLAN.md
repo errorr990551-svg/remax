@@ -1,4 +1,4 @@
-# Flange content programme: 419 thin pages, 14 days
+# Flange content programme: 454 pages, 15 days
 
 Owner request (2026-11-13): make the thin pages deep and high quality, flanges only,
 transactional intent only, run automatically over 10–15 days, never expose contact
@@ -26,7 +26,7 @@ masking the page's own town name, so template text does not count).
 5. **Don't remove or 301 any page,** and don't change URLs, `.htaccess` redirects or the
    Udyam noindex rule.
 6. Commit at the end of each day to `claude/charming-ptolemy-81qaz1` and push that branch.
-   Deploy to `main` only on Day 14 (owner: "after everything is done").
+   Deploy to `main` only on Day 15 (owner: "after everything is done").
 
 ## What a top-quality page has (definition of done)
 
@@ -81,10 +81,16 @@ masking the page's own town name, so template text does not count).
 | 10 | Bahrain 39 |
 | 11 | Kuwait 25 + UAE 18 |
 | 12 | Remaining 41 (Germany 6, Mexico 5, Malaysia 4, South Africa 4, Indonesia 4, South Korea 4, Turkey 3, Vietnam 3, Bangladesh 3, Nigeria 3, Netherlands 3, Singapore 2) |
-| 13 | Catch-up for anything that missed the bar. Fold in the owner's answers from QUESTIONS.md. |
-| 14 | Full rebuild, re-run thin_scan, check the contact gate and the redirect trace, regenerate and commit `sitemap.xml`, push the branch and `main` (deploy), disable the Routine, and write the final report in PROGRESS.md |
+| 13 | The 17 remaining flange "for <industry>" pages (marine, mining, pharmaceutical, oil-and-gas, chemical-processing, general-industrial, slip-on water/power, RTJ). Add entries to `src/assets/data/flangeApplicationContent.js`, using the Day 1 pages as the model. |
+| 14 | The 18 commercial flange pages in `newFlangePagesData.js` that are not "-for-" pages (flanges-manufacturer-mumbai/rajkot, ss316-weld-neck, duplex-blind, high-pressure, class-150, sour-service, subsea, ...). Same content file, same bar (500+). Then catch-up, and fold in the owner's answers from QUESTIONS.md. |
+| 15 | Full rebuild, re-run thin_scan, check the contact gate and the redirect trace, regenerate and commit `sitemap.xml`, push the branch and `main` (deploy), disable the Routine, and write the final report in PROGRESS.md |
 
 The town order within a country is the order in `thin_pages_baseline.csv`, filtered by country.
+
+Scope note (Day 1): hiding the internal outline notes and the placeholder FAQs (all 186
+FAQ answers on the 44 commercial flange pages just repeated the question) left 17
+application pages and 18 commercial pages thin. Days 13–14 cover them, which brings the
+total to 419 + 35 = 454 pages.
 
 ## Daily procedure
 
@@ -95,6 +101,6 @@ The town order within a country is the order in `thin_pages_baseline.csv`, filte
 4. Run `python3 ../content-plan/thin_scan.py /tmp/scan.json` from `frontend/`, and check
    that every page in today's batch meets its unique-word target. Fix any that miss.
 5. Spot-check 2 built pages for factual claims against `FACTS.md` and the sources.
-6. `git checkout -- frontend/public/sitemap.xml` (only Day 14 commits the sitemap). Commit,
+6. `git checkout -- frontend/public/sitemap.xml` (only Day 15 commits the sitemap). Commit,
    push the branch, and log the day in `PROGRESS.md` (pages done, scores, open questions).
 7. If you hit a usage limit mid-day, commit what passed. The next run continues from PROGRESS.md.
