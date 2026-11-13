@@ -7,7 +7,7 @@ import { useQuotePopup } from '../context/QuotePopupContext';
 const serviceTable = [
   { service: 'Wellhead, flowlines and manifolds', parts: 'Weld neck and blind flanges Class 900–2500, RTJ facing; 3000# / 6000# / 9000# forged fittings', material: 'A105N, A350 LF2 (low temp), A182 F51 / F53 duplex for sour or CO2 service', url: '/products/flanges/high-pressure-flange-manufacturer/' },
   { service: 'Sour gas (H2S) lines', parts: 'Flanges and fittings supplied to NACE MR0175 / ISO 15156 hardness limits (22 HRC max for carbon steel)', material: 'A105N (HIC-tested on request), A182 F316L, duplex F51', url: '/products/flanges/sour-service-nace-flange/' },
-  { service: 'Cross-country pipelines', parts: 'High-yield butt weld elbows, tees and reducers; matching weld neck flanges', material: 'MSS SP-75 WPHY 42 / 52 / 60 / 65, A234 WPB', url: '/products/buttweld-fittings/' },
+  { service: 'Cross-country pipelines', parts: 'High-yield butt weld elbows, tees and reducers; matching weld neck flanges', material: 'MSS SP-75 WPHY 42 / 52 / 60 / 65, A234 WPB', url: '/products/buttweld-fittings/butt-weld-elbow-fittings/' },
   { service: 'Refinery and petrochemical units', parts: 'Flanges, butt weld fittings and seamless pipe for high-temperature hydrogen and steam service', material: 'A182 F11 / F22 / F91, A234 WP11 / WP22 / WP91, A335 P11 / P22 / P91', url: '/products/pipes/alloy-steel-pipes/' },
   { service: 'Offshore platforms and FPSO', parts: 'Spectacle blinds, spades and spacers, weld neck flanges, socket weld fittings for utility lines', material: 'A350 LF2, A182 F316L, duplex and super duplex', url: '/products/flanges/spectacle-blind-flange/' },
 ];

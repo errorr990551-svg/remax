@@ -51,7 +51,7 @@ const ButtweldFittingsExporterinIndia = () => {
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
             <a href="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></a>
             <ChevronRight size={14} />
-            <Link to="/products/buttweld-fittings/" className="hover:text-[#D71920] transition-colors">Butt Weld Fittings</Link>
+            <Link to="/products/buttweld-fittings/butt-weld-elbow-fittings/" className="hover:text-[#D71920] transition-colors">Butt Weld Fittings</Link>
             <ChevronRight size={14} />
             <span className="text-[#D71920] font-medium">Buttweld Fittings Exporter in India</span>
           </div>

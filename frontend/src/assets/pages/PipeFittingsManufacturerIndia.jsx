@@ -10,11 +10,11 @@ import {
 
 const productRange = [
   { name: 'Forged Flanges', url: '/products/flanges/', spec: 'Weld neck, slip-on, blind, socket weld, threaded, lap joint, spectacle blind. 1/2" to 48", Class 150 to 2500 (ASME B16.5 / B16.47).' },
-  { name: 'Butt Weld Fittings', url: '/products/buttweld-fittings/', spec: '90°/45°/180° elbows, equal and reducing tees, concentric and eccentric reducers, caps, stub ends. Seamless and welded, ASME B16.9 / MSS SP-75.' },
+  { name: 'Butt Weld Fittings', url: '/products/buttweld-fittings/butt-weld-elbow-fittings/', spec: '90°/45°/180° elbows, equal and reducing tees, concentric and eccentric reducers, caps, stub ends. Seamless and welded, ASME B16.9 / MSS SP-75.' },
   { name: 'Forged Fittings (SW & Threaded)', url: '/products/forged-fittings/', spec: 'Elbows, tees, couplings, unions, bushings, plugs. 1/8" to 4", 2000#, 3000#, 6000# and 9000# to ASME B16.11.' },
   { name: 'Socket Weld Fittings', url: '/products/socket-weld-fittings/', spec: 'Socket weld elbows, tees, couplings and bushings in carbon, stainless and alloy steel for small-bore, high-pressure lines.' },
   { name: 'Alloy Steel Pipes', url: '/products/pipes/alloy-steel-pipes/', spec: 'ASTM A335 P11 / P22 / P91 seamless pipe for high-temperature steam and refinery service, supplied with the matching fittings.' },
-  { name: 'Material Grades', url: '/materials/', spec: 'Carbon steel A105 / A234 WPB, SS 304 / 316 / 321 / 347, duplex 2205 / 2507, alloy F11 / F22 / F91, Inconel 625, Monel 400, Hastelloy C276.' },
+  { name: 'Material Grades', url: '/materials/carbon-steel-flanges/', spec: 'Carbon steel A105 / A234 WPB, SS 304 / 316 / 321 / 347, duplex 2205 / 2507, alloy F11 / F22 / F91, Inconel 625, Monel 400, Hastelloy C276.' },
 ];
 
 const rfqItems = [
@@ -53,7 +53,7 @@ const PipeFittingsManufacturerinIndia = () => {
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
             <a href="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></a>
             <ChevronRight size={14} />
-            <Link to="/products/" className="hover:text-[#D71920] transition-colors">Products</Link>
+            <Link to="/products/flanges/" className="hover:text-[#D71920] transition-colors">Products</Link>
             <ChevronRight size={14} />
             <span className="text-[#D71920] font-medium">Pipe Fittings Manufacturer in India</span>
           </div>

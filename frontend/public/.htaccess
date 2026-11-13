@@ -157,6 +157,7 @@ ErrorDocument 410 /404.html
   RewriteRule ^(seo|product-details/spring-washer)/?$ - [G,L]
 
   # 3e. Parent Directory / Category Hub 301 Redirects (Fixes H1 403 Forbidden)
+  RewriteRule ^sitemap/?$ https://remaxforge.com/sitemap.xml [R=301,L]
   RewriteRule ^products/?$ https://remaxforge.com/products/flanges/ [R=301,L]
   RewriteRule ^products/buttweld-fittings/?$ https://remaxforge.com/products/buttweld-fittings/butt-weld-elbow-fittings/ [R=301,L]
   RewriteRule ^materials/?$ https://remaxforge.com/materials/carbon-steel-flanges/ [R=301,L]
