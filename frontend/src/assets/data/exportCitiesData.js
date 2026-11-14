@@ -2689,16 +2689,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "abu-hamour",
     "url": "/export/qatar/abu-hamour/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Abu Hamour | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Abu Hamour | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Abu Hamour, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving abu hamour; flange supplier abu hamour; flange wholesaler abu hamour; flange exporter to abu hamour",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
+    "h1": "Flange Supplier in Abu Hamour, Qatar",
+    "metaTitle": "Flange Supplier in Abu Hamour, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Abu Hamour, Al Rayyan. Flanges for fuel depot, utility and housing projects, A105 to stainless, 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier abu hamour; flange manufacturer for abu hamour qatar; flange price abu hamour; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "How can I get a flange price quote for a project in Abu Hamour?",
     "faqQ3": "What quality testing is performed before export to Qatar?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges for Abu Hamour, the Al Rayyan district that houses the Qatar Fuel petroleum products depot.",
+    "local": {
+      "region": "Zone 56, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Abu Hamour is a 7.2 square kilometre district in Zone 56 of Al Rayyan. It has a refined petroleum products depot that was run by NODCO, a QatarEnergy subsidiary, and has been operated by Qatar Fuel since 2002. The wholesale market that used to be here moved to Umm Salal Ali in 2017. A 2010 account described 900 to 1,000 houses, many of them without sewage or running water at the time, and an Abu Hamour station is on the Doha Metro Green Line route.",
+        "Fuel depots use carbon steel flanges on product transfer, loading and fire-water systems, often in Class 150 and 300 with raised face. Sewage and water network extensions in the residential parts of the district need flanged valves and fittings too."
+      ],
+      "industries": [
+        "Petroleum products depot transfer and fire systems",
+        "Sewage and water network extensions",
+        "Residential and metro-station building services"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abu_Hamour",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for fuel depot pipework?",
+        "a": "Yes. Product and fire-water lines at depots are commonly A105 carbon steel weld neck and blind flanges. We quote to the depot's piping class and the contractor's specification."
+      },
+      {
+        "q": "Do you supply Qatar Fuel directly?",
+        "a": "We do not claim to be a registered Qatar Fuel vendor. We quote to the contractor or buyer who sends the RFQ, with full mill test certificates."
+      },
+      {
+        "q": "What flange facing is used at fuel loading arms?",
+        "a": "Loading-arm and hose connections usually take raised-face weld neck flanges in Class 150 or 300, matching the arm's flange. Check the arm manufacturer's data sheet and give the facing and class in the RFQ."
+      }
+    ]
   },
   "qatar/abu-samra": {
     "tier": "1",
@@ -2707,16 +2739,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "abu-samra",
     "url": "/export/qatar/abu-samra/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Abu Samra | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Abu Samra | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Abu Samra, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving abu samra; flange supplier abu samra; flange wholesaler abu samra; flange exporter to abu samra",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "How can I get a flange price quote for a project in Abu Samra?",
+    "h1": "Flange Supplier in Abu Samra, Qatar",
+    "metaTitle": "Flange Supplier in Abu Samra, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Abu Samra, Qatar, at the Saudi border. Flanges for desalination, water and border-facility projects, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier abu samra; flange manufacturer for abu samra qatar; flange price abu samra; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What quality testing is performed before export to Qatar?",
     "faqQ3": "What flange standards do you certify to for Qatar projects?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for Abu Samra, the border settlement on the Salwa Highway near Saudi Arabia, supplied from the Remax Forge works in Mumbai.",
+    "local": {
+      "region": "Zone 96, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Abu Samra is a 24.6 square kilometre district in Zone 96 of Al Rayyan, about 90 km from Doha near the Saudi border. The Salwa Highway, completed in 1970, runs to the border. The land crossing closed in June 2017 and reopened after 2021. In 1982 a government sheep farm here handled 13,000 sheep a year.",
+        "In 2010 a desalination plant of 2,000 cubic metres a day was announced for Abu Samra at a cost of QAR 27 million. Desalination and brine lines need corrosion-resistant flanges: duplex F51, super duplex F53, or stainless F316L, depending on the salinity and temperature in the specification."
+      ],
+      "industries": [
+        "Desalination plant water and brine lines",
+        "Border crossing facility services",
+        "Livestock farm water supply"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Abu_Samra",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Which flanges suit desalination brine service?",
+        "a": "High-chloride brine usually calls for duplex F51 or super duplex F53 or F55, and sometimes nickel alloys. Give the salinity, temperature and specification and we will quote the grade it names."
+      },
+      {
+        "q": "Can you ship flanges to a remote site like Abu Samra?",
+        "a": "Yes. We confirm the delivery point and Incoterm with the quote. Goods can go to a Qatar port or airport, or on to site if requested."
+      },
+      {
+        "q": "Can you supply flanges for border-facility upgrades at Abu Samra?",
+        "a": "Yes. Customs and border buildings run water, fire and cooling systems like any public building, usually in Class 150 carbon steel with stainless for potable water. Send the specification and the delivery point, and we will quote freight to the site on the Salwa Highway if requested."
+      }
+    ]
   },
   "qatar/ain-khaled": {
     "tier": "1",
@@ -2725,16 +2789,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "ain-khaled",
     "url": "/export/qatar/ain-khaled/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Ain Khaled | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Ain Khaled | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Ain Khaled, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving ain khaled; flange supplier ain khaled; flange wholesaler ain khaled; flange exporter to ain khaled",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What quality testing is performed before export to Qatar?",
+    "h1": "Flange Supplier in Ain Khaled, Qatar",
+    "metaTitle": "Flange Supplier in Ain Khaled, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Ain Khaled, Al Rayyan (Zone 56). Flanges for commercial, residential and water works on Salwa Road, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier ain khaled; flange manufacturer for ain khaled qatar; flange price ain khaled; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What flange standards do you certify to for Qatar projects?",
     "faqQ3": "What is the shipping lead time from Mumbai to Ain Khaled?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges to contractors in Ain Khaled, the Al Rayyan district on Salwa Road at the edge of Doha.",
+    "local": {
+      "region": "Zone 56, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Ain Khaled is an 11.2 square kilometre district on the outskirts of Doha, in Zone 56 of Al Rayyan, along Salwa Road and Khaled bin Ahmed Street. In 2009 Barwa Group announced an 11 km commercial avenue project here. The district also has a 1,200 square metre roundabout with a solar-pumped well, and the Fereej Ain Khaled Stadium.",
+        "Commercial strips and housing on a main road like Salwa Road need water, drainage and fire-protection pipework, and the solar-pumped well shows that small pumping installations are part of local infrastructure. Orders are mostly Class 150 A105 flanges with some stainless for water treatment."
+      ],
+      "industries": [
+        "Commercial buildings along Salwa Road",
+        "Small pumping and irrigation installations",
+        "Residential and stadium building services"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ain_Khaled",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for small pumping installations in Ain Khaled?",
+        "a": "Yes. Small pump sets use NPS 1 to 4 flanges in Class 150. Give the pump connection sizes and whether the mating flange is raised face or flat face."
+      },
+      {
+        "q": "How is freight to Ain Khaled handled?",
+        "a": "We confirm the Incoterm and delivery point with the quotation. Goods can be delivered to a port or airport in Qatar or to your site, depending on what you ask for."
+      },
+      {
+        "q": "Which flange suits a solar-powered well pump like the one at the Ain Khaled roundabout?",
+        "a": "Small borehole and irrigation pumps usually connect with Class 150 flanges in NPS 1 to 3. If the groundwater is saline, stainless F316L resists it better than bare carbon steel. Check the pump outlet standard before ordering."
+      }
+    ]
   },
   "qatar/ain-sinan": {
     "tier": "1",
@@ -2743,16 +2839,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "ain-sinan",
     "url": "/export/qatar/ain-sinan/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Ain Sinan | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Ain Sinan | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Ain Sinan, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving ain sinan; flange supplier ain sinan; flange wholesaler ain sinan; flange exporter to ain sinan",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What flange standards do you certify to for Qatar projects?",
+    "h1": "Flange Supplier in Ain Sinan, Qatar",
+    "metaTitle": "Flange Supplier in Ain Sinan, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Ain Sinan, Al Shamal (Zone 77). Flanges for water, park irrigation and coastal works, 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier ain sinan; flange manufacturer for ain sinan qatar; flange price ain sinan; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What is the shipping lead time from Mumbai to Ain Sinan?",
     "faqQ3": "Do you handle export documentation and customs paperwork for shipments to Qatar?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges for Ain Sinan, the small northern-coast village of Al Shamal, about 70 km from Doha.",
+    "local": {
+      "region": "Zone 77, Al Shamal Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Ain Sinan is a 3.5 square kilometre village in Zone 77 of Al Shamal, on the northern coast near Qatar's north-eastern tip and about 70 km from Doha. It was demarcated in 1992. The nearest health centre is 15 km away in Madinat Al Kaaban and the nearest high school 25 km away in Madinat ash Shamal. Its mosque dates from 1940, and the 5,152 square metre Ain Sinan Park opened in 2013.",
+        "Small coastal villages need water storage, irrigation for parks and public spaces, and corrosion-resistant fittings near the sea. Orders for Ain Sinan are small: Class 150 flanges in carbon steel with coating, or stainless F316L for exposed lines."
+      ],
+      "industries": [
+        "Park irrigation such as Ain Sinan Park",
+        "Village water storage and distribution",
+        "Coastal lines exposed to sea air"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Ain_Sinan",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Is it worth ordering a few flanges for a village project?",
+        "a": "Yes. Small orders are quoted with freight shown so you can see the delivered cost. Combining them with other northern-Qatar jobs can lower the freight per piece."
+      },
+      {
+        "q": "Which grade resists sea air on the north coast?",
+        "a": "Stainless F316L or duplex F51 resist chloride better than carbon steel. Coated A105 is a lower-cost option for buried or protected lines."
+      },
+      {
+        "q": "Can you supply flanges for a village water tank in Ain Sinan?",
+        "a": "Yes. Storage tanks usually have Class 150 flanged nozzles for inlet, outlet, overflow and drain. Give the nozzle sizes and facing, and say whether the tank is steel or GRP, because GRP tanks often need flat-face flanges."
+      }
+    ]
   },
   "qatar/al-aziziya": {
     "tier": "1",
@@ -2779,16 +2907,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "baaya",
     "url": "/export/qatar/baaya/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Baaya | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Baaya | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Baaya, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving baaya; flange supplier baaya; flange wholesaler baaya; flange exporter to baaya",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Do you handle export documentation and customs paperwork for shipments to Qatar?",
+    "h1": "Flange Supplier in Baaya, Qatar",
+    "metaTitle": "Flange Supplier in Baaya, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Baaya, Al Rayyan. Flanges for stadium, mall and sports-facility utilities near Aspire Zone, with 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier baaya; flange manufacturer for baaya qatar; flange price baaya; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Which flange materials and grades are most common for Qatar buyers?",
     "faqQ3": "Is there a minimum order quantity for export orders to Baaya?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Forged flanges for Baaya, the Al Rayyan district that contains about half of the Aspire Zone, supplied from the Remax Forge works with mill test certificates.",
+    "local": {
+      "region": "Zone 54, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Baaya is a 4.7 square kilometre district of Al Rayyan in Zone 54. About half its area is the Aspire Zone, home of Khalifa Stadium, the Aspire Tower and Villaggio Mall. Al Waab Street is its commercial road, Al Furousiya Street links north and south Al Rayyan, and the Sports City station on the Gold Line sits on Al Waab Street. Kahramaa has its Rayyan electricity standby office on Al Furousiya Street.",
+        "Stadiums, malls and towers run large cooling, fire and water systems. Maintenance and upgrade work at Baaya needs flanges from small-bore instrument connections up to large chilled-water mains, in carbon steel and stainless."
+      ],
+      "industries": [
+        "Aspire Zone stadium and sports-facility utilities",
+        "Villaggio Mall and Al Waab Street commercial buildings",
+        "Chilled-water mains and plant rooms"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Baaya",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for stadium and mall cooling systems?",
+        "a": "Yes. Chilled-water mains and plant rooms use weld neck, slip-on and blind flanges in Class 150 and 300. Large mains above NPS 24 are made to ASME B16.47."
+      },
+      {
+        "q": "Can you quote a mixed order of carbon steel and stainless flanges?",
+        "a": "Yes. Carbon steel and stainless flanges can be on one quotation, each with its own mill test certificate."
+      },
+      {
+        "q": "Do you supply flanges for Kahramaa substation or standby-office cooling?",
+        "a": "We quote any contractor's list for building services such as cooling and fire protection, usually Class 150 carbon steel. We do not claim a Kahramaa vendor registration; the flanges are made and certified to the standard on your purchase order."
+      }
+    ]
   },
   "qatar/bani-hajer": {
     "tier": "1",
@@ -2887,16 +3047,44 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-bidda",
     "url": "/export/qatar/al-bidda/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Bidda | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Bidda | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Bidda, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al bidda; flange supplier al bidda; flange wholesaler al bidda; flange exporter to al bidda",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What flange standards do you certify to for Qatar projects?",
+    "h1": "Flange Supplier in Al Bidda, Qatar",
+    "metaTitle": "Flange Supplier in Al Bidda, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Al Bidda, Doha. Flanges for government buildings, towers and Corniche utilities, Class 150–600, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier al bidda; flange manufacturer for al bidda qatar; flange price al bidda; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What is the shipping lead time from Mumbai to Al Bidda?",
     "faqQ3": "Do you handle export documentation and customs paperwork for shipments to Qatar?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Forged flanges for Al Bidda, the Doha district of the Amiri Diwan, Al Bidda Tower and the Corniche, supplied with EN 10204 3.1 certificates.",
+    "local": {
+      "region": "Zones 2 and 12, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Bidda is a 1.3 square kilometre district of Doha in Zones 2 and 12. Mushayrib lies to the south across Al Rayyan Road, Al Jasrah to the east and Rumeilah to the north-west. Qalat Al Askar Street, Jassim Bin Mohammed Street and the Corniche run through it. The Amiri Diwan has been based here since 1915, the 215 m Al Bidda Tower was completed in 2009, and Al Bidda metro station serves the Red and Green lines.",
+        "Government buildings and a 215 m tower need fire, cooling and water systems engineered for continuous service. Flange orders in Al Bidda therefore include higher-class flanges for tall risers alongside Class 150 for low-rise buildings."
+      ],
+      "industries": [
+        "Amiri Diwan and government building services",
+        "Al Bidda Tower risers and plant rooms",
+        "Corniche and metro station utilities"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Bidda",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply higher-class flanges for tall risers in Al Bidda?",
+        "a": "Yes. Risers in tall buildings may need Class 300 or 600 at the lower levels. Give the design pressure for each zone and we will quote the right class."
+      },
+      {
+        "q": "Can you provide documents for government project approvals?",
+        "a": "Each order includes EN 10204 3.1 mill test certificates, a certificate of origin, a commercial invoice and a packing list. Tell us any other documents the consultant requires."
+      }
+    ]
   },
   "qatar/dahl-al-hamam": {
     "tier": "1",
@@ -2959,16 +3147,47 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "duhail",
     "url": "/export/qatar/duhail/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Duhail | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Duhail | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Duhail, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving duhail; flange supplier duhail; flange wholesaler duhail; flange exporter to duhail",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Is there a minimum order quantity for export orders to Duhail?",
+    "h1": "Flange Supplier in Duhail, Qatar",
+    "metaTitle": "Flange Supplier in Duhail, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Duhail, Doha (Zone 30). Weld neck, slip-on and blind flanges for utilities, sewage and facilities, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier duhail; flange manufacturer for duhail qatar; flange price duhail; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
-    "faqQ3": "How can I get a flange price quote for a project in Duhail?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges to contractors working in Duhail, the north-west Doha district on Al Shamal Road, with every flange made to the ordered standard in Mumbai.",
+    "local": {
+      "region": "Zone 30, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Duhail is a 6.8 square kilometre district of Doha in Zone 30, with 7,059 residents in 2010. Duhail Street, Al Khafji Street and Al Shamal Road serve it, and the Al Duhail station is on the Green Line. The district holds the main base of the Internal Security Forces and Abdullah bin Khalifa Stadium. It was included in the QAR 535 million sewage project of 1983–84.",
+        "Large secure facilities and sports venues keep their own water, fire and cooling plant, and their maintenance teams order replacement flanges against existing drawings. Sewage networks in the area also use flanged valves and fittings in Class 150."
+      ],
+      "industries": [
+        "Facility maintenance at large institutional sites",
+        "Abdullah bin Khalifa Stadium utilities",
+        "Sewage network valves and pumping"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Duhail",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for sewage valves in Duhail?",
+        "a": "Yes. Sewage and wastewater lines usually take Class 150 flanges in carbon steel or stainless F316L. Give the valve face-to-face and flange standard so the drilling matches."
+      },
+      {
+        "q": "How do I get a flange price for a Duhail project?",
+        "a": "Send the list through the quote form with type, size, class, facing, grade and quantity. The quotation shows the price, the documents supplied and the delivery terms to Qatar."
+      },
+      {
+        "q": "Can flanges for a secure-site maintenance contract be delivered in batches?",
+        "a": "If your contract needs scheduled deliveries, give the quantities and dates in the RFQ. We will confirm the delivery plan and the documents for each batch on the quotation."
+      }
+    ]
   },
   "qatar/dukhan": {
     "tier": "1",
@@ -2977,16 +3196,47 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "dukhan",
     "url": "/export/qatar/dukhan/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Dukhan | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Dukhan | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Dukhan, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving dukhan; flange supplier dukhan; flange wholesaler dukhan; flange exporter to dukhan",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
+    "h1": "Flange Supplier in Dukhan, Qatar",
+    "metaTitle": "Flange Supplier in Dukhan, Qatar | Oil Field Flanges",
+    "metaDescription": "Flange supplier for Dukhan oil field projects: weld neck, RTJ and blind flanges to ASME B16.5, A105, LF2 and duplex, with 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier dukhan; flange manufacturer for dukhan qatar; flange price dukhan; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
     "faqQ2": "How can I get a flange price quote for a project in Dukhan?",
     "faqQ3": "What quality testing is performed before export to Qatar?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Dukhan is the home of Qatar's onshore oil field. Remax Forge supplies forged weld neck, blind and RTJ flanges for Dukhan projects, made to ASME B16.5 in Mumbai and shipped with EN 10204 3.1 mill test certificates.",
+    "local": {
+      "region": "Zone 86, Al-Shahaniya Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Dukhan sits on Qatar's west coast, about 80 km west of Doha, linked to the capital by the four-lane Dukhan Highway. It grew around the oil field where Qatar struck its first oil in 1937. By 1990 the field had 390 wells, 140 producing oil and 20 producing gas, connected by 204 km of pipelines. A power station followed in 1958 and the Fahahil NGL plant in 1974.",
+        "In 2025 Samsung C&T was awarded the contract for a 2,000 MW solar plant at Dukhan, which adds utility and cooling-water piping to the area's oil and gas work. Oil field tie-ins and wellhead piping commonly call for weld neck and RTJ flanges in Class 600 and above, often in A105 or low-temperature A350 LF2, with duplex F51 where produced water is corrosive."
+      ],
+      "industries": [
+        "Dukhan oil field flowlines and gathering pipelines",
+        "NGL and gas processing at Fahahil",
+        "Dukhan 2,000 MW solar plant balance-of-plant piping"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Dukhan",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply RTJ flanges for Dukhan oil field tie-ins?",
+        "a": "Yes. Ring type joint weld neck and blind flanges are machined to ASME B16.5 with the groove dimensions of ASME B16.20 for the ring number you specify. State the class and ring number in the RFQ."
+      },
+      {
+        "q": "Are you an approved QatarEnergy vendor for Dukhan?",
+        "a": "We do not claim any end-user vendor registration. Most Dukhan purchases go through EPC and maintenance contractors, and we quote to the contractor's specification with full mill test certificates and the inspection you nominate."
+      },
+      {
+        "q": "Can Dukhan flanges be inspected by a third party before dispatch?",
+        "a": "Yes. Your nominated inspector can witness dimensional checks, PMI and any hydrostatic testing at our Mumbai works before the flanges are packed."
+      }
+    ]
   },
   "qatar/al-daayen": {
     "tier": "1",
@@ -3013,16 +3263,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-dafna",
     "url": "/export/qatar/al-dafna/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Dafna | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Dafna | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Dafna, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al dafna; flange supplier al dafna; flange wholesaler al dafna; flange exporter to al dafna",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What quality testing is performed before export to Qatar?",
+    "h1": "Flange Supplier in Al Dafna, Qatar",
+    "metaTitle": "Flange Supplier in Al Dafna, West Bay Doha",
+    "metaDescription": "Flange supplier for Al Dafna (West Bay), Doha. Weld neck, blind and B16.47 large-bore flanges for towers and district cooling, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier al dafna; flange manufacturer for al dafna qatar; flange price al dafna; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What flange standards do you certify to for Qatar projects?",
     "faqQ3": "What is the shipping lead time from Mumbai to Al Dafna?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for the towers and hotels of Al Dafna, the West Bay district on reclaimed land along the Doha seafront, supplied direct from the Remax Forge works.",
+    "local": {
+      "region": "Zone 61, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Dafna is a 3.2 square kilometre seaside district of Doha in Zone 61, built on land reclaimed by dredging between 1978 and 1981. It borders Rumeilah to the south, Wadi Al Sail, Onaiza and Lekhwair to the west and Al Qassar to the north. The 456-room Sheraton Grand Doha opened here in 1979, City Center mall is in the district, and more than fifty further skyscrapers have been planned.",
+        "Skyscraper districts depend on high-pressure fire risers and large chilled-water mains. Al Dafna buyers often need Class 300 and 600 flanges at the base of tall risers, where static head raises the pressure, plus ASME B16.47 large-bore flanges on cooling mains."
+      ],
+      "industries": [
+        "High-rise towers in West Bay",
+        "Hotels and City Center mall plant rooms",
+        "District cooling mains on reclaimed land"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Dafna",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Why do tall towers in Al Dafna need higher-class flanges?",
+        "a": "The weight of water in a tall riser adds static pressure at the lower floors, so flanges near the base may need Class 300 or 600 even when the upper floors use Class 150. Your MEP engineer sets the class by zone."
+      },
+      {
+        "q": "Do you make flanges above NPS 24 for West Bay cooling mains?",
+        "a": "Yes, to ASME B16.47 Series A or B. Say which series is on the drawings, as the bolt circles differ."
+      },
+      {
+        "q": "Do you supply flanges for hotel plant-room renewals in West Bay?",
+        "a": "Yes. Hotel boiler, chiller and pump rooms use Class 150 and 300 weld neck, slip-on and blind flanges. Send the renewal schedule and we will quote each item with its standard and grade."
+      }
+    ]
   },
   "qatar/ad-dawhah-al-jadidah": {
     "tier": "1",
@@ -3085,16 +3367,44 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "fuwayrit",
     "url": "/export/qatar/fuwayrit/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Fuwayrit | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Fuwayrit | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Fuwayrit, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving fuwayrit; flange supplier fuwayrit; flange wholesaler fuwayrit; flange exporter to fuwayrit",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Which flange materials and grades are most common for Qatar buyers?",
+    "h1": "Flange Supplier in Fuwayrit, Qatar",
+    "metaTitle": "Flange Supplier in Fuwayrit, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Fuwayrit, Al Shamal, Qatar. Stainless and carbon steel ASME B16.5 flanges for coastal and utility work, with 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier fuwayrit; flange manufacturer for fuwayrit qatar; flange price fuwayrit; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Is there a minimum order quantity for export orders to Fuwayrit?",
     "faqQ3": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Forged flanges for coastal and utility projects at Fuwayrit, on Qatar's north-east coast in Al Shamal, supplied from Mumbai with full material traceability.",
+    "local": {
+      "region": "Zone 77, Al Shamal Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Fuwayrit is a coastal settlement of about 3.4 square kilometres in Al Shamal Municipality, around 90 km north of Doha on the north-east coast. Wikipedia describes it as an important site for Qatar's oil industry. Its beach is also one of the main sea turtle nesting areas in the country, and the 50-key Fuwairit Kite Beach Resort opened there in 2022.",
+        "Projects this close to the sea face salt spray and chloride attack. For exposed water, fire and cooling lines at Fuwayrit, buyers often choose stainless F316L flanges or duplex F51 instead of plain carbon steel, or specify a coating on A105. We quote whichever grade your specification calls for."
+      ],
+      "industries": [
+        "Oil industry sites on the north-east coast",
+        "Resort and hospitality utilities at Fuwairit Kite Beach",
+        "Coastal fire-water and seawater-exposed lines"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Fuwayrit",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Which flange material lasts on the coast at Fuwayrit?",
+        "a": "Carbon steel A105 needs a coating where it is exposed to sea air. Stainless F316L or duplex F51 give better chloride resistance without one. The choice depends on the service and your specification."
+      },
+      {
+        "q": "Can you deliver to a site as far north as Fuwayrit?",
+        "a": "Sea freight lands in Qatar and the goods are trucked onward. We confirm the delivery point and Incoterm with the quote, so state whether you want delivery to Doha or to the site."
+      }
+    ]
   },
   "qatar/fereej-abdel-aziz": {
     "tier": "1",
@@ -3589,16 +3899,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-jasrah",
     "url": "/export/qatar/al-jasrah/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Jasrah | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Jasrah | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Jasrah, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al jasrah; flange supplier al jasrah; flange wholesaler al jasrah; flange exporter to al jasrah",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What quality testing is performed before export to Qatar?",
+    "h1": "Flange Supplier in Al Jasrah, Qatar",
+    "metaTitle": "Flange Supplier in Al Jasrah, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Al Jasrah and Souq Waqif, Doha. Compact Class 150 flanges for heritage-area building services, 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier al jasrah; flange manufacturer for al jasrah qatar; flange price al jasrah; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What flange standards do you certify to for Qatar projects?",
     "faqQ3": "What is the shipping lead time from Mumbai to Al Jasrah?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Forged flanges for restoration and services work in Al Jasrah, the small historic Doha district around Souq Waqif.",
+    "local": {
+      "region": "Zone 1, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Jasrah is Doha's Zone 1, a 0.4 square kilometre district bordered by Al Souq across Grand Hamad Street, Al Bidda and Mushayrib across Jassim Bin Mohammed Street, and Al Najada to the south. It hosts Souq Waqif, and Qatar's first hospital was established here in 1947. Only 240 people lived in the district in 2010.",
+        "Work in a heritage market area is mostly careful replacement of hidden services: water, drainage, fire protection and cooling for shops and restaurants. Small Class 150 flanges in carbon steel and stainless, delivered in labelled lots, suit sites where access and storage are limited."
+      ],
+      "industries": [
+        "Souq Waqif shop and restaurant services",
+        "Fire protection in heritage buildings",
+        "Water and drainage renewal in Zone 1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Jasrah",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can you deliver flanges in small lots for Souq Waqif work?",
+        "a": "Tell us in the RFQ if you need the order split into lots. We will confirm the packing and labelling on the quotation."
+      },
+      {
+        "q": "Which flange is best where space is tight?",
+        "a": "Slip-on flanges are shorter than weld neck flanges and are easier to fit in confined spaces on low-pressure lines. For higher pressure or cycling, weld neck remains the better choice."
+      },
+      {
+        "q": "Do you supply stainless flanges for restaurant kitchens around Souq Waqif?",
+        "a": "Yes. Food-service water and drainage often uses stainless F304L or F316L because it is easy to clean and resists corrosion. Give the sizes and class, and say whether the flanges will be welded or threaded so we can quote the right type for the small pipe sizes used in kitchens."
+      }
+    ]
   },
   "qatar/al-jeryan": {
     "tier": "1",
@@ -3661,16 +4003,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-kharrara",
     "url": "/export/qatar/al-kharrara/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Kharrara | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Kharrara | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Kharrara, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al kharrara; flange supplier al kharrara; flange wholesaler al kharrara; flange exporter to al kharrara",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Which flange materials and grades are most common for Qatar buyers?",
+    "h1": "Flange Supplier in Al Kharrara, Qatar",
+    "metaTitle": "Flange Supplier in Al Kharrara, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Al Kharrara, Al Wakrah (Zone 95), near Mesaieed. Flanges for quarrying, plant and utility work, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier al kharrara; flange manufacturer for al kharrara qatar; flange price al kharrara; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Is there a minimum order quantity for export orders to Al Kharrara?",
     "faqQ3": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for Al Kharrara, the south-central Al Wakrah district near Mesaieed, supplied from the Remax Forge works with mill test certificates.",
+    "local": {
+      "region": "Zone 95, Al Wakrah Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Kharrara is a 12.4 square kilometre district of south-central Qatar in Zone 95 of Al Wakrah Municipality, at an elevation of 45 m. Its nearest large town is Mesaieed, to the east, and a 1908 gazetteer placed it about 20 miles south of Doha. Qatar Primary Materials Company extracts dune sand here, and a stage of the Sealine Cross-Country Rally starts in the district.",
+        "Sand extraction and processing use slurry, wash-water and dust-suppression pipework that wears quickly, so flanges are replaced often. These orders are usually carbon steel A105 in Class 150, with heavier Class 300 at pump discharges."
+      ],
+      "industries": [
+        "Dune sand extraction and processing",
+        "Wash-water and slurry pumping",
+        "Desert event and camp utilities"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Kharrara",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for sand-processing pipework?",
+        "a": "Yes. Slurry and wash-water lines usually take A105 weld neck or slip-on flanges in Class 150 or 300. Give the line size and pressure for each pump."
+      },
+      {
+        "q": "Can Al Kharrara orders be combined with Mesaieed deliveries?",
+        "a": "Tell us all the delivery points in the RFQ and we will confirm on the quote how the goods will be shipped."
+      },
+      {
+        "q": "Do sand-processing plants need wear-resistant flange choices?",
+        "a": "The flange itself sees less wear than the pipe, but abrasive slurry can erode the bore at the joint. Weld neck flanges with a bore matched to the pipe reduce turbulence there. Give the pipe schedule so we can match the bore exactly."
+      }
+    ]
   },
   "qatar/al-kharaitiyat": {
     "tier": "1",
@@ -3697,16 +4071,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-kharayej",
     "url": "/export/qatar/al-kharayej/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Kharayej | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Kharayej | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Kharayej, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al kharayej; flange supplier al kharayej; flange wholesaler al kharayej; flange exporter to al kharayej",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
+    "h1": "Flange Supplier in Al Kharayej, Qatar",
+    "metaTitle": "Flange Supplier in Al Kharayej, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Al Kharayej, Lusail. Flanges for residential, coastal and utility works, carbon steel to duplex, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier al kharayej; flange manufacturer for al kharayej qatar; flange price al kharayej; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "How can I get a flange price quote for a project in Al Kharayej?",
     "faqQ3": "What quality testing is performed before export to Qatar?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges for Al Kharayej, the coastal Lusail district in the south-east corner of Al Daayen.",
+    "local": {
+      "region": "Zone 69, Al Daayen (Lusail)",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Kharayej is a 6.8 square kilometre district in Zone 69, in the south-east corner of Al Daayen, and is counted with Doha in the census. It borders Al Kheesa and Wadi Al Banat to the west, Al Egla to the south, Lusail to the north and the Persian Gulf to the east. It is part of Lusail city and was one of three areas where a 2002 cabinet resolution allowed foreigners to own property. It was traditionally agricultural.",
+        "Residential development on the coast needs cooling, water and drainage networks, plus seawater-exposed outfalls and intakes. Al Kharayej orders combine Class 150 carbon steel for building services with stainless or duplex for coastal lines."
+      ],
+      "industries": [
+        "Lusail residential developments",
+        "Coastal drainage outfalls and intakes",
+        "Former farmland converted to housing"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Kharayej",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for coastal outfalls in Al Kharayej?",
+        "a": "Yes. Outfalls and intakes in seawater often use duplex F51 or coated carbon steel flanges. The project specification decides the grade."
+      },
+      {
+        "q": "Is Al Kharayej supplied the same way as Lusail?",
+        "a": "Yes. Both are reached through Qatar's main ports. Give the site address so we can quote delivery to the right place."
+      },
+      {
+        "q": "Which documents do Lusail-area consultants usually ask for?",
+        "a": "Most consultants want the EN 10204 3.1 mill test certificate for each heat, the certificate of origin, commercial invoice and packing list. Some also ask for third-party inspection reports. Tell us the full list with the RFQ."
+      }
+    ]
   },
   "qatar/al-kheesa": {
     "tier": "1",
@@ -3715,16 +4121,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-kheesa",
     "url": "/export/qatar/al-kheesa/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Kheesa | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Kheesa | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Kheesa, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al kheesa; flange supplier al kheesa; flange wholesaler al kheesa; flange exporter to al kheesa",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "How can I get a flange price quote for a project in Al Kheesa?",
+    "h1": "Flange Supplier in Al Kheesa, Qatar",
+    "metaTitle": "Flange Supplier in Al Kheesa, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Al Kheesa, Al Daayen (Zone 70). Flanges for sewage pumping, utilities and new housing, 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier al kheesa; flange manufacturer for al kheesa qatar; flange price al kheesa; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What quality testing is performed before export to Qatar?",
     "faqQ3": "What flange standards do you certify to for Qatar projects?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges for Al Kheesa, the Al Daayen district with the main pumping station of the North Doha sewage system.",
+    "local": {
+      "region": "Zone 70, Al Daayen Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Kheesa is a 7.0 square kilometre district in Zone 70 of Al Daayen, about 3 km south of Rawdat Al Hamama. A 1908 gazetteer put it 12 miles north-west of Doha. It has the primary pumping station of the North Doha Sewage Treatment Works, a QR 3.63 billion scheme with its main plant in Umm Salal Ali. Qatar Radio's first transmitter was built here in 1968, and about 25,000 residents are expected.",
+        "A primary sewage pumping station uses large flanged valves, pumps and headers, often in ductile iron or carbon steel with stainless for some services. Flange orders for Al Kheesa range from large Class 150 headers to small instrument connections."
+      ],
+      "industries": [
+        "North Doha sewage primary pumping station",
+        "Housing for about 25,000 residents",
+        "Metro station and road utilities"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Kheesa",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for sewage pumping stations?",
+        "a": "Yes. Pumping-station headers and valve connections are mostly Class 150 weld neck and blind flanges. If mating to ductile iron valves, give the valve flange standard so the drilling matches."
+      },
+      {
+        "q": "Can you supply instrument flanges with the main order?",
+        "a": "Yes. Small-bore socket weld and threaded flanges can be quoted on the same order as large flanges."
+      },
+      {
+        "q": "Which flange grade suits sewage with hydrogen sulphide?",
+        "a": "Sewage gas containing hydrogen sulphide attacks carbon steel above the liquid line. Stainless F316L or coated carbon steel is common for wet-well and header flanges. The utility's specification decides the material."
+      }
+    ]
   },
   "qatar/al-khor": {
     "tier": "1",
@@ -3733,16 +4171,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-khor",
     "url": "/export/qatar/al-khor/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Khor | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Khor | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Khor, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al khor; flange supplier al khor; flange wholesaler al khor; flange exporter to al khor",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What quality testing is performed before export to Qatar?",
+    "h1": "Flange Supplier in Al Khor, Qatar",
+    "metaTitle": "Flange Supplier in Al Khor & Ras Laffan, Qatar",
+    "metaDescription": "Flange supplier for Al Khor and Ras Laffan, Qatar. Weld neck, RTJ and blind flanges for gas processing, GTL and utilities, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier al khor; flange manufacturer for al khor qatar; flange price al khor; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What flange standards do you certify to for Qatar projects?",
     "faqQ3": "What is the shipping lead time from Mumbai to Al Khor?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies forged flanges for Al Khor, the north-eastern municipality that includes the Ras Laffan gas processing complex and Pearl GTL.",
+    "local": {
+      "region": "Al Khor Municipality (Zones 74–76)",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Khor Municipality covers 1,613 square kilometres in north-east Qatar, with Zones 74 to 76 and a population of 202,031 in 2015. Its seat, Al Khor City, is 57 km north of Doha. The municipality contains the Ras Laffan natural gas processing complex and the Pearl GTL plant, and held 35% of Qatar's farmland in 2015, across 344 farms.",
+        "Gas processing and GTL plants are among the most demanding flange buyers in Qatar: weld neck and RTJ flanges in Class 600 to 2500, low-temperature A350 LF2, stainless and duplex for corrosive service, and sour-service requirements where the gas contains H2S. Farms and the QR 237.7 million Aquatic Fisheries and Research Centre at Ras Matbakh add water and irrigation work."
+      ],
+      "industries": [
+        "Ras Laffan natural gas processing",
+        "Pearl GTL plant maintenance",
+        "Farm irrigation and the Ras Matbakh fisheries centre"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Khor",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply sour-service flanges for Ras Laffan?",
+        "a": "Yes, when the order calls for it. State NACE MR0175 / ISO 15156 requirements, the hardness limit and the grade in the RFQ so the material and testing are quoted to suit."
+      },
+      {
+        "q": "Do you hold approvals with the Ras Laffan operators?",
+        "a": "We do not claim any end-user vendor approval. Supply goes through the EPC or maintenance contractor, to the contractor's specification, with full certificates and your nominated inspection."
+      },
+      {
+        "q": "Which flanges suit low-temperature gas lines?",
+        "a": "Low-temperature service is normally A350 LF2 carbon steel or austenitic stainless such as F304L and F316L. The minimum design temperature on your datasheet sets the grade and any impact testing."
+      }
+    ]
   },
   "qatar/al-khulaifat": {
     "tier": "1",
@@ -3751,16 +4221,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-khulaifat",
     "url": "/export/qatar/al-khulaifat/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Khulaifat | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Khulaifat | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Khulaifat, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al khulaifat; flange supplier al khulaifat; flange wholesaler al khulaifat; flange exporter to al khulaifat",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What flange standards do you certify to for Qatar projects?",
+    "h1": "Flange Supplier in Al Khulaifat, Qatar",
+    "metaTitle": "Flange Supplier in Al Khulaifat, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Al Khulaifat, Doha (Zone 28). Flanges for building and seafront utility work, carbon steel and stainless, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier al khulaifat; flange manufacturer for al khulaifat qatar; flange price al khulaifat; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What is the shipping lead time from Mumbai to Al Khulaifat?",
     "faqQ3": "Do you handle export documentation and customs paperwork for shipments to Qatar?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Forged flanges for Al Khulaifat, the small Doha district across Doha Bay from Doha Port and beside the old Doha International Airport.",
+    "local": {
+      "region": "Zone 28, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Khulaifat is a 0.2 square kilometre district of Doha in Zone 28. Old Al Hitmi and As Salatah lie to the west across Corniche Street, Doha Port lies to the north across Doha Bay, Ras Abu Aboud is to the east and Doha International Airport is to the south across Ras Bu Abboud Street. The Oasis Hotel opened here in 1965 and closed in the early 2000s.",
+        "Its landmarks along Al Sharq Street include Doha Club Park and the Doha Sports Center. Sports and leisure buildings on the seafront need fire-water and cooling systems that resist salty air, so stainless F316L is common alongside coated carbon steel."
+      ],
+      "industries": [
+        "Doha Sports Center and Doha Club Park services",
+        "Seafront buildings by Doha Bay",
+        "Redevelopment of former hotel sites"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Khulaifat",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for seafront buildings in Al Khulaifat?",
+        "a": "Yes. Exposed lines near the bay are often stainless F316L, while buried or indoor lines can be carbon steel. Your specification sets the grade."
+      },
+      {
+        "q": "How do I get a quote for a small Al Khulaifat job?",
+        "a": "Send the list of flanges through the quote form with size, class, facing, grade and quantity. The quotation shows the price and the delivery terms to Doha."
+      },
+      {
+        "q": "Is there a lower-cost alternative to stainless for indoor lines by the bay?",
+        "a": "For indoor or buried lines, coated carbon steel A105 is usually cheaper than stainless and lasts well when protected. Keep stainless F316L for lines exposed to sea air. Your consultant's specification decides which applies."
+      }
+    ]
   },
   "qatar/leabaib": {
     "tier": "1",
@@ -3769,16 +4271,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "leabaib",
     "url": "/export/qatar/leabaib/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Leabaib | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Leabaib | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Leabaib, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving leabaib; flange supplier leabaib; flange wholesaler leabaib; flange exporter to leabaib",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What is the shipping lead time from Mumbai to Leabaib?",
+    "h1": "Flange Supplier in Leabaib, Qatar",
+    "metaTitle": "Flange Supplier in Leabaib, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Leabaib, Al Daayen (Zone 70). Flanges for housing, health centre and utility work, A105 to F316L, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier leabaib; flange manufacturer for leabaib qatar; flange price leabaib; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Do you handle export documentation and customs paperwork for shipments to Qatar?",
     "faqQ3": "Which flange materials and grades are most common for Qatar buyers?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for the growing Leabaib district of Al Daayen, between Umm Salal and Duhail, supplied by Remax Forge from Mumbai to ASME B16.5.",
+    "local": {
+      "region": "Zone 70, Al Daayen Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Leabaib is a 4.4 square kilometre district in the south-west corner of Al Daayen, Zone 70. Umm Salal lies to its west, Doha's Duhail district to the south and Al Ebb to the north, and a metro station sits about 1 km west of its border. A primary health centre opened in December 2015, there is a 4,376 square metre family park, and plans allow for up to 30,000 residents.",
+        "A district planned for that many people needs water, sewage and cooling networks laid ahead of the housing. Flange orders for Leabaib are therefore mostly utility work: weld neck and blind flanges on water and sewage mains, and slip-on flanges at pump stations and building connections."
+      ],
+      "industries": [
+        "New housing for up to 30,000 residents",
+        "Water and sewage mains in Zone 70",
+        "Health centre and park building services"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Leabaib",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for Leabaib utility networks?",
+        "a": "Yes. Utility mains generally use Class 150 weld neck and blind flanges. Send the size range and specification and we will quote by line item."
+      },
+      {
+        "q": "Can I order flanges for several building plots at once?",
+        "a": "Yes. If you need the order packed by plot, say so in the RFQ and we will confirm it on the quotation."
+      },
+      {
+        "q": "Do you supply flanges for the Leabaib health centre and park services?",
+        "a": "Yes. Health centres and parks use Class 150 flanges on water, irrigation and fire lines, in carbon steel or stainless. Send the specification with the line sizes and the quantity for each."
+      }
+    ]
   },
   "qatar/lebday": {
     "tier": "1",
@@ -3787,16 +4321,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "lebday",
     "url": "/export/qatar/lebday/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Lebday | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Lebday | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Lebday, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving lebday; flange supplier lebday; flange wholesaler lebday; flange exporter to lebday",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Do you handle export documentation and customs paperwork for shipments to Qatar?",
+    "h1": "Flange Supplier in Lebday, Qatar",
+    "metaTitle": "Flange Supplier in Lebday, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Lebday, Al Rayyan (Zone 52). Class 150 and 300 flanges for offices and services, A105 to F316L, 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier lebday; flange manufacturer for lebday qatar; flange price lebday; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Which flange materials and grades are most common for Qatar buyers?",
     "faqQ3": "Is there a minimum order quantity for export orders to Lebday?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for building and services work in Lebday, the Zone 52 district of Al Rayyan next to Old Al Rayyan and Madinat Khalifa South.",
+    "local": {
+      "region": "Zone 52, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Lebday is a 2.4 square kilometre district of Al Rayyan in Zone 52, with Old Al Rayyan to its west and south, Al Messila and Madinat Khalifa South to the east and Al Luqta to the north. The Al Rayyan Al Qadeem station on the Green Line opened on 10 December 2019. Tivoli Group has its headquarters in the district, and Zone 52 had 18,433 residents in 2015.",
+        "Offices and homes here need building services rather than process piping. Flange orders for Lebday are typically Class 150 carbon steel slip-on and weld neck flanges for water, fire and HVAC, with a few Class 300 pieces at pump discharges."
+      ],
+      "industries": [
+        "Office buildings such as company headquarters",
+        "Residential building services in Zone 52",
+        "Pump discharge connections and HVAC plant"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lebday",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Which flanges are used at pump discharges in Lebday buildings?",
+        "a": "Pump discharges are often Class 150, but some booster systems need Class 300. Check the pump rating and the design pressure; we quote the class you specify."
+      },
+      {
+        "q": "Do you supply raised face or flat face flanges?",
+        "a": "Both. Raised face is standard for steel-to-steel joints. Flat face is used when mating with cast-iron pumps or valves. State the facing on the RFQ."
+      },
+      {
+        "q": "Can you supply flanges for an office fit-out near Al Rayyan Al Qadeem station?",
+        "a": "Yes. Office fit-outs need small Class 150 flanges for fire, chilled water and domestic water. Send the MEP schedule with sizes, facing and grade, and the quote will list each line with its certificate."
+      }
+    ]
   },
   "qatar/lejbailat": {
     "tier": "1",
@@ -3805,16 +4371,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "lejbailat",
     "url": "/export/qatar/lejbailat/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Lejbailat | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Lejbailat | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Lejbailat, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving lejbailat; flange supplier lejbailat; flange wholesaler lejbailat; flange exporter to lejbailat",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Which flange materials and grades are most common for Qatar buyers?",
+    "h1": "Flange Supplier in Lejbailat, Qatar",
+    "metaTitle": "Flange Supplier in Lejbailat, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Lejbailat, Doha (Zone 64). Class 150–300 weld neck, slip-on and blind flanges for MEP and utility work, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier lejbailat; flange manufacturer for lejbailat qatar; flange price lejbailat; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Is there a minimum order quantity for export orders to Lejbailat?",
     "faqQ3": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flange supply for building and fit-out work in Lejbailat, the raised Doha district above West Bay that is home to the Qatar State Mosque and several embassies.",
+    "local": {
+      "region": "Zone 64, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Lejbailat is a 1.4 square kilometre district of Doha in Zone 64, on higher ground overlooking West Bay. Abdul Aziz Bin Jassim Street, Khalifa Street, Al Markhiya Street and Onaiza Street run through or beside it. The 2010 census counted 4,024 residents. The district holds the Qatar State Mosque and the embassies of Belgium, Peru and Uruguay.",
+        "Work in Lejbailat is mostly renovation and services for public buildings, embassies and villas. These jobs need chilled-water, fire-protection and plumbing flanges that match existing pipework, so the RFQ should give the size, class and facing of the flanges already installed."
+      ],
+      "industries": [
+        "Building services for embassies and public buildings",
+        "Chilled-water plant renovation near West Bay",
+        "Fire-protection upgrades in older villas"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lejbailat",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can you match flanges to existing pipework in a Lejbailat building?",
+        "a": "Yes, if you give us the standard, NPS, class, facing and bolt pattern. If the flanges are unmarked, measure the outside diameter, bolt circle and bolt holes and we will identify the standard before quoting."
+      },
+      {
+        "q": "Do you supply flanges for HVAC chilled-water risers?",
+        "a": "Yes. Chilled-water systems typically use Class 150 or Class 300 carbon steel weld neck or slip-on flanges. Give us the design pressure and pipe schedule and we will match the bore."
+      },
+      {
+        "q": "Which grade do you suggest for the Qatar State Mosque area's ablution water lines?",
+        "a": "Ablution and domestic water lines are usually stainless F304L or F316L, or coated carbon steel where the specification allows it. Give the grade your consultant has chosen and we will quote to it."
+      }
+    ]
   },
   "qatar/lekhwair": {
     "tier": "1",
@@ -3823,16 +4421,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "lekhwair",
     "url": "/export/qatar/lekhwair/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Lekhwair | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Lekhwair | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Lekhwair, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving lekhwair; flange supplier lekhwair; flange wholesaler lekhwair; flange exporter to lekhwair",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Is there a minimum order quantity for export orders to Lekhwair?",
+    "h1": "Flange Supplier in Lekhwair, Qatar",
+    "metaTitle": "Flange Supplier in Lekhwair, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Lekhwair, Doha. Weld neck, slip-on and blind flanges for sports-facility and building services, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier lekhwair; flange manufacturer for lekhwair qatar; flange price lekhwair; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
     "faqQ3": "How can I get a flange price quote for a project in Lekhwair?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Forged flanges for building and sports-facility work in Lekhwair, the Doha district near West Bay, supplied by Remax Forge with full documentation.",
+    "local": {
+      "region": "Doha Municipality, near West Bay",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Lekhwair is a Doha district close to West Bay. It contains the Khalifa International Tennis and Squash Complex, and in August 2013 the Lekhwair Intersection replaced the old Oryx Roundabout, one of the city's road upgrades.",
+        "Sports venues and nearby towers run large cooling and fire systems, and road works move existing utilities. Lekhwair buyers therefore ask for chilled-water and fire-main flanges in Class 150 and 300, plus blind flanges for diverted or capped utility lines."
+      ],
+      "industries": [
+        "Khalifa International Tennis and Squash Complex services",
+        "Utility diversions for road upgrades",
+        "Building services near West Bay"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lekhwair_(Doha)",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for utility diversions on road projects?",
+        "a": "Yes. Diverted water and fire mains need weld neck and blind flanges that match the existing line. Give the pipe size, schedule and class of the old line."
+      },
+      {
+        "q": "Can I get flanges and blinds in the same delivery?",
+        "a": "Yes. Flanges and blinds can go on one quotation, with mill test certificates for each item."
+      },
+      {
+        "q": "What do I need to send for a Lekhwair sports-complex cooling upgrade?",
+        "a": "Send the chiller and pump connection schedule: NPS, class, facing, pipe schedule and grade for each flange, with the quantity and any spares. Mark which flanges mate with existing equipment so the drilling and facing match what is already installed at the tennis and squash complex."
+      }
+    ]
   },
   "qatar/leqtaifiya": {
     "tier": "1",
@@ -3859,16 +4489,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "lijmiliya",
     "url": "/export/qatar/lijmiliya/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Lijmiliya | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Lijmiliya | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Lijmiliya, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving lijmiliya; flange supplier lijmiliya; flange wholesaler lijmiliya; flange exporter to lijmiliya",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "How can I get a flange price quote for a project in Lijmiliya?",
+    "h1": "Flange Supplier in Lijmiliya, Qatar",
+    "metaTitle": "Flange Supplier in Lijmiliya, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Lijmiliya (Al Jemailiya), Al-Shahaniya. ASME B16.5 flanges for water, sewage and civic projects, with 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier lijmiliya; flange manufacturer for lijmiliya qatar; flange price lijmiliya; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What quality testing is performed before export to Qatar?",
     "faqQ3": "What flange standards do you certify to for Qatar projects?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges to contractors working in Lijmiliya (Al Jemailiya), the rural district of Al-Shahaniya north-west of the Dukhan Highway.",
+    "local": {
+      "region": "Zone 73, Al-Shahaniya Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Lijmiliya, also written Al Jemailiya, is a 27.6 square kilometre district in Zone 73, part of Al-Shahaniya Municipality since 2014. It lies about 30 km north-west of the Al-Shahaniya exit on the Dukhan Highway, and Al Jemailiya Road links its two sections. The municipal population was 10,303 in 2004.",
+        "The district was part of a QAR 535 million rural sewage scheme in 1983–84, and plans include a 4,159 square metre civil defence centre and a 22,278 square metre youth centre. Sewage, water and civic building work like this needs carbon steel and stainless flanges in Class 150, plus blind flanges for valve chambers and future connections."
+      ],
+      "industries": [
+        "Rural sewage and water networks in Al-Shahaniya",
+        "Civil defence and youth centre construction",
+        "Pumping stations on Al Jemailiya Road"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Jemailiya",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for sewage pumping stations in Lijmiliya?",
+        "a": "Yes. Pumping stations usually take Class 150 weld neck and blind flanges in carbon steel or stainless F316L. Send the line list and the specification and we will quote each size."
+      },
+      {
+        "q": "Is Lijmiliya the same place as Al Jemailiya?",
+        "a": "Yes, they are two spellings of the same district. Use whichever name appears on your drawings; the delivery address on the RFQ is what matters for freight."
+      },
+      {
+        "q": "Which flanges are needed in a sewage valve chamber?",
+        "a": "A valve chamber usually needs weld neck or slip-on flanges either side of each valve, plus a blind flange on any future branch. Most rural sewage lines are Class 150. Give the valve standard so the bolt drilling matches."
+      }
+    ]
   },
   "qatar/luaib": {
     "tier": "1",
@@ -3877,16 +4539,44 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "luaib",
     "url": "/export/qatar/luaib/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Luaib | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Luaib | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Luaib, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving luaib; flange supplier luaib; flange wholesaler luaib; flange exporter to luaib",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What quality testing is performed before export to Qatar?",
+    "h1": "Flange Supplier in Luaib, Qatar",
+    "metaTitle": "Flange Supplier in Luaib, Qatar | Remax Forge",
+    "metaDescription": "Forged flange supplier for Luaib, Al Rayyan (Zone 54). Weld neck, slip-on and blind flanges to ASME B16.5 with EN 10204 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier luaib; flange manufacturer for luaib qatar; flange price luaib; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What flange standards do you certify to for Qatar projects?",
     "faqQ3": "What is the shipping lead time from Mumbai to Luaib?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies forged flanges to contractors and maintenance teams working in Luaib, the small Zone 54 district of Al Rayyan between Muraikh, Mehairja and Old Al Rayyan. Send one RFQ and get a single written offer from our Mumbai works.",
+    "local": {
+      "region": "Zone 54, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Luaib covers about 2.3 square kilometres of Al Rayyan Municipality. It borders Muraikh to the west, Mehairja to the south, Fereej Al Amir to the east and Old Al Rayyan to the north, and shares Zone 54 with its neighbours. It is a residential area with two schools rather than an industrial estate.",
+        "Flange orders for a district like Luaib usually come from building services and utility work: chilled-water and fire-water lines, pump rooms, and water and drainage connections for villas and schools. That points to Class 150 carbon steel A105 weld neck, slip-on and blind flanges in the smaller NPS sizes, with stainless F316L where the line carries treated water."
+      ],
+      "industries": [
+        "Villa and school building services in Zone 54",
+        "Fire-water and chilled-water pump rooms",
+        "Water and drainage tie-ins for Al Rayyan contractors"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Luaib",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you deliver small flange orders for villa and school projects in Luaib?",
+        "a": "Yes. Mixed orders of a few sizes are quoted the same way as larger ones. List each line with type, NPS, class, facing and grade, and the quotation shows the freight to Qatar and the documents supplied."
+      },
+      {
+        "q": "Which flange class suits fire-water lines in a Luaib building?",
+        "a": "Fire-water and chilled-water systems in low-rise buildings are normally designed at Class 150, but the design pressure on your drawings decides. Tell us the design pressure and we will quote the class your consultant has specified."
+      }
+    ]
   },
   "qatar/lusail": {
     "tier": "1",
@@ -3895,16 +4585,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "lusail",
     "url": "/export/qatar/lusail/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Lusail | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Lusail | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Lusail, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving lusail; flange supplier lusail; flange wholesaler lusail; flange exporter to lusail",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What flange standards do you certify to for Qatar projects?",
+    "h1": "Flange Supplier in Lusail, Qatar",
+    "metaTitle": "Flange Supplier in Lusail, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Lusail City, Qatar. Weld neck, slip-on and blind flanges for towers, district cooling and utilities, 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier lusail; flange manufacturer for lusail qatar; flange price lusail; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What is the shipping lead time from Mumbai to Lusail?",
     "faqQ3": "Do you handle export documentation and customs paperwork for shipments to Qatar?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for Lusail City towers, utilities and the Energy City business district, supplied by Remax Forge from Mumbai to ASME B16.5 and B16.47 with EN 10204 3.1 certificates.",
+    "local": {
+      "region": "Zones 69–70, Al Daayen Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Lusail is a planned coastal city of about 38 square kilometres in Al Daayen, around 23 km north of central Doha and north of the West Bay Lagoon. It is reached by the Lusail Expressway and is the northern terminus of the Doha Metro Red Line. Its population was about 198,600 in 2022, and more than 80% of its infrastructure was complete by April 2018.",
+        "The city includes Energy City 1, a business hub for oil and gas companies, a 45-hectare Qatar Petroleum district, Lusail Stadium and the Lusail Plaza Towers. High-rise and district-utility work of this size needs large-bore flanges for chilled-water and fire mains, often above NPS 24 to ASME B16.47, alongside Class 150 and 300 flanges for risers and plant rooms."
+      ],
+      "industries": [
+        "High-rise towers such as the Lusail Plaza Towers",
+        "District cooling and chilled-water mains",
+        "Oil and gas offices in Energy City 1"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Lusail",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you make large-diameter flanges for Lusail chilled-water mains?",
+        "a": "Yes. Sizes above NPS 24 are made to ASME B16.47 Series A or Series B. Tell us which series your drawings call for, because the two have different bolt patterns."
+      },
+      {
+        "q": "Can one order cover several Lusail towers?",
+        "a": "Yes. If you need the flanges packed and labelled by building or phase, say so in the RFQ and we will confirm it on the quotation."
+      },
+      {
+        "q": "Do you supply Energy City contractors?",
+        "a": "We quote to any contractor's specification. We do not claim an approval with any particular Energy City tenant; the flanges are made and certified to the standard on your purchase order."
+      }
+    ]
   },
   "qatar/al-luqta": {
     "tier": "1",
@@ -4003,16 +4725,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "mebaireek",
     "url": "/export/qatar/mebaireek/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Mebaireek | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Mebaireek | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Mebaireek, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving mebaireek; flange supplier mebaireek; flange wholesaler mebaireek; flange exporter to mebaireek",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "How can I get a flange price quote for a project in Mebaireek?",
+    "h1": "Flange Supplier in Mebaireek, Qatar",
+    "metaTitle": "Flange Supplier in Mebaireek, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Mebaireek, Al Rayyan (Zone 81). ASME B16.5 weld neck, slip-on, blind and socket weld flanges, A105 to F316L. Get a quote.",
+    "keywords": "flange supplier mebaireek; flange manufacturer for mebaireek qatar; flange price mebaireek; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What quality testing is performed before export to Qatar?",
     "faqQ3": "What flange standards do you certify to for Qatar projects?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Forged flanges for projects along Salwa Road and Mesaieed Road in Mebaireek, the Zone 81 district of Al Rayyan, supplied from Mumbai with mill test certificates.",
+    "local": {
+      "region": "Zone 81, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Mebaireek is a 15.4 square kilometre district of Al Rayyan in Zone 81, formed in the mid-2000s from Abu Nakhla and Al Mukaynis, the area of the Mudhlem Cave. Abu Nakhla now belongs to Al-Shahaniya. Two major roads, Salwa Road and Mesaieed Road, pass through the district.",
+        "Sites near these two highways are reached easily by truck from the port, which suits staged deliveries of flanges for road, drainage and utility contracts. A typical order is carbon steel A105 in Class 150 and 300, with socket weld flanges for small-bore instrument and drain lines."
+      ],
+      "industries": [
+        "Utility crossings on Salwa Road and Mesaieed Road",
+        "Drainage and water works in Zone 81",
+        "Small-bore socket weld lines for pump skids"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mebaireek",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can you stage flange deliveries for a Mebaireek road contract?",
+        "a": "Yes. Tell us the call-off quantities and dates in the RFQ and we will quote the order in shipments, each with its own packing list and certificates."
+      },
+      {
+        "q": "Do you supply socket weld flanges for small-bore lines?",
+        "a": "Yes. Socket weld flanges are used on small-bore lines; give the NPS, class and pipe schedule so the socket bore matches the pipe."
+      },
+      {
+        "q": "Which flanges suit storm-water and drainage crossings under Salwa Road?",
+        "a": "Large drainage crossings are usually low-pressure, so Class 150 weld neck or slip-on flanges in coated carbon steel are common, with blinds at future connection points. The pipe size, wall thickness and coating system on your drawings decide the exact flange."
+      }
+    ]
   },
   "qatar/mehairja": {
     "tier": "1",
@@ -4021,16 +4775,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "mehairja",
     "url": "/export/qatar/mehairja/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Mehairja | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Mehairja | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Mehairja, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving mehairja; flange supplier mehairja; flange wholesaler mehairja; flange exporter to mehairja",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What quality testing is performed before export to Qatar?",
+    "h1": "Flange Supplier in Mehairja, Qatar",
+    "metaTitle": "Flange Supplier in Mehairja, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Mehairja, Al Rayyan. ASME B16.5 weld neck, slip-on, blind and socket weld flanges, A105 to F316L, with 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier mehairja; flange manufacturer for mehairja qatar; flange price mehairja; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What flange standards do you certify to for Qatar projects?",
     "faqQ3": "What is the shipping lead time from Mumbai to Mehairja?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for projects in Mehairja, the Zone 54 district of Al Rayyan beside Al Waab and the Aspire Zone, supplied direct from the Remax Forge works in Mumbai with EN 10204 3.1 certificates.",
+    "local": {
+      "region": "Zone 54, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Mehairja is a 4.0 square kilometre district of Al Rayyan. Fereej Al Soudan lies to its east, Al Waab and Al Aziziya to the south, Muraikh and Luaib to the north and Baaya to the west, close to the Aspire Zone. The name comes from the Arabic for \"burnt\", after the dark soil of the area.",
+        "Buyers here are mostly MEP and maintenance contractors serving housing and the commercial strip towards Al Waab. A typical Mehairja list mixes A105 slip-on flanges for low-pressure water service, weld neck flanges at pumps and valves, and blind flanges to cap branches left for later phases."
+      ],
+      "industries": [
+        "MEP fit-out between Al Waab and Fereej Al Soudan",
+        "Pump and valve connections in residential compounds",
+        "Blind flanges for future branches on utility mains"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mehairja",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Can you supply flanges and blinds together for a Mehairja compound job?",
+        "a": "Yes. Weld neck, slip-on and blind flanges in the same grade and class can go on one order and one set of mill test certificates, which keeps the paperwork simple for the consultant."
+      },
+      {
+        "q": "What grade do you suggest for treated-water lines in Mehairja?",
+        "a": "Carbon steel A105 is common for chilled and fire water. For potable or treated water many specifications ask for stainless F304L or F316L. Your project specification governs; we quote to it."
+      },
+      {
+        "q": "Do you supply flanges for compounds near the Aspire Zone?",
+        "a": "Yes. Compounds use Class 150 flanges on fire, chilled-water and domestic water lines. Send the line list and say which flanges mate with pumps or valves already on site."
+      }
+    ]
   },
   "qatar/mesaieed": {
     "tier": "1",
@@ -4075,16 +4861,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "mesaimeer",
     "url": "/export/qatar/mesaimeer/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Mesaimeer | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Mesaimeer | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Mesaimeer, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving mesaimeer; flange supplier mesaimeer; flange wholesaler mesaimeer; flange exporter to mesaimeer",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Do you handle export documentation and customs paperwork for shipments to Qatar?",
+    "h1": "Flange Supplier in Mesaimeer, Qatar",
+    "metaTitle": "Flange Supplier in Mesaimeer, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Mesaimeer, Al Rayyan, beside Doha Industrial Area. ASME B16.5 flanges for housing and utilities, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier mesaimeer; flange manufacturer for mesaimeer qatar; flange price mesaimeer; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Which flange materials and grades are most common for Qatar buyers?",
     "faqQ3": "Is there a minimum order quantity for export orders to Mesaimeer?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges to contractors in Mesaimeer, the large Al Rayyan district beside the Doha Industrial Area, home of Barwa City.",
+    "local": {
+      "region": "Zone 56, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Mesaimeer is a 28.5 square kilometre district south-west of Doha in Zone 56 of Al Rayyan. The Doha Industrial Area lies to its east, with Abu Hamour and Al Mamoura to the north-west and Al Thumama to the east, and a Green Line station is planned here. Barwa City, with 6,968 units in 128 buildings over 1.35 million square metres, is in Mesaimeer.",
+        "The district also has the WOQOD FAHES vehicle inspection centre and a workers' health centre that serves about 500,000 workers a year. With the industrial area next door, Mesaimeer orders range from building-services flanges for housing blocks to heavier Class 300 and 600 weld neck flanges for workshops and fabrication yards."
+      ],
+      "industries": [
+        "Barwa City housing and its 128 buildings",
+        "Fabrication shops beside the Doha Industrial Area",
+        "Vehicle inspection and health-centre services"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mesaimeer",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges to fabrication shops near Mesaimeer?",
+        "a": "Yes. Fabricators often order weld neck flanges in several classes and grades. Send the bill of materials and we will quote each line with its standard and certificate."
+      },
+      {
+        "q": "Can you supply flanges for a housing complex like Barwa City?",
+        "a": "Yes. Large residential complexes use Class 150 slip-on, weld neck and blind flanges on water, fire and cooling lines. If you need delivery split by building, state it in the RFQ."
+      },
+      {
+        "q": "Can you supply Class 600 flanges for workshop hydraulic or test rigs?",
+        "a": "Yes. Higher-pressure test rigs and hydraulic lines often need Class 600 or above, normally weld neck or socket weld in A105. Give the working pressure and pipe schedule for each line."
+      }
+    ]
   },
   "qatar/al-messila": {
     "tier": "1",
@@ -4111,16 +4929,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "muaither",
     "url": "/export/qatar/muaither/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Muaither | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Muaither | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Muaither, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving muaither; flange supplier muaither; flange wholesaler muaither; flange exporter to muaither",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Is there a minimum order quantity for export orders to Muaither?",
+    "h1": "Flange Supplier in Muaither, Qatar",
+    "metaTitle": "Flange Supplier in Muaither, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Muaither, Al Rayyan. Flanges for medical, residential and utility projects, A105 to F316L, with 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier muaither; flange manufacturer for muaither qatar; flange price muaither; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
     "faqQ3": "How can I get a flange price quote for a project in Muaither?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for Muaither, the Al Rayyan district on Al Furousiya Street, supplied from the Remax Forge works in Mumbai to ASME B16.5.",
+    "local": {
+      "region": "Zones 53 and 55, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Muaither is a 14.4 square kilometre district of Al Rayyan spread over Zones 53 and 55, at an elevation of 31 metres. Al Furousiya Street runs through it, and an underground Green Line station is under construction. The district has the Al-Hekma Medical Complex and a Q-Post office.",
+        "As a large residential district with medical and public buildings, Muaither generates steady demand for water, drainage and HVAC flanges. Most lines are Class 150 carbon steel, with stainless used for medical and treated-water systems."
+      ],
+      "industries": [
+        "Al-Hekma Medical Complex building services",
+        "Residential villas and compounds in Zones 53 and 55",
+        "Drainage and water works on Al Furousiya Street"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Muaither",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for medical buildings in Muaither?",
+        "a": "Yes. Medical buildings use carbon steel for chilled and fire water and stainless F304L or F316L for treated water. We quote to the grades in your specification."
+      },
+      {
+        "q": "Can I order a small quantity of flanges for one villa?",
+        "a": "Yes. Small orders are quoted with the freight to Qatar shown, so you can compare the landed cost."
+      },
+      {
+        "q": "How should I describe existing flanges on an older Muaither villa?",
+        "a": "Measure the outside diameter, the bolt circle, the number and size of bolt holes and the thickness, and note whether the face is raised or flat. With those figures we can identify the standard and class and quote a matching replacement."
+      }
+    ]
   },
   "qatar/muraikh": {
     "tier": "1",
@@ -4129,16 +4979,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "muraikh",
     "url": "/export/qatar/muraikh/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Muraikh | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Muraikh | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Muraikh, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving muraikh; flange supplier muraikh; flange wholesaler muraikh; flange exporter to muraikh",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
+    "h1": "Flange Supplier in Muraikh, Qatar",
+    "metaTitle": "Flange Supplier in Muraikh, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Muraikh, Al Rayyan. Slip-on, weld neck and blind flanges for compounds and public buildings, with EN 10204 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier muraikh; flange manufacturer for muraikh qatar; flange price muraikh; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "How can I get a flange price quote for a project in Muraikh?",
     "faqQ3": "What quality testing is performed before export to Qatar?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges to MEP and maintenance contractors in Muraikh, a Zone 54 district of Al Rayyan City, with each order made to ASME B16.5 in Mumbai.",
+    "local": {
+      "region": "Zone 54, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Muraikh is a 3.4 square kilometre district of Al Rayyan City in Zone 54. A 1908 gazetteer placed it \"9 miles west by south of Dohah\". Today it contains the Qatar Driving Learning Institute on Mohammed bin Ahmed Street, a Social Security office on Al Furousiya Street and the Muraikh Valley Compound.",
+        "Compounds and institutional buildings like these replace pumps, valves and plant-room pipework on a regular cycle. Maintenance orders tend to be short lists of A105 slip-on and weld neck flanges in Class 150, often needed to match the flanges already on site."
+      ],
+      "industries": [
+        "Residential compounds such as Muraikh Valley",
+        "Institutional buildings on Al Furousiya Street",
+        "Pump and valve replacement in plant rooms"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Muraikh",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you take maintenance orders for compounds in Muraikh?",
+        "a": "Yes. Short replacement lists are welcome. Give the size, class, facing and grade of each flange; if the old flange is unmarked, send its measured dimensions."
+      },
+      {
+        "q": "Slip-on or weld neck for a pump connection?",
+        "a": "Weld neck flanges handle vibration and cycling better, so they are preferred at pumps. Slip-on flanges are cheaper to fit and are common on low-pressure water lines. Your designer's specification decides."
+      },
+      {
+        "q": "Can I get flanges for a driving-institute or office upgrade in Muraikh on one order?",
+        "a": "Yes. Mixed building-services lists with slip-on, weld neck and blind flanges in several sizes can be quoted together. Group the list by system (fire, chilled water, domestic water) so the consultant can check it against the drawings."
+      }
+    ]
   },
   "qatar/mushayrib": {
     "tier": "1",
@@ -4147,16 +5029,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "mushayrib",
     "url": "/export/qatar/mushayrib/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Mushayrib | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Mushayrib | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Mushayrib, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving mushayrib; flange supplier mushayrib; flange wholesaler mushayrib; flange exporter to mushayrib",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "How can I get a flange price quote for a project in Mushayrib?",
+    "h1": "Flange Supplier in Mushayrib, Qatar",
+    "metaTitle": "Flange Supplier in Mushayrib, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Msheireb (Mushayrib), Doha. Class 150–300 flanges for district cooling, MEP and fire protection, 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier mushayrib; flange manufacturer for mushayrib qatar; flange price mushayrib; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What quality testing is performed before export to Qatar?",
     "faqQ3": "What flange standards do you certify to for Qatar projects?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for building services and utility work in Mushayrib (Msheireb), the central Doha district rebuilt as Msheireb Downtown Doha, supplied direct from the Remax Forge works.",
+    "local": {
+      "region": "Zones 3, 4 and 13, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Mushayrib, often spelled Msheireb, is a 1.0 square kilometre district of central Doha covering Zones 3, 4 and 13. It is dominated by Msheireb Downtown Doha, a US$5.5 billion, 31-hectare redevelopment launched in 2010 and built in six phases. Msheireb metro station, where the Red, Green and Gold lines meet, opened in May 2019 and is the largest in Qatar.",
+        "A dense mixed-use district like this runs on shared chilled water, fire mains and plumbing, and its owners renew plant-room equipment over time. Flange orders for Msheireb are mostly Class 150 and 300 weld neck and blind flanges for chilled-water and fire service, with stainless F316L for domestic water."
+      ],
+      "industries": [
+        "Msheireb Downtown Doha building services",
+        "Chilled-water and fire mains in mixed-use blocks",
+        "Station and transport building maintenance"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mushayrib",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for Msheireb plant-room upgrades?",
+        "a": "Yes. Send the equipment schedule or line list with sizes and classes. If you need tag-number labels, list them in the RFQ and we will confirm them on the quote."
+      },
+      {
+        "q": "Which documents come with flanges delivered to central Doha?",
+        "a": "Each order is shipped with EN 10204 3.1 mill test certificates, a packing list, a commercial invoice and a certificate of origin. Tell us any extra documents your consultant needs."
+      },
+      {
+        "q": "Do you supply flanges for Msheireb station and transit buildings?",
+        "a": "We quote building-services flanges for any contractor working on station facilities, usually Class 150 and 300 for fire and cooling. We do not claim a direct approval with the metro operator."
+      }
+    ]
   },
   "qatar/al-mamoura": {
     "tier": "1",
@@ -4165,16 +5079,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-mamoura",
     "url": "/export/qatar/al-mamoura/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Mamoura | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Mamoura | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Mamoura, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al mamoura; flange supplier al mamoura; flange wholesaler al mamoura; flange exporter to al mamoura",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What quality testing is performed before export to Qatar?",
+    "h1": "Flange Supplier in Al Mamoura, Qatar",
+    "metaTitle": "Flange Supplier in Al Mamoura, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Al Mamoura, Al Rayyan (Zone 56). Flanges for municipal, laboratory and building services work, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier al mamoura; flange manufacturer for al mamoura qatar; flange price al mamoura; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What flange standards do you certify to for Qatar projects?",
     "faqQ3": "What is the shipping lead time from Mumbai to Al Mamoura?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for Al Mamoura, the Al Rayyan district on the D Ring Road and Mesaimeer Road, supplied from Mumbai with EN 10204 3.1 certificates.",
+    "local": {
+      "region": "Zone 56, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Mamoura is a 6.8 square kilometre district in Zone 56 of Al Rayyan, crossed by the elevated D Ring Road and served by Mesaimeer Road, Ibn Al Fardi Street, Wholesale Market Street and Abu Hamour Compound Street. The Ministry of Municipality's mechanical equipment department is on Abu Hamour Compound Street, and central laboratories are on Street 796.",
+        "Municipal workshops and laboratories maintain pumps, compressors and process water systems of their own. Their orders are often short lists of weld neck, slip-on and blind flanges in carbon steel and stainless, needed to match equipment already in service."
+      ],
+      "industries": [
+        "Ministry of Municipality mechanical equipment workshops",
+        "Central laboratory water and gas services",
+        "Road and utility works on the D Ring Road"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Mamoura",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for laboratory services in Al Mamoura?",
+        "a": "Yes. Laboratory water and process lines often use stainless F304L or F316L in small sizes. Give the grade, size and class of each line."
+      },
+      {
+        "q": "Can you replace flanges on existing pumps and compressors?",
+        "a": "Yes, if you give the standard, class, facing and drilling of the equipment nozzle. We make the flange to match."
+      },
+      {
+        "q": "Do you supply flanges for vehicle and equipment workshop compressed-air lines?",
+        "a": "Yes. Compressed-air headers in workshops often use Class 150 or 300 carbon steel flanges. Give the line size and working pressure and we will quote the class that covers it."
+      }
+    ]
   },
   "qatar/al-mansoura": {
     "tier": "1",
@@ -4183,16 +5129,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-mansoura",
     "url": "/export/qatar/al-mansoura/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Mansoura | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Mansoura | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Mansoura, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al mansoura; flange supplier al mansoura; flange wholesaler al mansoura; flange exporter to al mansoura",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What flange standards do you certify to for Qatar projects?",
+    "h1": "Flange Supplier in Al Mansoura, Qatar",
+    "metaTitle": "Flange Supplier in Al Mansoura, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Al Mansoura, Doha (Zone 25). Class 150 flanges for apartment, commercial and transit building services, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier al mansoura; flange manufacturer for al mansoura qatar; flange price al mansoura; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What is the shipping lead time from Mumbai to Al Mansoura?",
     "faqQ3": "Do you handle export documentation and customs paperwork for shipments to Qatar?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges for Al Mansoura, the dense Doha district between the C Ring Road and Najma.",
+    "local": {
+      "region": "Zone 25, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Mansoura is a 0.8 square kilometre district of Doha in Zone 25, which it shares with Fereej Bin Durham. Nuaija lies to the south across the C Ring Road, Rawdat Al Khail to the west, Fereej Bin Durham to the north and Najma to the east. Zone 25 had 37,082 residents in the 2015 census. Four Mowasalat bus lines and a Green Line metro station serve the area.",
+        "Densely populated apartment districts need regular replacement of water, drainage and fire-protection pipework. In Al Mansoura these are mainly Class 150 carbon steel slip-on and weld neck flanges in NPS 1 to 6, with stainless for domestic hot and cold water."
+      ],
+      "industries": [
+        "Apartment building water and drainage",
+        "Shops and offices near the C Ring Road",
+        "Metro and bus facility services"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Mansoura_(Doha)",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for apartment building maintenance in Al Mansoura?",
+        "a": "Yes. Maintenance lists are usually small Class 150 flanges. Give the size, facing and grade, or measure an existing flange if it is unmarked."
+      },
+      {
+        "q": "Which grade should I use for domestic hot water?",
+        "a": "Many specifications use stainless F304L or F316L for domestic hot and cold water. Carbon steel is normally kept for fire and chilled water."
+      },
+      {
+        "q": "Do you supply threaded flanges for small Al Mansoura water lines?",
+        "a": "Yes. Threaded flanges are used on small galvanised or stainless water lines where welding is not practical. State the thread standard, usually NPT, along with the size and class."
+      }
+    ]
   },
   "qatar/al-markhiyah": {
     "tier": "1",
@@ -4291,16 +5269,47 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "najma",
     "url": "/export/qatar/najma/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Najma | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Najma | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Najma, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving najma; flange supplier najma; flange wholesaler najma; flange exporter to najma",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "How can I get a flange price quote for a project in Najma?",
-    "faqQ2": "What quality testing is performed before export to Qatar?",
+    "h1": "Flange Supplier in Najma, Qatar",
+    "metaTitle": "Flange Supplier in Najma, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Najma, Doha (Zone 26). Weld neck, slip-on and blind flanges for commercial buildings and services, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier najma; flange manufacturer for najma qatar; flange price najma; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ3": "What flange standards do you certify to for Qatar projects?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Forged flanges for commercial and building services work in Najma, the Doha district along Airport Street and the C Ring Road, supplied from Mumbai with 3.1 MTC.",
+    "local": {
+      "region": "Zone 26, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Najma is a 1.1 square kilometre district of Doha in Zone 26, with 24,763 residents at the 2010 census. Its commercial frontage runs along Airport Street, the C Ring Road and the B Ring Road, with Najma Street and Al Mansoura Street inside. The Old Airport metro station on the Red Line serves the area, and QatarEnergy has an office on the C Ring Road.",
+        "Residential buildings in Najma are limited to ground plus seven floors, so most piping work is mid-rise building services: booster pumps, fire-fighting risers and rooftop chiller connections. These need Class 150 carbon steel flanges in NPS 2 to 8 and blinds for test points."
+      ],
+      "industries": [
+        "Mid-rise residential blocks (ground plus seven floors)",
+        "Commercial buildings on Airport Street and the C Ring Road",
+        "Booster pump and fire-riser replacement"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Najma_(Doha)",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "What flange sizes do mid-rise buildings in Najma usually need?",
+        "a": "Booster, fire and chilled-water systems in buildings of this height mostly use NPS 2 to 8 in Class 150. Your MEP drawings set the exact sizes and class."
+      },
+      {
+        "q": "Can you supply blind flanges for pressure testing?",
+        "a": "Yes. If you need a blind tapped for a test connection, give the tapping size in the RFQ and we will confirm it on the quote."
+      },
+      {
+        "q": "Do you supply flanges for commercial kitchens and shops on Airport Street?",
+        "a": "Yes. Shop and kitchen water lines are small and low-pressure, usually Class 150 slip-on or threaded flanges in carbon steel or stainless. Give the size, thread or weld end and grade."
+      }
+    ]
   },
   "qatar/new-al-hitmi": {
     "tier": "1",
@@ -4453,16 +5462,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-nasraniya",
     "url": "/export/qatar/al-nasraniya/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Nasraniya | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Nasraniya | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Nasraniya, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al nasraniya; flange supplier al nasraniya; flange wholesaler al nasraniya; flange exporter to al nasraniya",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What quality testing is performed before export to Qatar?",
+    "h1": "Flange Supplier in Al Nasraniya, Qatar",
+    "metaTitle": "Flange Supplier in Al Nasraniya, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Al Nasraniya, Al-Shahaniya (Zone 85). Class 150 flanges for water, municipal and rural works, 3.1 MTC. Request a quote.",
+    "keywords": "flange supplier al nasraniya; flange manufacturer for al nasraniya qatar; flange price al nasraniya; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What flange standards do you certify to for Qatar projects?",
     "faqQ3": "What is the shipping lead time from Mumbai to Al Nasraniya?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges for water and civic works in Al Nasraniya, a rural Al-Shahaniya district near the Dukhan Highway.",
+    "local": {
+      "region": "Zone 85, Al-Shahaniya Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Nasraniya is a 29.6 square kilometre district in Zone 85 of Al-Shahaniya Municipality, near the Dukhan Highway. It was demarcated in 1988, though 40 houses had been built by 1976. The district has two government buildings, including a Ministry of Municipality office, and no health care facilities.",
+        "Rural districts of this kind need water storage, distribution and irrigation pipework more than anything else. Al Nasraniya orders are usually Class 150 carbon steel slip-on, weld neck and blind flanges for water lines and pump stations."
+      ],
+      "industries": [
+        "Rural water storage and distribution",
+        "Municipal office building services",
+        "Irrigation pump connections near the Dukhan Highway"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Nasraniya",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for rural water tanks and pumps?",
+        "a": "Yes. Tank nozzles and pump connections are commonly Class 150 flanges. Tell us if the mating parts are flat face so the facing matches."
+      },
+      {
+        "q": "Can flanges be delivered to a site near the Dukhan Highway?",
+        "a": "Yes, if requested. State the delivery point and the Incoterm in the RFQ and we will confirm the freight with the quote."
+      },
+      {
+        "q": "Which grade is suited to buried water lines in Al Nasraniya?",
+        "a": "Buried carbon steel lines are normally coated or wrapped, and the flange joints are protected the same way. Where the specification prefers no coating, stainless F316L is the usual alternative. Tell us the soil and service conditions your designer has assumed and we will quote to them."
+      }
+    ]
   },
   "qatar/old-airport": {
     "tier": "1",
@@ -4543,16 +5584,44 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "onaiza",
     "url": "/export/qatar/onaiza/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Onaiza | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Onaiza | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Onaiza, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving onaiza; flange supplier onaiza; flange wholesaler onaiza; flange exporter to onaiza",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Is there a minimum order quantity for export orders to Onaiza?",
+    "h1": "Flange Supplier in Onaiza, Qatar",
+    "metaTitle": "Flange Supplier in Onaiza, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Onaiza, Doha. Class 150–300 weld neck, slip-on and blind flanges for towers, embassies and services, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier onaiza; flange manufacturer for onaiza qatar; flange price onaiza; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
     "faqQ3": "How can I get a flange price quote for a project in Onaiza?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Forged flanges for building services in Onaiza, the north-east Doha district between Al Dafna and Lusail, supplied from Mumbai with EN 10204 3.1 certificates.",
+    "local": {
+      "region": "Zones 63, 65 and 66, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Onaiza is a 6.3 square kilometre district in north-east Doha, covering Zones 63, 65 and 66 between Al Dafna and Lusail. Al Bidda Street, Onaiza Street, Al Markhiya Street, Omar Al Mukhtar Street and University Street serve it. Doha's first airport, a one-room terminal with a dirt strip, was here in the 20th century. Today Onaiza is an embassy district, and the Al Wahda Arches stand at the start of the Lusail Expressway.",
+        "Embassies, residential towers and hotels in Onaiza run central chilled-water and fire systems that are renewed in stages. Typical orders are Class 150 and 300 carbon steel weld neck and blind flanges, with stainless F316L for domestic and treated water."
+      ],
+      "industries": [
+        "Embassy and diplomatic building services",
+        "Residential towers between Al Dafna and Lusail",
+        "Chilled-water and fire system renewals"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Onaiza",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for embassy building upgrades in Onaiza?",
+        "a": "Yes. Send the line list or the sizes of the existing flanges and the specification, and we will quote to match the installed standard and class."
+      },
+      {
+        "q": "What should I put in an RFQ for an Onaiza tower job?",
+        "a": "List each flange with type, NPS, class, facing, bore or schedule, grade, standard and quantity, and give the delivery point in Doha. That lets us quote without follow-up questions."
+      }
+    ]
   },
   "qatar/the-pearl": {
     "tier": "1",
@@ -4705,16 +5774,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "rumeilah",
     "url": "/export/qatar/rumeilah/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Rumeilah | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Rumeilah | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Rumeilah, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving rumeilah; flange supplier rumeilah; flange wholesaler rumeilah; flange exporter to rumeilah",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Are your flanges third-party inspected for Qatar projects (SGS/Lloyd's/DNV/Bureau Veritas)?",
+    "h1": "Flange Supplier in Rumeilah, Qatar",
+    "metaTitle": "Flange Supplier in Rumeilah, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Rumeilah, Doha. Stainless and carbon steel flanges for hospital utilities, chilled water and fire mains, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier rumeilah; flange manufacturer for rumeilah qatar; flange price rumeilah; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "How can I get a flange price quote for a project in Rumeilah?",
     "faqQ3": "What quality testing is performed before export to Qatar?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Remax Forge supplies flanges for hospital, park and building services projects in Rumeilah, the Doha district that holds Hamad Medical City.",
+    "local": {
+      "region": "Zones 11 and 21, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Rumeilah is a 1.7 square kilometre district of Doha in Zones 11 and 21, bounded by roads including Al Rumeila Street, Mohammed Bin Thani Street, Onaiza Street, Al Bidda Street, Al Rayyan Road and the Corniche. It contains Hamad Medical City, a 227,000 square metre, US$659 million complex that includes the HMC Heart Hospital and Rumeilah Hospital, and part of Al Bidda Park.",
+        "Hospitals run continuous chilled-water, steam, medical gas and water-treatment systems, and they specify materials carefully. Flange requests from Rumeilah therefore often include stainless F304L and F316L alongside carbon steel A105, with full material traceability on the mill test certificate."
+      ],
+      "industries": [
+        "Hamad Medical City hospital utilities",
+        "Steam, chilled water and water treatment in healthcare",
+        "Irrigation and services in Al Bidda Park"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Rumeilah_(Doha)",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply stainless flanges for hospital water systems in Rumeilah?",
+        "a": "Yes. F304L and F316L flanges are supplied with EN 10204 3.1 certificates that trace each piece to its heat. State the grade and standard your hospital specification requires."
+      },
+      {
+        "q": "Can you supply flanges for steam lines?",
+        "a": "Yes. Steam service is normally carbon steel A105 or, at higher temperatures, alloy steel F11 or F22, in the class your design pressure and temperature require."
+      },
+      {
+        "q": "Do hospital projects in Rumeilah need extra material checks?",
+        "a": "Many hospital specifications ask for PMI on stainless flanges to confirm the grade, and full heat traceability on the mill certificate. PMI is part of our inspection; state any extra tests your specification requires."
+      }
+    ]
   },
   "qatar/ar-ru-ays": {
     "tier": "1",
@@ -4741,16 +5842,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-rufaa",
     "url": "/export/qatar/al-rufaa/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Rufaa | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Rufaa | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Rufaa, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al rufaa; flange supplier al rufaa; flange wholesaler al rufaa; flange exporter to al rufaa",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What quality testing is performed before export to Qatar?",
+    "h1": "Flange Supplier in Al Rufaa, Qatar",
+    "metaTitle": "Flange Supplier in Al Rufaa, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Al Rufaa, Doha (Zone 17). Class 150 flanges for stadium, cultural and building services, with 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier al rufaa; flange manufacturer for al rufaa qatar; flange price al rufaa; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What flange standards do you certify to for Qatar projects?",
     "faqQ3": "What is the shipping lead time from Mumbai to Al Rufaa?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Forged flanges for building services in Al Rufaa, the compact central Doha district by the Doha Sports Stadium.",
+    "local": {
+      "region": "Zone 17, Doha Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Rufaa is a 0.35 square kilometre district of central Doha in Zone 17. Old Al Hitmi lies across Sheraouh Street to the east, As Salatah and Al Mirqab across Museum Street to the north, and Old Al Ghanim across Jabr Bin Mohammed Street to the west. The Qatar National Folkloric Troupe and the Doha Sports Stadium are based here, and there is a wedding complex on Celebration Street.",
+        "Venues that host crowds need reliable fire protection and cooling. In Al Rufaa, flange work is mainly replacement and upgrade of fire-pump, sprinkler and chilled-water connections, usually Class 150 carbon steel."
+      ],
+      "industries": [
+        "Doha Sports Stadium services",
+        "Event halls on Celebration Street",
+        "Fire-pump and sprinkler upgrades"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Rufaa",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for fire-pump sets?",
+        "a": "Yes. Fire-pump suction and discharge flanges are typically Class 150 or 300, depending on the pump rating. Give the pump nameplate pressure and the flange standard."
+      },
+      {
+        "q": "What test documents come with the flanges?",
+        "a": "Each order ships with EN 10204 3.1 mill test certificates. Hydrostatic testing, UT and PMI are carried out where the order calls for them."
+      },
+      {
+        "q": "Can flanges for a Doha Sports Stadium shutdown arrive before the work window?",
+        "a": "Give us the shutdown dates with the RFQ. The quotation states the production time for made-to-order items and the freight time to Doha, so you can see whether the window can be met before you place the order. Ex-stock items are dispatched from Mumbai within 24–48 hours of confirmation."
+      }
+    ]
   },
   "qatar/sawda-natheel": {
     "tier": "1",
@@ -4795,16 +5928,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "simaisma",
     "url": "/export/qatar/simaisma/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Simaisma | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Simaisma | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Simaisma, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving simaisma; flange supplier simaisma; flange wholesaler simaisma; flange exporter to simaisma",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "Do you handle export documentation and customs paperwork for shipments to Qatar?",
+    "h1": "Flange Supplier in Simaisma, Qatar",
+    "metaTitle": "Flange Supplier in Simaisma, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Simaisma, Qatar. Stainless, duplex and carbon steel flanges for coastal development and utilities, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier simaisma; flange manufacturer for simaisma qatar; flange price simaisma; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "Which flange materials and grades are most common for Qatar buyers?",
     "faqQ3": "Is there a minimum order quantity for export orders to Simaisma?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for the Simaisma coast north of Doha, where a large Qatari Diar resort development is planned, supplied by Remax Forge with full traceability.",
+    "local": {
+      "region": "Zone 74, Al Khor Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Simaisma is on Qatar's east coast about 30 km north of Doha, administratively in Al Khor Municipality and geographically in Al Daayen, Zone 74. Simaisma Road, about 7 km long, links it to the main highway, and a 450 m bridge reaches Simaisma Island. Roughly 39 hectares of mangroves grow offshore.",
+        "In June 2024 Qatari Diar announced the Simaisma Development Project: more than 8 million square metres with 7 km of beachfront and a 650,000 square metre theme park. In May 2025 a beach closure of about five years was announced for the works. Coastal construction on this scale needs seawater-resistant flanges, such as F316L and duplex F51, for cooling, irrigation and fire lines."
+      ],
+      "industries": [
+        "Simaisma Development Project utilities",
+        "Theme park and resort water systems",
+        "Seawater-exposed cooling and irrigation lines"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Simaisma",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Which flanges suit seawater-exposed lines at Simaisma?",
+        "a": "For seawater and splash-zone service, specifications often call for duplex F51, super duplex F53 or F55, or stainless F316L with coating. The project specification decides; we quote the grade it names."
+      },
+      {
+        "q": "Do you supply contractors on the Simaisma development?",
+        "a": "We quote any contractor that sends an RFQ. We do not claim to be an approved supplier to Qatari Diar; flanges are made and certified to your purchase order."
+      },
+      {
+        "q": "Can flanges for Simaisma be delivered in phases as the project grows?",
+        "a": "If the project needs phased deliveries, list the phases and quantities in the RFQ. We will confirm the delivery plan and certificates for each phase on the quotation."
+      }
+    ]
   },
   "qatar/al-sadd": {
     "tier": "1",
@@ -4885,16 +6050,48 @@ export const exportCitiesData = {
     "countrySlug": "qatar",
     "citySlug": "al-shagub",
     "url": "/export/qatar/al-shagub/",
-    "whyThisCity": "Named locality in Qatar's municipal/census registry (govt./Wikipedia-sourced); included for full national coverage per direction to target every populated place.",
-    "h1": "Flange Supplier in Al Shagub | Remax Forge & Fittings",
-    "metaTitle": "Flange Supplier Al Shagub | Remax Forge",
-    "metaDescription": "Forged flanges & pipe fittings supplied to Al Shagub, Qatar. ASME/DIN specs, EN 10204 3.1 MTC, factory-direct from Mumbai.",
-    "keywords": "flange manufacturer serving al shagub; flange supplier al shagub; flange wholesaler al shagub; flange exporter to al shagub",
-    "standards": "ASME B16.5 + QatarEnergy specs",
-    "faqQ1": "What quality testing is performed before export to Qatar?",
+    "h1": "Flange Supplier in Al Shagub, Qatar",
+    "metaTitle": "Flange Supplier in Al Shagub, Qatar | Remax Forge",
+    "metaDescription": "Flange supplier for Al Shagub and Education City, Al Rayyan. Flanges for campus utilities, labs and district cooling, 3.1 MTC. Get a quote.",
+    "keywords": "flange supplier al shagub; flange manufacturer for al shagub qatar; flange price al shagub; flange exporter to qatar",
+    "standards": "ASME B16.5 / B16.47",
+    "faqQ1": "Can your flanges be inspected by a third party before export to Qatar?",
     "faqQ2": "What flange standards do you certify to for Qatar projects?",
     "faqQ3": "What is the shipping lead time from Mumbai to Al Shagub?",
-    "calculator": "Yes - flange weight calc"
+    "calculator": "Yes - flange weight calc",
+    "intro": "Flanges for Education City and the institutions of Al Shagub (Al Shaqab), supplied by Remax Forge to ASME B16.5 with traceable mill certificates.",
+    "local": {
+      "region": "Zone 52, Al Rayyan Municipality",
+      "port": "Hamad Port (sea freight) or Hamad International Airport (air cargo)",
+      "paragraphs": [
+        "Al Shagub, also spelled Al Shaqab, is a 3.0 square kilometre district of Al Rayyan City in Zone 52. A 1908 gazetteer placed it seven miles west of Doha, and the Al Shagub Well was built in 1935. It now holds Education City's universities, the Qatar National Library and the Al Shaqab Equestrian Center, with the Al Shaqab metro station on the Green Line near its border.",
+        "University campuses run district cooling, laboratory gases, process water and fire mains across many buildings. Flange demand from Al Shagub spans carbon steel for cooling and fire, stainless for laboratories, and blinds for campus expansion points."
+      ],
+      "industries": [
+        "Education City campus utilities",
+        "Qatar National Library building services",
+        "Al Shaqab Equestrian Center water systems"
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/Al_Shagub",
+        "https://en.wikipedia.org/wiki/Hamad_Port",
+        "https://en.wikipedia.org/wiki/Hamad_International_Airport"
+      ]
+    },
+    "faqs": [
+      {
+        "q": "Do you supply flanges for university laboratory lines?",
+        "a": "Yes. Laboratory and process-water lines usually use stainless F304L or F316L. We supply them with 3.1 certificates showing the chemistry of each heat."
+      },
+      {
+        "q": "Can you quote district cooling flanges for a campus?",
+        "a": "Yes. Send the size and class schedule. Mains above NPS 24 are made to ASME B16.47."
+      },
+      {
+        "q": "Do you supply flanges for equestrian-centre water systems at Al Shaqab?",
+        "a": "Yes. Stable, arena and irrigation water systems mostly use Class 150 flanges in coated carbon steel or stainless F316L. Send the line list and say which lines are buried so the material and coating can be quoted to suit."
+      }
+    ]
   },
   "qatar/al-shahaniya": {
     "tier": "1",

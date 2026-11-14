@@ -74,3 +74,5 @@ a question and the next daily run will use it.
     request" (e.g. /gaya/ grades row). Confirm which of these we supply.
 23. **More vendor status:** the new FAQs also say we are not a registered vendor of ONGC, OTPC, TSECL or
     MePGCL (as well as NEEPCO), and that supply goes through contractors. Tell us if this is wrong.
+24. **Qatar towns without a verifiable source (Day 3):** /export/qatar/shagra/ and /export/qatar/al-jeryan/ have no Wikipedia article and no other source was found, so they were left unchanged (still thin). Is there a correct spelling or a source for these places, or should they be dropped from the town list?
+25. **Qatar "standards" field:** the town data said "ASME B16.5 + QatarEnergy specs", which reads like a vendor approval. On the 38 Day 3 pages it now says "ASME B16.5 / B16.47". Confirm whether to change it on the other 81 Qatar town pages too (planned for Days 4–5).
