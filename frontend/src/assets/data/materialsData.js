@@ -74,7 +74,7 @@ export const materialsData = {
     name: "Stainless Steel 304/304L Flanges",
     h1: "Stainless Steel 304/304L Flanges — ASTM A182 F304/F304L",
     metaTitle: "SS 304 304L Flange Manufacturer India | ASTM A182 F304",
-    metaDesc: "SS 304/304L flange manufacturer, Mumbai. ASTM A182 F304/F304L, food/pharma/general chemical grade. All flange types, Class 150-2500. Quote in 30 min.",
+    metaDesc: "SS 304/304L flange manufacturer, Mumbai. ASTM A182 F304/F304L, food/pharma/general chemical grade. All flange types, Class 150-2500. Get a written quote.",
     unsNumber: "S30400 (304) / S30403 (304L)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F304 / F304L",
     chemicalComposition: [
@@ -128,7 +128,7 @@ export const materialsData = {
     name: "Stainless Steel 316/316L Flanges",
     h1: "Stainless Steel 316/316L Flanges — ASTM A182 F316/F316L",
     metaTitle: "SS 316 316L Flange Manufacturer India | ASTM A182 F316",
-    metaDesc: "SS 316/316L flange manufacturer, Mumbai. ASTM A182 F316/F316L, chloride & marine grade. All flange types, Class 150-2500. EN 10204 3.1/3.2. Quote in 30 min.",
+    metaDesc: "SS 316/316L flange manufacturer, Mumbai. ASTM A182 F316/F316L, chloride & marine grade. All flange types, Class 150-2500. EN 10204 3.1/3.2. Get a written quote.",
     unsNumber: "S31600 (316) / S31603 (316L)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F316 / F316L",
     chemicalComposition: [
@@ -170,7 +170,7 @@ export const materialsData = {
     name: "Stainless Steel 321/347 Flanges",
     h1: "Stainless Steel 321/347 Flanges — Stabilized Grades",
     metaTitle: "SS 321 347 Flange Manufacturer India | Stabilized Grades",
-    metaDesc: "SS 321/347 flange manufacturer, Mumbai. Ti/Nb-stabilized for high-temp welded service, refinery furnace outlet piping. Class 150-2500. Quote in 30 min.",
+    metaDesc: "SS 321/347 flange manufacturer, Mumbai. Ti/Nb-stabilized for high-temp welded service, refinery furnace outlet piping. Class 150-2500. Get a written quote.",
     unsNumber: "S32100 (321) / S34700 (347)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F321 / F347",
     chemicalComposition: [
@@ -210,7 +210,7 @@ export const materialsData = {
     name: "Duplex 2205 Flanges",
     h1: "Duplex 2205 Flanges — ASTM A182 Grade F51 / F60",
     metaTitle: "Duplex 2205 Flange Manufacturer India | ASTM A182 F51 F60",
-    metaDesc: "Duplex 2205 flange manufacturer, Mumbai. UNS S31803/S32205 F51/F60, high yield 450 MPa, PREN >=34. Seawater & oilfield spec. Quote in 30 min.",
+    metaDesc: "Duplex 2205 flange manufacturer, Mumbai. UNS S31803/S32205 F51/F60, high yield 450 MPa, PREN >=34. Seawater & oilfield spec. Get a written quote.",
     unsNumber: "S31803 / S32205 (F51 / F60)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F51 / F60",
     chemicalComposition: [
@@ -252,7 +252,7 @@ export const materialsData = {
     name: "Super Duplex 2507 Flanges",
     h1: "Super Duplex 2507 Flanges — ASTM A182 Grade F53",
     metaTitle: "Super Duplex 2507 Flange Manufacturer India | ASTM A182 F53",
-    metaDesc: "Super Duplex 2507 flange manufacturer, Mumbai. UNS S32750 F53, PREN >=42, high yield 550 MPa. Sour gas & deepwater subsea spec. Quote in 30 min.",
+    metaDesc: "Super Duplex 2507 flange manufacturer, Mumbai. UNS S32750 F53, PREN >=42, high yield 550 MPa. Sour gas & deepwater subsea spec. Get a written quote.",
     unsNumber: "S32750 (F53)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F53",
     chemicalComposition: [
@@ -294,34 +294,80 @@ export const materialsData = {
     name: "Super Duplex Zeron 100 Flanges",
     h1: "Super Duplex Zeron 100 Flanges — ASTM A182 Grade F55",
     metaTitle: "Zeron 100 Flange Manufacturer India | ASTM A182 F55 UNS S32760",
-    metaDesc: "Super Duplex Zeron 100 flange manufacturer, Mumbai. UNS S32760 F55 with Cu+W additions, high resistance to sulfuric & hydrochloric acids. Quote in 30 min.",
+    metaDesc: "Buy super duplex Zeron 100 (UNS S32760, ASTM A182 F55) flanges for seawater, firewater and chloride service. Weld neck, blind, slip on, RTJ, Class 150–2500, with EN 10204 3.1 MTC.",
     unsNumber: "S32760 (F55)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F55",
     chemicalComposition: [
       { element: "Chromium (Cr)", a105: "24.0 - 26.0%", lf2: "24.0 - 26.0%" },
+      { element: "Nickel (Ni)", a105: "6.0 - 8.0%", lf2: "6.0 - 8.0%" },
       { element: "Molybdenum (Mo)", a105: "3.0 - 4.0%", lf2: "3.0 - 4.0%" },
+      { element: "Nitrogen (N)", a105: "0.20 - 0.30%", lf2: "0.20 - 0.30%" },
       { element: "Tungsten (W)", a105: "0.50 - 1.00%", lf2: "0.50 - 1.00%" },
-      { element: "Copper (Cu)", a105: "0.50 - 1.00%", lf2: "0.50 - 1.00%" }
+      { element: "Copper (Cu)", a105: "0.50 - 1.00%", lf2: "0.50 - 1.00%" },
+      { element: "Carbon (C)", a105: "0.030% max", lf2: "0.030% max" }
     ],
     mechanicalProperties: [
       { property: "Yield Strength", a105: "550 MPa (80 ksi) min", lf2: "550 MPa min" },
-      { property: "Tensile Strength", a105: "750 MPa (109 ksi) min", lf2: "750 MPa min" },
-      { property: "PREN", a105: "≥ 41.5", lf2: "≥ 41.5" }
+      { property: "Tensile Strength", a105: "750 - 895 MPa (109 - 130 ksi)", lf2: "750 - 895 MPa" },
+      { property: "PREN (Cr + 3.3Mo + 16N)", a105: "≥ 40", lf2: "≥ 40" }
     ],
     ptRatings: [
       { tempC: "Ambient (-29 to 38°C)", class150: "290 psi", class300: "750 psi", class600: "1500 psi", class900: "2250 psi" }
     ],
-    overview: "Zeron 100 (UNS S32760 / F55) is a highly alloyed super duplex stainless steel containing deliberate additions of Copper (0.5-1.0%) and Tungsten (0.5-1.0%) for superior performance in hot concentrated acids.",
+    overview: "Zeron 100 is a trade name for the super duplex stainless steel UNS S32760, forged to ASTM A182 Grade F55. Compared with super duplex 2507 (F53), it adds 0.5–1.0% tungsten and 0.5–1.0% copper. With a minimum PREN of 40 and a yield strength of 550 MPa, about twice that of 316L, it is specified where seawater, brine or chlorides would pit or crack standard stainless steel.",
     applications: [
-      "Sulfuric acid production plant piping",
-      "Offshore oil platform firewater systems",
-      "Geothermal brine injection systems",
-      "Pollution control scrubber systems"
+      "Seawater cooling, injection and firewater piping",
+      "Desalination: seawater intake, brine and high-pressure RO lines",
+      "Offshore topsides process and utility piping",
+      "Chloride-bearing chemical and scrubber systems"
+    ],
+    sections: [
+      {
+        h2: "Why buyers specify F55 instead of 316L or 2205",
+        paras: [
+          "316L stainless pits and suffers chloride stress corrosion cracking in warm seawater. Duplex 2205 (F51) resists much better but has a lower PREN, around 35. Super duplex grades such as F53 and F55 reach PREN 40 or more, which is why offshore and desalination specifications call for them on warm seawater and brine lines.",
+          "Strength matters too. Because the allowable stress of super duplex is much higher than that of austenitic stainless, the matching pipe and fittings can often be specified in thinner walls for the same pressure, saving weight on offshore structures.",
+        ],
+      },
+      {
+        h2: "F55 or F53: which to order",
+        paras: [
+          "Both are super duplex grades with similar strength and pitting resistance. F55 (S32760) contains tungsten and copper, and F53 (S32750) does not. Many projects accept either, but some owner specifications name one grade only, so order exactly the UNS number on your piping material specification. Do not substitute one for the other without the purchaser's written approval.",
+        ],
+      },
+      {
+        h2: "What to include in a Zeron 100 / F55 flange RFQ",
+        list: [
+          "Flange type, NPS, class and facing (RF or RTJ), plus the bore or schedule for weld neck flanges",
+          "Material: ASTM A182 F55 (UNS S32760), and whether the trade name Zeron 100 is required on the documents",
+          "Extra tests your specification calls for, such as ferrite content, ASTM G48 pitting test or ASTM A923 intermetallic phase test, with acceptance criteria",
+          "NACE MR0175 / ISO 15156 if the line is in sour service",
+          "Certificate type (EN 10204 3.1 or 3.2) and any third-party inspection",
+        ],
+      },
+      {
+        h2: "Fabrication notes",
+        paras: [
+          "Super duplex depends on its balance of ferrite and austenite. On-site welding should follow a qualified procedure with controlled heat input and interpass temperature and a suitable over-alloyed super duplex filler, or the weld and heat-affected zone can lose corrosion resistance. Super duplex is also not used for sustained high-temperature service because it embrittles. Check the allowable temperature range in your design code.",
+        ],
+      },
     ],
     faqs: [
       {
-        q: "Why does Zeron 100 include Copper and Tungsten additions?",
-        a: "Copper enhances corrosion resistance in non-oxidizing acids like sulfuric acid, while Tungsten reinforces resistance to pitting and crevice corrosion in acidic brine service."
+        q: "Is Zeron 100 the same as ASTM A182 F55?",
+        a: "Zeron 100 is a trade name for UNS S32760. Forged flanges in this alloy are ordered to ASTM A182 Grade F55, and the mill test certificate states the grade and UNS number."
+      },
+      {
+        q: "Why does Zeron 100 include copper and tungsten?",
+        a: "Tungsten adds to resistance against pitting and crevice corrosion, and copper improves resistance in some non-oxidising acid environments. They are the main chemical difference between F55 (S32760) and F53 (S32750)."
+      },
+      {
+        q: "Can F55 flanges be supplied for sour service?",
+        a: "Yes. State NACE MR0175 / ISO 15156 in your RFQ so the hardness limit is applied and confirmed on the EN 10204 3.1 certificate."
+      },
+      {
+        q: "Which flange types are available in F55?",
+        a: "Weld neck, slip on, blind, socket weld, threaded, lap joint and spectacle blinds can be made in F55 to ASME B16.5 and B16.47. Send the type, size, class and quantity through the quote form for a price."
       }
     ],
     relatedLinks: [
@@ -335,7 +381,7 @@ export const materialsData = {
     name: "Alloy Steel F11/F22 Flanges",
     h1: "Alloy Steel F11/F22 Flanges — ASTM A182 Gr. F11 / F22",
     metaTitle: "Alloy Steel F11 F22 Flange Manufacturer India | ASTM A182",
-    metaDesc: "Alloy steel F11/F22 flange manufacturer, Mumbai. Cr-Mo grades for high-temp steam lines up to 593°C. Class 150-2500, normalized & tempered. Quote in 30 min.",
+    metaDesc: "Alloy steel F11/F22 flange manufacturer, Mumbai. Cr-Mo grades for high-temp steam lines up to 593°C. Class 150-2500, normalized & tempered. Get a written quote.",
     unsNumber: "K11572 (F11) / K21590 (F22)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F11 / F22",
     chemicalComposition: [
@@ -375,7 +421,7 @@ export const materialsData = {
     name: "Alloy Steel F91 Flanges",
     h1: "Alloy Steel F91 Flanges — 9Cr-1Mo-V Creep Resistant",
     metaTitle: "Alloy Steel F91 Flange Manufacturer India | ASTM A182 F91",
-    metaDesc: "Alloy steel F91 flange manufacturer, Mumbai. UNS K91560 9Cr-1Mo-V creep-resistant steel for ultra-supercritical power steam lines to 650°C. Quote in 30 min.",
+    metaDesc: "Alloy steel F91 flange manufacturer, Mumbai. UNS K91560 9Cr-1Mo-V creep-resistant steel for ultra-supercritical power steam lines to 650°C. Get a written quote.",
     unsNumber: "K91560 (F91)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F91",
     chemicalComposition: [
@@ -417,7 +463,7 @@ export const materialsData = {
     name: "Inconel 625 Flanges",
     h1: "Inconel 625 Flanges — ASTM B564 UNS N06625",
     metaTitle: "Inconel 625 Flange Manufacturer India | ASTM B564 UNS N06625",
-    metaDesc: "Inconel 625 flange manufacturer, Mumbai. UNS N06625 Ni-Cr-Mo alloy, extreme pitting & thermal resistance from cryogenic to 980°C. Quote in 30 min.",
+    metaDesc: "Inconel 625 flange manufacturer, Mumbai. UNS N06625 Ni-Cr-Mo alloy, extreme pitting & thermal resistance from cryogenic to 980°C. Get a written quote.",
     unsNumber: "N06625",
     governingStandard: "ASTM B564 / ASME SB-564 UNS N06625",
     chemicalComposition: [
@@ -459,7 +505,7 @@ export const materialsData = {
     name: "Hastelloy C-276 Flanges",
     h1: "Hastelloy C-276 Flanges — ASTM B564 UNS N10276",
     metaTitle: "Hastelloy C276 Flange Manufacturer India | ASTM B564 UNS N10276",
-    metaDesc: "Hastelloy C-276 flange manufacturer, Mumbai. UNS N10276 Ni-Mo-Cr alloy for wet chlorine, ferric/cupric chlorides, severe chemical service. Quote in 30 min.",
+    metaDesc: "Hastelloy C-276 flange manufacturer, Mumbai. UNS N10276 Ni-Mo-Cr alloy for wet chlorine, ferric/cupric chlorides, severe chemical service. Get a written quote.",
     unsNumber: "N10276",
     governingStandard: "ASTM B564 / ASME SB-564 UNS N10276",
     chemicalComposition: [
@@ -500,7 +546,7 @@ export const materialsData = {
     name: "Monel 400 Flanges",
     h1: "Monel 400 Flanges — ASTM B564 UNS N04400",
     metaTitle: "Monel 400 Flange Manufacturer India | ASTM B564 UNS N04400",
-    metaDesc: "Monel 400 flange manufacturer, Mumbai. UNS N04400 Ni-Cu alloy, immune to chloride stress corrosion cracking, hydrofluoric acid service spec. Quote in 30 min.",
+    metaDesc: "Monel 400 flange manufacturer, Mumbai. UNS N04400 Ni-Cu alloy, immune to chloride stress corrosion cracking, hydrofluoric acid service spec. Get a written quote.",
     unsNumber: "N04400",
     governingStandard: "ASTM B564 / ASME SB-564 UNS N04400",
     chemicalComposition: [

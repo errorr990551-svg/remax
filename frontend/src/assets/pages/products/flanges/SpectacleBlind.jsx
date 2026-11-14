@@ -235,7 +235,7 @@ const SpectacleBlind = () => {
             </div>
             <div className="p-4 bg-red-50/50 rounded-xl border border-red-100/50">
               <p className="text-xs md:text-sm text-slate-700 font-bold leading-relaxed">
-                🔗 To close a pipe end permanently, use a <Link to="/products/flanges/blind-flange/" className="text-[#D71920] hover:underline font-extrabold">blind flange</Link>. Spectacle blinds are usually fitted between <Link to="/products/flanges/weld-neck-flange/" className="text-[#D71920] hover:underline font-extrabold">weld neck flanges</Link>. See our <Link to="/products/flanges/" className="text-[#D71920] hover:underline font-extrabold">complete flange range</Link>.
+                🔗 To close a pipe end permanently, use a <Link to="/products/flanges/blind-flange/" className="text-[#D71920] hover:underline font-extrabold">blind flange</Link>. Spectacle blinds are usually fitted between <Link to="/products/flanges/weld-neck-flange/" className="text-[#D71920] hover:underline font-extrabold">weld neck flanges</Link>. See our <Link to="/products/flanges/" className="text-[#D71920] hover:underline font-extrabold">complete flange range</Link>. Not sure which one your isolation point needs? Read <Link to="/blogs/blind-flange-vs-spectacle-blind/" className="text-[#D71920] hover:underline font-extrabold">blind flange vs spectacle blind</Link>.
               </p>
             </div>
           </div>
@@ -498,6 +498,7 @@ const SpectacleBlind = () => {
           <div className="mt-4 flex flex-wrap gap-4">
             <Link to="/products/flanges/blind-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1"><ChevronRight size={14} /> Blind Flange</Link>
             <Link to="/products/flanges/weld-neck-flange/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1"><ChevronRight size={14} /> Weld Neck Flange</Link>
+            <Link to="/blogs/blind-flange-vs-spectacle-blind/" className="text-sm text-[#D71920] font-bold hover:underline flex items-center gap-1"><ChevronRight size={14} /> Blind Flange vs Spectacle Blind</Link>
           </div>
         </div>
 

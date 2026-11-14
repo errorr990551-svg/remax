@@ -164,14 +164,14 @@ const IndustryCommonContent = ({ industry }) => {
           <div className="text-center mb-6">
             <span className="text-[#D71920] font-bold text-xs uppercase tracking-wider block mb-1">Sector Specific Inquiry</span>
             <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900">Request Quote for {industry.name}</h2>
-            <p className="text-slate-600 text-sm mt-1">Get customized technical offer with full certification in 30 minutes.</p>
+            <p className="text-slate-600 text-sm mt-1">Get a written technical offer with the certification you specify.</p>
           </div>
 
           {submitted ? (
             <div className="bg-emerald-50 text-emerald-800 p-6 rounded-xl text-center border border-emerald-200">
               <CheckCircle className="w-12 h-12 text-emerald-600 mx-auto mb-2" />
               <h3 className="text-xl font-bold">Request Received!</h3>
-              <p className="text-sm text-emerald-700 mt-1">Our sales engineering team will reach out within 30 minutes.</p>
+              <p className="text-sm text-emerald-700 mt-1">Our sales engineering team will be in touch with your quotation.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4">

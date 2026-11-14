@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Home, ChevronRight, Clock, User, ArrowLeft } from 'lucide-react';
 import MetaTags from '../../components/common/MetaTags.jsx';
 import usePageSchema, { faqSchema } from '../../components/common/usePageSchema.js';
+import FlangeRfqBlock from '../../components/common/FlangeRfqBlock.jsx';
 
 const flangeTypes = [
   { type: 'Weld Neck (WN)', to: '/products/flanges/weld-neck-flange/', joint: 'Butt weld', sizes: 'NPS ½–60', service: 'High pressure, high / low temperature, cyclic service' },
@@ -20,7 +21,34 @@ const faqs = [
   { q: 'What does flange pressure class mean?', a: 'The class (150, 300, 400, 600, 900, 1500, 2500) is a rating designation, not a pressure in psi. The allowable pressure depends on the class, the material group and the temperature. For example, an A105 Class 150 flange is rated 285 psig at ambient temperature but 170 psig at 500°F.' },
   { q: 'What is the difference between RF, FF and RTJ flange faces?', a: 'A raised face (RF) concentrates bolt load on a raised gasket area and is the most common facing. A flat face (FF) is used against cast iron or FRP flanges with a full-face gasket. A ring type joint (RTJ) has a groove for a metal ring gasket and is used for high pressure and high temperature service, typically Class 600 and above.' },
   { q: 'Which material is best for pipe flanges?', a: 'It depends on the service. A105 carbon steel suits most hydrocarbon, steam and water service; A350 LF2 suits low temperature down to -46°C; F304L / F316L stainless suit corrosive and cryogenic service; F51 / F53 duplex suit chlorides and seawater; and F11 / F22 / F91 alloy steel suit high temperature power and refinery lines.' },
+  { q: 'Which flange material is used for sour (NACE MR0175) service?', a: 'Carbon steel A105 flanges can be used in sour service when the hardness is controlled: NACE MR0175 / ISO 15156 limits A105 forgings to 187 HBW, while the general limit for carbon steel is 22 HRC and welds must also meet 22 HRC. Stainless and duplex flanges must meet the limits for their grade. Ask for the hardness to be reported on the EN 10204 3.1 certificate.' },
 ];
+
+// Materials for pipe flanges (selection table). Sources:
+// https://blog.projectmaterials.com/flanges/astm-materials-for-forged-flanges
+// https://blog.projectmaterials.com/quick-answers/pipe-fittings/a105-vs-a350-lf2-flange-material/
+// https://twi-global.com/technical-knowledge/job-knowledge/complying-with-nace-hardness-requirements-119
+const flangeMaterials = [
+  { spec: 'ASTM A105', family: 'Carbon steel', use: 'General hydrocarbon, steam and water service at ambient to elevated temperature', note: 'Charpy impact test only if ordered as a supplementary requirement', to: '/materials/carbon-steel-flanges/' },
+  { spec: 'ASTM A350 LF2', family: 'Low temperature carbon steel', use: 'Service below -29°C, where A105 is not suitable', note: 'Charpy impact tested at -46°C', to: '/blogs/a105-vs-a350-lf2/' },
+  { spec: 'ASTM A694 F42 to F70', family: 'High yield carbon steel', use: 'High pressure pipeline flanges matched to API 5L line pipe grades', note: 'F65 has 450 MPa minimum yield strength', to: null },
+  { spec: 'ASTM A182 F5, F9, F11, F22, F91', family: 'Chrome-moly alloy steel', use: 'High temperature refinery and power plant piping', note: 'Grade chosen by design temperature and creep strength', to: null },
+  { spec: 'ASTM A182 F304/F304L, F316/F316L, F321', family: 'Austenitic stainless steel', use: 'Corrosive process, chemical, food and cryogenic service', note: 'L grades for welded joints', to: '/materials/stainless-steel-316-flanges/' },
+  { spec: 'ASTM A182 F51, F53', family: 'Duplex and super duplex', use: 'Seawater, offshore and chloride-bearing service', note: 'Higher strength than 316L', to: null },
+  { spec: 'ASTM B564 (Monel 400, Inconel 600/625, C-276, Incoloy 800/825)', family: 'Nickel alloys', use: 'Severe corrosion and high temperature service', note: 'Specify the UNS number on the RFQ', to: null },
+];
+
+const guideSupply = {
+  title: 'Pipe Flanges We Supply',
+  intro: 'Remax Forge manufactures and supplies forged pipe flanges from Mumbai with an EN 10204 3.1 mill test certificate on every lot. Sizes, classes and grades outside this list are quoted against your specification.',
+  items: [
+    { label: 'Types', value: 'Weld neck, slip-on, blind, socket weld, threaded, lap joint, spectacle blind' },
+    { label: 'Standards', value: 'ASME B16.5, ASME B16.47 Series A and B, EN 1092-1, DIN, JIS B2220' },
+    { label: 'Classes / PN', value: 'Class 150 to 2500; PN 6 to PN 40 and higher on request' },
+    { label: 'Materials', value: 'A105, A350 LF2, A694, A182 chrome-moly, stainless and duplex grades, B564 nickel alloys' },
+    { label: 'Testing & documents', value: 'PMI, UT, hydrostatic testing where specified; EN 10204 3.1 (3.2 on request)' },
+  ],
+};
 
 const toc = [
   ['types', 'Flange types'],
@@ -324,6 +352,30 @@ const PipeFlangesGuide = () => {
             <p className="text-slate-600 leading-relaxed mb-6">
               Material selection for flanges follows the same principles as for any pressure-retaining component: you need sufficient strength at the operating temperature, adequate corrosion resistance for the fluid, compatibility with the gasket and bolt materials, and compliance with the applicable code and client specification.
             </p>
+            <h3 className="text-xl font-bold mb-3 text-[#0F172A]">Materials for Pipe Flanges: Selection Table</h3>
+            <div className="overflow-x-auto mb-8 not-prose">
+              <table className="w-full text-sm border border-slate-200">
+                <thead className="bg-slate-100">
+                  <tr>
+                    <th className="text-left p-3 border-b border-slate-200">Material specification</th>
+                    <th className="text-left p-3 border-b border-slate-200">Family</th>
+                    <th className="text-left p-3 border-b border-slate-200">Typical use</th>
+                    <th className="text-left p-3 border-b border-slate-200">Note</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {flangeMaterials.map((m) => (
+                    <tr key={m.spec} className="align-top">
+                      <td className="p-3 border-b border-slate-200 font-semibold text-slate-800">{m.to ? <Link to={m.to} className="text-[#D71920] hover:underline">{m.spec}</Link> : m.spec}</td>
+                      <td className="p-3 border-b border-slate-200 text-slate-600">{m.family}</td>
+                      <td className="p-3 border-b border-slate-200 text-slate-600">{m.use}</td>
+                      <td className="p-3 border-b border-slate-200 text-slate-600">{m.note}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
 
             <h3 className="text-xl font-bold mb-2 text-[#D71920]">Carbon Steel Flanges</h3>
             <ul className="list-disc pl-6 mb-4 space-y-2 text-slate-600 marker:text-[#D71920]">
@@ -369,7 +421,7 @@ const PipeFlangesGuide = () => {
             <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 mb-8 space-y-3">
               <h4 className="font-bold text-slate-800 text-sm uppercase tracking-wide">Key Technical Specifications for Sour Service Flanges:</h4>
               <ul className="list-disc pl-5 text-sm space-y-2 text-slate-600">
-                <li><strong>Strict Hardness Controls:</strong> Carbon steel such as ASTM A105 must not exceed 22 HRC (about 237 HBW). Forged stainless steel F316/F316L and Duplex 2205 undergo controlled solution annealing and water quenching to ensure no deleterious intermetallic phases (sigma phase).</li>
+                <li><strong>Strict Hardness Controls:</strong> NACE MR0175 / ISO 15156 limits ASTM A105 forgings to 187 HBW; the general limit for carbon steel is 22 HRC, and welds and heat-affected zones must also stay within 22 HRC. Sour service applies when the H₂S partial pressure exceeds 0.3 kPa (0.05 psia). Flanges for sour oil and gas service are covered on our <Link to="/oil-gas-pipe-fittings/" className="text-[#D71920] hover:underline font-semibold">NACE compliant oil &amp; gas flanges</Link> page. Forged stainless steel F316/F316L and Duplex 2205 undergo controlled solution annealing and water quenching to ensure no deleterious intermetallic phases (sigma phase).</li>
                 <li><strong>HIC & SSC Resistance:</strong> Where the project specification requires it, materials are qualified for sulfide stress cracking (SSC) per NACE TM0177 and for hydrogen-induced cracking (HIC) per NACE TM0284.</li>
                 <li><strong>Material Traceability & 3.1 MTC:</strong> Every sour service flange is engraved with heat numbers, batch codes, and supplied with EN 10204 3.1 certification verifying chemical composition (restricted sulfur & phosphorus limits), tensile properties, and 100% PMI verification.</li>
               </ul>
@@ -459,6 +511,10 @@ const PipeFlangesGuide = () => {
             </p>
 
 
+            <div className="mb-12">
+              <FlangeRfqBlock supply={guideSupply} productName="Pipe Flanges" />
+            </div>
+
             <h2 id="faq" className="text-2xl font-bold text-[#0F172A] mb-4 border-b pb-2 scroll-mt-24">Pipe Flange FAQs</h2>
             <div className="space-y-6 mb-12">
               {faqs.map((faq) => (
@@ -479,6 +535,10 @@ const PipeFlangesGuide = () => {
                   ['/blogs/blind-flange-vs-spectacle-blind/', 'Blind flange vs spectacle blind'],
                   ['/blogs/mtc-en10204-explained/', 'EN 10204 MTC explained'],
                   ['/tech-info/chemical-composition/', 'Steel chemical composition chart'],
+                  ['/standards/en-1092-1/', 'EN 1092-1 flanges (PN rated)'],
+                  ['/standards/asme-b16-5/', 'ASME B16.5 flanges and dimensions'],
+                  ['/blogs/a105-vs-a350-lf2/', 'A105 vs A350 LF2 flanges'],
+                  ['/oil-gas-pipe-fittings/', 'NACE compliant oil & gas flanges'],
                 ].map(([to, label]) => (
                   <li key={to}><Link to={to} className="text-[#D71920] font-semibold hover:underline">{label}</Link></li>
                 ))}

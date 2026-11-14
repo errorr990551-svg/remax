@@ -137,10 +137,10 @@ const PipeFittingsManufacturerinIndia = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
           <div className="lg:col-span-2 bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm">
             <h2 className="text-2xl md:text-3xl font-extrabold text-[#0F172A] border-l-4 border-[#D71920] pl-3 mb-3 flex items-center gap-3">
-              <ClipboardList className="text-[#D71920]" /> What to Send for a Same-Day Quote
+              <ClipboardList className="text-[#D71920]" /> What to Send for a Written Quote
             </h2>
             <p className="text-slate-600 text-sm md:text-base font-medium mb-6">
-              A complete enquiry is quoted line by line, in writing, usually within 30 minutes during working hours. Include:
+              A complete enquiry is quoted line by line, in writing. Include:
             </p>
             <ul className="space-y-3">
               {rfqItems.map((r, i) => (

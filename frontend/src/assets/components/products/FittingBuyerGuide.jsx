@@ -45,7 +45,7 @@ const FittingBuyerGuide = ({ slug }) => {
       <section className="grid lg:grid-cols-3 gap-6">
         <div className="lg:col-span-2 bg-white rounded-xl border border-slate-200 p-8">
           <h2 className="text-2xl font-bold text-[#0F172A] mb-2 flex items-center gap-2"><ClipboardList className="text-[#D71920]" /> What to Include in Your {g.name} Enquiry</h2>
-          <p className="text-slate-600 mb-5">A complete enquiry lets us send a written, itemised quote within 30 minutes during working hours.</p>
+          <p className="text-slate-600 mb-5">A complete enquiry lets us send a written, itemised quote.</p>
           <ol className="list-decimal pl-5 space-y-2 text-slate-700">
             {rfq.map((r) => <li key={r}>{r}</li>)}
           </ol>

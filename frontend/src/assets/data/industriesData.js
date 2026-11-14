@@ -6,7 +6,7 @@ export const industriesData = {
     name: "Oil & Gas Industry Flanges",
     h1: "Pipe Flanges & Fittings for Oil & Gas Industry",
     metaTitle: "Oil & Gas Flange Supplier India | NACE MR0175 Sour Gas & Subsea",
-    metaDesc: "Flanges & fittings for oil & gas upstream, midstream & downstream: NACE MR0175/ISO 15156 sour service, high-pressure RTJ, duplex & super duplex. Quote in 30 min.",
+    metaDesc: "Flanges & fittings for oil & gas upstream, midstream & downstream: NACE MR0175/ISO 15156 sour service, high-pressure RTJ, duplex & super duplex. Get a written quote.",
     overview: "Remax Forge manufactures high-integrity forged flanges engineered for severe upstream drilling, offshore production risers, midstream cross-country gas pipelines, and downstream oil refineries.",
     challenges: [
       "High-pressure sour gas containing H2S and CO2 leading to sulfide stress cracking",
@@ -42,7 +42,7 @@ export const industriesData = {
     name: "Pharmaceutical Industry Flanges",
     h1: "Pipe Flanges & Fittings for Pharmaceutical & Biotech",
     metaTitle: "Pharma Grade Flange Supplier India | SS 316L Sanitary & ASME BPE",
-    metaDesc: "High-purity stainless steel flanges & fittings for pharma: ASTM A182 F316L, electropolished Ra < 0.375 µm, CIP/SIP compliant. Quote in 30 minutes.",
+    metaDesc: "High-purity stainless steel flanges & fittings for pharma: ASTM A182 F316L, electropolished Ra < 0.375 µm, CIP/SIP compliant. Get a written quote.",
     overview: "Pharma-grade stainless steel forged flanges engineered for sterile process lines, Water-For-Injection (WFI) loops, active pharmaceutical ingredient (API) synthesis, and bio-fermentation vessels.",
     challenges: [
       "Elimination of internal crevices and dead legs to prevent bacterial bio-film growth",
@@ -66,7 +66,7 @@ export const industriesData = {
       {
         title: "What to Send for a Pharma Flange Quote",
         body: [
-          "Flange type, size, pressure class and standard (ASME B16.5 or EN 1092-1), material grade, bore or pipe schedule, required internal surface finish (Ra value) and whether electropolishing is needed, plus quantity and documents. Each lot ships with an EN 10204 3.1 certificate traceable to the heat number, with 100% PMI on stainless lots and third-party inspection on request. Written quote within 30 minutes during working hours."
+          "Flange type, size, pressure class and standard (ASME B16.5 or EN 1092-1), material grade, bore or pipe schedule, required internal surface finish (Ra value) and whether electropolishing is needed, plus quantity and documents. Each lot ships with an EN 10204 3.1 certificate traceable to the heat number, with 100% PMI on stainless lots and third-party inspection on request. Written quote."
         ]
       }
     ],
@@ -106,7 +106,7 @@ export const industriesData = {
     name: "Power Generation Industry Flanges",
     h1: "Pipe Flanges & Fittings for Power Generation",
     metaTitle: "Power Plant Flange Supplier India | F11 F22 F91 Alloy Steel",
-    metaDesc: "Flanges & fittings for power generation: thermal, nuclear-adjacent balance-of-plant, F11/F22/F91 alloy steel for high-temp steam service. Quote in 30 min.",
+    metaDesc: "Flanges & fittings for power generation: thermal, nuclear-adjacent balance-of-plant, F11/F22/F91 alloy steel for high-temp steam service. Get a written quote.",
     overview: "Forged alloy steel flanges engineered for high-pressure, high-temperature (HPHT) main steam lines, superheater headers, feed-water piping, and balance-of-plant systems in thermal and CCGT power plants.",
     challenges: [
       "Sustained high temperatures up to 650°C and steam pressures exceeding 170 bar",
@@ -142,7 +142,7 @@ export const industriesData = {
     name: "Water Infrastructure Industry Flanges",
     h1: "Pipe Flanges & Fittings for Water & Wastewater Infrastructure",
     metaTitle: "Water Infrastructure Flange Supplier India | AWWA & B16.5",
-    metaDesc: "Flanges & fittings for water treatment, distribution, and wastewater: carbon steel & stainless, AWWA and ASME B16.5 compliant. Quote in 30 minutes.",
+    metaDesc: "Flanges & fittings for water treatment, distribution, and wastewater: carbon steel & stainless, AWWA and ASME B16.5 compliant. Get a written quote.",
     overview: "Heavy-duty carbon steel and stainless steel flanges designed for municipal water treatment plants, cross-country water supply mains, sewage pumping stations, and desalination plants.",
     challenges: [
       "Large-diameter piping connections subject to soil settlement and ground movement",
@@ -177,7 +177,7 @@ export const industriesData = {
     name: "Marine Industry Flanges",
     h1: "Pipe Flanges & Fittings for Marine & Offshore",
     metaTitle: "Marine Flange Supplier India | Duplex & 316 for Seawater",
-    metaDesc: "Flanges & fittings for marine/offshore: duplex, super duplex, and 316 stainless for seawater service. Third-party inspection. Quote in 30 minutes.",
+    metaDesc: "Flanges & fittings for marine/offshore: duplex, super duplex, and 316 stainless for seawater service. Third-party inspection. Get a written quote.",
     overview: "Corrosion-resistant forged flanges manufactured for commercial shipbuilding, offshore oil platforms, naval defense vessels, and marine ballast water systems.",
     challenges: [
       "Severe chloride pitting and crevice corrosion from continuous seawater exposure",
@@ -243,7 +243,7 @@ export const industriesData = {
     name: "Chemical Processing Industry Flanges",
     h1: "Pipe Flanges & Fittings for Chemical Processing",
     metaTitle: "Chemical Processing Flange Supplier India | 316L, Hastelloy, Inconel",
-    metaDesc: "Flanges & fittings for chemical processing: 316L, Hastelloy C-276, Inconel 625 for aggressive media. Full MTC traceability. Quote in 30 minutes.",
+    metaDesc: "Flanges & fittings for chemical processing: 316L, Hastelloy C-276, Inconel 625 for aggressive media. Full MTC traceability. Get a written quote.",
     overview: "High-alloy forged flanges engineered to withstand aggressive organic and inorganic acids, alkalis, and toxic chemical process media across fertilizer, polymer, and fine chemical plants.",
     challenges: [
       "Aggressive uniform chemical corrosion, pitting, and stress corrosion cracking",

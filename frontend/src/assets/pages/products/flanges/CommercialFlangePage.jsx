@@ -3,6 +3,7 @@ import { useLocation } from 'react-router-dom';
 import { Home, ChevronRight, CheckCircle2, ShieldCheck, ArrowRight, HelpCircle, FileText } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
 import { newFlangePagesData } from '../../../data/newFlangePagesData.js';
+import { flangeApplicationContent, getCommercialFlangeFaqs } from '../../../data/flangeApplicationContent.js';
 import { 
   MaterialGradesTable, 
   StandardsTable, 
@@ -30,9 +31,11 @@ const CommercialFlangePage = () => {
     description = 'High quality forged flanges manufactured in Mumbai according to ASME B16.5, B16.47 & EN standards.',
     primaryKw = '',
     outline = [],
-    faqs = [],
+    faqs: rawFaqs = [],
     priority = 'P1'
   } = pageData;
+  const content = flangeApplicationContent[canonicalPath] || null;
+  const faqs = getCommercialFlangeFaqs(canonicalPath, rawFaqs);
 
   const scrollToSection = (id) => {
     const el = document.getElementById(id);
@@ -41,7 +44,7 @@ const CommercialFlangePage = () => {
 
   const navItems = [
     { label: "Overview", target: "overview" },
-    { label: "Requirements & Outline", target: "outline" },
+    ...(content ? [{ label: "Application Guide", target: "outline" }] : []),
     { label: "Material Grades", target: "materials" },
     { label: "Quality & Testing", target: "quality" },
     { label: "FAQs", target: "faqs" }
@@ -66,7 +69,7 @@ const CommercialFlangePage = () => {
             {h1}
           </h1>
           <p className="text-slate-300 text-base md:text-lg max-w-3xl leading-relaxed mb-6">
-            {description}
+            {content?.intro || description}
           </p>
 
           <div className="flex flex-wrap gap-4 items-center">
@@ -74,11 +77,11 @@ const CommercialFlangePage = () => {
               onClick={() => openQuotePopup(h1)}
               className="bg-[#D71920] hover:bg-[#b5141a] text-white font-bold py-3 px-6 rounded-lg transition-all shadow-md flex items-center gap-2 cursor-pointer"
             >
-              Get Instant Quote in 30 Min <ArrowRight size={16} />
+              Get Quote <ArrowRight size={16} />
             </button>
             <div className="flex items-center gap-2 text-sm text-slate-300 bg-slate-800/80 px-4 py-2.5 rounded-lg border border-slate-700">
               <ShieldCheck size={18} className="text-emerald-400" />
-              <span>EN 10204 3.1 MTC & 3rd-Party Inspection (SGS/Lloyd's/DNV)</span>
+              <span>EN 10204 3.1 MTC & third-party inspection allowed</span>
             </div>
           </div>
 
@@ -91,7 +94,7 @@ const CommercialFlangePage = () => {
                   </div>
                   <h2 className="text-xl font-bold text-white mb-1">Direct Factory Procurement for ISO 9001 Forged Flanges</h2>
                   <p className="text-xs text-slate-300 max-w-2xl leading-relaxed">
-                    Source certified commodity and custom forged flanges in volume. Direct factory pricing from our Mumbai plant, rapid 30-minute RFQ turnaround, and door-to-door dispatch with complete 3.1 chemical & mechanical traceability.
+                    Source certified commodity and custom forged flanges in volume. Direct factory pricing from our Mumbai plant, line-by-line written RFQ replies, and door-to-door dispatch with complete 3.1 chemical & mechanical traceability.
                   </p>
                 </div>
                 <button
@@ -151,30 +154,43 @@ const CommercialFlangePage = () => {
             <div className="flex items-start gap-3">
               <CheckCircle2 size={20} className="text-[#D71920] mt-1 shrink-0" />
               <div>
-                <h3 className="font-bold text-slate-900 text-sm mb-1">Fast Turnaround</h3>
-                <p className="text-xs text-slate-600">Quotes provided within 30 minutes; standard orders dispatched in 7–14 days.</p>
+                <h3 className="font-bold text-slate-900 text-sm mb-1">Written Quotation</h3>
+                <p className="text-xs text-slate-600">Price, production time and freight terms confirmed in writing for your exact list.</p>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Outline & Key Technical Requirements Section */}
-        {outline.length > 0 && (
-          <section id="outline" className="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm">
-            <h2 className="text-2xl font-bold text-slate-900 mb-4">Engineering Requirements & Sourcing Checklist</h2>
-            <p className="text-slate-600 mb-6">Key technical parameters required when specifying or ordering for this application:</p>
-            <div className="space-y-4">
-              {outline.map((item, idx) => (
-                <div key={idx} className="flex items-start gap-4 p-4 bg-slate-50 rounded-xl border border-slate-200">
-                  <div className="w-8 h-8 rounded-full bg-red-100 text-[#D71920] font-bold flex items-center justify-center shrink-0 text-sm">
-                    {idx + 1}
+        {/* Written application guide (the old outline held internal brief notes, so it is not shown) */}
+        {content && (
+          <section id="outline" className="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm space-y-8">
+            {content.sections.map((sec) => (
+              <div key={sec.h2} className="space-y-4">
+                <h2 className="text-2xl font-bold text-slate-900">{sec.h2}</h2>
+                {sec.table && (
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm border border-slate-200">
+                      <thead className="bg-slate-100 text-slate-900"><tr>{sec.table.head.map((h) => <th key={h} className="p-3 text-left">{h}</th>)}</tr></thead>
+                      <tbody>{sec.table.rows.map((r) => <tr key={r[0]} className="border-t border-slate-200 align-top">{r.map((c, i) => <td key={i} className={`p-3 ${i === 0 ? 'font-semibold text-slate-900' : 'text-slate-700'}`}>{c}</td>)}</tr>)}</tbody>
+                    </table>
                   </div>
-                  <p className="text-slate-800 font-medium text-sm md:text-base leading-relaxed pt-1">
-                    {item}
-                  </p>
-                </div>
-              ))}
-            </div>
+                )}
+                {(sec.paras || []).map((p) => <p key={p} className="text-slate-700 leading-relaxed">{p}</p>)}
+                {sec.list && (
+                  <ul className="space-y-2">
+                    {sec.list.map((li) => <li key={li} className="flex items-start gap-2 text-slate-700"><CheckCircle2 size={18} className="text-[#D71920] mt-0.5 shrink-0" />{li}</li>)}
+                  </ul>
+                )}
+              </div>
+            ))}
+            {content.related && (
+              <div className="pt-2 border-t border-slate-200">
+                <h3 className="font-bold text-slate-900 mb-2">Related flanges</h3>
+                <ul className="flex flex-wrap gap-3">
+                  {content.related.map(([to, label]) => <li key={to}><a href={to} className="text-sm text-[#D71920] hover:underline">{label}</a></li>)}
+                </ul>
+              </div>
+            )}
           </section>
         )}
 
@@ -225,7 +241,7 @@ const CommercialFlangePage = () => {
         <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white rounded-2xl p-8 md:p-12 text-center shadow-lg">
           <h2 className="text-2xl md:text-3xl font-extrabold mb-4">Ready to Quote Your Custom Flange Project?</h2>
           <p className="text-slate-300 max-w-2xl mx-auto mb-8 text-base">
-            Send us your drawing, specifications, or inquiry details. Our technical engineering team will review your specs and provide a firm commercial quotation with EN 10204 3.1 certification within 30 minutes.
+            Send us your drawing, specifications, or inquiry details. Our technical engineering team will review your specs and provide a firm written quotation with price, production time and EN 10204 3.1 certification.
           </p>
           <button
             onClick={() => openQuotePopup(h1)}

@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { sheet4MetaData } from '../../data/sheet4MetaData.js';
 import { newFlangePagesData } from '../../data/newFlangePagesData.js';
+import { getCommercialFlangeFaqs } from '../../data/flangeApplicationContent.js';
 import { marketAreaMeta } from '../../data/marketAreaMeta.js';
 import flangeFaqs from '../../data/flange_faqs.json';
 
@@ -22,7 +23,7 @@ const SEOManager = () => {
     const pageMeta = sheet4MetaData[canonicalPath] || sheet4MetaData[pathname] || {};
 
     let title = pageMeta.title || 'Flanges & Pipe Fittings Manufacturer India | Remax Forge';
-    let description = pageMeta.description || 'ISO 9001 manufacturer of flanges, buttweld & forged fittings in Mumbai. Trusted by ONGC, Tata Steel & L&T. Exporting to 45+ countries. Get a quote in 30 min.';
+    let description = pageMeta.description || 'ISO 9001 manufacturer of flanges, buttweld & forged fittings in Mumbai. Trusted by ONGC, Tata Steel & L&T. Get a written quote.';
     let type = 'website';
     // First content image actually rendered on the page (skips the navbar logo); falls back to the logo.
     // Guessing /images/<slug>.webp pointed most product & blog schemas at files that do not exist.
@@ -93,7 +94,7 @@ const SEOManager = () => {
       'name': 'Remax Forge & Fittings',
       'url': 'https://remaxforge.com/',
       'logo': `${baseUrl}/images/REMAX_FORGE_AND_FITTINGS-01.webp`,
-      'description': 'ISO 9001:2015 certified manufacturer of forged flanges, buttweld fittings and pipe fittings in Mumbai, India. Exporting to 45+ countries.',
+      'description': 'ISO 9001:2015 certified manufacturer of forged flanges, buttweld fittings and pipe fittings in Mumbai, India.',
       'foundingDate': '2004',
       'address': {
         '@type': 'PostalAddress',
@@ -208,7 +209,7 @@ const SEOManager = () => {
       }
       schemas.push(productSchema);
 
-      const rawFaqs = flangeFaqs[productSlug] || (newFlangePagesData[canonicalPath] || newFlangePagesData[pathname] || {}).faqs;
+      const rawFaqs = flangeFaqs[productSlug] || getCommercialFlangeFaqs(canonicalPath, (newFlangePagesData[canonicalPath] || newFlangePagesData[pathname] || {}).faqs);
       if (rawFaqs && rawFaqs.length > 0) {
         schemas.push({
           '@context': 'https://schema.org',

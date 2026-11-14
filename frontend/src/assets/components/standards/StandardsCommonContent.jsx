@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircle, ArrowRight, BookOpen, Send } from 'lucide-react';
 import api from '../../services/api.js';
+import FlangeRfqBlock from '../common/FlangeRfqBlock.jsx';
 
 const StandardsCommonContent = ({ standard }) => {
   const [formData, setFormData] = useState({
@@ -189,6 +190,9 @@ const StandardsCommonContent = ({ standard }) => {
         </section>
       )}
 
+      {/* Supply range + RFQ checklist */}
+      <FlangeRfqBlock supply={standard.supply} productName={standard.name} />
+
       {/* FAQs */}
       <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
         <h2 className="text-2xl font-bold text-slate-900 mb-6">Standard Specification FAQs</h2>
@@ -208,7 +212,7 @@ const StandardsCommonContent = ({ standard }) => {
           <div className="text-center mb-6">
             <span className="text-[#D71920] font-bold text-xs uppercase tracking-wider block mb-1">Flange RFQ Form</span>
             <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900">Request Quote for {standard.name}</h2>
-            <p className="text-slate-600 text-sm mt-1">Get full dimensional charts and written quotation in 30 minutes.</p>
+            <p className="text-slate-600 text-sm mt-1">Get dimensional data and a written quotation.</p>
           </div>
 
           {submitted ? (

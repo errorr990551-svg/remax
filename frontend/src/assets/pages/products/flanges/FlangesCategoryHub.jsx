@@ -94,7 +94,7 @@ const FlangesCategoryHub = () => {
               onClick={() => openQuotePopup("Flanges Category Hub")}
               className="bg-[#D71920] hover:bg-[#b5141a] text-white font-bold py-3 px-6 rounded-lg transition-all shadow-md flex items-center gap-2"
             >
-              Request Quote in 30 Minutes <ArrowRight size={16} />
+              Request a Quote <ArrowRight size={16} />
             </button>
           </div>
         </div>

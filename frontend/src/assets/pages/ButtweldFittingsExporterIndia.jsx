@@ -26,7 +26,7 @@ const exportDocs = [
 ];
 
 const exportSteps = [
-  { icon: FileCheck2, t: 'Quote in writing', d: 'Send your MTO or enquiry with sizes, schedules, grades and quantities. You get a line-by-line quote, usually within 30 minutes during Indian working hours, on EXW, FOB Nhava Sheva or CIF basis.' },
+  { icon: FileCheck2, t: 'Quote in writing', d: 'Send your MTO or enquiry with sizes, schedules, grades and quantities. You get a line-by-line quote, on EXW, FOB Nhava Sheva or CIF basis.' },
   { icon: Package, t: 'Export packing', d: 'Fittings are bevel-protected with plastic caps, bagged in VCI film and packed in ISPM 15 plywood cases or steel pallets, stencilled with your PO and heat numbers.' },
   { icon: Ship, t: 'Shipment', d: 'Sea freight through Nhava Sheva (JNPT), Mumbai, or air freight for urgent lots. Ex-stock sizes dispatch in 24–48 hours; production lots typically ship in 7–14 days.' },
 ];

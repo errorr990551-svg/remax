@@ -3972,7 +3972,7 @@ export const cityStrategyData = {
         "sec_name": "Hero",
         "element": "Form A copy",
         "heading": "",
-        "copy": "Remax Forge supplies precision-machined forged flanges from Mumbai directly to project sites, PHE water schemes, and institutions across Pasighat and the East Siang district. Consignments are dispatched by road via Guwahati and Dibrugarh with complete heat-traceable mill test certificates. Submit your required sizes for a same-day quotation.",
+        "copy": "Remax Forge supplies precision-machined forged flanges from Mumbai directly to project sites, PHE water schemes, and institutions across Pasighat and the East Siang district. Consignments are dispatched by road via Guwahati and Dibrugarh with complete heat-traceable mill test certificates. Submit your required sizes for a written quotation.",
         "dev_note": "Intro above Form A"
       },
       {

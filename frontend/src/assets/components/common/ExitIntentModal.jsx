@@ -125,7 +125,7 @@ const ExitIntentModal = () => {
               Before You Go
             </div>
             <h3 className="text-2xl font-extrabold text-slate-900 leading-tight mb-1">
-              Send Us Your Spec Sheet — Written Quote in 30 Min
+              Send Us Your Spec Sheet for a Written Quote
             </h3>
             <p className="text-xs text-slate-500 mb-5">
               Attach your RFQ drawing/BOM list or enter specs below to receive instant factory pricing.
