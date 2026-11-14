@@ -26,7 +26,7 @@ masking the page's own town name, so template text does not count).
 5. **Don't remove or 301 any page,** and don't change URLs, `.htaccess` redirects or the
    Udyam noindex rule.
 6. Commit at the end of each day to `claude/charming-ptolemy-81qaz1` and push that branch.
-   Deploy to `main` only on Day 15 (owner: "after everything is done").
+   Deploy to `main` only on Day 17, the last day (owner: "after everything is done").
 
 ## What a top-quality page has (definition of done)
 
@@ -72,7 +72,7 @@ masking the page's own town name, so template text does not count).
 | 1 | Template fixes above, plus the 9 flange "for <industry>" variant pages and `/materials/super-duplex-zeron-100-flanges/` |
 | 2 | 15 export country pages (singapore, netherlands, nigeria, bangladesh, south-africa, south-korea, turkey, malaysia, indonesia, vietnam, mexico, germany, usa, united-states, kuwait). Differentiate `usa` and `united-states`, and log the duplication in QUESTIONS.md. |
 | 3 | Qatar towns 1–40 |
-| 4 | Qatar towns 41–80 |
+| 4 | First, a template fix: the FAQPage JSON-LD in `ExportCityPage.jsx` (and `ExportHubPage.jsx`) is not in the prerendered HTML, so no export page has FAQ schema. Make it render at prerender time (via SEOManager or a static `<script>`), with the questions exactly matching the visible FAQs, and check one built town page. Then Qatar towns 41–80. |
 | 5 | Qatar towns 81–119 |
 | 6 | Saudi Arabia towns 1–37 |
 | 7 | Saudi Arabia towns 38–74 |
@@ -83,7 +83,9 @@ masking the page's own town name, so template text does not count).
 | 12 | Remaining 41 (Germany 6, Mexico 5, Malaysia 4, South Africa 4, Indonesia 4, South Korea 4, Turkey 3, Vietnam 3, Bangladesh 3, Nigeria 3, Netherlands 3, Singapore 2) |
 | 13 | The 17 remaining flange "for <industry>" pages (marine, mining, pharmaceutical, oil-and-gas, chemical-processing, general-industrial, slip-on water/power, RTJ). Add entries to `src/assets/data/flangeApplicationContent.js`, using the Day 1 pages as the model. |
 | 14 | The 18 commercial flange pages in `newFlangePagesData.js` that are not "-for-" pages (flanges-manufacturer-mumbai/rajkot, ss316-weld-neck, duplex-blind, high-pressure, class-150, sour-service, subsea, ...). Same content file, same bar (500+). Then catch-up, and fold in the owner's answers from QUESTIONS.md. |
-| 15 | Full rebuild, re-run thin_scan, check the contact gate and the redirect trace, regenerate and commit `sitemap.xml`, push the branch and `main` (deploy), disable the Routine, and write the final report in PROGRESS.md |
+| 15 | The 40 Day 15 rows in `extra_pages.csv`: towns that were not in the baseline (Qatar 31, United States 5, Oman 2, Kuwait 1, Turkey 1). Same bar as the other town pages (250+). |
+| 16 | The Day 16 rows in `extra_pages.csv`: Saudi Arabia 7, Bahrain 4 and UAE 4 extra towns (250+); the 4 Gulf country hubs `/export/bahrain/`, `/export/oman/`, `/export/uae/`, `/export/united-arab-emirates/` (500+; differentiate `uae` and `united-arab-emirates` the way Day 2 did `usa`/`united-states`, see Q27); then `/contact/` and `/brochure/` (250+). On `/contact/` and `/brochure/`, add only RFQ guidance (what to send, how quotes are prepared, what the catalogue covers), and no contact details outside the existing gated components (CLAUDE.md). |
+| 17 | Full rebuild, re-run thin_scan, check the contact gate and the redirect trace, regenerate and commit `sitemap.xml`, push the branch and `main` (deploy), disable the Routine, and write the final report in PROGRESS.md |
 
 The town order within a country is the order in `thin_pages_baseline.csv`, filtered by country.
 
@@ -91,6 +93,10 @@ Scope note (Day 1): hiding the internal outline notes and the placeholder FAQs (
 FAQ answers on the 44 commercial flange pages just repeated the question) left 17
 application pages and 18 commercial pages thin. Days 13–14 cover them, which brings the
 total to 419 + 35 = 454 pages.
+
+Scope note (Day 3): a fresh scan found 59 thin pages that no day covered (51 towns not in the baseline, 4 Gulf
+hubs, `/contact/`, `/brochure/`). They are listed in `extra_pages.csv` and done on Days 15–16; the final
+checks and deploy moved to Day 17. The 8 socket weld fittings pages are also thin but outside the flanges-only scope (Q26).
 
 ## Daily procedure
 
@@ -101,6 +107,6 @@ total to 419 + 35 = 454 pages.
 4. Run `python3 ../content-plan/thin_scan.py /tmp/scan.json` from `frontend/`, and check
    that every page in today's batch meets its unique-word target. Fix any that miss.
 5. Spot-check 2 built pages for factual claims against `FACTS.md` and the sources.
-6. `git checkout -- frontend/public/sitemap.xml` (only Day 15 commits the sitemap). Commit,
+6. `git checkout -- frontend/public/sitemap.xml` (only Day 17 commits the sitemap). Commit,
    push the branch, and log the day in `PROGRESS.md` (pages done, scores, open questions).
 7. If you hit a usage limit mid-day, commit what passed. The next run continues from PROGRESS.md.
