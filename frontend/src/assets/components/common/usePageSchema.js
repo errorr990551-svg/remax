@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 
-// Page-level JSON-LD (e.g. FAQPage) that SEOManager does not generate.
-// Tagged with data-page-schema so SEOManager's cleanup leaves it alone; removed on unmount.
 // Scripts added by this browser session. Any other data-page-schema script is a
 // prerendered copy (createRoot renders fresh) and is removed to avoid duplicates.
 const live = new WeakSet();
 
+// Page-level JSON-LD (e.g. FAQPage) that SEOManager does not generate.
+// Tagged with data-page-schema so SEOManager's cleanup leaves it alone; removed on unmount.
 const usePageSchema = (schemas) => {
   const json = JSON.stringify(schemas || []);
   useEffect(() => {

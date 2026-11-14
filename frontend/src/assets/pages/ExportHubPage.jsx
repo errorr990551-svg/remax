@@ -59,7 +59,6 @@ const ExportHubPage = ({ slugOverride }) => {
   ];
   const faqs = [...(content?.faqs || []), ...baseFaqs];
 
-
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",

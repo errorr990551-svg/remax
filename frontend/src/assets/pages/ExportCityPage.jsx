@@ -11,9 +11,6 @@ import { FLANGE_TYPES, MATERIALS, RFQ_CHECKLIST, PRICE_FACTORS } from '../data/e
 
 // Flange types offered, with the job each one does on a piping system.
 
-
-
-
 // Real Class 150 carbon steel weights from the site's own ASME B16.5 tables.
 const WEIGHT_TABLES = Object.entries(flangeDimensions)
   .map(([key, t]) => {
@@ -60,13 +57,11 @@ const ExportCityPage = () => {
     .map((q) => ({ q, a: faqAnswer(q, cityData) }));
   const faqs = [...(cityData.faqs || []), ...baseFaqs];
 
-
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": faqs.map((item) => ({ "@type": "Question", "name": item.q, "acceptedAnswer": { "@type": "Answer", "text": item.a } }))
   };
-
 
   const card = 'bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-4';
 
