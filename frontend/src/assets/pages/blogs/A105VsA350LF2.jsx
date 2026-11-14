@@ -8,8 +8,8 @@ const A105VsA350LF2 = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="ASTM A105 vs A350 LF2: Low Temp Steel Comparison | Remax"
-        description="ASTM A105 vs A350 LF2 comparison for piping engineers. Impact testing (-46°C Charpy V-notch), chemistry, heat treatment, ASME B31.3 low-temp selection."
+        title="A105 vs A350 LF2 Flanges: -46°C Impact Test Difference"
+        description="A105 vs A350 LF2 flanges: LF2 is Charpy tested at -46°C, A105 is not. When to specify LF2 below -29°C, chemistry, heat treatment and ordering."
         keywords="ASTM A105 vs A350 LF2, low temperature forged flanges, A350 LF2 Class 1, Charpy V-notch test, carbon steel forging metallurgy"
       />
       

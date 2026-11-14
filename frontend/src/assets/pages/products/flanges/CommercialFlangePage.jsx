@@ -94,7 +94,7 @@ const CommercialFlangePage = () => {
                   </div>
                   <h2 className="text-xl font-bold text-white mb-1">Direct Factory Procurement for ISO 9001 Forged Flanges</h2>
                   <p className="text-xs text-slate-300 max-w-2xl leading-relaxed">
-                    Source certified commodity and custom forged flanges in volume. Direct factory pricing from our Mumbai plant, rapid 30-minute RFQ turnaround, and door-to-door dispatch with complete 3.1 chemical & mechanical traceability.
+                    Source certified commodity and custom forged flanges in volume. Direct factory pricing from our Mumbai plant, line-by-line written RFQ replies, and door-to-door dispatch with complete 3.1 chemical & mechanical traceability.
                   </p>
                 </div>
                 <button

@@ -161,7 +161,7 @@ const Home = () => {
     <div className="w-full overflow-x-clip">
       <MetaTags 
         title="Flanges & Forged Fittings Manufacturer India | Remax Forge"
-        description="ISO 9001 certified manufacturer of flanges, buttweld & forged fittings in Mumbai. Trusted by ONGC & L&T. Exporting to 45+ countries. Get a quote in 30 min."
+        description="ISO 9001 certified manufacturer of flanges, buttweld & forged fittings in Mumbai. Get a written quote."
         keywords="Forged Fittings Manufacturer, Industrial Flanges India, Stainless Steel Forged Fittings, Socket Weld Fittings, Buttweld Fittings, High-Pressure Components, ASME Standard Flanges, Remax Forge Mumbai."
       />
         {/* Styles for Infinite Scroll Animation */}

@@ -7,7 +7,7 @@ export const sheet4MetaData = {
   },
   "/product-details/boiler-quality-plate/": {
     "title": "Boiler Quality Plate Supplier | SA516 Gr 70 | IBR | Remax",
-    "description": "SA516 Gr.60/70 & IS 2002 boiler quality plates ex-stock Mumbai. IBR compliant, EN 10204 3.1 MTC, cut-to-size. Same-day quote from an ISO 9001 supplier.",
+    "description": "SA516 Gr.60/70 & IS 2002 boiler quality plates ex-stock Mumbai. IBR compliant, EN 10204 3.1 MTC, cut-to-size. Written quote from an ISO 9001:2015 supplier.",
     "h1": "Boiler Quality Plate Supplier - SA516 Gr.60/70, IS 2002",
     "priority": "P0"
   },
@@ -31,7 +31,7 @@ export const sheet4MetaData = {
   },
   "/product-details/hardox-plate/": {
     "title": "Hardox Plate Supplier India | 400/450/500 Ex-Stock | Remax",
-    "description": "Hardox 400, 450 & 500 wear plates ex-stock Mumbai. Cut-to-size, genuine SSAB material with MTC. Serving mining & cement. Price within 30 minutes.",
+    "description": "Hardox 400, 450 & 500 wear plates ex-stock Mumbai. Cut-to-size, genuine SSAB material with MTC. Serving mining & cement. Ask for a written price.",
     "h1": "Hardox Wear Plate Supplier - Hardox 400, 450, 500",
     "priority": "P0"
   },
@@ -99,20 +99,20 @@ export const sheet4MetaData = {
     "priority": "P1"
   },
   "/products/flanges/socket-weld-flange/": {
-    "title": "Socket Weld Flange Manufacturer | Remax Forge",
-    "description": "Explore socket weld flanges from Remax Forge. Built for high-pressure piping systems with reliable leak-proof sealing. Request your custom quote today.",
+    "title": "Socket Weld Flange Manufacturer | ASME B16.5 SW | Remax",
+    "description": "ASME B16.5 socket weld (SW) flanges, Class 150-2500, in carbon, stainless and duplex steel. EN 10204 3.1 MTC, PMI tested. Get a written quote.",
     "h1": "Socket Weld Flange Manufacturer (SWRF)",
     "priority": "P1"
   },
   "/products/flanges/threaded-flange/": {
     "title": "Threaded Flange Manufacturer India | NPT/BSP | Remax Forge",
-    "description": "Threaded (screwed) flanges NPT & BSP, A105/SS316L, Class 150-1500 ASME B16.5. No-weld installation for low-pressure lines. MTC 3.1. Quote in 30 min.",
+    "description": "Threaded (screwed) flanges NPT & BSP, A105/SS316L, Class 150-1500 ASME B16.5. No-weld installation for low-pressure lines. MTC 3.1. Get a written quote.",
     "h1": "Threaded Flange Manufacturer (NPT / BSP)",
     "priority": "P1"
   },
   "/products/flanges/lap-joint-flange/": {
-    "title": "Lap Joint Flanges (LJ & LJFF Flange) | Remax Forge",
-    "description": "Explore quality lap joint flanges (LJ flange and LJFF flange) from Remax Forge. View specifications, dimensions, and request a quote today.",
+    "title": "LJ Flange (Lap Joint Flange) Manufacturer | Remax Forge",
+    "description": "LJ flanges with stub ends: ASME B16.5 Class 150-2500, A105 backing flange with stainless, duplex or alloy stub end. EN 10204 3.1 MTC. Get a quote.",
     "h1": "Lap Joint Flange (LJ / LJFF) Manufacturer",
     "priority": "P1"
   },
@@ -124,7 +124,7 @@ export const sheet4MetaData = {
   },
   "/products/buttweld-fittings/butt-weld-elbow-fittings/": {
     "title": "Butt Weld Elbow Manufacturer | 45/90/180 LR SR | Remax Forge",
-    "description": "Buttweld elbows 45/90/180 deg, LR & SR, seamless & welded. ASME B16.9, SS/CS/alloy, 1/2\" to 48\". \"Supply of butt weld elbows\" - same-day quote, MTC 3.1.",
+    "description": "Buttweld elbows 45/90/180 deg, LR & SR, seamless & welded. ASME B16.9, SS/CS/alloy, 1/2\" to 48\". \"Supply of butt weld elbows\", MTC 3.1, written quote.",
     "h1": "Butt Weld Elbow Fittings Manufacturer (ASME B16.9)",
     "priority": "P1"
   },
@@ -136,7 +136,7 @@ export const sheet4MetaData = {
   },
   "/products/buttweld-fittings/eccentric-reducer/": {
     "title": "Eccentric Reducer Manufacturer | GAD Drawing | Remax Forge",
-    "description": "Eccentric reducers ASME B16.9 with free GAD/dimension drawings. Flat-side-up/down guidance, SS/CS/alloy, 1/2\"-48\". Same-day quote from Mumbai.",
+    "description": "Eccentric reducers ASME B16.9 with free GAD/dimension drawings. Flat-side-up/down guidance, SS/CS/alloy, 1/2\"-48\". Written quote from Mumbai.",
     "h1": "Eccentric Reducer Manufacturer (with GAD Drawing)",
     "priority": "P1"
   },
@@ -148,7 +148,7 @@ export const sheet4MetaData = {
   },
   "/products/buttweld-fittings/straight-tee/": {
     "title": "Equal / Straight Tee Manufacturer | ASME B16.9 | Remax Forge",
-    "description": "Buttweld equal tees ASME B16.9, SS/CS/alloy, seamless & welded, all schedules. Factory-direct from Mumbai with MTC 3.1. Same-day quotation.",
+    "description": "Buttweld equal tees ASME B16.9, SS/CS/alloy, seamless & welded, all schedules. Factory-direct from Mumbai with MTC 3.1. Request a written quotation.",
     "h1": "Straight (Equal) Tee Manufacturer",
     "priority": "P2"
   },
@@ -160,7 +160,7 @@ export const sheet4MetaData = {
   },
   "/products/buttweld-fittings/45-elbow/": {
     "title": "45 Degree Elbow Manufacturer | ASME B16.9 | Remax Forge",
-    "description": "45 deg buttweld elbows LR, ASME B16.9, seamless & welded in SS/CS/alloy. 1/2\"-48\". ISO 9001 Mumbai factory, EN 10204 3.1 MTC, same-day quote.",
+    "description": "45 deg buttweld elbows LR, ASME B16.9, seamless & welded in SS/CS/alloy. 1/2\"-48\". ISO 9001 Mumbai factory, EN 10204 3.1 MTC. Written quote.",
     "h1": "45 Degree Elbow Manufacturer",
     "priority": "P2"
   },
@@ -205,7 +205,7 @@ export const sheet4MetaData = {
   },
   "/product-details/carbon-steel-plate/": {
     "title": "Carbon Steel Plate Supplier India | IS 2062 / A36 | Remax",
-    "description": "CS plates IS 2062 E250/E350, ASTM A36/A516. Cut-to-size, ex-stock Mumbai, MTC 3.1. Boiler & structural grades. Price within 30 minutes.",
+    "description": "CS plates IS 2062 E250/E350, ASTM A36/A516. Cut-to-size, ex-stock Mumbai, MTC 3.1. Boiler & structural grades. Ask for a written price.",
     "h1": "Carbon Steel Plate Supplier (IS 2062 / ASTM)",
     "priority": "P2"
   },
@@ -253,9 +253,9 @@ export const sheet4MetaData = {
     "priority": "P2"
   },
   "/contact/": {
-    "title": "Contact Remax Forge | Get a Quote in 30 Minutes | Mumbai",
-    "description": "Request a quotation for flanges & pipe fittings - guaranteed written response in 30 minutes. Fill the enquiry form and our engineers take it from there.",
-    "h1": "Contact Us - Quote in 30 Minutes, Guaranteed",
+    "title": "Contact Remax Forge | Flange & Fitting Quotes | Mumbai",
+    "description": "Request a written quotation for flanges and pipe fittings. Fill the enquiry form and our engineers take it from there.",
+    "h1": "Contact Us for a Written Quote",
     "priority": "P1"
   },
   "/about-us/": {
@@ -271,13 +271,13 @@ export const sheet4MetaData = {
     "priority": "P2"
   },
   "/certification/": {
-    "title": "Certifications & Approvals | ISO 9001:2015 | Remax Forge",
-    "description": "Remax Forge quality accreditations: ISO 9001:2015, IBR approval, PED 2014/68/EU compliance, and third-party inspection certifications from TUV, SGS & DNV.",
+    "title": "Remax Forge Certificates | ISO 9001:2015, GST & Udyam",
+    "description": "Remax Forge's ISO 9001:2015 certificate, GST and MSME Udyam registration, and the EN 10204 3.1/3.2 mill test certificates supplied with flanges.",
     "h1": "Accreditations & Certificates"
   },
   "/buttweld-fittings-exporter-india/": {
     "title": "Buttweld Fittings Exporter India | ASME B16.9 | Remax",
-    "description": "ASME B16.9 elbows, tees, reducers and caps exported from Mumbai to 45+ countries with EN 10204 3.1 MTC. Send your MTO for an FOB or CIF quote within 30 minutes.",
+    "description": "ASME B16.9 elbows, tees, reducers and caps exported from Mumbai to 45+ countries with EN 10204 3.1 MTC. Send your MTO for a written quote.",
     "h1": "Buttweld Fittings Exporter India"
   },
   "/pipe-fittings-manufacturer-india/": {
@@ -287,121 +287,121 @@ export const sheet4MetaData = {
   },
   "/mumbai/": {
     "title": "Pipe Fittings & Flanges Supplier in Mumbai | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Mumbai in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Mumbai in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Mumbai",
     "priority": "P2"
   },
   "/visakhapatnam/": {
     "title": "Pipe Fittings & Flanges Supplier in Visakhapatnam | Remax",
-    "description": "Flanges, buttweld & forged fittings delivered to Visakhapatnam in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Visakhapatnam in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Visakhapatnam",
     "priority": "P2"
   },
   "/raipur/": {
     "title": "Pipe Fittings & Flanges Supplier in Raipur | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Raipur in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Raipur in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Raipur",
     "priority": "P2"
   },
   "/bilaspur/": {
     "title": "Pipe Fittings & Flanges Supplier in Bilaspur | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Bilaspur in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Bilaspur in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Bilaspur",
     "priority": "P2"
   },
   "/muzaffarpur/": {
     "title": "Pipe Fittings & Flanges Supplier Muzaffarpur | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Muzaffarpur in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Muzaffarpur in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Muzaffarpur",
     "priority": "P2"
   },
   "/rourkela/": {
     "title": "Pipe Fittings & Flanges Supplier in Rourkela | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Rourkela in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Rourkela in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Rourkela",
     "priority": "P2"
   },
   "/bhubaneswar/": {
     "title": "Pipe Fittings & Flanges Supplier Bhubaneswar | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Bhubaneswar in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Bhubaneswar in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Bhubaneswar",
     "priority": "P2"
   },
   "/ludhiana/": {
     "title": "Pipe Fittings & Flanges Supplier in Ludhiana | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Ludhiana in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Ludhiana in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Ludhiana",
     "priority": "P2"
   },
   "/rajkot/": {
     "title": "Pipe Fittings & Flanges Supplier in Rajkot | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Rajkot in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Rajkot in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Rajkot",
     "priority": "P2"
   },
   "/surat/": {
     "title": "Pipe Fittings & Flanges Supplier in Surat | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Surat in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Surat in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Surat",
     "priority": "P2"
   },
   "/ranchi/": {
     "title": "Pipe Fittings & Flanges Supplier in Ranchi | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Ranchi in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Ranchi in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Ranchi",
     "priority": "P2"
   },
   "/jamshedpur/": {
     "title": "Pipe Fittings & Flanges Supplier in Jamshedpur | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Jamshedpur in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Jamshedpur in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Jamshedpur",
     "priority": "P2"
   },
   "/ahmedabad/": {
     "title": "Pipe Fittings & Flanges Supplier in Ahmedabad | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Ahmedabad in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Ahmedabad in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Ahmedabad",
     "priority": "P2"
   },
   "/vadodara/": {
     "title": "Pipe Fittings & Flanges Supplier in Vadodara | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Vadodara in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Vadodara in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Vadodara",
     "priority": "P2"
   },
   "/chennai/": {
     "title": "Pipe Fittings & Flanges Supplier in Chennai | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Chennai in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Chennai in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Chennai",
     "priority": "P2"
   },
   "/hyderabad/": {
     "title": "Pipe Fittings & Flanges Supplier in Hyderabad | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Hyderabad in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Hyderabad in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Hyderabad",
     "priority": "P2"
   },
   "/kolkata/": {
     "title": "Pipe Fittings & Flanges Supplier in Kolkata | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Kolkata in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Kolkata in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Kolkata",
     "priority": "P2"
   },
   "/bengaluru/": {
     "title": "Pipe Fittings & Flanges Supplier in Bengaluru | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Bengaluru in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Bengaluru in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Bengaluru",
     "priority": "P2"
   },
   "/pune/": {
     "title": "Pipe Fittings & Flanges Supplier in Pune | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Pune in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Pune in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Pune",
     "priority": "P2"
   },
   "/jodhpur/": {
     "title": "Pipe Fittings & Flanges Supplier in Jodhpur | Remax Forge",
-    "description": "Flanges, buttweld & forged fittings delivered to Jodhpur in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Quote in 30 min.",
+    "description": "Flanges, buttweld & forged fittings delivered to Jodhpur in 3-7 days. ISO 9001 Mumbai manufacturer, MTC 3.1, factory-direct pricing. Get a written quote.",
     "h1": "Pipe Fittings & Flanges Supplier in Jodhpur",
     "priority": "P2"
   },
@@ -413,31 +413,31 @@ export const sheet4MetaData = {
   },
   "/materials/stainless-steel-304-flanges/": {
     "title": "SS 304 304L Flange Manufacturer India | ASTM A182 F304",
-    "description": "SS 304/304L flange manufacturer, Mumbai. ASTM A182 F304/F304L, food/pharma/general chemical grade. All flange types, Class 150-2500. Quote in 30 min.",
+    "description": "SS 304/304L flange manufacturer, Mumbai. ASTM A182 F304/F304L, food/pharma/general chemical grade. All flange types, Class 150-2500. Get a written quote.",
     "h1": "Stainless Steel 304/304L Flanges — ASTM A182 F304/F304L",
     "priority": "P1"
   },
   "/materials/stainless-steel-316-flanges/": {
     "title": "SS 316 316L Flange Manufacturer India | ASTM A182 F316",
-    "description": "SS 316/316L flange manufacturer, Mumbai. ASTM A182 F316/F316L, chloride & marine grade. All flange types, Class 150-2500. EN 10204 3.1/3.2. Quote in 30 min.",
+    "description": "SS 316/316L flange manufacturer, Mumbai. ASTM A182 F316/F316L, chloride & marine grade. All flange types, Class 150-2500. EN 10204 3.1/3.2. Get a written quote.",
     "h1": "Stainless Steel 316/316L Flanges — ASTM A182 F316/F316L",
     "priority": "P1"
   },
   "/materials/stainless-steel-321-347-flanges/": {
     "title": "SS 321 347 Flange Manufacturer India | Stabilized Grades",
-    "description": "SS 321/347 flange manufacturer, Mumbai. Ti/Nb-stabilized for high-temp welded service, refinery furnace outlet piping. Class 150-2500. Quote in 30 min.",
+    "description": "SS 321/347 flange manufacturer, Mumbai. Ti/Nb-stabilized for high-temp welded service, refinery furnace outlet piping. Class 150-2500. Get a written quote.",
     "h1": "Stainless Steel 321/347 Flanges — Stabilized Grades",
     "priority": "P1"
   },
   "/materials/duplex-2205-flanges/": {
     "title": "Duplex 2205 Flange Manufacturer India | ASTM A182 F51",
-    "description": "Duplex 2205 flange manufacturer, Mumbai. ASTM A182 F51, S31803/S32205, ~2x yield strength of 316L. All flange types, Class 150-2500. Quote in 30 min.",
+    "description": "Duplex 2205 flange manufacturer, Mumbai. ASTM A182 F51, S31803/S32205, ~2x yield strength of 316L. All flange types, Class 150-2500. Get a written quote.",
     "h1": "Duplex 2205 Flanges — ASTM A182 F51 (S31803/S32205)",
     "priority": "P1"
   },
   "/materials/super-duplex-2507-flanges/": {
     "title": "Super Duplex 2507 Flange Manufacturer | ASTM A182 F53 India",
-    "description": "Super duplex 2507 flange manufacturer, Mumbai. ASTM A182 F53, S32750, PREN 40+, seawater & offshore grade. Class 150-2500. Quote in 30 minutes.",
+    "description": "Super duplex 2507 flange manufacturer, Mumbai. ASTM A182 F53, S32750, PREN 40+, seawater & offshore grade. Class 150-2500. Get a written quote.",
     "h1": "Super Duplex 2507 Flanges — ASTM A182 F53 (S32750)",
     "priority": "P1"
   },
@@ -449,55 +449,55 @@ export const sheet4MetaData = {
   },
   "/materials/alloy-steel-f11-f22-flanges/": {
     "title": "Alloy Steel F11 F22 Flange Manufacturer | High-Temp India",
-    "description": "Alloy steel F11/F22 flange manufacturer, Mumbai. Cr-Mo grade for high-temp power & refinery service, up to 593°C. Class 150-2500. Quote in 30 min.",
+    "description": "Alloy steel F11/F22 flange manufacturer, Mumbai. Cr-Mo grade for high-temp power & refinery service, up to 593°C. Class 150-2500. Get a written quote.",
     "h1": "Alloy Steel F11/F22 Flanges — Cr-Mo High-Temperature Grade",
     "priority": "P1"
   },
   "/materials/alloy-steel-f91-flanges/": {
     "title": "Alloy Steel F91 Flange Manufacturer India | 9Cr-1Mo-V",
-    "description": "Alloy steel F91 flange manufacturer, Mumbai. Modified 9Cr-1Mo-V, ultra-supercritical power & refinery fired-heater service to 650°C. Quote in 30 min.",
+    "description": "Alloy steel F91 flange manufacturer, Mumbai. Modified 9Cr-1Mo-V, ultra-supercritical power & refinery fired-heater service to 650°C. Get a written quote.",
     "h1": "Alloy Steel F91 Flanges — 9Cr-1Mo-V, Ultra-Supercritical Grade",
     "priority": "P1"
   },
   "/materials/inconel-625-flanges/": {
     "title": "Inconel 625 Flange Manufacturer India | ASTM B564 N06625",
-    "description": "Inconel 625 flange manufacturer, Mumbai. ASTM B564, N06625, offshore riser & chemical reactor grade. All flange types. MTC 3.1/3.2. Quote in 30 min.",
+    "description": "Inconel 625 flange manufacturer, Mumbai. ASTM B564, N06625, offshore riser & chemical reactor grade. All flange types. MTC 3.1/3.2. Get a written quote.",
     "h1": "Inconel 625 Flanges — ASTM B564 (UNS N06625)",
     "priority": "P1"
   },
   "/materials/hastelloy-c276-flanges/": {
     "title": "Hastelloy C276 Flange Manufacturer India | ASTM B564 N10276",
-    "description": "Hastelloy C-276 flange manufacturer, Mumbai. ASTM B564, N10276, FGD & wet chlorine grade, among the most corrosion-resistant alloys available. Quote in 30 min.",
+    "description": "Hastelloy C-276 flange manufacturer, Mumbai. ASTM B564, N10276, FGD & wet chlorine grade, among the most corrosion-resistant alloys available. Get a written quote.",
     "h1": "Hastelloy C-276 Flanges — ASTM B564 (UNS N10276)",
     "priority": "P1"
   },
   "/materials/monel-400-flanges/": {
     "title": "Monel 400 Flange Manufacturer India | ASTM B564 N04400",
-    "description": "Monel 400 flange manufacturer, Mumbai. ASTM B564, N04400, hydrofluoric acid & seawater grade. All flange types. MTC 3.1/3.2. Quote in 30 minutes.",
+    "description": "Monel 400 flange manufacturer, Mumbai. ASTM B564, N04400, hydrofluoric acid & seawater grade. All flange types. MTC 3.1/3.2. Get a written quote.",
     "h1": "Monel 400 Flanges — ASTM B564 (UNS N04400)",
     "priority": "P1"
   },
   "/standards/asme-b16-5/": {
-    "title": "ASME B16.5 Flange Dimensions | Complete Reference Chart",
-    "description": "ASME B16.5 flange standard explained: NPS 1/2-24, Class 150-2500, all 6 flange types, complete dimensional & bolting reference. Sourced & verified.",
+    "title": "ASME B16.5 Flanges & Dimensions | Class 150-2500 Supply",
+    "description": "ASME B16.5 flanges NPS 1/2-24, Class 150-2500, all 6 types: dimension and bolting reference, plus supply in carbon, stainless and alloy with 3.1 MTC.",
     "h1": "ASME B16.5 Flange Standard — Complete Dimensional Reference",
     "priority": "P1"
   },
   "/standards/asme-b16-47/": {
-    "title": "ASME B16.47 Flange Dimensions | Series A vs B Explained",
-    "description": "ASME B16.47 large diameter flange standard: NPS 26-60, Class 150-900, Series A vs Series B explained with the critical difference buyers must know.",
+    "title": "ASME B16.47 Flanges | Series A & B, NPS 26-60 Supply",
+    "description": "ASME B16.47 large diameter flanges NPS 26-60, Class 75-900, Series A and Series B: dimensions, the difference buyers must check, and RFQ checklist.",
     "h1": "ASME B16.47 — Large Diameter Flange Standard (NPS 26-60)",
     "priority": "P1"
   },
   "/standards/en-1092-1/": {
-    "title": "EN 1092-1 Flange Standard | PN Rating vs ASME Class",
-    "description": "EN 1092-1 European flange standard explained: PN 2.5-400, DN 10-4000, Type 01-13, with a direct PN-to-ASME-Class cross-reference for export buyers.",
+    "title": "EN 1092-1 Flanges | PN Ratings, Types & Grades | Remax",
+    "description": "EN 1092-1 flanges Type 01 to 13, PN 2.5 to PN 400: DIN equivalents, P250GH and 1.4404 grades, PN-to-ASME cross-reference and RFQ checklist.",
     "h1": "EN 1092-1 European Flange Standard — PN Rating Explained",
     "priority": "P1"
   },
   "/standards/din-2501/": {
-    "title": "DIN 2501 Flange Standard | Superseded by EN 1092-1",
-    "description": "DIN 2501 flange standard explained, including why it's been formally superseded by EN 1092-1 and what that means for buyers still referencing DIN.",
+    "title": "DIN 2501 Flanges | PN6-PN40 & EN 1092-1 Equivalents",
+    "description": "DIN 2501 flanges PN 6 to PN 40, DN 10-1000. DIN 2633, 2527 and 2576 mapped to EN 1092-1 types, drilling checks and 3.1 MTC supply. Get a quote.",
     "h1": "DIN 2501 Flange Standard — Legacy German Reference",
     "priority": "P1"
   },
@@ -515,68 +515,68 @@ export const sheet4MetaData = {
   },
   "/industries/oil-and-gas/": {
     "title": "Oil & Gas Flange Supplier India | NACE MR0175 Sour Service",
-    "description": "Flanges & fittings for oil & gas: upstream, midstream, downstream. NACE MR0175 sour service, duplex/super duplex, third-party inspection. Quote in 30 min.",
+    "description": "Flanges & fittings for oil & gas: upstream, midstream, downstream. NACE MR0175 sour service, duplex/super duplex, third-party inspection. Get a written quote.",
     "h1": "Pipe Flanges & Fittings for Oil & Gas — Upstream to Downstream",
     "priority": "P1"
   },
   "/industries/pharmaceutical/": {
     "title": "Pharmaceutical Flange Supplier India | SS 316L Sanitary",
-    "description": "Flanges & fittings for pharma/biotech: SS 316L, sanitary finish options, full MTC traceability. Third-party inspection available. Quote in 30 minutes.",
+    "description": "Flanges & fittings for pharma/biotech: SS 316L, sanitary finish options, full MTC traceability. Third-party inspection available. Get a written quote.",
     "h1": "Pipe Flanges & Fittings for Pharmaceutical & Biotech",
     "priority": "P1"
   },
   "/industries/power-generation/": {
     "title": "Power Plant Flange Supplier India | F11 F22 F91 Alloy Steel",
-    "description": "Flanges & fittings for power generation: thermal, nuclear-adjacent balance-of-plant, F11/F22/F91 alloy steel for high-temp steam service. Quote in 30 min.",
+    "description": "Flanges & fittings for power generation: thermal, nuclear-adjacent balance-of-plant, F11/F22/F91 alloy steel for high-temp steam service. Get a written quote.",
     "h1": "Pipe Flanges & Fittings for Power Generation",
     "priority": "P1"
   },
   "/industries/water-infrastructure/": {
     "title": "Water Infrastructure Flange Supplier India | AWWA & B16.5",
-    "description": "Flanges & fittings for water treatment, distribution, and wastewater: carbon steel & stainless, AWWA and ASME B16.5 compliant. Quote in 30 minutes.",
+    "description": "Flanges & fittings for water treatment, distribution, and wastewater: carbon steel & stainless, AWWA and ASME B16.5 compliant. Get a written quote.",
     "h1": "Pipe Flanges & Fittings for Water & Wastewater Infrastructure",
     "priority": "P1"
   },
   "/industries/marine/": {
     "title": "Marine Flange Supplier India | Duplex & 316 for Seawater",
-    "description": "Flanges & fittings for marine/offshore: duplex, super duplex, and 316 stainless for seawater service. Third-party inspection. Quote in 30 minutes.",
+    "description": "Flanges & fittings for marine/offshore: duplex, super duplex, and 316 stainless for seawater service. Third-party inspection. Get a written quote.",
     "h1": "Pipe Flanges & Fittings for Marine & Offshore",
     "priority": "P1"
   },
   "/industries/chemical-processing/": {
     "title": "Chemical Processing Flange Supplier India | 316L, | Remax",
-    "description": "Flanges & fittings for chemical processing: 316L, Hastelloy C-276, Inconel 625 for aggressive media. Full MTC traceability. Quote in 30 minutes.",
+    "description": "Flanges & fittings for chemical processing: 316L, Hastelloy C-276, Inconel 625 for aggressive media. Full MTC traceability. Get a written quote.",
     "h1": "Pipe Flanges & Fittings for Chemical Processing",
     "priority": "P1"
   },
   "/products/flanges/blind-flange-for-marine/": {
     "title": "Blind Flange for Marine | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Marine Industry"
   },
   "/products/flanges/blind-flange-for-marine": {
     "title": "Blind Flange for Marine | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Marine Industry"
   },
   "/products/flanges/blind-flange-for-mining/": {
     "title": "Blind Flange for Mining | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for mining service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for mining service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Mining Industry"
   },
   "/products/flanges/blind-flange-for-mining": {
     "title": "Blind Flange for Mining | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for mining service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for mining service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Mining Industry"
   },
   "/products/flanges/blind-flange-for-pharmaceutical/": {
     "title": "Blind Flange for Pharmaceutical | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for pharmaceutical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for pharmaceutical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Pharmaceutical Industry"
   },
   "/products/flanges/blind-flange-for-pharmaceutical": {
     "title": "Blind Flange for Pharmaceutical | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for pharmaceutical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for pharmaceutical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Pharmaceutical Industry"
   },
   "/products/flanges/blind-flange-for-water-infrastructure/": {
@@ -591,22 +591,22 @@ export const sheet4MetaData = {
   },
   "/products/flanges/blind-flange-for-oil-and-gas/": {
     "title": "Blind Flange for Oil & Gas | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Oil & Gas Industry"
   },
   "/products/flanges/blind-flange-for-oil-and-gas": {
     "title": "Blind Flange for Oil & Gas | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Oil & Gas Industry"
   },
   "/products/flanges/weld-neck-flange-for-oil-and-gas/": {
     "title": "Weld Neck Flange for Oil & Gas | ASME B16.5 WNRF | Remax",
-    "description": "Forged weld neck flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged weld neck flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Weld Neck Flange for Oil & Gas Industry"
   },
   "/products/flanges/weld-neck-flange-for-oil-and-gas": {
     "title": "Weld Neck Flange for Oil & Gas | ASME B16.5 WNRF | Remax",
-    "description": "Forged weld neck flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged weld neck flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Weld Neck Flange for Oil & Gas Industry"
   },
   "/products/flanges/weld-neck-flange-for-power-generation/": {
@@ -631,62 +631,62 @@ export const sheet4MetaData = {
   },
   "/products/flanges/weld-neck-flange-for-marine/": {
     "title": "Weld Neck Flange for Marine | ASME B16.5 WNRF | Remax",
-    "description": "Forged weld neck flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged weld neck flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Weld Neck Flange for Marine Industry"
   },
   "/products/flanges/weld-neck-flange-for-marine": {
     "title": "Weld Neck Flange for Marine | ASME B16.5 WNRF | Remax",
-    "description": "Forged weld neck flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged weld neck flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Weld Neck Flange for Marine Industry"
   },
   "/products/flanges/slip-on-flange-for-water-infrastructure/": {
     "title": "Slip-On Flange for Water Infrastructure | ASME B16.5 | Remax",
-    "description": "Forged slip-on flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged slip-on flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Slip-On Flange for Water Infrastructure Industry"
   },
   "/products/flanges/slip-on-flange-for-water-infrastructure": {
     "title": "Slip-On Flange for Water Infrastructure | ASME B16.5 | Remax",
-    "description": "Forged slip-on flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged slip-on flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Slip-On Flange for Water Infrastructure Industry"
   },
   "/products/flanges/slip-on-flange-for-power-generation/": {
     "title": "Slip-On Flange for Power Generation | ASME B16.5 | Remax",
-    "description": "Forged slip-on flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged slip-on flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Slip-On Flange for Power Generation Industry"
   },
   "/products/flanges/slip-on-flange-for-power-generation": {
     "title": "Slip-On Flange for Power Generation | ASME B16.5 | Remax",
-    "description": "Forged slip-on flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged slip-on flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Slip-On Flange for Power Generation Industry"
   },
   "/products/flanges/slip-on-flange-for-oil-and-gas/": {
     "title": "Slip-On Flange for Oil & Gas | ASME B16.5 SORF | Remax",
-    "description": "Forged slip-on flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged slip-on flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Slip-On Flange for Oil & Gas Industry"
   },
   "/products/flanges/slip-on-flange-for-oil-and-gas": {
     "title": "Slip-On Flange for Oil & Gas | ASME B16.5 SORF | Remax",
-    "description": "Forged slip-on flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged slip-on flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Slip-On Flange for Oil & Gas Industry"
   },
   "/products/flanges/socket-weld-flange-for-oil-and-gas/": {
     "title": "Socket Weld Flange for Oil & Gas | ASME B16.5 SWRF | Remax",
-    "description": "Forged socket weld flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged socket weld flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Socket Weld Flange for Oil & Gas Industry"
   },
   "/products/flanges/socket-weld-flange-for-oil-and-gas": {
     "title": "Socket Weld Flange for Oil & Gas | ASME B16.5 SWRF | Remax",
-    "description": "Forged socket weld flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged socket weld flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Socket Weld Flange for Oil & Gas Industry"
   },
   "/products/flanges/socket-weld-flange-for-chemical-processing/": {
     "title": "Socket Weld Flange for Chemical Processing | ASME B16.5",
-    "description": "Forged socket weld flanges engineered for chemical processing service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged socket weld flanges engineered for chemical processing service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Socket Weld Flange for Chemical Processing Industry"
   },
   "/products/flanges/socket-weld-flange-for-chemical-processing": {
     "title": "Socket Weld Flange for Chemical Processing | ASME B16.5",
-    "description": "Forged socket weld flanges engineered for chemical processing service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged socket weld flanges engineered for chemical processing service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Socket Weld Flange for Chemical Processing Industry"
   },
   "/products/flanges/threaded-flange-for-water-infrastructure/": {
@@ -701,22 +701,22 @@ export const sheet4MetaData = {
   },
   "/products/flanges/threaded-flange-for-general-industrial/": {
     "title": "Threaded Flange for General Industrial | ASME B16.5 THRF",
-    "description": "Forged threaded flanges engineered for general industrial service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged threaded flanges engineered for general industrial service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Threaded Flange for General Industrial Industry"
   },
   "/products/flanges/threaded-flange-for-general-industrial": {
     "title": "Threaded Flange for General Industrial | ASME B16.5 THRF",
-    "description": "Forged threaded flanges engineered for general industrial service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged threaded flanges engineered for general industrial service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Threaded Flange for General Industrial Industry"
   },
   "/products/flanges/lap-joint-flange-for-oil-and-gas/": {
     "title": "Lap Joint Flange for Oil & Gas | ASME B16.5 LJRF | Remax",
-    "description": "Forged lap joint flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged lap joint flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Lap Joint Flange for Oil & Gas Industry"
   },
   "/products/flanges/lap-joint-flange-for-oil-and-gas": {
     "title": "Lap Joint Flange for Oil & Gas | ASME B16.5 LJRF | Remax",
-    "description": "Forged lap joint flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged lap joint flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Lap Joint Flange for Oil & Gas Industry"
   },
   "/products/flanges/lap-joint-flange-for-petrochemical/": {
@@ -731,12 +731,12 @@ export const sheet4MetaData = {
   },
   "/products/flanges/spectacle-blind-flange-for-oil-and-gas/": {
     "title": "Spectacle Blind Flange for Oil & Gas | ASME B16.5 | Remax",
-    "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Spectacle Blind Flange for Oil & Gas Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-oil-and-gas": {
     "title": "Spectacle Blind Flange for Oil & Gas | ASME B16.5 | Remax",
-    "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Spectacle Blind Flange for Oil & Gas Industry"
   },
   "/products/flanges/spectacle-blind-flange-for-petrochemical/": {
@@ -761,22 +761,22 @@ export const sheet4MetaData = {
   },
   "/products/flanges/rtj-flange-ring-type-joint-for-oil-and-gas/": {
     "title": "RTJ Flange (Ring Type Joint) for Oil & Gas | ASME B16.5",
-    "description": "Forged rtj flange (ring type joint)s engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged rtj flange (ring type joint)s engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Oil & Gas Industry"
   },
   "/products/flanges/rtj-flange-ring-type-joint-for-oil-and-gas": {
     "title": "RTJ Flange (Ring Type Joint) for Oil & Gas | ASME B16.5",
-    "description": "Forged rtj flange (ring type joint)s engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged rtj flange (ring type joint)s engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Oil & Gas Industry"
   },
   "/products/flanges/rtj-flange-ring-type-joint-for-petrochemical/": {
     "title": "RTJ Flange (Ring Type Joint) for Petrochemical | Remax",
-    "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Petrochemical Industry"
   },
   "/products/flanges/rtj-flange-ring-type-joint-for-petrochemical": {
     "title": "RTJ Flange (Ring Type Joint) for Petrochemical | Remax",
-    "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Petrochemical Industry"
   },
   "/products/flanges/socket-weld-flange-for-power-generation/": {
@@ -801,12 +801,12 @@ export const sheet4MetaData = {
   },
   "/products/flanges/threaded-flange-for-marine/": {
     "title": "Threaded Flange for Marine | ASME B16.5 THRF | Remax",
-    "description": "Forged threaded flanges engineered for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged threaded flanges engineered for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Threaded Flange for Marine Industry"
   },
   "/products/flanges/threaded-flange-for-marine": {
     "title": "Threaded Flange for Marine | ASME B16.5 THRF | Remax",
-    "description": "Forged threaded flanges engineered for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged threaded flanges engineered for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Threaded Flange for Marine Industry"
   },
   "/products/flanges/flanges-manufacturer-mumbai/": {
@@ -950,8 +950,8 @@ export const sheet4MetaData = {
     "h1": "RTJ vs Raised Face (RF) Flange — Which to Specify"
   },
   "/blogs/blind-flange-vs-spectacle-blind/": {
-    "title": "Blind Flange vs Spectacle Blind — Isolation Method | Remax",
-    "description": "Blind flange vs spectacle blind comparison. Permanent end closure vs positive line isolation for piping maintenance, turnaround safety, and ASME B16.48 rules.",
+    "title": "Blind Flange vs Spectacle Blind: Which Isolation to Use",
+    "description": "Blind flange vs spectacle blind compared: permanent end closure vs positive line isolation, turnaround safety and ASME B16.48 rules for each.",
     "h1": "Blind Flange vs Spectacle Blind — Isolation Method Comparison"
   },
   "/blogs/blind-flange-vs-spectacle-blind": {
@@ -1011,47 +1011,47 @@ export const sheet4MetaData = {
   },
   "/products/flanges/non-porous-lined-blind-flange/": {
     "title": "Non-Porous & Lined Blind Flanges for Corrosive Duty | Remax",
-    "description": "Non-Porous & Lined Blind Flanges for Corrosive Service. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Non-Porous & Lined Blind Flanges for Corrosive Service. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Non-Porous & Lined Blind Flanges for Corrosive Service"
   },
   "/products/flanges/non-porous-lined-blind-flange": {
     "title": "Non-Porous & Lined Blind Flanges for Corrosive Duty | Remax",
-    "description": "Non-Porous & Lined Blind Flanges for Corrosive Service. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Non-Porous & Lined Blind Flanges for Corrosive Service. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Non-Porous & Lined Blind Flanges for Corrosive Service"
   },
   "/products/flanges/sour-service-nace-flange/": {
     "title": "Sour Service (NACE / H2S) Forged Flanges | Remax",
-    "description": "Sour Service (NACE / H2S) Forged Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Sour Service (NACE / H2S) Forged Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Sour Service (NACE / H2S) Forged Flanges"
   },
   "/products/flanges/sour-service-nace-flange": {
     "title": "Sour Service (NACE / H2S) Forged Flanges | Remax",
-    "description": "Sour Service (NACE / H2S) Forged Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Sour Service (NACE / H2S) Forged Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Sour Service (NACE / H2S) Forged Flanges"
   },
   "/products/flanges/custom-special-flange-manufacturer/": {
     "title": "Custom & Special Flanges | Remax",
-    "description": "Custom & Special Flanges — Machined to Your Drawing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Custom & Special Flanges — Machined to Your Drawing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Custom & Special Flanges — Machined to Your Drawing"
   },
   "/products/flanges/custom-special-flange-manufacturer": {
     "title": "Custom & Special Flanges | Remax",
-    "description": "Custom & Special Flanges — Machined to Your Drawing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Custom & Special Flanges — Machined to Your Drawing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Custom & Special Flanges — Machined to Your Drawing"
   },
   "/products/flanges/subsea-offshore-flange-manufacturer/": {
     "title": "Flanges for Subsea & Offshore Piping | Remax",
-    "description": "Flanges for Subsea & Offshore Piping. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Flanges for Subsea & Offshore Piping. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Flanges for Subsea & Offshore Piping"
   },
   "/products/flanges/subsea-offshore-flange-manufacturer": {
     "title": "Flanges for Subsea & Offshore Piping | Remax",
-    "description": "Flanges for Subsea & Offshore Piping. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Flanges for Subsea & Offshore Piping. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Flanges for Subsea & Offshore Piping"
   },
   "/about/iso-9001-certified-flange-manufacturer/": {
-    "title": "ISO 9001 Certified Flanges for Bulk Orders | Remax Forge",
-    "description": "Source ISO 9001 certified forged flanges for bulk orders and industrial procurement. Quality-assured steel forging manufacturer.",
+    "title": "ISO 9001 Certified Forged Flange Procurement | Remax Forge",
+    "description": "ISO 9001:2015 certified forged flange manufacturer, Mumbai. ASME B16.5/B16.47 flanges with EN 10204 3.1 MTC, PMI and UT for bulk procurement. Send an RFQ.",
     "h1": "ISO 9001 Certified Forged Flange Manufacturing & Bulk Orders"
   },
   "/about/iso-9001-certified-flange-manufacturer": {
@@ -1061,12 +1061,12 @@ export const sheet4MetaData = {
   },
   "/products/flanges/high-temperature-cryogenic-flange/": {
     "title": "High-Temperature & Cryogenic Service Flanges | Remax",
-    "description": "High-Temperature & Cryogenic Service Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "High-Temperature & Cryogenic Service Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "High-Temperature & Cryogenic Service Flanges"
   },
   "/products/flanges/high-temperature-cryogenic-flange": {
     "title": "High-Temperature & Cryogenic Service Flanges | Remax",
-    "description": "High-Temperature & Cryogenic Service Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "High-Temperature & Cryogenic Service Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "High-Temperature & Cryogenic Service Flanges"
   },
   "/products/flanges/": {
@@ -1267,12 +1267,12 @@ export const sheet4MetaData = {
   },
   "/oil-gas-pipe-fittings/": {
     "title": "Oil & Gas Pipe Fittings & Flanges | NACE MR0175 | Remax",
-    "description": "Flanges and fittings for oil & gas: Class 150–2500, NACE MR0175 sour service, duplex and F91. EN 10204 3.1/3.2 MTC. Send your MTO for a written quote in 30 min.",
+    "description": "Flanges and fittings for oil & gas: Class 150–2500, NACE MR0175 sour service, duplex and F91. EN 10204 3.1/3.2 MTC. Send your MTO for a written quote.",
     "h1": "Oil & Gas Pipe Fittings & Flanges"
   },
   "/oil-gas-pipe-fittings": {
     "title": "Oil & Gas Pipe Fittings & Flanges | NACE MR0175 | Remax",
-    "description": "Flanges and fittings for oil & gas: Class 150–2500, NACE MR0175 sour service, duplex and F91. EN 10204 3.1/3.2 MTC. Send your MTO for a written quote in 30 min.",
+    "description": "Flanges and fittings for oil & gas: Class 150–2500, NACE MR0175 sour service, duplex and F91. EN 10204 3.1/3.2 MTC. Send your MTO for a written quote.",
     "h1": "Oil & Gas Pipe Fittings & Flanges"
   },
   "/tech-info/pipe-dimensions/": {
@@ -1302,12 +1302,12 @@ export const sheet4MetaData = {
   },
   "/buttweld-fittings-exporter-india": {
     "title": "Buttweld Fittings Exporter India | ASME B16.9 | Remax",
-    "description": "ASME B16.9 elbows, tees, reducers and caps exported from Mumbai to 45+ countries with EN 10204 3.1 MTC. Send your MTO for an FOB or CIF quote within 30 minutes.",
+    "description": "ASME B16.9 elbows, tees, reducers and caps exported from Mumbai to 45+ countries with EN 10204 3.1 MTC. Send your MTO for a written quote.",
     "h1": "Buttweld Fittings Exporter India"
   },
   "/blogs/a105-vs-a350-lf2/": {
-    "title": "ASTM A105 vs A350 LF2: Low Temp Steel Comparison | Remax",
-    "description": "ASTM A105 vs A350 LF2 comparison for piping engineers. Impact testing (-46°C Charpy V-notch), chemistry, heat treatment, ASME B31.3 low-temp selection.",
+    "title": "A105 vs A350 LF2 Flanges: -46°C Impact Test Difference",
+    "description": "A105 vs A350 LF2 flanges: LF2 is Charpy tested at -46°C, A105 is not. When to specify LF2 below -29°C, chemistry, heat treatment and ordering.",
     "h1": "ASTM A105 vs. ASTM A350 LF2: Low-Temperature Comparison"
   },
   "/blogs/a105-vs-a350-lf2": {
@@ -1366,8 +1366,8 @@ export const sheet4MetaData = {
     "h1": "Flange Face Types Explained: RF, FF, RTJ & Tongue-and-Groove"
   },
   "/blogs/asme-b16-5-vs-b16-47/": {
-    "title": "ASME B16.5 vs B16.47 Flange Standard Guide | Remax Forge",
-    "description": "ASME B16.5 vs ASME B16.47 comparison for piping engineers. Size limits (up to NPS 24 vs NPS 60), Series A vs Series B differences, and bolting requirements.",
+    "title": "ASME B16.5 vs B16.47: Size, Class & Series Differences",
+    "description": "ASME B16.5 vs B16.47 compared: NPS 24 vs NPS 60 size limits, Series A vs Series B, bolting and when a drawing needs which standard.",
     "h1": "ASME B16.5 vs. ASME B16.47: Complete Standards Comparison"
   },
   "/blogs/asme-b16-5-vs-b16-47": {

@@ -74,7 +74,7 @@ export const materialsData = {
     name: "Stainless Steel 304/304L Flanges",
     h1: "Stainless Steel 304/304L Flanges — ASTM A182 F304/F304L",
     metaTitle: "SS 304 304L Flange Manufacturer India | ASTM A182 F304",
-    metaDesc: "SS 304/304L flange manufacturer, Mumbai. ASTM A182 F304/F304L, food/pharma/general chemical grade. All flange types, Class 150-2500. Quote in 30 min.",
+    metaDesc: "SS 304/304L flange manufacturer, Mumbai. ASTM A182 F304/F304L, food/pharma/general chemical grade. All flange types, Class 150-2500. Get a written quote.",
     unsNumber: "S30400 (304) / S30403 (304L)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F304 / F304L",
     chemicalComposition: [
@@ -128,7 +128,7 @@ export const materialsData = {
     name: "Stainless Steel 316/316L Flanges",
     h1: "Stainless Steel 316/316L Flanges — ASTM A182 F316/F316L",
     metaTitle: "SS 316 316L Flange Manufacturer India | ASTM A182 F316",
-    metaDesc: "SS 316/316L flange manufacturer, Mumbai. ASTM A182 F316/F316L, chloride & marine grade. All flange types, Class 150-2500. EN 10204 3.1/3.2. Quote in 30 min.",
+    metaDesc: "SS 316/316L flange manufacturer, Mumbai. ASTM A182 F316/F316L, chloride & marine grade. All flange types, Class 150-2500. EN 10204 3.1/3.2. Get a written quote.",
     unsNumber: "S31600 (316) / S31603 (316L)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F316 / F316L",
     chemicalComposition: [
@@ -170,7 +170,7 @@ export const materialsData = {
     name: "Stainless Steel 321/347 Flanges",
     h1: "Stainless Steel 321/347 Flanges — Stabilized Grades",
     metaTitle: "SS 321 347 Flange Manufacturer India | Stabilized Grades",
-    metaDesc: "SS 321/347 flange manufacturer, Mumbai. Ti/Nb-stabilized for high-temp welded service, refinery furnace outlet piping. Class 150-2500. Quote in 30 min.",
+    metaDesc: "SS 321/347 flange manufacturer, Mumbai. Ti/Nb-stabilized for high-temp welded service, refinery furnace outlet piping. Class 150-2500. Get a written quote.",
     unsNumber: "S32100 (321) / S34700 (347)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F321 / F347",
     chemicalComposition: [
@@ -210,7 +210,7 @@ export const materialsData = {
     name: "Duplex 2205 Flanges",
     h1: "Duplex 2205 Flanges — ASTM A182 Grade F51 / F60",
     metaTitle: "Duplex 2205 Flange Manufacturer India | ASTM A182 F51 F60",
-    metaDesc: "Duplex 2205 flange manufacturer, Mumbai. UNS S31803/S32205 F51/F60, high yield 450 MPa, PREN >=34. Seawater & oilfield spec. Quote in 30 min.",
+    metaDesc: "Duplex 2205 flange manufacturer, Mumbai. UNS S31803/S32205 F51/F60, high yield 450 MPa, PREN >=34. Seawater & oilfield spec. Get a written quote.",
     unsNumber: "S31803 / S32205 (F51 / F60)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F51 / F60",
     chemicalComposition: [
@@ -252,7 +252,7 @@ export const materialsData = {
     name: "Super Duplex 2507 Flanges",
     h1: "Super Duplex 2507 Flanges — ASTM A182 Grade F53",
     metaTitle: "Super Duplex 2507 Flange Manufacturer India | ASTM A182 F53",
-    metaDesc: "Super Duplex 2507 flange manufacturer, Mumbai. UNS S32750 F53, PREN >=42, high yield 550 MPa. Sour gas & deepwater subsea spec. Quote in 30 min.",
+    metaDesc: "Super Duplex 2507 flange manufacturer, Mumbai. UNS S32750 F53, PREN >=42, high yield 550 MPa. Sour gas & deepwater subsea spec. Get a written quote.",
     unsNumber: "S32750 (F53)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F53",
     chemicalComposition: [
@@ -381,7 +381,7 @@ export const materialsData = {
     name: "Alloy Steel F11/F22 Flanges",
     h1: "Alloy Steel F11/F22 Flanges — ASTM A182 Gr. F11 / F22",
     metaTitle: "Alloy Steel F11 F22 Flange Manufacturer India | ASTM A182",
-    metaDesc: "Alloy steel F11/F22 flange manufacturer, Mumbai. Cr-Mo grades for high-temp steam lines up to 593°C. Class 150-2500, normalized & tempered. Quote in 30 min.",
+    metaDesc: "Alloy steel F11/F22 flange manufacturer, Mumbai. Cr-Mo grades for high-temp steam lines up to 593°C. Class 150-2500, normalized & tempered. Get a written quote.",
     unsNumber: "K11572 (F11) / K21590 (F22)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F11 / F22",
     chemicalComposition: [
@@ -421,7 +421,7 @@ export const materialsData = {
     name: "Alloy Steel F91 Flanges",
     h1: "Alloy Steel F91 Flanges — 9Cr-1Mo-V Creep Resistant",
     metaTitle: "Alloy Steel F91 Flange Manufacturer India | ASTM A182 F91",
-    metaDesc: "Alloy steel F91 flange manufacturer, Mumbai. UNS K91560 9Cr-1Mo-V creep-resistant steel for ultra-supercritical power steam lines to 650°C. Quote in 30 min.",
+    metaDesc: "Alloy steel F91 flange manufacturer, Mumbai. UNS K91560 9Cr-1Mo-V creep-resistant steel for ultra-supercritical power steam lines to 650°C. Get a written quote.",
     unsNumber: "K91560 (F91)",
     governingStandard: "ASTM A182 / ASME SA-182 Grade F91",
     chemicalComposition: [
@@ -463,7 +463,7 @@ export const materialsData = {
     name: "Inconel 625 Flanges",
     h1: "Inconel 625 Flanges — ASTM B564 UNS N06625",
     metaTitle: "Inconel 625 Flange Manufacturer India | ASTM B564 UNS N06625",
-    metaDesc: "Inconel 625 flange manufacturer, Mumbai. UNS N06625 Ni-Cr-Mo alloy, extreme pitting & thermal resistance from cryogenic to 980°C. Quote in 30 min.",
+    metaDesc: "Inconel 625 flange manufacturer, Mumbai. UNS N06625 Ni-Cr-Mo alloy, extreme pitting & thermal resistance from cryogenic to 980°C. Get a written quote.",
     unsNumber: "N06625",
     governingStandard: "ASTM B564 / ASME SB-564 UNS N06625",
     chemicalComposition: [
@@ -505,7 +505,7 @@ export const materialsData = {
     name: "Hastelloy C-276 Flanges",
     h1: "Hastelloy C-276 Flanges — ASTM B564 UNS N10276",
     metaTitle: "Hastelloy C276 Flange Manufacturer India | ASTM B564 UNS N10276",
-    metaDesc: "Hastelloy C-276 flange manufacturer, Mumbai. UNS N10276 Ni-Mo-Cr alloy for wet chlorine, ferric/cupric chlorides, severe chemical service. Quote in 30 min.",
+    metaDesc: "Hastelloy C-276 flange manufacturer, Mumbai. UNS N10276 Ni-Mo-Cr alloy for wet chlorine, ferric/cupric chlorides, severe chemical service. Get a written quote.",
     unsNumber: "N10276",
     governingStandard: "ASTM B564 / ASME SB-564 UNS N10276",
     chemicalComposition: [
@@ -546,7 +546,7 @@ export const materialsData = {
     name: "Monel 400 Flanges",
     h1: "Monel 400 Flanges — ASTM B564 UNS N04400",
     metaTitle: "Monel 400 Flange Manufacturer India | ASTM B564 UNS N04400",
-    metaDesc: "Monel 400 flange manufacturer, Mumbai. UNS N04400 Ni-Cu alloy, immune to chloride stress corrosion cracking, hydrofluoric acid service spec. Quote in 30 min.",
+    metaDesc: "Monel 400 flange manufacturer, Mumbai. UNS N04400 Ni-Cu alloy, immune to chloride stress corrosion cracking, hydrofluoric acid service spec. Get a written quote.",
     unsNumber: "N04400",
     governingStandard: "ASTM B564 / ASME SB-564 UNS N04400",
     chemicalComposition: [

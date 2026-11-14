@@ -93,7 +93,7 @@ const ContactUs = () => {
       )}
       <MetaTags 
         title="Contact Remax Forge | Fittings & Flanges Manufacturer"
-        description="Request a quote for flanges and forged fittings from Remax Forge & Fittings, Mumbai. Send your requirement online and get a written reply within 30 minutes."
+        description="Request a quote for flanges and forged fittings from Remax Forge & Fittings, Mumbai. Send your requirement online for a written reply."
         keywords="Remax Forge Contact Number, Forged Fittings Supplier Mumbai, Flange Manufacturer Address India, Industrial Fittings Sales Email, Remax Forge Bhuleshwar Mumbai, Custom Forging Quote, Pipe Fittings Exporter Contact."
       />
       {/* Breadcrumb Header */}

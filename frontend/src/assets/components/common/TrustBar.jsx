@@ -30,7 +30,7 @@ const TrustBar = ({ className = "" }) => {
         <div className="flex items-center gap-2">
           <Clock className="text-[#D71920] w-5 h-5 shrink-0" />
           <div className="text-xs font-semibold text-slate-800">
-            Quote in 30 Min <span className="block font-normal text-[10px] text-slate-500">Guaranteed Response</span>
+            Written Quote <span className="block font-normal text-[10px] text-slate-500">Line by Line</span>
           </div>
         </div>
 

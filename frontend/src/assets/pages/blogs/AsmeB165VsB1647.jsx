@@ -8,8 +8,8 @@ const AsmeB165VsB1647 = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="ASME B16.5 vs B16.47 Flange Standard Guide | Remax Forge"
-        description="ASME B16.5 vs ASME B16.47 comparison for piping engineers. Size limits (up to NPS 24 vs NPS 60), Series A vs Series B differences, and bolting requirements."
+        title="ASME B16.5 vs B16.47: Size, Class & Series Differences"
+        description="ASME B16.5 vs B16.47 compared: NPS 24 vs NPS 60 size limits, Series A vs Series B, bolting and when a drawing needs which standard."
         keywords="ASME B16.5 vs ASME B16.47, large diameter flanges, Series A vs Series B, MSS SP-44 vs API 605, large bore flange manufacturer Mumbai"
       />
       

@@ -120,7 +120,7 @@ const FloatingQuoteButton = () => {
         aria-label="Get Instant Quote"
       >
         <FileText className="w-5 h-5" />
-        <span className="hidden sm:inline">Get Quote in 30 Min</span>
+        <span className="hidden sm:inline">Get Quote</span>
         <span className="sm:hidden">Get Quote</span>
       </button>
 
@@ -147,7 +147,7 @@ const FloatingQuoteButton = () => {
                 <CheckCircle2 className="w-16 h-16 text-emerald-500 mx-auto mb-4 animate-bounce" />
                 <h3 className="text-2xl font-extrabold text-slate-800 mb-2">Quote Request Received!</h3>
                 <p className="text-slate-600 text-sm">
-                  Our sales team will send your written quotation within <strong>30 minutes</strong>.
+                  Our sales team will send your written quotation.
                 </p>
                 {contact && (
                   <div className="mt-6 grid gap-2 text-sm font-semibold">
@@ -170,7 +170,7 @@ const FloatingQuoteButton = () => {
                     Instant RFQ Form
                   </span>
                   <h3 className="text-xl md:text-2xl font-extrabold text-slate-900 leading-tight">
-                    Get Written Quote in 30 Minutes
+                    Get a Written Quote
                   </h3>
                   <p className="text-xs text-slate-500 mt-1">
                     Direct factory pricing. No public phone calls needed.

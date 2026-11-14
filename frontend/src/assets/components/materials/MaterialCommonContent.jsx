@@ -226,7 +226,7 @@ const MaterialCommonContent = ({ material }) => {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-6">
             <span className="text-[#D71920] font-bold text-xs uppercase tracking-wider block mb-1">Direct Factory Pricing</span>
-            <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900">Get Quote in 30 Minutes for {material.name}</h2>
+            <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900">Get a Quote for {material.name}</h2>
             <p className="text-slate-600 text-sm mt-1">Written commercial offer with Mill Test Certificate guarantee.</p>
           </div>
 
@@ -234,7 +234,7 @@ const MaterialCommonContent = ({ material }) => {
             <div className="bg-emerald-50 text-emerald-800 p-6 rounded-xl text-center border border-emerald-200">
               <CheckCircle className="w-12 h-12 text-emerald-600 mx-auto mb-2" />
               <h3 className="text-xl font-bold">Quote Request Received!</h3>
-              <p className="text-sm text-emerald-700 mt-1">Our sales engineering team will respond within 30 minutes.</p>
+              <p className="text-sm text-emerald-700 mt-1">Our sales engineering team will send your quotation.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4">

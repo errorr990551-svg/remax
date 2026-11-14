@@ -618,7 +618,7 @@ export const HowToOrder = () => {
               How to Order
             </h2>
             <p className="text-slate-600 text-sm mt-4 leading-relaxed font-medium">
-              Ordering high-quality forged flanges from Remax is straightforward. To ensure our engineering team provides you with a precise and competitive quote, please specify the exact flange type, nominal pipe size (NPS), pressure class rating, material grade, and facing configuration. Let us know your total quantity requirements and if you require any specialized testing or custom coatings. Contact us via email or phone for a quick, same-day response.
+              Ordering high-quality forged flanges from Remax is straightforward. To ensure our engineering team provides you with a precise and competitive quote, please specify the exact flange type, nominal pipe size (NPS), pressure class rating, material grade, and facing configuration. Let us know your total quantity requirements and if you require any specialized testing or custom coatings. Contact us via email or phone.
             </p>
           </div>
 

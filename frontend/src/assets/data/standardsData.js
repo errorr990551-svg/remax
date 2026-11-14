@@ -6,10 +6,40 @@ export const standardsData = {
     name: "ASME B16.5 Flange Standard",
     h1: "ASME B16.5 Flange Standard — Covers NPS 1/2 to 24 Pipe Flanges",
     metaTitle: "ASME B16.5 Flange Standard Guide | Class 150 to 2500 Dimensions",
-    metaDesc: "Complete ASME B16.5 flange standard specification guide: NPS 1/2 to 24, Class 150-2500, pressure-temp ratings, facings (RF, RTJ, FF), materials. Quote in 30 min.",
+    metaDesc: "Complete ASME B16.5 flange standard specification guide: NPS 1/2 to 24, Class 150-2500, pressure-temp ratings, facings (RF, RTJ, FF), materials. Get a written quote.",
     scope: "ASME B16.5 covers pressure-temperature ratings, materials, dimensions, tolerances, marking, testing, and methods of designating openings for pipe flanges and flanged fittings in sizes NPS 1/2 through NPS 24 metric/inch standard.",
     sizeRange: "NPS 1/2 to NPS 24 (DN 15 to DN 600)",
     pressureClasses: ["Class 150", "Class 300", "Class 400", "Class 600", "Class 900", "Class 1500", "Class 2500"],
+    supply: {
+      "title": "ASME B16.5 Flanges We Supply",
+      "intro": "Remax Forge supplies ASME B16.5 flanges from Mumbai with an EN 10204 3.1 mill test certificate on every lot. Sizes, classes and grades outside this list are quoted against your specification.",
+      "items": [
+        {
+          "label": "Types",
+          "value": "Weld neck, slip-on, blind, socket weld, threaded, lap joint"
+        },
+        {
+          "label": "Sizes",
+          "value": "NPS 1/2 to NPS 24 (DN 15 to DN 600)"
+        },
+        {
+          "label": "Pressure classes",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500"
+        },
+        {
+          "label": "Facings",
+          "value": "RF, FF, RTJ"
+        },
+        {
+          "label": "Materials",
+          "value": "ASTM A105, A350 LF2, A182 F304/F316L, duplex F51, chrome-moly F11/F22"
+        },
+        {
+          "label": "Testing & documents",
+          "value": "PMI, UT, hydrostatic testing where specified; EN 10204 3.1 (3.2 on request)"
+        }
+      ]
+    },
     facings: ["Raised Face (RF)", "Ring Type Joint (RTJ)", "Flat Face (FF)", "Tongue and Groove (T&G)", "Male and Female (M&F)"],
     flangeTypes: ["Slip On (SO)", "Weld Neck (WN)", "Blind (BL)", "Socket Weld (SW)", "Threaded (TH)", "Lap Joint (LJ)"],
     comparisonTable: [
@@ -32,7 +62,11 @@ export const standardsData = {
     relatedLinks: [
       { title: "ASME B16.47 Large Diameter", url: "/standards/asme-b16-47/" },
       { title: "Weld Neck Flange", url: "/products/flanges/weld-neck-flange/" },
-      { title: "Carbon Steel Flanges", url: "/materials/carbon-steel-flanges/" }
+      { title: "Carbon Steel Flanges", url: "/materials/carbon-steel-flanges/" },
+      { title: "ASME B16.5 vs B16.47 Compared", url: "/blogs/asme-b16-5-vs-b16-47/" },
+      { title: "Pipe Flanges Guide", url: "/blogs/pipe-flanges-guide/" },
+      { title: "EN 1092-1 Flanges", url: "/standards/en-1092-1/" },
+      { title: "Oil & Gas NACE Flanges", url: "/oil-gas-pipe-fittings/" }
     ]
   },
   "asme-b16-47": {
@@ -41,10 +75,40 @@ export const standardsData = {
     name: "ASME B16.47 Large Diameter Flanges",
     h1: "ASME B16.47 — Large Diameter Steel Flanges NPS 26 to 60",
     metaTitle: "ASME B16.47 Flange Standard | Series A vs Series B NPS 26-60",
-    metaDesc: "ASME B16.47 large diameter flange guide (NPS 26 to 60): Series A (MSS SP-44) vs Series B (API 605), pressure classes 75-900, weights & bolt patterns. Quote in 30 min.",
+    metaDesc: "ASME B16.47 large diameter flange guide (NPS 26 to 60): Series A (MSS SP-44) vs Series B (API 605), pressure classes 75-900, weights & bolt patterns. Get a written quote.",
     scope: "ASME B16.47 covers pressure-temperature ratings, materials, dimensions, tolerances, marking, and testing for steel pipe flanges in sizes NPS 26 through NPS 60.",
     sizeRange: "NPS 26 to NPS 60 (DN 650 to DN 1500)",
     pressureClasses: ["Class 75 (Series B only)", "Class 150", "Class 300", "Class 400", "Class 600", "Class 900"],
+    supply: {
+      "title": "ASME B16.47 Large Diameter Flanges We Supply",
+      "intro": "Large diameter flanges are made to order, so state Series A or Series B on every RFQ line. Sizes, classes and grades outside this list are quoted against your specification.",
+      "items": [
+        {
+          "label": "Series",
+          "value": "Series A (MSS SP-44) and Series B (API 605)"
+        },
+        {
+          "label": "Sizes",
+          "value": "NPS 26 to NPS 60 (DN 650 to DN 1500)"
+        },
+        {
+          "label": "Pressure classes",
+          "value": "Class 75 (Series B only), 150, 300, 400, 600, 900"
+        },
+        {
+          "label": "Types",
+          "value": "Weld neck and blind"
+        },
+        {
+          "label": "Facings",
+          "value": "RF, FF, RTJ"
+        },
+        {
+          "label": "Testing & documents",
+          "value": "PMI, UT where specified; EN 10204 3.1 (3.2 on request)"
+        }
+      ]
+    },
     facings: ["Raised Face (RF)", "Ring Type Joint (RTJ)", "Flat Face (FF)"],
     seriesComparison: [
       { feature: "Origin Spec", seriesA: "MSS SP-44", seriesB: "API 605" },
@@ -61,7 +125,10 @@ export const standardsData = {
     ],
     relatedLinks: [
       { title: "ASME B16.5 Standard", url: "/standards/asme-b16-5/" },
-      { title: "Blind Flange", url: "/products/flanges/blind-flange/" }
+      { title: "Blind Flange", url: "/products/flanges/blind-flange/" },
+      { title: "ASME B16.5 vs B16.47 Compared", url: "/blogs/asme-b16-5-vs-b16-47/" },
+      { title: "Pipe Flanges Guide", url: "/blogs/pipe-flanges-guide/" },
+      { title: "Oil & Gas NACE Flanges", url: "/oil-gas-pipe-fittings/" }
     ]
   },
   "en-1092-1": {
@@ -70,10 +137,63 @@ export const standardsData = {
     name: "EN 1092-1 Flange Standard",
     h1: "EN 1092-1 European Flange Standard — PN Ratings & Type 01-37",
     metaTitle: "EN 1092-1 Flange Standard Guide | PN6 to PN400 Types 01-37",
-    metaDesc: "EN 1092-1 European flange specification guide: PN6 to PN400, Type 01, 02, 05, 11, 12, 13, 21, facing types A-H, material groups, dimensions. Quote in 30 min.",
+    metaDesc: "EN 1092-1 European flange specification guide: PN6 to PN400, Type 01, 02, 05, 11, 12, 13, 21, facing types A-H, material groups, dimensions. Get a written quote.",
     scope: "EN 1092-1 specifies requirements for circular steel flanges in PN designations from PN 2.5 to PN 400 and nominal sizes from DN 10 to DN 4000.",
     sizeRange: "DN 10 to DN 4000",
     pressureClasses: ["PN 2.5", "PN 6", "PN 10", "PN 16", "PN 25", "PN 40", "PN 63", "PN 100", "PN 160", "PN 250", "PN 320", "PN 400"],
+    sections: [
+      {
+        "title": "EN 1092-1 Flange Types and Their DIN Equivalents",
+        "body": [
+          "Most RFQs still arrive with a DIN number. The EN 1092-1 type that replaces it keeps the same mating dimensions, so the flange bolts to existing pipework: Type 05 blind replaces DIN 2527, Type 01 plate slip-on replaces DIN 2573 / 2576, Type 11 weld neck replaces DIN 2631 to 2635 (for example DIN 2633 PN 16 becomes EN 1092-1 Type 11 PN 16), and Type 13 hubbed threaded replaces DIN 2566.",
+          "Type 02 loose plate flanges fit over a separate weld-on collar, the European counterpart of a lap joint flange and stub end. Type 12 is a hubbed slip-on flange for welding."
+        ]
+      },
+      {
+        "title": "Materials for EN 1092-1 Flanges",
+        "body": [
+          "Carbon steel Type 11 weld neck flanges are commonly made in P250GH, the EN designation of the older DIN grade C22.8. Stainless flanges are forged from EN 10222-5 or equivalent ASTM A182 material: 1.4301 (304), 1.4404 (316L) and 1.4462 duplex are the grades buyers ask for most.",
+          "A PN 10 or PN 16 Type 11 weld neck in 1.4404 is the direct replacement for a stainless DIN 2632 / 2633 flange. Allowable pressure depends on the material and the design temperature, so state both on the RFQ and check the pressure-temperature table of EN 1092-1 for the grade you specify."
+        ]
+      },
+      {
+        "title": "PN 10 vs PN 16 Drilling",
+        "body": [
+          "PN 10 and PN 16 flanges share the same drilling up to DN 150. From DN 200 the bolt-hole count differs, so check the PN of the mating flange before you order a replacement. A PN 16 flange bolted to a PN 10 flange is rated only to PN 10."
+        ]
+      }
+    ],
+    sources: [
+      "https://www.alleima.com/cz/products/fittings-flanges/flanges/en-flanges/welding-neck-flanges/",
+      "https://www.onninen.fi/en/onninen-flans-en1092-1-11-m-krage-dn250-pn16-1-4404/p/AFA457",
+      "https://blog.projectmaterials.com/flanges/astm-materials-for-forged-flanges"
+    ],
+    supply: {
+      "title": "EN 1092-1 Flange Supply Range and RFQ Checklist",
+      "intro": "EN 1092-1 flanges are quoted against your specification, marked with the type number, PN and material, with an EN 10204 3.1 certificate. Sizes, classes and grades outside this list are quoted against your specification.",
+      "items": [
+        {
+          "label": "Types",
+          "value": "Type 01 plate, Type 02 loose plate, Type 05 blind, Type 11 weld neck, Type 12 hubbed slip-on, Type 13 hubbed threaded"
+        },
+        {
+          "label": "PN ratings",
+          "value": "PN 6, PN 10, PN 16, PN 25, PN 40 and higher PN on request"
+        },
+        {
+          "label": "Facings",
+          "value": "Type A flat face, Type B1/B2 raised face, other facing types on request"
+        },
+        {
+          "label": "Grades commonly ordered",
+          "value": "P250GH (C22.8) carbon steel, 1.4301 (304), 1.4404 (316L), 1.4462 duplex"
+        },
+        {
+          "label": "Documents",
+          "value": "EN 10204 3.1 (3.2 on request)"
+        }
+      ]
+    },
     facingTypes: ["Type A (Flat Face)", "Type B1/B2 (Raised Face)", "Type C (Tongue)", "Type D (Groove)", "Type E (Spigot)", "Type F (Recess)", "Type G/H (O-Ring Recess)"],
     typeDefinitions: [
       { type: "Type 01", desc: "Plate flange for welding" },
@@ -88,11 +208,22 @@ export const standardsData = {
       {
         q: "What is the difference between EN 1092-1 Facing B1 and B2?",
         a: "B1 is standard raised face roughness (Ra 3.2 to 12.5 µm) for PN 2.5 to PN 40. B2 is fine turned surface finish (Ra 0.8 to 3.2 µm) required for higher pressure PN ratings (PN 63 and above)."
+      },
+      {
+        q: "Which EN 1092-1 type replaces DIN 2633?",
+        a: "DIN 2633 is a PN 16 weld neck flange. Its EN 1092-1 replacement is a Type 11 weld neck flange in PN 16, which has the same mating dimensions."
+      },
+      {
+        q: "What material is used for carbon steel EN 1092-1 flanges?",
+        a: "P250GH is the usual carbon steel grade for Type 11 weld neck flanges; it replaces the DIN grade C22.8. Stainless flanges are commonly 1.4301 (304) or 1.4404 (316L)."
       }
     ],
     relatedLinks: [
       { title: "DIN 2501 Standard", url: "/standards/din-2501/" },
-      { title: "Stainless Steel 316", url: "/materials/stainless-steel-316-flanges/" }
+      { title: "Stainless Steel 316", url: "/materials/stainless-steel-316-flanges/" },
+      { title: "Pipe Flanges Guide", url: "/blogs/pipe-flanges-guide/" },
+      { title: "ASME B16.5 Flanges", url: "/standards/asme-b16-5/" },
+      { title: "Weld Neck Flange", url: "/products/flanges/weld-neck-flange/" }
     ]
   },
   "din-2501": {
@@ -101,10 +232,36 @@ export const standardsData = {
     name: "DIN 2501 Flange Standard",
     h1: "DIN 2501 Flange Standard — Legacy German Specification Guide",
     metaTitle: "DIN 2501 Flange Standard Guide | PN6 to PN40 Dimensions & EN 1092-1 Cross Reference",
-    metaDesc: "DIN 2501 legacy German flange standard reference: PN6, PN10, PN16, PN25, PN40 dimensions, bolt circles, mating compatibility with EN 1092-1. Quote in 30 min.",
+    metaDesc: "DIN 2501 legacy German flange standard reference: PN6, PN10, PN16, PN25, PN40 dimensions, bolt circles, mating compatibility with EN 1092-1. Get a written quote.",
     scope: "DIN 2501 is the legacy German Institute for Standardization standard for mating dimensions of steel pipe flanges in PN 6 through PN 40.",
     sizeRange: "DN 10 to DN 1000",
     pressureClasses: ["PN 6", "PN 10", "PN 16", "PN 25", "PN 40"],
+    supply: {
+      "title": "DIN Flange Supply Range and RFQ Checklist",
+      "intro": "Order to the legacy DIN number for like-for-like replacement, or to the matching EN 1092-1 type. Sizes, classes and grades outside this list are quoted against your specification.",
+      "items": [
+        {
+          "label": "DIN references",
+          "value": "DIN 2527 blind, DIN 2573/2576 plate slip-on, DIN 2631-2635 weld neck, DIN 2566 threaded"
+        },
+        {
+          "label": "Sizes",
+          "value": "DN 10 to DN 1000"
+        },
+        {
+          "label": "PN ratings",
+          "value": "PN 6, PN 10, PN 16, PN 25, PN 40"
+        },
+        {
+          "label": "Grades commonly ordered",
+          "value": "C22.8 / P250GH carbon steel, 1.4301 (304), 1.4404 (316L), 1.4462 duplex"
+        },
+        {
+          "label": "Documents",
+          "value": "EN 10204 3.1 (3.2 on request)"
+        }
+      ]
+    },
     crossRef: [
       { din: "DIN 2527", en: "EN 1092-1 Type 05 (Blind Flange)" },
       { din: "DIN 2573 / 2576", en: "EN 1092-1 Type 01 (Plate Slip-On)" },
@@ -129,7 +286,7 @@ export const standardsData = {
       {
         title: "Ordering DIN Flanges from Remax Forge",
         body: [
-          "Send the DIN number (or EN type), PN rating, DN size, facing, material grade and quantity. Common grades include C22.8 / P250GH carbon steel, 1.4301 / 1.4404 (304 / 316L) stainless and 1.4462 duplex. Every lot ships with an EN 10204 3.1 certificate; 3.2 with SGS, BV, TUV or DNV inspection is available on request. You get a written quote within 30 minutes during working hours."
+          "Send the DIN number (or EN type), PN rating, DN size, facing, material grade and quantity. Common grades include C22.8 / P250GH carbon steel, 1.4301 / 1.4404 (304 / 316L) stainless and 1.4462 duplex. Every lot ships with an EN 10204 3.1 certificate; 3.2 with SGS, BV, TUV or DNV inspection is available on request. You get a written quote."
         ]
       }
     ],
@@ -154,7 +311,8 @@ export const standardsData = {
     ],
     relatedLinks: [
       { title: "EN 1092-1 Standard", url: "/standards/en-1092-1/" },
-      { title: "Carbon Steel Flanges", url: "/materials/carbon-steel-flanges/" }
+      { title: "Carbon Steel Flanges", url: "/materials/carbon-steel-flanges/" },
+      { title: "Pipe Flanges Guide", url: "/blogs/pipe-flanges-guide/" }
     ]
   },
   "jis-b2220": {
@@ -163,7 +321,7 @@ export const standardsData = {
     name: "JIS B2220 Flange Standard",
     h1: "JIS B2220 Flange Standard — Japanese Industrial Specification 5K to 63K",
     metaTitle: "JIS B2220 Flange Standard Guide | 5K 10K 16K 20K 30K Dimensions",
-    metaDesc: "JIS B2220 Japanese standard steel flange guide: 5K, 10K, 16K, 20K, 30K, SOP, SOH, WN, BL types, dimensions, bolt patterns, ASME/PN conversion. Quote in 30 min.",
+    metaDesc: "JIS B2220 Japanese standard steel flange guide: 5K, 10K, 16K, 20K, 30K, SOP, SOH, WN, BL types, dimensions, bolt patterns, ASME/PN conversion. Get a written quote.",
     scope: "JIS B2220 specifies dimensions, tolerances, materials, and testing for Japanese industrial steel pipe flanges in pressure ratings 2K through 63K.",
     sizeRange: "10A to 1500A (DN 10 to DN 1500)",
     pressureClasses: ["5K", "10K", "16K", "20K", "30K", "40K", "63K"],
@@ -194,7 +352,7 @@ export const standardsData = {
       {
         title: "Ordering JIS Flanges from Remax Forge",
         body: [
-          "Send the pressure class (5K, 10K, 16K, 20K ...), size in A, flange type code, facing (RF or FF), material and quantity. We supply carbon steel (for example SS400) and stainless grades such as SUS304 and SUS316L, with an EN 10204 3.1 certificate and optional third-party inspection by SGS, BV, TUV or DNV. Written quote within 30 minutes during working hours."
+          "Send the pressure class (5K, 10K, 16K, 20K ...), size in A, flange type code, facing (RF or FF), material and quantity. We supply carbon steel (for example SS400) and stainless grades such as SUS304 and SUS316L, with an EN 10204 3.1 certificate and optional third-party inspection by SGS, BV, TUV or DNV. Written quote."
         ]
       }
     ],
@@ -228,7 +386,7 @@ export const standardsData = {
     name: "BS 10 / BS 4504 Flange Standard",
     h1: "BS 10 & BS 4504 Flange Standards — British Imperial & Metric Specs",
     metaTitle: "BS 10 & BS 4504 Flange Standard Guide | Table D, E, F, H & PN Ratings",
-    metaDesc: "BS 10 (Tables D, E, F, H) & BS 4504 British flange standard guide: imperial bolt circles, metric PN ratings, dimensions, material options. Quote in 30 min.",
+    metaDesc: "BS 10 (Tables D, E, F, H) & BS 4504 British flange standard guide: imperial bolt circles, metric PN ratings, dimensions, material options. Get a written quote.",
     scope: "BS 10 specifies imperial British standard pipe flanges (Table D, E, F, H), while BS 4504 specifies metric circular steel flanges (PN 6 to PN 40).",
     sizeRange: "1/2 inch to 24 inch (BS 10) / DN 10 to DN 2000 (BS 4504)",
     pressureClasses: ["Table D", "Table E", "Table F", "Table H", "BS 4504 PN10", "BS 4504 PN16", "BS 4504 PN25", "BS 4504 PN40"],

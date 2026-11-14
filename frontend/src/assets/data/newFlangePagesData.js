@@ -5,7 +5,7 @@ export const newFlangePagesData = {
     "primaryKw": "blind flange for marine industry",
     "secondaryKw": "blind flange marine, blrf flange marine, marine flange manufacturer",
     "title": "Blind Flange for Marine | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Marine Industry",
     "outline": [
       "Why marine projects specify blind flange — the specific pressure/corrosion/service driver.",
@@ -42,7 +42,7 @@ export const newFlangePagesData = {
     "primaryKw": "blind flange for mining industry",
     "secondaryKw": "blind flange mining, blrf flange mining, mining flange manufacturer",
     "title": "Blind Flange for Mining | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for mining service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for mining service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Mining Industry",
     "outline": [
       "Why mining projects specify blind flange — the specific pressure/corrosion/service driver.",
@@ -79,7 +79,7 @@ export const newFlangePagesData = {
     "primaryKw": "blind flange for pharmaceutical industry",
     "secondaryKw": "blind flange pharmaceutical, blrf flange pharmaceutical, pharmaceutical flange manufacturer",
     "title": "Blind Flange for Pharmaceutical | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for pharmaceutical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for pharmaceutical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Pharmaceutical Industry",
     "outline": [
       "Why pharmaceutical projects specify blind flange — the specific pressure/corrosion/service driver.",
@@ -116,7 +116,7 @@ export const newFlangePagesData = {
     "primaryKw": "blind flange for water infrastructure industry",
     "secondaryKw": "blind flange water infrastructure, blrf flange water infrastructure, water infrastructure flange manufacturer",
     "title": "Blind Flange for Water Infrastructure | ASME B16.5 BLRF",
-    "description": "Forged blind flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Water Infrastructure Industry",
     "outline": [
       "Why water infrastructure projects specify blind flange — the specific pressure/corrosion/service driver.",
@@ -153,7 +153,7 @@ export const newFlangePagesData = {
     "primaryKw": "blind flange for oil & gas industry",
     "secondaryKw": "blind flange oil & gas, blrf flange oil & gas, oil & gas flange manufacturer",
     "title": "Blind Flange for Oil & Gas | ASME B16.5 BLRF | Remax",
-    "description": "Forged blind flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged blind flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Blind Flange for Oil & Gas Industry",
     "outline": [
       "Why oil & gas projects specify blind flange — the specific pressure/corrosion/service driver.",
@@ -190,7 +190,7 @@ export const newFlangePagesData = {
     "primaryKw": "weld neck flange for oil & gas industry",
     "secondaryKw": "weld neck flange oil & gas, wnrf flange oil & gas, oil & gas flange manufacturer",
     "title": "Weld Neck Flange for Oil & Gas | ASME B16.5 WNRF | Remax",
-    "description": "Forged weld neck flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged weld neck flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Weld Neck Flange for Oil & Gas Industry",
     "outline": [
       "Why oil & gas projects specify weld neck flange — the specific pressure/corrosion/service driver.",
@@ -227,7 +227,7 @@ export const newFlangePagesData = {
     "primaryKw": "weld neck flange for power generation industry",
     "secondaryKw": "weld neck flange power generation, wnrf flange power generation, power generation flange manufacturer",
     "title": "Weld Neck Flange for Power Generation | ASME B16.5 WNRF",
-    "description": "Forged weld neck flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged weld neck flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Weld Neck Flange for Power Generation Industry",
     "outline": [
       "Why power generation projects specify weld neck flange — the specific pressure/corrosion/service driver.",
@@ -264,7 +264,7 @@ export const newFlangePagesData = {
     "primaryKw": "weld neck flange for petrochemical industry",
     "secondaryKw": "weld neck flange petrochemical, wnrf flange petrochemical, petrochemical flange manufacturer",
     "title": "Weld Neck Flange for Petrochemical | ASME B16.5 WNRF | Remax",
-    "description": "Forged weld neck flanges for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged weld neck flanges for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Weld Neck Flange for Petrochemical Industry",
     "outline": [
       "Why petrochemical projects specify weld neck flange — the specific pressure/corrosion/service driver.",
@@ -301,7 +301,7 @@ export const newFlangePagesData = {
     "primaryKw": "weld neck flange for marine industry",
     "secondaryKw": "weld neck flange marine, wnrf flange marine, marine flange manufacturer",
     "title": "Weld Neck Flange for Marine | ASME B16.5 WNRF | Remax",
-    "description": "Forged weld neck flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged weld neck flanges for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Weld Neck Flange for Marine Industry",
     "outline": [
       "Why marine projects specify weld neck flange — the specific pressure/corrosion/service driver.",
@@ -338,7 +338,7 @@ export const newFlangePagesData = {
     "primaryKw": "slip-on flange for water infrastructure industry",
     "secondaryKw": "slip-on flange water infrastructure, sorf flange water infrastructure, water infrastructure flange manufacturer",
     "title": "Slip-On Flange for Water Infrastructure | ASME B16.5 | Remax",
-    "description": "Forged slip-on flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged slip-on flanges for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Slip-On Flange for Water Infrastructure Industry",
     "outline": [
       "Why water infrastructure projects specify slip-on flange — the specific pressure/corrosion/service driver.",
@@ -375,7 +375,7 @@ export const newFlangePagesData = {
     "primaryKw": "slip-on flange for power generation industry",
     "secondaryKw": "slip-on flange power generation, sorf flange power generation, power generation flange manufacturer",
     "title": "Slip-On Flange for Power Generation | ASME B16.5 | Remax",
-    "description": "Forged slip-on flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged slip-on flanges for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Slip-On Flange for Power Generation Industry",
     "outline": [
       "Why power generation projects specify slip-on flange — the specific pressure/corrosion/service driver.",
@@ -412,7 +412,7 @@ export const newFlangePagesData = {
     "primaryKw": "slip-on flange for oil & gas industry",
     "secondaryKw": "slip-on flange oil & gas, sorf flange oil & gas, oil & gas flange manufacturer",
     "title": "Slip-On Flange for Oil & Gas | ASME B16.5 SORF | Remax",
-    "description": "Forged slip-on flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged slip-on flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Slip-On Flange for Oil & Gas Industry",
     "outline": [
       "Why oil & gas projects specify slip-on flange — the specific pressure/corrosion/service driver.",
@@ -449,7 +449,7 @@ export const newFlangePagesData = {
     "primaryKw": "socket weld flange for oil & gas industry",
     "secondaryKw": "socket weld flange oil & gas, swrf flange oil & gas, oil & gas flange manufacturer",
     "title": "Socket Weld Flange for Oil & Gas | ASME B16.5 SWRF | Remax",
-    "description": "Forged socket weld flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged socket weld flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Socket Weld Flange for Oil & Gas Industry",
     "outline": [
       "Why oil & gas projects specify socket weld flange — the specific pressure/corrosion/service driver.",
@@ -486,7 +486,7 @@ export const newFlangePagesData = {
     "primaryKw": "socket weld flange for chemical processing industry",
     "secondaryKw": "socket weld flange chemical processing, swrf flange chemical processing, chemical processing flange manufacturer",
     "title": "Socket Weld Flange for Chemical Processing | ASME B16.5",
-    "description": "Forged socket weld flanges engineered for chemical processing service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged socket weld flanges engineered for chemical processing service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Socket Weld Flange for Chemical Processing Industry",
     "outline": [
       "Why chemical processing projects specify socket weld flange — the specific pressure/corrosion/service driver.",
@@ -523,7 +523,7 @@ export const newFlangePagesData = {
     "primaryKw": "threaded flange for water infrastructure industry",
     "secondaryKw": "threaded flange water infrastructure, thrf flange water infrastructure, water infrastructure flange manufacturer",
     "title": "Threaded Flange for Water Infrastructure | Remax Forge",
-    "description": "Forged threaded flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged threaded flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Threaded Flange for Water Infrastructure Industry",
     "outline": [
       "Why water infrastructure projects specify threaded flange — the specific pressure/corrosion/service driver.",
@@ -560,7 +560,7 @@ export const newFlangePagesData = {
     "primaryKw": "threaded flange for general industrial industry",
     "secondaryKw": "threaded flange general industrial, thrf flange general industrial, general industrial flange manufacturer",
     "title": "Threaded Flange for General Industrial | ASME B16.5 THRF",
-    "description": "Forged threaded flanges engineered for general industrial service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged threaded flanges engineered for general industrial service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Threaded Flange for General Industrial Industry",
     "outline": [
       "Why general industrial projects specify threaded flange — the specific pressure/corrosion/service driver.",
@@ -597,7 +597,7 @@ export const newFlangePagesData = {
     "primaryKw": "lap joint flange for oil & gas industry",
     "secondaryKw": "lap joint flange oil & gas, ljrf flange oil & gas, oil & gas flange manufacturer",
     "title": "Lap Joint Flange for Oil & Gas | ASME B16.5 LJRF | Remax",
-    "description": "Forged lap joint flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged lap joint flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Lap Joint Flange for Oil & Gas Industry",
     "outline": [
       "Why oil & gas projects specify lap joint flange — the specific pressure/corrosion/service driver.",
@@ -634,7 +634,7 @@ export const newFlangePagesData = {
     "primaryKw": "lap joint flange for petrochemical industry",
     "secondaryKw": "lap joint flange petrochemical, ljrf flange petrochemical, petrochemical flange manufacturer",
     "title": "Lap Joint Flange for Petrochemical | ASME B16.5 LJRF | Remax",
-    "description": "Forged lap joint flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged lap joint flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Lap Joint Flange for Petrochemical Industry",
     "outline": [
       "Why petrochemical projects specify lap joint flange — the specific pressure/corrosion/service driver.",
@@ -671,7 +671,7 @@ export const newFlangePagesData = {
     "primaryKw": "spectacle blind flange for oil & gas industry",
     "secondaryKw": "spectacle blind flange oil & gas, spec flange oil & gas, oil & gas flange manufacturer",
     "title": "Spectacle Blind Flange for Oil & Gas | ASME B16.5 | Remax",
-    "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged spectacle blind flanges engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Spectacle Blind Flange for Oil & Gas Industry",
     "outline": [
       "Why oil & gas projects specify spectacle blind flange — the specific pressure/corrosion/service driver.",
@@ -708,7 +708,7 @@ export const newFlangePagesData = {
     "primaryKw": "spectacle blind flange for petrochemical industry",
     "secondaryKw": "spectacle blind flange petrochemical, spec flange petrochemical, petrochemical flange manufacturer",
     "title": "Spectacle Blind Flange for Petrochemical | Remax Forge",
-    "description": "Forged spectacle blind flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged spectacle blind flanges engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Spectacle Blind Flange for Petrochemical Industry",
     "outline": [
       "Why petrochemical projects specify spectacle blind flange — the specific pressure/corrosion/service driver.",
@@ -745,7 +745,7 @@ export const newFlangePagesData = {
     "primaryKw": "spectacle blind flange for power generation industry",
     "secondaryKw": "spectacle blind flange power generation, spec flange power generation, power generation flange manufacturer",
     "title": "Spectacle Blind Flange for Power Generation | ASME B16.5",
-    "description": "Forged spectacle blind flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged spectacle blind flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Spectacle Blind Flange for Power Generation Industry",
     "outline": [
       "Why power generation projects specify spectacle blind flange — the specific pressure/corrosion/service driver.",
@@ -782,7 +782,7 @@ export const newFlangePagesData = {
     "primaryKw": "rtj flange (ring type joint) for oil & gas industry",
     "secondaryKw": "rtj flange (ring type joint) oil & gas, rtj flange oil & gas, oil & gas flange manufacturer",
     "title": "RTJ Flange (Ring Type Joint) for Oil & Gas | ASME B16.5",
-    "description": "Forged rtj flange (ring type joint)s engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged rtj flange (ring type joint)s engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Oil & Gas Industry",
     "outline": [
       "Why oil & gas projects specify rtj flange (ring type joint) — the specific pressure/corrosion/service driver.",
@@ -819,7 +819,7 @@ export const newFlangePagesData = {
     "primaryKw": "rtj flange (ring type joint) for petrochemical industry",
     "secondaryKw": "rtj flange (ring type joint) petrochemical, rtj flange petrochemical, petrochemical flange manufacturer",
     "title": "RTJ Flange (Ring Type Joint) for Petrochemical | Remax",
-    "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Petrochemical Industry",
     "outline": [
       "Why petrochemical projects specify rtj flange (ring type joint) — the specific pressure/corrosion/service driver.",
@@ -856,7 +856,7 @@ export const newFlangePagesData = {
     "primaryKw": "socket weld flange for power generation industry",
     "secondaryKw": "socket weld flange power generation, swrf flange power generation, power generation flange manufacturer",
     "title": "Socket Weld Flange for Power Generation | ASME B16.5 | Remax",
-    "description": "Forged socket weld flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged socket weld flanges engineered for power generation service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Socket Weld Flange for Power Generation Industry",
     "outline": [
       "Why power generation projects specify socket weld flange — the specific pressure/corrosion/service driver.",
@@ -893,7 +893,7 @@ export const newFlangePagesData = {
     "primaryKw": "lap joint flange for water infrastructure industry",
     "secondaryKw": "lap joint flange water infrastructure, ljrf flange water infrastructure, water infrastructure flange manufacturer",
     "title": "Lap Joint Flange for Water Infrastructure | Remax Forge",
-    "description": "Forged lap joint flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged lap joint flanges engineered for water infrastructure service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Lap Joint Flange for Water Infrastructure Industry",
     "outline": [
       "Why water infrastructure projects specify lap joint flange — the specific pressure/corrosion/service driver.",
@@ -930,7 +930,7 @@ export const newFlangePagesData = {
     "primaryKw": "threaded flange for marine industry",
     "secondaryKw": "threaded flange marine, thrf flange marine, marine flange manufacturer",
     "title": "Threaded Flange for Marine | ASME B16.5 THRF | Remax",
-    "description": "Forged threaded flanges engineered for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. 45+ exports. 30-min quote.",
+    "description": "Forged threaded flanges engineered for marine service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "Threaded Flange for Marine Industry",
     "outline": [
       "Why marine projects specify threaded flange — the specific pressure/corrosion/service driver.",
@@ -974,7 +974,7 @@ export const newFlangePagesData = {
       "Full flanges spec range (materials, classes, faces).",
       "Certifications & traceability.",
       "Dispatch/logistics from Mumbai (domestic + export).",
-      "Quote-form CTA — reiterate forms-only, 30-min turnaround."
+      "Quote-form CTA — reiterate forms-only."
     ],
     "faqs": [
       {
@@ -986,8 +986,8 @@ export const newFlangePagesData = {
         "a": "What's the minimum order quantity? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
       },
       {
-        "q": "Can I get same-day dispatch for stock sizes?",
-        "a": "Can I get same-day dispatch for stock sizes? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
+        "q": "How quickly can stock sizes be dispatched?",
+        "a": "How quickly can stock sizes be dispatched? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
       },
       {
         "q": "Do you export from Mumbai directly?",
@@ -1010,7 +1010,7 @@ export const newFlangePagesData = {
       "Full flanges spec range (materials, classes, faces).",
       "Certifications & traceability.",
       "Dispatch/logistics from Rajkot (domestic + export).",
-      "Quote-form CTA — reiterate forms-only, 30-min turnaround."
+      "Quote-form CTA — reiterate forms-only."
     ],
     "faqs": [
       {
@@ -1022,8 +1022,8 @@ export const newFlangePagesData = {
         "a": "What's the minimum order quantity? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
       },
       {
-        "q": "Can I get same-day dispatch for stock sizes?",
-        "a": "Can I get same-day dispatch for stock sizes? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
+        "q": "How quickly can stock sizes be dispatched?",
+        "a": "How quickly can stock sizes be dispatched? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
       },
       {
         "q": "Do you export from Rajkot directly?",
@@ -1046,7 +1046,7 @@ export const newFlangePagesData = {
       "Full weld neck flange spec range (materials, classes, faces).",
       "Certifications & traceability.",
       "Dispatch/logistics from Mumbai (domestic + export).",
-      "Quote-form CTA — reiterate forms-only, 30-min turnaround."
+      "Quote-form CTA — reiterate forms-only."
     ],
     "faqs": [
       {
@@ -1058,8 +1058,8 @@ export const newFlangePagesData = {
         "a": "What's the minimum order quantity? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
       },
       {
-        "q": "Can I get same-day dispatch for stock sizes?",
-        "a": "Can I get same-day dispatch for stock sizes? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
+        "q": "How quickly can stock sizes be dispatched?",
+        "a": "How quickly can stock sizes be dispatched? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
       },
       {
         "q": "Do you export from Mumbai directly?",
@@ -1082,7 +1082,7 @@ export const newFlangePagesData = {
       "Full blind flange spec range (materials, classes, faces).",
       "Certifications & traceability.",
       "Dispatch/logistics from Mumbai (domestic + export).",
-      "Quote-form CTA — reiterate forms-only, 30-min turnaround."
+      "Quote-form CTA — reiterate forms-only."
     ],
     "faqs": [
       {
@@ -1094,8 +1094,8 @@ export const newFlangePagesData = {
         "a": "What's the minimum order quantity? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
       },
       {
-        "q": "Can I get same-day dispatch for stock sizes?",
-        "a": "Can I get same-day dispatch for stock sizes? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
+        "q": "How quickly can stock sizes be dispatched?",
+        "a": "How quickly can stock sizes be dispatched? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
       },
       {
         "q": "Do you export from Mumbai directly?",
@@ -1406,7 +1406,7 @@ export const newFlangePagesData = {
       "Decision flowchart / rule of thumb.",
       "Real-world scenario for each.",
       "Cross-link to both relevant Type pages.",
-      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm in 30 min.'"
+      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm which you need.'"
     ],
     "faqs": [
       {
@@ -1438,7 +1438,7 @@ export const newFlangePagesData = {
       "Decision flowchart / rule of thumb.",
       "Real-world scenario for each.",
       "Cross-link to both relevant Type pages.",
-      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm in 30 min.'"
+      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm which you need.'"
     ],
     "faqs": [
       {
@@ -1470,7 +1470,7 @@ export const newFlangePagesData = {
       "Decision flowchart / rule of thumb.",
       "Real-world scenario for each.",
       "Cross-link to both relevant Type pages.",
-      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm in 30 min.'"
+      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm which you need.'"
     ],
     "faqs": [
       {
@@ -1502,7 +1502,7 @@ export const newFlangePagesData = {
       "Decision flowchart / rule of thumb.",
       "Real-world scenario for each.",
       "Cross-link to both relevant Type pages.",
-      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm in 30 min.'"
+      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm which you need.'"
     ],
     "faqs": [
       {
@@ -1534,7 +1534,7 @@ export const newFlangePagesData = {
       "Decision flowchart / rule of thumb.",
       "Real-world scenario for each.",
       "Cross-link to both relevant Type pages.",
-      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm in 30 min.'"
+      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm which you need.'"
     ],
     "faqs": [
       {
@@ -1566,7 +1566,7 @@ export const newFlangePagesData = {
       "Decision flowchart / rule of thumb.",
       "Real-world scenario for each.",
       "Cross-link to both relevant Type pages.",
-      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm in 30 min.'"
+      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm which you need.'"
     ],
     "faqs": [
       {
@@ -1598,7 +1598,7 @@ export const newFlangePagesData = {
       "Decision flowchart / rule of thumb.",
       "Real-world scenario for each.",
       "Cross-link to both relevant Type pages.",
-      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm in 30 min.'"
+      "Quote-form CTA: 'Not sure which you need? Send your spec, we'll confirm which you need.'"
     ],
     "faqs": [
       {
@@ -1623,7 +1623,7 @@ export const newFlangePagesData = {
     "primaryKw": "non-porous bl flange",
     "secondaryKw": "non-porous bl flange, lined blind flange",
     "title": "Non-Porous & Lined Blind Flanges for Corrosive Duty | Remax",
-    "description": "Non-Porous & Lined Blind Flanges for Corrosive Service. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Non-Porous & Lined Blind Flanges for Corrosive Service. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Non-Porous & Lined Blind Flanges for Corrosive Service",
     "outline": [
       "Direct answer to the specific buyer need in the H1 (don't bury it).",
@@ -1655,7 +1655,7 @@ export const newFlangePagesData = {
     "primaryKw": "sour service stainless forged flanges",
     "secondaryKw": "sour service stainless forged flanges, nace flange",
     "title": "Sour Service (NACE / H2S) Forged Flanges | Remax",
-    "description": "Sour Service (NACE / H2S) Forged Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Sour Service (NACE / H2S) Forged Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Sour Service (NACE / H2S) Forged Flanges",
     "outline": [
       "Direct answer to the specific buyer need in the H1 (don't bury it).",
@@ -1687,7 +1687,7 @@ export const newFlangePagesData = {
     "primaryKw": "customized blind flange",
     "secondaryKw": "customized blind flange, special flange manufacturer",
     "title": "Custom & Special Flanges | Remax",
-    "description": "Custom & Special Flanges — Machined to Your Drawing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Custom & Special Flanges — Machined to Your Drawing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Custom & Special Flanges — Machined to Your Drawing",
     "outline": [
       "Direct answer to the specific buyer need in the H1 (don't bury it).",
@@ -1719,7 +1719,7 @@ export const newFlangePagesData = {
     "primaryKw": "subsea flange manufacturer",
     "secondaryKw": "subsea flange manufacturer, offshore flange supplier",
     "title": "Flanges for Subsea & Offshore Piping | Remax",
-    "description": "Flanges for Subsea & Offshore Piping. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "Flanges for Subsea & Offshore Piping. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "Flanges for Subsea & Offshore Piping",
     "outline": [
       "Direct answer to the specific buyer need in the H1 (don't bury it).",
@@ -1750,8 +1750,8 @@ export const newFlangePagesData = {
     "url": "/about/iso-9001-certified-flange-manufacturer/",
     "primaryKw": "iso 9001 certified forged flange procurement",
     "secondaryKw": "iso 9001 certified forged flange procurement",
-    "title": "ISO 9001 Certified Flanges for Bulk Orders | Remax Forge",
-    "description": "Source ISO 9001 certified forged flanges for bulk orders and industrial procurement. Quality-assured steel forging manufacturer.",
+    "title": "ISO 9001 Certified Forged Flange Procurement | Remax Forge",
+    "description": "ISO 9001:2015 certified forged flange manufacturer, Mumbai. ASME B16.5/B16.47 flanges with EN 10204 3.1 MTC, PMI and UT for bulk procurement. Send an RFQ.",
     "h1": "ISO 9001 Certified Forged Flanges & Bulk Procurement",
     "outline": [
       "Direct answer to the specific buyer need in the H1 (don't bury it).",
@@ -1783,7 +1783,7 @@ export const newFlangePagesData = {
     "primaryKw": "high temperature flange manufacturer",
     "secondaryKw": "high temperature flange manufacturer, cryogenic flange supplier",
     "title": "High-Temperature & Cryogenic Service Flanges | Remax",
-    "description": "High-Temperature & Cryogenic Service Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Quote in 30 min.",
+    "description": "High-Temperature & Cryogenic Service Flanges. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
     "h1": "High-Temperature & Cryogenic Service Flanges",
     "outline": [
       "Direct answer to the specific buyer need in the H1 (don't bury it).",

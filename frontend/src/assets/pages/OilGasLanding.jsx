@@ -6,7 +6,7 @@ import { useQuotePopup } from '../context/QuotePopupContext';
 
 const serviceTable = [
   { service: 'Wellhead, flowlines and manifolds', parts: 'Weld neck and blind flanges Class 900–2500, RTJ facing; 3000# / 6000# / 9000# forged fittings', material: 'A105N, A350 LF2 (low temp), A182 F51 / F53 duplex for sour or CO2 service', url: '/products/flanges/high-pressure-flange-manufacturer/' },
-  { service: 'Sour gas (H2S) lines', parts: 'Flanges and fittings supplied to NACE MR0175 / ISO 15156 hardness limits (22 HRC max for carbon steel)', material: 'A105N (HIC-tested on request), A182 F316L, duplex F51', url: '/products/flanges/sour-service-nace-flange/' },
+  { service: 'Sour gas (H2S) lines', parts: 'Flanges and fittings supplied to NACE MR0175 / ISO 15156 hardness limits (A105 forgings 187 HBW max, 22 HRC general limit for carbon steel)', material: 'A105N (HIC-tested on request), A182 F316L, duplex F51', url: '/products/flanges/sour-service-nace-flange/' },
   { service: 'Cross-country pipelines', parts: 'High-yield butt weld elbows, tees and reducers; matching weld neck flanges', material: 'MSS SP-75 WPHY 42 / 52 / 60 / 65, A234 WPB', url: '/products/buttweld-fittings/butt-weld-elbow-fittings/' },
   { service: 'Refinery and petrochemical units', parts: 'Flanges, butt weld fittings and seamless pipe for high-temperature hydrogen and steam service', material: 'A182 F11 / F22 / F91, A234 WP11 / WP22 / WP91, A335 P11 / P22 / P91', url: '/products/pipes/alloy-steel-pipes/' },
   { service: 'Offshore platforms and FPSO', parts: 'Spectacle blinds, spades and spacers, weld neck flanges, socket weld fittings for utility lines', material: 'A350 LF2, A182 F316L, duplex and super duplex', url: '/products/flanges/spectacle-blind-flange/' },
@@ -18,6 +18,18 @@ const rfqList = [
   'Material grade and any supplementary requirements: NACE, HIC, impact test temperature, PWHT',
   'Inspection level: 3.1 MTC only, or 3.2 with a named TPI agency',
   'Delivery point and required-on-site date',
+];
+
+// NACE compliant forged flanges. Sources:
+// https://twi-global.com/technical-knowledge/job-knowledge/complying-with-nace-hardness-requirements-119
+// https://blog.projectmaterials.com/quick-answers/materials/what-is-nace-mr0175/
+// https://www.valvemagazine.com/articles/nace-mr0103-material-compliance
+const naceRows = [
+  { item: 'When it applies', value: 'NACE MR0175 / ISO 15156 applies to oil and gas production equipment in H2S service; sour service starts when the H2S partial pressure exceeds 0.3 kPa (0.05 psia). Refinery sour service is covered by NACE MR0103.' },
+  { item: 'Carbon steel flanges', value: 'ASTM A105 forgings: 187 HBW maximum. General carbon steel limit: 22 HRC. Welds and heat-affected zones: 22 HRC maximum, confirmed by hardness survey when specified.' },
+  { item: 'Low temperature', value: 'A350 LF2 for sour lines that also need Charpy impact testing at -46°C.' },
+  { item: 'Stainless and duplex', value: 'A182 F316/F316L and duplex F51 supplied in the solution annealed condition, within the hardness limits for each grade.' },
+  { item: 'What the certificate shows', value: 'EN 10204 3.1 MTC with heat number, chemistry, mechanical properties and the measured hardness, so compliance can be checked line by line.' },
 ];
 
 const OilGasLanding = () => {
@@ -43,7 +55,7 @@ const OilGasLanding = () => {
                 onClick={openQuotePopup}
                 className="bg-[#D71920] hover:bg-red-700 text-white font-bold py-3 px-6 rounded-xl transition-all shadow-lg text-sm uppercase tracking-wider"
               >
-                Get Quote in 30 Min
+                Get Quote
               </button>
               <Link
                 to="/brochure/"
@@ -152,12 +164,12 @@ const OilGasLanding = () => {
                 <li key={x} className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-[#D71920] shrink-0 mt-0.5" /> {x}</li>
               ))}
             </ul>
-            <p className="text-xs text-slate-500 mt-4">A complete MTO is quoted line by line in writing, usually within 30 minutes during working hours.</p>
+            <p className="text-xs text-slate-500 mt-4">A complete MTO is quoted line by line in writing.</p>
           </div>
           <div className="bg-slate-50 p-8 rounded-2xl border border-slate-200">
             <h2 className="text-xl md:text-2xl font-extrabold text-slate-900 mb-4">Lead Time, Pricing and Delivery</h2>
             <ul className="space-y-3 text-sm text-slate-700">
-              <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-[#D71920] shrink-0 mt-0.5" /> Ex-stock carbon and stainless sizes dispatch from Mumbai in 24–48 hours; alloy, duplex and NACE-tested lots typically 7–14 days.</li>
+              <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-[#D71920] shrink-0 mt-0.5" /> Ex-stock carbon and stainless sizes dispatch from Mumbai in 24–48 hours; alloy, duplex and NACE-tested lots are quoted with a lead time per lot.</li>
               <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-[#D71920] shrink-0 mt-0.5" /> Prices quoted ex-works Mumbai, delivered to site in India, or FOB Nhava Sheva / CIF for export.</li>
               <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-[#D71920] shrink-0 mt-0.5" /> Every lot ships with EN 10204 3.1 MTC; 3.2 certificates with SGS, BV, TUV or DNV witness when specified.</li>
               <li className="flex items-start gap-2"><CheckCircle2 className="w-4 h-4 text-[#D71920] shrink-0 mt-0.5" /> Works audit in person or by video call before you place a first order.</li>
@@ -189,7 +201,7 @@ const OilGasLanding = () => {
             <div className="bg-slate-800 p-6 rounded-2xl border border-slate-700 text-center">
               <h3 className="text-xl font-bold mb-2 text-white">Need Sour-Service RFQ Quote?</h3>
               <p className="text-xs text-slate-300 mb-6">
-                Send us your project spec sheet or MTO list. We provide written factory quotes within 30 minutes.
+                Send us your project spec sheet or MTO list. We reply with a written, itemised quotation.
               </p>
               <button
                 onClick={openQuotePopup}
@@ -199,6 +211,28 @@ const OilGasLanding = () => {
               </button>
             </div>
           </div>
+        </div>
+
+        {/* NACE compliant forged flanges */}
+        <div className="mb-16">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 mb-3">NACE Compliant Forged Flanges (MR0175 / ISO 15156)</h2>
+          <p className="text-sm text-slate-600 mb-6">Specify NACE MR0175 / ISO 15156 on the RFQ and every flange in the lot is made, tested and certified to the hardness limits below. State the sour service conditions or the line class so the right grade and tests are quoted.</p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-slate-200">
+              <tbody>
+                {naceRows.map((r) => (
+                  <tr key={r.item} className="align-top">
+                    <th scope="row" className="text-left p-3 border-b border-slate-200 bg-slate-50 font-semibold text-slate-800 w-1/4">{r.item}</th>
+                    <td className="p-3 border-b border-slate-200 text-slate-600">{r.value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-sm text-slate-600 mt-4">Related: <Link to="/blogs/pipe-flanges-guide/" className="text-[#D71920] font-semibold hover:underline">pipe flange materials</Link>, <Link to="/blogs/a105-vs-a350-lf2/" className="text-[#D71920] font-semibold hover:underline">A105 vs A350 LF2</Link>, <Link to="/standards/asme-b16-5/" className="text-[#D71920] font-semibold hover:underline">ASME B16.5 flanges</Link>.</p>
+          <button onClick={() => openQuotePopup('NACE Compliant Forged Flanges')} className="mt-6 bg-[#D71920] hover:bg-red-700 text-white font-bold py-3 px-6 rounded-xl text-xs uppercase tracking-wider">
+            Get Quote for NACE Flanges
+          </button>
         </div>
 
         {/* Frequently Asked Questions */}
@@ -219,7 +253,7 @@ const OilGasLanding = () => {
             </div>
             <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
               <h3 className="font-bold text-slate-900 mb-1">What is the lead time for sour-service flanges and fittings?</h3>
-              <p className="text-slate-600">Standard A105N and 316L items in common sizes ship from stock in 24–48 hours. Lots that need NACE hardness testing, HIC testing or impact testing at low temperature are typically dispatched in 7–14 days after order, because the tests are done on the actual heat supplied.</p>
+              <p className="text-slate-600">Standard A105N and 316L items in common sizes ship from stock in 24–48 hours. Lots that need NACE hardness testing, HIC testing or impact testing at low temperature take longer, because the tests are done on the actual heat supplied; the lead time is stated on the written quote.</p>
             </div>
             <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
               <h3 className="font-bold text-slate-900 mb-1">Can one order combine flanges, fittings and pipe in the same grade?</h3>

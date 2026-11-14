@@ -34,3 +34,23 @@ a question and the next daily run will use it.
     Nigeria)? The pages say only that we supply the MTC and shipping documents.
 15. **Classification societies:** can you arrange KR, ABS, DNV or Lloyd's Register witnessing? The
     Korea page says "we confirm in the quotation what can be arranged".
+16. **Removed sales claims (GSC fix, 2026-11-14):** these were removed site-wide because FACTS.md
+    can't support them. Confirm any you want back, with evidence:
+    - "Get a quote in 30 min" / "30-min quote" / "Price within 30 minutes" / "Same-day quote"
+      (navbar, floating button, trust bar, about 150 metas and pages)
+    - "same-day / next-day dispatch" FAQs on flange pages
+    - "Exporting to 45+ countries" / "45+ exports" (metas). The "45+ Countries Exported" stat
+      counters on hub pages are still live and need the same decision.
+    - "Trusted by ONGC & L&T" (home meta). The client logos (ONGC and others) on hub pages are
+      still live: are these real customers you may name?
+    - "~N-day delivery ex-Mumbai" (264 Indian city metas) and the "~N-day delivery via NH..."
+      text on market-area pages, which is still live
+    - "alloy, duplex and NACE-tested lots typically 7–14 days" (oil & gas page)
+17. **/certification/ meta** claimed IBR approval, PED 2014/68/EU and TUV/SGS/DNV certifications.
+    It now lists only ISO 9001:2015, GST, Udyam and EN 10204 MTCs. Do you hold IBR or PED
+    approval? Is "IBR Approved Pipe Fittings Guide" accurate?
+18. **Cannibalization, redirect suggestion only (not done):** `/export/singapore/singapore/`
+    competes with `/export/singapore/` for "flange supplier singapore" and ranks far lower.
+    Could it be 301-redirected to `/export/singapore/`? Until you decide, the city page title now
+    targets "Singapore city" delivery and links to the hub. Also check why `/export/singapore`
+    (no trailing slash) is still getting impressions.
