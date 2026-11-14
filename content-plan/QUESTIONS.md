@@ -67,3 +67,10 @@ a question and the next daily run will use it.
 21. **Vendor status:** the new city FAQs say plainly that we are not an approved vendor for NHPC, NEEPCO,
     Oil India, SAIL, the ordnance factories or Milkfed, and that orders come through contractors. If you
     hold any of these registrations, tell us and the FAQs will be updated.
+22. **Galvanised finish, IS 6392 and wall/puddle flanges:** the product pages don't say whether we supply
+    hot-dip galvanised flanges, flanges to IS 6392, or wall/puddle flanges. The 13 new city pages
+    (Nagaland, Tripura, Assam, Meghalaya, Bihar, Mizoram) only say "the quote will state the finish we can
+    offer" or "we will confirm on the quote". Some of the first 20 city pages still say "galvanised ... on
+    request" (e.g. /gaya/ grades row). Confirm which of these we supply.
+23. **More vendor status:** the new FAQs also say we are not a registered vendor of ONGC, OTPC, TSECL or
+    MePGCL (as well as NEEPCO), and that supply goes through contractors. Tell us if this is wrong.
