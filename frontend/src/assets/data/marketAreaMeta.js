@@ -45,12 +45,12 @@ export const marketAreaMeta = {
     "description": "Flanges & forged fittings for Guwahati's refinery and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
   },
   "silchar": {
-    "title": "Flange Manufacturer & Supplier for Silchar | Remax Forge",
-    "description": "Flanges & forged fittings for Silchar's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Silchar, Assam | Remax Forge",
+    "description": "Flange supplier for Silchar and Cachar: flanges for tea factory steam and water lines and oil and gas field work. ASME B16.5, EN 1092-1, 3.1 MTC."
   },
   "dibrugarh": {
-    "title": "Flange Manufacturer & Supplier for Dibrugarh | Remax Forge",
-    "description": "Flanges & forged fittings for Dibrugarh's oil & gas field and chemical units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Dibrugarh, Assam | Remax Forge",
+    "description": "Flange supplier for Dibrugarh: RTJ and weld neck flanges for Duliajan, Lepetkata and Namrup oil, gas and fertiliser plants. ASME B16.5, 3.1 MTC."
   },
   "jorhat": {
     "title": "Flange Manufacturer & Supplier for Jorhat | Remax Forge",
@@ -65,8 +65,8 @@ export const marketAreaMeta = {
     "description": "Flanges & forged fittings for Patna's food & agro and refinery units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
   },
   "gaya": {
-    "title": "Flange Manufacturer & Supplier for Gaya | Remax Forge",
-    "description": "Flanges & forged fittings for Gaya's food & agro and cement & mining units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Gaya, Bihar | Remax Forge",
+    "description": "Flange supplier for Gaya: large-bore and blind flanges for Ganga water lift pump houses and treatment plants. ASME B16.5/B16.47, EN 1092-1, 3.1 MTC."
   },
   "bhagalpur": {
     "title": "Flange Manufacturer & Supplier for Bhagalpur | Remax Forge",
@@ -201,16 +201,16 @@ export const marketAreaMeta = {
     "description": "Flanges & forged fittings for Thiruvananthapuram's aerospace & defence and chemical units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
   },
   "ujjain": {
-    "title": "Flange Manufacturer & Supplier for Ujjain | Remax Forge",
-    "description": "Flanges & forged fittings for Ujjain's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Ujjain, Madhya Pradesh | Remax Forge",
+    "description": "Flange supplier for Ujjain: flanges for Vikram Udyogpuri food, dairy and engineering plants. ASME B16.5, EN 1092-1, A105 and SS 304/316, 3.1 MTC."
   },
   "gwalior": {
     "title": "Flange Manufacturer & Supplier for Gwalior | Remax Forge",
     "description": "Flanges & forged fittings for Gwalior's engineering and aerospace & defence units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
   },
   "jabalpur": {
-    "title": "Flange Manufacturer & Supplier for Jabalpur | Remax Forge",
-    "description": "Flanges & forged fittings for Jabalpur's aerospace & defence and cement & mining units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Jabalpur, Madhya Pradesh | Remax Forge",
+    "description": "Flange supplier for Jabalpur: weld neck, socket weld and blind flanges for defence factory utilities and test rigs. ASME B16.5, EN 10204 3.1 MTC."
   },
   "bhopal": {
     "title": "Flange Manufacturer & Supplier for Bhopal | Remax Forge",
@@ -233,24 +233,24 @@ export const marketAreaMeta = {
     "description": "Flanges & forged fittings for Nashik's aerospace & defence and engineering units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
   },
   "pune": {
-    "title": "Flange Manufacturer & Supplier for Pune | Remax Forge",
-    "description": "Flanges & forged fittings for Pune's engineering and aerospace & defence units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Pune, Maharashtra | Remax Forge",
+    "description": "Flange supplier for Pune: socket weld, threaded and high-pressure flanges for Chakan, Ranjangaon and Bhosari MIDC plants. ASME B16.5, 3.1 MTC."
   },
   "thane": {
     "title": "Flange Manufacturer & Supplier for Thane | Remax Forge",
     "description": "Flanges & forged fittings for Thane's chemical and engineering units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
   },
   "imphal": {
-    "title": "Flange Manufacturer & Supplier for Imphal | Remax Forge",
-    "description": "Flanges & forged fittings for Imphal's water & utility and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Imphal, Manipur | Remax Forge",
+    "description": "Flange supplier for Imphal: flanges for Thoubal dam water supply, PHED plants and Takyelpat units. ASME B16.5, EN 1092-1, EN 10204 3.1 MTC."
   },
   "thoubal": {
     "title": "Flange Manufacturer & Supplier for Thoubal | Remax Forge",
     "description": "Flanges & forged fittings for Thoubal's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
   },
   "bishnupur": {
-    "title": "Flange Manufacturer & Supplier for Bishnupur | Remax Forge",
-    "description": "Flanges & forged fittings for Bishnupur's hydro power and power & boiler units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Bishnupur, Manipur | Remax Forge",
+    "description": "Flange supplier for Bishnupur: weld neck, slip-on and blind flanges for Loktak hydro and lift-irrigation lines. ASME B16.5, EN 1092-1, 3.1 MTC."
   },
   "kakching": {
     "title": "Flange Manufacturer & Supplier for Kakching | Remax Forge",
@@ -261,8 +261,8 @@ export const marketAreaMeta = {
     "description": "Flanges & forged fittings for Churachandpur's hydro power and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
   },
   "cherrapunji": {
-    "title": "Flange Manufacturer & Supplier for Cherrapunji | Remax Forge",
-    "description": "Flanges & forged fittings for Cherrapunji's cement & mining and water & utility units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Cherrapunji (Sohra) | Remax Forge",
+    "description": "Flange supplier for Cherrapunji: flanges for the Greater Sohra water scheme and East Khasi Hills limestone sites. ASME B16.5, EN 1092-1, 3.1 MTC."
   },
   "nongpoh": {
     "title": "Flange Manufacturer & Supplier for Nongpoh | Remax Forge",
@@ -277,20 +277,20 @@ export const marketAreaMeta = {
     "description": "Flanges & forged fittings for Tura's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
   },
   "williamnagar": {
-    "title": "Flange Supplier in Williamnagar | Remax Forge",
-    "description": "Flanges & forged fittings for Williamnagar's cement & mining and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Williamnagar, Meghalaya | Remax Forge",
+    "description": "Flange supplier for Williamnagar and East Garo Hills: threaded, slip-on and blind flanges for water supply and mining. ASME B16.5, EN 1092-1, 3.1 MTC."
   },
   "aizawl": {
-    "title": "Flange Manufacturer & Supplier for Aizawl | Remax Forge",
-    "description": "Flanges & forged fittings for Aizawl's water & utility and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Aizawl, Mizoram | Remax Forge",
+    "description": "Flange supplier for Aizawl: large-bore weld neck and slip-on flanges for Tlawng pumping mains and Zuangtui units. ASME B16.5, EN 1092-1, 3.1 MTC."
   },
   "champhai": {
-    "title": "Flange Manufacturer & Supplier for Champhai | Remax Forge",
-    "description": "Flanges & forged fittings for Champhai's water & utility and food & agro units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Champhai, Mizoram | Remax Forge",
+    "description": "Flange supplier for Champhai: slip-on, threaded and blind flanges for water supply, building and border works. ASME B16.5, EN 1092-1, 3.1 MTC."
   },
   "kolasib": {
-    "title": "Flange Manufacturer & Supplier for Kolasib | Remax Forge",
-    "description": "Flanges & forged fittings for Kolasib's hydro power and food & agro units: A105, A350 LF2 (low-temp), ASME B16.5, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Kolasib, Mizoram | Remax Forge",
+    "description": "Flange supplier for Kolasib: weld neck flanges and spectacle blinds for Tuirial hydro and water lines at Bairabi. ASME B16.5, EN 1092-1, 3.1 MTC."
   },
   "lunglei": {
     "title": "Flange Manufacturer & Supplier for Lunglei | Remax Forge",
@@ -353,8 +353,8 @@ export const marketAreaMeta = {
     "description": "Flanges & forged fittings for Jalandhar's engineering and foundry & forging units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
   },
   "amritsar": {
-    "title": "Flange Manufacturer & Supplier for Amritsar | Remax Forge",
-    "description": "Flanges & forged fittings for Amritsar's textile and food & agro units: SS 304, A105, ASME B16.5, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Amritsar, Punjab | Remax Forge",
+    "description": "Flange supplier for Amritsar: SS 304/316 flanges for the Verka dairy and A105 for Focal Point units. ASME B16.5, EN 1092-1, EN 10204 3.1 MTC."
   },
   "ludhiana": {
     "title": "Flange Manufacturer & Supplier for Ludhiana | Remax Forge",
@@ -389,8 +389,8 @@ export const marketAreaMeta = {
     "description": "Flanges & forged fittings for Mangan's hydro power and water & utility units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
   },
   "geyzing": {
-    "title": "Flange Manufacturer & Supplier for Geyzing | Remax Forge",
-    "description": "Flanges & forged fittings for Geyzing's hydro power and water & utility units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Geyzing (Gyalshing) | Remax Forge",
+    "description": "Flange supplier for Geyzing: weld neck flanges and spectacle blinds for Rangit hydro and hill water supply lines. ASME B16.5, EN 1092-1, 3.1 MTC."
   },
   "namchi": {
     "title": "Flange Manufacturer & Supplier for Namchi | Remax Forge",
@@ -433,8 +433,8 @@ export const marketAreaMeta = {
     "description": "Flanges & forged fittings for Warangal's textile and food & agro units: SS 304, A105, ASME B16.5, EN 10204 3.1 MTC."
   },
   "nizamabad": {
-    "title": "Flange Manufacturer & Supplier for Nizamabad | Remax Forge",
-    "description": "Flanges & forged fittings for Nizamabad's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Nizamabad, Telangana | Remax Forge",
+    "description": "Flange supplier for Nizamabad: flanges for sugar mill steam and juice lines, food processing and irrigation pumping. ASME B16.5, EN 1092-1, 3.1 MTC."
   },
   "khammam": {
     "title": "Flange Manufacturer & Supplier for Khammam | Remax Forge",
@@ -493,28 +493,28 @@ export const marketAreaMeta = {
     "description": "Flanges & forged fittings for Haldwani's food & agro and cement & mining units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
   },
   "roorkee": {
-    "title": "Flange Manufacturer & Supplier for Roorkee | Remax Forge",
-    "description": "Flanges & forged fittings for Roorkee's engineering and pharma units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Roorkee, Uttarakhand | Remax Forge",
+    "description": "Flange supplier for Roorkee and Bhagwanpur: SS 304/316 flanges for pharma, A105 for utilities. ASME B16.5, EN 1092-1, EN 10204 3.1 MTC."
   },
   "haridwar": {
     "title": "Flange Manufacturer & Supplier for Haridwar | Remax Forge",
     "description": "Flanges & forged fittings for Haridwar's power & boiler and engineering units: A105, F11/F22/F91 (IBR), ASME B16.5, EN 10204 3.1 MTC."
   },
   "dehradun": {
-    "title": "Flange Manufacturer & Supplier for Dehradun | Remax Forge",
-    "description": "Flanges & forged fittings for Dehradun's oil & gas field and pharma units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Dehradun, Uttarakhand | Remax Forge",
+    "description": "Flange supplier for Dehradun: SS 316L flanges for Selaqui Pharma City and units at the CSIR-IIP campus. ASME B16.5, EN 1092-1, 3.1 MTC."
   },
   "siliguri": {
-    "title": "Flange Manufacturer & Supplier for Siliguri | Remax Forge",
-    "description": "Flanges & forged fittings for Siliguri's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Siliguri, West Bengal | Remax Forge",
+    "description": "Flange supplier for Siliguri: flanges for Dabgram units and Teesta hydro stations. ASME B16.5, EN 1092-1, A105 and SS 304/316, EN 10204 3.1 MTC."
   },
   "durgapur": {
     "title": "Flange Manufacturer & Supplier for Durgapur | Remax Forge",
     "description": "Flanges & forged fittings for Durgapur's steel & metals and power & boiler units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
   },
   "asansol": {
-    "title": "Flange Manufacturer & Supplier for Asansol | Remax Forge",
-    "description": "Flanges & forged fittings for Asansol's steel & metals and cement & mining units. ASME B16.5/B16.11, EN 10204 3.1 MTC."
+    "title": "Flange Supplier in Asansol, West Bengal | Remax Forge",
+    "description": "Flange supplier for Asansol: weld neck flanges and spectacle blinds for Burnpur steel plant lines and Chittaranjan works. ASME B16.5, 3.1 MTC."
   },
   "kolkata": {
     "title": "Flange Manufacturer & Supplier for Kolkata | Remax Forge",

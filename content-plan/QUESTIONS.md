@@ -54,3 +54,16 @@ a question and the next daily run will use it.
     Could it be 301-redirected to `/export/singapore/`? Until you decide, the city page title now
     targets "Singapore city" delivery and links to the hub. Also check why `/export/singapore`
     (no trailing slash) is still getting impressions.
+19. **City page template (all 132 Indian city pages):** `CityPage.jsx` still shows "Dispatch Schedule:
+    24–48 Hours (Ex-Stock Items)", "Custom Forgings Lead Time: 7–15 Working Days" and a "We export
+    to 45+ countries ... held in stock" card. FACTS.md has no evidence for 7–15 days or 45+ countries,
+    and 24–48 h is pending (Q3). Can these rows be replaced with "stated on your written quote"? They
+    were left as they are because they are shared template text.
+20. **Removed from the 20 improved city pages (2026-11-14):** the "We keep MOQs low ... roughly 100 pieces
+    or 500 kg per grade" FAQ (see Q4), "Documentation is aligned to operator vendor-approval formats"
+    (Dibrugarh, see Q6), "100% PMI is standard on alloy and stainless", "grades held in stock", and the
+    industrial areas that could not be verified (e.g. Richhai in Jabalpur, Gaya BIADA area). Confirm any
+    you want back, with evidence. The other 112 city pages still carry the MOQ and "~N-day" text.
+21. **Vendor status:** the new city FAQs say plainly that we are not an approved vendor for NHPC, NEEPCO,
+    Oil India, SAIL, the ordnance factories or Milkfed, and that orders come through contractors. If you
+    hold any of these registrations, tell us and the FAQs will be updated.
