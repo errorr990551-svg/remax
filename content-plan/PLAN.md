@@ -94,8 +94,8 @@ FAQ answers on the 44 commercial flange pages just repeated the question) left 1
 application pages and 18 commercial pages thin. Days 13–14 cover them, which brings the
 total to 419 + 35 = 454 pages.
 
-Scope note (Day 3): a fresh scan found 59 thin pages that no day covered (51 towns not in the baseline, 4 Gulf
-hubs, `/contact/`, `/brochure/`). They are listed in `extra_pages.csv` and done on Days 15–16; the final
+Scope note (Day 3): a fresh scan found 61 thin pages that no day covered (55 towns not in the baseline, 4 Gulf
+hubs, and `/contact/` and `/brochure/`, which are in the baseline but on no day). They are listed in `extra_pages.csv` and done on Days 15–16; the final
 checks and deploy moved to Day 17. The 8 socket weld fittings pages are also thin but outside the flanges-only scope (Q26).
 
 ## Daily procedure
