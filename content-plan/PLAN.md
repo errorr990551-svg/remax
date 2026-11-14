@@ -72,7 +72,7 @@ masking the page's own town name, so template text does not count).
 | 1 | Template fixes above, plus the 9 flange "for <industry>" variant pages and `/materials/super-duplex-zeron-100-flanges/` |
 | 2 | 15 export country pages (singapore, netherlands, nigeria, bangladesh, south-africa, south-korea, turkey, malaysia, indonesia, vietnam, mexico, germany, usa, united-states, kuwait). Differentiate `usa` and `united-states`, and log the duplication in QUESTIONS.md. |
 | 3 | Qatar towns 1–40 |
-| 4 | First, a template fix: the FAQPage JSON-LD in `ExportCityPage.jsx` (and `ExportHubPage.jsx`) is not in the prerendered HTML, so no export page has FAQ schema. Make it render at prerender time (via SEOManager or a static `<script>`), with the questions exactly matching the visible FAQs, and check one built town page. Then Qatar towns 41–80. |
+| 4 | Qatar towns 41–80 (the FAQ schema fix planned for today was done on 14 Nov, see PROGRESS.md) |
 | 5 | Qatar towns 81–119 |
 | 6 | Saudi Arabia towns 1–37 |
 | 7 | Saudi Arabia towns 38–74 |
@@ -84,7 +84,7 @@ masking the page's own town name, so template text does not count).
 | 13 | The 17 remaining flange "for <industry>" pages (marine, mining, pharmaceutical, oil-and-gas, chemical-processing, general-industrial, slip-on water/power, RTJ). Add entries to `src/assets/data/flangeApplicationContent.js`, using the Day 1 pages as the model. |
 | 14 | The 18 commercial flange pages in `newFlangePagesData.js` that are not "-for-" pages (flanges-manufacturer-mumbai/rajkot, ss316-weld-neck, duplex-blind, high-pressure, class-150, sour-service, subsea, ...). Same content file, same bar (500+). Then catch-up, and fold in the owner's answers from QUESTIONS.md. |
 | 15 | The 40 Day 15 rows in `extra_pages.csv`: towns that were not in the baseline (Qatar 31, United States 5, Oman 2, Kuwait 1, Turkey 1). Same bar as the other town pages (250+). |
-| 16 | The Day 16 rows in `extra_pages.csv`: Saudi Arabia 7, Bahrain 4 and UAE 4 extra towns (250+); the 4 Gulf country hubs `/export/bahrain/`, `/export/oman/`, `/export/uae/`, `/export/united-arab-emirates/` (500+; differentiate `uae` and `united-arab-emirates` the way Day 2 did `usa`/`united-states`, see Q27); then `/contact/` and `/brochure/` (250+). On `/contact/` and `/brochure/`, add only RFQ guidance (what to send, how quotes are prepared, what the catalogue covers), and no contact details outside the existing gated components (CLAUDE.md). |
+| 16 | The Day 16 rows in `extra_pages.csv`: Saudi Arabia 7, Bahrain 4 and UAE 4 extra towns (250+); the 4 Gulf country hubs `/export/bahrain/`, `/export/oman/`, `/export/uae/`, `/export/united-arab-emirates/` (500+; `/export/uae/` is its own component, `ExportUAE.jsx`, with no FAQs yet; differentiate `uae` and `united-arab-emirates` the way Day 2 did `usa`/`united-states`, see Q27); then `/contact/` and `/brochure/` (250+). On `/contact/` and `/brochure/`, add only RFQ guidance (what to send, how quotes are prepared, what the catalogue covers), and no contact details outside the existing gated components (CLAUDE.md). |
 | 17 | Full rebuild, re-run thin_scan, check the contact gate and the redirect trace, regenerate and commit `sitemap.xml`, push the branch and `main` (deploy), disable the Routine, and write the final report in PROGRESS.md |
 
 The town order within a country is the order in `thin_pages_baseline.csv`, filtered by country.

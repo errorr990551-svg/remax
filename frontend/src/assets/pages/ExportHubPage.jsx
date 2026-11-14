@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { Globe, ArrowRight, ShieldCheck, CheckCircle2, Factory, Award, Truck, ChevronDown, ChevronUp, Home, HelpCircle, ClipboardList, Scale } from 'lucide-react';
 import MetaTags from '../components/common/MetaTags.jsx';
+import { PageSchema } from '../components/common/usePageSchema.js';
 import { exportHubsData } from '../data/exportHubsData.js';
 import { exportHubContent } from '../data/exportHubContent.js';
 import { exportCitiesData } from '../data/exportCitiesData.js';
@@ -58,20 +59,6 @@ const ExportHubPage = ({ slugOverride }) => {
   ];
   const faqs = [...(content?.faqs || []), ...baseFaqs];
 
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Remax Forge & Fittings",
-    "url": "https://remaxforge.com",
-    "logo": "https://remaxforge.com/images/REMAX_FORGE_AND_FITTINGS-01.webp",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Mumbai",
-      "addressRegion": "Maharashtra",
-      "addressCountry": "India"
-    },
-    "description": hub.metaDescription
-  };
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -93,8 +80,7 @@ const ExportHubPage = ({ slugOverride }) => {
         description={hub.metaDescription}
         robots="index, follow"
       />
-      <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
-      <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      <PageSchema schemas={[faqSchema]} />
 
       {/* Hero Header */}
       <div className="relative w-full bg-slate-900 text-white pt-28 pb-16 px-4 sm:px-6 lg:px-8">
