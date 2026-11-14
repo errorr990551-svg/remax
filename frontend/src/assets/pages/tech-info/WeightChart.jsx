@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home, ChevronRight, Calculator, RefreshCw } from 'lucide-react';
 import MetaTags from '../../components/common/MetaTags.jsx';
+import PageGuide from '../../components/common/PageGuide.jsx';
 
 const WeightChart = () => {
   return (
@@ -90,6 +91,8 @@ const WeightChart = () => {
                 </div>
             </div>
         </div>
+
+        <PageGuide path="/tech-info/weight-chart/" />
 
       </div>
     </div>

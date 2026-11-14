@@ -6,6 +6,7 @@ import {
   HowToOrder,
   FlangeFAQs
 } from '../../components/products/flanges/FlangeCommonContent.jsx';
+import PageGuide from '../../components/common/PageGuide.jsx';
 
 const HardoxPlateSupplierinIndia = () => {
   const { openQuotePopup } = useQuotePopup();
@@ -87,21 +88,7 @@ const HardoxPlateSupplierinIndia = () => {
           </div>
         </div>
 
-        {/* Content Brief Outlines */}
-        <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-[#0F172A] border-l-4 border-[#D71920] pl-3 mb-6">
-            What is Hardox Wear Plate
-          </h2>
-          <div className="space-y-6 text-slate-600 leading-relaxed font-medium text-sm md:text-base">
-            <p>Intro: Hardox — SSAB's premium wear-resistant steel. Superior abrasion resistance vs standard AR plates.</p>
-            <p>Grade comparison table: Hardox 400 (370–430 HBW), Hardox 450 (425–475 HBW), Hardox 500 (470–530 HBW), Hardox 600 (570–640 HBW) — typical YS/UTS/elongation/Charpy.</p>
-            <p>Thickness range: Hardox 400 (4mm–160mm), 450 (4mm–103mm), 500 (4mm–80mm), 600 (4mm–32mm).</p>
-            <p>Weldability: Hardox has low PCM (carbon equivalent) — pre-heat requirements per Hardox Weldox handbook. Pre-heat table by grade and thickness.</p>
-            <p>Hardox vs generic AR plate: consistent hardness through-thickness (Hardox), tighter tolerances, guaranteed Charpy.</p>
-            <p>Applications: dump truck bodies, excavator buckets, crusher liners, cement mill liners, conveyor hoppers, chutes.</p>
-            <p>CTA.</p>
-          </div>
-        </div>
+        <PageGuide path="/product-details/hardox-plate/" />
 
         {/* Technical Specification Table */}
         <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">

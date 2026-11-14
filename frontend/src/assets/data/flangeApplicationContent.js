@@ -462,6 +462,635 @@ export const flangeApplicationContent = {
       ['/materials/stainless-steel-304-flanges/', 'SS 304 flanges'],
     ],
   },
+  "/blogs/rtj-vs-raised-face-flange/": {
+    "intro": "Raised face (RF) and ring type joint (RTJ) are the two face types most often specified on ASME B16.5 steel flanges. RF suits most process service up to Class 600; RTJ is used where pressure, temperature or fire safety call for a metal-to-metal seal. This guide compares them so you can specify the right face on a quote.",
+    "sections": [
+      {
+        "h2": "RF vs RTJ at a glance",
+        "table": {
+          "head": [
+            "Point",
+            "Raised face (RF)",
+            "Ring type joint (RTJ)"
+          ],
+          "rows": [
+            [
+              "Seal",
+              "Soft or semi-metallic gasket compressed on the raised face",
+              "Solid metal ring seated in grooves in both flanges"
+            ],
+            [
+              "Typical classes",
+              "Class 150 to 600, also used higher",
+              "Class 900, 1500 and 2500, and wellhead or manifold piping"
+            ],
+            [
+              "Gasket",
+              "Spiral wound, sheet, kammprofile",
+              "R oval or octagonal ring; BX and RX on API equipment"
+            ],
+            [
+              "Face finish",
+              "Serrated, usually 125 to 250 µin (3.2 to 6.3 µm) Ra",
+              "Smooth groove walls with a specified finish"
+            ],
+            [
+              "Re-use",
+              "New gasket at every break",
+              "New ring at every break; groove must be undamaged"
+            ],
+            [
+              "Alignment",
+              "Tolerant of small misalignment",
+              "Needs closer alignment for the ring to seat"
+            ]
+          ]
+        }
+      },
+      {
+        "h2": "How each seal works",
+        "paras": [
+          "On an RF flange the bolt load is concentrated on the raised area, which under ASME B16.5 is 1/16 inch (1.6 mm) high on Class 150 and 300 and 1/4 inch (6.4 mm) on Class 400 and above. The serrations bite into the gasket filler and stop leaks across the face.",
+          "On an RTJ flange the ring is solid metal, deliberately softer than the groove. Bolting deforms the ring into the groove and creates a line contact seal. Internal pressure pushes the ring outward against the groove wall, which helps it seal as pressure rises. The flanges do not touch; a gap remains between faces."
+        ]
+      },
+      {
+        "h2": "Rules of thumb for choosing",
+        "list": [
+          "Choose RF for most refinery, chemical and utility lines up to Class 600 with spiral-wound gaskets.",
+          "Choose RTJ at Class 900 and above, on wellhead, manifold and high-pressure gas service, and where the line class asks for it.",
+          "Match ring material to the flange: soft iron or low-carbon steel rings in carbon steel grooves, 316 or alloy rings in stainless and alloy flanges, always softer than the groove.",
+          "Do not mix RF and RTJ on one joint; both flanges must have the same face."
+        ]
+      },
+      {
+        "h2": "Specifying an RTJ flange",
+        "paras": [
+          "State the ring number (for example R-24), ring type, and ring and flange material. If the groove needs a hardness check against the ring, say so in the RFQ. RTJ grooves are machined after heat treatment and protected for transit because a damaged groove will not seal."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can an RTJ flange be converted to raised face?",
+        "a": "Not by simple machining in the field. The groove would need to be filled or the face remachined to a different profile, which changes the flange. A new flange with the correct face is normally ordered."
+      },
+      {
+        "q": "Is RTJ always better at high pressure?",
+        "a": "RTJ is the usual choice at Class 900 and above, but many Class 900 and 1500 lines use RF with spiral-wound gaskets. The piping specification decides."
+      },
+      {
+        "q": "Why must an RTJ ring be softer than the flange groove?",
+        "a": "So the ring deforms into the groove and seals without damaging it. If the ring is harder, the groove can be indented and the flange may not seal again."
+      },
+      {
+        "q": "Does an RTJ flange need a different gasket every time?",
+        "a": "Yes. Rings are deformed when seated and are replaced each time the joint is broken."
+      }
+    ],
+    "related": [
+      [
+        "/products/flanges/rtj-face-flange-manufacturer/",
+        "RTJ face flanges"
+      ],
+      [
+        "/products/flanges/weld-neck-flange/",
+        "Weld neck flanges"
+      ],
+      [
+        "/blogs/flange-face-types/",
+        "All flange face types"
+      ]
+    ]
+  },
+
+  "/blogs/blind-flange-vs-spectacle-blind/": {
+    "intro": "A blind flange closes the end of a pipe or nozzle. A spectacle blind sits between two flanges and switches a line between open and isolated. Both stop flow, but they are made to different standards and used for different jobs. Here is how to pick the right one.",
+    "sections": [
+      {
+        "h2": "Blind flange or spectacle blind: how to decide",
+        "table": {
+          "head": [
+            "Point",
+            "Blind flange",
+            "Spectacle blind"
+          ],
+          "rows": [
+            [
+              "Standard",
+              "ASME B16.5 / B16.47, EN 1092-1 Type 05",
+              "ASME B16.48 (also paddle blanks and spacers)"
+            ],
+            [
+              "Position",
+              "Bolted on the end of a pipe, valve or nozzle",
+              "Clamped between two flanges in the line"
+            ],
+            [
+              "Job",
+              "Permanent or long-term end closure, access cover",
+              "Positive isolation that can be switched open or closed"
+            ],
+            [
+              "Visual status",
+              "Line ends at the flange",
+              "Solid end or open ring shows whether the line is isolated"
+            ],
+            [
+              "Gaskets",
+              "One gasket",
+              "Two gaskets, one each side"
+            ]
+          ]
+        }
+      },
+      {
+        "h2": "When a blind flange is the answer",
+        "list": [
+          "Ends of headers and lines left for future extension.",
+          "Hydrotest closures on the ends of a test section.",
+          "Inspection and cleaning covers on strainers, filters and pig launchers.",
+          "Spare nozzles on tanks and vessels."
+        ]
+      },
+      {
+        "h2": "When a spectacle blind is the answer",
+        "paras": [
+          "Where a line must be isolated regularly for maintenance, catalyst changes or product switching, a spectacle blind stays in the line and is swung from the open ring to the solid blank. The handle of the turned figure-eight shows operators which side is in service. This gives positive isolation without removing a spool, which a closed valve alone does not.",
+          "In larger sizes the figure-eight becomes heavy, so the two halves are made as separate pieces: a paddle blank and a paddle spacer. They are installed and swapped the same way."
+        ]
+      },
+      {
+        "h2": "Rating and thickness",
+        "paras": [
+          "Both are rated by pressure class. A blind flange thickness comes from B16.5 or B16.47 for the class and size. Spectacle blind thickness comes from B16.48 and also depends on class and size. Give the class and design pressure so the thickness is confirmed on the quote."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a blind flange be used instead of a spectacle blind?",
+        "a": "Yes, by removing a spool and bolting a blind on, but isolation then needs more work each time. Spectacle blinds are used where isolation is frequent."
+      },
+      {
+        "q": "Does a spectacle blind need the line to be spread to switch?",
+        "a": "Yes, the flanges are separated slightly with jackscrews or a spreader to swing the blind, then rebolted with new gaskets."
+      },
+      {
+        "q": "Are spectacle blinds available in raised face and RTJ?",
+        "a": "Yes. The blind faces match the mating flanges, including RTJ grooves. State the face type in the RFQ."
+      },
+      {
+        "q": "What material should a spectacle blind be?",
+        "a": "The same grade as the mating flanges, so it has the same pressure rating and corrosion resistance."
+      }
+    ],
+    "related": [
+      [
+        "/products/flanges/blind-flange/",
+        "Blind flanges"
+      ],
+      [
+        "/products/flanges/spectacle-blind-flange/",
+        "Spectacle blinds"
+      ],
+      [
+        "/blogs/blind-flange-vs-blank-flange/",
+        "Blind vs blank flange"
+      ]
+    ]
+  },
+
+  "/blogs/class-150-vs-class-300-flange/": {
+    "intro": "Class 150 and Class 300 are the two most common ASME B16.5 pressure classes. They look alike but differ in thickness, outside diameter, bolting and allowable pressure, and they will not bolt together. This guide compares them for carbon steel A105 and explains when to step up.",
+    "sections": [
+      {
+        "h2": "Pressure ratings for A105 (Group 1.1)",
+        "table": {
+          "head": [
+            "Temperature",
+            "Class 150",
+            "Class 300"
+          ],
+          "rows": [
+            [
+              "-29 to 38°C",
+              "19.6 bar (285 psig)",
+              "51.1 bar (740 psig)"
+            ],
+            [
+              "200°C",
+              "13.8 bar",
+              "43.8 bar"
+            ]
+          ]
+        },
+        "paras": [
+          "Values are from the ASME B16.5 rating table for Group 1.1 materials. Ratings fall as temperature rises, and Class 150 falls faster, so a Class 150 flange that is fine at ambient can be undersized at a few hundred degrees. Always check at design temperature, not only at design pressure."
+        ]
+      },
+      {
+        "h2": "Dimensional differences",
+        "list": [
+          "Class 300 flanges are thicker and larger in outside diameter for the same nominal size.",
+          "Bolt circles differ, and in many sizes Class 300 has more bolts. At NPS 2, Class 150 has 4 bolts and Class 300 has 8.",
+          "Both have the same 1/16 inch raised face height under B16.5.",
+          "Weight rises with class, which affects supports on large lines."
+        ]
+      },
+      {
+        "h2": "Which class to choose",
+        "paras": [
+          "The piping class sets the flange class from design pressure, design temperature and material group. Class 150 covers most low-pressure utility, water and atmospheric tank connections. Class 300 is common on process lines, steam and hot oil. If a valve or equipment nozzle is Class 300, the mating flange must be Class 300 even if the pipe pressure is low."
+        ]
+      },
+      {
+        "h2": "Common mistakes",
+        "list": [
+          "Ordering by pressure only and ignoring temperature.",
+          "Mixing Class 150 and Class 300 at a valve; the drilling will not match.",
+          "Assuming PN16 or PN40 drilling matches Class 150 or 300; it does not."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a Class 300 flange be used where Class 150 is specified?",
+        "a": "It is stronger, but it will not bolt to Class 150 mating flanges or valves. Both sides of the joint must be the same class."
+      },
+      {
+        "q": "What is the hydrotest pressure for a Class 150 flange?",
+        "a": "ASME B16.5 shell test pressure is 1.5 times the 38°C rating, rounded up. Your piping code sets the system test pressure."
+      },
+      {
+        "q": "Are Class 150 and PN20 the same?",
+        "a": "They are often listed as equivalent in pressure, but drilling and dimensions differ from EN 1092-1 PN flanges, so they are not interchangeable."
+      },
+      {
+        "q": "Does stainless steel change the rating?",
+        "a": "Yes. Stainless grades are in different material groups with different ratings. Check the table for the group of the grade you order."
+      }
+    ],
+    "related": [
+      [
+        "/products/flanges/class-150-flange-supplier/",
+        "Class 150 flanges"
+      ],
+      [
+        "/blogs/flange-pressure-class-guide/",
+        "Flange pressure class guide"
+      ],
+      [
+        "/standards/asme-b16-5/",
+        "ASME B16.5 standard"
+      ]
+    ]
+  },
+
+  "/blogs/socket-weld-vs-threaded-flange/": {
+    "intro": "Socket weld and threaded flanges are both used on small-bore piping, usually NPS 2 and below. One is fillet welded, the other screwed on. The choice comes down to pressure, temperature, cycling, fire risk and whether welding is allowed on site.",
+    "sections": [
+      {
+        "h2": "Socket weld vs threaded",
+        "table": {
+          "head": [
+            "Point",
+            "Socket weld",
+            "Threaded"
+          ],
+          "rows": [
+            [
+              "Joint",
+              "Pipe inserted into socket, fillet welded",
+              "Pipe screwed in on NPT taper thread"
+            ],
+            [
+              "Welding",
+              "Needed",
+              "Not needed"
+            ],
+            [
+              "Typical use",
+              "Small-bore process, steam, hydraulic lines",
+              "Utility air, water, instrument and low-hazard lines"
+            ],
+            [
+              "Leak path",
+              "Weld; crevice at the socket gap",
+              "Thread; relies on sealant or seal weld"
+            ],
+            [
+              "Cyclic and vibrating service",
+              "Better than threaded",
+              "Limited; threads can loosen or crack"
+            ]
+          ]
+        }
+      },
+      {
+        "h2": "Installing socket weld flanges correctly",
+        "paras": [
+          "The pipe should be withdrawn about 1/16 inch (1.6 mm) from the bottom of the socket before welding, as ASME B31.3 practice requires. The gap lets the weld shrink without cracking. The small crevice that remains can trap fluid, so socket weld joints are avoided in some corrosive or hygienic services."
+        ]
+      },
+      {
+        "h2": "Where threaded flanges make sense",
+        "list": [
+          "Areas where hot work is not allowed, such as live plants and hazardous zones.",
+          "Galvanised or lined pipe that must not be welded.",
+          "Low-pressure utility and instrument lines where joints are taken apart often.",
+          "Not recommended for high temperature, severe cyclic service, or where the line class forbids threaded joints."
+        ]
+      },
+      {
+        "h2": "Specifying the flange",
+        "paras": [
+          "For socket weld, give the pipe schedule so the socket bore matches. For threaded, give the thread standard, usually NPT to ASME B1.20.1, and whether seal welding is planned, since that affects the material and face choice."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a threaded flange be seal welded?",
+        "a": "Yes, some specifications require a seal weld over the thread. The thread then no longer allows easy disassembly."
+      },
+      {
+        "q": "Which is better for high-pressure small-bore lines?",
+        "a": "Socket weld in most cases. Threaded joints are limited by thread strength and leak risk."
+      },
+      {
+        "q": "What is the size range of socket weld flanges?",
+        "a": "They are mainly made for small sizes, typically up to NPS 3 under ASME B16.5. Larger lines use weld neck or slip-on flanges."
+      },
+      {
+        "q": "Does the socket bore depend on pipe schedule?",
+        "a": "Yes. The bore is matched to the pipe schedule so the flow bore is smooth. State the schedule in the RFQ."
+      }
+    ],
+    "related": [
+      [
+        "/products/flanges/socket-weld-flange/",
+        "Socket weld flanges"
+      ],
+      [
+        "/products/flanges/threaded-flange/",
+        "Threaded flanges"
+      ],
+      [
+        "/blogs/weld-neck-vs-slip-on-flange/",
+        "Weld neck vs slip-on"
+      ]
+    ]
+  },
+
+  "/blogs/lap-joint-vs-weld-neck-flange/": {
+    "intro": "A weld neck flange is butt welded to the pipe and is the strongest common flange type. A lap joint flange slides loose over a stub end and never touches the fluid. Here is how they compare and when each one is the better buy.",
+    "sections": [
+      {
+        "h2": "Lap joint vs weld neck",
+        "table": {
+          "head": [
+            "Point",
+            "Lap joint + stub end",
+            "Weld neck"
+          ],
+          "rows": [
+            [
+              "Joint",
+              "Stub end butt welded to pipe; loose flange behind it",
+              "Flange hub butt welded to pipe"
+            ],
+            [
+              "Fluid contact",
+              "Only the stub end is wetted",
+              "Flange bore is wetted"
+            ],
+            [
+              "Material saving",
+              "Backing flange can be carbon steel on alloy pipe",
+              "Whole flange in line material"
+            ],
+            [
+              "Bolt alignment",
+              "Flange rotates freely",
+              "Fixed once welded"
+            ],
+            [
+              "Strength and fatigue",
+              "Lower; not for severe cyclic service",
+              "Highest; suits high pressure and cycling"
+            ]
+          ]
+        }
+      },
+      {
+        "h2": "Why lap joints save money on alloy lines",
+        "paras": [
+          "On stainless, duplex or nickel-alloy piping, only the stub end needs to be in the corrosion-resistant alloy. The lap joint flange behind it can be carbon steel, often coated. On large or high-alloy lines this cuts flange cost considerably. The loose flange also makes bolt hole alignment easy during erection and when spools are swapped."
+        ]
+      },
+      {
+        "h2": "When to stay with weld neck",
+        "list": [
+          "High pressure classes and high temperature lines.",
+          "Severe cyclic, vibrating or thermal-shock service.",
+          "Lines that need full radiography of the flange weld.",
+          "Any line class that does not list lap joints."
+        ]
+      },
+      {
+        "h2": "Stub ends and ordering",
+        "paras": [
+          "Stub ends come in long and short patterns (ASME B16.9 and MSS SP-43). Give the stub end type and schedule along with the lap joint flange class and material. The lap joint flange has a rounded bore corner to fit the stub end lap."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can a lap joint flange be used at Class 600?",
+        "a": "B16.5 covers lap joint flanges in higher classes, but they are mostly used in lower classes. Check the piping specification."
+      },
+      {
+        "q": "Is a lap joint flange the same as a slip-on flange?",
+        "a": "No. A slip-on is welded to the pipe. A lap joint is not welded; it bears on the back of a stub end."
+      },
+      {
+        "q": "Why choose weld neck over lap joint for steam?",
+        "a": "Steam lines see temperature cycles. The weld neck hub spreads stress into the pipe and handles cycling better."
+      },
+      {
+        "q": "Can the backing flange be a different material?",
+        "a": "Yes, that is the main advantage. The backing flange can be carbon steel while the stub end matches the pipe."
+      }
+    ],
+    "related": [
+      [
+        "/products/flanges/lap-joint-flange/",
+        "Lap joint flanges"
+      ],
+      [
+        "/products/flanges/weld-neck-flange/",
+        "Weld neck flanges"
+      ],
+      [
+        "/products/flanges/long-weld-neck-flange/",
+        "Long weld neck flanges"
+      ]
+    ]
+  },
+
+  "/blogs/blind-flange-vs-blank-flange/": {
+    "intro": "\"Blind flange\" and \"blank flange\" are often used to mean the same thing, but in many plants a blank is a thin plate inserted between flanges, not a bolted end cover. This guide explains the difference so the right part is ordered.",
+    "sections": [
+      {
+        "h2": "Blind flange vs blank",
+        "table": {
+          "head": [
+            "Point",
+            "Blind flange",
+            "Blank (spade, paddle blank)"
+          ],
+          "rows": [
+            [
+              "Form",
+              "Thick forged disc drilled like a flange",
+              "Plate with a handle, no bolt holes"
+            ],
+            [
+              "Standard",
+              "ASME B16.5 / B16.47, EN 1092-1 Type 05",
+              "ASME B16.48 paddle blank"
+            ],
+            [
+              "Fitting",
+              "Bolted to a pipe end or nozzle",
+              "Inserted between two flanges"
+            ],
+            [
+              "Use",
+              "End closure, cover, hydrotest end",
+              "Temporary isolation inside a line"
+            ]
+          ]
+        }
+      },
+      {
+        "h2": "How the words are used",
+        "paras": [
+          "In British and Commonwealth usage \"blank flange\" often means the same part as a blind flange: a solid disc with bolt holes that closes a pipe end. In refinery and petrochemical work, \"blank\" usually means a spade or paddle blank slipped between flanges to isolate a line. When an order says blank, confirm which part is meant before it is made."
+        ]
+      },
+      {
+        "h2": "What to send with an order",
+        "list": [
+          "Whether you need a bolted end closure or an insert plate.",
+          "Size, pressure class and standard of the mating flanges.",
+          "Face type: RF, FF or RTJ.",
+          "Material grade matching the line."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is a blank flange rated for pressure?",
+        "a": "A blind flange to B16.5 is rated by class. A paddle blank to B16.48 is also rated by class and has a thickness set for it."
+      },
+      {
+        "q": "Can a paddle blank be left in permanently?",
+        "a": "It is intended for isolation. For a permanent end closure a blind flange is usually used."
+      },
+      {
+        "q": "What is the difference between a blank and a spectacle blind?",
+        "a": "A spectacle blind joins a blank and a spacer in one figure-eight piece. A paddle blank is one half only."
+      },
+      {
+        "q": "Do blind flanges have a bore?",
+        "a": "Standard blinds do not. Some are tapped or bored for vents and drains when ordered."
+      }
+    ],
+    "related": [
+      [
+        "/products/flanges/blind-flange/",
+        "Blind flanges"
+      ],
+      [
+        "/products/flanges/spectacle-blind-flange/",
+        "Spectacle blinds"
+      ],
+      [
+        "/blogs/blind-flange-vs-spectacle-blind/",
+        "Comparing blinds and spectacle blinds"
+      ]
+    ]
+  },
+  "/about/iso-9001-certified-flange-manufacturer/": {
+    "intro": "Remax Forge & Fittings is ISO 9001:2015 certified for its flange manufacturing in Mumbai. This page explains what that certification covers, what it does not replace, and how to check any supplier's ISO 9001 certificate before you place an order.",
+    "sections": [
+      {
+        "h2": "What ISO 9001:2015 certification covers",
+        "paras": [
+          "ISO 9001 is the international standard for quality management systems. A certification body audits whether the company runs its work through documented, controlled processes: how orders are reviewed, how production and inspection are planned, how measuring equipment is calibrated, how nonconforming parts are identified and held, and how problems are corrected so they do not recur.",
+          "After the initial certification audit, the certification body carries out surveillance audits during the certificate cycle, normally annually, and a recertification audit every three years."
+        ]
+      },
+      {
+        "h2": "What ISO 9001 does not replace",
+        "list": [
+          "Product standards: flanges are still made and accepted to ASME B16.5, B16.47, EN 1092-1 and the material specification, such as ASTM A182 or A105.",
+          "Mill test certificates: each lot still needs its EN 10204 3.1 or 3.2 certificate showing chemistry, mechanical results and heat treatment.",
+          "Project inspection: an ISO 9001 certificate does not replace third-party inspection or hold points in your inspection and test plan.",
+          "Owner or licensor approvals, which are separate processes set by each company."
+        ]
+      },
+      {
+        "h2": "How to check a supplier's ISO 9001 certificate",
+        "list": [
+          "Ask for a copy and read the scope: it should cover the manufacture of the products you are buying, not only trading.",
+          "Check the certification body and whether it is accredited by a national accreditation body that is a member of the International Accreditation Forum (IAF).",
+          "Check the issue and expiry dates.",
+          "Where the certificate is listed, confirm it on the certification body's register or the IAF CertSearch database."
+        ]
+      },
+      {
+        "h2": "What it means for a Remax Forge order",
+        "paras": [
+          "Flanges are made at our ISO 9001:2015 certified works in Mumbai and supplied with EN 10204 3.1 mill test certificates, with 3.2 certificates available when an independent inspector is named. Inspection includes PMI, ultrasonic testing and hydrostatic testing as ordered. Our certificates are shown on the certification page."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is ISO 9001 a product certification?",
+        "a": "No. It certifies the quality management system. Product conformity is shown by the mill test certificate and inspection reports for each lot."
+      },
+      {
+        "q": "Do I still need a 3.1 certificate from an ISO 9001 supplier?",
+        "a": "Yes. ISO 9001 does not replace the EN 10204 certificate for each lot. Every Remax Forge order ships with a 3.1 certificate."
+      },
+      {
+        "q": "How often is an ISO 9001 certificate audited?",
+        "a": "Surveillance audits are held during the three-year certificate cycle, usually once a year, with a full recertification audit every three years."
+      },
+      {
+        "q": "Can I see your ISO 9001 certificate?",
+        "a": "Yes. It is shown on the certification page of this website."
+      }
+    ],
+    "related": [
+      [
+        "/certification/",
+        "Certification"
+      ],
+      [
+        "/quality/",
+        "Our quality and inspection page"
+      ],
+      [
+        "/blogs/mtc-en10204-explained/",
+        "EN 10204 MTC explained"
+      ]
+    ]
+  },
 };
 
 // FAQs for a commercial flange page: written FAQs if present, otherwise drop the

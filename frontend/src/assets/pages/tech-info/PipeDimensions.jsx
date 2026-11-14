@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Download, FileText, Search } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import TrustBar from '../../components/common/TrustBar.jsx';
+import PageGuide from '../../components/common/PageGuide.jsx';
 
 const PipeDimensions = () => {
   const [search, setSearch] = useState('');
@@ -104,7 +105,8 @@ const PipeDimensions = () => {
           </div>
         </div>
 
-        {/* Bottom CTA */}
+        <PageGuide path="/tech-info/pipe-dimensions/" />
+            {/* Bottom CTA */}
         <div className="mt-12 bg-white p-8 rounded-3xl border border-slate-200 text-center">
           <h3 className="text-xl font-bold text-slate-900 mb-2">Looking for Flange Dimension Charts?</h3>
           <p className="text-xs text-slate-500 mb-4">

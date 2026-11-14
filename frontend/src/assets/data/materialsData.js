@@ -1,584 +1,1549 @@
 // Materials Data - 12 Material Grades for Remax Forge & Fittings
 export const materialsData = {
   "carbon-steel-flanges": {
-    id: "1.0",
-    slug: "carbon-steel-flanges",
-    name: "Carbon Steel Flanges (A105 / A350 LF2)",
-    h1: "Carbon Steel Flanges — ASTM A105 & A350 LF2 Manufacturer",
-    metaTitle: "Carbon Steel Flange Manufacturer | ASTM A105, A350 LF2 India",
-    metaDesc: "Carbon steel flange manufacturer, Mumbai. ASTM A105 (ambient/elevated temp) & A350 LF2 (low-temp, Charpy tested). All flange types, Class 150-2500.",
-    unsNumber: "K03504 (A105) / K03011 (A350 LF2)",
-    governingStandard: "ASTM A105 / ASME SA-105 & ASTM A350 LF2 / ASME SA-350",
-    chemicalComposition: [
-      { element: "Carbon (C)", a105: "0.35 max", lf2: "0.30 max" },
-      { element: "Manganese (Mn)", a105: "0.60 - 1.05", lf2: "0.60 - 1.35" },
-      { element: "Silicon (Si)", a105: "0.10 - 0.35", lf2: "0.15 - 0.30" },
-      { element: "Phosphorus (P)", a105: "0.035 max", lf2: "0.035 max" },
-      { element: "Sulfur (S)", a105: "0.040 max", lf2: "0.040 max" },
-      { element: "Chromium (Cr)", a105: "0.30 max (residual)", lf2: "0.30 max (residual)" },
-      { element: "Molybdenum (Mo)", a105: "0.12 max (residual)", lf2: "0.12 max (residual)" },
-      { element: "Nickel (Ni)", a105: "0.40 max (residual)", lf2: "0.40 max (residual)" },
-      { element: "Copper (Cu)", a105: "0.40 max (residual)", lf2: "0.40 max (residual)" }
+    "id": "1.0",
+    "slug": "carbon-steel-flanges",
+    "name": "Carbon Steel Flanges (A105 / A350 LF2)",
+    "h1": "Carbon Steel Flanges — ASTM A105 & A350 LF2 Manufacturer",
+    "metaTitle": "Carbon Steel Flange Manufacturer | ASTM A105, A350 LF2 India",
+    "metaDesc": "Carbon steel flange manufacturer, Mumbai. ASTM A105 (ambient/elevated temp) & A350 LF2 (low-temp, Charpy tested). All flange types, Class 150-2500.",
+    "unsNumber": "K03504 (A105) / K03011 (A350 LF2)",
+    "governingStandard": "ASTM A105 / ASME SA-105 & ASTM A350 LF2 / ASME SA-350",
+    "chemicalComposition": [
+      {
+        "element": "Carbon (C)",
+        "a105": "0.35 max",
+        "lf2": "0.30 max"
+      },
+      {
+        "element": "Manganese (Mn)",
+        "a105": "0.60 - 1.05",
+        "lf2": "0.60 - 1.35"
+      },
+      {
+        "element": "Silicon (Si)",
+        "a105": "0.10 - 0.35",
+        "lf2": "0.15 - 0.30"
+      },
+      {
+        "element": "Phosphorus (P)",
+        "a105": "0.035 max",
+        "lf2": "0.035 max"
+      },
+      {
+        "element": "Sulfur (S)",
+        "a105": "0.040 max",
+        "lf2": "0.040 max"
+      },
+      {
+        "element": "Chromium (Cr)",
+        "a105": "0.30 max (residual)",
+        "lf2": "0.30 max (residual)"
+      },
+      {
+        "element": "Molybdenum (Mo)",
+        "a105": "0.12 max (residual)",
+        "lf2": "0.12 max (residual)"
+      },
+      {
+        "element": "Nickel (Ni)",
+        "a105": "0.40 max (residual)",
+        "lf2": "0.40 max (residual)"
+      },
+      {
+        "element": "Copper (Cu)",
+        "a105": "0.40 max (residual)",
+        "lf2": "0.40 max (residual)"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength (0.2% Offset)", a105: "250 MPa (36 ksi) min", lf2: "250 MPa (36 ksi) min" },
-      { property: "Tensile Strength", a105: "485 MPa (70 ksi) min", lf2: "485 - 655 MPa (70-95 ksi)" },
-      { property: "Elongation (in 2 in.)", a105: "22% min", lf2: "22% min" },
-      { property: "Hardness", a105: "187 HBW max", lf2: "197 HBW max" },
-      { property: "Charpy V-Notch Impact", a105: "Not required by spec", lf2: "20 J min at -46°C (-50°F)" },
-      { property: "Service Temp Range", a105: "-29°C to 427°C (-20°F to 800°F)", lf2: "-46°C to 343°C (-50°F to 650°F)" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength (0.2% Offset)",
+        "a105": "250 MPa (36 ksi) min",
+        "lf2": "250 MPa (36 ksi) min"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "485 MPa (70 ksi) min",
+        "lf2": "485 - 655 MPa (70-95 ksi)"
+      },
+      {
+        "property": "Elongation (in 2 in.)",
+        "a105": "22% min",
+        "lf2": "22% min"
+      },
+      {
+        "property": "Hardness",
+        "a105": "187 HBW max",
+        "lf2": "197 HBW max"
+      },
+      {
+        "property": "Charpy V-Notch Impact",
+        "a105": "Not required by spec",
+        "lf2": "20 J min at -46°C (-50°F)"
+      },
+      {
+        "property": "Service Temp Range",
+        "a105": "-29°C to 427°C (-20°F to 800°F)",
+        "lf2": "-46°C to 343°C (-50°F to 650°F)"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "285 psi (19.6 bar)", class300: "740 psi (51.1 bar)", class600: "1480 psi (102.1 bar)", class900: "2220 psi (153.1 bar)" },
-      { tempC: "100°C (212°F)", class150: "260 psi (17.9 bar)", class300: "675 psi (46.6 bar)", class600: "1350 psi (93.1 bar)", class900: "2025 psi (139.6 bar)" },
-      { tempC: "200°C (392°F)", class150: "230 psi (15.9 bar)", class300: "655 psi (45.2 bar)", class600: "1310 psi (90.3 bar)", class900: "1965 psi (135.5 bar)" },
-      { tempC: "300°C (572°F)", class150: "200 psi (13.8 bar)", class300: "640 psi (44.1 bar)", class600: "1280 psi (88.3 bar)", class900: "1920 psi (132.4 bar)" },
-      { tempC: "400°C (752°F)", class150: "140 psi (9.7 bar)", class300: "585 psi (40.3 bar)", class600: "1170 psi (80.7 bar)", class900: "1755 psi (121.0 bar)" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "285 psi (19.6 bar)",
+        "class300": "740 psi (51.1 bar)",
+        "class600": "1480 psi (102.1 bar)",
+        "class900": "2220 psi (153.1 bar)"
+      },
+      {
+        "tempC": "100°C (212°F)",
+        "class150": "260 psi (17.9 bar)",
+        "class300": "675 psi (46.6 bar)",
+        "class600": "1350 psi (93.1 bar)",
+        "class900": "2025 psi (139.6 bar)"
+      },
+      {
+        "tempC": "200°C (392°F)",
+        "class150": "230 psi (15.9 bar)",
+        "class300": "655 psi (45.2 bar)",
+        "class600": "1310 psi (90.3 bar)",
+        "class900": "1965 psi (135.5 bar)"
+      },
+      {
+        "tempC": "300°C (572°F)",
+        "class150": "200 psi (13.8 bar)",
+        "class300": "640 psi (44.1 bar)",
+        "class600": "1280 psi (88.3 bar)",
+        "class900": "1920 psi (132.4 bar)"
+      },
+      {
+        "tempC": "400°C (752°F)",
+        "class150": "140 psi (9.7 bar)",
+        "class300": "585 psi (40.3 bar)",
+        "class600": "1170 psi (80.7 bar)",
+        "class900": "1755 psi (121.0 bar)"
+      }
     ],
-    overview: "Carbon steel forged flanges in ASTM A105 and A350 LF2 represent the core workhorses of industrial fluid transport piping. While A105 is specified for non-critical ambient and elevated temperature service up to 427°C, ASTM A350 LF2 is engineered with normalized heat treatment and mandatory Charpy V-notch impact testing to withstand sub-zero conditions down to -46°C without brittle failure risk.",
-    applications: [
+    "overview": "Carbon steel forged flanges in ASTM A105 and A350 LF2 represent the core workhorses of industrial fluid transport piping. While A105 is specified for non-critical ambient and elevated temperature service up to 427°C, ASTM A350 LF2 is engineered with normalized heat treatment and mandatory Charpy V-notch impact testing to withstand sub-zero conditions down to -46°C without brittle failure risk.",
+    "applications": [
       "Oil & Gas upstream and midstream transportation lines",
       "Refinery utility water, steam, and hydrocarbon lines",
       "Power generation high-pressure feed water systems",
       "Municipal water transmission and distribution mains",
       "Chemical plant non-corrosive process streams"
     ],
-    faqs: [
+    "faqs": [
       {
-        q: "When do I need A350 LF2 instead of ASTM A105?",
-        a: "A350 LF2 is mandatory whenever minimum design metal temperature (MDMT) drops below -29°C (-20°F). A350 LF2 undergoes Charpy V-notch impact testing at -46°C (-50°F) to ensure notch toughness and prevent brittle catastrophic failure under cryogenic or cold-climate operating conditions."
+        "q": "When do I need A350 LF2 instead of ASTM A105?",
+        "a": "A350 LF2 is mandatory whenever minimum design metal temperature (MDMT) drops below -29°C (-20°F). A350 LF2 undergoes Charpy V-notch impact testing at -46°C (-50°F) to ensure notch toughness and prevent brittle catastrophic failure under cryogenic or cold-climate operating conditions."
       },
       {
-        q: "What is the maximum continuous service temperature for ASTM A105?",
-        a: "Per ASME B16.5 material group 1.1 tables, ASTM A105 is rated up to 427°C (800°F). Above 427°C, graphitization risk increases and structural strength drops significantly, requiring Cr-Mo alloy steel grades like F11 or F22."
+        "q": "What is the maximum continuous service temperature for ASTM A105?",
+        "a": "Per ASME B16.5 material group 1.1 tables, ASTM A105 is rated up to 427°C (800°F). Above 427°C, graphitization risk increases and structural strength drops significantly, requiring Cr-Mo alloy steel grades like F11 or F22."
       },
       {
-        q: "Is ASTM A105 identical to ASTM A105N?",
-        a: "The 'N' suffix denotes normalized heat treatment. While ASTM A105 standard permits hot forging without post-heat treatment under certain size/class conditions, Remax Forge supplies all A105 flanges in the normalized condition (A105N) as standard practice to refine grain structure and enhance mechanical uniformity."
+        "q": "Is ASTM A105 identical to ASTM A105N?",
+        "a": "The 'N' suffix denotes normalized heat treatment. While ASTM A105 standard permits hot forging without post-heat treatment under certain size/class conditions, Remax Forge supplies all A105 flanges in the normalized condition (A105N) as standard practice to refine grain structure and enhance mechanical uniformity."
       },
       {
-        q: "What Mill Test Reports (MTC) are supplied with Carbon Steel flanges?",
-        a: "Every shipment is accompanied by EN 10204 3.1 Certified Material Test Reports detailing actual heat heat analysis, mechanical tensile values, hardness testing, and Charpy impact values for LF2."
+        "q": "What Mill Test Reports (MTC) are supplied with Carbon Steel flanges?",
+        "a": "Every shipment is accompanied by EN 10204 3.1 Certified Material Test Reports detailing actual heat heat analysis, mechanical tensile values, hardness testing, and Charpy impact values for LF2."
       }
     ],
-    relatedLinks: [
-      { title: "Slip On Flange", url: "/products/flanges/slip-on-flange/" },
-      { title: "Weld Neck Flange", url: "/products/flanges/weld-neck-flange/" },
-      { title: "Blind Flange", url: "/products/flanges/blind-flange/" },
-      { title: "Oil & Gas Industry", url: "/industries/oil-and-gas/" }
+    "relatedLinks": [
+      {
+        "title": "Slip On Flange",
+        "url": "/products/flanges/slip-on-flange/"
+      },
+      {
+        "title": "Weld Neck Flange",
+        "url": "/products/flanges/weld-neck-flange/"
+      },
+      {
+        "title": "Blind Flange",
+        "url": "/products/flanges/blind-flange/"
+      },
+      {
+        "title": "Oil & Gas Industry",
+        "url": "/industries/oil-and-gas/"
+      }
     ]
   },
   "stainless-steel-304-flanges": {
-    id: "2.0",
-    slug: "stainless-steel-304-flanges",
-    name: "Stainless Steel 304/304L Flanges",
-    h1: "Stainless Steel 304/304L Flanges — ASTM A182 F304/F304L",
-    metaTitle: "SS 304 304L Flange Manufacturer India | ASTM A182 F304",
-    metaDesc: "SS 304/304L flange manufacturer, Mumbai. ASTM A182 F304/F304L, food/pharma/general chemical grade. All flange types, Class 150-2500. Get a written quote.",
-    unsNumber: "S30400 (304) / S30403 (304L)",
-    governingStandard: "ASTM A182 / ASME SA-182 Grade F304 / F304L",
-    chemicalComposition: [
-      { element: "Carbon (C)", a105: "0.08 max (F304)", lf2: "0.030 max (F304L)" },
-      { element: "Chromium (Cr)", a105: "18.0 - 20.0%", lf2: "18.0 - 20.0%" },
-      { element: "Nickel (Ni)", a105: "8.0 - 11.0%", lf2: "8.0 - 13.0%" },
-      { element: "Manganese (Mn)", a105: "2.00% max", lf2: "2.00% max" },
-      { element: "Silicon (Si)", a105: "1.00% max", lf2: "1.00% max" },
-      { element: "Phosphorus (P)", a105: "0.045% max", lf2: "0.045% max" },
-      { element: "Sulfur (S)", a105: "0.030% max", lf2: "0.030% max" }
+    "id": "2.0",
+    "slug": "stainless-steel-304-flanges",
+    "name": "Stainless Steel 304/304L Flanges",
+    "h1": "Stainless Steel 304/304L Flanges — ASTM A182 F304/F304L",
+    "metaTitle": "SS 304 304L Flange Manufacturer India | ASTM A182 F304",
+    "metaDesc": "SS 304/304L flange manufacturer, Mumbai. ASTM A182 F304/F304L, food/pharma/general chemical grade. All flange types, Class 150-2500. Get a written quote.",
+    "unsNumber": "S30400 (304) / S30403 (304L)",
+    "governingStandard": "ASTM A182 / ASME SA-182 Grade F304 / F304L",
+    "chemicalComposition": [
+      {
+        "element": "Carbon (C)",
+        "a105": "0.08 max (F304)",
+        "lf2": "0.030 max (F304L)"
+      },
+      {
+        "element": "Chromium (Cr)",
+        "a105": "18.0 - 20.0%",
+        "lf2": "18.0 - 20.0%"
+      },
+      {
+        "element": "Nickel (Ni)",
+        "a105": "8.0 - 11.0%",
+        "lf2": "8.0 - 13.0%"
+      },
+      {
+        "element": "Manganese (Mn)",
+        "a105": "2.00% max",
+        "lf2": "2.00% max"
+      },
+      {
+        "element": "Silicon (Si)",
+        "a105": "1.00% max",
+        "lf2": "1.00% max"
+      },
+      {
+        "element": "Phosphorus (P)",
+        "a105": "0.045% max",
+        "lf2": "0.045% max"
+      },
+      {
+        "element": "Sulfur (S)",
+        "a105": "0.030% max",
+        "lf2": "0.030% max"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength (0.2% Offset)", a105: "205 MPa (30 ksi) min", lf2: "170 MPa (25 ksi) min" },
-      { property: "Tensile Strength", a105: "515 MPa (75 ksi) min", lf2: "485 MPa (70 ksi) min" },
-      { property: "Elongation (in 2 in.)", a105: "35% min", lf2: "35% min" },
-      { property: "Hardness", a105: "92 HRB max", lf2: "92 HRB max" },
-      { property: "Solution Anneal Temp", a105: "1040°C min + water quench", lf2: "1040°C min + water quench" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength (0.2% Offset)",
+        "a105": "205 MPa (30 ksi) min",
+        "lf2": "170 MPa (25 ksi) min"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "515 MPa (75 ksi) min",
+        "lf2": "485 MPa (70 ksi) min"
+      },
+      {
+        "property": "Elongation (in 2 in.)",
+        "a105": "35% min",
+        "lf2": "35% min"
+      },
+      {
+        "property": "Hardness",
+        "a105": "92 HRB max",
+        "lf2": "92 HRB max"
+      },
+      {
+        "property": "Solution Anneal Temp",
+        "a105": "1040°C min + water quench",
+        "lf2": "1040°C min + water quench"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "275 psi (19.0 bar)", class300: "720 psi (49.6 bar)", class600: "1440 psi (99.3 bar)", class900: "2160 psi (148.9 bar)" },
-      { tempC: "100°C (212°F)", class150: "230 psi (15.9 bar)", class300: "600 psi (41.4 bar)", class600: "1200 psi (82.7 bar)", class900: "1800 psi (124.1 bar)" },
-      { tempC: "200°C (392°F)", class150: "195 psi (13.4 bar)", class300: "520 psi (35.9 bar)", class600: "1040 psi (71.7 bar)", class900: "1560 psi (107.6 bar)" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "275 psi (19.0 bar)",
+        "class300": "720 psi (49.6 bar)",
+        "class600": "1440 psi (99.3 bar)",
+        "class900": "2160 psi (148.9 bar)"
+      },
+      {
+        "tempC": "100°C (212°F)",
+        "class150": "230 psi (15.9 bar)",
+        "class300": "600 psi (41.4 bar)",
+        "class600": "1200 psi (82.7 bar)",
+        "class900": "1800 psi (124.1 bar)"
+      },
+      {
+        "tempC": "200°C (392°F)",
+        "class150": "195 psi (13.4 bar)",
+        "class300": "520 psi (35.9 bar)",
+        "class600": "1040 psi (71.7 bar)",
+        "class900": "1560 psi (107.6 bar)"
+      }
     ],
-    overview: "Stainless Steel 304 and dual-certified 304/304L flanges are the standard 18/8 austenitic stainless steel piping components used across food processing, sanitary pharma, potable water, and mild chemical environments. F304L provides controlled low-carbon limits (0.030% max) to eliminate chromium carbide precipitation during welding.",
-    applications: [
+    "overview": "Stainless Steel 304 and dual-certified 304/304L flanges are the standard 18/8 austenitic stainless steel piping components used across food processing, sanitary pharma, potable water, and mild chemical environments. F304L provides controlled low-carbon limits (0.030% max) to eliminate chromium carbide precipitation during welding.",
+    "applications": [
       "Food and beverage sanitary process lines",
       "Pharmaceutical equipment and purified water loops",
       "Nitric acid and organic acid chemical handling",
       "Cryogenic liquid natural gas (LNG) auxiliary piping",
       "Architectural and clean-water distribution networks"
     ],
-    faqs: [
+    "faqs": [
       {
-        q: "When is 304/304L sufficient and when is 316/316L required?",
-        a: "304 handles freshwater, atmospheric exposure, and mild organic acids. 316/316L is mandatory whenever chlorides (seawater, coastal air, saline streams) or harsh inorganic acids are present due to 316's 2-3% molybdenum addition."
+        "q": "When is 304/304L sufficient and when is 316/316L required?",
+        "a": "304 handles freshwater, atmospheric exposure, and mild organic acids. 316/316L is mandatory whenever chlorides (seawater, coastal air, saline streams) or harsh inorganic acids are present due to 316's 2-3% molybdenum addition."
       },
       {
-        q: "Why choose 304L over standard 304 for welded connections?",
-        a: "304L restricts carbon to 0.030% max, preventing chromium carbide precipitation in the heat-affected zone (HAZ) during welding, maintaining intergranular corrosion resistance."
+        "q": "Why choose 304L over standard 304 for welded connections?",
+        "a": "304L restricts carbon to 0.030% max, preventing chromium carbide precipitation in the heat-affected zone (HAZ) during welding, maintaining intergranular corrosion resistance."
+      },
+      {
+        "q": "Are 304 stainless flanges magnetic?",
+        "a": "Solution-annealed 304 is essentially non-magnetic. Machining or cold work can make faces slightly magnetic, so a magnet is not a reliable grade check. PMI is used to confirm chromium and nickel content."
+      },
+      {
+        "q": "Can a 304L flange be welded to 304 pipe?",
+        "a": "Yes. They are the same alloy family with different carbon limits, and a 308L-type filler is commonly used. Your welding procedure specification has the final say."
+      },
+      {
+        "q": "Which certificate comes with 304 flanges?",
+        "a": "An EN 10204 3.1 mill test certificate showing heat number, chemistry, tensile results and heat treatment. A 3.2 certificate with third-party witness can be arranged when the purchase order asks for it."
       }
     ],
-    relatedLinks: [
-      { title: "Stainless Steel 316/316L", url: "/materials/stainless-steel-316-flanges/" },
-      { title: "Pharmaceutical Industry", url: "/industries/pharmaceutical/" },
-      { title: "Weld Neck Flange", url: "/products/flanges/weld-neck-flange/" }
+    "relatedLinks": [
+      {
+        "title": "Stainless Steel 316/316L",
+        "url": "/materials/stainless-steel-316-flanges/"
+      },
+      {
+        "title": "Pharmaceutical Industry",
+        "url": "/industries/pharmaceutical/"
+      },
+      {
+        "title": "Weld Neck Flange",
+        "url": "/products/flanges/weld-neck-flange/"
+      }
+    ],
+    "sections": [
+      {
+        "h2": "304 vs 304L vs dual-certified F304/F304L",
+        "paras": [
+          "ASTM A182 lists F304 (UNS S30400) and the low-carbon F304L (UNS S30403). The L grade caps carbon at 0.030%, which limits chromium carbide formation in the weld heat-affected zone. The trade-off is slightly lower minimum strength, so many buyers order dual-certified F304/F304L: the chemistry meets the L limit and the mechanical results meet the straight grade, and one forging satisfies either line class.",
+          "Where a welded 304 line will sit for long periods in the sensitising range of roughly 425 to 815°C, or will see an acid that attacks grain boundaries, the L or dual-certified grade is the safer call. For creep service at higher temperatures, F304H with controlled higher carbon is specified instead."
+        ]
+      },
+      {
+        "h2": "Where 304 flanges are the wrong choice",
+        "list": [
+          "Seawater, brackish cooling water and splash zones: chloride pitting and crevice attack start under gaskets, so 316L or duplex is normally used.",
+          "Warm chloride solutions above about 60°C: austenitic 304 is prone to chloride stress corrosion cracking.",
+          "Hydrochloric acid and most halide chemicals at any useful concentration.",
+          "Sour or high-chloride process water where the line class already calls for a molybdenum-bearing grade."
+        ]
+      },
+      {
+        "h2": "Typical 304/304L flange duties",
+        "paras": [
+          "Potable and demineralised water, food and beverage process lines, nitric acid service, utility air and nitrogen, low-temperature LNG boil-off and cryogenic lines where the austenitic structure keeps its toughness. Each 304 lot is solution annealed and rapidly cooled after forging, then checked by PMI so the grade on the certificate matches the metal in the box."
+        ]
+      }
     ]
   },
   "stainless-steel-316-flanges": {
-    id: "3.0",
-    slug: "stainless-steel-316-flanges",
-    name: "Stainless Steel 316/316L Flanges",
-    h1: "Stainless Steel 316/316L Flanges — ASTM A182 F316/F316L",
-    metaTitle: "SS 316 316L Flange Manufacturer India | ASTM A182 F316",
-    metaDesc: "SS 316/316L flange manufacturer, Mumbai. ASTM A182 F316/F316L, chloride & marine grade. All flange types, Class 150-2500. EN 10204 3.1/3.2. Get a written quote.",
-    unsNumber: "S31600 (316) / S31603 (316L)",
-    governingStandard: "ASTM A182 / ASME SA-182 Grade F316 / F316L",
-    chemicalComposition: [
-      { element: "Molybdenum (Mo)", a105: "2.00 - 3.00%", lf2: "2.00 - 3.00%" },
-      { element: "Chromium (Cr)", a105: "16.0 - 18.0%", lf2: "16.0 - 18.0%" },
-      { element: "Nickel (Ni)", a105: "10.0 - 14.0%", lf2: "10.0 - 15.0%" },
-      { element: "Carbon (C)", a105: "0.08 max (F316)", lf2: "0.030 max (F316L)" }
+    "id": "3.0",
+    "slug": "stainless-steel-316-flanges",
+    "name": "Stainless Steel 316/316L Flanges",
+    "h1": "Stainless Steel 316/316L Flanges — ASTM A182 F316/F316L",
+    "metaTitle": "SS 316 316L Flange Manufacturer India | ASTM A182 F316",
+    "metaDesc": "SS 316/316L flange manufacturer, Mumbai. ASTM A182 F316/F316L, chloride & marine grade. All flange types, Class 150-2500. EN 10204 3.1/3.2. Get a written quote.",
+    "unsNumber": "S31600 (316) / S31603 (316L)",
+    "governingStandard": "ASTM A182 / ASME SA-182 Grade F316 / F316L",
+    "chemicalComposition": [
+      {
+        "element": "Molybdenum (Mo)",
+        "a105": "2.00 - 3.00%",
+        "lf2": "2.00 - 3.00%"
+      },
+      {
+        "element": "Chromium (Cr)",
+        "a105": "16.0 - 18.0%",
+        "lf2": "16.0 - 18.0%"
+      },
+      {
+        "element": "Nickel (Ni)",
+        "a105": "10.0 - 14.0%",
+        "lf2": "10.0 - 15.0%"
+      },
+      {
+        "element": "Carbon (C)",
+        "a105": "0.08 max (F316)",
+        "lf2": "0.030 max (F316L)"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength", a105: "205 MPa min (F316)", lf2: "170 MPa min (F316L)" },
-      { property: "Tensile Strength", a105: "515 MPa min (F316)", lf2: "485 MPa min (F316L)" },
-      { property: "Hardness", a105: "95 HRB max", lf2: "95 HRB max" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength",
+        "a105": "205 MPa min (F316)",
+        "lf2": "170 MPa min (F316L)"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "515 MPa min (F316)",
+        "lf2": "485 MPa min (F316L)"
+      },
+      {
+        "property": "Hardness",
+        "a105": "95 HRB max",
+        "lf2": "95 HRB max"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "275 psi", class300: "720 psi", class600: "1440 psi", class900: "2160 psi" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "275 psi",
+        "class300": "720 psi",
+        "class600": "1440 psi",
+        "class900": "2160 psi"
+      }
     ],
-    overview: "ASTM A182 F316/F316L flanges incorporate 2-3% Molybdenum for exceptional resistance to chloride pitting, crevice corrosion, and aggressive process chemicals in marine, chemical, and offshore installations.",
-    applications: [
+    "overview": "ASTM A182 F316/F316L flanges incorporate 2-3% Molybdenum for exceptional resistance to chloride pitting, crevice corrosion, and aggressive process chemicals in marine, chemical, and offshore installations.",
+    "applications": [
       "Offshore oil platforms & marine seawater piping",
       "Chemical processing with chloride process streams",
       "Active pharmaceutical ingredient (API) reactor manifolds",
       "Pulp and paper bleaching equipment"
     ],
-    faqs: [
+    "faqs": [
       {
-        q: "Does 316 resist stagnant seawater indefinitely?",
-        a: "No. In low-velocity or stagnant seawater, 316 can experience pitting/crevice corrosion. Duplex 2205 or Super Duplex 2507 is recommended for continuous stagnant seawater exposure."
+        "q": "Does 316 resist stagnant seawater indefinitely?",
+        "a": "No. In low-velocity or stagnant seawater, 316 can experience pitting/crevice corrosion. Duplex 2205 or Super Duplex 2507 is recommended for continuous stagnant seawater exposure."
+      },
+      {
+        "q": "Is 316L good enough for offshore utility water?",
+        "a": "For fresh or treated utility water, usually yes. For raw seawater, firewater and produced water most offshore line classes move to duplex or super duplex because of crevice corrosion at gaskets."
+      },
+      {
+        "q": "What is the difference between ASTM A182 F316L and A240 316L?",
+        "a": "A182 covers forged flanges, fittings and valve parts. A240 covers plate, sheet and strip. A plate-cut 316L flange is not a forged A182 flange and will not satisfy a specification that calls for A182."
+      },
+      {
+        "q": "Do you test 316 flanges for intergranular corrosion?",
+        "a": "ASTM A262 practice testing can be added when your specification requires it. Name the practice (for example Practice E) in the RFQ and it will be listed on the quotation."
       }
     ],
-    relatedLinks: [
-      { title: "Marine Industry", url: "/industries/marine/" },
-      { title: "Chemical Processing", url: "/industries/chemical-processing/" },
-      { title: "Duplex 2205 Flanges", url: "/materials/duplex-2205-flanges/" }
+    "relatedLinks": [
+      {
+        "title": "Marine Industry",
+        "url": "/industries/marine/"
+      },
+      {
+        "title": "Chemical Processing",
+        "url": "/industries/chemical-processing/"
+      },
+      {
+        "title": "Duplex 2205 Flanges",
+        "url": "/materials/duplex-2205-flanges/"
+      }
+    ],
+    "sections": [
+      {
+        "h2": "What molybdenum adds to 316",
+        "paras": [
+          "F316 and F316L (UNS S31600 / S31603) add about 2 to 3% molybdenum to the 18-8 base. Molybdenum raises resistance to pitting and crevice corrosion in chloride-bearing water and to reducing acids such as dilute sulphuric and phosphoric acid. Its pitting resistance equivalent number (PREN) is in the mid-20s, against about 18 to 20 for 304.",
+          "That margin covers chlorinated cooling water, coastal atmospheres, many pharmaceutical cleaning chemicals and a wide range of organic acids. It does not make 316 a seawater alloy: stagnant or warm seawater still attacks it under gaskets and in crevices."
+        ]
+      },
+      {
+        "h2": "Choosing between 316, 316L and 316H",
+        "list": [
+          "316L: carbon 0.030% max, the default for welded process piping that is not in creep service.",
+          "Dual-certified F316/F316L: L chemistry with straight-grade strength, so one flange meets either line class.",
+          "F316H: higher controlled carbon for strength at elevated temperatures, used in heater outlets and hot gas lines.",
+          "Where chlorides and temperature exceed what 316L handles, the next step is usually duplex F51/F60, then super duplex F53."
+        ]
+      },
+      {
+        "h2": "Gaskets and bolting on 316 flanges",
+        "paras": [
+          "A 316 flange is often bolted with B8M Class 2 or B7 studs depending on the line specification, and with spiral-wound gaskets having a 316L winding. When bolting is carbon steel in a wet marine environment, galvanic attack falls on the bolts, so specify coated or stainless studs if the joint will stay wet. Tell us the gasket and bolt standard in the RFQ so the face finish is confirmed against it."
+        ]
+      }
     ]
   },
   "stainless-steel-321-347-flanges": {
-    id: "4.0",
-    slug: "stainless-steel-321-347-flanges",
-    name: "Stainless Steel 321/347 Flanges",
-    h1: "Stainless Steel 321/347 Flanges — Stabilized Grades",
-    metaTitle: "SS 321 347 Flange Manufacturer India | Stabilized Grades",
-    metaDesc: "SS 321/347 flange manufacturer, Mumbai. Ti/Nb-stabilized for high-temp welded service, refinery furnace outlet piping. Class 150-2500. Get a written quote.",
-    unsNumber: "S32100 (321) / S34700 (347)",
-    governingStandard: "ASTM A182 / ASME SA-182 Grade F321 / F347",
-    chemicalComposition: [
-      { element: "Titanium (Ti)", a105: "5x C min, 0.70% max (F321)", lf2: "N/A" },
-      { element: "Niobium + Tantalum (Nb+Ta)", a105: "N/A", lf2: "10x C min, 1.10% max (F347)" },
-      { element: "Chromium (Cr)", a105: "17.0 - 19.0%", lf2: "17.0 - 19.0%" },
-      { element: "Nickel (Ni)", a105: "9.0 - 12.0%", lf2: "9.0 - 13.0%" }
+    "id": "4.0",
+    "slug": "stainless-steel-321-347-flanges",
+    "name": "Stainless Steel 321/347 Flanges",
+    "h1": "Stainless Steel 321/347 Flanges — Stabilized Grades",
+    "metaTitle": "SS 321 347 Flange Manufacturer India | Stabilized Grades",
+    "metaDesc": "SS 321/347 flange manufacturer, Mumbai. Ti/Nb-stabilized for high-temp welded service, refinery furnace outlet piping. Class 150-2500. Get a written quote.",
+    "unsNumber": "S32100 (321) / S34700 (347)",
+    "governingStandard": "ASTM A182 / ASME SA-182 Grade F321 / F347",
+    "chemicalComposition": [
+      {
+        "element": "Titanium (Ti)",
+        "a105": "5x C min, 0.70% max (F321)",
+        "lf2": "N/A"
+      },
+      {
+        "element": "Niobium + Tantalum (Nb+Ta)",
+        "a105": "N/A",
+        "lf2": "10x C min, 1.10% max (F347)"
+      },
+      {
+        "element": "Chromium (Cr)",
+        "a105": "17.0 - 19.0%",
+        "lf2": "17.0 - 19.0%"
+      },
+      {
+        "element": "Nickel (Ni)",
+        "a105": "9.0 - 12.0%",
+        "lf2": "9.0 - 13.0%"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength", a105: "205 MPa min", lf2: "205 MPa min" },
-      { property: "Tensile Strength", a105: "515 MPa min", lf2: "515 MPa min" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength",
+        "a105": "205 MPa min",
+        "lf2": "205 MPa min"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "515 MPa min",
+        "lf2": "515 MPa min"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "275 psi", class300: "720 psi", class600: "1440 psi", class900: "2160 psi" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "275 psi",
+        "class300": "720 psi",
+        "class600": "1440 psi",
+        "class900": "2160 psi"
+      }
     ],
-    overview: "ASTM A182 F321 (Titanium stabilized) and F347 (Niobium stabilized) forged flanges are specifically alloyed to eliminate intergranular corrosion in high-temperature service between 425°C and 815°C.",
-    applications: [
+    "overview": "ASTM A182 F321 (Titanium stabilized) and F347 (Niobium stabilized) forged flanges are specifically alloyed to eliminate intergranular corrosion in high-temperature service between 425°C and 815°C.",
+    "applications": [
       "Refinery furnace tube outlet piping",
       "High-temperature exhaust manifolds and thermal oxidizers",
       "Chemical reactors operating in the sensitization range",
       "Power plant superheater steam piping loops"
     ],
-    faqs: [
+    "faqs": [
       {
-        q: "What makes 321 and 347 'stabilized' grades?",
-        a: "Titanium (in 321) and Niobium (in 347) have a higher affinity for carbon than chromium. They form stable carbides (TiC / NbC) during thermal exposure, preventing chromium depletion at grain boundaries."
+        "q": "What makes 321 and 347 'stabilized' grades?",
+        "a": "Titanium (in 321) and Niobium (in 347) have a higher affinity for carbon than chromium. They form stable carbides (TiC / NbC) during thermal exposure, preventing chromium depletion at grain boundaries."
+      },
+      {
+        "q": "Is 347 better than 321?",
+        "a": "Neither is better in every case. 347 is easier to weld without losing stabilisation and is often preferred for heavily welded systems. 321 has a long record in heater and exhaust service. Follow your line class."
+      },
+      {
+        "q": "Can 321 flanges replace 304H in high-temperature service?",
+        "a": "Only if the design code and line specification allow it. Allowable stresses differ between grades, so the substitution has to be checked by the piping engineer."
+      },
+      {
+        "q": "What face finish suits a 321 flange in heater service?",
+        "a": "Usually raised face with a serrated finish for spiral-wound gaskets, or RTJ in higher classes. State the gasket type so the face is machined to match."
       }
     ],
-    relatedLinks: [
-      { title: "Power Generation Industry", url: "/industries/power-generation/" },
-      { title: "Alloy Steel F11/F22", url: "/materials/alloy-steel-f11-f22-flanges/" }
+    "relatedLinks": [
+      {
+        "title": "Power Generation Industry",
+        "url": "/industries/power-generation/"
+      },
+      {
+        "title": "Alloy Steel F11/F22",
+        "url": "/materials/alloy-steel-f11-f22-flanges/"
+      }
+    ],
+    "sections": [
+      {
+        "h2": "Titanium (321) and niobium (347) stabilisation",
+        "paras": [
+          "F321 (UNS S32100) carries titanium and F347 (UNS S34700) carries niobium, also called columbium. Both elements combine with carbon more readily than chromium does, so carbon is tied up as titanium or niobium carbides and chromium stays in solution at grain boundaries. The flange keeps its intergranular corrosion resistance after long exposure in the 425 to 815°C range, which plain 304 does not.",
+          "Titanium is partly lost in the welding arc, so 321 base metal is very often welded with a 347-type filler. Many fabricators prefer 347 flanges on lines that will be heavily welded for that reason."
+        ]
+      },
+      {
+        "h2": "Where refiners and power plants specify 321 and 347",
+        "list": [
+          "Hydroprocessing reactor effluent and heater outlet piping, where polythionic acid stress corrosion cracking during shutdowns is a known risk.",
+          "Fired heater, furnace and flue gas lines running continuously in the sensitising range.",
+          "Superheater and reheater connections and exhaust systems that cycle hot.",
+          "High-temperature service needing creep strength, where the H grades F321H and F347H are used."
+        ]
+      },
+      {
+        "h2": "Stabilising heat treatment",
+        "paras": [
+          "Some refinery specifications ask for a thermal stabilisation treatment after solution annealing so that the titanium or niobium carbides form fully before service. If your specification calls for it, state the required temperature and hold in the RFQ, and the quotation will list it as a separate heat treatment step on the 3.1 certificate."
+        ]
+      }
     ]
   },
   "duplex-2205-flanges": {
-    id: "5.0",
-    slug: "duplex-2205-flanges",
-    name: "Duplex 2205 Flanges",
-    h1: "Duplex 2205 Flanges — ASTM A182 Grade F51 / F60",
-    metaTitle: "Duplex 2205 Flange Manufacturer India | ASTM A182 F51 F60",
-    metaDesc: "Duplex 2205 flange manufacturer, Mumbai. UNS S31803/S32205 F51/F60, high yield 450 MPa, PREN >=34. Seawater & oilfield spec. Get a written quote.",
-    unsNumber: "S31803 / S32205 (F51 / F60)",
-    governingStandard: "ASTM A182 / ASME SA-182 Grade F51 / F60",
-    chemicalComposition: [
-      { element: "Chromium (Cr)", a105: "22.0 - 23.0%", lf2: "22.0 - 23.0%" },
-      { element: "Molybdenum (Mo)", a105: "3.00 - 3.50%", lf2: "3.00 - 3.50%" },
-      { element: "Nickel (Ni)", a105: "4.50 - 6.50%", lf2: "4.50 - 6.50%" },
-      { element: "Nitrogen (N)", a105: "0.14 - 0.20%", lf2: "0.14 - 0.20%" }
+    "id": "5.0",
+    "slug": "duplex-2205-flanges",
+    "name": "Duplex 2205 Flanges",
+    "h1": "Duplex 2205 Flanges — ASTM A182 Grade F51 / F60",
+    "metaTitle": "Duplex 2205 Flange Manufacturer India | ASTM A182 F51 F60",
+    "metaDesc": "Duplex 2205 flange manufacturer, Mumbai. UNS S31803/S32205 F51/F60, high yield 450 MPa, PREN >=34. Seawater & oilfield spec. Get a written quote.",
+    "unsNumber": "S31803 / S32205 (F51 / F60)",
+    "governingStandard": "ASTM A182 / ASME SA-182 Grade F51 / F60",
+    "chemicalComposition": [
+      {
+        "element": "Chromium (Cr)",
+        "a105": "22.0 - 23.0%",
+        "lf2": "22.0 - 23.0%"
+      },
+      {
+        "element": "Molybdenum (Mo)",
+        "a105": "3.00 - 3.50%",
+        "lf2": "3.00 - 3.50%"
+      },
+      {
+        "element": "Nickel (Ni)",
+        "a105": "4.50 - 6.50%",
+        "lf2": "4.50 - 6.50%"
+      },
+      {
+        "element": "Nitrogen (N)",
+        "a105": "0.14 - 0.20%",
+        "lf2": "0.14 - 0.20%"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength (0.2% Offset)", a105: "450 MPa (65 ksi) min", lf2: "450 MPa min" },
-      { property: "Tensile Strength", a105: "620 MPa (90 ksi) min", lf2: "620 MPa min" },
-      { property: "Hardness", a105: "293 HBW max", lf2: "293 HBW max" },
-      { property: "PREN", a105: "≥ 34", lf2: "≥ 34" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength (0.2% Offset)",
+        "a105": "450 MPa (65 ksi) min",
+        "lf2": "450 MPa min"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "620 MPa (90 ksi) min",
+        "lf2": "620 MPa min"
+      },
+      {
+        "property": "Hardness",
+        "a105": "293 HBW max",
+        "lf2": "293 HBW max"
+      },
+      {
+        "property": "PREN",
+        "a105": "≥ 34",
+        "lf2": "≥ 34"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "290 psi", class300: "750 psi", class600: "1500 psi", class900: "2250 psi" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "290 psi",
+        "class300": "750 psi",
+        "class600": "1500 psi",
+        "class900": "2250 psi"
+      }
     ],
-    overview: "Duplex 2205 (UNS S31803 / S32205) features a dual-phase 50/50 ferrite-austenite microstructure, providing double the mechanical yield strength of standard 316L alongside superior resistance to chloride stress corrosion cracking.",
-    applications: [
+    "overview": "Duplex 2205 (UNS S31803 / S32205) features a dual-phase 50/50 ferrite-austenite microstructure, providing double the mechanical yield strength of standard 316L alongside superior resistance to chloride stress corrosion cracking.",
+    "applications": [
       "Offshore oil & gas separation manifolds",
       "Seawater reverse osmosis (SWRO) desalination systems",
       "Chemical tankers and process vessels carrying acidic fluids",
       "Pulp & paper digesters and bleach plant piping"
     ],
-    faqs: [
+    "faqs": [
       {
-        q: "What is the maximum operating temperature for Duplex 2205?",
-        a: "Duplex 2205 is limited to 315°C (600°F). Sustained operation above 300-315°C leads to embrittlement due to 475°C phase precipitation and sigma phase formation."
+        "q": "What is the maximum operating temperature for Duplex 2205?",
+        "a": "Duplex 2205 is limited to 315°C (600°F). Sustained operation above 300-315°C leads to embrittlement due to 475°C phase precipitation and sigma phase formation."
+      },
+      {
+        "q": "Can duplex 2205 flanges be welded to 316L pipe?",
+        "a": "Yes, dissimilar welds between duplex and austenitic stainless are routine, usually with a duplex-type filler. The welding procedure must be qualified for the combination."
+      },
+      {
+        "q": "Is 2205 suitable for raw seawater?",
+        "a": "It handles many seawater duties at ambient temperature, but for warm or chlorinated seawater and critical firewater lines many specifications step up to super duplex F53 or F55."
+      },
+      {
+        "q": "What documents come with duplex flanges?",
+        "a": "EN 10204 3.1 certificate with chemistry, mechanicals, heat treatment and any ferrite or corrosion tests ordered. PMI is carried out on stainless and duplex lots."
       }
     ],
-    relatedLinks: [
-      { title: "Super Duplex 2507", url: "/materials/super-duplex-2507-flanges/" },
-      { title: "Marine Industry", url: "/industries/marine/" }
+    "relatedLinks": [
+      {
+        "title": "Super Duplex 2507",
+        "url": "/materials/super-duplex-2507-flanges/"
+      },
+      {
+        "title": "Marine Industry",
+        "url": "/industries/marine/"
+      }
+    ],
+    "sections": [
+      {
+        "h2": "F51 or F60: which 2205 is on your drawing?",
+        "paras": [
+          "Both are 22% chromium duplex. F51 is UNS S31803, the original composition. F60 is UNS S32205, which raises the minimum nitrogen, chromium and molybdenum for a more consistent PREN of about 35. Many buyers order dual-certified S31803/S32205 so the flange meets either designation.",
+          "The roughly balanced ferrite and austenite structure gives about twice the yield strength of 316L, so wall thickness on matching pipe can often be reduced, and chloride stress corrosion cracking resistance is far higher than austenitic grades."
+        ]
+      },
+      {
+        "h2": "Heat treatment and microstructure checks",
+        "list": [
+          "Solution annealing followed by rapid water quenching, to avoid sigma and other intermetallic phases that form if the forging cools slowly through about 700 to 950°C.",
+          "Ferrite content measurement (for example by ASTM E562 point count) when the specification sets a range.",
+          "ASTM A923 tests for detrimental intermetallic phases on request.",
+          "Charpy impact testing at the temperature in your specification, often around -46°C for offshore duty."
+        ]
+      },
+      {
+        "h2": "Temperature limits for 2205 flanges",
+        "paras": [
+          "Duplex is not used for sustained service above about 300°C, because the ferrite phase embrittles in the 475°C range over time. At the low end its toughness falls faster than austenitic stainless, so impact-tested material is specified for cold service. Inside that window it is a common choice for seawater cooling, desalination, chemical tankers, pulp and paper, and offshore process lines."
+        ]
+      }
     ]
   },
   "super-duplex-2507-flanges": {
-    id: "6.0",
-    slug: "super-duplex-2507-flanges",
-    name: "Super Duplex 2507 Flanges",
-    h1: "Super Duplex 2507 Flanges — ASTM A182 Grade F53",
-    metaTitle: "Super Duplex 2507 Flange Manufacturer India | ASTM A182 F53",
-    metaDesc: "Super Duplex 2507 flange manufacturer, Mumbai. UNS S32750 F53, PREN >=42, high yield 550 MPa. Sour gas & deepwater subsea spec. Get a written quote.",
-    unsNumber: "S32750 (F53)",
-    governingStandard: "ASTM A182 / ASME SA-182 Grade F53",
-    chemicalComposition: [
-      { element: "Chromium (Cr)", a105: "24.0 - 26.0%", lf2: "24.0 - 26.0%" },
-      { element: "Molybdenum (Mo)", a105: "3.0 - 5.0%", lf2: "3.0 - 5.0%" },
-      { element: "Nickel (Ni)", a105: "6.0 - 8.0%", lf2: "6.0 - 8.0%" },
-      { element: "Nitrogen (N)", a105: "0.24 - 0.32%", lf2: "0.24 - 0.32%" }
+    "id": "6.0",
+    "slug": "super-duplex-2507-flanges",
+    "name": "Super Duplex 2507 Flanges",
+    "h1": "Super Duplex 2507 Flanges — ASTM A182 Grade F53",
+    "metaTitle": "Super Duplex 2507 Flange Manufacturer India | ASTM A182 F53",
+    "metaDesc": "Super Duplex 2507 flange manufacturer, Mumbai. UNS S32750 F53, PREN >=42, high yield 550 MPa. Sour gas & deepwater subsea spec. Get a written quote.",
+    "unsNumber": "S32750 (F53)",
+    "governingStandard": "ASTM A182 / ASME SA-182 Grade F53",
+    "chemicalComposition": [
+      {
+        "element": "Chromium (Cr)",
+        "a105": "24.0 - 26.0%",
+        "lf2": "24.0 - 26.0%"
+      },
+      {
+        "element": "Molybdenum (Mo)",
+        "a105": "3.0 - 5.0%",
+        "lf2": "3.0 - 5.0%"
+      },
+      {
+        "element": "Nickel (Ni)",
+        "a105": "6.0 - 8.0%",
+        "lf2": "6.0 - 8.0%"
+      },
+      {
+        "element": "Nitrogen (N)",
+        "a105": "0.24 - 0.32%",
+        "lf2": "0.24 - 0.32%"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength", a105: "550 MPa (80 ksi) min", lf2: "550 MPa min" },
-      { property: "Tensile Strength", a105: "795 MPa (116 ksi) min", lf2: "795 MPa min" },
-      { property: "Hardness", a105: "310 HBW max", lf2: "310 HBW max" },
-      { property: "PREN", a105: "≥ 42", lf2: "≥ 42" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength",
+        "a105": "550 MPa (80 ksi) min",
+        "lf2": "550 MPa min"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "795 MPa (116 ksi) min",
+        "lf2": "795 MPa min"
+      },
+      {
+        "property": "Hardness",
+        "a105": "310 HBW max",
+        "lf2": "310 HBW max"
+      },
+      {
+        "property": "PREN",
+        "a105": "≥ 42",
+        "lf2": "≥ 42"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "290 psi", class300: "750 psi", class600: "1500 psi", class900: "2250 psi" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "290 psi",
+        "class300": "750 psi",
+        "class600": "1500 psi",
+        "class900": "2250 psi"
+      }
     ],
-    overview: "Super Duplex 2507 (UNS S32750) delivers extreme resistance to localized pitting and crevice corrosion with PREN ≥ 42, engineered for severe marine, subsea oilfield, and aggressive acid processing.",
-    applications: [
+    "overview": "Super Duplex 2507 (UNS S32750) delivers extreme resistance to localized pitting and crevice corrosion with PREN ≥ 42, engineered for severe marine, subsea oilfield, and aggressive acid processing.",
+    "applications": [
       "Deepwater subsea Christmas trees and manifold hubs",
       "Sour gas (H2S) processing lines complying with NACE MR0175",
       "High-concentration warm seawater piping",
       "Flue-gas desulfurization (FGD) scrubber systems"
     ],
-    faqs: [
+    "faqs": [
       {
-        q: "What does PREN ≥ 42 signify for Super Duplex 2507?",
-        a: "PREN (Pitting Resistance Equivalent Number = %Cr + 3.3%Mo + 16%N) quantifies resistance to localized pitting. A score ≥ 42 guarantees immunity to pitting in high-temperature seawater and chloride-saturated environments."
+        "q": "What does PREN ≥ 42 signify for Super Duplex 2507?",
+        "a": "PREN (Pitting Resistance Equivalent Number = %Cr + 3.3%Mo + 16%N) quantifies resistance to localized pitting. A score ≥ 42 guarantees immunity to pitting in high-temperature seawater and chloride-saturated environments."
+      },
+      {
+        "q": "Can F53 replace F55 flanges?",
+        "a": "Only if your client or specification accepts it. The alloys perform similarly, but many oil and gas specifications name one UNS number, and the substitution needs written approval."
+      },
+      {
+        "q": "What is the upper temperature limit for 2507?",
+        "a": "Like 2205, super duplex is generally not used for sustained service above about 250 to 300°C because of embrittlement of the ferrite phase. The design code sets the exact limit."
+      },
+      {
+        "q": "Do super duplex flanges need special gaskets?",
+        "a": "Gasket material should be compatible with seawater and the alloy, typically spiral wound with a super duplex or alloy winding, or an insulating gasket where dissimilar metals meet. Your piping specification decides."
       }
     ],
-    relatedLinks: [
-      { title: "Super Duplex Zeron 100", url: "/materials/super-duplex-zeron-100-flanges/" },
-      { title: "Oil & Gas Industry", url: "/industries/oil-and-gas/" }
+    "relatedLinks": [
+      {
+        "title": "Super Duplex Zeron 100",
+        "url": "/materials/super-duplex-zeron-100-flanges/"
+      },
+      {
+        "title": "Oil & Gas Industry",
+        "url": "/industries/oil-and-gas/"
+      }
+    ],
+    "sections": [
+      {
+        "h2": "F53 (2507) against F55 and 2205",
+        "paras": [
+          "F53 is UNS S32750, nominally 25% chromium, 7% nickel and about 4% molybdenum with high nitrogen. F55 is UNS S32760, a similar 25% chromium alloy with copper and tungsten additions. Both give PREN of 40 or more, against about 35 for 2205, which is why they are used where 2205 is close to its limit in warm or chlorinated seawater.",
+          "Minimum yield strength is well above 2205, so super duplex flanges are often specified on high-pressure water injection, firewater ring mains, seawater lift and subsea tie-ins where weight and strength both matter."
+        ]
+      },
+      {
+        "h2": "Tests commonly written into super duplex specifications",
+        "list": [
+          "ASTM G48 ferric chloride pitting test at a stated temperature.",
+          "ASTM A923 for intermetallic phases.",
+          "Ferrite content within a stated range.",
+          "Charpy impact tests at low temperature, often -46°C.",
+          "Hardness limits when the line is in sour service under NACE MR0175 / ISO 15156."
+        ]
+      },
+      {
+        "h2": "Ordering super duplex correctly",
+        "paras": [
+          "State the UNS number, not just \"super duplex\", because F53 and F55 are not always accepted as substitutes for each other. List each test and its acceptance criteria. Super duplex forgings need fast quenching after solution annealing, so heavy sections are reviewed for section thickness before a quote is confirmed."
+        ]
+      }
     ]
   },
   "super-duplex-zeron-100-flanges": {
-    id: "7.0",
-    slug: "super-duplex-zeron-100-flanges",
-    name: "Super Duplex Zeron 100 Flanges",
-    h1: "Super Duplex Zeron 100 Flanges — ASTM A182 Grade F55",
-    metaTitle: "Zeron 100 Flange Manufacturer India | ASTM A182 F55 UNS S32760",
-    metaDesc: "Buy super duplex Zeron 100 (UNS S32760, ASTM A182 F55) flanges for seawater, firewater and chloride service. Weld neck, blind, slip on, RTJ, Class 150–2500, with EN 10204 3.1 MTC.",
-    unsNumber: "S32760 (F55)",
-    governingStandard: "ASTM A182 / ASME SA-182 Grade F55",
-    chemicalComposition: [
-      { element: "Chromium (Cr)", a105: "24.0 - 26.0%", lf2: "24.0 - 26.0%" },
-      { element: "Nickel (Ni)", a105: "6.0 - 8.0%", lf2: "6.0 - 8.0%" },
-      { element: "Molybdenum (Mo)", a105: "3.0 - 4.0%", lf2: "3.0 - 4.0%" },
-      { element: "Nitrogen (N)", a105: "0.20 - 0.30%", lf2: "0.20 - 0.30%" },
-      { element: "Tungsten (W)", a105: "0.50 - 1.00%", lf2: "0.50 - 1.00%" },
-      { element: "Copper (Cu)", a105: "0.50 - 1.00%", lf2: "0.50 - 1.00%" },
-      { element: "Carbon (C)", a105: "0.030% max", lf2: "0.030% max" }
+    "id": "7.0",
+    "slug": "super-duplex-zeron-100-flanges",
+    "name": "Super Duplex Zeron 100 Flanges",
+    "h1": "Super Duplex Zeron 100 Flanges — ASTM A182 Grade F55",
+    "metaTitle": "Zeron 100 Flange Manufacturer India | ASTM A182 F55 UNS S32760",
+    "metaDesc": "Buy super duplex Zeron 100 (UNS S32760, ASTM A182 F55) flanges for seawater, firewater and chloride service. Weld neck, blind, slip on, RTJ, Class 150–2500, with EN 10204 3.1 MTC.",
+    "unsNumber": "S32760 (F55)",
+    "governingStandard": "ASTM A182 / ASME SA-182 Grade F55",
+    "chemicalComposition": [
+      {
+        "element": "Chromium (Cr)",
+        "a105": "24.0 - 26.0%",
+        "lf2": "24.0 - 26.0%"
+      },
+      {
+        "element": "Nickel (Ni)",
+        "a105": "6.0 - 8.0%",
+        "lf2": "6.0 - 8.0%"
+      },
+      {
+        "element": "Molybdenum (Mo)",
+        "a105": "3.0 - 4.0%",
+        "lf2": "3.0 - 4.0%"
+      },
+      {
+        "element": "Nitrogen (N)",
+        "a105": "0.20 - 0.30%",
+        "lf2": "0.20 - 0.30%"
+      },
+      {
+        "element": "Tungsten (W)",
+        "a105": "0.50 - 1.00%",
+        "lf2": "0.50 - 1.00%"
+      },
+      {
+        "element": "Copper (Cu)",
+        "a105": "0.50 - 1.00%",
+        "lf2": "0.50 - 1.00%"
+      },
+      {
+        "element": "Carbon (C)",
+        "a105": "0.030% max",
+        "lf2": "0.030% max"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength", a105: "550 MPa (80 ksi) min", lf2: "550 MPa min" },
-      { property: "Tensile Strength", a105: "750 - 895 MPa (109 - 130 ksi)", lf2: "750 - 895 MPa" },
-      { property: "PREN (Cr + 3.3Mo + 16N)", a105: "≥ 40", lf2: "≥ 40" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength",
+        "a105": "550 MPa (80 ksi) min",
+        "lf2": "550 MPa min"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "750 - 895 MPa (109 - 130 ksi)",
+        "lf2": "750 - 895 MPa"
+      },
+      {
+        "property": "PREN (Cr + 3.3Mo + 16N)",
+        "a105": "≥ 40",
+        "lf2": "≥ 40"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "290 psi", class300: "750 psi", class600: "1500 psi", class900: "2250 psi" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "290 psi",
+        "class300": "750 psi",
+        "class600": "1500 psi",
+        "class900": "2250 psi"
+      }
     ],
-    overview: "Zeron 100 is a trade name for the super duplex stainless steel UNS S32760, forged to ASTM A182 Grade F55. Compared with super duplex 2507 (F53), it adds 0.5–1.0% tungsten and 0.5–1.0% copper. With a minimum PREN of 40 and a yield strength of 550 MPa, about twice that of 316L, it is specified where seawater, brine or chlorides would pit or crack standard stainless steel.",
-    applications: [
+    "overview": "Zeron 100 is a trade name for the super duplex stainless steel UNS S32760, forged to ASTM A182 Grade F55. Compared with super duplex 2507 (F53), it adds 0.5–1.0% tungsten and 0.5–1.0% copper. With a minimum PREN of 40 and a yield strength of 550 MPa, about twice that of 316L, it is specified where seawater, brine or chlorides would pit or crack standard stainless steel.",
+    "applications": [
       "Seawater cooling, injection and firewater piping",
       "Desalination: seawater intake, brine and high-pressure RO lines",
       "Offshore topsides process and utility piping",
       "Chloride-bearing chemical and scrubber systems"
     ],
-    sections: [
+    "sections": [
       {
-        h2: "Why buyers specify F55 instead of 316L or 2205",
-        paras: [
+        "h2": "Why buyers specify F55 instead of 316L or 2205",
+        "paras": [
           "316L stainless pits and suffers chloride stress corrosion cracking in warm seawater. Duplex 2205 (F51) resists much better but has a lower PREN, around 35. Super duplex grades such as F53 and F55 reach PREN 40 or more, which is why offshore and desalination specifications call for them on warm seawater and brine lines.",
-          "Strength matters too. Because the allowable stress of super duplex is much higher than that of austenitic stainless, the matching pipe and fittings can often be specified in thinner walls for the same pressure, saving weight on offshore structures.",
-        ],
+          "Strength matters too. Because the allowable stress of super duplex is much higher than that of austenitic stainless, the matching pipe and fittings can often be specified in thinner walls for the same pressure, saving weight on offshore structures."
+        ]
       },
       {
-        h2: "F55 or F53: which to order",
-        paras: [
-          "Both are super duplex grades with similar strength and pitting resistance. F55 (S32760) contains tungsten and copper, and F53 (S32750) does not. Many projects accept either, but some owner specifications name one grade only, so order exactly the UNS number on your piping material specification. Do not substitute one for the other without the purchaser's written approval.",
-        ],
+        "h2": "F55 or F53: which to order",
+        "paras": [
+          "Both are super duplex grades with similar strength and pitting resistance. F55 (S32760) contains tungsten and copper, and F53 (S32750) does not. Many projects accept either, but some owner specifications name one grade only, so order exactly the UNS number on your piping material specification. Do not substitute one for the other without the purchaser's written approval."
+        ]
       },
       {
-        h2: "What to include in a Zeron 100 / F55 flange RFQ",
-        list: [
+        "h2": "What to include in a Zeron 100 / F55 flange RFQ",
+        "list": [
           "Flange type, NPS, class and facing (RF or RTJ), plus the bore or schedule for weld neck flanges",
           "Material: ASTM A182 F55 (UNS S32760), and whether the trade name Zeron 100 is required on the documents",
           "Extra tests your specification calls for, such as ferrite content, ASTM G48 pitting test or ASTM A923 intermetallic phase test, with acceptance criteria",
           "NACE MR0175 / ISO 15156 if the line is in sour service",
-          "Certificate type (EN 10204 3.1 or 3.2) and any third-party inspection",
-        ],
+          "Certificate type (EN 10204 3.1 or 3.2) and any third-party inspection"
+        ]
       },
       {
-        h2: "Fabrication notes",
-        paras: [
-          "Super duplex depends on its balance of ferrite and austenite. On-site welding should follow a qualified procedure with controlled heat input and interpass temperature and a suitable over-alloyed super duplex filler, or the weld and heat-affected zone can lose corrosion resistance. Super duplex is also not used for sustained high-temperature service because it embrittles. Check the allowable temperature range in your design code.",
-        ],
-      },
-    ],
-    faqs: [
-      {
-        q: "Is Zeron 100 the same as ASTM A182 F55?",
-        a: "Zeron 100 is a trade name for UNS S32760. Forged flanges in this alloy are ordered to ASTM A182 Grade F55, and the mill test certificate states the grade and UNS number."
-      },
-      {
-        q: "Why does Zeron 100 include copper and tungsten?",
-        a: "Tungsten adds to resistance against pitting and crevice corrosion, and copper improves resistance in some non-oxidising acid environments. They are the main chemical difference between F55 (S32760) and F53 (S32750)."
-      },
-      {
-        q: "Can F55 flanges be supplied for sour service?",
-        a: "Yes. State NACE MR0175 / ISO 15156 in your RFQ so the hardness limit is applied and confirmed on the EN 10204 3.1 certificate."
-      },
-      {
-        q: "Which flange types are available in F55?",
-        a: "Weld neck, slip on, blind, socket weld, threaded, lap joint and spectacle blinds can be made in F55 to ASME B16.5 and B16.47. Send the type, size, class and quantity through the quote form for a price."
+        "h2": "Fabrication notes",
+        "paras": [
+          "Super duplex depends on its balance of ferrite and austenite. On-site welding should follow a qualified procedure with controlled heat input and interpass temperature and a suitable over-alloyed super duplex filler, or the weld and heat-affected zone can lose corrosion resistance. Super duplex is also not used for sustained high-temperature service because it embrittles. Check the allowable temperature range in your design code."
+        ]
       }
     ],
-    relatedLinks: [
-      { title: "Super Duplex 2507", url: "/materials/super-duplex-2507-flanges/" },
-      { title: "Chemical Processing", url: "/industries/chemical-processing/" }
+    "faqs": [
+      {
+        "q": "Is Zeron 100 the same as ASTM A182 F55?",
+        "a": "Zeron 100 is a trade name for UNS S32760. Forged flanges in this alloy are ordered to ASTM A182 Grade F55, and the mill test certificate states the grade and UNS number."
+      },
+      {
+        "q": "Why does Zeron 100 include copper and tungsten?",
+        "a": "Tungsten adds to resistance against pitting and crevice corrosion, and copper improves resistance in some non-oxidising acid environments. They are the main chemical difference between F55 (S32760) and F53 (S32750)."
+      },
+      {
+        "q": "Can F55 flanges be supplied for sour service?",
+        "a": "Yes. State NACE MR0175 / ISO 15156 in your RFQ so the hardness limit is applied and confirmed on the EN 10204 3.1 certificate."
+      },
+      {
+        "q": "Which flange types are available in F55?",
+        "a": "Weld neck, slip on, blind, socket weld, threaded, lap joint and spectacle blinds can be made in F55 to ASME B16.5 and B16.47. Send the type, size, class and quantity through the quote form for a price."
+      }
+    ],
+    "relatedLinks": [
+      {
+        "title": "Super Duplex 2507",
+        "url": "/materials/super-duplex-2507-flanges/"
+      },
+      {
+        "title": "Chemical Processing",
+        "url": "/industries/chemical-processing/"
+      }
     ]
   },
   "alloy-steel-f11-f22-flanges": {
-    id: "8.0",
-    slug: "alloy-steel-f11-f22-flanges",
-    name: "Alloy Steel F11/F22 Flanges",
-    h1: "Alloy Steel F11/F22 Flanges — ASTM A182 Gr. F11 / F22",
-    metaTitle: "Alloy Steel F11 F22 Flange Manufacturer India | ASTM A182",
-    metaDesc: "Alloy steel F11/F22 flange manufacturer, Mumbai. Cr-Mo grades for high-temp steam lines up to 593°C. Class 150-2500, normalized & tempered. Get a written quote.",
-    unsNumber: "K11572 (F11) / K21590 (F22)",
-    governingStandard: "ASTM A182 / ASME SA-182 Grade F11 / F22",
-    chemicalComposition: [
-      { element: "Chromium (Cr)", a105: "1.00 - 1.50% (F11)", lf2: "2.00 - 2.50% (F22)" },
-      { element: "Molybdenum (Mo)", a105: "0.44 - 0.65% (F11)", lf2: "0.87 - 1.13% (F22)" },
-      { element: "Carbon (C)", a105: "0.05 - 0.20%", lf2: "0.05 - 0.15%" }
+    "id": "8.0",
+    "slug": "alloy-steel-f11-f22-flanges",
+    "name": "Alloy Steel F11/F22 Flanges",
+    "h1": "Alloy Steel F11/F22 Flanges — ASTM A182 Gr. F11 / F22",
+    "metaTitle": "Alloy Steel F11 F22 Flange Manufacturer India | ASTM A182",
+    "metaDesc": "Alloy steel F11/F22 flange manufacturer, Mumbai. Cr-Mo grades for high-temp steam lines up to 593°C. Class 150-2500, normalized & tempered. Get a written quote.",
+    "unsNumber": "K11572 (F11) / K21590 (F22)",
+    "governingStandard": "ASTM A182 / ASME SA-182 Grade F11 / F22",
+    "chemicalComposition": [
+      {
+        "element": "Chromium (Cr)",
+        "a105": "1.00 - 1.50% (F11)",
+        "lf2": "2.00 - 2.50% (F22)"
+      },
+      {
+        "element": "Molybdenum (Mo)",
+        "a105": "0.44 - 0.65% (F11)",
+        "lf2": "0.87 - 1.13% (F22)"
+      },
+      {
+        "element": "Carbon (C)",
+        "a105": "0.05 - 0.20%",
+        "lf2": "0.05 - 0.15%"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength", a105: "205 MPa min (Class 2)", lf2: "205 MPa min (Class 2)" },
-      { property: "Tensile Strength", a105: "415 - 585 MPa (F11)", lf2: "415 - 590 MPa (F22)" },
-      { property: "Service Temp Range", a105: "Up to 593°C (1,100°F)", lf2: "Up to 593°C (1,100°F)" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength",
+        "a105": "205 MPa min (Class 2)",
+        "lf2": "205 MPa min (Class 2)"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "415 - 585 MPa (F11)",
+        "lf2": "415 - 590 MPa (F22)"
+      },
+      {
+        "property": "Service Temp Range",
+        "a105": "Up to 593°C (1,100°F)",
+        "lf2": "Up to 593°C (1,100°F)"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "290 psi", class300: "750 psi", class600: "1500 psi", class900: "2250 psi" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "290 psi",
+        "class300": "750 psi",
+        "class600": "1500 psi",
+        "class900": "2250 psi"
+      }
     ],
-    overview: "Chromium-Molybdenum alloy steel flanges in ASTM A182 Grade F11 (1.25Cr-0.5Mo) and F22 (2.25Cr-1Mo) are engineered for elevated-temperature steam and hydroprocessing applications up to 593°C.",
-    applications: [
+    "overview": "Chromium-Molybdenum alloy steel flanges in ASTM A182 Grade F11 (1.25Cr-0.5Mo) and F22 (2.25Cr-1Mo) are engineered for elevated-temperature steam and hydroprocessing applications up to 593°C.",
+    "applications": [
       "Thermal power plant main steam lines and headers",
       "Petroleum refinery hydrocracker and catalytic reformer units",
       "Boiler nozzle flange connections",
       "High-pressure high-temperature steam distribution"
     ],
-    faqs: [
+    "faqs": [
       {
-        q: "What heat treatment is required for F11 and F22 forged flanges?",
-        a: "Flanges are normalized and tempered (or quenched and tempered) to achieve the specified grain structure, tensile properties, and creep resistance at elevated temperatures."
+        "q": "What heat treatment is required for F11 and F22 forged flanges?",
+        "a": "Flanges are normalized and tempered (or quenched and tempered) to achieve the specified grain structure, tensile properties, and creep resistance at elevated temperatures."
+      },
+      {
+        "q": "Can F22 be used in place of F11?",
+        "a": "F22 generally has higher strength at temperature, but the substitution must be approved under the design code and line specification, and the weld procedure changes."
+      },
+      {
+        "q": "Are F11 and F22 flanges suitable for IBR boiler piping?",
+        "a": "They are common boiler grades. If Indian Boiler Regulations certification is required, state it in the RFQ so the quotation confirms the documents that can be provided."
+      },
+      {
+        "q": "Which bolting goes with F22 flanges?",
+        "a": "B16 studs with 2H nuts are often used in high-temperature service, but bolting is set by your piping specification."
       }
     ],
-    relatedLinks: [
-      { title: "Alloy Steel F91", url: "/materials/alloy-steel-f91-flanges/" },
-      { title: "Power Generation Industry", url: "/industries/power-generation/" }
+    "relatedLinks": [
+      {
+        "title": "Alloy Steel F91",
+        "url": "/materials/alloy-steel-f91-flanges/"
+      },
+      {
+        "title": "Power Generation Industry",
+        "url": "/industries/power-generation/"
+      }
+    ],
+    "sections": [
+      {
+        "h2": "F11 and F22 compared",
+        "paras": [
+          "F11 is nominally 1¼% chromium and ½% molybdenum. F22 is 2¼% chromium and 1% molybdenum. Both are ferritic chrome-moly steels used where carbon steel loses strength through creep or suffers graphitisation in long service at high temperature. F22 has the higher creep strength and oxidation resistance of the two and is used in hotter or more highly stressed lines.",
+          "ASTM A182 lists more than one class for each grade, with different strength levels. F11 Class 2 and F22 Class 3 are the classes most often ordered for piping, so state the class with the grade."
+        ]
+      },
+      {
+        "h2": "Service where Cr-Mo flanges are specified",
+        "list": [
+          "Steam lines, headers and boiler connections in thermal power plants and industrial boilers.",
+          "Refinery hydrotreater and reformer piping in hot hydrogen service, where the API 941 curves guide material choice.",
+          "Catalytic cracking and coker lines running hot.",
+          "High-temperature process lines in petrochemical plants."
+        ]
+      },
+      {
+        "h2": "Heat treatment and welding",
+        "paras": [
+          "F11 and F22 flanges are supplied normalised and tempered, or quenched and tempered, as A182 allows for the class ordered. In the field, welds are preheated and given post-weld heat treatment per the construction code. Hardness checks after PWHT are common in refinery specifications, so give the hardness limit in the RFQ if one applies."
+        ]
+      }
     ]
   },
   "alloy-steel-f91-flanges": {
-    id: "9.0",
-    slug: "alloy-steel-f91-flanges",
-    name: "Alloy Steel F91 Flanges",
-    h1: "Alloy Steel F91 Flanges — 9Cr-1Mo-V Creep Resistant",
-    metaTitle: "Alloy Steel F91 Flange Manufacturer India | ASTM A182 F91",
-    metaDesc: "Alloy steel F91 flange manufacturer, Mumbai. UNS K91560 9Cr-1Mo-V creep-resistant steel for ultra-supercritical power steam lines to 650°C. Get a written quote.",
-    unsNumber: "K91560 (F91)",
-    governingStandard: "ASTM A182 / ASME SA-182 Grade F91",
-    chemicalComposition: [
-      { element: "Chromium (Cr)", a105: "8.0 - 9.5%", lf2: "8.0 - 9.5%" },
-      { element: "Molybdenum (Mo)", a105: "0.85 - 1.05%", lf2: "0.85 - 1.05%" },
-      { element: "Vanadium (V)", a105: "0.18 - 0.25%", lf2: "0.18 - 0.25%" },
-      { element: "Niobium (Nb)", a105: "0.06 - 0.10%", lf2: "0.06 - 0.10%" },
-      { element: "Nitrogen (N)", a105: "0.030 - 0.070%", lf2: "0.030 - 0.070%" }
+    "id": "9.0",
+    "slug": "alloy-steel-f91-flanges",
+    "name": "Alloy Steel F91 Flanges",
+    "h1": "Alloy Steel F91 Flanges — 9Cr-1Mo-V Creep Resistant",
+    "metaTitle": "Alloy Steel F91 Flange Manufacturer India | ASTM A182 F91",
+    "metaDesc": "Alloy steel F91 flange manufacturer, Mumbai. UNS K91560 9Cr-1Mo-V creep-resistant steel for ultra-supercritical power steam lines to 650°C. Get a written quote.",
+    "unsNumber": "K91560 (F91)",
+    "governingStandard": "ASTM A182 / ASME SA-182 Grade F91",
+    "chemicalComposition": [
+      {
+        "element": "Chromium (Cr)",
+        "a105": "8.0 - 9.5%",
+        "lf2": "8.0 - 9.5%"
+      },
+      {
+        "element": "Molybdenum (Mo)",
+        "a105": "0.85 - 1.05%",
+        "lf2": "0.85 - 1.05%"
+      },
+      {
+        "element": "Vanadium (V)",
+        "a105": "0.18 - 0.25%",
+        "lf2": "0.18 - 0.25%"
+      },
+      {
+        "element": "Niobium (Nb)",
+        "a105": "0.06 - 0.10%",
+        "lf2": "0.06 - 0.10%"
+      },
+      {
+        "element": "Nitrogen (N)",
+        "a105": "0.030 - 0.070%",
+        "lf2": "0.030 - 0.070%"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength", a105: "415 MPa (60 ksi) min", lf2: "415 MPa min" },
-      { property: "Tensile Strength", a105: "585 - 760 MPa", lf2: "585 - 760 MPa" },
-      { property: "Service Temp Range", a105: "Up to 650°C (1,200°F)", lf2: "Up to 650°C (1,200°F)" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength",
+        "a105": "415 MPa (60 ksi) min",
+        "lf2": "415 MPa min"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "585 - 760 MPa",
+        "lf2": "585 - 760 MPa"
+      },
+      {
+        "property": "Service Temp Range",
+        "a105": "Up to 650°C (1,200°F)",
+        "lf2": "Up to 650°C (1,200°F)"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "290 psi", class300: "750 psi", class600: "1500 psi", class900: "2250 psi" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "290 psi",
+        "class300": "750 psi",
+        "class600": "1500 psi",
+        "class900": "2250 psi"
+      }
     ],
-    overview: "ASTM A182 F91 is a 9% Chromium, 1% Molybdenum alloy steel micro-alloyed with Vanadium and Niobium, providing exceptional creep rupture strength and thermal fatigue resistance at operating temperatures up to 650°C.",
-    applications: [
+    "overview": "ASTM A182 F91 is a 9% Chromium, 1% Molybdenum alloy steel micro-alloyed with Vanadium and Niobium, providing exceptional creep rupture strength and thermal fatigue resistance at operating temperatures up to 650°C.",
+    "applications": [
       "Ultra-supercritical power plant main steam circuits",
       "Combined cycle gas turbine (CCGT) heat recovery steam generators (HRSG)",
       "High-temperature refinery hydroprocessing units",
       "High-energy steam piping systems"
     ],
-    faqs: [
+    "faqs": [
       {
-        q: "Why is post-weld heat treatment (PWHT) critical for F91 flanges?",
-        a: "F91 forms a fully martensitic structure upon cooling. Strict PWHT (typically 730°C to 760°C) is mandatory to temper the martensite and restore impact toughness."
+        "q": "Why is post-weld heat treatment (PWHT) critical for F91 flanges?",
+        "a": "F91 forms a fully martensitic structure upon cooling. Strict PWHT (typically 730°C to 760°C) is mandatory to temper the martensite and restore impact toughness."
+      },
+      {
+        "q": "Can F91 flanges be welded to P22 pipe?",
+        "a": "Dissimilar chrome-moly joints are made with qualified procedures and matched PWHT. The heat treatment temperature has to suit both materials, so the joint design is set by the piping engineer."
+      },
+      {
+        "q": "Is F91 used in refinery service?",
+        "a": "It is mainly a power-plant grade. In refinery service 9Cr-1Mo F9 or austenitic grades are more common, depending on hydrogen and sulphur conditions."
+      },
+      {
+        "q": "What should an F91 flange RFQ include?",
+        "a": "Grade and Type, ASTM edition if specified, size, class, face, bore, hardness limits, any impact or NDT requirements, and the certificate type (3.1 or 3.2)."
       }
     ],
-    relatedLinks: [
-      { title: "Alloy Steel F11/F22", url: "/materials/alloy-steel-f11-f22-flanges/" },
-      { title: "Power Generation Industry", url: "/industries/power-generation/" }
+    "relatedLinks": [
+      {
+        "title": "Alloy Steel F11/F22",
+        "url": "/materials/alloy-steel-f11-f22-flanges/"
+      },
+      {
+        "title": "Power Generation Industry",
+        "url": "/industries/power-generation/"
+      }
+    ],
+    "sections": [
+      {
+        "h2": "Why F91 replaced F22 on the hottest lines",
+        "paras": [
+          "F91 is a modified 9% chromium, 1% molybdenum steel with vanadium, niobium and controlled nitrogen. After normalising and tempering it has a tempered martensite structure with much higher creep strength than F22, so wall thickness on main steam and hot reheat piping can be reduced substantially. Thinner walls mean less weight on hangers and lower thermal stress during start-ups.",
+          "That is why it is standard on supercritical and ultra-supercritical boilers and on heat recovery steam generators in combined-cycle plants."
+        ]
+      },
+      {
+        "h2": "F91 Type 1 and Type 2",
+        "paras": [
+          "Recent editions of ASTM A182 divide F91 into Type 1 and Type 2. Type 2 has tighter limits on several elements, including residuals that affect creep performance. Specifications written to recent editions often name Type 2, so state the type and edition on your purchase order to avoid a rejected certificate."
+        ]
+      },
+      {
+        "h2": "Where F91 goes wrong",
+        "list": [
+          "Tempering temperature too low or too high, giving low hardness and poor creep strength.",
+          "Welds not given correct post-weld heat treatment, leaving untempered martensite in the weld zone.",
+          "Mix-ups with lower chrome-moly grades in the store, which is why PMI matters on every piece.",
+          "Missing hardness checks after heat treatment, when the specification sets a hardness range."
+        ]
+      }
     ]
   },
   "inconel-625-flanges": {
-    id: "10.0",
-    slug: "inconel-625-flanges",
-    name: "Inconel 625 Flanges",
-    h1: "Inconel 625 Flanges — ASTM B564 UNS N06625",
-    metaTitle: "Inconel 625 Flange Manufacturer India | ASTM B564 UNS N06625",
-    metaDesc: "Inconel 625 flange manufacturer, Mumbai. UNS N06625 Ni-Cr-Mo alloy, extreme pitting & thermal resistance from cryogenic to 980°C. Get a written quote.",
-    unsNumber: "N06625",
-    governingStandard: "ASTM B564 / ASME SB-564 UNS N06625",
-    chemicalComposition: [
-      { element: "Nickel (Ni)", a105: "58.0% min", lf2: "58.0% min" },
-      { element: "Chromium (Cr)", a105: "20.0 - 23.0%", lf2: "20.0 - 23.0%" },
-      { element: "Molybdenum (Mo)", a105: "8.0 - 10.0%", lf2: "8.0 - 10.0%" },
-      { element: "Niobium + Tantalum (Nb+Ta)", a105: "3.15 - 4.15%", lf2: "3.15 - 4.15%" }
+    "id": "10.0",
+    "slug": "inconel-625-flanges",
+    "name": "Inconel 625 Flanges",
+    "h1": "Inconel 625 Flanges — ASTM B564 UNS N06625",
+    "metaTitle": "Inconel 625 Flange Manufacturer India | ASTM B564 UNS N06625",
+    "metaDesc": "Inconel 625 flange manufacturer, Mumbai. UNS N06625 Ni-Cr-Mo alloy, extreme pitting & thermal resistance from cryogenic to 980°C. Get a written quote.",
+    "unsNumber": "N06625",
+    "governingStandard": "ASTM B564 / ASME SB-564 UNS N06625",
+    "chemicalComposition": [
+      {
+        "element": "Nickel (Ni)",
+        "a105": "58.0% min",
+        "lf2": "58.0% min"
+      },
+      {
+        "element": "Chromium (Cr)",
+        "a105": "20.0 - 23.0%",
+        "lf2": "20.0 - 23.0%"
+      },
+      {
+        "element": "Molybdenum (Mo)",
+        "a105": "8.0 - 10.0%",
+        "lf2": "8.0 - 10.0%"
+      },
+      {
+        "element": "Niobium + Tantalum (Nb+Ta)",
+        "a105": "3.15 - 4.15%",
+        "lf2": "3.15 - 4.15%"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength", a105: "414 MPa (60 ksi) min", lf2: "414 MPa min" },
-      { property: "Tensile Strength", a105: "827 MPa (120 ksi) min", lf2: "827 MPa min" },
-      { property: "Elongation", a105: "30% min", lf2: "30% min" },
-      { property: "Service Temp Range", a105: "Cryogenic to 980°C (1,800°F)", lf2: "Cryogenic to 980°C" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength",
+        "a105": "414 MPa (60 ksi) min",
+        "lf2": "414 MPa min"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "827 MPa (120 ksi) min",
+        "lf2": "827 MPa min"
+      },
+      {
+        "property": "Elongation",
+        "a105": "30% min",
+        "lf2": "30% min"
+      },
+      {
+        "property": "Service Temp Range",
+        "a105": "Cryogenic to 980°C (1,800°F)",
+        "lf2": "Cryogenic to 980°C"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "290 psi", class300: "750 psi", class600: "1500 psi", class900: "2250 psi" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "290 psi",
+        "class300": "750 psi",
+        "class600": "1500 psi",
+        "class900": "2250 psi"
+      }
     ],
-    overview: "Inconel 625 (UNS N06625) is a nickel-chromium-molybdenum alloy solid-solution strengthened by Niobium and Molybdenum, exhibiting outstanding resistance to severe oxidation, chloride pitting, and stress corrosion cracking from cryogenic temperatures up to 980°C.",
-    applications: [
+    "overview": "Inconel 625 (UNS N06625) is a nickel-chromium-molybdenum alloy solid-solution strengthened by Niobium and Molybdenum, exhibiting outstanding resistance to severe oxidation, chloride pitting, and stress corrosion cracking from cryogenic temperatures up to 980°C.",
+    "applications": [
       "Subsea sour gas riser piping and flare stacks",
       "Chemical process equipment handling organic and inorganic acids",
       "Marine seawater components exposed to high velocity flow",
       "Nuclear reactor control rod components"
     ],
-    faqs: [
+    "faqs": [
       {
-        q: "What gives Inconel 625 its high strength without heat treatment?",
-        a: "The stiffening effect of Molybdenum and Niobium on the Nickel-Chromium matrix provides high strength without requiring age-hardening heat treatments."
+        "q": "What gives Inconel 625 its high strength without heat treatment?",
+        "a": "The stiffening effect of Molybdenum and Niobium on the Nickel-Chromium matrix provides high strength without requiring age-hardening heat treatments."
+      },
+      {
+        "q": "Is Inconel 625 the same as Alloy 625?",
+        "a": "Inconel is a trade name. Flanges are ordered by specification: ASTM B564 / ASME SB-564 UNS N06625, which is what the certificate will state."
+      },
+      {
+        "q": "How does 625 compare with Hastelloy C-276?",
+        "a": "Both resist chlorides very well. C-276 has more molybdenum and is often chosen for strongly reducing acids and wet chlorine. 625 has higher strength and is common in seawater and high-temperature service."
+      },
+      {
+        "q": "Can 625 flanges be welded to super duplex pipe?",
+        "a": "Yes, nickel-alloy fillers are often used for such dissimilar joints. The weld procedure must be qualified for the combination."
       }
     ],
-    relatedLinks: [
-      { title: "Hastelloy C-276", url: "/materials/hastelloy-c276-flanges/" },
-      { title: "Chemical Processing", url: "/industries/chemical-processing/" }
+    "relatedLinks": [
+      {
+        "title": "Hastelloy C-276",
+        "url": "/materials/hastelloy-c276-flanges/"
+      },
+      {
+        "title": "Chemical Processing",
+        "url": "/industries/chemical-processing/"
+      }
+    ],
+    "sections": [
+      {
+        "h2": "Grade 1 and Grade 2 under ASTM B564",
+        "paras": [
+          "Alloy 625 (UNS N06625) is supplied in two conditions. Grade 1 is annealed and used for service up to about 593°C (1100°F). Grade 2 is solution annealed and used above that temperature where creep-rupture strength governs. The chemistry is the same, so the certificate must show the condition your design code assumes.",
+          "Its strength comes from molybdenum and niobium in solid solution in a nickel-chromium matrix, which is why it does not need age hardening."
+        ]
+      },
+      {
+        "h2": "Where Alloy 625 flanges are used",
+        "list": [
+          "Seawater and firewater systems needing resistance beyond super duplex, including warm or chlorinated water.",
+          "Offshore riser, manifold and subsea connections, often as solid flanges matching clad pipe.",
+          "Flue gas desulphurisation scrubbers and ducts in power plants.",
+          "Chemical plants handling mixed acids and chlorides, and aerospace and exhaust systems at high temperature."
+        ]
+      },
+      {
+        "h2": "Solid 625 or a clad flange?",
+        "paras": [
+          "For large or high-class flanges, a carbon or low-alloy steel body with an Alloy 625 weld overlay on wetted faces is sometimes cheaper than a solid forging. Which option is acceptable is set by the project specification, so state whether solid alloy is mandatory. This page covers solid B564 forgings."
+        ]
+      }
     ]
   },
   "hastelloy-c276-flanges": {
-    id: "11.0",
-    slug: "hastelloy-c276-flanges",
-    name: "Hastelloy C-276 Flanges",
-    h1: "Hastelloy C-276 Flanges — ASTM B564 UNS N10276",
-    metaTitle: "Hastelloy C276 Flange Manufacturer India | ASTM B564 UNS N10276",
-    metaDesc: "Hastelloy C-276 flange manufacturer, Mumbai. UNS N10276 Ni-Mo-Cr alloy for wet chlorine, ferric/cupric chlorides, severe chemical service. Get a written quote.",
-    unsNumber: "N10276",
-    governingStandard: "ASTM B564 / ASME SB-564 UNS N10276",
-    chemicalComposition: [
-      { element: "Nickel (Ni)", a105: "~57.0% balance", lf2: "~57.0% balance" },
-      { element: "Molybdenum (Mo)", a105: "15.0 - 17.0%", lf2: "15.0 - 17.0%" },
-      { element: "Chromium (Cr)", a105: "14.5 - 16.5%", lf2: "14.5 - 16.5%" },
-      { element: "Tungsten (W)", a105: "3.0 - 4.5%", lf2: "3.0 - 4.5%" }
+    "id": "11.0",
+    "slug": "hastelloy-c276-flanges",
+    "name": "Hastelloy C-276 Flanges",
+    "h1": "Hastelloy C-276 Flanges — ASTM B564 UNS N10276",
+    "metaTitle": "Hastelloy C276 Flange Manufacturer India | ASTM B564 UNS N10276",
+    "metaDesc": "Hastelloy C-276 flange manufacturer, Mumbai. UNS N10276 Ni-Mo-Cr alloy for wet chlorine, ferric/cupric chlorides, severe chemical service. Get a written quote.",
+    "unsNumber": "N10276",
+    "governingStandard": "ASTM B564 / ASME SB-564 UNS N10276",
+    "chemicalComposition": [
+      {
+        "element": "Nickel (Ni)",
+        "a105": "~57.0% balance",
+        "lf2": "~57.0% balance"
+      },
+      {
+        "element": "Molybdenum (Mo)",
+        "a105": "15.0 - 17.0%",
+        "lf2": "15.0 - 17.0%"
+      },
+      {
+        "element": "Chromium (Cr)",
+        "a105": "14.5 - 16.5%",
+        "lf2": "14.5 - 16.5%"
+      },
+      {
+        "element": "Tungsten (W)",
+        "a105": "3.0 - 4.5%",
+        "lf2": "3.0 - 4.5%"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength", a105: "283 MPa (41 ksi) min", lf2: "283 MPa min" },
-      { property: "Tensile Strength", a105: "690 MPa (100 ksi) min", lf2: "690 MPa min" },
-      { property: "Service Temp Range", a105: "Cryogenic to 1,090°C", lf2: "Cryogenic to 1,090°C" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength",
+        "a105": "283 MPa (41 ksi) min",
+        "lf2": "283 MPa min"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "690 MPa (100 ksi) min",
+        "lf2": "690 MPa min"
+      },
+      {
+        "property": "Service Temp Range",
+        "a105": "Cryogenic to 1,090°C",
+        "lf2": "Cryogenic to 1,090°C"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "290 psi", class300: "750 psi", class600: "1500 psi", class900: "2250 psi" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "290 psi",
+        "class300": "750 psi",
+        "class600": "1500 psi",
+        "class900": "2250 psi"
+      }
     ],
-    overview: "Hastelloy C-276 (UNS N10276) is a premier nickel-molybdenum-chromium-tungsten alloy designed for maximum corrosion resistance in severe reducing and oxidizing chemical environments, including wet chlorine gas and ferric/cupric chlorides.",
-    applications: [
+    "overview": "Hastelloy C-276 (UNS N10276) is a premier nickel-molybdenum-chromium-tungsten alloy designed for maximum corrosion resistance in severe reducing and oxidizing chemical environments, including wet chlorine gas and ferric/cupric chlorides.",
+    "applications": [
       "Flue gas desulfurization (FGD) scrubbers",
       "Chemical reactors handling hot contaminated mineral acids",
       "Sour gas wells containing high H2S and elemental sulfur",
       "Pulp & paper chlorine dioxide bleaching vessels"
     ],
-    faqs: [
+    "faqs": [
       {
-        q: "Can Hastelloy C-276 resist wet chlorine gas?",
-        a: "Yes. Hastelloy C-276 is one of the few metallic alloys capable of resisting wet chlorine gas, hypochlorite, and chlorine dioxide solutions."
+        "q": "Can Hastelloy C-276 resist wet chlorine gas?",
+        "a": "Yes. Hastelloy C-276 is one of the few metallic alloys capable of resisting wet chlorine gas, hypochlorite, and chlorine dioxide solutions."
+      },
+      {
+        "q": "Is Hastelloy C-276 the same as Alloy C-276?",
+        "a": "Hastelloy is a trade name. The flange is specified and certified as UNS N10276 to ASTM B564 / ASME SB-564."
+      },
+      {
+        "q": "When would C-276 be chosen over 316L?",
+        "a": "When chlorides, acids or temperature are beyond 316L or duplex, for example hot hydrochloric acid traces or wet chlorine. It costs much more, so it is used only where needed."
+      },
+      {
+        "q": "Does C-276 suit oxidising acids such as hot nitric acid?",
+        "a": "Strongly oxidising acids are not its strength. Other alloys are usually better there, so send the process chemistry for a material review."
       }
     ],
-    relatedLinks: [
-      { title: "Inconel 625 Flanges", url: "/materials/inconel-625-flanges/" },
-      { title: "Monel 400 Flanges", url: "/materials/monel-400-flanges/" }
+    "relatedLinks": [
+      {
+        "title": "Inconel 625 Flanges",
+        "url": "/materials/inconel-625-flanges/"
+      },
+      {
+        "title": "Monel 400 Flanges",
+        "url": "/materials/monel-400-flanges/"
+      }
+    ],
+    "sections": [
+      {
+        "h2": "What makes C-276 different",
+        "paras": [
+          "Alloy C-276 (UNS N10276) is a nickel-molybdenum-chromium alloy with tungsten, with about 16% each of molybdenum and chromium. Its carbon and silicon are kept very low so that grain-boundary precipitates do not form in the weld heat-affected zone. In most chemical services it can therefore be used in the as-welded condition without a further solution anneal.",
+          "The combination of molybdenum and chromium covers both reducing and oxidising media, which is why it is used where process chemistry changes or is not fully known."
+        ]
+      },
+      {
+        "h2": "Typical C-276 flange duties",
+        "list": [
+          "Wet chlorine, hypochlorite and chlorine dioxide in pulp bleaching and chlor-alkali plants.",
+          "Flue gas desulphurisation absorbers, outlet ducts and reheaters.",
+          "Hydrochloric and sulphuric acid service within concentration and temperature limits.",
+          "Pharmaceutical and fine chemical reactors where several acids are handled in one vessel."
+        ]
+      },
+      {
+        "h2": "Ordering C-276 flanges",
+        "paras": [
+          "Order to ASTM B564 / ASME SB-564 UNS N10276, solution annealed. State the flange type and class, the face finish for your gasket, and whether corrosion testing such as ASTM G28 is required. PMI testing confirms nickel, molybdenum and chromium levels before dispatch."
+        ]
+      }
     ]
   },
   "monel-400-flanges": {
-    id: "12.0",
-    slug: "monel-400-flanges",
-    name: "Monel 400 Flanges",
-    h1: "Monel 400 Flanges — ASTM B564 UNS N04400",
-    metaTitle: "Monel 400 Flange Manufacturer India | ASTM B564 UNS N04400",
-    metaDesc: "Monel 400 flange manufacturer, Mumbai. UNS N04400 Ni-Cu alloy, immune to chloride stress corrosion cracking, hydrofluoric acid service spec. Get a written quote.",
-    unsNumber: "N04400",
-    governingStandard: "ASTM B564 / ASME SB-564 UNS N04400",
-    chemicalComposition: [
-      { element: "Nickel (Ni)", a105: "63.0% min", lf2: "63.0% min" },
-      { element: "Copper (Cu)", a105: "28.0 - 34.0%", lf2: "28.0 - 34.0%" },
-      { element: "Iron (Fe)", a105: "2.5% max", lf2: "2.5% max" },
-      { element: "Manganese (Mn)", a105: "2.0% max", lf2: "2.0% max" }
+    "id": "12.0",
+    "slug": "monel-400-flanges",
+    "name": "Monel 400 Flanges",
+    "h1": "Monel 400 Flanges — ASTM B564 UNS N04400",
+    "metaTitle": "Monel 400 Flange Manufacturer India | ASTM B564 UNS N04400",
+    "metaDesc": "Monel 400 flange manufacturer, Mumbai. UNS N04400 Ni-Cu alloy, immune to chloride stress corrosion cracking, hydrofluoric acid service spec. Get a written quote.",
+    "unsNumber": "N04400",
+    "governingStandard": "ASTM B564 / ASME SB-564 UNS N04400",
+    "chemicalComposition": [
+      {
+        "element": "Nickel (Ni)",
+        "a105": "63.0% min",
+        "lf2": "63.0% min"
+      },
+      {
+        "element": "Copper (Cu)",
+        "a105": "28.0 - 34.0%",
+        "lf2": "28.0 - 34.0%"
+      },
+      {
+        "element": "Iron (Fe)",
+        "a105": "2.5% max",
+        "lf2": "2.5% max"
+      },
+      {
+        "element": "Manganese (Mn)",
+        "a105": "2.0% max",
+        "lf2": "2.0% max"
+      }
     ],
-    mechanicalProperties: [
-      { property: "Yield Strength", a105: "240 MPa (35 ksi) min", lf2: "240 MPa min" },
-      { property: "Tensile Strength", a105: "480 - 620 MPa", lf2: "480 - 620 MPa" },
-      { property: "Service Temp Range", a105: "Cryogenic to 480°C", lf2: "Cryogenic to 480°C" }
+    "mechanicalProperties": [
+      {
+        "property": "Yield Strength",
+        "a105": "240 MPa (35 ksi) min",
+        "lf2": "240 MPa min"
+      },
+      {
+        "property": "Tensile Strength",
+        "a105": "480 - 620 MPa",
+        "lf2": "480 - 620 MPa"
+      },
+      {
+        "property": "Service Temp Range",
+        "a105": "Cryogenic to 480°C",
+        "lf2": "Cryogenic to 480°C"
+      }
     ],
-    ptRatings: [
-      { tempC: "Ambient (-29 to 38°C)", class150: "290 psi", class300: "750 psi", class600: "1500 psi", class900: "2250 psi" }
+    "ptRatings": [
+      {
+        "tempC": "Ambient (-29 to 38°C)",
+        "class150": "290 psi",
+        "class300": "750 psi",
+        "class600": "1500 psi",
+        "class900": "2250 psi"
+      }
     ],
-    overview: "Monel 400 (UNS N04400) is a nickel-copper alloy exhibiting high strength, excellent weldability, and exceptional resistance to rapidly flowing seawater, hydrofluoric acid, and alkalis.",
-    applications: [
+    "overview": "Monel 400 (UNS N04400) is a nickel-copper alloy exhibiting high strength, excellent weldability, and exceptional resistance to rapidly flowing seawater, hydrofluoric acid, and alkalis.",
+    "applications": [
       "Hydrofluoric (HF) acid alkylation units in oil refineries",
       "Marine propeller shafts and seawater piping systems",
       "Brine heaters and evaporators in desalination plants",
       "Caustic soda concentration plant equipment"
     ],
-    faqs: [
+    "faqs": [
       {
-        q: "Is Monel 400 resistant to Hydrofluoric (HF) acid?",
-        a: "Yes. Monel 400 is the standard metallic material of choice for HF acid service up to boiling temperatures, provided aeration is controlled."
+        "q": "Is Monel 400 resistant to Hydrofluoric (HF) acid?",
+        "a": "Yes. Monel 400 is the standard metallic material of choice for HF acid service up to boiling temperatures, provided aeration is controlled."
+      },
+      {
+        "q": "Is Monel 400 suitable for hydrofluoric acid at all concentrations?",
+        "a": "It is widely used across HF concentrations, but performance depends on aeration and temperature. Licensor and plant specifications set the limits, so send them with the RFQ."
+      },
+      {
+        "q": "Can Monel 400 flanges be welded to carbon steel?",
+        "a": "Yes, with a nickel-alloy filler and a qualified procedure. Galvanic effects in seawater should be considered at the dissimilar joint."
+      },
+      {
+        "q": "What is the difference between Monel 400 and Monel K-500?",
+        "a": "K-500 adds aluminium and titanium and is age hardened for higher strength. Flanges are normally Alloy 400; K-500 is used for shafts, springs and bolting."
+      },
+      {
+        "q": "Which certificate is supplied with Monel 400 flanges?",
+        "a": "EN 10204 3.1 with heat number, chemistry, mechanicals and anneal condition, plus PMI. 3.2 with third-party witness on request."
       }
     ],
-    relatedLinks: [
-      { title: "Marine Industry", url: "/industries/marine/" },
-      { title: "Hastelloy C-276", url: "/materials/hastelloy-c276-flanges/" }
+    "relatedLinks": [
+      {
+        "title": "Marine Industry",
+        "url": "/industries/marine/"
+      },
+      {
+        "title": "Hastelloy C-276",
+        "url": "/materials/hastelloy-c276-flanges/"
+      }
+    ],
+    "sections": [
+      {
+        "h2": "Where Monel 400 outperforms stainless",
+        "paras": [
+          "Alloy 400 (UNS N04400) is about two-thirds nickel and one-third copper. It is not subject to chloride stress corrosion cracking in the way austenitic stainless steels are, and it resists hydrofluoric acid, alkalis and fast-flowing seawater. That combination makes it the traditional choice for HF alkylation units in refineries and for many marine pump, valve and piping systems.",
+          "It is used in the annealed condition for piping flanges. The age-hardenable sister alloy K-500 (UNS N05500) is a different material used for shafts and fasteners, not a substitute on a flange order."
+        ]
+      },
+      {
+        "h2": "Limits to know before specifying Alloy 400",
+        "list": [
+          "Stagnant or slow-moving seawater can cause pitting and crevice attack, especially under deposits.",
+          "Aerated hydrofluoric acid and HF vapour with air present can cause stress corrosion cracking; control of aeration matters.",
+          "Oxidising acids such as nitric acid and oxidising salts attack it.",
+          "Sulphur-bearing atmospheres at high temperature are not suitable."
+        ]
+      },
+      {
+        "h2": "Typical Monel 400 flange applications",
+        "paras": [
+          "HF alkylation unit piping and acid regeneration sections, seawater cooling lines on ships and offshore platforms, brine heaters and evaporators in desalination, caustic soda evaporators, and boiler feedwater heaters. When ordering, state ASTM B564 / ASME SB-564 UNS N04400, the class and face, and any HF-service requirements from your licensor specification such as hardness limits."
+        ]
+      }
     ]
   }
 };

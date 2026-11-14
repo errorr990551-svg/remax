@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home, ChevronRight, CheckCircle2, ShieldCheck, Award, Target, Users, Zap } from 'lucide-react';
 import MetaTags from '../components/common/MetaTags.jsx';
+import PageGuide from '../components/common/PageGuide.jsx';
 
 const Quality = () => {
   return (
@@ -135,6 +136,8 @@ const Quality = () => {
                 </p>
             </div>
         </div>
+
+        <PageGuide path="/quality/" />
 
       </div>
     </div>
