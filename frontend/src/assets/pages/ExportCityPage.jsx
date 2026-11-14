@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { ShieldCheck, ArrowRight, CheckCircle2, Factory, Award, Truck, ChevronDown, ChevronUp, Home, HelpCircle, Calculator, FileText, MapPin, ClipboardList, Scale } from 'lucide-react';
 import MetaTags from '../components/common/MetaTags.jsx';
+import { PageSchema } from '../components/common/usePageSchema.js';
 import { exportCitiesData } from '../data/exportCitiesData.js';
 import flangeDimensions from '../data/flange_dimensions.json';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
@@ -9,9 +10,6 @@ import { useProductMenu } from '../context/ProductMenuContext.jsx';
 import { FLANGE_TYPES, MATERIALS, RFQ_CHECKLIST, PRICE_FACTORS } from '../data/exportShared.js';
 
 // Flange types offered, with the job each one does on a piping system.
-
-
-
 
 // Real Class 150 carbon steel weights from the site's own ASME B16.5 tables.
 const WEIGHT_TABLES = Object.entries(flangeDimensions)
@@ -59,31 +57,10 @@ const ExportCityPage = () => {
     .map((q) => ({ q, a: faqAnswer(q, cityData) }));
   const faqs = [...(cityData.faqs || []), ...baseFaqs];
 
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Remax Forge & Fittings",
-    "url": "https://remaxforge.com",
-    "logo": "https://remaxforge.com/images/REMAX_FORGE_AND_FITTINGS-01.webp",
-    "address": { "@type": "PostalAddress", "addressLocality": "Mumbai", "addressRegion": "Maharashtra", "addressCountry": "India" },
-    "description": cityData.metaDescription
-  };
-
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": faqs.map((item) => ({ "@type": "Question", "name": item.q, "acceptedAnswer": { "@type": "Answer", "text": item.a } }))
-  };
-
-  const breadcrumbSchema = {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://remaxforge.com/" },
-      { "@type": "ListItem", "position": 2, "name": "Where We Export", "item": "https://remaxforge.com/export/" },
-      { "@type": "ListItem", "position": 3, "name": cityData.country, "item": `https://remaxforge.com/export/${cityData.countrySlug}/` },
-      { "@type": "ListItem", "position": 4, "name": cityData.city, "item": `https://remaxforge.com${cityData.url}` }
-    ]
   };
 
   const card = 'bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm space-y-4';
@@ -91,9 +68,7 @@ const ExportCityPage = () => {
   return (
     <div className="w-full font-sans bg-slate-50 min-h-screen text-slate-800">
       <MetaTags title={cityData.metaTitle} description={cityData.metaDescription} keywords={cityData.keywords} robots="index, follow" />
-      <script type="application/ld+json">{JSON.stringify(organizationSchema)}</script>
-      <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
-      <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+      <PageSchema schemas={[faqSchema]} />
 
       {/* Hero */}
       <div className="relative w-full bg-slate-900 text-white pt-28 pb-16 px-4 sm:px-6 lg:px-8">
