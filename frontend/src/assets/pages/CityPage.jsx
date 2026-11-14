@@ -7,6 +7,7 @@ import MetaTags from '../components/common/MetaTags.jsx';
 import NotFound from './NotFound.jsx';
 import { marketAreaData } from '../data/marketAreaData.js';
 import usePageSchema, { faqSchema } from '../components/common/usePageSchema.js';
+import FlangeRfqBlock from '../components/common/FlangeRfqBlock.jsx';
 
 const CityPage = () => {
   const { cityName } = useParams();
@@ -265,6 +266,15 @@ const CityPage = () => {
                 </div>
               )}
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* Flange range table + RFQ checklist + Get Quote (cities with rfqSupply) */}
+      {data.rfqSupply && (
+        <div className="py-12 bg-white border-t border-slate-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <FlangeRfqBlock supply={data.rfqSupply} productName={`Flanges for ${data.city}`} />
           </div>
         </div>
       )}
