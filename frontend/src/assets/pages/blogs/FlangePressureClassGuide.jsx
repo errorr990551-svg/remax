@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Home, ChevronRight, Clock, User, Gauge, ShieldCheck, CheckCircle2 } from 'lucide-react';
 import MetaTags from '../../components/common/MetaTags.jsx';
 import TrustBar from '../../components/common/TrustBar.jsx';
+import PageGuide from '../../components/common/PageGuide.jsx';
 
 const FlangePressureClassGuide = () => {
   return (
@@ -173,6 +174,7 @@ const FlangePressureClassGuide = () => {
               </div>
             </div>
 
+            <PageGuide path="/blogs/flange-pressure-class-guide/" />
             {/* CTAs */}
             <div className="bg-slate-900 text-white rounded-2xl p-8 mt-12 not-prose text-center">
               <h3 className="text-2xl font-bold mb-3">Order ASME B16.5 Flanges Across All Pressure Classes</h3>

@@ -6,6 +6,7 @@ import {
   HowToOrder,
   FlangeFAQs
 } from '../../components/products/flanges/FlangeCommonContent.jsx';
+import PageGuide from '../../components/common/PageGuide.jsx';
 
 const BoilerQualityPlateSupplierinIndia = () => {
   const { openQuotePopup } = useQuotePopup();
@@ -87,24 +88,7 @@ const BoilerQualityPlateSupplierinIndia = () => {
           </div>
         </div>
 
-        {/* Content Brief Outlines */}
-        <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-[#0F172A] border-l-4 border-[#D71920] pl-3 mb-6">
-            What is Boiler Quality Plate
-          </h2>
-          <div className="space-y-6 text-slate-600 leading-relaxed font-medium text-sm md:text-base">
-            <p>Intro: BQ plate — low-alloy carbon steel for pressure vessels and boilers at elevated temperatures.</p>
-            <p>IS 2002 grades: Grade 1 (up to 250°C), Grade 2 (up to 350°C), Grade 3 (up to 450°C) — chemical composition and UTS table.</p>
-            <p>ASTM A516: Gr55/Gr60/Gr65/Gr70 — yield strength and UTS table.</p>
-            <p>Equivalence table: IS 2002 Gr2 ≈ A516 Gr60; IS 2002 Gr3 ≈ A516 Gr70.</p>
-            <p>Thickness range: 6mm to 150mm in standard mill sizes (up to 3000mm × 12000mm).</p>
-            <p>Normalizing: mandatory for thickness &gt; 40mm per IS 2002; ASTM A516 all thicknesses if Charpy required.</p>
-            <p>IBR scope: boiler drums, headers, steam vessels above 1 kg/cm² per IBR 1950 Reg 4.</p>
-            <p>Applications: boiler drums, pressure vessels, heat exchanger shells, storage tanks.</p>
-            <p>NACE HIC testing (Hydrogen Induced Cracking) for sour service — HIC-tested A516 Gr70.</p>
-            <p>CTA.</p>
-          </div>
-        </div>
+        <PageGuide path="/product-details/boiler-quality-plate/" />
 
         {/* Technical Specification Table */}
         <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">

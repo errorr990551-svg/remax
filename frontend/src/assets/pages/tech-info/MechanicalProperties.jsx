@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home, ChevronRight, Settings } from 'lucide-react';
 import MetaTags from '../../components/common/MetaTags.jsx';
+import PageGuide from '../../components/common/PageGuide.jsx';
 
 const MechanicalProperties = () => {
   return (
@@ -98,6 +99,8 @@ const MechanicalProperties = () => {
             </table>
           </div>
         </div>
+
+        <PageGuide path="/tech-info/mechanical-properties/" />
 
       </div>
     </div>

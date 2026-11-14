@@ -67,3 +67,12 @@ a question and the next daily run will use it.
 21. **Vendor status:** the new city FAQs say plainly that we are not an approved vendor for NHPC, NEEPCO,
     Oil India, SAIL, the ordnance factories or Milkfed, and that orders come through contractors. If you
     hold any of these registrations, tell us and the FAQs will be updated.
+22. **Galvanised finish, IS 6392 and wall/puddle flanges:** the product pages don't say whether we supply
+    hot-dip galvanised flanges, flanges to IS 6392, or wall/puddle flanges. The 13 new city pages
+    (Nagaland, Tripura, Assam, Meghalaya, Bihar, Mizoram) only say "the quote will state the finish we can
+    offer" or "we will confirm on the quote". Some of the first 20 city pages still say "galvanised ... on
+    request" (e.g. /gaya/ grades row). Confirm which of these we supply.
+23. **More vendor status:** the new FAQs also say we are not a registered vendor of ONGC, OTPC, TSECL or
+    MePGCL (as well as NEEPCO), and that supply goes through contractors. Tell us if this is wrong.
+24. **Qatar towns without a verifiable source (Day 3):** /export/qatar/shagra/ and /export/qatar/al-jeryan/ have no Wikipedia article and no other source was found, so they were left unchanged (still thin). Is there a correct spelling or a source for these places, or should they be dropped from the town list?
+25. **Qatar "standards" field:** the town data said "ASME B16.5 + QatarEnergy specs", which reads like a vendor approval. On the 38 Day 3 pages it now says "ASME B16.5 / B16.47". Confirm whether to change it on the other 81 Qatar town pages too (planned for Days 4–5).

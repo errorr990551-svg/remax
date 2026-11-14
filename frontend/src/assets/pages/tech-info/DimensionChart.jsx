@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home, ChevronRight, Grid } from 'lucide-react';
 import MetaTags from '../../components/common/MetaTags.jsx';
+import PageGuide from '../../components/common/PageGuide.jsx';
 
 const DimensionChart = () => {
   return (
@@ -137,6 +138,8 @@ const DimensionChart = () => {
             Note: Dimensions and weights are for reference only. Please consult standard specifications for critical applications.
           </div>
         </div>
+
+        <PageGuide path="/tech-info/dimension-chart/" />
 
       </div>
     </div>

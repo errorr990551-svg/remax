@@ -3440,13 +3440,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in jorhat",
     "secondaryKeywords": "flange manufacturer in Jorhat; forged fittings supplier Jorhat; ASME B16.5 flanges Jorhat; pipe fittings Jorhat; pipe flanges Jorhat",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Jorhat | Remax Forge",
-      "description": "Flanges & forged fittings for Jorhat's oil & gas field and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Jorhat, Assam | Remax Forge",
+      "description": "Flange Supplier in Jorhat: weld neck and RTJ flanges for ONGC drilling contractors and A105 flanges for Cinnamara tea units. ASME B16.5, 3.1 MTC.",
       "keywords": "flange manufacturer in Jorhat; forged fittings supplier Jorhat; ASME B16.5 flanges Jorhat; pipe fittings Jorhat; pipe flanges Jorhat"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Jorhat",
-      "subheadline": "Flanges, butt-weld and forged fittings for Jorhat's oil & gas field and food & agro units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 8 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Jorhat",
+      "subheadline": "Weld neck and RTJ flanges for oilfield contractors and A105 flanges for the Cinnamara estate and Jorhat tea factories, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Jorhat",
       "highlights": [
         {
@@ -3454,8 +3454,8 @@ export const marketAreaData = {
           "reason": "Drilling manifolds, wellheads & high-stress extraction lines: High-Pressure SW Elbows, Duplex Blind Flanges."
         },
         {
-          "feature": "~8-day delivery via NH27 via Guwahati",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Jorhat."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Jorhat is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -3463,60 +3463,53 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: A105, F52/F60 on request, SS 316L",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Jorhat",
-    "introParagraph": "Supplying Jorhat means understanding ONGC operations, tea research & processing. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/buttweld-fittings/butt-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">butt weld elbows</a> and <a href=\"/products/flanges/lap-joint-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">lap joint flanges</a> from Mumbai into Cinnamara industrial estate — A105, F52/F60 on request, SS 316L, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Jorhat's flange orders split between oilfield contractors working with ONGC's Jorhat office and the tea and small engineering units around Cinnamara. Remax Forge supplies <a href=\"/products/flanges/weld-neck-flange-for-oil-and-gas/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges for gas and oilfield lines</a>, <a href=\"/products/flanges/rtj-face-flange-manufacturer/\" class=\"text-[#D71920] hover:underline font-semibold\">RTJ ring-groove flanges</a> and <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges for spare nozzles</a> for this work from our Mumbai works with an EN 10204 3.1 MTC. Nearby pages: <a href=\"/tezpur/\" class=\"text-[#D71920] hover:underline font-semibold\">Tezpur</a> and <a href=\"/dibrugarh/\" class=\"text-[#D71920] hover:underline font-semibold\">Dibrugarh</a>.",
     "localGuide": {
-      "heading": "Flanges & Fittings for Jorhat: Oil & Gas and Food & Agro Industry",
+      "heading": "Jorhat: Cinnamara, the tea estates and ONGC's Jorhat base",
       "paragraphs": [
-        "Jorhat's demand for flanges and fittings comes mainly from ONGC operations, tea research & processing. Gas-field and production work calls for Class 600–2500 RTJ flanges, 6000# forged fittings and NACE MR0175 material where sour service is specified. Food, sugar and agro-processing units order SS 304/316 flanges and butt-weld fittings for juice, syrup, oil and process lines, plus carbon steel flanges for boiler and utility piping.",
-        "Stock items for Jorhat are dispatched from Mumbai in 24–48 hours and reach site by road in about 8 days (NH27 via Guwahati). Non-stock sizes and custom forgings run 7–15 working days. Send your size, class, facing, grade and pipe schedule, or simply the BOQ or line list, and we will quote line by line.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Guwahati, Silchar, Dibrugarh and Tezpur, so mixed orders for plants in the region can be planned together."
+        "Assam's industries department lists an industrial estate at Cinnamora, Jorhat, with 29 sheds. The neighbouring Cinnamora Tea Estate, set up in 1850 by Maniram Dewan, is described as Assam's first tea estate, and its Tocklai division is leased to the Tea Research Association's Tocklai Tea Research Institute.",
+        "ONGC has an office complex and residential colony at Cinnamara, and ONGC Jorhat issues tenders for construction of new development locations. ONGC's Assam Asset headquarters is at Nazira in Sivasagar district, not in Jorhat, so supplies for Jorhat-area drilling and production work generally go through contractors.",
+        "Wellsite, flowline and gathering station work uses weld neck flanges to ASME B16.5 in Class 600 to 2500, often RTJ-faced, and blind flanges on test points and spare connections. Tea factories and the Cinnamara estate sheds need more modest A105 flanges in Class 150 or 300 for boilers, steam and water."
       ],
       "areas": [
         {
-          "name": "Cinnamara industrial estate"
+          "name": "Cinnamora Industrial Estate",
+          "note": "29 sheds, Jorhat"
         },
         {
-          "name": "Guwahati",
-          "note": "nearby city on the same dispatch route"
+          "name": "ONGC Cinnamara complex",
+          "note": "office and colony"
         },
         {
-          "name": "Silchar",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Dibrugarh",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Tezpur",
-          "note": "nearby city on the same dispatch route"
+          "name": "Cinnamora Tea Estate",
+          "note": "Tocklai division"
         }
       ],
       "specs": [
         {
-          "service": "Wellhead & manifold piping",
-          "spec": "Class 900–2500 RTJ weld neck flanges; 6000# A105 / F316 forged fittings"
+          "service": "Flowlines and wellsite piping",
+          "spec": "Weld neck RTJ, Class 600–2500, A105 or A350 LF2"
         },
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Test points and spare connections",
+          "spec": "Blind flanges, RF or RTJ, in the line class"
         },
         {
-          "service": "Sour gas service",
-          "spec": "NACE MR0175 / ISO 15156 material, hardness-tested, with 3.1 certificates"
+          "service": "Tea factory boilers and steam",
+          "spec": "Slip-on or weld neck RF, Class 150/300, A105"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
+          "service": "Estate shed utilities",
+          "spec": "Slip-on and threaded, Class 150"
         }
       ]
     },
-    "logistics": "Route: NH27 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Jorhat. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Jorhat. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Oil & Gas (Upstream)",
@@ -3570,28 +3563,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "What products can buyers in Jorhat source from Remax Forge?",
-        "a": "We deliver Weld Neck Flanges, Butt Weld Elbows, Lap Joint Flanges and Spectacle Blind Flanges to Jorhat in A105, F52/F60 on request, SS 316L, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from oil & gas (upstream) and agro & food processing — including units around Cinnamara industrial estate — and every lot ships with EN 10204 3.1 certification."
+        "q": "Can you supply RTJ weld neck flanges for oilfield work near Jorhat?",
+        "a": "Yes. Weld neck RTJ flanges to ASME B16.5 in Class 600 to 2500, in A105 or A350 LF2, with the ring groove machined for the stated R, RX or BX ring number."
       },
       {
-        "q": "Can you meet NACE sour-service specs for upstream work near Jorhat?",
-        "a": "Yes. For upstream and gas-gathering service around ONGC operations we supply weld neck flanges, butt-weld elbows and spectacle blinds compliant with NACE MR0175, in A105 and SS 316L, with 3.2 third-party inspection available. Documentation is aligned to operator vendor-approval formats."
+        "q": "Are you an ONGC-approved vendor?",
+        "a": "No. We supply ONGC's contractors against their purchase specifications, with an EN 10204 3.1 MTC and the tests the contract asks for."
       },
       {
-        "q": "How long does delivery to Jorhat actually take?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Jorhat in roughly 8 days by road (NH27 via Guwahati). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Which material suits low-temperature service on gas lines?",
+        "a": "ASTM A350 LF2 is impact-tested for low-temperature service and is often specified for gas lines. State the minimum design temperature on the RFQ."
       },
       {
-        "q": "Which industrial areas in and around Jorhat do you deliver to?",
-        "a": "We deliver door-to-site across Jorhat, including Cinnamara industrial estate, and to nearby Guwahati, Silchar, Dibrugarh and Tezpur. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH27 via Guwahati, normally arriving in about 8 days."
+        "q": "Do you supply flanges for tea factories in Jorhat?",
+        "a": "Yes. A105 slip-on and weld neck flanges in Class 150 or 300 for boiler, steam and hot-water lines, and threaded flanges for small water connections."
+      },
+      {
+        "q": "How are flanges delivered to Jorhat, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Jorhat rather than as a fixed number of days."
       },
       {
         "q": "Is your facility located in Jorhat?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Jorhat is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Jorhat orders are sent from there by road. We have no office or warehouse in Jorhat."
       },
       {
-        "q": "Which documents do you provide with supply to Jorhat?",
-        "a": "Every Jorhat dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
+        "q": "Which documents come with a Jorhat order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -3651,34 +3648,42 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What products can buyers in Jorhat source from Remax Forge?",
+            "name": "Can you supply RTJ weld neck flanges for oilfield work near Jorhat?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Weld Neck Flanges, Butt Weld Elbows, Lap Joint Flanges and Spectacle Blind Flanges to Jorhat in A105, F52/F60 on request, SS 316L, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from oil & gas (upstream) and agro & food processing — including units around Cinnamara industrial estate — and every lot ships with EN 10204 3.1 certification."
+              "text": "Yes. Weld neck RTJ flanges to ASME B16.5 in Class 600 to 2500, in A105 or A350 LF2, with the ring groove machined for the stated R, RX or BX ring number."
             }
           },
           {
             "@type": "Question",
-            "name": "Can you meet NACE sour-service specs for upstream work near Jorhat?",
+            "name": "Are you an ONGC-approved vendor?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. For upstream and gas-gathering service around ONGC operations we supply weld neck flanges, butt-weld elbows and spectacle blinds compliant with NACE MR0175, in A105 and SS 316L, with 3.2 third-party inspection available. Documentation is aligned to operator vendor-approval formats."
+              "text": "No. We supply ONGC's contractors against their purchase specifications, with an EN 10204 3.1 MTC and the tests the contract asks for."
             }
           },
           {
             "@type": "Question",
-            "name": "How long does delivery to Jorhat actually take?",
+            "name": "Which material suits low-temperature service on gas lines?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Jorhat in roughly 8 days by road (NH27 via Guwahati). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "ASTM A350 LF2 is impact-tested for low-temperature service and is often specified for gas lines. State the minimum design temperature on the RFQ."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Jorhat do you deliver to?",
+            "name": "Do you supply flanges for tea factories in Jorhat?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Jorhat, including Cinnamara industrial estate, and to nearby Guwahati, Silchar, Dibrugarh and Tezpur. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH27 via Guwahati, normally arriving in about 8 days."
+              "text": "Yes. A105 slip-on and weld neck flanges in Class 150 or 300 for boiler, steam and hot-water lines, and threaded flanges for small water connections."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How are flanges delivered to Jorhat, and how long does it take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Jorhat rather than as a fixed number of days."
             }
           },
           {
@@ -3686,15 +3691,15 @@ export const marketAreaData = {
             "name": "Is your facility located in Jorhat?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Jorhat is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Jorhat orders are sent from there by road. We have no office or warehouse in Jorhat."
             }
           },
           {
             "@type": "Question",
-            "name": "Which documents do you provide with supply to Jorhat?",
+            "name": "Which documents come with a Jorhat order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Jorhat dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered, NACE MR0175 compliance and 3.2 third-party inspection on request. 100% PMI is standard on alloy and stainless lots."
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -3717,6 +3722,47 @@ export const marketAreaData = {
         "name": "Tezpur",
         "url": "/tezpur/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Jorhat",
+      "intro": "What we quote most often for Cinnamora Industrial Estate, ONGC Cinnamara complex, Cinnamora Tea Estate. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "weld neck flanges for gas and oilfield lines, RTJ ring-groove flanges, blind flanges for spare nozzles, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Jorhat service",
+          "value": "A105 and A350 LF2 for oilfield service; A105 for tea factory steam and water"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Jorhat; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://industriescom.assam.gov.in/node/89198",
+      "https://industries.assam.gov.in/node/89191",
+      "https://www.nativeplanet.com/jorhat/attractions/cinnamora-tea-estate/",
+      "https://www.tocklai.org/wp-content/uploads/2025/01/Tender-for-Tocklai-TE-Lease-.pdf",
+      "https://sentinelassam.com/tender/ongc-jorhat-invites-tenders-for-construction-of-various-development-locations-555289"
     ]
   },
   "tezpur": {
@@ -3727,13 +3773,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in tezpur",
     "secondaryKeywords": "flange manufacturer in Tezpur; forged fittings supplier Tezpur; ASME B16.5 flanges Tezpur; pipe fittings Tezpur; pipe flanges Tezpur",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Tezpur | Remax Forge",
-      "description": "Flanges & forged fittings for Tezpur's food & agro and aerospace & defence units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Tezpur, Assam | Remax Forge",
+      "description": "Flange Supplier in Tezpur: flanges for Dolabari estate units, the Balipara growth centre and Sonitpur tea factories. ASME B16.5, EN 1092-1, 3.1 MTC.",
       "keywords": "flange manufacturer in Tezpur; forged fittings supplier Tezpur; ASME B16.5 flanges Tezpur; pipe fittings Tezpur; pipe flanges Tezpur"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Tezpur",
-      "subheadline": "Flanges, butt-weld and forged fittings for Tezpur's food & agro, aerospace & defence and water & utility units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 8 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Tezpur",
+      "subheadline": "Slip-on, weld neck and stainless flanges for Dolabari estate units, the Balipara growth centre and Sonitpur tea factories, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Tezpur",
       "highlights": [
         {
@@ -3741,8 +3787,8 @@ export const marketAreaData = {
           "reason": "Sanitary grade pipelines and food manufacturing lines: SS 304/316 Flanges, Buttweld Elbows."
         },
         {
-          "feature": "~8-day delivery via NH27 via Guwahati",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Tezpur."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Tezpur is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -3750,68 +3796,53 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: SS 304/316",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Tezpur",
-    "introParagraph": "Around Sonitpur district units, procurement runs on Agro processing, defence establishments, Brahmaputra bridge/infra works. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Tezpur's flange buyers are small factories in its industrial estates, the units at the Balipara growth centre and the tea factories of Sonitpur. Remax Forge supplies <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">carbon steel slip-on flanges</a>, <a href=\"/products/flanges/ss316-weld-neck-flange-manufacturer/\" class=\"text-[#D71920] hover:underline font-semibold\">SS 316 weld neck flanges for process lines</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">screwed flanges for building services</a> for them from Mumbai with an EN 10204 3.1 MTC, by road over the Brahmaputra. See also <a href=\"/jorhat/\" class=\"text-[#D71920] hover:underline font-semibold\">Jorhat</a> and <a href=\"/guwahati/\" class=\"text-[#D71920] hover:underline font-semibold\">Guwahati</a>.",
     "localGuide": {
-      "heading": "Flanges & Fittings for Tezpur: Food & Agro, Defence and Water & Utility Industry",
+      "heading": "Tezpur's industrial estates, Balipara and the Sonitpur tea belt",
       "paragraphs": [
-        "Tezpur's demand for flanges and fittings comes mainly from Agro processing, defence establishments, Brahmaputra bridge/infra works. Agro and food plants mostly need stainless slip-on and weld neck flanges, elbows and reducers for product lines, and A105 flanges on boiler and steam headers. Aerospace, defence and research establishments order nickel-alloy and stainless high-pressure fittings and flanges with full traceability and inspection records. Utility and infrastructure projects mainly need mild steel flanges in PN10/PN16 or Class 150, reducers and long-radius bends for distribution mains.",
-        "Stock items for Tezpur are dispatched from Mumbai in 24–48 hours and reach site by road in about 8 days (NH27 via Guwahati). Non-stock sizes and custom forgings run 7–15 working days. Send your size, class, facing, grade and pipe schedule, or simply the BOQ or line list, and we will quote line by line.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Guwahati, Silchar, Dibrugarh and Jorhat, so mixed orders for plants in the region can be planned together."
+        "Assam's industries department lists an industrial estate at Dolabari in Tezpur, built in 1990 on about 15 acres, and AIIDC lists further estates in the area at Gotlong and Kunderbari. The Balipara Industrial Growth Centre lies about 15 km from Tezpur, close to NH 52.",
+        "Road freight reaches Tezpur across the Brahmaputra on the 3.015 km Kolia Bhomora Setu, which links the town with Kaliabor in Nagaon district on NH 715, and on a parallel bridge of about 3.04 km opened in 2022. Long or heavy flanges for the north bank travel this way, so mention any site access limits when you send the RFQ.",
+        "Sonitpur's tea factories buy A105 flanges for boilers, steam and hot-water lines, and threaded flanges for small water connections. Food and beverage units at Balipara use SS 304 or SS 316 on product lines. Separating these services on the RFQ keeps each item in the right grade."
       ],
       "areas": [
         {
-          "name": "Sonitpur district units"
+          "name": "Dolabari Industrial Estate",
+          "note": "Tezpur, about 15 acres"
         },
         {
-          "name": "Guwahati",
-          "note": "nearby city on the same dispatch route"
+          "name": "Balipara Industrial Growth Centre",
+          "note": "about 15 km from Tezpur"
         },
         {
-          "name": "Silchar",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Dibrugarh",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Jorhat",
-          "note": "nearby city on the same dispatch route"
+          "name": "Gotlong and Kunderbari estates",
+          "note": "AIIDC, Tezpur area"
         }
       ],
       "specs": [
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Tea factory boilers and steam",
+          "spec": "Slip-on or weld neck RF, Class 150/300, A105"
         },
         {
-          "service": "High-pressure test & fluid lines",
-          "spec": "6000# / 9000# forged fittings in SS 316L or nickel alloy"
+          "service": "Food and beverage product lines",
+          "spec": "SS 304/316 slip-on or weld neck, PN10/PN16 or Class 150"
         },
         {
-          "service": "Pumping & distribution mains",
-          "spec": "MS / A105 slip-on and plate flanges, PN10 / PN16 or Class 150"
+          "service": "Small water and air lines",
+          "spec": "Threaded flanges, Class 150, A105"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
-        },
-        {
-          "service": "Special-material flanges",
-          "spec": "Inconel 600 / 625 and Monel flanges with full traceability"
-        },
-        {
-          "service": "Treatment plant piping",
-          "spec": "SS 304 / 316 flanges, concentric reducers and weld bends"
+          "service": "Tea machinery fabrication",
+          "spec": "Slip-on and blind flanges to the machine drawing"
         }
       ]
     },
-    "logistics": "Route: NH27 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Tezpur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Tezpur. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Agro & Food Processing",
@@ -3881,28 +3912,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "Which piping components do you stock for Tezpur?",
-        "a": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Tezpur in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and aerospace & defence — including units around Sonitpur district units — and every lot ships with EN 10204 3.1 certification."
+        "q": "Do you supply flanges to tea machinery makers around Tezpur?",
+        "a": "Yes. Fabricators can order slip-on, weld neck and blind flanges to ASME B16.5 or EN 1092-1, or send the machine drawing for the flange sizes and drilling."
       },
       {
-        "q": "Which stainless grades suit food and agro processing lines in Tezpur?",
-        "a": "Food-contact steam and CIP lines in Tezpur's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+        "q": "Which stainless grade should a Balipara beverage unit use?",
+        "a": "SS 304 suits most water and beverage lines. SS 316 is used where cleaning chemicals or chlorides are present. Name the product and CIP chemicals for a firm recommendation."
       },
       {
-        "q": "What lead time should Tezpur buyers plan for?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Tezpur in roughly 8 days by road (NH27 via Guwahati). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Can large flanges be delivered to the north bank?",
+        "a": "Yes, by road across the Brahmaputra bridges at Tezpur. Tell us of any site access limits; packing and freight are shown on the quote."
       },
       {
-        "q": "Which industrial areas in and around Tezpur do you deliver to?",
-        "a": "We deliver door-to-site across Tezpur, including Sonitpur district units, and to nearby Guwahati, Silchar, Dibrugarh and Jorhat. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH27 via Guwahati, normally arriving in about 8 days."
+        "q": "Can you identify an old flange from a tea factory boiler?",
+        "a": "Yes. Send the outside diameter, bolt circle, number and size of holes and the thickness, or a photo with a tape across it, and we will identify the standard and class."
       },
       {
-        "q": "Do you have a manufacturing plant in Tezpur?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Tezpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "q": "How are flanges delivered to Tezpur, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Tezpur rather than as a fixed number of days."
       },
       {
-        "q": "What QA documentation accompanies Tezpur dispatches?",
-        "a": "Every Tezpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Is your facility located in Tezpur?",
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Tezpur orders are sent from there by road. We have no office or warehouse in Tezpur."
+      },
+      {
+        "q": "Which documents come with a Tezpur order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -3962,50 +3997,58 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Which piping components do you stock for Tezpur?",
+            "name": "Do you supply flanges to tea machinery makers around Tezpur?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Tezpur in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and aerospace & defence — including units around Sonitpur district units — and every lot ships with EN 10204 3.1 certification."
+              "text": "Yes. Fabricators can order slip-on, weld neck and blind flanges to ASME B16.5 or EN 1092-1, or send the machine drawing for the flange sizes and drilling."
             }
           },
           {
             "@type": "Question",
-            "name": "Which stainless grades suit food and agro processing lines in Tezpur?",
+            "name": "Which stainless grade should a Balipara beverage unit use?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Food-contact steam and CIP lines in Tezpur's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+              "text": "SS 304 suits most water and beverage lines. SS 316 is used where cleaning chemicals or chlorides are present. Name the product and CIP chemicals for a firm recommendation."
             }
           },
           {
             "@type": "Question",
-            "name": "What lead time should Tezpur buyers plan for?",
+            "name": "Can large flanges be delivered to the north bank?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Tezpur in roughly 8 days by road (NH27 via Guwahati). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "Yes, by road across the Brahmaputra bridges at Tezpur. Tell us of any site access limits; packing and freight are shown on the quote."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Tezpur do you deliver to?",
+            "name": "Can you identify an old flange from a tea factory boiler?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Tezpur, including Sonitpur district units, and to nearby Guwahati, Silchar, Dibrugarh and Jorhat. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH27 via Guwahati, normally arriving in about 8 days."
+              "text": "Yes. Send the outside diameter, bolt circle, number and size of holes and the thickness, or a photo with a tape across it, and we will identify the standard and class."
             }
           },
           {
             "@type": "Question",
-            "name": "Do you have a manufacturing plant in Tezpur?",
+            "name": "How are flanges delivered to Tezpur, and how long does it take?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Tezpur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Tezpur rather than as a fixed number of days."
             }
           },
           {
             "@type": "Question",
-            "name": "What QA documentation accompanies Tezpur dispatches?",
+            "name": "Is your facility located in Tezpur?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Tezpur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Tezpur orders are sent from there by road. We have no office or warehouse in Tezpur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which documents come with a Tezpur order?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -4028,6 +4071,47 @@ export const marketAreaData = {
         "name": "Jorhat",
         "url": "/jorhat/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Tezpur",
+      "intro": "What we quote most often for Dolabari Industrial Estate, Balipara Industrial Growth Centre, Gotlong and Kunderbari estates. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "carbon steel slip-on flanges, SS 316 weld neck flanges for process lines, screwed flanges for building services, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Tezpur service",
+          "value": "A105 for tea factory steam and utilities; SS 304/316 for food and beverage lines"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Tezpur; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://industriescom.assam.gov.in/node/89199",
+      "https://industries.assam.gov.in/node/89191",
+      "https://databank.nedfi.com/industry-assam/industrial-estates-and-industrial-area-assam",
+      "https://en.wikipedia.org/wiki/Kolia_Bhomora_Setu",
+      "https://en.wikipedia.org/wiki/New_Kolia_Bhomora_Bridge"
     ]
   },
   "patna": {
@@ -5308,13 +5392,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in darbhanga",
     "secondaryKeywords": "flange manufacturer in Darbhanga; forged fittings supplier Darbhanga; ASME B16.5 flanges Darbhanga; pipe fittings Darbhanga; pipe flanges Darbhanga",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Darbhanga | Remax Forge",
-      "description": "Flanges & forged fittings for Darbhanga's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Darbhanga, Bihar | Remax Forge",
+      "description": "Flange Supplier in Darbhanga: SS 304 and A105 flanges for makhana processing at IA Donar and the Raiyam sugar mill revival. ASME B16.5, 3.1 MTC.",
       "keywords": "flange manufacturer in Darbhanga; forged fittings supplier Darbhanga; ASME B16.5 flanges Darbhanga; pipe fittings Darbhanga; pipe flanges Darbhanga"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Darbhanga",
-      "subheadline": "Flanges, butt-weld and forged fittings for Darbhanga's food & agro and water & utility units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 5 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Darbhanga",
+      "subheadline": "SS 304 and A105 flanges for makhana processing at IA Donar and the cooperative sugar mill planned at Raiyam, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Darbhanga",
       "highlights": [
         {
@@ -5322,8 +5406,8 @@ export const marketAreaData = {
           "reason": "Sanitary grade pipelines and food manufacturing lines: SS 304/316 Flanges, Buttweld Elbows."
         },
         {
-          "feature": "~5-day delivery via NH27 via Patna",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Darbhanga."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Darbhanga is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -5331,63 +5415,49 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: SS 304/316",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Darbhanga",
-    "introParagraph": "Supplying Darbhanga means understanding Makhana & agro processing, emerging medical/urban infrastructure. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into BIADA units, makhana processing belt — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Two new food projects are driving flange demand in Darbhanga: a makhana processing unit at IA Donar and a cooperative sugar mill planned on the old Raiyam mill site. Remax Forge supplies <a href=\"/products/flanges/ss304-slip-on-flange-manufacturer/\" class=\"text-[#D71920] hover:underline font-semibold\">SS 304 slip-on flanges for food lines</a>, <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges for pump discharge</a> and <a href=\"/products/flanges/blind-flange-for-pharmaceutical/\" class=\"text-[#D71920] hover:underline font-semibold\">stainless blind flanges for process equipment</a> for plants like these from Mumbai, with an EN 10204 3.1 MTC. See also <a href=\"/muzaffarpur/\" class=\"text-[#D71920] hover:underline font-semibold\">Muzaffarpur</a> and <a href=\"/patna/\" class=\"text-[#D71920] hover:underline font-semibold\">Patna</a>.",
     "localGuide": {
-      "heading": "Flanges & Fittings for Darbhanga: Food & Agro and Water & Utility Industry",
+      "heading": "Darbhanga: makhana processing at Donar and the Raiyam sugar mill",
       "paragraphs": [
-        "Darbhanga's demand for flanges and fittings comes mainly from Makhana & agro processing, emerging medical/urban infrastructure. Agro and food plants mostly need stainless slip-on and weld neck flanges, elbows and reducers for product lines, and A105 flanges on boiler and steam headers. Water-supply, irrigation and municipal contractors order large-diameter slip-on and plate flanges, concentric reducers and weld bends for pumping mains and treatment plants.",
-        "Stock items for Darbhanga are dispatched from Mumbai in 24–48 hours and reach site by road in about 5 days (NH27 via Patna). Non-stock sizes and custom forgings run 7–15 working days. Send your size, class, facing, grade and pipe schedule, or simply the BOQ or line list, and we will quote line by line.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Patna, Gaya, Bhagalpur and Muzaffarpur, so mixed orders for plants in the region can be planned together."
+        "Bihar's investment board has approved a makhana processing unit by Makhayo Foods at Industrial Area Donar in Darbhanga, with an investment of about Rs 27.44 crore and around 300 jobs expected. In July 2026 the state cabinet approved new cooperative sugar mills on the campuses of the closed mills at Raiyam in Darbhanga and Sakri in Madhubani.",
+        "A sugar mill is a heavy flange user: boilers and steam mains in A105 weld neck flanges, juice and syrup lines in stainless, evaporator and pan connections, and cooling water. Food plants like a makhana unit mostly need SS 304 on product contact and hot-water lines, with blind flanges on the cleaning and inspection points of the equipment.",
+        "Commercial flights at Darbhanga airport began under the UDAN scheme on 8 November 2020, which makes site visits by project teams easier, but flanges themselves travel by road from Mumbai. For a new plant, send the line list early: grouping flanges by service, size and class shortens the quote and keeps material certificates in order."
       ],
       "areas": [
         {
-          "name": "BIADA units"
+          "name": "Industrial Area Donar",
+          "note": "makhana processing unit"
         },
         {
-          "name": "makhana processing belt"
-        },
-        {
-          "name": "Patna",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Gaya",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Bhagalpur",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Muzaffarpur",
-          "note": "nearby city on the same dispatch route"
+          "name": "Raiyam sugar mill site",
+          "note": "cooperative mill approved 2026"
         }
       ],
       "specs": [
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Sugar mill boilers and steam mains",
+          "spec": "A105 weld neck, raised face, Class 300 or 600"
         },
         {
-          "service": "Pumping & distribution mains",
-          "spec": "MS / A105 slip-on and plate flanges, PN10 / PN16 or Class 150"
+          "service": "Juice, syrup and product lines",
+          "spec": "SS 304/316 slip-on or weld neck, PN10/PN16 or Class 150"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
+          "service": "Equipment cleaning and inspection points",
+          "spec": "Blind flanges, SS 304 or A105"
         },
         {
-          "service": "Treatment plant piping",
-          "spec": "SS 304 / 316 flanges, concentric reducers and weld bends"
+          "service": "Cooling water",
+          "spec": "Slip-on, PN10/PN16 or Class 150, A105"
         }
       ]
     },
-    "logistics": "Route: NH27 via Patna. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 5 days to Darbhanga. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Darbhanga. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Agro & Food Processing",
@@ -5441,28 +5511,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "What products can buyers in Darbhanga source from Remax Forge?",
-        "a": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Darbhanga in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around BIADA units — and every lot ships with EN 10204 3.1 certification."
+        "q": "What flanges does a new sugar mill need?",
+        "a": "A105 weld neck flanges in Class 300 or 600 on boiler and steam mains, stainless flanges on juice and syrup lines, and slip-on flanges on cooling water. We quote from the EPC contractor's line list."
       },
       {
-        "q": "Which stainless grades suit food and agro processing lines in Darbhanga?",
-        "a": "Food-contact steam and CIP lines in Darbhanga's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+        "q": "Which grade suits makhana processing lines?",
+        "a": "SS 304 suits most product-contact and hot-water lines in food processing. SS 316 is used if salt or acidic cleaning agents are involved."
       },
       {
-        "q": "How long does delivery to Darbhanga actually take?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Darbhanga in roughly 5 days by road (NH27 via Patna). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Can blind flanges be supplied in stainless for inspection points?",
+        "a": "Yes. SS 304 or SS 316 blind flanges in the equipment's class and facing, with a 3.1 MTC."
       },
       {
-        "q": "Which industrial areas in and around Darbhanga do you deliver to?",
-        "a": "We deliver door-to-site across Darbhanga, including BIADA units and makhana processing belt, and to nearby Patna, Gaya, Bhagalpur and Muzaffarpur. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH27 via Patna, normally arriving in about 5 days."
+        "q": "Can the Raiyam mill contractor order in stages?",
+        "a": "Yes. Each package can be quoted and dispatched separately; mark the package or area on each RFQ line."
+      },
+      {
+        "q": "How are flanges delivered to Darbhanga, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Darbhanga rather than as a fixed number of days."
       },
       {
         "q": "Is your facility located in Darbhanga?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Darbhanga is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Darbhanga orders are sent from there by road. We have no office or warehouse in Darbhanga."
       },
       {
-        "q": "Which documents do you provide with supply to Darbhanga?",
-        "a": "Every Darbhanga dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Which documents come with a Darbhanga order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -5522,34 +5596,42 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What products can buyers in Darbhanga source from Remax Forge?",
+            "name": "What flanges does a new sugar mill need?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Darbhanga in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around BIADA units — and every lot ships with EN 10204 3.1 certification."
+              "text": "A105 weld neck flanges in Class 300 or 600 on boiler and steam mains, stainless flanges on juice and syrup lines, and slip-on flanges on cooling water. We quote from the EPC contractor's line list."
             }
           },
           {
             "@type": "Question",
-            "name": "Which stainless grades suit food and agro processing lines in Darbhanga?",
+            "name": "Which grade suits makhana processing lines?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Food-contact steam and CIP lines in Darbhanga's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+              "text": "SS 304 suits most product-contact and hot-water lines in food processing. SS 316 is used if salt or acidic cleaning agents are involved."
             }
           },
           {
             "@type": "Question",
-            "name": "How long does delivery to Darbhanga actually take?",
+            "name": "Can blind flanges be supplied in stainless for inspection points?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Darbhanga in roughly 5 days by road (NH27 via Patna). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "Yes. SS 304 or SS 316 blind flanges in the equipment's class and facing, with a 3.1 MTC."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Darbhanga do you deliver to?",
+            "name": "Can the Raiyam mill contractor order in stages?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Darbhanga, including BIADA units and makhana processing belt, and to nearby Patna, Gaya, Bhagalpur and Muzaffarpur. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH27 via Patna, normally arriving in about 5 days."
+              "text": "Yes. Each package can be quoted and dispatched separately; mark the package or area on each RFQ line."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How are flanges delivered to Darbhanga, and how long does it take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Darbhanga rather than as a fixed number of days."
             }
           },
           {
@@ -5557,15 +5639,15 @@ export const marketAreaData = {
             "name": "Is your facility located in Darbhanga?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Darbhanga is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Darbhanga orders are sent from there by road. We have no office or warehouse in Darbhanga."
             }
           },
           {
             "@type": "Question",
-            "name": "Which documents do you provide with supply to Darbhanga?",
+            "name": "Which documents come with a Darbhanga order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Darbhanga dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -5588,6 +5670,45 @@ export const marketAreaData = {
         "name": "Muzaffarpur",
         "url": "/muzaffarpur/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Darbhanga",
+      "intro": "What we quote most often for Industrial Area Donar, Raiyam sugar mill site. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "SS 304 slip-on flanges for food lines, weld neck flanges for pump discharge, stainless blind flanges for process equipment, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Darbhanga service",
+          "value": "A105 for steam and cooling water; SS 304/316 for juice, syrup and food contact"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Darbhanga; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://patnapress.com/modern-makhana-unit-darbhanga-rs-27-crore-300-jobs/",
+      "https://www.indiancooperative.com/co-op-news-snippets/bihar-cabinet-clears-co-op-sugar-mills-at-raiyam-and-sakri/",
+      "https://en.wikipedia.org/wiki/Darbhanga_Airport"
     ]
   },
   "raipur": {
@@ -20538,13 +20659,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in shillong",
     "secondaryKeywords": "flange manufacturer in Shillong; forged fittings supplier Shillong; ASME B16.5 flanges Shillong; pipe fittings Shillong; large bore flanges Shillong",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Shillong | Remax Forge",
-      "description": "Flanges & forged fittings for Shillong's water & utility and hydro power units. ASME B16.5/B16.11, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Shillong, Meghalaya | Remax Forge",
+      "description": "Flange Supplier in Shillong: high-pressure and large-bore flanges for the Mawphlang pumping main and Umiam hydro stations. ASME, EN 1092-1, 3.1 MTC.",
       "keywords": "flange manufacturer in Shillong; forged fittings supplier Shillong; ASME B16.5 flanges Shillong; pipe fittings Shillong; large bore flanges Shillong"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Shillong",
-      "subheadline": "Flanges, butt-weld and forged fittings for Shillong's water & utility and hydro power units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 8 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Shillong",
+      "subheadline": "PN40/Class 300 and large-bore flanges for the Greater Shillong pumping main and the Umiam hydro stations, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Shillong",
       "highlights": [
         {
@@ -20552,8 +20673,8 @@ export const marketAreaData = {
           "reason": "Municipal water distribution, water treatment & supply mains: Mild Steel Flanges, Concentric Reducers, Weld Bends."
         },
         {
-          "feature": "~8-day delivery via NH6 via Guwahati",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Shillong."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Shillong is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -20561,60 +20682,49 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: A105, A350 LF2 (low-temp)",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Shillong",
-    "introParagraph": "Supplying Shillong means understanding State utilities, hydel (MeECL), water supply schemes. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into State capital; MePDCL project sites — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Shillong's water is lifted more than 300 m from the Umiew river at Mawphlang, and that pumping main is the most demanding flange job in the area, alongside the Umiam hydro stations. Remax Forge supplies <a href=\"/products/flanges/weld-neck-flange-for-power-generation/\" class=\"text-[#D71920] hover:underline font-semibold\">hydro and thermal station weld neck flanges</a>, <a href=\"/products/flanges/blind-flange-for-water-infrastructure/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges for washouts and tie-ins</a> and <a href=\"/products/flanges/high-pressure-flange-manufacturer/\" class=\"text-[#D71920] hover:underline font-semibold\">PN40 and higher-class flanges</a> for these from Mumbai with an EN 10204 3.1 MTC. See also <a href=\"/cherrapunji/\" class=\"text-[#D71920] hover:underline font-semibold\">Cherrapunji</a> and <a href=\"/nongpoh/\" class=\"text-[#D71920] hover:underline font-semibold\">Nongpoh</a>.",
     "localGuide": {
-      "heading": "Flanges & Fittings for Shillong: Water & Utility and Hydro Power Industry",
+      "heading": "Shillong: the Mawphlang pumping main and the Umiam hydro cascade",
       "paragraphs": [
-        "Shillong's demand for flanges and fittings comes mainly from State utilities, hydel (MeECL), water supply schemes. Utility and infrastructure projects mainly need mild steel flanges in PN10/PN16 or Class 150, reducers and long-radius bends for distribution mains. Hydro-power and water-infrastructure projects order large-bore flanges, spectacle blinds and concentric reducers for penstock bypass, cooling-water and dewatering lines.",
-        "Stock items for Shillong are dispatched from Mumbai in 24–48 hours and reach site by road in about 8 days (NH6 via Guwahati). Non-stock sizes and custom forgings run 7–15 working days. Send your size, class, facing, grade and pipe schedule, or simply the BOQ or line list, and we will quote line by line.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Cherrapunji, Nongpoh, Tura and Williamnagar, so mixed orders for plants in the region can be planned together."
+        "Meghalaya PHED's Greater Shillong Water Supply Project, Phase III, was approved in 2008. It draws raw water from the Mawphlang dam on the Umiew river and pumps it against a total head of 321 m to the treatment plant at Mawphlang village, for an ultimate supply of 11.30 million gallons a day. Pump trials at the Mawphlang dam in November 2025 were reported to free an extra 8 million litres a day for the city.",
+        "A head of 321 m is about 31.5 bar before surge is added, which is above PN25. Flanges on the first stretch of a main like this need PN40 to EN 1092-1, or ASME Class 300, while the rating can step down further along the line. Pump headers usually take weld neck flanges, and blind flanges close off the spare connections on manifolds.",
+        "The Umiam reservoir was built as the first stage of a hydro cascade on the Umiam, Umtru and Khri rivers, giving both power and drinking water. MePGCL's business plans list Umiam Stage I to IV among its stations. Hydro station overhauls call for weld neck flanges on cooling and drainage water and, for penstock and turbine work, larger flanges in higher classes."
       ],
       "areas": [
         {
-          "name": "State capital; MePDCL project sites"
+          "name": "Mawphlang dam and pumping station",
+          "note": "Greater Shillong WSP Phase III"
         },
         {
-          "name": "Cherrapunji",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Nongpoh",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Tura",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Williamnagar",
-          "note": "nearby city on the same dispatch route"
+          "name": "Umiam Stage I–IV",
+          "note": "MePGCL hydro cascade"
         }
       ],
       "specs": [
         {
-          "service": "Pumping & distribution mains",
-          "spec": "MS / A105 slip-on and plate flanges, PN10 / PN16 or Class 150"
+          "service": "First stretch of the pumping main",
+          "spec": "Weld neck RF, PN40 or Class 300, A105"
         },
         {
-          "service": "Penstock bypass & dewatering",
-          "spec": "Large-diameter flanges to ASME B16.47 Series A / B"
+          "service": "Downstream main and valve chambers",
+          "spec": "Weld neck or slip-on, PN16/PN25"
         },
         {
-          "service": "Treatment plant piping",
-          "spec": "SS 304 / 316 flanges, concentric reducers and weld bends"
+          "service": "Manifold spares and washouts",
+          "spec": "Blind flanges at the manifold rating"
         },
         {
-          "service": "Isolation points",
-          "spec": "Spectacle blinds and blind flanges sized to the line class"
+          "service": "Hydro station cooling and drainage",
+          "spec": "Weld neck, Class 150/300, A105"
         }
       ]
     },
-    "logistics": "Route: NH6 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Shillong. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Shillong. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Public Utilities & Water",
@@ -20668,28 +20778,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "What products can buyers in Shillong source from Remax Forge?",
-        "a": "We deliver Weld Neck Flanges, Blind Flanges, Long Weld Neck Flanges and Alloy Steel Pipess to Shillong in A105, A350 LF2 (low-temp), dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from hydro power & water infra and public utilities & water — including units around State capital; MePDCL project sites — and every lot ships with EN 10204 3.1 certification."
+        "q": "What flange rating does a 321 m pumping head need?",
+        "a": "321 m of water is about 31.5 bar static, before surge. That is above PN25, so PN40 to EN 1092-1 or ASME Class 300 is needed near the pumps. The designer's surge figure decides the final rating."
       },
       {
-        "q": "Can you supply large-bore flanges for penstock and hydel work near Shillong?",
-        "a": "Yes. Hydel and water-infrastructure projects in the Shillong region use ASME B16.47 Series A/B large-bore weld necks, long weld necks and blinds, typically in A105 or low-temperature A350 LF2. We supply these with hydro test certificates and 3.1 MTCs sized to project drawings."
+        "q": "Can the rating change along a rising main?",
+        "a": "Yes. Pressure falls with elevation gained, so the main can step down to PN25 or PN16 further up. Send the hydraulic profile or a pressure per chainage and we quote each section."
       },
       {
-        "q": "How long does delivery to Shillong actually take?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Shillong in roughly 8 days by road (NH6 via Guwahati). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Do you supply flanges for Umiam station overhauls?",
+        "a": "Yes, through the overhaul contractor. We are not a registered MePGCL vendor. Weld neck flanges, blinds and spectacle blinds are quoted in A105 or stainless with a 3.1 MTC."
       },
       {
-        "q": "Which industrial areas in and around Shillong do you deliver to?",
-        "a": "We deliver door-to-site across Shillong, including State capital; MePDCL project sites, and to nearby Cherrapunji, Nongpoh, Tura and Williamnagar. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH6 via Guwahati, normally arriving in about 8 days."
+        "q": "Can you supply large-bore flanges above 24 inches?",
+        "a": "Yes. ASME B16.47 Series A or B from 26 to 60 inches, or EN 1092-1 in large DN sizes. State the standard and series, because the drilling differs."
+      },
+      {
+        "q": "How are flanges delivered to Shillong, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Shillong rather than as a fixed number of days."
       },
       {
         "q": "Is your facility located in Shillong?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Shillong is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Shillong orders are sent from there by road. We have no office or warehouse in Shillong."
       },
       {
-        "q": "Which documents do you provide with supply to Shillong?",
-        "a": "Every Shillong dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Which documents come with a Shillong order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -20749,34 +20863,42 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What products can buyers in Shillong source from Remax Forge?",
+            "name": "What flange rating does a 321 m pumping head need?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Weld Neck Flanges, Blind Flanges, Long Weld Neck Flanges and Alloy Steel Pipess to Shillong in A105, A350 LF2 (low-temp), dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from hydro power & water infra and public utilities & water — including units around State capital; MePDCL project sites — and every lot ships with EN 10204 3.1 certification."
+              "text": "321 m of water is about 31.5 bar static, before surge. That is above PN25, so PN40 to EN 1092-1 or ASME Class 300 is needed near the pumps. The designer's surge figure decides the final rating."
             }
           },
           {
             "@type": "Question",
-            "name": "Can you supply large-bore flanges for penstock and hydel work near Shillong?",
+            "name": "Can the rating change along a rising main?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Hydel and water-infrastructure projects in the Shillong region use ASME B16.47 Series A/B large-bore weld necks, long weld necks and blinds, typically in A105 or low-temperature A350 LF2. We supply these with hydro test certificates and 3.1 MTCs sized to project drawings."
+              "text": "Yes. Pressure falls with elevation gained, so the main can step down to PN25 or PN16 further up. Send the hydraulic profile or a pressure per chainage and we quote each section."
             }
           },
           {
             "@type": "Question",
-            "name": "How long does delivery to Shillong actually take?",
+            "name": "Do you supply flanges for Umiam station overhauls?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Shillong in roughly 8 days by road (NH6 via Guwahati). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "Yes, through the overhaul contractor. We are not a registered MePGCL vendor. Weld neck flanges, blinds and spectacle blinds are quoted in A105 or stainless with a 3.1 MTC."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Shillong do you deliver to?",
+            "name": "Can you supply large-bore flanges above 24 inches?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Shillong, including State capital; MePDCL project sites, and to nearby Cherrapunji, Nongpoh, Tura and Williamnagar. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH6 via Guwahati, normally arriving in about 8 days."
+              "text": "Yes. ASME B16.47 Series A or B from 26 to 60 inches, or EN 1092-1 in large DN sizes. State the standard and series, because the drilling differs."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How are flanges delivered to Shillong, and how long does it take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Shillong rather than as a fixed number of days."
             }
           },
           {
@@ -20784,15 +20906,15 @@ export const marketAreaData = {
             "name": "Is your facility located in Shillong?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Shillong is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Shillong orders are sent from there by road. We have no office or warehouse in Shillong."
             }
           },
           {
             "@type": "Question",
-            "name": "Which documents do you provide with supply to Shillong?",
+            "name": "Which documents come with a Shillong order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Shillong dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -20815,6 +20937,46 @@ export const marketAreaData = {
         "name": "Williamnagar",
         "url": "/williamnagar/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Shillong",
+      "intro": "What we quote most often for Mawphlang dam and pumping station, Umiam Stage I–IV. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "hydro and thermal station weld neck flanges, blind flanges for washouts and tie-ins, PN40 and higher-class flanges, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Shillong service",
+          "value": "A105 for pumping mains and hydro station water; SS 304/316 for treatment plant piping"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Shillong; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://megphed.gov.in/schemes/shillongwss.htm",
+      "https://megphed.gov.in/schemes/gwssrpt.htm",
+      "https://www.indiatodayne.in/meghalaya/story/after-17-years-shillongs-crucial-phase-iii-water-project-nears-reality-with-mawphlang-pumping-test-success-1306465-2025-11-20",
+      "https://meecl.nic.in/wp-content/uploads/2020/12/MePGCLBusinesPlan2020.pdf"
     ]
   },
   "tura": {
@@ -22719,13 +22881,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in serchhip",
     "secondaryKeywords": "flange manufacturer in Serchhip; forged fittings supplier Serchhip; ASME B16.5 flanges Serchhip; pipe fittings Serchhip; pipe flanges Serchhip",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Serchhip | Remax Forge",
-      "description": "Flanges & forged fittings for Serchhip's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Serchhip, Mizoram | Remax Forge",
+      "description": "Flange Supplier in Serchhip: threaded, slip-on and Class 150 flanges for water, public works and Thenzawl projects. ASME B16.5, EN 1092-1, 3.1 MTC.",
       "keywords": "flange manufacturer in Serchhip; forged fittings supplier Serchhip; ASME B16.5 flanges Serchhip; pipe fittings Serchhip; pipe flanges Serchhip"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Serchhip",
-      "subheadline": "Flanges, butt-weld and forged fittings for Serchhip's food & agro and water & utility units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 10 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Serchhip",
+      "subheadline": "Threaded, slip-on and Class 150 flanges for water lines, public works and new projects around Serchhip and Thenzawl, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Serchhip",
       "highlights": [
         {
@@ -22733,8 +22895,8 @@ export const marketAreaData = {
           "reason": "Sanitary grade pipelines and food manufacturing lines: SS 304/316 Flanges, Buttweld Elbows."
         },
         {
-          "feature": "~10-day delivery via via Aizawl",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Serchhip."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Serchhip is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -22742,60 +22904,49 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: SS 304/316",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Serchhip",
-    "introParagraph": "Around District HQ units, procurement runs on Agro processing, small infrastructure works. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Serchhip is a district headquarters on the road south from Aizawl, and the flanges ordered here are for water lines, public buildings and new district projects around Thenzawl. Remax Forge supplies <a href=\"/products/flanges/threaded-flange-for-water-infrastructure/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges for galvanised water pipe</a>, <a href=\"/products/flanges/slip-on-flange-for-water-infrastructure/\" class=\"text-[#D71920] hover:underline font-semibold\">slip-on flanges for water mains</a> and <a href=\"/products/flanges/class-150-flange-supplier/\" class=\"text-[#D71920] hover:underline font-semibold\">ASME Class 150 flanges</a> for these from Mumbai, with an EN 10204 3.1 MTC. See also <a href=\"/aizawl/\" class=\"text-[#D71920] hover:underline font-semibold\">Aizawl</a> and <a href=\"/lunglei/\" class=\"text-[#D71920] hover:underline font-semibold\">Lunglei</a>.",
     "localGuide": {
-      "heading": "Flanges & Fittings for Serchhip: Food & Agro and Water & Utility Industry",
+      "heading": "Serchhip district: the headquarters town and Thenzawl",
       "paragraphs": [
-        "Serchhip's demand for flanges and fittings comes mainly from Agro processing, small infrastructure works. Agro and food plants mostly need stainless slip-on and weld neck flanges, elbows and reducers for product lines, and A105 flanges on boiler and steam headers. Water-supply, irrigation and municipal contractors order large-diameter slip-on and plate flanges, concentric reducers and weld bends for pumping mains and treatment plants.",
-        "Stock items for Serchhip are dispatched from Mumbai in 24–48 hours and reach site by road in about 10 days (via Aizawl). Non-stock sizes and custom forgings run 7–15 working days. Send your size, class, facing, grade and pipe schedule, or simply the BOQ or line list, and we will quote line by line.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Aizawl, Champhai, Kolasib and Lunglei, so mixed orders for plants in the region can be planned together."
+        "Serchhip district was formed on 15 September 1998, carved out of Aizawl district, with its headquarters at Serchhip town. Thenzawl, in the same district, is a centre of the traditional Mizo handloom trade; a 2017 survey counted 2,003 looms there, 1,758 of them working, and the state industries department set up a handloom complex in the town.",
+        "In December 2025 the chief minister opened a 10 MW solar power plant at Thenzawl, built for about Rs 74.82 crore with NABARD funding, and in 2025 the state said it was preparing a master plan for Thenzawl as a planned town. New public buildings and town services in a growing district bring water, fire and drainage lines, which is where flanges are used.",
+        "Flange orders from a hill district are usually small and mixed. Threaded flanges work on galvanised water pipe without site welding, slip-on flanges suit welded mains, and Class 150 is enough for most building and water services. Give the pipe material and joint type for each line and we will quote the matching flange."
       ],
       "areas": [
         {
-          "name": "District HQ units"
+          "name": "Serchhip town",
+          "note": "district headquarters"
         },
         {
-          "name": "Aizawl",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Champhai",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Kolasib",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Lunglei",
-          "note": "nearby city on the same dispatch route"
+          "name": "Thenzawl",
+          "note": "handloom centre and solar plant"
         }
       ],
       "specs": [
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Galvanised water pipe",
+          "spec": "Threaded flanges, Class 150 or PN16, A105"
         },
         {
-          "service": "Pumping & distribution mains",
-          "spec": "MS / A105 slip-on and plate flanges, PN10 / PN16 or Class 150"
+          "service": "Welded water mains and pump sets",
+          "spec": "Slip-on RF, PN10/PN16 or Class 150"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
+          "service": "Building fire and drainage lines",
+          "spec": "Slip-on and blind, Class 150, A105"
         },
         {
-          "service": "Treatment plant piping",
-          "spec": "SS 304 / 316 flanges, concentric reducers and weld bends"
+          "service": "Hospital and kitchen services",
+          "spec": "SS 304 threaded or slip-on, Class 150"
         }
       ]
     },
-    "logistics": "Route: via Aizawl. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 10 days to Serchhip. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Serchhip. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Agro & Food Processing",
@@ -22849,28 +23000,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "Which piping components do you stock for Serchhip?",
-        "a": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Serchhip in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around District HQ units — and every lot ships with EN 10204 3.1 certification."
+        "q": "Which flanges suit galvanised water pipe in Serchhip?",
+        "a": "Threaded flanges in A105, Class 150 or PN16, with BSP or NPT threads to match the pipe. They need no site welding."
       },
       {
-        "q": "Which stainless grades suit food and agro processing lines in Serchhip?",
-        "a": "Food-contact steam and CIP lines in Serchhip's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+        "q": "Is Class 150 enough for building water and fire lines?",
+        "a": "For most building water and fire lines, yes, since Class 150 carbon steel is rated about 19.6 bar at ambient temperature. Check it against the fire pump shut-off pressure."
       },
       {
-        "q": "What lead time should Serchhip buyers plan for?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Serchhip in roughly 10 days by road (via Aizawl). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Can you supply flanges to EN 1092-1 PN16 instead of ASME?",
+        "a": "Yes. We make flanges to both ASME B16.5 and EN 1092-1, so state which one your valves and pumps use."
       },
       {
-        "q": "Which industrial areas in and around Serchhip do you deliver to?",
-        "a": "We deliver door-to-site across Serchhip, including District HQ units, and to nearby Aizawl, Champhai, Kolasib and Lunglei. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Aizawl, normally arriving in about 10 days."
+        "q": "Can a contractor in Serchhip send a mixed list?",
+        "a": "Yes. One RFQ can list different types, sizes and grades; the quote prices each line separately."
       },
       {
-        "q": "Do you have a manufacturing plant in Serchhip?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Serchhip is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "q": "How are flanges delivered to Serchhip, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Serchhip rather than as a fixed number of days."
       },
       {
-        "q": "What QA documentation accompanies Serchhip dispatches?",
-        "a": "Every Serchhip dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Is your facility located in Serchhip?",
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Serchhip orders are sent from there by road. We have no office or warehouse in Serchhip."
+      },
+      {
+        "q": "Which documents come with a Serchhip order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -22930,50 +23085,58 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Which piping components do you stock for Serchhip?",
+            "name": "Which flanges suit galvanised water pipe in Serchhip?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Serchhip in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around District HQ units — and every lot ships with EN 10204 3.1 certification."
+              "text": "Threaded flanges in A105, Class 150 or PN16, with BSP or NPT threads to match the pipe. They need no site welding."
             }
           },
           {
             "@type": "Question",
-            "name": "Which stainless grades suit food and agro processing lines in Serchhip?",
+            "name": "Is Class 150 enough for building water and fire lines?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Food-contact steam and CIP lines in Serchhip's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+              "text": "For most building water and fire lines, yes, since Class 150 carbon steel is rated about 19.6 bar at ambient temperature. Check it against the fire pump shut-off pressure."
             }
           },
           {
             "@type": "Question",
-            "name": "What lead time should Serchhip buyers plan for?",
+            "name": "Can you supply flanges to EN 1092-1 PN16 instead of ASME?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Serchhip in roughly 10 days by road (via Aizawl). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "Yes. We make flanges to both ASME B16.5 and EN 1092-1, so state which one your valves and pumps use."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Serchhip do you deliver to?",
+            "name": "Can a contractor in Serchhip send a mixed list?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Serchhip, including District HQ units, and to nearby Aizawl, Champhai, Kolasib and Lunglei. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Aizawl, normally arriving in about 10 days."
+              "text": "Yes. One RFQ can list different types, sizes and grades; the quote prices each line separately."
             }
           },
           {
             "@type": "Question",
-            "name": "Do you have a manufacturing plant in Serchhip?",
+            "name": "How are flanges delivered to Serchhip, and how long does it take?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Serchhip is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Serchhip rather than as a fixed number of days."
             }
           },
           {
             "@type": "Question",
-            "name": "What QA documentation accompanies Serchhip dispatches?",
+            "name": "Is your facility located in Serchhip?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Serchhip dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Serchhip orders are sent from there by road. We have no office or warehouse in Serchhip."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which documents come with a Serchhip order?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -22996,6 +23159,46 @@ export const marketAreaData = {
         "name": "Lunglei",
         "url": "/lunglei/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Serchhip",
+      "intro": "What we quote most often for Serchhip town, Thenzawl. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "threaded flanges for galvanised water pipe, slip-on flanges for water mains, ASME Class 150 flanges, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Serchhip service",
+          "value": "A105 for water mains and building services; SS 304 for hygienic lines"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Serchhip; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://serchhip.nic.in/?p=1532",
+      "https://en.wikipedia.org/wiki/Thenzawl",
+      "https://www.projectstoday.com/News/Mizoram-CM-inaugurates-10-MW-solar-power-plant-announces-major-energy-projects",
+      "https://eastmojo.com/mizoram/2025/08/12/thenzawl-to-become-mizorams-first-peace-city-heres-what-it-means/"
     ]
   },
   "dimapur": {
@@ -23006,13 +23209,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in dimapur",
     "secondaryKeywords": "flange manufacturer in Dimapur; forged fittings supplier Dimapur; ASME B16.5 flanges Dimapur; pipe fittings Dimapur; forged fittings 3000# Dimapur",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Dimapur | Remax Forge",
-      "description": "Flanges & forged fittings for Dimapur's engineering and food & agro units: A105, SS 304/316, ASME B16.5, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Dimapur, Nagaland | Remax Forge",
+      "description": "Flange Supplier in Dimapur: slip-on, blind and SS 304 flanges for Ganeshnagar food units and NIDC estate sheds. ASME B16.5, EN 1092-1, 3.1 MTC.",
       "keywords": "flange manufacturer in Dimapur; forged fittings supplier Dimapur; ASME B16.5 flanges Dimapur; pipe fittings Dimapur; forged fittings 3000# Dimapur"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Dimapur",
-      "subheadline": "Flanges, butt-weld and forged fittings for Dimapur's engineering and food & agro units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 8 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Dimapur",
+      "subheadline": "Slip-on, blind and stainless flanges for the Ganeshnagar growth centre, the agro-food SEZ and the NIDC estate sheds, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Dimapur",
       "highlights": [
         {
@@ -23020,8 +23223,8 @@ export const marketAreaData = {
           "reason": "Heavy machining, hydraulic loops, and tooling assemblies: Forged Hub Flanges, Threaded Couplings."
         },
         {
-          "feature": "~8-day delivery via NH27 via Guwahati",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Dimapur."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Dimapur is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -23029,60 +23232,53 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: A105, SS 304/316",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Dimapur",
-    "introParagraph": "Dimapur's buyers order piping hardware for concrete reasons: Nagaland's commercial hub, light engineering, agro processing. From our Mumbai works we supply <a href=\"/products/forged-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">forged fittings</a>, <a href=\"/products/socket-weld-fittings/socket-weld-elbow-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">SW elbows</a> and <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> into Ganeshnagar industrial estate, in A105, SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Most industrial flange orders from the Dimapur side come from food and agro units, either in the NIDC sheds in town or at the Ganeshnagar growth centre in Chumoukedima. Remax Forge sends <a href=\"/products/flanges/ss304-slip-on-flange-manufacturer/\" class=\"text-[#D71920] hover:underline font-semibold\">SS 304 slip-on flanges for food lines</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">carbon steel slip-on flanges</a> and <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges for spare nozzles</a> to these buyers from our Mumbai works, each piece traceable to an EN 10204 3.1 MTC. Hill-town buyers can also see <a href=\"/kohima/\" class=\"text-[#D71920] hover:underline font-semibold\">Kohima</a> and <a href=\"/wokha/\" class=\"text-[#D71920] hover:underline font-semibold\">Wokha</a>.",
     "localGuide": {
-      "heading": "Flanges & Fittings for Dimapur: Engineering and Food & Agro Industry",
+      "heading": "Who buys flanges around Dimapur: Ganeshnagar and the NIDC estates",
       "paragraphs": [
-        "Dimapur's demand for flanges and fittings comes mainly from Nagaland's commercial hub, light engineering, agro processing. Machine builders and component makers buy small-bore forged fittings, threaded flanges and socket-weld items for hydraulic, compressed-air and coolant circuits. Food, sugar and agro-processing units order SS 304/316 flanges and butt-weld fittings for juice, syrup, oil and process lines, plus carbon steel flanges for boiler and utility piping.",
-        "Stock items for Dimapur are dispatched from Mumbai in 24–48 hours and reach site by road in about 8 days (NH27 via Guwahati). Non-stock sizes and custom forgings run 7–15 working days. Send your size, class, facing, grade and pipe schedule, or simply the BOQ or line list, and we will quote line by line.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Kohima, Mokokchung, Tuensang and Wokha, so mixed orders for plants in the region can be planned together."
+        "Nagaland's Industrial Growth Centre at Ganeshnagar, now in Chumoukedima district, was completed in December 2004 and opened in January 2005. The state government says 445 acres were acquired for it and the neighbouring EPIP/SEZ, and the industries department describes the agro and food processing SEZ there as the only SEZ in the North East. In 2026 an incubation centre for entrepreneurs was opened at the growth centre.",
+        "Closer to town, the Nagaland Industrial Development Corporation runs the Old and New Industrial Estates in Dimapur, about 30 acres between them with 25 ready-built sheds rented to small units. Units of this size usually have one boiler or hot-water generator, a compressed-air ring and a few process tanks, so their flange orders are a mixed list of a dozen sizes rather than a large run of one item.",
+        "Food lines are where grade matters most. Product-contact piping, CIP returns and tank outlets normally take SS 304 or SS 316 flanges, while the boiler house and utilities stay on A105 carbon steel. Put the service next to each line on the RFQ and we will quote the grade the service needs instead of one grade for the whole list."
       ],
       "areas": [
         {
-          "name": "Ganeshnagar industrial estate"
+          "name": "Ganeshnagar Industrial Growth Centre",
+          "note": "Chumoukedima district"
         },
         {
-          "name": "Kohima",
-          "note": "nearby city on the same dispatch route"
+          "name": "Agro and food processing SEZ",
+          "note": "beside the growth centre"
         },
         {
-          "name": "Mokokchung",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Tuensang",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Wokha",
-          "note": "nearby city on the same dispatch route"
+          "name": "NIDC Old and New Industrial Estates",
+          "note": "Dimapur town"
         }
       ],
       "specs": [
         {
-          "service": "Hydraulic & compressed-air circuits",
-          "spec": "A105 / SS 316 forged fittings, 3000# and 6000#, socket-weld or threaded"
+          "service": "Product-contact and CIP lines",
+          "spec": "SS 304/316 slip-on or weld neck, PN10/PN16 or Class 150"
         },
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Boiler house and steam",
+          "spec": "A105 slip-on or weld neck RF, Class 150/300"
         },
         {
-          "service": "Machine & test-rig piping",
-          "spec": "Threaded and slip-on flanges to ASME B16.5, Class 150–600"
+          "service": "Tank outlets and spare nozzles",
+          "spec": "Blind flanges matched to the nozzle class"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
+          "service": "Compressed air and small-bore",
+          "spec": "Threaded or socket weld, Class 150/300"
         }
       ]
     },
-    "logistics": "Route: NH27 via Guwahati. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 8 days to Dimapur. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Dimapur. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Engineering & Auto",
@@ -23136,28 +23332,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "Which flanges and fittings does Remax Forge supply to Dimapur?",
-        "a": "We deliver Forged Fittings, SW Elbows, Threaded Flanges and Slip On Flanges to Dimapur in A105, SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from engineering & auto and agro & food processing — including units around Ganeshnagar industrial estate — and every lot ships with EN 10204 3.1 certification."
+        "q": "Which stainless grade suits a food unit at Ganeshnagar?",
+        "a": "SS 304 covers most product, water and CIP lines. SS 316 is the safer choice where brine, acids or chloride cleaning agents are used. Name the product and cleaning chemicals and we will confirm the grade on the quote."
       },
       {
-        "q": "Which forged fitting classes do Dimapur engineering units usually order?",
-        "a": "Workshops around Nagaland's commercial hub mostly order 2000#, 3000# and 6000# forged fittings — elbows, tees, couplings and nipples in A105 and SS 304/316 — alongside slip-on and threaded flanges for air, hydraulic and steam lines. All items carry EN 10204 3.1 certification."
+        "q": "Can one RFQ cover both stainless process flanges and carbon steel boiler flanges?",
+        "a": "Yes. List each item with its size, rating, facing and grade, and the quote prices them line by line, so a mixed list from a small unit can be ordered together."
       },
       {
-        "q": "What is the realistic delivery time to Dimapur?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Dimapur in roughly 8 days by road (NH27 via Guwahati). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Do you supply blind flanges for spare tank nozzles?",
+        "a": "Yes. Give the nozzle size, class or PN and facing, and we quote a blind flange drilled to match, in A105 or stainless."
       },
       {
-        "q": "Which industrial areas in and around Dimapur do you deliver to?",
-        "a": "We deliver door-to-site across Dimapur, including Ganeshnagar industrial estate, and to nearby Kohima, Mokokchung, Tuensang and Wokha. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH27 via Guwahati, normally arriving in about 8 days."
+        "q": "Can a unit in the NIDC sheds order a few flanges at a time?",
+        "a": "Yes. We do not publish a minimum order; write the quantity you need on the RFQ and the quote is made for that quantity."
       },
       {
-        "q": "Do you have a plant or office in Dimapur?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Dimapur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "q": "How are flanges delivered to Dimapur, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Dimapur rather than as a fixed number of days."
       },
       {
-        "q": "What test certificates come with a Dimapur order?",
-        "a": "Every Dimapur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Is your facility located in Dimapur?",
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Dimapur orders are sent from there by road. We have no office or warehouse in Dimapur."
+      },
+      {
+        "q": "Which documents come with a Dimapur order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -23217,50 +23417,58 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Which flanges and fittings does Remax Forge supply to Dimapur?",
+            "name": "Which stainless grade suits a food unit at Ganeshnagar?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Forged Fittings, SW Elbows, Threaded Flanges and Slip On Flanges to Dimapur in A105, SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from engineering & auto and agro & food processing — including units around Ganeshnagar industrial estate — and every lot ships with EN 10204 3.1 certification."
+              "text": "SS 304 covers most product, water and CIP lines. SS 316 is the safer choice where brine, acids or chloride cleaning agents are used. Name the product and cleaning chemicals and we will confirm the grade on the quote."
             }
           },
           {
             "@type": "Question",
-            "name": "Which forged fitting classes do Dimapur engineering units usually order?",
+            "name": "Can one RFQ cover both stainless process flanges and carbon steel boiler flanges?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Workshops around Nagaland's commercial hub mostly order 2000#, 3000# and 6000# forged fittings — elbows, tees, couplings and nipples in A105 and SS 304/316 — alongside slip-on and threaded flanges for air, hydraulic and steam lines. All items carry EN 10204 3.1 certification."
+              "text": "Yes. List each item with its size, rating, facing and grade, and the quote prices them line by line, so a mixed list from a small unit can be ordered together."
             }
           },
           {
             "@type": "Question",
-            "name": "What is the realistic delivery time to Dimapur?",
+            "name": "Do you supply blind flanges for spare tank nozzles?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Dimapur in roughly 8 days by road (NH27 via Guwahati). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "Yes. Give the nozzle size, class or PN and facing, and we quote a blind flange drilled to match, in A105 or stainless."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Dimapur do you deliver to?",
+            "name": "Can a unit in the NIDC sheds order a few flanges at a time?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Dimapur, including Ganeshnagar industrial estate, and to nearby Kohima, Mokokchung, Tuensang and Wokha. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH27 via Guwahati, normally arriving in about 8 days."
+              "text": "Yes. We do not publish a minimum order; write the quantity you need on the RFQ and the quote is made for that quantity."
             }
           },
           {
             "@type": "Question",
-            "name": "Do you have a plant or office in Dimapur?",
+            "name": "How are flanges delivered to Dimapur, and how long does it take?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Dimapur is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Dimapur rather than as a fixed number of days."
             }
           },
           {
             "@type": "Question",
-            "name": "What test certificates come with a Dimapur order?",
+            "name": "Is your facility located in Dimapur?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Dimapur dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Dimapur orders are sent from there by road. We have no office or warehouse in Dimapur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which documents come with a Dimapur order?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -23283,6 +23491,47 @@ export const marketAreaData = {
         "name": "Wokha",
         "url": "/wokha/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Dimapur",
+      "intro": "What we quote most often for Ganeshnagar Industrial Growth Centre, Agro and food processing SEZ, NIDC Old and New Industrial Estates. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "SS 304 slip-on flanges for food lines, carbon steel slip-on flanges, blind flanges for spare nozzles, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Dimapur service",
+          "value": "SS 304/316 for food contact; A105 for steam, air and utilities"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Dimapur; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://morungexpress.com/nagaland-ushers-in-era-of-industrialization",
+      "https://idan.nagaland.gov.in/csrProjects/149",
+      "https://industry.nagaland.gov.in/nidc",
+      "https://industry.nagaland.gov.in/?p=31",
+      "https://thehmars-news.onrender.com/2026-06-09-nagaland-food-processing-incubation-centre-inaugur"
     ]
   },
   "kohima": {
@@ -23293,13 +23542,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in kohima",
     "secondaryKeywords": "flange manufacturer in Kohima; forged fittings supplier Kohima; ASME B16.5 flanges Kohima; pipe fittings Kohima; pipe flanges Kohima",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Kohima | Remax Forge",
-      "description": "Flanges & forged fittings for Kohima's water & utility and food & agro units. ASME B16.5/B16.11, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Kohima, Nagaland | Remax Forge",
+      "description": "Flange Supplier in Kohima: large-bore and blind flanges for the Zaru pumping scheme and the Teupuiki/Dzupfu water project. EN 1092-1, ASME, 3.1 MTC.",
       "keywords": "flange manufacturer in Kohima; forged fittings supplier Kohima; ASME B16.5 flanges Kohima; pipe fittings Kohima; pipe flanges Kohima"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Kohima",
-      "subheadline": "Flanges, butt-weld and forged fittings for Kohima's water & utility and food & agro units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 9 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Kohima",
+      "subheadline": "Weld neck, slip-on and blind flanges for the pumping mains, reservoirs and treatment works that supply Kohima, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Kohima",
       "highlights": [
         {
@@ -23307,8 +23556,8 @@ export const marketAreaData = {
           "reason": "Municipal water distribution, water treatment & supply mains: Mild Steel Flanges, Concentric Reducers, Weld Bends."
         },
         {
-          "feature": "~9-day delivery via via Dimapur",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Kohima."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Kohima is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -23316,60 +23565,49 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: A105, SS 304, galvanized options",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kohima",
-    "introParagraph": "Supplying Kohima means understanding State utilities, water supply infrastructure. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into State capital — A105, SS 304, galvanized options, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Water is pumped uphill to Kohima, and the rising mains, reservoirs and treatment works on those schemes take most of the flanges bought for the capital. Remax Forge supplies <a href=\"/products/flanges/blind-flange-for-water-infrastructure/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges for washouts and tie-ins</a>, <a href=\"/products/flanges/lap-joint-flange-for-water-infrastructure/\" class=\"text-[#D71920] hover:underline font-semibold\">lap joint flanges with stub ends</a> and <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges for pump discharge</a> for this work from Mumbai, with an EN 10204 3.1 MTC on every piece. See also <a href=\"/dimapur/\" class=\"text-[#D71920] hover:underline font-semibold\">Dimapur</a> and <a href=\"/mokokchung/\" class=\"text-[#D71920] hover:underline font-semibold\">Mokokchung</a>.",
     "localGuide": {
-      "heading": "Flange Supply for Kohima's Water & Utility and Food & Agro Units",
+      "heading": "Kohima's water schemes and the flanges they use",
       "paragraphs": [
-        "Kohima's demand for flanges and fittings comes mainly from State utilities, water supply infrastructure. Water-supply, irrigation and municipal contractors order large-diameter slip-on and plate flanges, concentric reducers and weld bends for pumping mains and treatment plants. Agro and food plants mostly need stainless slip-on and weld neck flanges, elbows and reducers for product lines, and A105 flanges on boiler and steam headers.",
-        "Orders for Kohima leave our Mumbai stock within 24–48 hours and travel by road on via Dimapur, so material is usually on site in about 9 days. Custom forgings and non-stock sizes take 7–15 working days. To quote quickly we need the size (NPS or DN), pressure class, facing (RF, FF or RTJ), material grade and the schedule of the mating pipe.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Dimapur, Mokokchung, Tuensang and Wokha, so mixed orders for plants in the region can be planned together."
+        "Nagaland PHED's annual report describes an augmentation scheme for Kohima town, funded 90:10 through the Union urban development ministry, that pumps water from the Zarü stream to a reservoir at Kigwema village in two stages. A larger project, Augmentation of Water Supply to Kohima Town from the Teupuiki/Dzupfu River, has been tendered by PHED with New Development Bank loan funding and a 60-month completion period.",
+        "Pumping a town on a ridge means high static head on the rising main. Flanges near the pumps may need PN25 or PN40 (or ASME Class 300) even where the mains further up run at PN10 or PN16, so the rating should be worked out stage by stage, not set once for the whole scheme. Weld neck flanges suit the pump discharge; lap joint flanges with stub ends make stainless sections easier to line up on site.",
+        "Reservoirs and treatment works add blind flanges for future connections and washouts, and puddle or wall flanges where pipes pass through concrete. If the contractor supplies a drawing with the nozzle schedule, we quote from it directly and flag any item that is outside our product range."
       ],
       "areas": [
         {
-          "name": "State capital"
+          "name": "Zarü stream pumping scheme",
+          "note": "two-stage lift to Kigwema reservoir"
         },
         {
-          "name": "Dimapur",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Mokokchung",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Tuensang",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Wokha",
-          "note": "nearby city on the same dispatch route"
+          "name": "Teupuiki/Dzupfu River project",
+          "note": "NDB-funded PHED tender"
         }
       ],
       "specs": [
         {
-          "service": "Pumping & distribution mains",
-          "spec": "MS / A105 slip-on and plate flanges, PN10 / PN16 or Class 150"
+          "service": "Pump discharge on the rising main",
+          "spec": "Weld neck RF, PN25/PN40 or Class 300, A105"
         },
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Upper mains and valve chambers",
+          "spec": "Slip-on or weld neck, PN10/PN16, A105"
         },
         {
-          "service": "Treatment plant piping",
-          "spec": "SS 304 / 316 flanges, concentric reducers and weld bends"
+          "service": "Stainless sections and treatment piping",
+          "spec": "Lap joint with SS 304/316 stub ends, PN10/PN16"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
+          "service": "Washouts and future tie-ins",
+          "spec": "Blind flanges rated the same as the main"
         }
       ]
     },
-    "logistics": "Route: via Dimapur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Kohima. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Kohima. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Public Utilities & Water",
@@ -23423,28 +23661,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "What products can buyers in Kohima source from Remax Forge?",
-        "a": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Blind Flanges to Kohima in A105, SS 304, galvanized options, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from public utilities & water and agro & food processing — including units around State capital — and every lot ships with EN 10204 3.1 certification."
+        "q": "What rating do flanges need near the pumps on a Kohima rising main?",
+        "a": "It depends on the static head plus surge at that point. Where the pressure exceeds 16 bar, PN25 or PN40 to EN 1092-1, or ASME Class 300, is needed. Send the head or pressure for each stage and we quote the matching rating."
       },
       {
-        "q": "Can you supply flanges for pumping stations and water schemes around Kohima?",
-        "a": "Yes. PHED and urban water works in the Kohima region use A105 and SS 304 slip-on, threaded and blind flanges with hydro test certificates. We support scheme contractors with kitted supply — flanges, fittings and fasteners dispatched together against BOQs."
+        "q": "Why use lap joint flanges on a treatment plant?",
+        "a": "The loose backing flange turns freely, so bolt holes line up easily during installation, and only the stub end touches the water. That lets a carbon steel backing flange be used with a stainless stub end."
       },
       {
-        "q": "How long does delivery to Kohima actually take?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Kohima in roughly 9 days by road (via Dimapur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Can you quote from the nozzle schedule in a tender drawing?",
+        "a": "Yes. Send the drawing or schedule; the quote lists each flange we can supply and marks any item outside our range."
       },
       {
-        "q": "Which industrial areas in and around Kohima do you deliver to?",
-        "a": "We deliver door-to-site across Kohima, including State capital, and to nearby Dimapur, Mokokchung, Tuensang and Wokha. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Dimapur, normally arriving in about 9 days."
+        "q": "Do you make wall or puddle flanges for reservoir walls?",
+        "a": "Send the drawing and we will confirm on the quote whether we can make it; standard flanges are made to ASME B16.5 and EN 1092-1, and special shapes are quoted case by case."
+      },
+      {
+        "q": "How are flanges delivered to Kohima, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Kohima rather than as a fixed number of days."
       },
       {
         "q": "Is your facility located in Kohima?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Kohima is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Kohima orders are sent from there by road. We have no office or warehouse in Kohima."
       },
       {
-        "q": "Which documents do you provide with supply to Kohima?",
-        "a": "Every Kohima dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Which documents come with a Kohima order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -23504,34 +23746,42 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What products can buyers in Kohima source from Remax Forge?",
+            "name": "What rating do flanges need near the pumps on a Kohima rising main?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Blind Flanges to Kohima in A105, SS 304, galvanized options, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from public utilities & water and agro & food processing — including units around State capital — and every lot ships with EN 10204 3.1 certification."
+              "text": "It depends on the static head plus surge at that point. Where the pressure exceeds 16 bar, PN25 or PN40 to EN 1092-1, or ASME Class 300, is needed. Send the head or pressure for each stage and we quote the matching rating."
             }
           },
           {
             "@type": "Question",
-            "name": "Can you supply flanges for pumping stations and water schemes around Kohima?",
+            "name": "Why use lap joint flanges on a treatment plant?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. PHED and urban water works in the Kohima region use A105 and SS 304 slip-on, threaded and blind flanges with hydro test certificates. We support scheme contractors with kitted supply — flanges, fittings and fasteners dispatched together against BOQs."
+              "text": "The loose backing flange turns freely, so bolt holes line up easily during installation, and only the stub end touches the water. That lets a carbon steel backing flange be used with a stainless stub end."
             }
           },
           {
             "@type": "Question",
-            "name": "How long does delivery to Kohima actually take?",
+            "name": "Can you quote from the nozzle schedule in a tender drawing?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Kohima in roughly 9 days by road (via Dimapur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "Yes. Send the drawing or schedule; the quote lists each flange we can supply and marks any item outside our range."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Kohima do you deliver to?",
+            "name": "Do you make wall or puddle flanges for reservoir walls?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Kohima, including State capital, and to nearby Dimapur, Mokokchung, Tuensang and Wokha. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Dimapur, normally arriving in about 9 days."
+              "text": "Send the drawing and we will confirm on the quote whether we can make it; standard flanges are made to ASME B16.5 and EN 1092-1, and special shapes are quoted case by case."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How are flanges delivered to Kohima, and how long does it take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Kohima rather than as a fixed number of days."
             }
           },
           {
@@ -23539,15 +23789,15 @@ export const marketAreaData = {
             "name": "Is your facility located in Kohima?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Kohima is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Kohima orders are sent from there by road. We have no office or warehouse in Kohima."
             }
           },
           {
             "@type": "Question",
-            "name": "Which documents do you provide with supply to Kohima?",
+            "name": "Which documents come with a Kohima order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Kohima dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -23570,6 +23820,46 @@ export const marketAreaData = {
         "name": "Wokha",
         "url": "/wokha/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Kohima",
+      "intro": "What we quote most often for Zarü stream pumping scheme, Teupuiki/Dzupfu River project. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "blind flanges for washouts and tie-ins, lap joint flanges with stub ends, weld neck flanges for pump discharge, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Kohima service",
+          "value": "A105 for pumping mains; SS 304/316 stub ends for treatment piping"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Kohima; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://phed.nagaland.gov.in/assets/aar-2020-21.pdf",
+      "https://phed.nagaland.gov.in/urban-water-supply.html",
+      "https://www.ndb.int/wp-content/uploads/2024/08/Tendernotice_1.pdf",
+      "https://www.ndb.int/wp-content/uploads/2026/05/2-PreBid.pdf"
     ]
   },
   "mokokchung": {
@@ -23580,13 +23870,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in mokokchung",
     "secondaryKeywords": "flange manufacturer in Mokokchung; forged fittings supplier Mokokchung; ASME B16.5 flanges Mokokchung; pipe fittings Mokokchung; pipe flanges Mokokchung",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Mokokchung | Remax Forge",
-      "description": "Flanges & forged fittings for Mokokchung's food & agro and hydro power units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Mokokchung, Nagaland | Remax Forge",
+      "description": "Flange Supplier in Mokokchung: threaded, slip-on and blind flanges for town water works and Jal Jeevan Mission village schemes. 3.1 MTC.",
       "keywords": "flange manufacturer in Mokokchung; forged fittings supplier Mokokchung; ASME B16.5 flanges Mokokchung; pipe fittings Mokokchung; pipe flanges Mokokchung"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Mokokchung",
-      "subheadline": "Flanges, butt-weld and forged fittings for Mokokchung's food & agro and hydro power units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 9 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Mokokchung",
+      "subheadline": "Threaded, slip-on and blind flanges for Mokokchung town water works and the village pumping schemes around it, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Mokokchung",
       "highlights": [
         {
@@ -23594,8 +23884,8 @@ export const marketAreaData = {
           "reason": "Sanitary grade pipelines and food manufacturing lines: SS 304/316 Flanges, Buttweld Elbows."
         },
         {
-          "feature": "~9-day delivery via via Dimapur",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Mokokchung."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Mokokchung is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -23603,60 +23893,49 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: SS 304/316",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Mokokchung",
-    "introParagraph": "Around District HQ, procurement runs on Agro processing, small hydel. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Mokokchung is the main town of northern Nagaland, and the flanges bought here go mostly into water supply: the town system and the small pumping schemes in surrounding villages. Remax Forge supplies <a href=\"/products/flanges/threaded-flange-for-water-infrastructure/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges for galvanised water pipe</a>, <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">carbon steel slip-on flanges</a> and <a href=\"/products/flanges/blind-flange-for-water-infrastructure/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges for washouts and tie-ins</a> for these jobs from our Mumbai works with an EN 10204 3.1 MTC. Related pages: <a href=\"/wokha/\" class=\"text-[#D71920] hover:underline font-semibold\">Wokha</a> and <a href=\"/tuensang/\" class=\"text-[#D71920] hover:underline font-semibold\">Tuensang</a>.",
     "localGuide": {
-      "heading": "Flanges & Fittings for Mokokchung: Food & Agro and Hydro Power Industry",
+      "heading": "Mokokchung: northern Nagaland's main town and its water projects",
       "paragraphs": [
-        "Mokokchung's demand for flanges and fittings comes mainly from Agro processing, small hydel. Agro and food plants mostly need stainless slip-on and weld neck flanges, elbows and reducers for product lines, and A105 flanges on boiler and steam headers. Hydro-power and water-infrastructure projects order large-bore flanges, spectacle blinds and concentric reducers for penstock bypass, cooling-water and dewatering lines.",
-        "Stock items for Mokokchung are dispatched from Mumbai in 24–48 hours and reach site by road in about 9 days (via Dimapur). Non-stock sizes and custom forgings run 7–15 working days. Send your size, class, facing, grade and pipe schedule, or simply the BOQ or line list, and we will quote line by line.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Dimapur, Kohima, Tuensang and Wokha, so mixed orders for plants in the region can be planned together."
+        "Mokokchung is the headquarters of Mokokchung district and the cultural centre of the Ao Nagas; it is also described as the most important urban centre in northern Nagaland. The Mokokchung sub-division of the Naga Hills district dates from 1889, and the town had 35,913 residents at the 2011 census.",
+        "Nagaland PHED's 2020-21 report lists a scheme to improve and restore water supply to Mokokchung town, and its 2022-23 report lists pumping projects in several Mokokchung villages under the Jal Jeevan Mission. Village schemes are small: a pump set, a rising main, a storage tank and a distribution network, often in 2 to 6 inch pipe.",
+        "Small schemes are where threaded flanges earn their place, because galvanised pipe can be joined at pump and tank outlets without site welding. Slip-on flanges are used where the pipe is welded, and a blind flange on each tank outlet leaves room for later extension. If the rest of the line is galvanised, say so on the RFQ and the quote will state the finish we can offer."
       ],
       "areas": [
         {
-          "name": "District HQ"
+          "name": "Mokokchung town water supply",
+          "note": "PHED improvement scheme"
         },
         {
-          "name": "Dimapur",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Kohima",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Tuensang",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Wokha",
-          "note": "nearby city on the same dispatch route"
+          "name": "Village pumping schemes",
+          "note": "Jal Jeevan Mission, Mokokchung district"
         }
       ],
       "specs": [
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Pump and tank outlets on galvanised pipe",
+          "spec": "Threaded flanges, Class 150 or PN16, A105"
         },
         {
-          "service": "Penstock bypass & dewatering",
-          "spec": "Large-diameter flanges to ASME B16.47 Series A / B"
+          "service": "Welded rising mains",
+          "spec": "Slip-on RF, PN10/PN16 or Class 150"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
+          "service": "Tank outlets kept for extension",
+          "spec": "Blind flanges at the outlet PN"
         },
         {
-          "service": "Isolation points",
-          "spec": "Spectacle blinds and blind flanges sized to the line class"
+          "service": "Valve chambers",
+          "spec": "Flanges drilled to the valve standard"
         }
       ]
     },
-    "logistics": "Route: via Dimapur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Mokokchung. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Mokokchung. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Agro & Food Processing",
@@ -23710,28 +23989,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "Which piping components do you stock for Mokokchung?",
-        "a": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Mokokchung in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and hydro power & water infra — including units around District HQ — and every lot ships with EN 10204 3.1 certification."
+        "q": "Are threaded flanges suitable for a village pumping scheme?",
+        "a": "Yes, for small-bore galvanised pipe at modest pressure. They join without welding, which suits sites with no welding set. Give the pipe size and thread type (BSP or NPT) on the RFQ."
       },
       {
-        "q": "Which stainless grades suit food and agro processing lines in Mokokchung?",
-        "a": "Food-contact steam and CIP lines in Mokokchung's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+        "q": "Do threaded flanges suit galvanised pipe?",
+        "a": "Yes. A threaded flange screws onto galvanised pipe without welding, so the pipe coating is not burnt off at the joint. If you need a coated flange as well, say so on the RFQ and the quote will state the finish we can offer."
       },
       {
-        "q": "What lead time should Mokokchung buyers plan for?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Mokokchung in roughly 9 days by road (via Dimapur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Which flange standard do Nagaland water schemes usually use?",
+        "a": "Water schemes often specify EN 1092-1 PN10 or PN16, or IS 6392. We make flanges to ASME B16.5 and EN 1092-1; for IS 6392, send the dimensions and we will confirm on the quote whether we can match them."
       },
       {
-        "q": "Which industrial areas in and around Mokokchung do you deliver to?",
-        "a": "We deliver door-to-site across Mokokchung, including District HQ, and to nearby Dimapur, Kohima, Tuensang and Wokha. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Dimapur, normally arriving in about 9 days."
+        "q": "Can a JJM contractor order flanges for several villages at once?",
+        "a": "Yes. Mark each line with its village or delivery point and the quote groups them, so a single order can be split on dispatch."
       },
       {
-        "q": "Do you have a manufacturing plant in Mokokchung?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Mokokchung is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "q": "How are flanges delivered to Mokokchung, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Mokokchung rather than as a fixed number of days."
       },
       {
-        "q": "What QA documentation accompanies Mokokchung dispatches?",
-        "a": "Every Mokokchung dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Is your facility located in Mokokchung?",
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Mokokchung orders are sent from there by road. We have no office or warehouse in Mokokchung."
+      },
+      {
+        "q": "Which documents come with a Mokokchung order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -23791,50 +24074,58 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Which piping components do you stock for Mokokchung?",
+            "name": "Are threaded flanges suitable for a village pumping scheme?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Mokokchung in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and hydro power & water infra — including units around District HQ — and every lot ships with EN 10204 3.1 certification."
+              "text": "Yes, for small-bore galvanised pipe at modest pressure. They join without welding, which suits sites with no welding set. Give the pipe size and thread type (BSP or NPT) on the RFQ."
             }
           },
           {
             "@type": "Question",
-            "name": "Which stainless grades suit food and agro processing lines in Mokokchung?",
+            "name": "Do threaded flanges suit galvanised pipe?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Food-contact steam and CIP lines in Mokokchung's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+              "text": "Yes. A threaded flange screws onto galvanised pipe without welding, so the pipe coating is not burnt off at the joint. If you need a coated flange as well, say so on the RFQ and the quote will state the finish we can offer."
             }
           },
           {
             "@type": "Question",
-            "name": "What lead time should Mokokchung buyers plan for?",
+            "name": "Which flange standard do Nagaland water schemes usually use?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Mokokchung in roughly 9 days by road (via Dimapur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "Water schemes often specify EN 1092-1 PN10 or PN16, or IS 6392. We make flanges to ASME B16.5 and EN 1092-1; for IS 6392, send the dimensions and we will confirm on the quote whether we can match them."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Mokokchung do you deliver to?",
+            "name": "Can a JJM contractor order flanges for several villages at once?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Mokokchung, including District HQ, and to nearby Dimapur, Kohima, Tuensang and Wokha. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Dimapur, normally arriving in about 9 days."
+              "text": "Yes. Mark each line with its village or delivery point and the quote groups them, so a single order can be split on dispatch."
             }
           },
           {
             "@type": "Question",
-            "name": "Do you have a manufacturing plant in Mokokchung?",
+            "name": "How are flanges delivered to Mokokchung, and how long does it take?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Mokokchung is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Mokokchung rather than as a fixed number of days."
             }
           },
           {
             "@type": "Question",
-            "name": "What QA documentation accompanies Mokokchung dispatches?",
+            "name": "Is your facility located in Mokokchung?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Mokokchung dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Mokokchung orders are sent from there by road. We have no office or warehouse in Mokokchung."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which documents come with a Mokokchung order?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -23857,6 +24148,46 @@ export const marketAreaData = {
         "name": "Wokha",
         "url": "/wokha/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Mokokchung",
+      "intro": "What we quote most often for Mokokchung town water supply, Village pumping schemes. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "threaded flanges for galvanised water pipe, carbon steel slip-on flanges, blind flanges for washouts and tie-ins, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Mokokchung service",
+          "value": "A105 for threaded and welded water scheme flanges; SS 304 on request"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Mokokchung; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mokokchung",
+      "https://mokokchung.nic.in/about-the-district/",
+      "https://phed.nagaland.gov.in/assets/aar-2020-21.pdf",
+      "https://phed.nagaland.gov.in/wp-content/uploads/2025/06/AAR-2022-23-1_.pdf"
     ]
   },
   "tuensang": {
@@ -23867,13 +24198,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in tuensang",
     "secondaryKeywords": "flange manufacturer in Tuensang; forged fittings supplier Tuensang; ASME B16.5 flanges Tuensang; pipe fittings Tuensang; pipe flanges Tuensang",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Tuensang | Remax Forge",
-      "description": "Flanges & forged fittings for Tuensang's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Tuensang, Nagaland | Remax Forge",
+      "description": "Flange Supplier in Tuensang: small-bore threaded, socket weld and slip-on flanges for public works, water and building services. 3.1 MTC.",
       "keywords": "flange manufacturer in Tuensang; forged fittings supplier Tuensang; ASME B16.5 flanges Tuensang; pipe fittings Tuensang; pipe flanges Tuensang"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Tuensang",
-      "subheadline": "Flanges, butt-weld and forged fittings for Tuensang's food & agro and water & utility units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 10 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Tuensang",
+      "subheadline": "Threaded, socket weld and slip-on flanges for public works, water lines and building services in eastern Nagaland, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Tuensang",
       "highlights": [
         {
@@ -23881,8 +24212,8 @@ export const marketAreaData = {
           "reason": "Sanitary grade pipelines and food manufacturing lines: SS 304/316 Flanges, Buttweld Elbows."
         },
         {
-          "feature": "~10-day delivery via via Dimapur",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Tuensang."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Tuensang is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -23890,60 +24221,49 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: SS 304/316",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Tuensang",
-    "introParagraph": "Tuensang's buyers order piping hardware for concrete reasons: Agro processing, water schemes. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into District HQ, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Flange orders from Tuensang are usually small and come from public works, water lines, hospitals and building services. Remax Forge supplies <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">screwed flanges for building services</a>, <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges for small-bore lines</a> and <a href=\"/products/flanges/class-150-flange-supplier/\" class=\"text-[#D71920] hover:underline font-semibold\">ASME Class 150 flanges</a> for these jobs, made in Mumbai and sent with an EN 10204 3.1 MTC. Nearby pages: <a href=\"/mokokchung/\" class=\"text-[#D71920] hover:underline font-semibold\">Mokokchung</a> and <a href=\"/kohima/\" class=\"text-[#D71920] hover:underline font-semibold\">Kohima</a>.",
     "localGuide": {
-      "heading": "Flange Supply for Tuensang's Food & Agro and Water & Utility Units",
+      "heading": "Tuensang, the administrative centre of eastern Nagaland",
       "paragraphs": [
-        "Tuensang's demand for flanges and fittings comes mainly from Agro processing, water schemes. Food, sugar and agro-processing units order SS 304/316 flanges and butt-weld fittings for juice, syrup, oil and process lines, plus carbon steel flanges for boiler and utility piping. Utility and infrastructure projects mainly need mild steel flanges in PN10/PN16 or Class 150, reducers and long-radius bends for distribution mains.",
-        "Orders for Tuensang leave our Mumbai stock within 24–48 hours and travel by road on via Dimapur, so material is usually on site in about 10 days. Custom forgings and non-stock sizes take 7–15 working days. To quote quickly we need the size (NPS or DN), pressure class, facing (RF, FF or RTJ), material grade and the schedule of the mating pipe.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Dimapur, Kohima, Mokokchung and Wokha, so mixed orders for plants in the region can be planned together."
+        "Tuensang town is the headquarters of Tuensang district, described as the largest and easternmost district of Nagaland, and had 36,774 residents at the last census. The town was founded in 1947 to administer the then North East Frontier Agency area, and it is the base of the Eastern Nagaland Peoples' Organisation (ENPO), the Eastern Naga Students' Federation and the Khiamniungan Tribal Council.",
+        "In February 2026 the ENPO, the Government of India and the Government of Nagaland signed an agreement in New Delhi on a Frontier Nagaland Territorial Authority for the eastern districts. Public building, water and road works in a district headquarters of this kind are where flanges are needed, mostly in small sizes.",
+        "For a remote site, getting the order right first time matters more than speed. Send one line per flange with the nominal size, class or PN, facing, pipe schedule or bore, and material, and say whether the joint is screwed or welded. If a flange is being replaced, a photo next to a tape measure is enough for us to identify it."
       ],
       "areas": [
         {
-          "name": "District HQ"
+          "name": "Tuensang town",
+          "note": "district headquarters, eastern Nagaland"
         },
         {
-          "name": "Dimapur",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Kohima",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Mokokchung",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Wokha",
-          "note": "nearby city on the same dispatch route"
+          "name": "Public building and water works",
+          "note": "district and state departments"
         }
       ],
       "specs": [
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Building services and plumbing",
+          "spec": "Threaded flanges, Class 150, A105 or SS 304"
         },
         {
-          "service": "Pumping & distribution mains",
-          "spec": "MS / A105 slip-on and plate flanges, PN10 / PN16 or Class 150"
+          "service": "Generator fuel and small hot-water lines",
+          "spec": "Socket weld, Class 150/300, A105"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
+          "service": "Water mains and pump sets",
+          "spec": "Slip-on RF, Class 150 or PN16"
         },
         {
-          "service": "Treatment plant piping",
-          "spec": "SS 304 / 316 flanges, concentric reducers and weld bends"
+          "service": "Spare outlets",
+          "spec": "Blind flanges, Class 150"
         }
       ]
     },
-    "logistics": "Route: via Dimapur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 10 days to Tuensang. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Tuensang. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Agro & Food Processing",
@@ -23997,28 +24317,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "Which flanges and fittings does Remax Forge supply to Tuensang?",
-        "a": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Tuensang in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around District HQ — and every lot ships with EN 10204 3.1 certification."
+        "q": "What should I send to quote a replacement flange for a site in Tuensang?",
+        "a": "The size, class or PN, facing, bore or pipe schedule and material. If the old flange has no markings, send the outside diameter, bolt circle and number of bolt holes, or a photo with a tape across it."
       },
       {
-        "q": "Which stainless grades suit food and agro processing lines in Tuensang?",
-        "a": "Food-contact steam and CIP lines in Tuensang's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+        "q": "Is a socket weld or threaded flange better for a small generator fuel line?",
+        "a": "Socket weld gives a sealed welded joint and suits fuel and hot lines up to about 2 inches. Threaded flanges are used where welding is not possible on site. We quote both in Class 150 and 300."
       },
       {
-        "q": "What is the realistic delivery time to Tuensang?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Tuensang in roughly 10 days by road (via Dimapur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Do you supply Class 150 flanges in stainless steel?",
+        "a": "Yes. SS 304 and SS 316 Class 150 slip-on, weld neck, threaded and blind flanges are made to ASME B16.5 with a 3.1 MTC."
       },
       {
-        "q": "Which industrial areas in and around Tuensang do you deliver to?",
-        "a": "We deliver door-to-site across Tuensang, including District HQ, and to nearby Dimapur, Kohima, Mokokchung and Wokha. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Dimapur, normally arriving in about 10 days."
+        "q": "Can small orders for public works be quoted?",
+        "a": "Yes. We do not publish a minimum order. The quote is made for the quantity on your RFQ."
       },
       {
-        "q": "Do you have a plant or office in Tuensang?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Tuensang is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "q": "How are flanges delivered to Tuensang, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Tuensang rather than as a fixed number of days."
       },
       {
-        "q": "What test certificates come with a Tuensang order?",
-        "a": "Every Tuensang dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Is your facility located in Tuensang?",
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Tuensang orders are sent from there by road. We have no office or warehouse in Tuensang."
+      },
+      {
+        "q": "Which documents come with a Tuensang order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -24078,50 +24402,58 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Which flanges and fittings does Remax Forge supply to Tuensang?",
+            "name": "What should I send to quote a replacement flange for a site in Tuensang?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Tuensang in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around District HQ — and every lot ships with EN 10204 3.1 certification."
+              "text": "The size, class or PN, facing, bore or pipe schedule and material. If the old flange has no markings, send the outside diameter, bolt circle and number of bolt holes, or a photo with a tape across it."
             }
           },
           {
             "@type": "Question",
-            "name": "Which stainless grades suit food and agro processing lines in Tuensang?",
+            "name": "Is a socket weld or threaded flange better for a small generator fuel line?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Food-contact steam and CIP lines in Tuensang's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+              "text": "Socket weld gives a sealed welded joint and suits fuel and hot lines up to about 2 inches. Threaded flanges are used where welding is not possible on site. We quote both in Class 150 and 300."
             }
           },
           {
             "@type": "Question",
-            "name": "What is the realistic delivery time to Tuensang?",
+            "name": "Do you supply Class 150 flanges in stainless steel?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Tuensang in roughly 10 days by road (via Dimapur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "Yes. SS 304 and SS 316 Class 150 slip-on, weld neck, threaded and blind flanges are made to ASME B16.5 with a 3.1 MTC."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Tuensang do you deliver to?",
+            "name": "Can small orders for public works be quoted?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Tuensang, including District HQ, and to nearby Dimapur, Kohima, Mokokchung and Wokha. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Dimapur, normally arriving in about 10 days."
+              "text": "Yes. We do not publish a minimum order. The quote is made for the quantity on your RFQ."
             }
           },
           {
             "@type": "Question",
-            "name": "Do you have a plant or office in Tuensang?",
+            "name": "How are flanges delivered to Tuensang, and how long does it take?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Tuensang is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Tuensang rather than as a fixed number of days."
             }
           },
           {
             "@type": "Question",
-            "name": "What test certificates come with a Tuensang order?",
+            "name": "Is your facility located in Tuensang?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Tuensang dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Tuensang orders are sent from there by road. We have no office or warehouse in Tuensang."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which documents come with a Tuensang order?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -24144,6 +24476,45 @@ export const marketAreaData = {
         "name": "Wokha",
         "url": "/wokha/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Tuensang",
+      "intro": "What we quote most often for Tuensang town, Public building and water works. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "screwed flanges for building services, socket weld flanges for small-bore lines, ASME Class 150 flanges, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Tuensang service",
+          "value": "A105 for water and building services; SS 304 for hospital and kitchen lines"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Tuensang; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tuensang",
+      "https://morungexpress.com/governor-yadav-stresses-youth-infrastructure-and-cultural-preservation-in-tuensang",
+      "https://en.wikipedia.org/wiki/Frontier_Nagaland"
     ]
   },
   "wokha": {
@@ -24154,13 +24525,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in wokha",
     "secondaryKeywords": "flange manufacturer in Wokha; forged fittings supplier Wokha; ASME B16.5 flanges Wokha; pipe fittings Wokha; large bore flanges Wokha",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Wokha | Remax Forge",
-      "description": "Flanges & forged fittings for Wokha's hydro power and food & agro units: A105, A350 LF2 (low-temp), ASME B16.5, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Wokha, Nagaland | Remax Forge",
+      "description": "Flange Supplier in Wokha: weld neck flanges and spectacle blinds for Doyang hydro station overhauls and PHED water schemes. ASME B16.5, 3.1 MTC.",
       "keywords": "flange manufacturer in Wokha; forged fittings supplier Wokha; ASME B16.5 flanges Wokha; pipe fittings Wokha; large bore flanges Wokha"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Wokha",
-      "subheadline": "Flanges, butt-weld and forged fittings for Wokha's hydro power and food & agro units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 9 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Wokha",
+      "subheadline": "Weld neck flanges, spectacle blinds and water-works flanges for the Doyang hydro station and Wokha water schemes, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Wokha",
       "highlights": [
         {
@@ -24168,8 +24539,8 @@ export const marketAreaData = {
           "reason": "High-volume water diversion, penstocks & cooling loops: Large-Diameter Flanges, Concentric Reducers."
         },
         {
-          "feature": "~9-day delivery via via Dimapur",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Wokha."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Wokha is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -24177,60 +24548,49 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: A105, A350 LF2 (low-temp)",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Wokha",
-    "introParagraph": "Supplying Wokha means understanding NEEPCO Doyang hydro station, agro. Remax Forge ships <a href=\"/products/flanges/weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges</a> and <a href=\"/products/flanges/long-weld-neck-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">long weld neck flanges</a> from Mumbai into Doyang project area — A105, A350 LF2 (low-temp), ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "The biggest piece of plant in Wokha district is the Doyang hydro station, and its overhaul and repair work is where most flange enquiries start. Remax Forge quotes <a href=\"/products/flanges/weld-neck-flange-for-power-generation/\" class=\"text-[#D71920] hover:underline font-semibold\">hydro and thermal station weld neck flanges</a>, <a href=\"/products/flanges/spectacle-blind-flange-for-power-generation/\" class=\"text-[#D71920] hover:underline font-semibold\">isolation spectacle blinds for power plants</a> and <a href=\"/products/flanges/slip-on-flange-for-water-infrastructure/\" class=\"text-[#D71920] hover:underline font-semibold\">slip-on flanges for water mains</a> for that work and for district water schemes, made in Mumbai with an EN 10204 3.1 MTC. Nearby pages: <a href=\"/mokokchung/\" class=\"text-[#D71920] hover:underline font-semibold\">Mokokchung</a> and <a href=\"/dimapur/\" class=\"text-[#D71920] hover:underline font-semibold\">Dimapur</a>.",
     "localGuide": {
-      "heading": "Flanges & Fittings for Wokha: Hydro Power and Food & Agro Industry",
+      "heading": "Wokha's flange users: the Doyang hydro station and district water supply",
       "paragraphs": [
-        "Wokha's demand for flanges and fittings comes mainly from NEEPCO Doyang hydro station, agro. For hydel stations and dams the usual demand is ASME B16.47 large-diameter flanges, blind flanges for isolation and carbon steel fittings for cooling systems. Food, sugar and agro-processing units order SS 304/316 flanges and butt-weld fittings for juice, syrup, oil and process lines, plus carbon steel flanges for boiler and utility piping.",
-        "Stock items for Wokha are dispatched from Mumbai in 24–48 hours and reach site by road in about 9 days (via Dimapur). Non-stock sizes and custom forgings run 7–15 working days. Send your size, class, facing, grade and pipe schedule, or simply the BOQ or line list, and we will quote line by line.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Dimapur, Kohima, Mokokchung and Tuensang, so mixed orders for plants in the region can be planned together."
+        "The Doyang Hydro Electric Project uses the Doyang River, a Brahmaputra tributary, about 30 km from Wokha town. It has three 25 MW units, 75 MW in all, was commissioned in 2000 and is run by NEEPCO. Reporting in 2026 described landowners still pressing grievances from the 1984 land acquisition, and noted the state's 12 percent share of free power from the station.",
+        "A station of this age is maintained unit by unit. Cooling water, drainage and dewatering pumps, governor oil and spiral-case drains all have flanged joints, and an overhaul often needs spectacle blinds to isolate one unit while the others run. Carbon steel A105 in Class 150 or 300 covers most of this; stainless is used on oil and instrument lines.",
+        "Town water supply is the other buyer. Nagaland's PHED commissioned a scheme in Wokha in 2018 to serve about 600 households, and works like this use slip-on and blind flanges in PN10/PN16 at pumps, valves and future tie-ins. Contractors on such schemes usually need the flange drilling to match valves already bought, so state the valve standard on the RFQ."
       ],
       "areas": [
         {
-          "name": "Doyang project area"
+          "name": "Doyang Hydro Electric Project",
+          "note": "NEEPCO, about 30 km from Wokha"
         },
         {
-          "name": "Dimapur",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Kohima",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Mokokchung",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Tuensang",
-          "note": "nearby city on the same dispatch route"
+          "name": "Wokha town water supply",
+          "note": "Nagaland PHED"
         }
       ],
       "specs": [
         {
-          "service": "Penstock bypass & dewatering",
-          "spec": "Large-diameter flanges to ASME B16.47 Series A / B"
+          "service": "Cooling water and dewatering pumps",
+          "spec": "A105 weld neck, raised face, Class 150 or 300"
         },
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Unit isolation during overhauls",
+          "spec": "Spectacle blinds and spacers in the line class"
         },
         {
-          "service": "Isolation points",
-          "spec": "Spectacle blinds and blind flanges sized to the line class"
+          "service": "Governor oil and instrument lines",
+          "spec": "SS 316 socket weld or threaded, Class 300"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
+          "service": "Town water mains and valves",
+          "spec": "Slip-on and blind, PN10/PN16, A105"
         }
       ]
     },
-    "logistics": "Route: via Dimapur. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Wokha. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Wokha. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Hydro Power & Water Infra",
@@ -24284,28 +24644,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "What products can buyers in Wokha source from Remax Forge?",
-        "a": "We deliver Weld Neck Flanges, Blind Flanges, Long Weld Neck Flanges and Alloy Steel Pipess to Wokha in A105, A350 LF2 (low-temp), dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from hydro power & water infra and agro & food processing — including units around Doyang project area — and every lot ships with EN 10204 3.1 certification."
+        "q": "Can you supply spectacle blinds for isolating a Doyang unit during an overhaul?",
+        "a": "Yes, through the overhaul contractor. Give the line size, class, facing and the gap between the flanges, and we quote spectacle blinds or a spade and spacer pair. We are not a NEEPCO-registered vendor."
       },
       {
-        "q": "Can you supply large-bore flanges for penstock and hydel work near Wokha?",
-        "a": "Yes. Hydel and water-infrastructure projects in the Wokha region use ASME B16.47 Series A/B large-bore weld necks, long weld necks and blinds, typically in A105 or low-temperature A350 LF2. We supply these with hydro test certificates and 3.1 MTCs sized to project drawings."
+        "q": "Which flange suits a dewatering pump discharge at a hydro station?",
+        "a": "A weld neck flange in A105 to ASME B16.5 Class 150 or 300 is the usual choice, because the tapered hub copes better with vibration and pressure surges than a slip-on."
       },
       {
-        "q": "How long does delivery to Wokha actually take?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Wokha in roughly 9 days by road (via Dimapur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Can you match flanges to valves already bought for a Wokha water scheme?",
+        "a": "Yes. Tell us the valve end standard, for example PN16 to EN 1092-1 or Class 150 to ASME B16.5, and the flanges are drilled to match."
       },
       {
-        "q": "Which industrial areas in and around Wokha do you deliver to?",
-        "a": "We deliver door-to-site across Wokha, including Doyang project area, and to nearby Dimapur, Kohima, Mokokchung and Tuensang. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Dimapur, normally arriving in about 9 days."
+        "q": "Do you quote stainless flanges for governor oil lines?",
+        "a": "Yes. SS 316 socket weld or threaded flanges in Class 300 are common for small oil and instrument lines. Give the pipe schedule so the socket bore is right."
+      },
+      {
+        "q": "How are flanges delivered to Wokha, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Wokha rather than as a fixed number of days."
       },
       {
         "q": "Is your facility located in Wokha?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Wokha is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Wokha orders are sent from there by road. We have no office or warehouse in Wokha."
       },
       {
-        "q": "Which documents do you provide with supply to Wokha?",
-        "a": "Every Wokha dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Which documents come with a Wokha order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -24365,34 +24729,42 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What products can buyers in Wokha source from Remax Forge?",
+            "name": "Can you supply spectacle blinds for isolating a Doyang unit during an overhaul?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Weld Neck Flanges, Blind Flanges, Long Weld Neck Flanges and Alloy Steel Pipess to Wokha in A105, A350 LF2 (low-temp), dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from hydro power & water infra and agro & food processing — including units around Doyang project area — and every lot ships with EN 10204 3.1 certification."
+              "text": "Yes, through the overhaul contractor. Give the line size, class, facing and the gap between the flanges, and we quote spectacle blinds or a spade and spacer pair. We are not a NEEPCO-registered vendor."
             }
           },
           {
             "@type": "Question",
-            "name": "Can you supply large-bore flanges for penstock and hydel work near Wokha?",
+            "name": "Which flange suits a dewatering pump discharge at a hydro station?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes. Hydel and water-infrastructure projects in the Wokha region use ASME B16.47 Series A/B large-bore weld necks, long weld necks and blinds, typically in A105 or low-temperature A350 LF2. We supply these with hydro test certificates and 3.1 MTCs sized to project drawings."
+              "text": "A weld neck flange in A105 to ASME B16.5 Class 150 or 300 is the usual choice, because the tapered hub copes better with vibration and pressure surges than a slip-on."
             }
           },
           {
             "@type": "Question",
-            "name": "How long does delivery to Wokha actually take?",
+            "name": "Can you match flanges to valves already bought for a Wokha water scheme?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Wokha in roughly 9 days by road (via Dimapur). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "Yes. Tell us the valve end standard, for example PN16 to EN 1092-1 or Class 150 to ASME B16.5, and the flanges are drilled to match."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Wokha do you deliver to?",
+            "name": "Do you quote stainless flanges for governor oil lines?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Wokha, including Doyang project area, and to nearby Dimapur, Kohima, Mokokchung and Tuensang. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Dimapur, normally arriving in about 9 days."
+              "text": "Yes. SS 316 socket weld or threaded flanges in Class 300 are common for small oil and instrument lines. Give the pipe schedule so the socket bore is right."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How are flanges delivered to Wokha, and how long does it take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Wokha rather than as a fixed number of days."
             }
           },
           {
@@ -24400,15 +24772,15 @@ export const marketAreaData = {
             "name": "Is your facility located in Wokha?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Wokha is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Wokha orders are sent from there by road. We have no office or warehouse in Wokha."
             }
           },
           {
             "@type": "Question",
-            "name": "Which documents do you provide with supply to Wokha?",
+            "name": "Which documents come with a Wokha order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Wokha dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -24431,6 +24803,46 @@ export const marketAreaData = {
         "name": "Tuensang",
         "url": "/tuensang/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Wokha",
+      "intro": "What we quote most often for Doyang Hydro Electric Project, Wokha town water supply. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "hydro and thermal station weld neck flanges, isolation spectacle blinds for power plants, slip-on flanges for water mains, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Wokha service",
+          "value": "A105 for station water and drainage; SS 316 for oil and instrument lines; A105 for town water mains"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Wokha; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Doyang_Hydro_Electric_Project",
+      "https://www.gem.wiki/Doyang_hydroelectric_plant",
+      "https://morungexpress.com/dhep-wokha-landowners-seek-cms-intervention-over-unresolved-grievances",
+      "https://eastmojo.com/news/2018/10/13/nagaland-water-supply-project-to-benefit-600-households-in-wokha/"
     ]
   },
   "sambalpur": {
@@ -34266,13 +34678,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in kailashahar",
     "secondaryKeywords": "flange manufacturer in Kailashahar; forged fittings supplier Kailashahar; ASME B16.5 flanges Kailashahar; pipe fittings Kailashahar; pipe flanges Kailashahar",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Kailashahar | Remax Forge",
-      "description": "Flanges & forged fittings for Kailashahar's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Kailashahar, Tripura | Remax Forge",
+      "description": "Flange Supplier in Kailashahar: slip-on, threaded and weld neck flanges for Unakoti tea factories and gas plant upgrades. ASME B16.5, 3.1 MTC.",
       "keywords": "flange manufacturer in Kailashahar; forged fittings supplier Kailashahar; ASME B16.5 flanges Kailashahar; pipe fittings Kailashahar; pipe flanges Kailashahar"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Kailashahar",
-      "subheadline": "Flanges, butt-weld and forged fittings for Kailashahar's food & agro and water & utility units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 9 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Kailashahar",
+      "subheadline": "Slip-on, threaded and weld neck flanges for tea factories around Kailashahar and Tripura's gas-fired power stations, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Kailashahar",
       "highlights": [
         {
@@ -34280,8 +34692,8 @@ export const marketAreaData = {
           "reason": "Sanitary grade pipelines and food manufacturing lines: SS 304/316 Flanges, Buttweld Elbows."
         },
         {
-          "feature": "~9-day delivery via NH8 via Guwahati–Agartala",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Kailashahar."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Kailashahar is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -34289,60 +34701,49 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: SS 304/316",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Kailashahar",
-    "introParagraph": "Kailashahar's buyers order piping hardware for concrete reasons: Agro processing, water schemes. From our Mumbai works we supply <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> into Unakoti district HQ, in SS 304/316 — dimensioned to ASME B16.5/B16.11 and certified to EN 10204 3.1.",
+    "introParagraph": "Kailashahar is the seat of Unakoti district, and the flange buyers here are tea factories around the town and contractors working on Tripura's state-run gas power stations. Remax Forge supplies <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">carbon steel slip-on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">screwed flanges for building services</a> and <a href=\"/products/flanges/weld-neck-flange-for-power-generation/\" class=\"text-[#D71920] hover:underline font-semibold\">hydro and thermal station weld neck flanges</a> for both from our Mumbai works, with an EN 10204 3.1 MTC. See also <a href=\"/dharmanagar/\" class=\"text-[#D71920] hover:underline font-semibold\">Dharmanagar</a> and <a href=\"/agartala/\" class=\"text-[#D71920] hover:underline font-semibold\">Agartala</a>.",
     "localGuide": {
-      "heading": "Flange Supply for Kailashahar's Food & Agro and Water & Utility Units",
+      "heading": "Kailashahar: Unakoti's tea estates and Tripura's gas plant upgrades",
       "paragraphs": [
-        "Kailashahar's demand for flanges and fittings comes mainly from Agro processing, water schemes. Food, sugar and agro-processing units order SS 304/316 flanges and butt-weld fittings for juice, syrup, oil and process lines, plus carbon steel flanges for boiler and utility piping. Utility and infrastructure projects mainly need mild steel flanges in PN10/PN16 or Class 150, reducers and long-radius bends for distribution mains.",
-        "Orders for Kailashahar leave our Mumbai stock within 24–48 hours and travel by road on NH8 via Guwahati–Agartala, so material is usually on site in about 9 days. Custom forgings and non-stock sizes take 7–15 working days. To quote quickly we need the size (NPS or DN), pressure class, facing (RF, FF or RTJ), material grade and the schedule of the mating pipe.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Belonia, Dharmanagar, Udaipur Tripura and Agartala, so mixed orders for plants in the region can be planned together."
+        "Unakoti district was created on 21 January 2012 with its headquarters at Kailashahar. The town stands on the Manu, which the municipal council calls the longest river in Tripura, and there are tea estates around it. The state has announced a new rail link between Dharmanagar and Kailashahar.",
+        "Tea factories dry and process leaf with heat from boilers, thermic fluid heaters or hot-air furnaces, so their flange needs are A105 slip-on and weld neck flanges in Class 150 or 300 on steam, thermic fluid and hot-water lines, with threaded flanges on small water and air connections. Thermic fluid lines run hot, so weld neck flanges with spiral wound gaskets are preferred there.",
+        "Across Tripura, the state utility's gas stations are being upgraded. TSECL lists Rokhia with three 21 MW units and Baramura with two 21 MW units, all open cycle, and there are proposals to convert Rokhia to combined cycle at about 120 MW and to add about 25 MW at Baramura without extra gas. Conversions of this kind add steam and feedwater piping, which needs weld neck flanges in higher classes."
       ],
       "areas": [
         {
-          "name": "Unakoti district HQ"
+          "name": "Tea estates around Kailashahar",
+          "note": "Unakoti district"
         },
         {
-          "name": "Belonia",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Dharmanagar",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Udaipur Tripura",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Agartala",
-          "note": "nearby city on the same dispatch route"
+          "name": "Rokhia and Baramura gas stations",
+          "note": "TSECL, conversion proposals"
         }
       ],
       "specs": [
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Tea factory steam and thermic fluid",
+          "spec": "Weld neck or slip-on RF, Class 150/300, A105"
         },
         {
-          "service": "Pumping & distribution mains",
-          "spec": "MS / A105 slip-on and plate flanges, PN10 / PN16 or Class 150"
+          "service": "Small water and air connections",
+          "spec": "Threaded flanges, Class 150"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
+          "service": "Combined cycle conversion steam lines",
+          "spec": "Weld neck, Class 600–1500, A105 or F11/F22"
         },
         {
-          "service": "Treatment plant piping",
-          "spec": "SS 304 / 316 flanges, concentric reducers and weld bends"
+          "service": "Cooling water and drains",
+          "spec": "Slip-on, Class 150 or PN16"
         }
       ]
     },
-    "logistics": "Route: NH8 via Guwahati–Agartala. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Kailashahar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Kailashahar. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Agro & Food Processing",
@@ -34396,28 +34797,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "Which flanges and fittings does Remax Forge supply to Kailashahar?",
-        "a": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Kailashahar in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around Unakoti district HQ — and every lot ships with EN 10204 3.1 certification."
+        "q": "Which flanges suit thermic fluid lines in a tea factory?",
+        "a": "Weld neck flanges in A105, Class 300, with spiral wound gaskets are the usual choice, because thermic fluid runs hot and leaks are a fire risk. Give the operating temperature on the RFQ."
       },
       {
-        "q": "Which stainless grades suit food and agro processing lines in Kailashahar?",
-        "a": "Food-contact steam and CIP lines in Kailashahar's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+        "q": "Can you supply threaded flanges for small factory water lines?",
+        "a": "Yes, in A105, Class 150, with BSP or NPT threads. State the thread type."
       },
       {
-        "q": "What is the realistic delivery time to Kailashahar?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Kailashahar in roughly 9 days by road (NH8 via Guwahati–Agartala). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Would a combined cycle conversion at Rokhia or Baramura need different flanges?",
+        "a": "Yes. The heat recovery steam generator adds steam and feedwater lines at higher pressure and temperature, usually in Class 600 to 1500 weld neck flanges. We quote to the EPC contractor's line list."
       },
       {
-        "q": "Which industrial areas in and around Kailashahar do you deliver to?",
-        "a": "We deliver door-to-site across Kailashahar, including Unakoti district HQ, and to nearby Belonia, Dharmanagar, Udaipur Tripura and Agartala. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH8 via Guwahati–Agartala, normally arriving in about 9 days."
+        "q": "Do you quote for contractors working for TSECL?",
+        "a": "Yes, to the contractor's specification. We are not a TSECL-registered vendor."
       },
       {
-        "q": "Do you have a plant or office in Kailashahar?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Kailashahar is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "q": "How are flanges delivered to Kailashahar, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Kailashahar rather than as a fixed number of days."
       },
       {
-        "q": "What test certificates come with a Kailashahar order?",
-        "a": "Every Kailashahar dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Is your facility located in Kailashahar?",
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Kailashahar orders are sent from there by road. We have no office or warehouse in Kailashahar."
+      },
+      {
+        "q": "Which documents come with a Kailashahar order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -34477,50 +34882,58 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Which flanges and fittings does Remax Forge supply to Kailashahar?",
+            "name": "Which flanges suit thermic fluid lines in a tea factory?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Kailashahar in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around Unakoti district HQ — and every lot ships with EN 10204 3.1 certification."
+              "text": "Weld neck flanges in A105, Class 300, with spiral wound gaskets are the usual choice, because thermic fluid runs hot and leaks are a fire risk. Give the operating temperature on the RFQ."
             }
           },
           {
             "@type": "Question",
-            "name": "Which stainless grades suit food and agro processing lines in Kailashahar?",
+            "name": "Can you supply threaded flanges for small factory water lines?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Food-contact steam and CIP lines in Kailashahar's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+              "text": "Yes, in A105, Class 150, with BSP or NPT threads. State the thread type."
             }
           },
           {
             "@type": "Question",
-            "name": "What is the realistic delivery time to Kailashahar?",
+            "name": "Would a combined cycle conversion at Rokhia or Baramura need different flanges?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Kailashahar in roughly 9 days by road (NH8 via Guwahati–Agartala). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "Yes. The heat recovery steam generator adds steam and feedwater lines at higher pressure and temperature, usually in Class 600 to 1500 weld neck flanges. We quote to the EPC contractor's line list."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Kailashahar do you deliver to?",
+            "name": "Do you quote for contractors working for TSECL?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Kailashahar, including Unakoti district HQ, and to nearby Belonia, Dharmanagar, Udaipur Tripura and Agartala. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH8 via Guwahati–Agartala, normally arriving in about 9 days."
+              "text": "Yes, to the contractor's specification. We are not a TSECL-registered vendor."
             }
           },
           {
             "@type": "Question",
-            "name": "Do you have a plant or office in Kailashahar?",
+            "name": "How are flanges delivered to Kailashahar, and how long does it take?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Kailashahar is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Kailashahar rather than as a fixed number of days."
             }
           },
           {
             "@type": "Question",
-            "name": "What test certificates come with a Kailashahar order?",
+            "name": "Is your facility located in Kailashahar?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Kailashahar dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Kailashahar orders are sent from there by road. We have no office or warehouse in Kailashahar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which documents come with a Kailashahar order?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -34543,6 +34956,48 @@ export const marketAreaData = {
         "name": "Agartala",
         "url": "/agartala/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Kailashahar",
+      "intro": "What we quote most often for Tea estates around Kailashahar, Rokhia and Baramura gas stations. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "carbon steel slip-on flanges, screwed flanges for building services, hydro and thermal station weld neck flanges, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Kailashahar service",
+          "value": "A105 for tea factory utilities; F11/F22 alloy for hot steam on power projects"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Kailashahar; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://unakoti.nic.in/?p=25039",
+      "https://en.wikipedia.org/wiki/Unakoti_district",
+      "https://en.wikipedia.org/wiki/Kailasahar",
+      "https://tsecl.in/node/393",
+      "https://eastmojo.com/tripura/2023/08/11/tripura-govt-initiates-power-plant-conversion-for-doubled-output/",
+      "https://aniweb.voxturr.us/news/national/general-news/new-rail-link-connecting-dharmanagar-to-kailashahar-soon-tripura-cm20250304215514?amp=1"
     ]
   },
   "belonia": {
@@ -34553,13 +35008,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in belonia",
     "secondaryKeywords": "flange manufacturer in Belonia; forged fittings supplier Belonia; ASME B16.5 flanges Belonia; pipe fittings Belonia; pipe flanges Belonia",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Belonia | Remax Forge",
-      "description": "Flanges & forged fittings for Belonia's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Belonia, Tripura | Remax Forge",
+      "description": "Flange Supplier in Belonia: weld neck, RTJ and blind flanges for south Tripura gas power stations and their gas lines. ASME B16.5, 3.1 MTC.",
       "keywords": "flange manufacturer in Belonia; forged fittings supplier Belonia; ASME B16.5 flanges Belonia; pipe fittings Belonia; pipe flanges Belonia"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Belonia",
-      "subheadline": "Flanges, butt-weld and forged fittings for Belonia's food & agro and water & utility units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 9 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Belonia",
+      "subheadline": "Weld neck, RTJ-face and blind flanges for the gas-fired power stations and gas lines of southern Tripura, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Belonia",
       "highlights": [
         {
@@ -34567,8 +35022,8 @@ export const marketAreaData = {
           "reason": "Sanitary grade pipelines and food manufacturing lines: SS 304/316 Flanges, Buttweld Elbows."
         },
         {
-          "feature": "~9-day delivery via via Agartala",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Belonia."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Belonia is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -34576,60 +35031,53 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: SS 304/316",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Belonia",
-    "introParagraph": "Supplying Belonia means understanding Agro processing, border trade infra. Remax Forge ships <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> from Mumbai into South Tripura HQ — SS 304/316, ASME B16.5/B16.11 dimensions, EN 10204 3.1 MTC on every lot.",
+    "introParagraph": "Belonia is the headquarters of South Tripura, and the heaviest flange users in this part of the state are the gas-fired power stations and the gas pipelines that feed them. Remax Forge supplies <a href=\"/products/flanges/weld-neck-flange-for-oil-and-gas/\" class=\"text-[#D71920] hover:underline font-semibold\">weld neck flanges for gas and oilfield lines</a>, <a href=\"/products/flanges/rtj-face-flange-manufacturer/\" class=\"text-[#D71920] hover:underline font-semibold\">RTJ ring-groove flanges</a> and <a href=\"/products/flanges/spectacle-blind-flange-for-power-generation/\" class=\"text-[#D71920] hover:underline font-semibold\">isolation spectacle blinds for power plants</a> for this work from our Mumbai plant, with an EN 10204 3.1 MTC. See also <a href=\"/udaipur-tripura/\" class=\"text-[#D71920] hover:underline font-semibold\">Udaipur (Tripura)</a> and <a href=\"/agartala/\" class=\"text-[#D71920] hover:underline font-semibold\">Agartala</a>.",
     "localGuide": {
-      "heading": "Flanges & Fittings for Belonia: Food & Agro and Water & Utility Industry",
+      "heading": "Belonia and the gas power belt of southern Tripura",
       "paragraphs": [
-        "Belonia's demand for flanges and fittings comes mainly from Agro processing, border trade infra. Agro and food plants mostly need stainless slip-on and weld neck flanges, elbows and reducers for product lines, and A105 flanges on boiler and steam headers. Water-supply, irrigation and municipal contractors order large-diameter slip-on and plate flanges, concentric reducers and weld bends for pumping mains and treatment plants.",
-        "Stock items for Belonia are dispatched from Mumbai in 24–48 hours and reach site by road in about 9 days (via Agartala). Non-stock sizes and custom forgings run 7–15 working days. Send your size, class, facing, grade and pipe schedule, or simply the BOQ or line list, and we will quote line by line.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Kailashahar, Dharmanagar, Udaipur Tripura and Agartala, so mixed orders for plants in the region can be planned together."
+        "Belonia is the headquarters of South Tripura district, reached from Agartala by NH 108A to Jolaibari and then NH 8. Its station (code BENA) is on the Agartala–Sabroom line of the Northeast Frontier Railway's Lumding division, and a rail link from Belonia to Feni in Bangladesh has been discussed. The Muhuri river rises in Tripura and flows west into Bangladesh.",
+        "North of Belonia, at Palatana in Gomati district, ONGC Tripura Power Company runs a 726.6 MW combined cycle plant in two 363.3 MW blocks, fed by ONGC gas fields nearby and drawing water from the Gomati river. NEEPCO's Monarchak station, about 66 km from Agartala, is a 101 MW combined cycle plant with a 35.6 MW steam turbine.",
+        "Combined cycle plants use flanges across three systems: natural gas supply and conditioning, steam and feedwater in the heat recovery boilers, and cooling water. Gas and high-pressure steam lines take weld neck flanges, often RTJ-faced above Class 600, while spectacle blinds are fitted wherever a line has to be positively isolated for maintenance."
       ],
       "areas": [
         {
-          "name": "South Tripura HQ"
+          "name": "Palatana combined cycle plant",
+          "note": "OTPC, Gomati district"
         },
         {
-          "name": "Kailashahar",
-          "note": "nearby city on the same dispatch route"
+          "name": "Monarchak power station",
+          "note": "NEEPCO, 101 MW"
         },
         {
-          "name": "Dharmanagar",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Udaipur Tripura",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Agartala",
-          "note": "nearby city on the same dispatch route"
+          "name": "Belonia town",
+          "note": "South Tripura district headquarters"
         }
       ],
       "specs": [
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Fuel gas supply and conditioning",
+          "spec": "Weld neck RF or RTJ, Class 300/600, A105 or A350 LF2"
         },
         {
-          "service": "Pumping & distribution mains",
-          "spec": "MS / A105 slip-on and plate flanges, PN10 / PN16 or Class 150"
+          "service": "HRSG steam and feedwater",
+          "spec": "Weld neck, Class 600–1500, A105 or alloy steel F11/F22"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
+          "service": "Cooling water",
+          "spec": "Slip-on or weld neck, Class 150, A105"
         },
         {
-          "service": "Treatment plant piping",
-          "spec": "SS 304 / 316 flanges, concentric reducers and weld bends"
+          "service": "Maintenance isolation",
+          "spec": "Spectacle blinds in the line class"
         }
       ]
     },
-    "logistics": "Route: via Agartala. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Belonia. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Belonia. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Agro & Food Processing",
@@ -34683,28 +35131,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "What products can buyers in Belonia source from Remax Forge?",
-        "a": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Belonia in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around South Tripura HQ — and every lot ships with EN 10204 3.1 certification."
+        "q": "Which flanges suit a fuel gas line at a combined cycle station?",
+        "a": "Weld neck flanges to ASME B16.5, in A105 or A350 LF2, with RF facing at Class 300 and RTJ often specified at Class 600 and above. State the design pressure and temperature on the RFQ."
       },
       {
-        "q": "Which stainless grades suit food and agro processing lines in Belonia?",
-        "a": "Food-contact steam and CIP lines in Belonia's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+        "q": "Can you supply alloy steel flanges for HRSG steam lines?",
+        "a": "Yes. ASTM A182 F11 and F22 weld neck flanges can be quoted for high-temperature steam, with a 3.1 MTC and PMI on request."
       },
       {
-        "q": "How long does delivery to Belonia actually take?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Belonia in roughly 9 days by road (via Agartala). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Do you supply ring gaskets with RTJ flanges?",
+        "a": "We supply the flanges. Tell us the ring number (R, RX or BX) and the groove is machined to suit; gaskets are sourced separately."
       },
       {
-        "q": "Which industrial areas in and around Belonia do you deliver to?",
-        "a": "We deliver door-to-site across Belonia, including South Tripura HQ, and to nearby Kailashahar, Dharmanagar, Udaipur Tripura and Agartala. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Agartala, normally arriving in about 9 days."
+        "q": "Can you quote for contractors working at Palatana or Monarchak?",
+        "a": "Yes, to the contractor's specification. We are not a registered vendor of OTPC or NEEPCO, so the order goes through the contractor."
+      },
+      {
+        "q": "How are flanges delivered to Belonia, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Belonia rather than as a fixed number of days."
       },
       {
         "q": "Is your facility located in Belonia?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Belonia is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Belonia orders are sent from there by road. We have no office or warehouse in Belonia."
       },
       {
-        "q": "Which documents do you provide with supply to Belonia?",
-        "a": "Every Belonia dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Which documents come with a Belonia order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -34764,34 +35216,42 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "What products can buyers in Belonia source from Remax Forge?",
+            "name": "Which flanges suit a fuel gas line at a combined cycle station?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Belonia in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around South Tripura HQ — and every lot ships with EN 10204 3.1 certification."
+              "text": "Weld neck flanges to ASME B16.5, in A105 or A350 LF2, with RF facing at Class 300 and RTJ often specified at Class 600 and above. State the design pressure and temperature on the RFQ."
             }
           },
           {
             "@type": "Question",
-            "name": "Which stainless grades suit food and agro processing lines in Belonia?",
+            "name": "Can you supply alloy steel flanges for HRSG steam lines?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Food-contact steam and CIP lines in Belonia's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+              "text": "Yes. ASTM A182 F11 and F22 weld neck flanges can be quoted for high-temperature steam, with a 3.1 MTC and PMI on request."
             }
           },
           {
             "@type": "Question",
-            "name": "How long does delivery to Belonia actually take?",
+            "name": "Do you supply ring gaskets with RTJ flanges?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Belonia in roughly 9 days by road (via Agartala). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "We supply the flanges. Tell us the ring number (R, RX or BX) and the groove is machined to suit; gaskets are sourced separately."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Belonia do you deliver to?",
+            "name": "Can you quote for contractors working at Palatana or Monarchak?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Belonia, including South Tripura HQ, and to nearby Kailashahar, Dharmanagar, Udaipur Tripura and Agartala. Goods leave our Mumbai stock within 24–48 hours and travel by road on via Agartala, normally arriving in about 9 days."
+              "text": "Yes, to the contractor's specification. We are not a registered vendor of OTPC or NEEPCO, so the order goes through the contractor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How are flanges delivered to Belonia, and how long does it take?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Belonia rather than as a fixed number of days."
             }
           },
           {
@@ -34799,15 +35259,15 @@ export const marketAreaData = {
             "name": "Is your facility located in Belonia?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Belonia is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Belonia orders are sent from there by road. We have no office or warehouse in Belonia."
             }
           },
           {
             "@type": "Question",
-            "name": "Which documents do you provide with supply to Belonia?",
+            "name": "Which documents come with a Belonia order?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Belonia dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -34830,6 +35290,48 @@ export const marketAreaData = {
         "name": "Agartala",
         "url": "/agartala/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Belonia",
+      "intro": "What we quote most often for Palatana combined cycle plant, Monarchak power station, Belonia town. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "weld neck flanges for gas and oilfield lines, RTJ ring-groove flanges, isolation spectacle blinds for power plants, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Belonia service",
+          "value": "A105 and A350 LF2 for gas; F11/F22 alloy for hot steam; A105 for cooling water"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Belonia; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Belonia,_India",
+      "https://www.totaltraininfo.com/station/bena/",
+      "https://en.prothomalo.com/bangladesh/India-eyes-Belonia-Feni-railway-connectivity-with",
+      "https://otpcindia.in/our-business/plant-details/",
+      "https://en.wikipedia.org/wiki/ONGC_Tripura_Power_Company",
+      "https://indianinfrastructure.com/?p=2609"
     ]
   },
   "dharmanagar": {
@@ -34840,13 +35342,13 @@ export const marketAreaData = {
     "primaryKeyword": "flange manufacturer in dharmanagar",
     "secondaryKeywords": "flange manufacturer in Dharmanagar; forged fittings supplier Dharmanagar; ASME B16.5 flanges Dharmanagar; pipe fittings Dharmanagar; pipe flanges Dharmanagar",
     "meta": {
-      "title": "Flange Manufacturer & Supplier for Dharmanagar | Remax Forge",
-      "description": "Flanges & forged fittings for Dharmanagar's food & agro and water & utility units: SS 304/316, ASME B16.5, EN 10204 3.1 MTC.",
+      "title": "Flange Supplier in Dharmanagar, Tripura | Remax Forge",
+      "description": "Flange Supplier in Dharmanagar: slip-on, blind and socket weld flanges for the Dharmanagar and Dewanpassa industrial estates. ASME B16.5, 3.1 MTC.",
       "keywords": "flange manufacturer in Dharmanagar; forged fittings supplier Dharmanagar; ASME B16.5 flanges Dharmanagar; pipe fittings Dharmanagar; pipe flanges Dharmanagar"
     },
     "banner": {
-      "h1": "Flange Manufacturer & Supplier for Dharmanagar",
-      "subheadline": "Flanges, butt-weld and forged fittings for Dharmanagar's food & agro and water & utility units, made at our ISO 9001:2015 works in Mumbai, dispatched from stock in 24–48 h and delivered in about 9 days, with EN 10204 3.1 certificates.",
+      "h1": "Flange Supplier in Dharmanagar",
+      "subheadline": "Slip-on, blind and socket weld flanges for units in the Dharmanagar and Dewanpassa industrial estates of North Tripura, made at our ISO 9001:2015 works in Mumbai and sent by road with EN 10204 3.1 certificates. The lead time is stated on your written quote.",
       "imageAlt": "Remax Forge Mumbai facility — flanges supplied to Dharmanagar",
       "highlights": [
         {
@@ -34854,8 +35356,8 @@ export const marketAreaData = {
           "reason": "Sanitary grade pipelines and food manufacturing lines: SS 304/316 Flanges, Buttweld Elbows."
         },
         {
-          "feature": "~9-day delivery via NH8 via Silchar",
-          "reason": "Ex-stock dispatch from Mumbai in 24–48 h, then road freight to Dharmanagar."
+          "feature": "Road dispatch from Mumbai",
+          "reason": "Lead time for Dharmanagar is stated on your written quote."
         },
         {
           "feature": "EN 10204 3.1 MTC",
@@ -34863,60 +35365,53 @@ export const marketAreaData = {
         },
         {
           "feature": "Grades: SS 304/316",
-          "reason": "Carbon, alloy, stainless and duplex grades held in stock."
+          "reason": "Carbon, alloy, stainless and duplex grades supplied with an EN 10204 3.1 MTC."
         }
       ]
     },
     "warehouseImageAlt": "Remax Forge Mumbai facility — flanges supplied to Dharmanagar",
-    "introParagraph": "Around North Tripura HQ, procurement runs on Agro processing, rubber belt. We serve this demand from Mumbai with <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">slip on flanges</a>, <a href=\"/products/flanges/threaded-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">threaded flanges</a> and <a href=\"/products/socket-weld-fittings/socket-weld-coupling-fittings/\" class=\"text-[#D71920] hover:underline font-semibold\">sw couplings</a> in SS 304/316, built to ASME B16.5/B16.11 and documented with EN 10204 3.1 certificates.",
+    "introParagraph": "Dharmanagar is North Tripura's rail town, and its two industrial estates are being upgraded under an ADB-funded programme, which brings new sheds, utilities and units that need flanges. Remax Forge supplies <a href=\"/products/flanges/slip-on-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">carbon steel slip-on flanges</a>, <a href=\"/products/flanges/blind-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">blind flanges for spare nozzles</a> and <a href=\"/products/flanges/socket-weld-flange/\" class=\"text-[#D71920] hover:underline font-semibold\">socket weld flanges for small-bore lines</a> for them from Mumbai, with an EN 10204 3.1 MTC. See also <a href=\"/kailashahar/\" class=\"text-[#D71920] hover:underline font-semibold\">Kailashahar</a> and <a href=\"/agartala/\" class=\"text-[#D71920] hover:underline font-semibold\">Agartala</a>.",
     "localGuide": {
-      "heading": "Flanges & Fittings for Dharmanagar: Food & Agro and Water & Utility Industry",
+      "heading": "Dharmanagar: the railhead and industrial estates of North Tripura",
       "paragraphs": [
-        "Dharmanagar's demand for flanges and fittings comes mainly from Agro processing, rubber belt. Agro and food plants mostly need stainless slip-on and weld neck flanges, elbows and reducers for product lines, and A105 flanges on boiler and steam headers. Water-supply, irrigation and municipal contractors order large-diameter slip-on and plate flanges, concentric reducers and weld bends for pumping mains and treatment plants.",
-        "Stock items for Dharmanagar are dispatched from Mumbai in 24–48 hours and reach site by road in about 9 days (NH8 via Silchar). Non-stock sizes and custom forgings run 7–15 working days. Send your size, class, facing, grade and pipe schedule, or simply the BOQ or line list, and we will quote line by line.",
-        "Every lot ships with an EN 10204 3.1 mill test certificate, and heat numbers are marked on each piece so they can be traced back to it. Alloy and stainless items can be PMI-checked before dispatch, and inspection by your own or a third-party agency is welcome at our works. We use the same route to serve Kailashahar, Belonia, Udaipur Tripura and Agartala, so mixed orders for plants in the region can be planned together."
+        "Dharmanagar railway station (code DMR) is the main station in North Tripura district and the oldest in the state. Tripura's industries department lists two estates in the town: the Dharmanagar Industrial Estate, a brownfield site of about 7.95 acres, and the Dewanpassa Industrial Estate of about 46.28 acres.",
+        "The Dharmanagar estate is covered by the Tripura Industrial Infrastructure Sector Development Program, an Asian Development Bank project (number 58021-001) for which a resettlement due-diligence report was prepared in January 2025. Upgrades of this kind usually renew water supply, drainage and fire lines, and the new units that follow bring their own process piping.",
+        "Fire water mains in an industrial estate are normally carbon steel with Class 150 or PN16 flanges at hydrants, valves and pump houses, and blind flanges on the spare branches. For small process units, socket weld flanges on 2 inch and smaller lines give a sealed joint that is easy to make with a site welder."
       ],
       "areas": [
         {
-          "name": "North Tripura HQ"
+          "name": "Dharmanagar Industrial Estate",
+          "note": "about 7.95 acres, brownfield"
         },
         {
-          "name": "Kailashahar",
-          "note": "nearby city on the same dispatch route"
+          "name": "Dewanpassa Industrial Estate",
+          "note": "about 46.28 acres"
         },
         {
-          "name": "Belonia",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Udaipur Tripura",
-          "note": "nearby city on the same dispatch route"
-        },
-        {
-          "name": "Agartala",
-          "note": "nearby city on the same dispatch route"
+          "name": "Dharmanagar station",
+          "note": "North Tripura railhead"
         }
       ],
       "specs": [
         {
-          "service": "Product & CIP lines",
-          "spec": "SS 304 / 316 flanges and butt-weld elbows, reducers and tees"
+          "service": "Estate fire water and hydrants",
+          "spec": "Slip-on or weld neck RF, Class 150 or PN16, A105"
         },
         {
-          "service": "Pumping & distribution mains",
-          "spec": "MS / A105 slip-on and plate flanges, PN10 / PN16 or Class 150"
+          "service": "Spare branches and end caps",
+          "spec": "Blind flanges, Class 150 or PN16"
         },
         {
-          "service": "Boiler & steam headers",
-          "spec": "A105 weld neck flanges with A234 WPB fittings"
+          "service": "Small-bore process lines",
+          "spec": "Socket weld, Class 150/300, A105 or SS 304"
         },
         {
-          "service": "Treatment plant piping",
-          "spec": "SS 304 / 316 flanges, concentric reducers and weld bends"
+          "service": "Water supply and drainage pumps",
+          "spec": "Slip-on, PN10/PN16, A105"
         }
       ]
     },
-    "logistics": "Route: NH8 via Silchar. Ex-stock dispatch 24–48 h from Mumbai; road freight ≈ 9 days to Dharmanagar. Custom forgings: 7–15 working days. Packing: seaworthy crates/pallets with rust-preventive coating. Docs: invoice, packing list, 3.1 MTC, test reports.",
+    "logistics": "Route: Road freight from Mumbai to Dharmanagar. The lead time and delivery schedule depend on the items and testing ordered and are stated on the written quote. Packing: crates or pallets with rust-preventive coating. Docs: invoice, packing list, EN 10204 3.1 MTC, test reports as ordered.",
     "sectors": [
       {
         "sector": "Agro & Food Processing",
@@ -34970,28 +35465,32 @@ export const marketAreaData = {
     ],
     "faqs": [
       {
-        "q": "Which piping components do you stock for Dharmanagar?",
-        "a": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Dharmanagar in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around North Tripura HQ — and every lot ships with EN 10204 3.1 certification."
+        "q": "Which flanges are used on an industrial estate fire main?",
+        "a": "Carbon steel slip-on or weld neck flanges in Class 150 or PN16 at hydrants, valves and pump connections, with blind flanges on spare branches. Check the rating against the fire pump shut-off pressure."
       },
       {
-        "q": "Which stainless grades suit food and agro processing lines in Dharmanagar?",
-        "a": "Food-contact steam and CIP lines in Dharmanagar's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+        "q": "When should I choose socket weld flanges?",
+        "a": "For lines of 2 inches and smaller where a sealed welded joint is wanted, such as steam traps, instrument and small process lines. Give the pipe schedule so the socket bore matches."
       },
       {
-        "q": "What lead time should Dharmanagar buyers plan for?",
-        "a": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Dharmanagar in roughly 9 days by road (NH8 via Silchar). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+        "q": "Can you supply flanges for a new unit setting up at Dewanpassa?",
+        "a": "Yes. Send the piping list or P&ID line list and we quote each flange by size, class, facing and grade."
       },
       {
-        "q": "Which industrial areas in and around Dharmanagar do you deliver to?",
-        "a": "We deliver door-to-site across Dharmanagar, including North Tripura HQ, and to nearby Kailashahar, Belonia, Udaipur Tripura and Agartala. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH8 via Silchar, normally arriving in about 9 days."
+        "q": "Can the contractor on the ADB estate upgrade order through you?",
+        "a": "Yes, to the contract specification. We supply against the contractor's purchase order and documents, with a 3.1 MTC for each heat."
       },
       {
-        "q": "Do you have a manufacturing plant in Dharmanagar?",
-        "a": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Dharmanagar is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+        "q": "How are flanges delivered to Dharmanagar, and how long does it take?",
+        "a": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Dharmanagar rather than as a fixed number of days."
       },
       {
-        "q": "What QA documentation accompanies Dharmanagar dispatches?",
-        "a": "Every Dharmanagar dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+        "q": "Is your facility located in Dharmanagar?",
+        "a": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Dharmanagar orders are sent from there by road. We have no office or warehouse in Dharmanagar."
+      },
+      {
+        "q": "Which documents come with a Dharmanagar order?",
+        "a": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
       }
     ],
     "schema": [
@@ -35051,50 +35550,58 @@ export const marketAreaData = {
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Which piping components do you stock for Dharmanagar?",
+            "name": "Which flanges are used on an industrial estate fire main?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver Slip On Flanges, Threaded Flanges, SW Couplings and Forged Fittings to Dharmanagar in SS 304/316, dimensioned to ASME B16.5, B16.47 and B16.11. Demand here comes mainly from agro & food processing and public utilities & water — including units around North Tripura HQ — and every lot ships with EN 10204 3.1 certification."
+              "text": "Carbon steel slip-on or weld neck flanges in Class 150 or PN16 at hydrants, valves and pump connections, with blind flanges on spare branches. Check the rating against the fire pump shut-off pressure."
             }
           },
           {
             "@type": "Question",
-            "name": "Which stainless grades suit food and agro processing lines in Dharmanagar?",
+            "name": "When should I choose socket weld flanges?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Food-contact steam and CIP lines in Dharmanagar's processing units run best on SS 304/316 slip-on and threaded flanges with matching socket-weld couplings. We supply these polished-finish where required, each lot traceable through EN 10204 3.1 certification."
+              "text": "For lines of 2 inches and smaller where a sealed welded joint is wanted, such as steam traps, instrument and small process lines. Give the pipe schedule so the socket bore matches."
             }
           },
           {
             "@type": "Question",
-            "name": "What lead time should Dharmanagar buyers plan for?",
+            "name": "Can you supply flanges for a new unit setting up at Dewanpassa?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Honestly: ex-stock items dispatch from our Mumbai warehouse within 24–48 hours and reach Dharmanagar in roughly 9 days by road (NH8 via Silchar). Custom forgings add 7–15 working days of production. We confirm a dated schedule with every quotation rather than promising blanket next-day delivery."
+              "text": "Yes. Send the piping list or P&ID line list and we quote each flange by size, class, facing and grade."
             }
           },
           {
             "@type": "Question",
-            "name": "Which industrial areas in and around Dharmanagar do you deliver to?",
+            "name": "Can the contractor on the ADB estate upgrade order through you?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "We deliver door-to-site across Dharmanagar, including North Tripura HQ, and to nearby Kailashahar, Belonia, Udaipur Tripura and Agartala. Goods leave our Mumbai stock within 24–48 hours and travel by road on NH8 via Silchar, normally arriving in about 9 days."
+              "text": "Yes, to the contract specification. We supply against the contractor's purchase order and documents, with a 3.1 MTC for each heat."
             }
           },
           {
             "@type": "Question",
-            "name": "Do you have a manufacturing plant in Dharmanagar?",
+            "name": "How are flanges delivered to Dharmanagar, and how long does it take?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "No — and we say so plainly. Manufacturing, stock and testing are at our ISO 9001:2015 facility in Mumbai; Dharmanagar is served through scheduled road dispatches with full documentation. Buyers are welcome to audit the Mumbai works in person or by video inspection before ordering."
+              "text": "Orders go by road from our Mumbai works. The lead time depends on the types, sizes and tests ordered, so it is stated item by item on the written quote for Dharmanagar rather than as a fixed number of days."
             }
           },
           {
             "@type": "Question",
-            "name": "What QA documentation accompanies Dharmanagar dispatches?",
+            "name": "Is your facility located in Dharmanagar?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Every Dharmanagar dispatch includes EN 10204 3.1 mill test certificates, dimensional reports and hydro/NDT test reports as ordered. 100% PMI is standard on alloy and stainless lots."
+              "text": "No. Manufacturing and testing are at our ISO 9001:2015 works in Mumbai, and Dharmanagar orders are sent from there by road. We have no office or warehouse in Dharmanagar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which documents come with a Dharmanagar order?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "EN 10204 3.1 mill test certificates, with dimensional reports and hydro, UT or PMI reports as ordered. A 3.2 certificate can be arranged when the specification calls for it."
             }
           }
         ]
@@ -35117,6 +35624,45 @@ export const marketAreaData = {
         "name": "Agartala",
         "url": "/agartala/"
       }
+    ],
+    "rfqSupply": {
+      "title": "Flange range we quote for Dharmanagar",
+      "intro": "What we quote most often for Dharmanagar Industrial Estate, Dewanpassa Industrial Estate, Dharmanagar station. Sizes, classes and grades below are those listed on our flange product pages; anything else is quoted against your specification.",
+      "items": [
+        {
+          "label": "Types we quote",
+          "value": "carbon steel slip-on flanges, blind flanges for spare nozzles, socket weld flanges for small-bore lines, plus blinds and spectacle blinds in the same class"
+        },
+        {
+          "label": "Dimension standards",
+          "value": "ASME B16.5 (NPS ½\"–24\"), ASME B16.47 Series A/B (NPS 26\"–60\"), EN 1092-1 (PN6–PN400)"
+        },
+        {
+          "label": "Rating range",
+          "value": "Class 150, 300, 400, 600, 900, 1500, 2500; PN6 to PN400"
+        },
+        {
+          "label": "Grades for Dharmanagar service",
+          "value": "A105 for fire and water mains; SS 304/316 for process lines"
+        },
+        {
+          "label": "Face options",
+          "value": "RF, FF, RTJ, tongue & groove, male & female"
+        },
+        {
+          "label": "Certificates",
+          "value": "EN 10204 3.1 MTC with heat number on each piece; 3.2 on request"
+        },
+        {
+          "label": "Dispatch",
+          "value": "By road from Mumbai to Dharmanagar; lead time on the written quote"
+        }
+      ]
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dharmanagar_railway_station",
+      "https://industries.tripura.gov.in/iidc-others",
+      "https://industries.tripura.gov.in/sites/default/files/6.%20Resettlement%20Due%20Diligence%20Report%20%20Dharmanagar-31%20Jan%202025.pdf"
     ]
   },
   "udaipur-tripura": {
