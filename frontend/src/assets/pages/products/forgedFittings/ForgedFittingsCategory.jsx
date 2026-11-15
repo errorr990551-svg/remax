@@ -1,3 +1,4 @@
+import PageGuide from '../../../components/common/PageGuide.jsx';
 import React from 'react';
 import { ArrowRight, CheckCircle2, ChevronRight, Home, Download } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
@@ -69,9 +70,9 @@ const ForgedFittingsManufacturerinIndia = () => {
                   <CheckCircle2 size={24} className="text-[#D71920]" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 text-lg">Short production lead times</h3>
+                  <h3 className="font-bold text-slate-900 text-lg">Written delivery dates</h3>
                   <p className="text-slate-500 text-sm leading-relaxed mt-1 font-medium">
-                    Typically dispatched in 7–14 days with standard EN 10204 3.1 Mill Test Reports.
+                    Delivery date confirmed in writing on every quotation, with EN 10204 3.1 mill test certificates.
                   </p>
                 </div>
               </div>
@@ -87,23 +88,7 @@ const ForgedFittingsManufacturerinIndia = () => {
           </div>
         </div>
 
-        {/* Content Brief Outlines */}
-        <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-[#0F172A] border-l-4 border-[#D71920] pl-3 mb-6">
-            What Are Forged Fittings
-          </h2>
-          <div className="space-y-6 text-slate-600 leading-relaxed font-medium text-sm md:text-base">
-            <p>Intro: Forged = superior grain structure vs cast — higher strength, no porosity.</p>
-            <p>Standards: ASME B16.11, BS 3799, MSS SP-79 (SW), MSS SP-83 (union), MSS SP-97 (integrally reinforced).</p>
-            <p>Classes: Threaded — 2000#/3000#/6000#; SW — 3000#/6000#/9000#.</p>
-            <p>Product range: elbow, tee, cross, coupling, union, cap, plug, bushing, reducer insert, nipple, lateral.</p>
-            <p>Materials: A105 (CS), A182 F304/F316/F316L/F11/F22/F51/F60/F91 (alloy/SS).</p>
-            <p>Forged vs cast comparison: grain flow, porosity, strength, pressure rating — table.</p>
-            <p>Export: UAE, Saudi Arabia, USA, UK, Singapore.</p>
-            <p>IBR / PED / NACE MR0175.</p>
-            <p>CTA.</p>
-          </div>
-        </div>
+        <PageGuide path="/products/forged-fittings/" />
 
         {/* Technical Specification Table */}
         <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">

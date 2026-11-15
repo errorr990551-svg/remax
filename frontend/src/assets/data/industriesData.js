@@ -264,7 +264,8 @@ export const industriesData = {
         "body": [
           "Boiler external piping in India falls under the Indian Boiler Regulations, and overseas plants under ASME Section I or EN 12952. Documentation needs differ: some need specific inspection authority witness. State the regulation that applies so the certificate type is quoted correctly."
         ]
-      }
+      },
+      {"title": "Ordering Flanges for a Power Plant Package", "body": ["Power plant flange packages usually mix grades: F91 or F22 for main steam and hot reheat, A105 or A350 LF2 for feedwater and auxiliary systems, and large carbon steel flanges for cooling water. Send the line list or flange schedule with grade, size, class and facing for every line, and the quotation is returned itemised in the same order.", "State the piping code that applies, for example ASME B31.1, any hardness or heat treatment checks for the chrome-moly grades, and whether EN 10204 3.2 certification with a named inspector is required."]}
     ]
   },
   "water-infrastructure": {
@@ -351,7 +352,8 @@ export const industriesData = {
         "body": [
           "Water projects mix ASME B16.5, EN 1092-1 PN10 and PN16, BS 10 Table D and E on older UK-pattern networks, and AWWA C207 on large steel mains. These are not interchangeable. Give the standard and class of the mating flange or valve, or send its drawing, so drilling is confirmed in the quotation."
         ]
-      }
+      },
+      {"title": "Ordering Flanges for Water Projects", "body": ["Water projects often specify flanges to EN 1092-1 or AWWA C207 rather than ASME B16.5, and many use flat-face flanges to mate with cast iron or ductile iron valves and pumps. State the flange standard, PN or class, facing and drilling on the enquiry so the bolt pattern matches the valves on site; the quotation confirms the standard each line is supplied to.", "For desalination and seawater intake lines, duplex and super duplex flanges are common; for potable water, any coating or lining may need approval to the local drinking water standard. List the coating or lining requirement with the quantity per size."]}
     ]
   },
   "marine": {

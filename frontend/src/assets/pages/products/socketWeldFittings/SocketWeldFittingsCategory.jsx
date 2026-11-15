@@ -1,3 +1,4 @@
+import PageGuide from '../../../components/common/PageGuide.jsx';
 import React from 'react';
 import { ArrowRight, CheckCircle2, ChevronRight, Home, Download } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
@@ -69,9 +70,9 @@ const SocketWeldFittingsManufacturerinIndia = () => {
                   <CheckCircle2 size={24} className="text-[#D71920]" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 text-lg">Short production lead times</h3>
+                  <h3 className="font-bold text-slate-900 text-lg">Written delivery dates</h3>
                   <p className="text-slate-500 text-sm leading-relaxed mt-1 font-medium">
-                    Typically dispatched in 7–14 days with standard EN 10204 3.1 Mill Test Reports.
+                    Delivery date confirmed in writing on every quotation, with EN 10204 3.1 mill test certificates.
                   </p>
                 </div>
               </div>
@@ -87,25 +88,7 @@ const SocketWeldFittingsManufacturerinIndia = () => {
           </div>
         </div>
 
-        {/* Content Brief Outlines */}
-        <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-[#0F172A] border-l-4 border-[#D71920] pl-3 mb-6">
-            Types of Socket Weld Fittings
-          </h2>
-          <div className="space-y-6 text-slate-600 leading-relaxed font-medium text-sm md:text-base">
-            <p>Intro: Forged SW fittings for small bore high-pressure lines.</p>
-            <p>Products: elbow (90°/45°), tee (equal/reducing), coupling (full/half/reducing), union, cross, cap, reducer insert, nipple.</p>
-            <p>Standard: ASME B16.11 (primary); BS 3799, MSS SP-79, MSS SP-83.</p>
-            <p>Classes: 3000# (maps to SCH80), 6000# (SCH160), 9000# (SCHXXS).</p>
-            <p>Size: 1/8" to 4" (NPS).</p>
-            <p>Materials: A105, A182 F304/316/316L/F11/F22/F51/F60.</p>
-            <p>Gap weld rule: 1/16" gap per B31.3.</p>
-            <p>SW vs BW: SW forged (high pressure small bore) vs BW wrought (large bore, less pressure-sensitive).</p>
-            <p>Applications: instrumentation, hydraulics, steam tracing, chemical dosing.</p>
-            <p>Full product image grid.</p>
-            <p>CTA.</p>
-          </div>
-        </div>
+        <PageGuide path="/products/socket-weld-fittings/" />
 
         {/* Technical Specification Table */}
         <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">

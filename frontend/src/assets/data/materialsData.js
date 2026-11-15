@@ -687,7 +687,8 @@ export const materialsData = {
         "paras": [
           "Duplex is not used for sustained service above about 300°C, because the ferrite phase embrittles in the 475°C range over time. At the low end its toughness falls faster than austenitic stainless, so impact-tested material is specified for cold service. Inside that window it is a common choice for seawater cooling, desalination, chemical tankers, pulp and paper, and offshore process lines."
         ]
-      }
+      },
+      {"h2": "Ordering Duplex 2205 Flanges: F51 or F60", "paras": ["Duplex 2205 flanges are ordered as ASTM A182 F51 (UNS S31803) or F60 (UNS S32205). The two are not always interchangeable on a project datasheet, because S32205 has higher minimum chromium, molybdenum and nitrogen. Write the UNS number your piping class names, and add ferrite limits, ASTM G48 corrosion testing or impact testing if your specification requires them, together with flange type, size, class, facing and quantity."]}
     ]
   },
   "super-duplex-2507-flanges": {
@@ -810,7 +811,8 @@ export const materialsData = {
         "paras": [
           "State the UNS number, not just \"super duplex\", because F53 and F55 are not always accepted as substitutes for each other. List each test and its acceptance criteria. Super duplex forgings need fast quenching after solution annealing, so heavy sections are reviewed for section thickness before a quote is confirmed."
         ]
-      }
+      },
+      {"h2": "Ordering Super Duplex 2507 Flanges: Tests That Change the Quote", "paras": ["Super duplex 2507 flanges are ordered as ASTM A182 F53, UNS S32750. Specifications for this grade often add ferrite content limits, ASTM G48 pitting corrosion tests and Charpy impact tests at a stated temperature. List every one of these on the enquiry, because each adds a test and a line on the certificate.", "Give the flange type, size, class and facing, and the minimum PREN (pitting resistance equivalent number) your specification requires, usually 40 or more for 2507. Orders ship with EN 10204 3.1 certificates; PMI can be added and EN 10204 3.2 is arranged with the inspector named on your purchase order."]}
     ]
   },
   "super-duplex-zeron-100-flanges": {
@@ -1183,7 +1185,8 @@ export const materialsData = {
           "Mix-ups with lower chrome-moly grades in the store, which is why PMI matters on every piece.",
           "Missing hardness checks after heat treatment, when the specification sets a hardness range."
         ]
-      }
+      },
+      {"h2": "Ordering F91 Flanges: Heat Treatment, Hardness and Tests", "paras": ["F91 flanges are ordered as ASTM A182 F91 (UNS K90901), Type 1 or Type 2 where your specification names one. The properties of F91 depend on correct normalising and tempering, so state the design temperature of the line and any hardness range your specification sets; many power and refinery specifications impose a narrower hardness window than A182 itself.", "Give the flange type, size, class and facing, and the bore or schedule of the A335 P91 pipe it will be welded to. If you need witnessed hardness checks, PMI, or EN 10204 3.2 certification with a named inspection agency, list them on the enquiry so they are priced and scheduled from the start."]}
     ]
   },
   "inconel-625-flanges": {
@@ -1305,7 +1308,8 @@ export const materialsData = {
         "paras": [
           "For large or high-class flanges, a carbon or low-alloy steel body with an Alloy 625 weld overlay on wetted faces is sometimes cheaper than a solid forging. Which option is acceptable is set by the project specification, so state whether solid alloy is mandatory. This page covers solid B564 forgings."
         ]
-      }
+      },
+      {"h2": "Ordering Inconel 625 Flanges: What the Quotation Needs", "paras": ["An Inconel 625 flange order should name the specification in full: ASTM B564 (ASME SB-564 for code work), UNS N06625, Grade 1 (annealed) or Grade 2 (solution annealed). The grade matters because the two conditions are intended for different temperature ranges, and a flange supplied in the wrong condition cannot be corrected by machining.", "Add the flange type, size, class and facing to ASME B16.5 or B16.47, the bore or schedule of the mating pipe, and any project tests such as PMI, ultrasonic examination or ASTM G28 corrosion testing. Nickel alloy forgings are high-value items, so fix the quantity per size and the certificate scope (EN 10204 3.1, or 3.2 with a named inspector) before the quotation is issued."]}
     ]
   },
   "hastelloy-c276-flanges": {
@@ -1422,7 +1426,8 @@ export const materialsData = {
         "paras": [
           "Order to ASTM B564 / ASME SB-564 UNS N10276, solution annealed. State the flange type and class, the face finish for your gasket, and whether corrosion testing such as ASTM G28 is required. PMI testing confirms nickel, molybdenum and chromium levels before dispatch."
         ]
-      }
+      },
+      {"h2": "Ordering Hastelloy C-276 Flanges: What to Specify", "paras": ["A Hastelloy C-276 flange enquiry should name ASTM B564 (ASME SB-564 for code work), UNS N10276, with the flange type, size, class and facing. C-276 is chosen for wet chlorine, hypochlorite, mixed acids and other severe chemical duties; state the process fluid if you want the material choice checked against the duty before the order is placed.", "ASTM G28 corrosion testing, PMI and EN 10204 3.2 certification are common additions for this grade. List them on the enquiry so the quotation covers them line by line."]}
     ]
   },
   "monel-400-flanges": {

@@ -1,3 +1,4 @@
+import PageGuide from '../../../components/common/PageGuide.jsx';
 import React from 'react';
 import { ArrowRight, CheckCircle2, ChevronRight, Home, Download } from 'lucide-react';
 import { useQuotePopup } from '../../../context/QuotePopupContext';
@@ -69,9 +70,9 @@ const AlloySteelPipeManufacturerinIndia = () => {
                   <CheckCircle2 size={24} className="text-[#D71920]" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 text-lg">Short production lead times</h3>
+                  <h3 className="font-bold text-slate-900 text-lg">Written delivery dates</h3>
                   <p className="text-slate-500 text-sm leading-relaxed mt-1 font-medium">
-                    Typically dispatched in 7–14 days with standard EN 10204 3.1 Mill Test Reports.
+                    Delivery date confirmed in writing on every quotation, with EN 10204 3.1 mill test certificates.
                   </p>
                 </div>
               </div>
@@ -87,24 +88,7 @@ const AlloySteelPipeManufacturerinIndia = () => {
           </div>
         </div>
 
-        {/* Content Brief Outlines */}
-        <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-[#0F172A] border-l-4 border-[#D71920] pl-3 mb-6">
-            Alloy Steel Pipe Grades Explained
-          </h2>
-          <div className="space-y-6 text-slate-600 leading-relaxed font-medium text-sm md:text-base">
-            <p>Intro: Alloy steel pipes for high-temp/high-pressure service — chrome-moly grades.</p>
-            <p>Grade table: P5 (5Cr-0.5Mo), P9 (9Cr-1Mo), P11 (1.25Cr-0.5Mo), P22 (2.25Cr-1Mo), P91 (9Cr-1Mo-V), P92 (9Cr-1.8W-Mo-V). For each: composition, max service temp, typical application.</p>
-            <p>Standard: ASTM A335 (seamless), A691 (welded), A213 (tubes).</p>
-            <p>Dimensions: OD range 1/2" to 36", SCH 10 to XXS.</p>
-            <p>Mechanical properties table: YS/UTS/elongation per ASTM.</p>
-            <p>Heat treatment: normalize + temper (P11/P22); normalized + tempered (P91 — strict 730–780°C PWHT required).</p>
-            <p>IBR approval requirements.</p>
-            <p>PWHT requirement note for P91 (CRITICAL: 730–780°C, 1 hr/25mm).</p>
-            <p>Applications: supercritical boilers, hydrotreaters, reformers, ethylene crackers.</p>
-            <p>CTA.</p>
-          </div>
-        </div>
+        <PageGuide path="/products/pipes/alloy-steel-pipes/" />
 
         {/* Technical Specification Table */}
         <div className="bg-white rounded-2xl border border-slate-200 p-8 md:p-12 shadow-sm mb-12">
