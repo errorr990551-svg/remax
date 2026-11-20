@@ -2,6 +2,8 @@
 // Engineering statements follow the cited standards; company statements follow content-plan/FACTS.md.
 // No contact details here: CTAs on the page open the quote form (CLAUDE.md contact gate).
 
+import { flangeProductContent } from './flangeProductContent.js';
+
 export const flangeApplicationContent = {
   '/products/flanges/weld-neck-flange-for-petrochemical/': {
     title: 'Weld Neck Flange for Petrochemical Plants | Remax Forge',
@@ -1091,6 +1093,7 @@ export const flangeApplicationContent = {
       ]
     ]
   },
+  ...flangeProductContent,
 };
 
 // FAQs for a commercial flange page: written FAQs if present, otherwise drop the

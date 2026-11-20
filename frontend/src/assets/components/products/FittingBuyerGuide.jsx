@@ -2,6 +2,8 @@ import React from 'react';
 import { ArrowRight, CheckCircle2, ClipboardList, FileCheck2, Truck } from 'lucide-react';
 import { useQuotePopup } from '../../context/QuotePopupContext';
 import { fittingGuides, BW_FAMILY, SW_FAMILY } from '../../data/fittingGuides';
+import { fittingBuyContent } from '../../data/fittingBuyContent.js';
+import { PageSchema, faqSchema } from '../common/usePageSchema.js';
 
 const familyMeta = {
   bw: { base: '/products/buttweld-fittings/', list: BW_FAMILY, label: 'Butt Weld Fittings', std: 'ASME B16.9 / MSS SP-75', size: 'Nominal size (NPS or DN) and wall schedule or thickness' },
@@ -19,6 +21,8 @@ const FittingBuyerGuide = ({ slug }) => {
   const g = fittingGuides[slug];
   if (!g) return null;
   const fam = familyMeta[g.family];
+  const buy = fittingBuyContent[slug];
+  const faqs = [...g.faqs, ...((buy && buy.faqs) || [])];
   const rfq = [
     ...g.rfq,
     fam.size,
@@ -31,6 +35,15 @@ const FittingBuyerGuide = ({ slug }) => {
 
   return (
     <div className="mt-12 space-y-10">
+      <PageSchema schemas={[faqSchema(faqs)]} />
+      {buy && (
+        <section className="bg-white rounded-xl border border-slate-200 p-8 md:p-10">
+          <h2 className="text-2xl font-bold text-[#0F172A] mb-5">{buy.h2}</h2>
+          <div className="space-y-4 text-slate-700 leading-relaxed">
+            {buy.notes.map((p) => <p key={p}>{p}</p>)}
+          </div>
+        </section>
+      )}
       <section className="bg-white rounded-xl border border-slate-200 p-8 md:p-10">
         <h2 className="text-2xl font-bold text-[#0F172A] mb-5">Where {g.name}s Are Used</h2>
         <ul className="grid sm:grid-cols-2 gap-3">
@@ -53,11 +66,11 @@ const FittingBuyerGuide = ({ slug }) => {
         <div className="space-y-6">
           <div className="bg-slate-50 rounded-xl border border-slate-200 p-6">
             <h3 className="font-bold text-[#0F172A] mb-2 flex items-center gap-2"><FileCheck2 size={20} className="text-[#D71920]" /> Inspection & Documents</h3>
-            <p className="text-sm text-slate-600">Made under an ISO 9001:2015 quality system. Each lot ships with an EN 10204 3.1 certificate traceable to the heat number; 3.2 certification with SGS, BV, TUV or DNV inspection on request. 100% PMI on alloy and stainless lots.</p>
+            <p className="text-sm text-slate-600">Made under an ISO 9001:2015 quality system. Each lot ships with an EN 10204 3.1 certificate traceable to the heat number; EN 10204 3.2 with the third-party inspector named on your order can be arranged. PMI and UT on request.</p>
           </div>
           <div className="bg-slate-50 rounded-xl border border-slate-200 p-6">
-            <h3 className="font-bold text-[#0F172A] mb-2 flex items-center gap-2"><Truck size={20} className="text-[#D71920]" /> Lead Time & Dispatch</h3>
-            <p className="text-sm text-slate-600">Common sizes and grades dispatch ex-stock in 24–48 hours. Made-to-order items typically take 7–14 days. Export orders are packed in seaworthy wooden cases and shipped from Nhava Sheva to 45+ countries.</p>
+            <h3 className="font-bold text-[#0F172A] mb-2 flex items-center gap-2"><Truck size={20} className="text-[#D71920]" /> Delivery & Dispatch</h3>
+            <p className="text-sm text-slate-600">The delivery date for each line is confirmed in writing on the quotation, based on size, grade and quantity. Orders dispatch from Mumbai; export shipments carry a commercial invoice, packing list, certificate of origin, mill test certificates and bill of lading.</p>
           </div>
         </div>
       </section>
@@ -65,7 +78,7 @@ const FittingBuyerGuide = ({ slug }) => {
       <section className="bg-white rounded-xl border border-slate-200 p-8 md:p-10">
         <h2 className="text-2xl font-bold text-[#0F172A] mb-6">{g.name} FAQs</h2>
         <div className="space-y-5">
-          {g.faqs.map((f) => (
+          {faqs.map((f) => (
             <div key={f.q}>
               <h3 className="font-bold text-slate-900 mb-1">{f.q}</h3>
               <p className="text-slate-600">{f.a}</p>
@@ -86,7 +99,7 @@ const FittingBuyerGuide = ({ slug }) => {
       <section className="bg-[#0F172A] text-white rounded-xl p-8 md:p-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
         <div>
           <h2 className="text-2xl font-bold mb-2">Get a {g.name} Price Today</h2>
-          <p className="text-slate-300">Send your size, grade and quantity. We reply with price, stock position and delivery date.</p>
+          <p className="text-slate-300">Send your size, grade and quantity. We reply with an itemised written quotation and delivery date.</p>
         </div>
         <button onClick={() => openQuotePopup()} className="px-8 py-3 rounded font-bold text-white bg-[#D71920] hover:shadow-xl transition-all flex items-center gap-2 shrink-0">
           Request Quote <ArrowRight size={18} />

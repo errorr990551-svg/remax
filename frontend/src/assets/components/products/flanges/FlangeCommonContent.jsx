@@ -541,15 +541,15 @@ export const IndustriesApplications = () => {
 export const WhyChooseRemax = () => {
   const points = [
     { title: "ISO 9001:2015 Certified", desc: "Fully audited quality management workflows.", icon: <Award className="text-red-600" /> },
-    { title: "In-House Forging", desc: "Forging, heat-treat, machining in Mumbai.", icon: <Hammer className="text-slate-700" /> },
-    { title: "Testing Laboratory", desc: "PMI, Spectro, UT, Hydro labs on-site.", icon: <Settings className="text-blue-600" /> },
+    { title: "Mumbai Works", desc: "Manufacturing and dispatch from Mumbai.", icon: <Hammer className="text-slate-700" /> },
+    { title: "Inspection & Testing", desc: "Hydrostatic, UT and PMI testing as specified.", icon: <Settings className="text-blue-600" /> },
     { title: "Mill Certificates", desc: "EN 10204 3.1 standard; 3.2 available.", icon: <FileText className="text-green-600" /> },
-    { title: "20+ Years Experience", desc: "Serving critical gas/oil clients globally.", icon: <Calendar className="text-amber-600" /> },
-    { title: "45+ Export Countries", desc: "Proven global logistics and documentation.", icon: <Globe className="text-indigo-600" /> },
-    { title: "Custom Forging", desc: "Special shapes, alloys and schedules.", icon: <Layers className="text-purple-600" /> },
-    { title: "Factory-Direct Price", desc: "Competitive pricing with no agent markup.", icon: <DollarSign className="text-emerald-600" /> },
+    { title: "Family-Led Company", desc: "Founded by Mr. Revaram Purohit; led by Mr. Vikas Purohit.", icon: <Calendar className="text-amber-600" /> },
+    { title: "Export Documents", desc: "CoO, invoice, packing list, MTC and bill of lading.", icon: <Globe className="text-indigo-600" /> },
+    { title: "Made to Drawing", desc: "Special sizes, alloys and customer drawings.", icon: <Layers className="text-purple-600" /> },
+    { title: "Itemised Quotes", desc: "Written, line-by-line quotations.", icon: <DollarSign className="text-emerald-600" /> },
     { title: "Technical Support", desc: "Engineers ready to assist spec selection.", icon: <HeartHandshake className="text-pink-600" /> },
-    { title: "Short Lead Times", desc: "Fast turnaround of custom and stock orders.", icon: <Clock className="text-sky-600" /> }
+    { title: "Written Delivery Dates", desc: "Delivery date confirmed on every quotation.", icon: <Clock className="text-sky-600" /> }
   ];
 
   return (
@@ -562,7 +562,7 @@ export const WhyChooseRemax = () => {
           Why Choose Remax Forge?
         </h2>
         <p className="mt-4 text-slate-400 max-w-4xl text-sm md:text-base leading-relaxed font-medium">
-          Remax Forge & Fittings stands out as a leading flange manufacturer due to our complete in-house forging, heat treatment, and precision CNC machining capabilities based in Mumbai. We provide certified compliance, factory-direct wholesale pricing, and custom forging schedules tailored to your engineering blueprints. With over 20 years of manufacturing experience, zero-defect quality management, and short lead times, we are a trusted supply partner for critical industrial piping projects.
+          Remax Forge & Fittings is a Mumbai-based manufacturer and supplier of flanges and pipe fittings, working under an ISO 9001:2015 quality system. Every order ships with EN 10204 3.1 mill test certificates, with EN 10204 3.2 and third-party inspection available, and is tested as your specification requires: hydrostatic, ultrasonic and PMI. Quotations are written and itemised, with a delivery date for each line, and export orders carry a full document set.
         </p>
       </div>
 

@@ -782,7 +782,7 @@ export const newFlangePagesData = {
     "primaryKw": "rtj flange (ring type joint) for oil & gas industry",
     "secondaryKw": "rtj flange (ring type joint) oil & gas, rtj flange oil & gas, oil & gas flange manufacturer",
     "title": "RTJ Flange (Ring Type Joint) for Oil & Gas | ASME B16.5",
-    "description": "Forged rtj flange (ring type joint)s engineered for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
+    "description": "Forged RTJ (ring type joint) flanges for oil & gas service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Oil & Gas Industry",
     "outline": [
       "Why oil & gas projects specify rtj flange (ring type joint) — the specific pressure/corrosion/service driver.",
@@ -819,7 +819,7 @@ export const newFlangePagesData = {
     "primaryKw": "rtj flange (ring type joint) for petrochemical industry",
     "secondaryKw": "rtj flange (ring type joint) petrochemical, rtj flange petrochemical, petrochemical flange manufacturer",
     "title": "RTJ Flange (Ring Type Joint) for Petrochemical | Remax",
-    "description": "Forged rtj flange (ring type joint)s engineered for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
+    "description": "Forged RTJ (ring type joint) flanges for petrochemical service. ASME B16.5, EN 10204 3.1 MTC, 3rd-party inspection. Written quote.",
     "h1": "RTJ Flange (Ring Type Joint) for Petrochemical Industry",
     "outline": [
       "Why petrochemical projects specify rtj flange (ring type joint) — the specific pressure/corrosion/service driver.",
@@ -967,7 +967,7 @@ export const newFlangePagesData = {
     "primaryKw": "flanges manufacturer in mumbai",
     "secondaryKw": "flanges supplier mumbai, forged flanges mumbai",
     "title": "Flanges Manufacturer in Mumbai | ASME B16.5 | Remax Forge",
-    "description": "Flanges forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request.",
+    "description": "Forged WN, SO, blind, SW, threaded & LJ flanges from our Mumbai works. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection.",
     "h1": "Flanges Manufacturer in Mumbai",
     "outline": [
       "In-house forging/machining location and proximity/logistics advantage for Mumbai and surrounding industrial belt.",
@@ -1003,13 +1003,13 @@ export const newFlangePagesData = {
     "primaryKw": "flanges manufacturer in rajkot",
     "secondaryKw": "flanges supplier rajkot, forged flanges rajkot",
     "title": "Flanges Manufacturer in Rajkot | ASME B16.5 | Remax Forge",
-    "description": "Flanges forged and machined in-house in Rajkot. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request.",
+    "description": "Forged flanges supplied to Rajkot from our Mumbai works. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request.",
     "h1": "Flanges Manufacturer in Rajkot",
     "outline": [
-      "In-house forging/machining location and proximity/logistics advantage for Rajkot and surrounding industrial belt.",
+      "Supply to Rajkot and the surrounding Saurashtra industrial belt from the Mumbai works.",
       "Full flanges spec range (materials, classes, faces).",
       "Certifications & traceability.",
-      "Dispatch/logistics from Rajkot (domestic + export).",
+      "Dispatch from Mumbai to Rajkot (domestic) and export documentation.",
       "Quote-form CTA — reiterate forms-only."
     ],
     "faqs": [
@@ -1039,7 +1039,7 @@ export const newFlangePagesData = {
     "primaryKw": "weld neck flange manufacturer in mumbai",
     "secondaryKw": "weld neck flange supplier mumbai, forged flanges mumbai",
     "title": "Weld Neck Flange Manufacturer in Mumbai | ASME B16.5 | Remax",
-    "description": "Weld Neck Flanges forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request.",
+    "description": "Forged weld neck flanges from our Mumbai works. ASME B16.5 & B16.47 sizes, EN 10204 3.1 mill certs, 3rd-party inspection on request.",
     "h1": "Weld Neck Flange Manufacturer in Mumbai",
     "outline": [
       "In-house forging/machining location and proximity/logistics advantage for Mumbai and surrounding industrial belt.",
@@ -1075,7 +1075,7 @@ export const newFlangePagesData = {
     "primaryKw": "blind flange manufacturer in mumbai",
     "secondaryKw": "blind flange supplier mumbai, forged flanges mumbai",
     "title": "Blind Flange Manufacturer in Mumbai | ASME B16.5 | Remax",
-    "description": "Blind Flanges forged and machined in-house in Mumbai. ASME B16.5, EN 10204 3.1 mill certs, 3rd-party inspection on request.",
+    "description": "Forged blind flanges from our Mumbai works. ASME B16.5 & B16.47 sizes, EN 10204 3.1 mill certs, 3rd-party inspection on request.",
     "h1": "Blind Flange Manufacturer in Mumbai",
     "outline": [
       "In-house forging/machining location and proximity/logistics advantage for Mumbai and surrounding industrial belt.",
@@ -1110,9 +1110,9 @@ export const newFlangePagesData = {
     "url": "/products/flanges/ss316-weld-neck-flange-manufacturer/",
     "primaryKw": "ss316  weld neck flange manufacturer",
     "secondaryKw": "ss316 / ss316l flange supplier, weld neck flange ss316",
-    "title": "SS316  Weld Neck Flange Manufacturer | ASME B16.5 | Remax",
+    "title": "SS316 Weld Neck Flange Manufacturer | ASME B16.5 | Remax",
     "description": "Forged weld neck flanges in SS316 / SS316L. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer.",
-    "h1": "SS316  Weld Neck Flange Manufacturer",
+    "h1": "SS316 Weld Neck Flange Manufacturer",
     "outline": [
       "Why SS316 / SS316L is specified — corrosion/temperature/pressure driver.",
       "PMI spectrometer verification process (already used as a trust signal on slip-on-flange page — replicate).",
@@ -1142,9 +1142,9 @@ export const newFlangePagesData = {
     "url": "/products/flanges/duplex-blind-flange-manufacturer/",
     "primaryKw": "duplex 2205  blind flange manufacturer",
     "secondaryKw": "duplex 2205 / super duplex 2507 flange supplier, blind flange duplex 2205",
-    "title": "Duplex 2205  Blind Flange Manufacturer | ASME B16.5 | Remax",
+    "title": "Duplex 2205 Blind Flange Manufacturer | ASME B16.5 | Remax",
     "description": "Forged blind flanges in Duplex 2205 / Super Duplex 2507. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry.",
-    "h1": "Duplex 2205  Blind Flange Manufacturer",
+    "h1": "Duplex 2205 Blind Flange Manufacturer",
     "outline": [
       "Why Duplex 2205 / Super Duplex 2507 is specified — corrosion/temperature/pressure driver.",
       "PMI spectrometer verification process (already used as a trust signal on slip-on-flange page — replicate).",
@@ -1240,7 +1240,7 @@ export const newFlangePagesData = {
     "secondaryKw": "nickel alloy (inconel/monel/hastelloy) flange supplier, blind flange nickel alloy (inconel",
     "title": "Nickel Alloy (Inconel) Blind Flange Manufacturer | ASME",
     "description": "Forged blind flanges in Nickel Alloy (Inconel/Monel/Hastelloy). Full chemical & mechanical traceability per EN 10204 3.1.",
-    "h1": "Nickel Alloy (Inconel Blind Flange Manufacturer",
+    "h1": "Nickel Alloy (Inconel) Blind Flange Manufacturer",
     "outline": [
       "Why Nickel Alloy (Inconel/Monel/Hastelloy) is specified — corrosion/temperature/pressure driver.",
       "PMI spectrometer verification process (already used as a trust signal on slip-on-flange page — replicate).",
@@ -1250,16 +1250,16 @@ export const newFlangePagesData = {
     ],
     "faqs": [
       {
-        "q": "How do you verify Nickel Alloy (Inconel chemistry matches the mill certificate?",
-        "a": "How do you verify Nickel Alloy (Inconel chemistry matches the mill certificate? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
+        "q": "How do you verify Nickel Alloy (Inconel) chemistry matches the mill certificate?",
+        "a": "How do you verify Nickel Alloy (Inconel) chemistry matches the mill certificate? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
       },
       {
         "q": "What's the lead time difference vs carbon steel?",
         "a": "What's the lead time difference vs carbon steel? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
       },
       {
-        "q": "Do you stock Nickel Alloy (Inconel blind flanges or forge to order?",
-        "a": "Do you stock Nickel Alloy (Inconel blind flanges or forge to order? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
+        "q": "Do you stock Nickel Alloy (Inconel) blind flanges or forge to order?",
+        "a": "Do you stock Nickel Alloy (Inconel) blind flanges or forge to order? Remax Forge manufactures and supplies fully certified ASME B16.5 and ASME B16.47 forged flanges with EN 10204 3.1 MTC, PMI testing, and third-party inspection."
       }
     ],
     "schemaReq": "FAQPage + BreadcrumbList",
@@ -1270,9 +1270,9 @@ export const newFlangePagesData = {
     "url": "/products/flanges/ss304-slip-on-flange-manufacturer/",
     "primaryKw": "ss304  slip-on flange manufacturer",
     "secondaryKw": "ss304 / ss304l flange supplier, slip-on flange ss304",
-    "title": "SS304  Slip-On Flange Manufacturer | ASME B16.5 | Remax",
+    "title": "SS304 Slip-On Flange Manufacturer | ASME B16.5 | Remax",
     "description": "Forged slip-on flanges in SS304 / SS304L. Full chemical & mechanical traceability per EN 10204 3.1. PMI-verified alloy chemistry. Mumbai manufacturer.",
-    "h1": "SS304  Slip-On Flange Manufacturer",
+    "h1": "SS304 Slip-On Flange Manufacturer",
     "outline": [
       "Why SS304 / SS304L is specified — corrosion/temperature/pressure driver.",
       "PMI spectrometer verification process (already used as a trust signal on slip-on-flange page — replicate).",
@@ -1303,7 +1303,7 @@ export const newFlangePagesData = {
     "primaryKw": "high pressure flange manufacturer",
     "secondaryKw": "class 900 flange, class 1500 flange, class 2500 flange supplier",
     "title": "Class 900/1500/2500 High-Pressure Flanges | Remax",
-    "description": "Class 900/1500/2500 High-Pressure Flanges forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure.",
+    "description": "Class 900, 1500 & 2500 flanges in carbon, stainless, duplex & alloy steel. ASME B16.5 / B16.47, EN 10204 3.1 MTC, UT & PMI on request.",
     "h1": "Class 900/1500/2500 High-Pressure Flanges",
     "outline": [
       "Pressure-temperature rating table for this class/face across materials.",
@@ -1334,8 +1334,8 @@ export const newFlangePagesData = {
     "url": "/products/flanges/rtj-face-flange-manufacturer/",
     "primaryKw": "rtj face flange manufacturer",
     "secondaryKw": "ring type joint flange, rtj flange supplier, r-type ring joint",
-    "title": "Ring Type Joint (RTJ) Face Flanges — all types | Remax",
-    "description": "Ring Type Joint (RTJ) Face Flanges — all types forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant.",
+    "title": "RTJ Face Flange Manufacturer | Ring Type Joint | Remax",
+    "description": "RTJ face flanges (WN, blind and more) in CS, SS, duplex & alloy steel. ASME B16.5 ring-groove dimensions, EN 10204 3.1 MTC.",
     "h1": "Ring Type Joint (RTJ) Face Flanges — all types",
     "outline": [
       "Pressure-temperature rating table for this class/face across materials.",
@@ -1367,7 +1367,7 @@ export const newFlangePagesData = {
     "primaryKw": "class 150 flange supplier",
     "secondaryKw": "class 150 flange manufacturer, low pressure flange",
     "title": "Class 150 General Utility Flanges | Remax Forge & Fittings",
-    "description": "Class 150 General Utility Flanges forged in-house — CS, SS, Duplex & alloy steel. ASME B16.5 compliant, hydrostatic tested at 1.5x working pressure.",
+    "description": "Class 150 flanges in carbon, stainless, duplex & alloy steel. ASME B16.5 dimensions, EN 10204 3.1 MTC, PMI & hydro testing on request.",
     "h1": "Class 150 General Utility Flanges",
     "outline": [
       "Pressure-temperature rating table for this class/face across materials.",

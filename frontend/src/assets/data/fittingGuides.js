@@ -119,7 +119,7 @@ export const fittingGuides = {
     uses: ['Header and manifold branches of equal size', 'Ring mains and loop systems', 'Bypass lines around control valves', 'Fire water and utility distribution'],
     rfq: ['Nominal size and wall schedule'],
     faqs: [
-      { q: 'Is an equal tee always available ex-stock?', a: 'Common sizes in carbon and stainless steel usually are. Large diameters, heavy walls and special alloys are made to order.' },
+      { q: 'Is an equal tee always available ex-stock?', a: 'Availability depends on size, schedule and grade, and is confirmed on the quotation. Large diameters, heavy walls and special alloys are usually made to order.' },
       { q: 'Can an equal tee be used with a reducer instead of a reducing tee?', a: 'Yes, but it adds a weld and length. A reducing tee is more compact where the reduction is a standard B16.9 combination.' },
     ],
   },
@@ -193,7 +193,7 @@ export const fittingGuides = {
   'socket-weld-elbow-fittings': {
     family: 'sw', name: 'Socket Weld Elbow',
     intro: [
-      'A socket weld elbow changes the direction of small-bore piping. The pipe is pushed into the socket, pulled back about 1/16 inch (1.6 mm) to leave an expansion gap, and sealed with a fillet weld. REMAX FORGE & FITTINGS forges 90° and 45° socket weld elbows to ASME B16.11 from bar or forgings, then machines the sockets to the bore and depth the standard requires.',
+      'A socket weld elbow changes the direction of small-bore piping. The pipe is pushed into the socket, pulled back about 1/16 inch (1.6 mm) to leave an expansion gap, and sealed with a fillet weld. REMAX FORGE & FITTINGS supplies 90° and 45° socket weld elbows to ASME B16.11, made from bar or forgings with the sockets machined to the bore and depth the standard requires.',
       'Elbows are made in Class 3000, 6000 and 9000. As a guide, Class 3000 suits Schedule 80 pipe, Class 6000 suits Schedule 160 and Class 9000 suits XXS. Grades include A105, A350 LF2, A182 F11/F22/F91, A182 F304/F316 and duplex F51/F53.',
     ],
     uses: ['Instrument, drain and vent lines', 'Small-bore steam and condensate piping', 'Hydraulic and lube oil systems', 'Chemical injection and sampling lines'],
@@ -206,7 +206,7 @@ export const fittingGuides = {
   'socket-weld-tee-fittings': {
     family: 'sw', name: 'Socket Weld Tee',
     intro: [
-      'A socket weld tee provides a 90° branch on small-bore piping. REMAX FORGE & FITTINGS forges equal tees to ASME B16.11 with three sockets of the same size, and makes reducing tees to order. The pipe ends are fillet welded into the sockets, which keeps fit-up quick and avoids the precise bevel alignment a butt weld needs.',
+      'A socket weld tee provides a 90° branch on small-bore piping. REMAX FORGE & FITTINGS supplies forged equal tees to ASME B16.11 with three sockets of the same size, and makes reducing tees to order. The pipe ends are fillet welded into the sockets, which keeps fit-up quick and avoids the precise bevel alignment a butt weld needs.',
       'Tees are made in Class 3000, 6000 and 9000 from forged carbon steel, low-temperature steel, chrome-moly, stainless steel and duplex grades. Socket bore, socket depth and centre-to-bottom-of-socket dimensions are checked on every lot.',
     ],
     uses: ['Instrument and pressure gauge take-offs', 'Drain and vent branches', 'Small-bore utility headers', 'Sampling and chemical dosing lines'],
@@ -219,7 +219,7 @@ export const fittingGuides = {
   'socket-weld-cross-fittings': {
     family: 'sw', name: 'Socket Weld Cross',
     intro: [
-      'A socket weld cross has four sockets at right angles and joins four small-bore lines at one point. REMAX FORGE & FITTINGS forges crosses to ASME B16.11 in Class 3000, 6000 and 9000, with socket dimensions checked to the standard.',
+      'A socket weld cross has four sockets at right angles and joins four small-bore lines at one point. REMAX FORGE & FITTINGS supplies forged crosses to ASME B16.11 in Class 3000, 6000 and 9000, with socket dimensions checked to the standard.',
       'Crosses are less common than tees because they concentrate stress at one point, but they save space in compact manifolds and instrument assemblies. Grades include A105, A350 LF2, A182 alloy and stainless grades and duplex.',
     ],
     uses: ['Compact instrument manifolds', 'Sprinkler and fire protection branches', 'Small-bore distribution in skids', 'Test and sampling assemblies'],
@@ -271,7 +271,7 @@ export const fittingGuides = {
   'socket-weld-cap-fittings': {
     family: 'sw', name: 'Socket Weld Cap',
     intro: [
-      'A socket weld cap closes the end of a small-bore pipe permanently. The pipe is inserted into the cap, gapped, and fillet welded. REMAX FORGE & FITTINGS forges caps to ASME B16.11 in Class 3000, 6000 and 9000.',
+      'A socket weld cap closes the end of a small-bore pipe permanently. The pipe is inserted into the cap, gapped, and fillet welded. REMAX FORGE & FITTINGS supplies forged caps to ASME B16.11 in Class 3000, 6000 and 9000.',
       'Caps are used on drains, vents and dead ends that will not be reopened. Where the end must be opened later, a threaded plug or a valve with a plug is normally used instead. Grades include A105, A350 LF2, A182 alloy and stainless steels and duplex.',
     ],
     uses: ['Closing small-bore dead ends', 'Drain and vent terminations', 'Capping spare branches for future use', 'Closing ends for pressure testing'],

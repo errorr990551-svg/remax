@@ -3,6 +3,7 @@ import { Download, FileCheck, CheckCircle2, Shield } from 'lucide-react';
 import api from '../services/api.js';
 import TrustBar from '../components/common/TrustBar.jsx';
 import MetaTags from '../components/common/MetaTags.jsx';
+import PageGuide from '../components/common/PageGuide.jsx';
 
 const BrochureGating = () => {
   const [formData, setFormData] = useState({
@@ -217,6 +218,7 @@ const BrochureGating = () => {
             )}
           </div>
         </div>
+        <PageGuide path="/brochure/" />
       </div>
     </div>
   );

@@ -1,5 +1,62 @@
 // Extra written guide sections rendered by components/common/PageGuide.jsx, keyed by canonical path.
 export const pageGuides = {
+  '/products/forged-fittings/': {
+    sections: [
+      { h2: 'What forged fittings are', paras: [
+        'Forged fittings are small-bore pipe fittings shaped from forged bar or forgings and then machined, so the metal has a continuous grain flow and none of the porosity a casting can contain. They are made to ASME B16.11 in two families: socket weld fittings in Class 3000, 6000 and 9000, and threaded fittings in Class 2000, 3000 and 6000, in nominal sizes from 1/8 to 4 inch.',
+        'Related standards cover the items B16.11 does not: MSS SP-79 for socket weld reducer inserts, MSS SP-83 for unions, MSS SP-95 for swage nipples and bull plugs, MSS SP-97 for integrally reinforced branch outlets, and BS 3799 on projects that follow British practice. The range covers elbows, tees, crosses, couplings, unions, caps, plugs, bushings, reducer inserts, nipples and laterals.'] },
+      { h2: 'Forged fittings in stock grades and special grades', table: { head: ['Service', 'Typical forged fitting grade'], rows: [
+        ['General process, steam and utility lines', 'ASTM A105 carbon steel'],
+        ['Low-temperature service', 'ASTM A350 LF2, impact tested'],
+        ['Corrosive and hygienic lines', 'ASTM A182 F304, F316 and F316L stainless'],
+        ['High-temperature alloy lines', 'ASTM A182 F11, F22 and F91 chrome-moly'],
+        ['Chloride and seawater service', 'ASTM A182 F51 and F60 duplex, F53 super duplex']] } },
+      { h2: 'How to request a forged fittings quotation', list: [
+        'List each item with fitting type, nominal size and end type (socket weld or threaded).',
+        'Give the pressure class, or the pipe schedule so the class can be matched to it.',
+        'Name the material grade exactly, including L grades and any NACE MR0175 / ISO 15156 requirement for sour service.',
+        'State the thread standard for threaded items (NPT to ASME B1.20.1 unless noted).',
+        'Give the quantity per line and the certificate type: EN 10204 3.1, or 3.2 with your inspection agency.',
+        'Add the delivery destination; export orders ship with commercial invoice, packing list, certificate of origin, mill test certificates and bill of lading.'] },
+    ],
+    faqs: [
+      { q: 'Are forged fittings better than cast fittings?', a: 'For pressure piping, yes in most cases: forging closes internal voids and aligns the grain, so forged fittings have consistent strength and no porosity. That is why ASME B16.11 fittings are made from forgings, bars, seamless pipe or tubular products, not castings.' },
+      { q: 'Should I order socket weld or threaded forged fittings?', a: 'Socket weld fittings give a welded, leak-tight joint and are the usual choice for process lines. Threaded fittings are assembled without welding and are mostly used on utility, instrument and low-hazard lines. Your piping class normally decides which is allowed.' },
+      { q: 'Can I order forged fittings and flanges together?', a: 'Yes. Send one enquiry with every item listed by line; the quotation is itemised so fittings and flanges in the same grade can be certified and shipped together.' },
+    ],
+  },
+  '/products/socket-weld-fittings/': {
+    sections: [
+      { h2: 'Socket weld fittings for small-bore piping', paras: [
+        'In a socket weld joint the pipe is pushed into a recessed socket in the fitting, pulled back about 1/16 inch (1.6 mm) to leave an expansion gap, and sealed with a fillet weld around the outside. ASME B31.3 shows that gap in its socket weld detail so the weld is not cracked when the pipe grows with heat. The joint is quick to align and needs no bevelling, which makes it the normal choice for vents, drains, instrument tappings and other lines up to NPS 2.',
+        'ASME B16.11 is the main standard and covers socket weld fittings from NPS 1/8 to 4 in Class 3000, 6000 and 9000. The class follows the pipe wall: Class 3000 for Schedule 80, Class 6000 for Schedule 160 and Class 9000 for XXS. The range covers 90° and 45° elbows, equal and reducing tees, crosses, full, half and reducing couplings, unions, caps and reducer inserts.'] },
+      { h2: 'Buying socket weld fittings for a project', paras: [
+        'Socket weld fittings are bought from the line list. Each line gives the fitting type, nominal size, class and grade; if your list shows pipe schedules only, the class is matched to the schedule on the quotation for you to confirm. Most small-bore packages combine elbows, tees, couplings, caps and unions in two or three grades, so group the list by grade and send it as one enquiry.',
+        'The quotation comes back itemised, with a written delivery date for each line. Lots are certified to EN 10204 3.1 and traceable to the heat number marked on each fitting; EN 10204 3.2 with your third-party inspector and PMI on stainless and alloy lots can be added.'] },
+      { h2: 'Where socket welds are restricted', paras: [
+        'The crevice left between the pipe end and the socket bottom can trap fluid, so many company specifications avoid socket welds in services prone to crevice corrosion, and ASME B31.3 and most piping specifications limit them in severe cyclic conditions. In those lines a butt weld fitting or an integrally reinforced outlet is used instead. Check your piping class before ordering, and mention the service on the enquiry if you want the fitting type checked.'] },
+    ],
+  },
+  '/products/pipes/alloy-steel-pipes/': {
+    sections: [
+      { h2: 'Alloy steel pipe grades and where they are used', paras: [
+        'Alloy steel pipe for high-temperature and high-pressure service is ordered mainly to ASTM A335 for seamless pipe and ASTM A691 for electric-fusion-welded pipe in large diameters. The chrome-moly grades rise in alloy content and temperature capability from P11 (1¼Cr-½Mo) and P22 (2¼Cr-1Mo) to P5 (5Cr-½Mo), P9 (9Cr-1Mo) and the creep-strength-enhanced P91 and P92.',
+        'P11 and P22 are standard in boiler, steam and refinery heater piping; P5 and P9 are used in hydrocarbon heater and hydrotreater lines where sulphidation resistance matters; P91 and P92 are used for main steam and hot reheat lines in modern power plants. Dimensions follow ASME B36.10M, from 1/2 inch NPS, with walls from Schedule 10 to XXS.'] },
+      { h2: 'What an alloy pipe quotation needs', list: [
+        'Specification and grade, for example ASTM A335 P22 or ASTM A691 with its grade and class.',
+        'Nominal size and schedule or wall thickness for each line.',
+        'Length: random lengths or fixed cut lengths, and the total metres per size.',
+        'End finish: plain, bevelled to ASME B16.25, or threaded.',
+        'Design temperature and code (ASME B31.1 or B31.3), so the heat treatment and tests can be checked against them.',
+        'Certificate type: EN 10204 3.1, or 3.2 with the inspection agency named; PMI to confirm chromium and molybdenum on request.'] },
+      { h2: 'Matching pipe, flanges and fittings', paras: [
+        'Alloy lines are usually bought as a package, so the pipe, flanges and fittings share one grade family: P11 pipe with ASTM A182 F11 flanges and A234 WP11 fittings, P22 with F22 and WP22, P91 with F91 and WP91. Send the full line list on one enquiry and the quotation is itemised by line, with the same certificate type across the package.'] },
+    ],
+    faqs: [
+      { q: 'What is the difference between P11, P22 and P91 pipe?', a: 'They are ASTM A335 chrome-moly grades with increasing alloy content: P11 is 1¼Cr-½Mo, P22 is 2¼Cr-1Mo and P91 is 9Cr-1Mo with vanadium and niobium. Higher alloy content gives more strength at high temperature, so the grade is set by the design temperature and pressure of the line.' },
+      { q: 'Is ASTM A691 pipe seamless?', a: 'No. ASTM A691 covers carbon and alloy steel pipe made by electric-fusion welding from plate, mainly in large diameters, for high-pressure service at high temperature.' },
+    ],
+  },
   '/quality/': {
     sections: [
       { h2: 'Inspection points a flange order should cover', list: [
@@ -74,6 +131,11 @@ export const pageGuides = {
         'Material specifications such as ASTM A106 and A312 allow a wall thickness under-tolerance, commonly 12.5%, which matters when wall thickness is calculated close to the minimum.'] },
       { h2: 'Why the pipe schedule matters when ordering flanges', paras: [
         'A weld neck flange is bored to match the inside diameter of the pipe it is welded to, so a smooth bore runs through the joint. A socket weld flange bore is also matched to the pipe schedule. Give the pipe schedule or wall thickness with every weld neck and socket weld flange order; a flange bored for schedule 40 will leave a step on schedule 80 pipe.'] },
+      { h2: 'Ordering pipe and flanges to these dimensions', list: [
+        'Order by nominal pipe size and schedule together, for example 6 inch Sch 40, not by outside diameter alone: NPS fixes the outside diameter and the schedule sets the wall.',
+        'For weld neck flanges and butt weld fittings, give the pipe schedule so the bore of the flange or fitting matches the bore of the pipe.',
+        'For stainless pipe, say whether the wall is an ASME B36.19M S schedule (10S, 40S, 80S) or an ASME B36.10M schedule; from 12 inch upward some walls with the same number differ.',
+        'Send the line list with size, schedule and grade for each line, and the quotation for pipe, flanges and fittings is itemised to match.'] },
     ],
   },
   '/tech-info/dimension-chart/': {
@@ -96,6 +158,11 @@ export const pageGuides = {
         'Compare the set of measurements with ASME B16.5, EN 1092-1, BS 10 or JIS B2220 tables. Bolt circle and hole count usually identify the standard and class.'] },
       { h2: 'Tolerances and what to put on an RFQ', paras: [
         'Flange standards set tolerances on outside diameter, thickness, bore and bolt circle. Tables give nominal values, so a measured flange will not always match to the millimetre. When matching existing equipment, send measured values or a drawing with the RFQ, plus the standard, class and face type if known, and the dimensions are confirmed before machining.'] },
+      { h2: 'Turning the dimension chart into a purchase order', list: [
+        'Name the flange standard: ASME B16.5 up to 24 inch, or ASME B16.47 Series A or Series B above it. Series A and Series B flanges of the same size have different outside diameters and bolting, so they are not interchangeable.',
+        'Give flange type, nominal size, class and facing (RF, FF or RTJ), and for weld neck flanges the bore or the pipe schedule.',
+        'If the flange must mate with an existing flange on site, send the measured outside diameter, bolt circle diameter and the number and size of bolt holes; they are compared with the standard before quoting.',
+        'State the material grade and certificate type on each line.'] },
     ],
   },
   '/tech-info/weight-chart/': {
@@ -147,6 +214,51 @@ export const pageGuides = {
         'Ask for the SSAB inspection certificate, which identifies the plate and its heat.'] },
       { h2: 'Where it is used', paras: [
         'Dump truck bodies, excavator buckets and cutting edges, crusher and hopper liners, chutes, conveyor transfer points, cement and mining equipment, and recycling machinery. Send the application, thickness and plate size or cutting drawing with the RFQ.'] },
+    ],
+  },
+  '/contact/': {
+    sections: [
+      { h2: 'What to include in your enquiry', paras: [
+        'A flange enquiry can be quoted in one reply when it carries the details below. Copy them from your purchase requisition or line list, or attach the drawing or bill of materials to the message.'],
+        list: [
+          'Flange type: weld neck, slip-on, blind, socket weld, threaded, lap joint or spectacle blind',
+          'Standard and size: ASME B16.5 (NPS ½"–24") or ASME B16.47 for larger sizes, or your drawing for a custom flange',
+          'Pressure class (150 to 2500) and facing: raised face, flat face or ring type joint',
+          'Bore or pipe schedule for weld neck and socket weld flanges',
+          'Material grade, for example ASTM A105, A350 LF2, A182 F316L or duplex F51',
+          'Quantity for each line item',
+          'Testing and certificate: PMI, UT, hydrostatic test, EN 10204 3.1 or 3.2',
+          'Delivery point and the shipping documents your customs or project needs',
+        ] },
+      { h2: 'What happens after you send it', paras: [
+        'Your enquiry goes to the sales team at our Mumbai works. We check each line item against the standard and material you have named, and if something is unclear, such as a missing schedule or a facing that does not suit the class, we ask before quoting rather than guess.',
+        'The written quotation lists every line with its unit price, the inspection and certificate included, the packing, and the dispatch terms. Export orders ship with a commercial invoice, packing list, certificate of origin, mill test certificate and bill of lading.',
+        'Sending the form also unlocks our phone, WhatsApp and email details on this site for your browser, so you can follow up directly.'] },
+    ],
+    faqs: [
+      { q: 'Do I need a drawing to get a flange quote?', a: 'Not for standard flanges. The type, size, class, facing, material and quantity are enough. A drawing is needed only for a custom or non-standard flange.' },
+      { q: 'Can I send one enquiry for several flange types?', a: 'Yes. List each item on its own line, or attach your bill of materials, and every line is priced on the same quotation.' },
+      { q: 'Which certificate comes with the flanges?', a: 'An EN 10204 3.1 mill test certificate as standard, traced by heat number to each flange. An EN 10204 3.2 certificate can be quoted on request.' },
+    ],
+  },
+  '/brochure/': {
+    sections: [
+      { h2: 'Using the brochure to prepare a request for quotation', paras: [
+        'The brochure gives you our product range on one document to share with your engineering or purchasing team. When you are ready to buy, a request for quotation that states the points below lets us price every item without a round of questions.'],
+        list: [
+          'The flange or fitting type and the governing standard for each item',
+          'Nominal size, pressure class, facing and, for weld neck flanges, the bore or schedule',
+          'Material grade and any supplementary requirement such as impact testing',
+          'Quantity per item and the required delivery date',
+          'Inspection and documents: PMI, UT, hydrostatic testing and the EN 10204 certificate type',
+        ] },
+      { h2: 'Products covered', table: { head: ['Range', 'Examples'], rows: [
+        ['Forged flanges', 'Weld neck, slip-on, blind, socket weld, threaded, lap joint and spectacle blind flanges to ASME B16.5 and B16.47'],
+        ['Forged fittings', 'Socket weld and threaded fittings to ASME B16.11'],
+        ['Materials', 'Carbon steel A105, low-temperature A350 LF2, stainless A182 F304/F316L, alloy F11/F22/F91, duplex and super duplex'],
+      ] } },
+      { h2: 'Quality and certification', paras: [
+        'Remax Forge & Fittings works under an ISO 9001:2015 quality management system and is registered for GST and as an MSME (Udyam). Flanges are dispatched from Mumbai with EN 10204 3.1 mill test certificates, and inspection reports are issued for the tests the order specifies.'] },
     ],
   },
 };

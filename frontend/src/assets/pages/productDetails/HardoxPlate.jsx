@@ -70,9 +70,9 @@ const HardoxPlateSupplierinIndia = () => {
                   <CheckCircle2 size={24} className="text-[#D71920]" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-slate-900 text-lg">Short production lead times</h3>
+                  <h3 className="font-bold text-slate-900 text-lg">Written delivery dates</h3>
                   <p className="text-slate-500 text-sm leading-relaxed mt-1 font-medium">
-                    Typically dispatched in 7–14 days with standard EN 10204 3.1 Mill Test Reports.
+                    Delivery date confirmed in writing on every quotation, with EN 10204 3.1 mill test certificates.
                   </p>
                 </div>
               </div>

@@ -4,6 +4,7 @@ import api from '../services/api.js';
 import MetaTags from '../components/common/MetaTags.jsx';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 import { getContactDetails } from '../data/contactDetails.js';
+import PageGuide from '../components/common/PageGuide.jsx';
 
 const ContactUs = () => {
   const [loading, setLoading] = useState(false);
@@ -304,6 +305,7 @@ const ContactUs = () => {
           </div>
 
         </div>
+        <PageGuide path="/contact/" />
       </div>
 
       {/* Map Section */}
