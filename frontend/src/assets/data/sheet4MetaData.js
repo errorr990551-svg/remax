@@ -1030,13 +1030,13 @@ export const sheet4MetaData = {
     "h1": "Sour Service (NACE / H2S) Forged Flanges"
   },
   "/products/flanges/custom-special-flange-manufacturer/": {
-    "title": "Custom & Special Flanges | Remax",
-    "description": "Custom & Special Flanges — Machined to Your Drawing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
+    "title": "Custom Flange Manufacturer | Made to Drawing | Remax",
+    "description": "Custom and special forged flanges machined to your drawing in Mumbai: special drilling, facing and thickness. EN 10204 3.1 MTC. Get a written quote.",
     "h1": "Custom & Special Flanges — Machined to Your Drawing"
   },
   "/products/flanges/custom-special-flange-manufacturer": {
-    "title": "Custom & Special Flanges | Remax",
-    "description": "Custom & Special Flanges — Machined to Your Drawing. ASME B16.5 compliant, EN 10204 3.1 MTC, tested in Mumbai. Get a written quote.",
+    "title": "Custom Flange Manufacturer | Made to Drawing | Remax",
+    "description": "Custom and special forged flanges machined to your drawing in Mumbai: special drilling, facing and thickness. EN 10204 3.1 MTC. Get a written quote.",
     "h1": "Custom & Special Flanges — Machined to Your Drawing"
   },
   "/products/flanges/subsea-offshore-flange-manufacturer/": {

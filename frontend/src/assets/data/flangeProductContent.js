@@ -1562,4 +1562,81 @@ export const flangeProductContent = {
       ['/products/flanges/blind-flange-for-oil-and-gas/', 'High-class blinds for hydrocarbon lines'],
     ],
   },
+  '/products/flanges/custom-special-flange-manufacturer/': {
+    intro: 'Remax Forge & Fittings machines custom and special flanges to your drawing at its Mumbai works: non-standard outside diameters, bores, thicknesses and drilling patterns, special facings, and flanges that combine dimensions from more than one standard. Every piece is forged, machined, inspected and shipped with an EN 10204 3.1 mill test certificate (3.2 on request). Send the drawing with the material and quantity and we reply with a written quote.',
+    sections: [
+      {
+        h2: 'What a custom or special flange covers',
+        paras: [
+          'A standard flange is fully defined by its standard, size, pressure class and facing. A custom flange is anything the tables in ASME B16.5 or ASME B16.47 do not describe, so the dimensions come from your drawing instead. Typical reasons are a vessel nozzle that needs a heavier hub, a mating flange for old or imported equipment, or a spacer, ring or blank cut to a fixed thickness.',
+          'Because nothing is taken from a catalogue, the drawing controls the job. We machine to the dimensions and tolerances it shows, and the finished flange is checked against them before dispatch.',
+        ],
+        list: [
+          'Non-standard outside diameter, bore, hub length or thickness',
+          'Special drilling: bolt circle, hole count or hole size that differs from the standard, or drilling to a second standard',
+          'Special facing: raised face, flat face, ring type joint groove, tongue and groove, or male and female, with the surface finish you specify',
+          'Customized blind flanges: tapped holes, a vent or drain connection, or a thickness above the class table',
+          'Spectacle blinds and spacers made to your drawing',
+          'Combined standards: for example ASME B16.5 dimensions drilled to EN 1092-1, or a bore matched to a specific pipe schedule',
+        ],
+      },
+      {
+        h2: 'Materials for special flanges',
+        table: {
+          head: ['Material group', 'Common grades', 'Typical reason'],
+          rows: [
+            ['Carbon steel', 'ASTM A105, A350 LF2 (low temperature)', 'General process, utility and water lines'],
+            ['Alloy steel', 'ASTM A182 F11, F22, F91', 'High-temperature steam and refinery heaters'],
+            ['Stainless steel', 'ASTM A182 F304/304L, F316/316L', 'Corrosive and hygienic service'],
+            ['Duplex and super duplex', 'ASTM A182 F51, F53, F55', 'Seawater and chloride service'],
+          ],
+        },
+        paras: [
+          'State the grade, any supplementary requirements, and the heat-treatment condition. If the drawing names a material we cannot confirm, we say so in the quote rather than substituting it.',
+        ],
+      },
+      {
+        h2: 'Inspection and certification',
+        paras: [
+          'Custom flanges get the same checks as standard ones. Each piece is inspected for dimensions against the drawing, and positive material identification (PMI) confirms the alloy before dispatch. Ultrasonic testing (UT) of the forging and hydrostatic testing are carried out where the order or your specification calls for them.',
+          'The mill test certificate is issued to EN 10204 3.1 as standard, showing heat number, chemistry and mechanical results, traced to the marking on each flange. An EN 10204 3.2 certificate can be quoted where your specification requires one. Remax Forge & Fittings works under an ISO 9001:2015 quality management system.',
+        ],
+      },
+      {
+        h2: 'What to send for an accurate quote',
+        list: [
+          'Drawing with revision number, dimensions and tolerances',
+          'Material grade and heat-treatment condition',
+          'Governing standard or the standard the drilling and facing should follow',
+          'Facing type and surface finish',
+          'Testing required: PMI, UT, hydrostatic, hardness or impact tests',
+          'Certificate type: EN 10204 3.1 or 3.2',
+          'Quantity per item and the delivery point',
+          'Marking, coating and packing requirements',
+        ],
+        paras: [
+          'A complete RFQ lets us quote once instead of going back and forth. Missing tolerances or an unclear facing are the most common reasons a special-flange quote is delayed.',
+        ],
+      },
+      {
+        h2: 'What sets the price of a custom flange',
+        paras: [
+          'The forging weight and the material grade drive most of the cost, so a larger outside diameter or a thicker blind costs more than a standard part of the same nominal size. Machining time follows the complexity of the drawing: tight tolerances, ring-joint grooves and non-standard drilling add hours. Testing beyond the standard set, a 3.2 certificate, special coating and export packing are quoted as separate lines, so you can see what each requirement adds.',
+        ],
+      },
+    ],
+    faqs: [
+      { q: 'Can you make a flange from my drawing if it does not match any standard?', a: 'Yes. Send the drawing with its revision, material and quantity. We forge and machine to the dimensions and tolerances shown, and check the finished flange against the drawing before dispatch.' },
+      { q: 'Can you make a customized blind flange thicker than the class table?', a: 'Yes. A blind flange can be machined to any thickness on your drawing, and it can include tapped holes or a vent connection shown on the drawing. State the design pressure or the required thickness in the RFQ.' },
+      { q: 'Which certificate comes with a custom flange?', a: 'An EN 10204 3.1 mill test certificate as standard, traced by heat number to the marking on each flange. An EN 10204 3.2 certificate can be quoted if your specification requires one.' },
+      { q: 'Can you drill an ASME flange to a different standard?', a: 'Yes. A flange can be drilled to a second standard, such as EN 1092-1, or to the bolt pattern of existing equipment. Show the bolt circle, hole count and hole size on the drawing.' },
+      { q: 'How is the price of a special flange worked out?', a: 'From the forging weight, the material grade and the machining time the drawing needs, plus any extra testing, certification, coating or packing. Each of these is shown on the written quote.' },
+    ],
+    related: [
+      ['/products/flanges/blind-flange/', 'Blind flanges'],
+      ['/products/flanges/weld-neck-flange/', 'Weld neck flanges'],
+      ['/products/flanges/spectacle-blind-flange/', 'Spectacle blinds'],
+      ['/products/flanges/rtj-face-flange-manufacturer/', 'RTJ face flanges'],
+    ],
+  },
 };

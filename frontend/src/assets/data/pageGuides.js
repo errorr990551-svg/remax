@@ -216,4 +216,49 @@ export const pageGuides = {
         'Dump truck bodies, excavator buckets and cutting edges, crusher and hopper liners, chutes, conveyor transfer points, cement and mining equipment, and recycling machinery. Send the application, thickness and plate size or cutting drawing with the RFQ.'] },
     ],
   },
+  '/contact/': {
+    sections: [
+      { h2: 'What to include in your enquiry', paras: [
+        'A flange enquiry can be quoted in one reply when it carries the details below. Copy them from your purchase requisition or line list, or attach the drawing or bill of materials to the message.'],
+        list: [
+          'Flange type: weld neck, slip-on, blind, socket weld, threaded, lap joint or spectacle blind',
+          'Standard and size: ASME B16.5 (NPS ½"–24") or ASME B16.47 for larger sizes, or your drawing for a custom flange',
+          'Pressure class (150 to 2500) and facing: raised face, flat face or ring type joint',
+          'Bore or pipe schedule for weld neck and socket weld flanges',
+          'Material grade, for example ASTM A105, A350 LF2, A182 F316L or duplex F51',
+          'Quantity for each line item',
+          'Testing and certificate: PMI, UT, hydrostatic test, EN 10204 3.1 or 3.2',
+          'Delivery point and the shipping documents your customs or project needs',
+        ] },
+      { h2: 'What happens after you send it', paras: [
+        'Your enquiry goes to the sales team at our Mumbai works. We check each line item against the standard and material you have named, and if something is unclear, such as a missing schedule or a facing that does not suit the class, we ask before quoting rather than guess.',
+        'The written quotation lists every line with its unit price, the inspection and certificate included, the packing, and the dispatch terms. Export orders ship with a commercial invoice, packing list, certificate of origin, mill test certificate and bill of lading.',
+        'Sending the form also unlocks our phone, WhatsApp and email details on this site for your browser, so you can follow up directly.'] },
+    ],
+    faqs: [
+      { q: 'Do I need a drawing to get a flange quote?', a: 'Not for standard flanges. The type, size, class, facing, material and quantity are enough. A drawing is needed only for a custom or non-standard flange.' },
+      { q: 'Can I send one enquiry for several flange types?', a: 'Yes. List each item on its own line, or attach your bill of materials, and every line is priced on the same quotation.' },
+      { q: 'Which certificate comes with the flanges?', a: 'An EN 10204 3.1 mill test certificate as standard, traced by heat number to each flange. An EN 10204 3.2 certificate can be quoted on request.' },
+    ],
+  },
+  '/brochure/': {
+    sections: [
+      { h2: 'Using the brochure to prepare a request for quotation', paras: [
+        'The brochure gives you our product range on one document to share with your engineering or purchasing team. When you are ready to buy, a request for quotation that states the points below lets us price every item without a round of questions.'],
+        list: [
+          'The flange or fitting type and the governing standard for each item',
+          'Nominal size, pressure class, facing and, for weld neck flanges, the bore or schedule',
+          'Material grade and any supplementary requirement such as impact testing',
+          'Quantity per item and the required delivery date',
+          'Inspection and documents: PMI, UT, hydrostatic testing and the EN 10204 certificate type',
+        ] },
+      { h2: 'Products covered', table: { head: ['Range', 'Examples'], rows: [
+        ['Forged flanges', 'Weld neck, slip-on, blind, socket weld, threaded, lap joint and spectacle blind flanges to ASME B16.5 and B16.47'],
+        ['Forged fittings', 'Socket weld and threaded fittings to ASME B16.11'],
+        ['Materials', 'Carbon steel A105, low-temperature A350 LF2, stainless A182 F304/F316L, alloy F11/F22/F91, duplex and super duplex'],
+      ] } },
+      { h2: 'Quality and certification', paras: [
+        'Remax Forge & Fittings works under an ISO 9001:2015 quality management system and is registered for GST and as an MSME (Udyam). Flanges are dispatched from Mumbai with EN 10204 3.1 mill test certificates, and inspection reports are issued for the tests the order specifies.'] },
+    ],
+  },
 };
