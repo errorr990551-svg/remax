@@ -184,20 +184,7 @@ const SEOManager = () => {
         'brand': { '@type': 'Brand', 'name': 'Remax Forge & Fittings' },
         'manufacturer': { '@id': 'https://remaxforge.com/#organization' },
         'material': 'Stainless Steel, Carbon Steel, Alloy Steel, Duplex',
-        'offers': {
-          '@type': 'AggregateOffer',
-          'priceCurrency': 'INR',
-          'lowPrice': '150',
-          'highPrice': '45000',
-          'offerCount': '100',
-          'priceValidUntil': '2027-12-31',
-          'availability': 'https://schema.org/InStock',
-          'url': canonicalUrl,
-          'seller': {
-            '@type': 'Organization',
-            'name': 'Remax Forge & Fittings'
-          }
-        }
+        // No offers/price/stock/rating: owner rule, never publish prices or stock that are not real (see CLAUDE.md)
       };
       // Optional per-page product facts from sheet4MetaData (alternate names, real specs)
       if (pageMeta.product) {
