@@ -12,13 +12,13 @@ export const sheet4MetaData = {
     "priority": "P0"
   },
   "/blogs/oil-and-gas-pipe-fittings-guide/": {
-    "title": "Oil Refinery Fittings & Pipe Guide | Remax Forge",
-    "description": "Discover essential oil refinery fittings and oil and gas pipe components. Read our complete guide for material specifications and applications.",
+    "title": "Oil and Gas Pipe Fittings Guide: Sour Service & NACE MR0175",
+    "description": "Pipe fittings for oil & gas and refineries: pressure class selection, sour service (H2S) to NACE MR0175 / ISO 15156, material specs and inspection.",
     "h1": "The Complete Guide to Oil Refinery Fittings and Pipe Components",
     "priority": "P0"
   },
   "/blogs/stainless-steel-grades-explained/": {
-    "title": "Stainless Steel Grades Explained: 304 vs 316 vs Duplex Chart",
+    "title": "Stainless Steel Grades: 304 vs 316 vs 316L vs Duplex",
     "description": "Every stainless steel grade compared - 304/304L, 316/316L, 321, 347, duplex & super duplex. Composition, properties & selection chart from Remax Forge.",
     "h1": "Stainless Steel Grades Explained (304, 316, Duplex + Chart)",
     "priority": "P0"
@@ -30,14 +30,14 @@ export const sheet4MetaData = {
     "priority": "P0"
   },
   "/product-details/hardox-plate/": {
-    "title": "Hardox Plate Supplier India | 400/450/500 Ex-Stock | Remax",
-    "description": "Hardox 400, 450 & 500 wear plates ex-stock Mumbai. Cut-to-size, genuine SSAB material with MTC. Serving mining & cement. Ask for a written price.",
+    "title": "Hardox Plate Supplier India | Hardox 400, 450, 500 | Remax",
+    "description": "Hardox 400, 450 & 500 wear plate: hardness (HBW) by grade, which grade to choose, cutting & welding guidance. Cut-to-size with MTC. Get a written quote.",
     "h1": "Hardox Wear Plate Supplier - Hardox 400, 450, 500",
     "priority": "P0"
   },
   "/products/flanges/spectacle-blind-flange/": {
-    "title": "Spectacle Blind Flange Manufacturer | ASME B16.48 | Remax",
-    "description": "Spectacle (figure-8) blind flanges to ASME B16.48: NPS 1/2\"-24\", Class 150-2500, RF/FF/RTJ, in carbon, stainless, duplex & alloy steel with 3.1 MTC.",
+    "title": "Spectacle Blind Flange (Figure 8) | ASME B16.48 Dimensions",
+    "description": "Spectacle (figure-8) blind dimensions to ASME B16.48, NPS 1/2\"-24\", Class 150-2500, RF/FF/RTJ. How to swing one, materials and spectacle vs paddle blind.",
     "h1": "Spectacle Blind Flange Manufacturer (Figure-8 Blind, ASME B16.48)",
     "product": {
       "name": "Spectacle Blind Flange (Figure-8 Blind)",
@@ -55,8 +55,8 @@ export const sheet4MetaData = {
     "priority": "P1"
   },
   "/products/flanges/blind-flange/": {
-    "title": "Blind Flange Manufacturer India | ASME B16.5 Sizes & Weights",
-    "description": "ASME B16.5 & B16.47 blind flanges, NPS 1/2\"-60\", Class 150-2500, RF/FF/RTJ, in A105, SS 316L & duplex. Thickness & weight chart, 3.1 MTC, fast quote.",
+    "title": "Blind Flange Manufacturer | ASME B16.5 Dimensions & Weight",
+    "description": "ASME B16.5 blind flange dimensions & weight (kg) chart, NPS 1/2\"-60\", Class 150-2500, RF/FF/RTJ, in A105, SS 316L & duplex. 3.1 MTC. Get a written quote.",
     "h1": "Blind Flange Manufacturer in India (ASME B16.5 / B16.47)",
     "product": {
       "name": "Blind Flange (ASME B16.5 / B16.47)",
@@ -74,8 +74,8 @@ export const sheet4MetaData = {
     "priority": "P1"
   },
   "/products/flanges/weld-neck-flange/": {
-    "title": "Weld Neck Flange Manufacturer India | ASME B16.5 | Remax",
-    "description": "ASME B16.5 & B16.47 weld neck flanges, NPS 1/2\"-60\", Class 150-2500, RF/RTJ, in A105, SS 316L, duplex & F11/F22. Dimension chart, 3.1 MTC, fast quote.",
+    "title": "Weld Neck Flange Manufacturer | ASME B16.5 Dimensions Chart",
+    "description": "ASME B16.5 weld neck flange dimensions, hub & bore chart and pressure-temperature ratings, NPS 1/2\"-60\", Class 150-2500, A105, SS 316L, duplex. 3.1 MTC.",
     "h1": "Weld Neck Flange Manufacturer in India (WNRF, ASME B16.5 / B16.47)",
     "product": {
       "name": "Weld Neck Flange (WNRF / WNRTJ)",
@@ -235,8 +235,8 @@ export const sheet4MetaData = {
     "priority": "P1"
   },
   "/blogs/butt-weld-fittings-guide/": {
-    "title": "Butt Weld Pipe Fittings: Complete Engineering Guide",
-    "description": "Learn how butt weld pipe fittings work, including welding standards, dimensions, and visual inspection criteria for weld joint penetration.",
+    "title": "Butt Weld Fittings Guide: Types, Standards & Schedules",
+    "description": "Butt weld fitting types, ASME B16.9 & MSS SP-75 standards, ASTM A234/A403/A420 grades, schedules, bevel preparation and welding practice for pipe fittings.",
     "h1": "The Complete Guide to Butt Weld Pipe Fittings",
     "priority": "P1"
   },

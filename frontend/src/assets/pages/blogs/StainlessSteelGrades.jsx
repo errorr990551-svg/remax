@@ -7,7 +7,7 @@ const StainlessSteelGrades = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="Stainless Steel Grades Explained (304, 316, Duplex)"
+        title="Stainless Steel Grades: 304 vs 316 vs 316L vs Duplex"
         description="SS 304 vs 316 vs 316L vs duplex for pipe fittings and flanges: corrosion resistance, pressure limits and cost, and which grade suits your service."
         keywords="Stainless Steel Grades for Pipe Fittings, SS 304 vs 316 fittings, industrial grade stainless steel, corrosion resistance in piping, austenitic stainless steel properties, Remax Forge & Fittings materials"
       />

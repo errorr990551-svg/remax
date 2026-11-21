@@ -7,8 +7,8 @@ const ButtWeldFittingsGuide = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="Butt Weld Pipe Fittings: Complete Engineering Guide"
-        description="Learn how butt weld pipe fittings work, including welding standards, dimensions, and visual inspection criteria for weld joint penetration."
+        title="Butt Weld Fittings Guide: Types, Standards & Schedules"
+        description="Butt weld fitting types, ASME B16.9 & MSS SP-75 standards, ASTM A234/A403/A420 grades, schedules, bevel preparation and welding practice for pipe fittings."
         keywords="Butt-Weld Fittings Specifications, ASTM A234 WPB fittings, Post-Weld Heat Treatment (PWHT), ASME B31.3 welding standards, NDE for pipe fittings, Remax quality verification"
       />
       
