@@ -154,9 +154,6 @@ const FloatingQuoteButton = () => {
                     <a href={contact.phoneHref} className="py-3 px-4 rounded-lg border border-slate-200 hover:border-[#D71920] text-slate-800">
                       Call {contact.phoneDisplay}
                     </a>
-                    <a href={contact.whatsapp} target="_blank" rel="noopener noreferrer" className="py-3 px-4 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white">
-                      WhatsApp us
-                    </a>
                     <a href={contact.emailHref} className="py-3 px-4 rounded-lg border border-slate-200 hover:border-[#D71920] text-slate-800">
                       {contact.email}
                     </a>

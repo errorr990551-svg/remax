@@ -467,7 +467,7 @@ export const sheet4MetaData = {
   },
   "/materials/hastelloy-c276-flanges/": {
     "title": "Hastelloy C276 Flange Manufacturer India | ASTM B564 N10276",
-    "description": "Hastelloy C-276 flange manufacturer, Mumbai. ASTM B564, N10276, FGD & wet chlorine grade, among the most corrosion-resistant alloys available. Get a written quote.",
+    "description": "Hastelloy C-276 flange manufacturer, Mumbai. ASTM B564, N10276, FGD & wet chlorine service, among the most corrosion-resistant alloys. Get a quote.",
     "h1": "Hastelloy C-276 Flanges — ASTM B564 (UNS N10276)",
     "priority": "P1"
   },
