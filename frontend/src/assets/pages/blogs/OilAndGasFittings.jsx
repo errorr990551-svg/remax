@@ -7,8 +7,8 @@ const OilAndGasFittings = () => {
   return (
     <div className="min-h-screen bg-slate-50 pt-20 font-sans">
       <MetaTags 
-        title="Oil Refinery Fittings & Pipe Guide | Remax Forge"
-        description="Discover essential oil refinery fittings and oil and gas pipe components. Read our complete guide for material specifications and applications."
+        title="Oil and Gas Pipe Fittings Guide: Sour Service & NACE MR0175"
+        description="Pipe fittings for oil & gas and refineries: pressure class selection, sour service (H2S) to NACE MR0175 / ISO 15156, material specs and inspection."
         keywords="Oil and Gas Pipe Fittings, High-pressure forged components, ASME B16.11 standards, material test certificates (MTC), upstream and downstream piping, Remax Forge & Fittings"
       />
       

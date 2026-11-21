@@ -298,6 +298,10 @@ export const materialsData = {
     ],
     "relatedLinks": [
       {
+        "title": "Stainless Steel Grades Explained (304 vs 316 vs Duplex)",
+        "url": "/blogs/stainless-steel-grades-explained/"
+      },
+      {
         "title": "Stainless Steel 316/316L",
         "url": "/materials/stainless-steel-316-flanges/"
       },
@@ -419,6 +423,10 @@ export const materialsData = {
     ],
     "relatedLinks": [
       {
+        "title": "Stainless Steel Grades Explained (304 vs 316 vs Duplex)",
+        "url": "/blogs/stainless-steel-grades-explained/"
+      },
+      {
         "title": "Marine Industry",
         "url": "/industries/marine/"
       },
@@ -534,6 +542,10 @@ export const materialsData = {
       }
     ],
     "relatedLinks": [
+      {
+        "title": "Stainless Steel Grades Explained (304 vs 316 vs Duplex)",
+        "url": "/blogs/stainless-steel-grades-explained/"
+      },
       {
         "title": "Power Generation Industry",
         "url": "/industries/power-generation/"
@@ -657,6 +669,10 @@ export const materialsData = {
     ],
     "relatedLinks": [
       {
+        "title": "Stainless Steel Grades Explained (304 vs 316 vs Duplex)",
+        "url": "/blogs/stainless-steel-grades-explained/"
+      },
+      {
         "title": "Super Duplex 2507",
         "url": "/materials/super-duplex-2507-flanges/"
       },
@@ -779,6 +795,10 @@ export const materialsData = {
       }
     ],
     "relatedLinks": [
+      {
+        "title": "Stainless Steel Grades Explained (304 vs 316 vs Duplex)",
+        "url": "/blogs/stainless-steel-grades-explained/"
+      },
       {
         "title": "Super Duplex Zeron 100",
         "url": "/materials/super-duplex-zeron-100-flanges/"
