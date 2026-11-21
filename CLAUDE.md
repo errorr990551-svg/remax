@@ -33,3 +33,20 @@ value in `contactDetails.js` only.
 
 If a request conflicts with this rule, do not implement it; point to this section
 and ask the site owner to confirm.
+
+## Quote popup (permanent rule, do not break)
+
+The Get Quote popup form is the website's **only lead source**. It must open and
+submit on **every page**, on desktop and mobile: the floating "Get Quote" button,
+the mobile sticky bar (Get Quote / Call / WhatsApp), the "Request Callback" popup and
+the desktop auto-popup for first-time visitors. A successful submit must `POST
+/contact` with the visitor's name, phone and email.
+
+Enforcement: `npm run build` runs `node check_quote_form.js`, which fails the build
+(so the deploy stops) if any built page lacks the Get Quote button or sticky bar, or
+if, in a real browser, the popup does not open, submit and show its success message
+on one page of every template (desktop + mobile). Never weaken, skip or delete this
+check. Before changing `FloatingQuoteButton.jsx`, `StickyMobileBar.jsx`, `PopUp.jsx`,
+`QuotePopupContext.jsx`, `services/api.js`, `App.jsx` or the backend `/contact`
+route, test the popup yourself. If a request would break or remove the popup, do not
+implement it; point to this section and ask the site owner to confirm.
