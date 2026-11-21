@@ -79,4 +79,4 @@ a question and the next daily run will use it.
 26. **Socket weld fittings pages:** the 8 pages under /products/socket-weld-fittings/ (bushing, cap, coupling, cross, lateral-tee, reducer-insert, tee, union) score 222–247 unique words, just under the bar. They are outside this flanges-only programme. Should they be added?
 27. **/export/uae/ and /export/united-arab-emirates/:** two country pages for the same country (scores 182 and 104). Day 16 will make their text different, but they compete for the same searches. Should one redirect to the other? URLs are not changed without your answer.
 
-28. **Bani Hajer (Qatar) district source.** The English Wikipedia "Bani Hajer" article is about the tribe, not the Al Rayyan district, so the town page was not written yet. A municipal or census source for the district is needed (2026-11-21).
+28. **Qatar town sources missing:** bani-hajer (the English Wikipedia article is about the tribe, not the Al Rayyan district), new-salata and al-souq (no article found) and al-mearad (fetch rate-limited). These 4 pages are not written yet and are moved to Day 13 catch-up. A municipal or census source would help (2026-11-21).
