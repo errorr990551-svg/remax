@@ -38,7 +38,7 @@ and ask the site owner to confirm.
 
 The Get Quote popup form is the website's **only lead source**. It must open and
 submit on **every page**, on desktop and mobile: the floating "Get Quote" button,
-the mobile sticky bar (Get Quote / Call / WhatsApp), the "Request Callback" popup and
+the mobile sticky bar (Get Quote / Call), the "Request Callback" popup and
 the desktop auto-popup for first-time visitors. A successful submit must `POST
 /contact` with the visitor's name, phone and email.
 
@@ -50,3 +50,7 @@ check. Before changing `FloatingQuoteButton.jsx`, `StickyMobileBar.jsx`, `PopUp.
 `QuotePopupContext.jsx`, `services/api.js`, `App.jsx` or the backend `/contact`
 route, test the popup yourself. If a request would break or remove the popup, do not
 implement it; point to this section and ask the site owner to confirm.
+
+No WhatsApp: the owner wants every customer to fill in the form on the website. Do not
+add any WhatsApp button, link or CTA anywhere on the site (before or after the form
+is submitted).

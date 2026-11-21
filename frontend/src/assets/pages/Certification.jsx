@@ -30,9 +30,11 @@ const Certification = () => {
   const { isUnlocked, openQuotePopup } = useQuotePopup();
 
   const handleCopyGst = () => {
-    navigator.clipboard.writeText('27FFLPP0007K1ZA');
-    setCopiedGst(true);
-    setTimeout(() => setCopiedGst(false), 2500);
+    // Clipboard can be blocked (permissions, non-HTTPS); only show "copied" when it worked
+    navigator.clipboard?.writeText('27FFLPP0007K1ZA').then(() => {
+      setCopiedGst(true);
+      setTimeout(() => setCopiedGst(false), 2500);
+    }).catch(() => {});
   };
 
   const certificates = [

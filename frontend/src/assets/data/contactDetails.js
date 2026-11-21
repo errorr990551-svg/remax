@@ -21,7 +21,6 @@ const ENCODED = {
   landlineDisplay: 'MDIyIDY2MTAgOTIxMQ==',
   email: 'c2FsZXNAcmVtYXhmb3JnZS5jb20=',
   careersEmail: 'Y2FyZWVyc0ByZW1heGZvcmdlLmNvbQ==',
-  whatsapp: 'aHR0cHM6Ly93YS5tZS85MTk3Njk5ODMxMDg/dGV4dD1IZWxsbyUyMFJlbWF4JTIwRm9yZ2UsJTIwSSUyMHdvdWxkJTIwbGlrZSUyMHRvJTIwaW5xdWlyZSUyMGFib3V0JTIwZmxhbmdlcyUyMGFuZCUyMGZpdHRpbmdzLg==',
 };
 
 const UNLOCK_KEY = 'remax_contact_unlocked';

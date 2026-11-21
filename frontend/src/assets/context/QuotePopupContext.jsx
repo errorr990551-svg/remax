@@ -8,7 +8,7 @@ export const QuotePopupProvider = ({ children }) => {
   const [isQuoteOpen, setIsQuoteOpen] = useState(false);
   const [quoteProduct, setQuoteProduct] = useState("");
   const [isCallbackOpen, setIsCallbackOpen] = useState(false);
-  // Contact details (phone / WhatsApp / email) stay hidden until a quote/contact form is submitted
+  // Contact details (phone / email) stay hidden until a quote/contact form is submitted
   const [isUnlocked, setIsUnlocked] = useState(isContactUnlocked);
 
   useEffect(() => {

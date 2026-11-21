@@ -233,7 +233,7 @@ export const pageGuides = {
       { h2: 'What happens after you send it', paras: [
         'Your enquiry goes to the sales team at our Mumbai works. We check each line item against the standard and material you have named, and if something is unclear, such as a missing schedule or a facing that does not suit the class, we ask before quoting rather than guess.',
         'The written quotation lists every line with its unit price, the inspection and certificate included, the packing, and the dispatch terms. Export orders ship with a commercial invoice, packing list, certificate of origin, mill test certificate and bill of lading.',
-        'Sending the form also unlocks our phone, WhatsApp and email details on this site for your browser, so you can follow up directly.'] },
+        'Sending the form also unlocks our phone and email details on this site for your browser, so you can follow up directly.'] },
     ],
     faqs: [
       { q: 'Do I need a drawing to get a flange quote?', a: 'Not for standard flanges. The type, size, class, facing, material and quantity are enough. A drawing is needed only for a custom or non-standard flange.' },
