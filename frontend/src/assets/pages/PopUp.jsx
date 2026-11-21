@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { X, Send } from 'lucide-react';
 import api from '../services/api.js';
+import { trackLead } from '../services/trackLead.js';
 
 // Popup API (separate function, same endpoint)
 export const sendPopupMessage = (data) => {
@@ -103,14 +104,7 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
 
       const response = await sendPopupMessage(payload);
 
-      // Google Ads Conversion Tracking
-      if (window.gtag) {
-        window.gtag('event', 'conversion', {
-          'send_to': 'AW-18254252296/Hd6pCKHMlcIcEIiSp4BE',
-          'value': 1.0,
-          'currency': 'INR'
-        });
-      }
+      trackLead('callback_popup_form');
 
       showToast(response.data?.message || "Message sent successfully! Our experts will contact you soon.", "success");
       if (onSuccess) onSuccess();

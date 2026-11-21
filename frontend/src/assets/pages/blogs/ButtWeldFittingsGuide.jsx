@@ -44,6 +44,9 @@ const ButtWeldFittingsGuide = () => {
             <img 
               src="/images/b5-1.jpeg" 
               alt="industrial butt-weld piping system with steel elbows valves and high-pressure pipe connections" 
+              width="1024"
+              height="1024"
+              fetchPriority="high"
               className="w-full h-auto"
             />
           </div>

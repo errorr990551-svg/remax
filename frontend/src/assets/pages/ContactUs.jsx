@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Home, ChevronRight, Phone, Mail, MapPin, Send } from 'lucide-react';
 import api from '../services/api.js';
+import { trackLead } from '../services/trackLead.js';
 import MetaTags from '../components/common/MetaTags.jsx';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 import { getContactDetails } from '../data/contactDetails.js';
@@ -52,14 +53,7 @@ const ContactUs = () => {
         page_url: window.location.href,
       });
       
-      // Google Ads Conversion Tracking
-      if (window.gtag) {
-        window.gtag('event', 'conversion', {
-          'send_to': 'AW-18254252296/Hd6pCKHMlcIcEIiSp4BE',
-          'value': 1.0,
-          'currency': 'INR'
-        });
-      }
+      trackLead('contact_page_form');
 
       showToast(response.data.message || "Message sent successfully! Our experts will contact you soon.", "success");
       setFormData({

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FileText, X, Send, CheckCircle2 } from 'lucide-react';
 import { useLocation } from 'react-router-dom';
 import api from '../../services/api.js';
+import { trackLead } from '../../services/trackLead.js';
 import TrustBar from './TrustBar.jsx';
 import { useQuotePopup } from '../../context/QuotePopupContext.jsx';
 import { getContactDetails } from '../../data/contactDetails.js';
@@ -80,6 +81,8 @@ const FloatingQuoteButton = () => {
 
     try {
       await api.post('/contact', payload);
+
+      trackLead('floating_quote_form');
 
       // Push GTM event for generate_lead per Sheet 10 #3
       if (window.dataLayer) {

@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { Route, Navigate } from 'react-router-dom';
 import { newFlangePagesData } from './assets/data/newFlangePagesData.js';
 import { lazyPage } from './lazyPage.jsx';
+import { loadExportCountry } from './assets/data/exportCities.js';
 
 // Every page is its own chunk so a visit only downloads the code (and data files) that page needs.
 const Home = lazyPage(() => import('./assets/pages/Home.jsx'));
@@ -16,7 +17,11 @@ const PipeFittingsManufacturerIndia = lazyPage(() => import('./assets/pages/Pipe
 const ButtweldFittingsExporterIndia = lazyPage(() => import('./assets/pages/ButtweldFittingsExporterIndia.jsx'));
 const WhereWeExport = lazyPage(() => import('./assets/pages/WhereWeExport.jsx'));
 const ExportHubPage = lazyPage(() => import('./assets/pages/ExportHubPage.jsx'));
-const ExportCityPage = lazyPage(() => import('./assets/pages/ExportCityPage.jsx'));
+// The town page's country data is loaded with the page chunk, so the first render never suspends.
+const ExportCityPage = lazyPage((p) => Promise.all([
+  import('./assets/pages/ExportCityPage.jsx'),
+  p?.countrySlug && loadExportCountry(p.countrySlug),
+]).then(([m]) => m));
 const WeldNeck = lazyPage(() => import('./assets/pages/products/flanges/WeldNeck.jsx'));
 const SlipOn = lazyPage(() => import('./assets/pages/products/flanges/SlipOn.jsx'));
 const SocketWeld = lazyPage(() => import('./assets/pages/products/flanges/SocketWeld.jsx'));

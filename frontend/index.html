@@ -8,19 +8,36 @@
     <title>Remax Forge & Fittings | Flanges & Pipe Fittings Manufacturer India</title>
     
     <!-- Preconnects & Asset Preloads -->
-    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
-    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
     <link rel="dns-prefetch" href="https://www.clarity.ms" />
     <link rel="preload" href="/images/banner-mobile.webp" as="image" type="image/webp" media="(max-width: 767px)" fetchpriority="high" />
     <link rel="preload" href="/images/banner.webp" as="image" type="image/webp" media="(min-width: 768px)" fetchpriority="high" />
 
-    <!-- Google Tag Manager -->
-    <script>if(!window.__PRERENDER__)(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-RF2026X');</script>
-    <!-- End Google Tag Manager -->
+    <!-- Google tags (GA4 + Google Ads via gtag.js, and GTM). gtag() and the dataLayer exist at once, so
+         calls made before the scripts arrive (e.g. the quote-form conversion) are queued, not lost.
+         The scripts load on the first tap/scroll/key, or once the page is idle after load. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3KREY3BL81');
+      gtag('config', 'AW-18254252296');
+      dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+      if (!window.__PRERENDER__) (function () {
+        var done = false, evs = ['pointerdown', 'keydown', 'scroll', 'touchstart'];
+        function load() {
+          if (done) return; done = true;
+          evs.forEach(function (e) { removeEventListener(e, load); });
+          ['gtag/js?id=G-3KREY3BL81', 'gtm.js?id=GTM-RF2026X'].forEach(function (p) {
+            var s = document.createElement('script'); s.async = true;
+            s.src = 'https://www.googletagmanager.com/' + p; document.head.appendChild(s);
+          });
+        }
+        evs.forEach(function (e) { addEventListener(e, load, { passive: true }); });
+        addEventListener('load', function () {
+          setTimeout(function () { (window.requestIdleCallback || setTimeout)(load); }, 2500);
+        });
+      })();
+    </script>
 
     <!-- Defer Microsoft Clarity until window idle to boost First Contentful Paint -->
     <script type="text/javascript">
@@ -31,17 +48,6 @@
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
         })(window, document, "clarity", "script", "x062r5yc2r");
       });
-    </script>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3KREY3BL81"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-3KREY3BL81');
-      gtag('config', 'AW-18254252296');
     </script>
 
     <!-- Default SEO Tags (updated dynamically by React) -->

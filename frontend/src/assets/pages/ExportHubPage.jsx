@@ -5,7 +5,7 @@ import MetaTags from '../components/common/MetaTags.jsx';
 import { PageSchema } from '../components/common/usePageSchema.js';
 import { exportHubsData } from '../data/exportHubsData.js';
 import { exportHubContent } from '../data/exportHubContent.js';
-import { exportCitiesData } from '../data/exportCitiesData.js';
+import { exportCityIndex } from 'virtual:export-cities/index';
 import { FLANGE_TYPES, MATERIALS, RFQ_CHECKLIST, PRICE_FACTORS } from '../data/exportShared.js';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 import { useProductMenu } from '../context/ProductMenuContext.jsx';
@@ -37,7 +37,7 @@ const ExportHubPage = ({ slugOverride }) => {
     country: content?.country || base?.country,
   };
 
-  const countryCities = Object.values(exportCitiesData).filter((city) => city.countrySlug === slug);
+  const countryCities = exportCityIndex.filter((city) => city.countrySlug === slug);
 
   const toggleFaq = (index) => {
     setOpenFaqIndex(openFaqIndex === index ? null : index);

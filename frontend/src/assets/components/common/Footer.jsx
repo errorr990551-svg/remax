@@ -25,7 +25,9 @@ const Footer = () => {
               <div className="bg-white px-4 py-3 rounded-xl shadow-md inline-flex items-center gap-2">
                 <img loading="lazy" decoding="async" 
                   src={LogoImg}
-                  alt="Remax Logo" 
+                  alt="Remax Logo"
+                  width="400"
+                  height="400"
                   className="h-12 md:h-14 w-auto object-contain"
                 />
                 <div className="flex flex-col">
