@@ -16,11 +16,11 @@ const ButtWeldFittingsGuide = () => {
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
-            <Link to="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></Link>
+            <Link to="/" aria-label="Home" className="hover:text-[#D71920] transition-colors"><Home size={14} aria-hidden="true" /></Link>
             <ChevronRight size={14} />
             <Link to="/blogs/" className="hover:text-[#D71920] transition-colors">Blogs</Link>
             <ChevronRight size={14} />
-            <span className="text-[#D71920] font-medium truncate">Butt-Weld Fittings Guide</span>
+            <span className="text-[#f87171] font-medium truncate">Butt-Weld Fittings Guide</span>
           </div>
           <div className="inline-block bg-[#D71920] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4">
             Piping Engineering Reference
@@ -311,7 +311,7 @@ const ButtWeldFittingsGuide = () => {
                 A butt-welded piping system, built with quality fittings and proper welds, is designed for a service life of 20, 30, or 40 years with minimal maintenance. The incremental cost of specifying quality fittings is negligible compared to the avoided cost of premature failures and unplanned shutdowns.
               </p>
               <p className="text-slate-300 leading-relaxed mb-8 relative z-10">
-                Remax Forge & Fittings manufactures and supplies a comprehensive range of butt-weld fittings in carbon steel, stainless steel, alloy steel, and exotic alloys. Our products are manufactured to ASME B16.9, EN 10253, and other applicable standards.
+                Remax Forge & Fittings manufactures and supplies a comprehensive range of butt-weld fittings in carbon steel, stainless steel, alloy steel, and exotic alloys. Our products are manufactured to ASME B16.9, EN 10253, and other applicable standards. For export orders, see our <Link to="/buttweld-fittings-exporter-india/" className="text-white underline hover:text-[#fbe8e9]">butt weld fittings exporter page</Link>.
               </p>
               
               <Link 

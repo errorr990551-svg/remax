@@ -164,7 +164,6 @@ ErrorDocument 410 /404.html
   RewriteRule ^industries/?$ https://remaxforge.com/industries/oil-and-gas/ [R=301,L]
   RewriteRule ^product-details/?$ https://remaxforge.com/product-details/boiler-quality-plate/ [R=301,L]
   RewriteRule ^tech-info/?$ https://remaxforge.com/tech-info/dimension-chart/ [R=301,L]
-  RewriteRule ^tech-info/dimensions/?$ https://remaxforge.com/tech-info/dimension-chart/ [R=301,L]
   RewriteRule ^about/?$ https://remaxforge.com/about-us/ [R=301,L]
   RewriteRule ^certificates/?$ https://remaxforge.com/certification/ [R=301,L]
 

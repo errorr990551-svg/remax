@@ -61,6 +61,7 @@ const WeightChart = lazyPage(() => import('./assets/pages/tech-info/WeightChart.
 const Certification = lazyPage(() => import('./assets/pages/Certification.jsx'));
 const CareerPage = lazyPage(() => import('./assets/pages/Career.jsx'));
 const DimensionChart = lazyPage(() => import('./assets/pages/tech-info/DimensionChart.jsx'));
+const FlangeDimensionCharts = lazyPage(() => import('./assets/pages/tech-info/FlangeDimensionCharts.jsx'));
 const ButtWeldElbowFittings = lazyPage(() => import('./assets/pages/products/buttWeldFittings/ButtWeldElbowFittings.jsx'));
 const Elbow180 = lazyPage(() => import('./assets/pages/products/buttWeldFittings/Elbow180.jsx'));
 const Elbow90 = lazyPage(() => import('./assets/pages/products/buttWeldFittings/Elbow90.jsx'));
@@ -342,8 +343,8 @@ export const appRoutes = (
     <Route path='/tech-info/weight-chart/' element={<WeightChart />} />
     <Route path='/tech-info/dimension-chart' element={<DimensionChart />} />
     <Route path='/tech-info/dimension-chart/' element={<DimensionChart />} />
-    <Route path='/tech-info/dimensions' element={<Navigate to="/tech-info/dimension-chart/" replace />} />
-    <Route path='/tech-info/dimensions/' element={<Navigate to="/tech-info/dimension-chart/" replace />} />
+    <Route path='/tech-info/dimensions' element={<FlangeDimensionCharts />} />
+    <Route path='/tech-info/dimensions/' element={<FlangeDimensionCharts />} />
 
     {/* Flanges Category Hub & Types */}
     <Route path='/products/flanges' element={<FlangesCategoryHub />} />

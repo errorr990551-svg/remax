@@ -360,7 +360,7 @@ export const TestingInspection = () => {
           <div key={idx} className="flex gap-3 items-start">
             <CheckCircle2 className="text-green-600 mt-1 shrink-0" size={18} />
             <div>
-              <h4 className="font-bold text-slate-900 text-sm">{test.title}</h4>
+              <h3 className="font-bold text-slate-900 text-sm">{test.title}</h3>
               <p className="text-slate-500 text-xs leading-normal">{test.desc}</p>
             </div>
           </div>
@@ -404,7 +404,7 @@ export const DocumentsCertificates = () => {
           <div key={idx} className="flex gap-3 items-start">
             <ShieldCheck className="text-[#D71920] mt-1 shrink-0" size={18} />
             <div>
-              <h4 className="font-bold text-slate-900 text-sm">{doc.name}</h4>
+              <h3 className="font-bold text-slate-900 text-sm">{doc.name}</h3>
               <p className="text-slate-500 text-xs leading-normal">{doc.detail}</p>
             </div>
           </div>
@@ -445,7 +445,7 @@ export const SurfaceFinish = () => {
           <div key={idx} className="flex items-start gap-2.5 p-3 rounded-lg hover:bg-slate-50 transition-colors">
             <span className="w-1.5 h-1.5 rounded-full bg-[#D71920] mt-2 shrink-0"></span>
             <div>
-              <h4 className="font-bold text-slate-800 text-sm leading-tight">{opt.title}</h4>
+              <h3 className="font-bold text-slate-800 text-sm leading-tight">{opt.title}</h3>
               <p className="text-slate-500 text-xs mt-0.5 leading-normal">{opt.desc}</p>
             </div>
           </div>
@@ -491,7 +491,7 @@ export const ExportMarkets = () => {
         </div>
       </div>
       
-      <div className="mt-6 text-center text-[10px] text-slate-400 font-bold uppercase tracking-wider">
+      <div className="mt-6 text-center text-[10px] text-slate-500 font-bold uppercase tracking-wider">
         🌍 Trusted logistics across 6 continents
       </div>
     </div>
@@ -804,6 +804,7 @@ export const FlangeDimensionsTable = ({ slug, altText, hideImage = false }) => {
               * {data.notes}
             </p>
           )}
+          <p className="text-sm text-slate-600">Class 150 and Class 300 OD, thickness, bolt circle and drilling for all sizes: <Link to="/tech-info/dimensions/" className="text-[#B3141A] underline">ASME B16.5 flange dimension charts</Link>.</p>
         </div>
       </div>
     </div>

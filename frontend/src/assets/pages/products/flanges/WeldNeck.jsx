@@ -99,7 +99,7 @@ const WeldNeck = () => {
               <li aria-hidden="true"><ChevronRight size={14} /></li>
               <li><Link to="/products/flanges/" className="hover:text-[#D71920] transition-colors">Flanges</Link></li>
               <li aria-hidden="true"><ChevronRight size={14} /></li>
-              <li aria-current="page" className="text-[#D71920] font-medium">Weld Neck Flange</li>
+              <li aria-current="page" className="text-[#f87171] font-medium">Weld Neck Flange</li>
             </ol>
           </nav>
           <h1 className="text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-white leading-tight">Weld Neck Flange Manufacturer in India — ASME B16.5 / B16.47 WNRF &amp; RTJ</h1>

@@ -18,7 +18,7 @@ const ConcentricReducer = () => {
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
-            <a href="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></a>
+            <a href="/" aria-label="Home" className="hover:text-[#D71920] transition-colors"><Home size={14} aria-hidden="true" /></a>
             <ChevronRight size={14} />
             <a href="/products/flanges/" className="hover:text-[#D71920] transition-colors">Products</a>
             <ChevronRight size={14} />

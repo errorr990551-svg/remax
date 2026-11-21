@@ -247,9 +247,9 @@ const Home = () => {
               >
                 {feature.icon}
               </div>
-              <h3 className="text-xl font-bold mb-3" style={{ color: '#0F172A' }}>
+              <h2 className="text-xl font-bold mb-3" style={{ color: '#0F172A' }}>
                 {feature.title}
-              </h3>
+              </h2>
               <p className="text-gray-600 leading-relaxed text-sm">
                 {feature.description}
               </p>
@@ -286,7 +286,7 @@ const Home = () => {
                 style={{ backgroundColor: '#D71920' }}
               >
                 <div className="text-4xl md:text-5xl font-extrabold mb-1">20+</div>
-                <div className="text-sm font-medium opacity-90 leading-tight">Years of Industrial Excellence</div>
+                <div className="text-sm font-medium leading-tight">Years of Industrial Excellence</div>
               </div>
             </div>
 
@@ -440,7 +440,7 @@ const Home = () => {
           
           {/* Header */}
           <div className="text-center mb-16">
-            <span className="font-bold tracking-wider uppercase text-sm mb-2 block" style={{ color: '#D71920' }}>
+            <span className="font-bold tracking-wider uppercase text-sm mb-2 block" style={{ color: '#f87171' }}>
               Why Choose Remax Forge & Fittings?
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-6">

@@ -24,9 +24,9 @@ export const sheet4MetaData = {
     "priority": "P0"
   },
   "/tech-info/dimensions/": {
-    "title": "Flange & Pipe Dimensions Chart | ASME B16.5 Class 150-2500",
-    "description": "Free dimension charts: flanges ASME B16.5/B16.47, pipe schedules, bolt circles, thicknesses & weights. Downloadable tables by a Mumbai manufacturer.",
-    "h1": "Flange & Pipe Dimension Charts (ASME B16.5, B16.47)",
+    "title": "Flange Dimension Charts | ASME B16.5 Class 150 & 300 | Remax",
+    "description": "ASME B16.5 flange dimension charts for Class 150 and Class 300, NPS 1/2 to 24: flange OD, minimum thickness, bolt circle, bolt holes and hole size, in inches.",
+    "h1": "Flange Dimension Charts (ASME B16.5)",
     "priority": "P0"
   },
   "/product-details/hardox-plate/": {

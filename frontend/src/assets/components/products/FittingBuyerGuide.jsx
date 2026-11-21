@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle2, ClipboardList, FileCheck2, Truck } from 'lucide-react';
 import { useQuotePopup } from '../../context/QuotePopupContext';
 import { fittingGuides, BW_FAMILY, SW_FAMILY } from '../../data/fittingGuides';
@@ -71,6 +72,7 @@ const FittingBuyerGuide = ({ slug }) => {
           <div className="bg-slate-50 rounded-xl border border-slate-200 p-6">
             <h3 className="font-bold text-[#0F172A] mb-2 flex items-center gap-2"><Truck size={20} className="text-[#D71920]" /> Delivery & Dispatch</h3>
             <p className="text-sm text-slate-600">The delivery date for each line is confirmed in writing on the quotation, based on size, grade and quantity. Orders dispatch from Mumbai; export shipments carry a commercial invoice, packing list, certificate of origin, mill test certificates and bill of lading.</p>
+            {g.family === 'bw' && <p className="text-sm text-slate-600 mt-2">Shipping outside India? See <Link to="/buttweld-fittings-exporter-india/" className="text-[#B3141A] underline">butt weld fittings export from India</Link>.</p>}
           </div>
         </div>
       </section>

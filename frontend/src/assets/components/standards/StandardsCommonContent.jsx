@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { CheckCircle, ArrowRight, BookOpen, Send } from 'lucide-react';
 import api from '../../services/api.js';
 import FlangeRfqBlock from '../common/FlangeRfqBlock.jsx';
+import { PageSchema, faqSchema } from '../common/usePageSchema.js';
 
 const StandardsCommonContent = ({ standard }) => {
   const [formData, setFormData] = useState({
@@ -195,6 +196,7 @@ const StandardsCommonContent = ({ standard }) => {
 
       {/* FAQs */}
       <section className="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200">
+        <PageSchema schemas={[faqSchema(standard.faqs)]} />
         <h2 className="text-2xl font-bold text-slate-900 mb-6">Standard Specification FAQs</h2>
         <div className="space-y-4">
           {standard.faqs.map((faq, idx) => (
