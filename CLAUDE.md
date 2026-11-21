@@ -54,3 +54,11 @@ implement it; point to this section and ask the site owner to confirm.
 No WhatsApp: the owner wants every customer to fill in the form on the website. Do not
 add any WhatsApp button, link or CTA anywhere on the site (before or after the form
 is submitted).
+
+## No fake prices (permanent rule)
+
+Never publish prices, price ranges, stock/availability, offers, ratings or reviews
+anywhere on the site, including structured data (JSON-LD `offers`, `AggregateOffer`,
+`AggregateRating`, `Review`). Customers get prices only through a written quote.
+`npm run build` runs `node check_no_prices.js`, which fails the build if any page's
+schema contains them. Never weaken, skip or delete this check.
