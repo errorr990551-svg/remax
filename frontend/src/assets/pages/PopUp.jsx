@@ -106,7 +106,7 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
 
       trackLead('callback_popup_form');
 
-      showToast(response.data?.message || "Message sent successfully! Our experts will contact you soon.", "success");
+      showToast(response.data?.message || "Message sent! Your written quote will reach you within 30 minutes.", "success");
       if (onSuccess) onSuccess();
 
       // Reset form after success

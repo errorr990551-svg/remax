@@ -150,7 +150,7 @@ const FloatingQuoteButton = () => {
                 <CheckCircle2 className="w-16 h-16 text-emerald-500 mx-auto mb-4 animate-bounce" />
                 <h3 className="text-2xl font-extrabold text-slate-800 mb-2">Quote Request Received!</h3>
                 <p className="text-slate-600 text-sm">
-                  Our sales team will send your written quotation.
+                  Your written quotation will reach you within 30 minutes.
                 </p>
                 {contact && (
                   <div className="mt-6 grid gap-2 text-sm font-semibold">
@@ -173,7 +173,7 @@ const FloatingQuoteButton = () => {
                     Get a Written Quote
                   </h3>
                   <p className="text-xs text-slate-500 mt-1">
-                    Direct factory pricing. No public phone calls needed.
+                    Get your written quote within 30 minutes of submitting this form.
                   </p>
                 </div>
 
