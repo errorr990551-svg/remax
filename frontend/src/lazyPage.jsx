@@ -4,7 +4,7 @@ import React from 'react';
 // before the first render, so the pre-rendered HTML is never swapped for a Suspense fallback.
 export function lazyPage(load) {
   let Loaded = null;
-  const preload = () => load().then((mod) => {
+  const preload = (params) => load(params).then((mod) => {
     Loaded = mod.default;
     return mod;
   });

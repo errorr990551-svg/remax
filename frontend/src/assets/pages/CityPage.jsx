@@ -109,7 +109,7 @@ const CityPage = () => {
                 <li aria-hidden="true"><ChevronRight size={14} className="text-slate-400" /></li>
                 <li><Link to="/market-area/" className="hover:text-[#D71920] transition-colors">Market Area</Link></li>
                 <li aria-hidden="true"><ChevronRight size={14} className="text-slate-400" /></li>
-                <li aria-current="page" className="text-[#D71920] font-bold">{data.city}</li>
+                <li aria-current="page" className="text-[#f87171] font-bold">{data.city}</li>
               </ol>
             </nav>
 

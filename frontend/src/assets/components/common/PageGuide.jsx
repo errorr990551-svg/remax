@@ -1,9 +1,11 @@
 import React from 'react';
 import { CheckCircle2 } from 'lucide-react';
 import { pageGuides } from '../../data/pageGuides.js';
+import { PageSchema, faqSchema } from './usePageSchema.js';
 
 // Extra written guide sections for one page, keyed by canonical path in pageGuides.js.
-const PageGuide = ({ path, bare = false }) => {
+// withFaqSchema=false where the page already emits a FAQPage (one per page).
+const PageGuide = ({ path, bare = false, withFaqSchema = true }) => {
   const guide = pageGuides[path];
   if (!guide) return null;
   const body = (
@@ -29,6 +31,7 @@ const PageGuide = ({ path, bare = false }) => {
       ))}
       {guide.faqs && (
         <div className="space-y-4">
+          {withFaqSchema && <PageSchema schemas={[faqSchema(guide.faqs)]} />}
           <h2 className="text-2xl font-bold text-[#0F172A]">Common questions</h2>
           {guide.faqs.map((f) => (
             <div key={f.q} className="border-t border-slate-200 pt-3">

@@ -83,7 +83,7 @@ const CORS = { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers
 const testPopup = async (route, viewport, open, label) => {
   const page = await browser.newPage();
   await page.setViewport(viewport);
-  // Stop the 3 s auto-popup from racing the click; the auto-popup itself is checked separately
+  // Stop the auto-popup from racing the click; the auto-popup itself is checked separately
   await page.evaluateOnNewDocument(() => localStorage.setItem('remax_rfq_popup_dismissed', 'true'));
   await page.setRequestInterception(true);
   let posted = null;
@@ -141,7 +141,7 @@ try {
   }
   await testPopup('/', DESKTOP, (page) => page.evaluate(() => window.openCallbackPopup?.()), 'Request Callback popup');
 
-  // Desktop auto-popup for first-time visitors (opens after 3 s); fresh profile so no "dismissed" flag
+  // Desktop auto-popup for first-time visitors (opens after 1 s); fresh profile so no "dismissed" flag
   const ctx = await browser.createBrowserContext();
   const page = await ctx.newPage();
   await page.setViewport(DESKTOP);

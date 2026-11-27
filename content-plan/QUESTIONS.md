@@ -80,3 +80,6 @@ a question and the next daily run will use it.
 27. **/export/uae/ and /export/united-arab-emirates/:** two country pages for the same country (scores 182 and 104). Day 16 will make their text different, but they compete for the same searches. Should one redirect to the other? URLs are not changed without your answer.
 
 28. **Qatar town sources missing:** bani-hajer (the English Wikipedia article is about the tribe, not the Al Rayyan district), new-salata and al-souq (no article found) and al-mearad (fetch rate-limited). These 4 pages are not written yet and are moved to Day 13 catch-up. A municipal or census source would help (2026-11-21).
+
+29. **Flange dimension table data (flange_dimensions.json):** the slip-on Class 150 table on the product pages lists hub OD 35 mm for NPS 1/2. Published ASME B16.5 tables give about 1.19 in (30 mm). The other columns were not checked row by row. Can you send the source these tables came from, or should they be checked against B16.5 and corrected?
+30. **Brochure and exit-intent forms:** they only push a dataLayer event to GTM-RF2026X, and that container has no tags. So they count as neither an Ads conversion nor a GA4 lead. Should they count as leads like the 3 quote forms? And is the GTM container meant to be empty? Removing it would save about 88 KB of script.

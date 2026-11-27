@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Home, ChevronRight, Phone, Mail, MapPin, Send } from 'lucide-react';
 import api from '../services/api.js';
+import { trackLead } from '../services/trackLead.js';
 import MetaTags from '../components/common/MetaTags.jsx';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 import { getContactDetails } from '../data/contactDetails.js';
@@ -52,14 +53,7 @@ const ContactUs = () => {
         page_url: window.location.href,
       });
       
-      // Google Ads Conversion Tracking
-      if (window.gtag) {
-        window.gtag('event', 'conversion', {
-          'send_to': 'AW-18254252296/Hd6pCKHMlcIcEIiSp4BE',
-          'value': 1.0,
-          'currency': 'INR'
-        });
-      }
+      trackLead('contact_page_form');
 
       showToast(response.data.message || "Message sent successfully! Our experts will contact you soon.", "success");
       setFormData({
@@ -101,7 +95,7 @@ const ContactUs = () => {
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-4">
-            <a href="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></a>
+            <a href="/" aria-label="Home" className="hover:text-[#D71920] transition-colors"><Home size={14} aria-hidden="true" /></a>
             <ChevronRight size={14} />
             <span className="text-[#D71920] font-medium">Contact Us</span>
           </div>

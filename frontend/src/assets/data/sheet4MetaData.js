@@ -23,10 +23,58 @@ export const sheet4MetaData = {
     "h1": "Stainless Steel Grades Explained (304, 316, Duplex + Chart)",
     "priority": "P0"
   },
+  "/market-area/gujarat/": {
+    "title": "Flange Supplier in Gujarat | Jamnagar, Vadodara, Hazira | Remax",
+    "description": "Forged flanges for Gujarat refineries, ports and steel plants: Jamnagar, Vadinar, Vadodara, Hazira, Dahej, Mundra. ASME B16.5 / B16.47, EN 10204 3.1. Written quote.",
+    "h1": "Flange Supplier in Gujarat",
+    "priority": "P1"
+  },
+  "/market-area/maharashtra/": {
+    "title": "Flange Supplier in Maharashtra | Mumbai Works, Pune, Nagpur | Remax",
+    "description": "Flanges from our Mumbai works for Maharashtra refineries, JNPA and Mumbai port terminals, and steel plants at Dolvi, Tarapur, Nagpur and Chandrapur. Written quote.",
+    "h1": "Flange Supplier in Maharashtra",
+    "priority": "P1"
+  },
+  "/market-area/tamil-nadu/": {
+    "title": "Flange Supplier in Tamil Nadu | Chennai, Ennore, Salem | Remax",
+    "description": "Forged flanges for Tamil Nadu: CPCL Manali and Nagapattinam refineries, Chennai, Kamarajar and Thoothukudi ports, Salem steel plants. ASME / EN flanges, 3.1 MTC.",
+    "h1": "Flange Supplier in Tamil Nadu",
+    "priority": "P1"
+  },
+  "/market-area/karnataka/": {
+    "title": "Flange Supplier in Karnataka | Mangaluru, Ballari, Bengaluru | Remax",
+    "description": "Flanges for Karnataka: ONGC MRPL Mangalore refinery, New Mangalore Port, JSW and SAIL steel plants at Ballari and Bhadravati, Bengaluru industry. Written quote.",
+    "h1": "Flange Supplier in Karnataka",
+    "priority": "P1"
+  },
+  "/market-area/kerala/": {
+    "title": "Flange Supplier in Kerala | Kochi Refinery, Vizhinjam Port | Remax",
+    "description": "Forged flanges for Kerala: BPCL Kochi refinery, Cochin Port and the Vizhinjam deepwater port, plus Thrissur, Kollam and Kozhikode industry. 3.1 MTC, written quote.",
+    "h1": "Flange Supplier in Kerala",
+    "priority": "P1"
+  },
+  "/market-area/odisha/": {
+    "title": "Flange Supplier in Odisha | Paradip, Kalinganagar, Angul | Remax",
+    "description": "Flanges for Odisha: Indian Oil Paradip refinery, Paradip and Dhamra ports, steel plants at Kalinganagar, Angul, Rourkela and Jajpur. B16.47 and plate flanges. Quote.",
+    "h1": "Flange Supplier in Odisha",
+    "priority": "P1"
+  },
+  "/market-area/west-bengal/": {
+    "title": "Flange Supplier in West Bengal | Haldia, Kolkata, Durgapur | Remax",
+    "description": "Forged flanges for West Bengal: Indian Oil Haldia refinery, Haldia and Kolkata docks, SAIL Durgapur and IISCO Asansol steel plants. ASME / EN flanges, 3.1 MTC.",
+    "h1": "Flange Supplier in West Bengal",
+    "priority": "P1"
+  },
+  "/market-area/jharkhand/": {
+    "title": "Flange Supplier in Jharkhand | Jamshedpur, Bokaro, Dhanbad | Remax",
+    "description": "Flanges for Jharkhand steel plants: Tata Steel Jamshedpur, SAIL Bokaro, Electrosteel, JSPL Patratu. Large-bore B16.47 and plate flanges, blinds, 3.1 MTC. Written quote.",
+    "h1": "Flange Supplier in Jharkhand",
+    "priority": "P1"
+  },
   "/tech-info/dimensions/": {
-    "title": "Flange & Pipe Dimensions Chart | ASME B16.5 Class 150-2500",
-    "description": "Free dimension charts: flanges ASME B16.5/B16.47, pipe schedules, bolt circles, thicknesses & weights. Downloadable tables by a Mumbai manufacturer.",
-    "h1": "Flange & Pipe Dimension Charts (ASME B16.5, B16.47)",
+    "title": "Flange Dimension Charts | ASME B16.5 Class 150 & 300 | Remax",
+    "description": "ASME B16.5 flange dimension charts for Class 150 and Class 300, NPS 1/2 to 24: flange OD, minimum thickness, bolt circle, bolt holes and hole size, in inches.",
+    "h1": "Flange Dimension Charts (ASME B16.5)",
     "priority": "P0"
   },
   "/product-details/hardox-plate/": {

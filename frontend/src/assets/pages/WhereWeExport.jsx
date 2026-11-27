@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Globe, ArrowRight, ShieldCheck, Home, MapPin, Search } from 'lucide-react';
 import MetaTags from '../components/common/MetaTags.jsx';
 import { exportHubsData } from '../data/exportHubsData.js';
-import { exportCitiesData } from '../data/exportCitiesData.js';
+import { exportCityIndex } from 'virtual:export-cities/index';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 
 const WhereWeExport = () => {
@@ -11,7 +11,7 @@ const WhereWeExport = () => {
   const [searchTerm, setSearchTerm] = React.useState('');
 
   const hubs = Object.values(exportHubsData);
-  const cities = Object.values(exportCitiesData);
+  const cities = exportCityIndex;
 
   const filteredHubs = hubs.filter(hub =>
     hub.country.toLowerCase().includes(searchTerm.toLowerCase())

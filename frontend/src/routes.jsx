@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import { Route, Navigate } from 'react-router-dom';
 import { newFlangePagesData } from './assets/data/newFlangePagesData.js';
 import { lazyPage } from './lazyPage.jsx';
+import { loadExportCountry } from './assets/data/exportCities.js';
 
 // Every page is its own chunk so a visit only downloads the code (and data files) that page needs.
 const Home = lazyPage(() => import('./assets/pages/Home.jsx'));
@@ -16,7 +17,11 @@ const PipeFittingsManufacturerIndia = lazyPage(() => import('./assets/pages/Pipe
 const ButtweldFittingsExporterIndia = lazyPage(() => import('./assets/pages/ButtweldFittingsExporterIndia.jsx'));
 const WhereWeExport = lazyPage(() => import('./assets/pages/WhereWeExport.jsx'));
 const ExportHubPage = lazyPage(() => import('./assets/pages/ExportHubPage.jsx'));
-const ExportCityPage = lazyPage(() => import('./assets/pages/ExportCityPage.jsx'));
+// The town page's country data is loaded with the page chunk, so the first render never suspends.
+const ExportCityPage = lazyPage((p) => Promise.all([
+  import('./assets/pages/ExportCityPage.jsx'),
+  p?.countrySlug && loadExportCountry(p.countrySlug),
+]).then(([m]) => m));
 const WeldNeck = lazyPage(() => import('./assets/pages/products/flanges/WeldNeck.jsx'));
 const SlipOn = lazyPage(() => import('./assets/pages/products/flanges/SlipOn.jsx'));
 const SocketWeld = lazyPage(() => import('./assets/pages/products/flanges/SocketWeld.jsx'));
@@ -56,6 +61,7 @@ const WeightChart = lazyPage(() => import('./assets/pages/tech-info/WeightChart.
 const Certification = lazyPage(() => import('./assets/pages/Certification.jsx'));
 const CareerPage = lazyPage(() => import('./assets/pages/Career.jsx'));
 const DimensionChart = lazyPage(() => import('./assets/pages/tech-info/DimensionChart.jsx'));
+const FlangeDimensionCharts = lazyPage(() => import('./assets/pages/tech-info/FlangeDimensionCharts.jsx'));
 const ButtWeldElbowFittings = lazyPage(() => import('./assets/pages/products/buttWeldFittings/ButtWeldElbowFittings.jsx'));
 const Elbow180 = lazyPage(() => import('./assets/pages/products/buttWeldFittings/Elbow180.jsx'));
 const Elbow90 = lazyPage(() => import('./assets/pages/products/buttWeldFittings/Elbow90.jsx'));
@@ -83,6 +89,7 @@ const MarketArea = lazyPage(() => import('./assets/pages/MarketArea.jsx'));
 const CityPage = lazyPage(() => import('./assets/pages/CityPage.jsx'));
 const CityPageStrategy = lazyPage(() => import('./assets/pages/CityPageStrategy.jsx'));
 const StateHubPage = lazyPage(() => import('./assets/pages/StateHubPage.jsx'));
+const IndiaStateHub = lazyPage(() => import('./assets/pages/IndiaStateHub.jsx'));
 const MarketAreaIndex = lazyPage(() => import('./assets/pages/MarketAreaIndex.jsx'));
 const CarbonSteelFlanges = lazyPage(() => import('./assets/pages/materials/CarbonSteelFlanges.jsx'));
 const SS304Flanges = lazyPage(() => import('./assets/pages/materials/SS304Flanges.jsx'));
@@ -337,8 +344,8 @@ export const appRoutes = (
     <Route path='/tech-info/weight-chart/' element={<WeightChart />} />
     <Route path='/tech-info/dimension-chart' element={<DimensionChart />} />
     <Route path='/tech-info/dimension-chart/' element={<DimensionChart />} />
-    <Route path='/tech-info/dimensions' element={<Navigate to="/tech-info/dimension-chart/" replace />} />
-    <Route path='/tech-info/dimensions/' element={<Navigate to="/tech-info/dimension-chart/" replace />} />
+    <Route path='/tech-info/dimensions' element={<FlangeDimensionCharts />} />
+    <Route path='/tech-info/dimensions/' element={<FlangeDimensionCharts />} />
 
     {/* Flanges Category Hub & Types */}
     <Route path='/products/flanges' element={<FlangesCategoryHub />} />
@@ -493,6 +500,22 @@ export const appRoutes = (
     <Route path='/market-area/andhra-pradesh/' element={<StateHubPage forcedKey="ap_hub" />} />
     <Route path='/market-area/arunachal-pradesh' element={<StateHubPage forcedKey="ar_hub" />} />
     <Route path='/market-area/arunachal-pradesh/' element={<StateHubPage forcedKey="ar_hub" />} />
+    <Route path='/market-area/gujarat' element={<IndiaStateHub slug="gujarat" />} />
+    <Route path='/market-area/gujarat/' element={<IndiaStateHub slug="gujarat" />} />
+    <Route path='/market-area/maharashtra' element={<IndiaStateHub slug="maharashtra" />} />
+    <Route path='/market-area/maharashtra/' element={<IndiaStateHub slug="maharashtra" />} />
+    <Route path='/market-area/tamil-nadu' element={<IndiaStateHub slug="tamil-nadu" />} />
+    <Route path='/market-area/tamil-nadu/' element={<IndiaStateHub slug="tamil-nadu" />} />
+    <Route path='/market-area/karnataka' element={<IndiaStateHub slug="karnataka" />} />
+    <Route path='/market-area/karnataka/' element={<IndiaStateHub slug="karnataka" />} />
+    <Route path='/market-area/kerala' element={<IndiaStateHub slug="kerala" />} />
+    <Route path='/market-area/kerala/' element={<IndiaStateHub slug="kerala" />} />
+    <Route path='/market-area/odisha' element={<IndiaStateHub slug="odisha" />} />
+    <Route path='/market-area/odisha/' element={<IndiaStateHub slug="odisha" />} />
+    <Route path='/market-area/west-bengal' element={<IndiaStateHub slug="west-bengal" />} />
+    <Route path='/market-area/west-bengal/' element={<IndiaStateHub slug="west-bengal" />} />
+    <Route path='/market-area/jharkhand' element={<IndiaStateHub slug="jharkhand" />} />
+    <Route path='/market-area/jharkhand/' element={<IndiaStateHub slug="jharkhand" />} />
 
     {/* 10 Strategy City Pages */}
     <Route path='/visakhapatnam' element={<CityPageStrategy forcedKey="vizag" />} />

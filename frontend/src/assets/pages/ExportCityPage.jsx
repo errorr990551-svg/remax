@@ -3,7 +3,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { ShieldCheck, ArrowRight, CheckCircle2, Factory, Award, Truck, ChevronDown, ChevronUp, Home, HelpCircle, Calculator, FileText, MapPin, ClipboardList, Scale } from 'lucide-react';
 import MetaTags from '../components/common/MetaTags.jsx';
 import { PageSchema } from '../components/common/usePageSchema.js';
-import { exportCitiesData } from '../data/exportCitiesData.js';
+import { getExportCountry } from '../data/exportCities.js';
 import flangeDimensions from '../data/flange_dimensions.json';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 import { useProductMenu } from '../context/ProductMenuContext.jsx';
@@ -43,7 +43,7 @@ const ExportCityPage = () => {
   const [weightType, setWeightType] = useState(WEIGHT_TABLES[0]?.key);
   const [weightNps, setWeightNps] = useState('');
 
-  const cityData = exportCitiesData[`${countrySlug}/${citySlug}`];
+  const cityData = getExportCountry(countrySlug)[`${countrySlug}/${citySlug}`];
   if (!cityData) {
     return <Navigate to={`/export/${countrySlug}/`} replace />;
   }

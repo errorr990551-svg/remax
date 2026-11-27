@@ -100,7 +100,7 @@ const ChemicalComposition = () => {
               <li aria-hidden="true"><ChevronRight size={14} /></li>
               <li><Link to="/tech-info/dimension-chart/" className="hover:text-[#D71920] transition-colors">Tech Info</Link></li>
               <li aria-hidden="true"><ChevronRight size={14} /></li>
-              <li aria-current="page" className="text-[#D71920] font-medium">Chemical Composition</li>
+              <li aria-current="page" className="text-[#f87171] font-medium">Chemical Composition</li>
             </ol>
           </nav>
           <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight">Steel Chemical Composition Chart</h1>

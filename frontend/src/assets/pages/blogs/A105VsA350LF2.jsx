@@ -17,11 +17,11 @@ const A105VsA350LF2 = () => {
       <div className="bg-[#0F172A] text-white py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-2 text-sm text-slate-400 mb-6">
-            <Link to="/" className="hover:text-[#D71920] transition-colors"><Home size={14} /></Link>
+            <Link to="/" aria-label="Home" className="hover:text-[#D71920] transition-colors"><Home size={14} aria-hidden="true" /></Link>
             <ChevronRight size={14} />
             <Link to="/blogs/" className="hover:text-[#D71920] transition-colors">Blogs</Link>
             <ChevronRight size={14} />
-            <span className="text-[#D71920] font-medium truncate">ASTM A105 vs A350 LF2</span>
+            <span className="text-[#f87171] font-medium truncate">ASTM A105 vs A350 LF2</span>
           </div>
           <div className="inline-block bg-[#D71920] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4">
             Metallurgy & Material Selection

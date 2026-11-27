@@ -30,7 +30,7 @@ const StickyMobileBar = () => {
             <span>Call</span>
           </a>
         ) : (
-          <button type="button" onClick={handleGetQuote} className="bg-slate-800 active:bg-slate-700 text-white font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs border border-slate-700 cursor-pointer" aria-label="Get quote to see phone number">
+          <button type="button" onClick={handleGetQuote} className="bg-slate-800 active:bg-slate-700 text-white font-bold py-2.5 px-3 rounded-xl flex items-center justify-center gap-1.5 text-xs border border-slate-700 cursor-pointer" aria-label="Call: get a quote to see phone number">
             <Phone className="w-4 h-4 text-emerald-400" />
             <span>Call</span>
           </button>

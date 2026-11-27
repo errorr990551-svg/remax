@@ -197,7 +197,8 @@ const SEOManager = () => {
       schemas.push(productSchema);
 
       const rawFaqs = flangeFaqs[productSlug] || getCommercialFlangeFaqs(canonicalPath, (newFlangePagesData[canonicalPath] || newFlangePagesData[pathname] || {}).faqs);
-      if (rawFaqs && rawFaqs.length > 0) {
+      // Fitting pages emit their visible FAQs via FittingBuyerGuide; these would be a second, invisible FAQPage.
+      if (rawFaqs && rawFaqs.length > 0 && !/^\/products\/(buttweld|socket-weld)-fittings\//.test(canonicalPath)) {
         schemas.push({
           '@context': 'https://schema.org',
           '@type': 'FAQPage',

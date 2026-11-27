@@ -28,7 +28,7 @@ const render = () => {
 // pre-rendered HTML with the Suspense fallback while the chunk downloads (blank flash + CLS).
 const matches = matchRoutes(createRoutesFromChildren(appRoutes.props.children), window.location) || []
 const preloads = matches
-  .map((m) => m.route.element?.type?.preload?.())
+  .map((m) => m.route.element?.type?.preload?.(m.params))
   .filter(Boolean)
 
 Promise.all(preloads).catch(() => {}).finally(render)

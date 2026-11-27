@@ -81,7 +81,7 @@ const PipeFlangesGuide = () => {
               <li aria-hidden="true"><ChevronRight size={14} /></li>
               <li><Link to="/blogs/" className="hover:text-[#D71920] transition-colors">Blogs</Link></li>
               <li aria-hidden="true"><ChevronRight size={14} /></li>
-              <li aria-current="page" className="text-[#D71920] font-medium truncate">Guide to Pipe Flanges</li>
+              <li aria-current="page" className="text-[#f87171] font-medium truncate">Guide to Pipe Flanges</li>
             </ol>
           </nav>
           <div className="inline-block bg-[#D71920] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider mb-4">

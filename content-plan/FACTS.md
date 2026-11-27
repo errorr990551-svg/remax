@@ -23,3 +23,5 @@ Each fact is taken from the live site source. Add a new fact only with a source.
 - Sea transit days, MOQ, prices, stock tonnage, named customers or projects.
 - Vendor approvals or registrations (Aramco, ADNOC, KOC, QatarEnergy, PDO, ...), PED, API 6A, NORSOK.
 - Any contact detail (CLAUDE.md contact gate).
+
+- Quote turnaround (owner-confirmed 2026-11-27): written quote within 30 minutes of the form being submitted.

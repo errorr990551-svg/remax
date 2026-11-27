@@ -53,7 +53,6 @@ function generateSitemap() {
         '/industries', '/industries/',
         '/product-details', '/product-details/',
         '/tech-info', '/tech-info/',
-        '/tech-info/dimensions', '/tech-info/dimensions/',
         '/about', '/about/',
         '/certificates', '/certificates/'
       ];

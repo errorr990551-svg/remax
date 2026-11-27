@@ -81,7 +81,8 @@ export const QuotePopupProvider = ({ children }) => {
     // interstitial (mobile ranking penalty). The sticky bar's "Get Quote" opens it on demand.
     const isMobile = window.matchMedia("(max-width: 1023px)").matches;
 
-    if (!isDismissed && !isExcluded && !isMobile) {
+    // Not during prerender, or the open modal gets baked into the static HTML.
+    if (!isDismissed && !isExcluded && !isMobile && !window.__PRERENDER__) {
       const timer = setTimeout(() => {
         const stillNotDismissed =
           localStorage.getItem("remax_rfq_popup_dismissed") === "true" ||
@@ -89,7 +90,7 @@ export const QuotePopupProvider = ({ children }) => {
         if (!stillNotDismissed) {
           openQuotePopup();
         }
-      }, 3000); // 3 seconds delay for smooth page experience
+      }, 1000); // 1 second: owner wants the quote form shown almost immediately
 
       return () => clearTimeout(timer);
     }
