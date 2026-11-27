@@ -25,3 +25,4 @@ Each fact is taken from the live site source. Add a new fact only with a source.
 - Any contact detail (CLAUDE.md contact gate).
 
 - Quote turnaround (owner-confirmed 2026-11-27): written quote within 30 minutes of the form being submitted.
+- Form incentive (requested 2026-11-27, test): free Amazon gift card on every qualified RFQ (product, grade, size, quantity; one per company). Funded by the requester if the owner does not. Card value not yet set.

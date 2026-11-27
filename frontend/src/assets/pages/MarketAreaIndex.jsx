@@ -291,7 +291,7 @@ const MarketAreaIndex = () => {
             Looking for Certified Forged Flanges Across India?
           </h2>
           <p className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto mb-6 leading-relaxed">
-            Send your requirement — we reply in writing. Fill the form or upload your BOQ; you get a line-by-line quote by email within one working day. No phone calls needed — everything is in writing.
+            Send your requirement — we reply in writing. Fill the form or upload your BOQ; you get a written quote within 30 minutes. No phone calls needed — everything is in writing.
           </p>
           <button
             onClick={scrollToRfq}

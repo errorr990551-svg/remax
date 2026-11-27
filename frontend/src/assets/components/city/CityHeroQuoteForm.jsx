@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, ChevronLeft, Upload, ShieldCheck, Clock } from 'lucide-react';
 import api from '../../services/api.js';
+import QuoteIncentive from '../common/QuoteIncentive';
 
 const CityHeroQuoteForm = ({ city, state, pageUrl }) => {
   const [step, setStep] = useState(1);
@@ -68,7 +69,7 @@ const CityHeroQuoteForm = ({ city, state, pageUrl }) => {
         </div>
         <h3 className="text-xl font-bold text-slate-900 mb-2">Quote Request Received</h3>
         <p className="text-slate-600 text-sm leading-relaxed mb-6">
-          Thank you, <span className="font-semibold">{formData.name}</span>. Our engineering sales desk in Mumbai has logged your enquiry for <span className="font-semibold">{city}</span>. We will email your written line-by-line quote within one working day.
+          Thank you, <span className="font-semibold">{formData.name}</span>. Our engineering sales desk in Mumbai has logged your enquiry for <span className="font-semibold">{city}</span>. Your written quote reaches you within 30 minutes.
         </p>
         <div className="bg-slate-50 p-4 rounded-lg text-left text-xs text-slate-500 space-y-1 mb-6">
           <p><span className="font-semibold text-slate-700">Flange:</span> {formData.product} ({formData.size_class})</p>
@@ -100,6 +101,7 @@ const CityHeroQuoteForm = ({ city, state, pageUrl }) => {
         </span>
       </div>
 
+      <QuoteIncentive className="mb-4" />
       <form data-rfq="hero" onSubmit={step === 1 ? handleNext : handleSubmit}>
         {/* Hidden SEO & attribution fields */}
         <input type="hidden" name="page_url" value={pageUrl || ''} />

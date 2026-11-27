@@ -4,6 +4,7 @@ import { CheckCircle, ArrowRight, BookOpen, Send } from 'lucide-react';
 import api from '../../services/api.js';
 import FlangeRfqBlock from '../common/FlangeRfqBlock.jsx';
 import { PageSchema, faqSchema } from '../common/usePageSchema.js';
+import QuoteIncentive from '../common/QuoteIncentive';
 
 const StandardsCommonContent = ({ standard }) => {
   const [formData, setFormData] = useState({
@@ -214,14 +215,14 @@ const StandardsCommonContent = ({ standard }) => {
           <div className="text-center mb-6">
             <span className="text-[#D71920] font-bold text-xs uppercase tracking-wider block mb-1">Flange RFQ Form</span>
             <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900">Request Quote for {standard.name}</h2>
-            <p className="text-slate-600 text-sm mt-1">Get dimensional data and a written quotation.</p>
+            <QuoteIncentive className="mt-3" />
           </div>
 
           {submitted ? (
             <div className="bg-emerald-50 text-emerald-800 p-6 rounded-xl text-center border border-emerald-200">
               <CheckCircle className="w-12 h-12 text-emerald-600 mx-auto mb-2" />
               <h3 className="text-xl font-bold">Request Submitted!</h3>
-              <p className="text-sm text-emerald-700 mt-1">Our sales engineering team will send your quotation shortly.</p>
+              <p className="text-sm text-emerald-700 mt-1">Your written quote reaches you within 30 minutes.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -264,7 +265,7 @@ const StandardsCommonContent = ({ standard }) => {
               <textarea
                 required
                 rows="3"
-                placeholder="Specify size, rating, material, and quantity required..."
+                placeholder="Product, grade, size, quantity (e.g. WN flange, SS316, 4 inch Class 150, 50 nos)"
                 value={formData.requirements}
                 onChange={(e) => setFormData({ ...formData, requirements: e.target.value })}
                 className="w-full p-3 text-sm bg-white rounded-lg border border-slate-300 focus:border-[#D71920] outline-none"

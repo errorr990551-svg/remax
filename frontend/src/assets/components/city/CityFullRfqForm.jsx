@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowRight, CheckCircle2, ShieldCheck, Clock, FileText, Send } from 'lucide-react';
 import api from '../../services/api.js';
+import QuoteIncentive from '../common/QuoteIncentive';
 
 const CityFullRfqForm = ({ city, state, pageUrl }) => {
   const [formData, setFormData] = useState({
@@ -70,7 +71,7 @@ const CityFullRfqForm = ({ city, state, pageUrl }) => {
         </div>
         <h3 className="text-2xl font-extrabold text-slate-900 mb-3">Complete RFQ Received</h3>
         <p className="text-slate-600 leading-relaxed mb-6 max-w-xl mx-auto">
-          Thank you for submitting your detailed requirement for <span className="font-bold text-slate-900">{city}</span>. Our technical estimation desk in Mumbai is reviewing your parameters. You will receive an official line-by-line commercial quote and MTC compliance confirmation by email within one working day.
+          Thank you for submitting your detailed requirement for <span className="font-bold text-slate-900">{city}</span>. Our technical estimation desk in Mumbai is reviewing your parameters. Your written quote reaches you within 30 minutes.
         </p>
         <button
           onClick={() => setSubmitted(false)}
@@ -91,11 +92,12 @@ const CityFullRfqForm = ({ city, state, pageUrl }) => {
         </div>
         <div className="text-xs text-slate-400 flex items-center gap-2">
           <Clock size={16} className="text-[#D71920]" />
-          <span>Written quote within one working day</span>
+          <span>Written quote in 30 minutes</span>
         </div>
       </div>
 
       <form data-rfq="rfq" onSubmit={handleSubmit} className="p-6 sm:p-10 text-slate-800 space-y-6">
+        <QuoteIncentive />
         {/* Hidden SEO & attribution inputs */}
         <input type="hidden" name="page_url" value={pageUrl || ''} />
         <input type="hidden" name="city" value={city || ''} />
@@ -375,7 +377,7 @@ const CityFullRfqForm = ({ city, state, pageUrl }) => {
 
         <div className="pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <p className="text-xs text-slate-500">
-            • Written quotes by email within one working day · No unsolicited telephone calls · Data confidentiality guaranteed
+            Written quote in 30 minutes · No sales calls · Data kept private
           </p>
           <button
             type="submit"

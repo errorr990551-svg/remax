@@ -4,6 +4,7 @@ import api from '../services/api.js';
 import TrustBar from '../components/common/TrustBar.jsx';
 import MetaTags from '../components/common/MetaTags.jsx';
 import PageGuide from '../components/common/PageGuide.jsx';
+import QuoteIncentive from '../components/common/QuoteIncentive';
 
 const BrochureGating = () => {
   const [formData, setFormData] = useState({
@@ -120,9 +121,8 @@ const BrochureGating = () => {
                 <h2 className="text-2xl font-extrabold text-slate-900 mb-1">
                   Download Official Catalog (PDF)
                 </h2>
-                <p className="text-xs text-slate-500 mb-4">
-                  Please provide your contact details to instantly access the PDF download.
-                </p>
+                <p className="text-xs text-slate-500 mb-3">Instant PDF download.</p>
+                <QuoteIncentive className="mb-4" />
 
                 <TrustBar className="my-2 py-2" />
 
