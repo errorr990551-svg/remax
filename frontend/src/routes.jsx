@@ -89,6 +89,7 @@ const MarketArea = lazyPage(() => import('./assets/pages/MarketArea.jsx'));
 const CityPage = lazyPage(() => import('./assets/pages/CityPage.jsx'));
 const CityPageStrategy = lazyPage(() => import('./assets/pages/CityPageStrategy.jsx'));
 const StateHubPage = lazyPage(() => import('./assets/pages/StateHubPage.jsx'));
+const IndiaStateHub = lazyPage(() => import('./assets/pages/IndiaStateHub.jsx'));
 const MarketAreaIndex = lazyPage(() => import('./assets/pages/MarketAreaIndex.jsx'));
 const CarbonSteelFlanges = lazyPage(() => import('./assets/pages/materials/CarbonSteelFlanges.jsx'));
 const SS304Flanges = lazyPage(() => import('./assets/pages/materials/SS304Flanges.jsx'));
@@ -499,6 +500,22 @@ export const appRoutes = (
     <Route path='/market-area/andhra-pradesh/' element={<StateHubPage forcedKey="ap_hub" />} />
     <Route path='/market-area/arunachal-pradesh' element={<StateHubPage forcedKey="ar_hub" />} />
     <Route path='/market-area/arunachal-pradesh/' element={<StateHubPage forcedKey="ar_hub" />} />
+    <Route path='/market-area/gujarat' element={<IndiaStateHub slug="gujarat" />} />
+    <Route path='/market-area/gujarat/' element={<IndiaStateHub slug="gujarat" />} />
+    <Route path='/market-area/maharashtra' element={<IndiaStateHub slug="maharashtra" />} />
+    <Route path='/market-area/maharashtra/' element={<IndiaStateHub slug="maharashtra" />} />
+    <Route path='/market-area/tamil-nadu' element={<IndiaStateHub slug="tamil-nadu" />} />
+    <Route path='/market-area/tamil-nadu/' element={<IndiaStateHub slug="tamil-nadu" />} />
+    <Route path='/market-area/karnataka' element={<IndiaStateHub slug="karnataka" />} />
+    <Route path='/market-area/karnataka/' element={<IndiaStateHub slug="karnataka" />} />
+    <Route path='/market-area/kerala' element={<IndiaStateHub slug="kerala" />} />
+    <Route path='/market-area/kerala/' element={<IndiaStateHub slug="kerala" />} />
+    <Route path='/market-area/odisha' element={<IndiaStateHub slug="odisha" />} />
+    <Route path='/market-area/odisha/' element={<IndiaStateHub slug="odisha" />} />
+    <Route path='/market-area/west-bengal' element={<IndiaStateHub slug="west-bengal" />} />
+    <Route path='/market-area/west-bengal/' element={<IndiaStateHub slug="west-bengal" />} />
+    <Route path='/market-area/jharkhand' element={<IndiaStateHub slug="jharkhand" />} />
+    <Route path='/market-area/jharkhand/' element={<IndiaStateHub slug="jharkhand" />} />
 
     {/* 10 Strategy City Pages */}
     <Route path='/visakhapatnam' element={<CityPageStrategy forcedKey="vizag" />} />

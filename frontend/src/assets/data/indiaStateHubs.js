@@ -1,0 +1,197 @@
+// State hub pages (/market-area/<slug>/). Plant, refinery and port facts come only from the sources listed per state.
+const R = 'https://en.wikipedia.org/wiki/List_of_oil_refineries_in_India';
+const P = 'https://en.wikipedia.org/wiki/List_of_ports_in_India';
+const S = 'https://en.wikipedia.org/wiki/Iron_and_steel_industry_in_India';
+
+export const INDIA_STATE_HUBS = {
+  gujarat: {
+    name: 'Gujarat',
+    title: 'Flange Supplier in Gujarat | Jamnagar, Vadodara, Hazira | Remax',
+    description: 'Forged flanges for Gujarat refineries, ports and steel plants: Jamnagar, Vadinar, Vadodara, Hazira, Dahej, Mundra. ASME B16.5 / B16.47, EN 10204 3.1. Written quote.',
+    h1: 'Flange Supplier in Gujarat',
+    intro: 'Gujarat has three large refineries (Jamnagar, Vadinar and Vadodara) and two mega ports (Kandla and Mundra), so most flange enquiries from the state are for hydrocarbon, terminal and chemical piping. We supply them from our Mumbai works, a short road haul up the western coast, against your line list or drawing.',
+    sections: [
+      { h: 'Refineries: Jamnagar, Vadinar and Vadodara', p: 'Reliance Industries runs the Jamnagar refinery in the Jamnagar SEZ (35.4 million tonnes a year, commissioned 1999). Nayara Energy operates the Vadinar refinery (20 Mt/yr), and Indian Oil\'s Gujarat Refinery at Vadodara (13.7 Mt/yr) dates from 1965. Units of this size order weld neck flanges in Class 300 to 2500, RTJ facings on hydrotreater and reformer loops, and A182 F11 / F22 or SS 321 where temperatures climb.' },
+      { h: 'Port terminals: Mundra, Kandla, Hazira, Dahej', p: 'Deendayal (Kandla) handled 269.1 MTPA and Mundra 136 MTPA in FY2022-23; Adani terminals also run at Hazira, Dahej and Tuna, with APM Terminals at Pipavav. Tank-farm, jetty and product-pipeline work at these terminals mostly calls for Class 150 / 300 slip-on and weld neck flanges in A105, with duplex 2205 or 2507 where seawater is involved.' },
+      { h: 'Steel and pipe plants: Hazira and Anjar', p: 'ArcelorMittal\'s steel plant at Hazira (formerly Essar Steel India) and Welspun\'s Anjar steel plant need large-bore cooling water, process gas and oxygen piping. For these we quote ASME B16.47 Series A / B flanges from NPS 26, blind and spectacle blinds for isolation, and plate flanges to your drawing.' },
+      {h: "Vadodara, Surat, Ahmedabad and Rajkot buyers", p: "Inland Gujarat orders come from the petrochemical and chemical plants around Vadodara, the textile industry of Surat and the foundry units of Rajkot. These buyers often send mixed lists: SS 316L slip-on flanges for process lines, A105 socket weld flanges for small-bore utilities and a few blinds for test points, all on one quote."},
+    ],
+    faqs: [
+      { q: 'Do you supply flanges for Jamnagar and Vadinar refinery projects?', a: 'Yes. We quote weld neck, blind, spectacle and RTJ flanges to the line class your EPC or refinery specifies, with EN 10204 3.1 certificates. We do not claim vendor registration with any refinery; tell us if your PO needs it and we will say what we can provide.' },
+      { q: 'Which flange material suits Kandla and Mundra jetty lines?', a: 'For dry product lines A105 carbon steel is usual. For seawater, fire-water or splash-zone service, buyers in these terminals often specify duplex 2205 or super duplex 2507. Send the line class and we will quote the grade it names.' },
+      { q: 'Can you supply B16.47 flanges for Hazira steel plant ducts?', a: 'Yes, ASME B16.47 Series A and B flanges from NPS 26 to 60, or plate flanges to your drawing for gas ducts that are not to a standard.' },
+      { q: 'Do Gujarat orders ship from Mumbai?', a: 'Yes. Everything is dispatched from our Mumbai works by road with a GST invoice, e-way bill and the mill test certificate. The lead time is stated on the written quote.' },
+      {q: "Can one quote cover a mixed list for a Vadodara chemical plant?", a: "Yes. Send the whole list, stainless, carbon and alloy lines together; each line is priced separately on one written quote, with the standard, class and grade stated against it."},
+      {q: "Do Rajkot foundry and engineering units order flanges from you?", a: "We quote loose flanges for their assemblies to ASME B16.5 or EN 1092-1 drilling. See our Rajkot flange page for the range we list for that city."},
+    ],
+    sources: [R, P, S, 'https://en.wikipedia.org/wiki/Vadodara', 'https://en.wikipedia.org/wiki/Surat', 'https://en.wikipedia.org/wiki/Rajkot'],
+  },
+
+  maharashtra: {
+    name: 'Maharashtra',
+    title: 'Flange Supplier in Maharashtra | Mumbai Works, Pune, Nagpur | Remax',
+    description: 'Flanges from our Mumbai works for Maharashtra refineries, JNPA and Mumbai port terminals, and steel plants at Dolvi, Tarapur, Nagpur and Chandrapur. Written quote.',
+    h1: 'Flange Supplier in Maharashtra',
+    intro: 'Our flange works are in Mumbai, so Maharashtra buyers deal with the plant directly: drawings, inspection visits and collections happen in the same state. Demand here comes from the two Mumbai refineries, the JNPA and Mumbai port terminals, and a steel belt that runs from Raigad to Vidarbha.',
+    sections: [
+      { h: 'Mumbai refineries', p: 'BPCL\'s Mumbai refinery (12 Mt/yr, 1955) and HPCL\'s Mumbai refinery (9.5 Mt/yr, 1954) are among the oldest in India. Older units mean shutdown and revamp work: replacement weld neck and blind flanges to the original ASME B16.5 class, spectacle blinds for isolation and RTJ flanges for high-pressure loops.' },
+      { h: 'Ports at Navi Mumbai, Mumbai and the Konkan coast', p: 'Jawaharlal Nehru Port in Navi Mumbai handled 141.37 MTPA in FY2022-23 and Mumbai Port 84 MTPA; JSW runs Jaigad and Dharamtar, Adani runs Dighi in Raigad, and Vadhavan Port is under construction. Liquid terminals here buy Class 150 slip-on and weld neck flanges and duplex grades for seawater lines.' },
+      { h: 'Steel plants from Dolvi to Chandrapur', p: 'JSW Steel runs plants at Dolvi (Dharamtar) and Tarapur (Boisar). Further east are Jayaswal Neco at Nagpur, Sunflag at Warthi, Lloyds Metals at Ghugus and Konsari, and SAIL\'s Chandrapur Ferro Alloy Plant. These plants order large-bore B16.47 flanges, plate flanges and blind flanges for water, gas and oxygen headers.' },
+      {h: "Pune, Thane and Nagpur buyers", p: "Pune is one of India's main automobile and manufacturing hubs, and its fabricators order loose flanges for skids and assemblies. Thane district has chemical industries, for example at Wagle Industrial Estate, which ask for SS 316L flanges with full material traceability. In Nagpur, Jayaswal Neco's steel plant and other Vidarbha projects order carbon steel flanges in larger sizes."},
+    ],
+    faqs: [
+      { q: 'Can we inspect flanges at your Mumbai works before dispatch?', a: 'Yes. Maharashtra buyers and their third-party inspectors can witness dimensional checks, hydro testing, UT or PMI at the works when the PO calls for it.' },
+      { q: 'Do you handle shutdown orders for the Mumbai refineries?', a: 'We quote replacement flanges, blinds and spectacle blinds to the line class on your shutdown list. Send the list with sizes, classes and grades and we reply with a written, line-by-line quote.' },
+      { q: 'Which flanges do JNPA tank terminals usually order?', a: 'Mostly Class 150 and 300 slip-on and weld neck flanges in A105, with duplex 2205 / 2507 or SS 316 where the medium or seawater exposure needs it.' },
+      { q: 'Do you supply steel plants in Nagpur and Chandrapur?', a: 'Yes, by road from Mumbai, with B16.47 large-diameter flanges, plate flanges and blinds to the plant\'s drawing or standard.' },
+      {q: "Can Pune fabricators collect flanges from the works?", a: "Yes. Maharashtra buyers can collect from our Mumbai works or have the order delivered by road; the quote shows both options when you ask for them."},
+      {q: "Do you supply SS 316L flanges with traceability for Thane chemical plants?", a: "Yes. Each piece carries its heat number and is covered by an EN 10204 3.1 certificate; PMI reports can be added for stainless lots when the PO asks for them."},
+    ],
+    sources: [R, P, S, 'https://en.wikipedia.org/wiki/Pune', 'https://en.wikipedia.org/wiki/Thane_district'],
+  },
+
+  'tamil-nadu': {
+    name: 'Tamil Nadu',
+    title: 'Flange Supplier in Tamil Nadu | Chennai, Ennore, Salem | Remax',
+    description: 'Forged flanges for Tamil Nadu: CPCL Manali and Nagapattinam refineries, Chennai, Kamarajar and Thoothukudi ports, Salem steel plants. ASME / EN flanges, 3.1 MTC.',
+    h1: 'Flange Supplier in Tamil Nadu',
+    intro: 'Tamil Nadu buys flanges for two CPCL refineries, three major ports on a long coastline and stainless and alloy steel plants at Salem. We ship from Mumbai to the Chennai belt and the southern districts against a written quote.',
+    sections: [
+      { h: 'CPCL refineries at Manali and Nagapattinam', p: 'Chennai Petroleum (Indian Oil group) runs the Manali refinery in Chennai (10.5 Mt/yr, 1969) and the Nagapattinam refinery (1 Mt/yr, being expanded to 9 Mt/yr). An expansion of that scale needs new weld neck, RTJ and long weld neck flanges across Class 300 to 1500, with A350 LF2 for low-temperature LPG service.' },
+      { h: 'Chennai, Kamarajar and V.O. Chidambaranar ports', p: 'Chennai Port (136 MTPA), Kamarajar Port at Ennore (91 MTPA) and V.O. Chidambaranar Port at Thoothukudi (111.46 MTPA) are all major ports, with Adani\'s Kattupalli port north of Chennai. Coastal plants and terminals often pick super duplex or SS 316 flanges for seawater intake and fire-water rings.' },
+      { h: 'Salem steel plants', p: 'SAIL\'s Salem Steel Plant (1981) and JSW\'s special alloy steel plant at Salem make stainless and alloy products. Mill piping and utilities there take carbon steel slip-on and blind flanges for water and air, and stainless flanges where the process medium needs them.' },
+      {h: "Chennai, Coimbatore, Madurai and Tiruchirappalli buyers", p: "The Chennai belt from Manali to Ennore holds the CPCL refinery and Kamarajar Port. Coimbatore is a textile centre and is called India's pump city, so its buyers order companion flanges for pump bodies in quantity. From Tiruchirappalli and Madurai we quote the same flange range, usually in smaller lots."},
+    ],
+    faqs: [
+      { q: 'Do you supply flanges for the Nagapattinam refinery expansion?', a: 'We quote to the EPC\'s line list: weld neck, RTJ, blind and spectacle flanges in carbon, low-temperature and alloy grades, with EN 10204 3.1 certificates. No vendor approval is claimed.' },
+      { q: 'What grade do Ennore and Thoothukudi seawater lines use?', a: 'It depends on the specification, but duplex 2205, super duplex 2507 and SS 316 are the grades most often named for seawater service. We quote the grade on your datasheet.' },
+      { q: 'Can you match Salem mill drawings for non-standard flanges?', a: 'Yes. Send the drawing; we quote plate or forged flanges to it and supply a dimensional report with the 3.1 certificate.' },
+      { q: 'How are Tamil Nadu orders delivered?', a: 'By road from our Mumbai works, with GST invoice, e-way bill, MTC and inspection report. The written quote states the lead time.' },
+      {q: "Do Coimbatore pump makers order companion flanges from you?", a: "Yes. We quote flanges drilled to ASME B16.5 or EN 1092-1 for pump suction and discharge, in A105 or stainless steel, with heat numbers stamped on each piece."},
+      {q: "Can you supply alloy flanges for boiler lines in Tamil Nadu?", a: "We quote A182 F11, F22 and F91 flanges for high-temperature steam service, with the 3.1 certificate showing chemistry and mechanical tests."},
+      {q: "Do you supply flanges for the Kattupalli and Ennore port areas north of Chennai?", a: "Yes. Port, tank-farm and pipeline contractors there are quoted Class 150 and 300 flanges in A105, with duplex or SS 316 for seawater lines."},
+    ],
+    sources: [R, P, S, 'https://en.wikipedia.org/wiki/Coimbatore'],
+  },
+
+  karnataka: {
+    name: 'Karnataka',
+    title: 'Flange Supplier in Karnataka | Mangaluru, Ballari, Bengaluru | Remax',
+    description: 'Flanges for Karnataka: ONGC MRPL Mangalore refinery, New Mangalore Port, JSW and SAIL steel plants at Ballari and Bhadravati, Bengaluru industry. Written quote.',
+    h1: 'Flange Supplier in Karnataka',
+    intro: 'Karnataka has one large coastal refinery and port at Mangaluru and a steel belt inland around Ballari and Hospet. Bengaluru and the northern districts add utility and process piping. All orders are supplied from our Mumbai works. Bengaluru, Mysuru, Mangaluru, Hubballi-Dharwad and Belagavi each have their own city page below.',
+    sections: [
+      { h: 'Mangalore refinery and New Mangalore Port', p: 'The ONGC refinery at Mangaluru (15 Mt/yr, 1988) and New Mangalore Port (114.96 MTPA in FY2022-23) share the same coastline. Refinery turnarounds call for weld neck, RTJ and blind flanges in Class 300 to 1500; port product lines and pipelines mostly take Class 150 / 300 A105 flanges.' },
+      { h: 'Steel plants around Ballari, Hospet and Bhadravati', p: 'JSW Steel at Hospet / Ballari, Kalyani and Mukand\'s Hospet Steel at Koppal, BMM Ispat at Danapuram and SAIL\'s Visvesvaraya Iron and Steel Plant at Bhadravati (1923) make Karnataka a steel state. These works buy B16.47 large-diameter flanges, plate flanges and blinds for blast furnace gas, cooling water and oxygen.' },
+      { h: 'Bengaluru, Mysuru and Hubballi-Dharwad industry', p: 'Plants in and around these cities usually order smaller-bore flanges: socket weld and threaded flanges for utilities, SS 304 / 316 slip-on flanges for clean process lines and Class 150 carbon steel flanges for water.' },
+      {h: "Belagavi and the Mangaluru coast", p: "Belagavi grew into a foundry and hydraulics base, and its shops order flanges for machine and hydraulic assemblies, usually in carbon steel to ASME B16.5. Along the Mangaluru coast, the refinery, the port and Mangalore Chemicals & Fertilizers ask for duplex and stainless flanges for seawater cooling and Class 600 and above for hydrocarbon lines."},
+    ],
+    faqs: [
+      { q: 'Do you quote flanges for Mangalore refinery turnarounds?', a: 'Yes, to the shutdown list: weld neck, blind, spectacle and RTJ flanges, with EN 10204 3.1 certificates and PMI on alloy grades when specified.' },
+      { q: 'Can you supply large flanges for Ballari steel plants?', a: 'ASME B16.47 Series A / B from NPS 26 to 60, or plate flanges to your drawing when the duct is not to a standard size.' },
+      { q: 'Do you supply small flanges to Bengaluru plants?', a: 'Yes. Socket weld, threaded and slip-on flanges from NPS ½" are quoted the same way as large orders, against your list.' },
+      { q: 'Where are Karnataka orders dispatched from?', a: 'From our Mumbai works by road, with invoice, e-way bill and MTC. Lead time is on the written quote.' },
+      {q: "Do you supply Belagavi foundry and hydraulics shops?", a: "Yes. We quote loose flanges for their assemblies, mostly A105 slip-on and weld neck flanges in Class 150 and 300."},
+      {q: "Which flanges suit seawater cooling near Mangaluru?", a: "Duplex 2205, super duplex 2507 or SS 316, depending on your specification. We quote whichever grade your line class names."},
+      {q: "Do you supply the steel plants at Bhadravati and Koppal?", a: "Yes. SAIL's Visvesvaraya plant at Bhadravati and Hospet Steel at Koppal are quoted the same way as the Ballari plants: to drawing or to ASME B16.5 / B16.47, with heat-traceable certificates."},
+    ],
+    sources: [R, P, S, 'https://en.wikipedia.org/wiki/Belagavi', 'https://en.wikipedia.org/wiki/Mangalore'],
+  },
+
+  kerala: {
+    name: 'Kerala',
+    title: 'Flange Supplier in Kerala | Kochi Refinery, Vizhinjam Port | Remax',
+    description: 'Forged flanges for Kerala: BPCL Kochi refinery, Cochin Port and the Vizhinjam deepwater port, plus Thrissur, Kollam and Kozhikode industry. 3.1 MTC, written quote.',
+    h1: 'Flange Supplier in Kerala',
+    intro: 'Kerala\'s flange demand is concentrated at Kochi, around the BPCL refinery and Cochin Port, with a new deepwater container port at Vizhinjam near Thiruvananthapuram.',
+    sections: [
+      { h: 'BPCL Kochi refinery', p: 'BPCL\'s Kochi refinery (15.5 Mt/yr) has run since 1963. Its process and offsite piping uses weld neck and RTJ flanges in carbon and alloy grades, plus spectacle blinds and blind flanges for isolation during maintenance.' },
+      { h: 'Cochin Port and Vizhinjam', p: 'Cochin Port at Kochi handled 79.9 MTPA in FY2022-23. The Vizhinjam International Deepwater Container Transhipment Port near Thiruvananthapuram is run by Vizhinjam International Seaport Ltd. Marine fire-water and seawater lines at ports like these often specify duplex 2205 or SS 316 flanges.' },
+      { h: 'Thrissur, Kollam and Kozhikode', p: 'Away from Kochi, buyers are mostly food, rubber, water and general process plants that use Class 150 slip-on, blind and threaded flanges in A105 or SS 304 / 316.' },
+      {h: "Kochi industrial area and the Vizhinjam build-out", p: "Kochi enquiries come from the refinery and its offsite tankage, from Cochin Shipyard (the largest shipbuilding and maintenance yard in India by capacity) and from port contractors around Willingdon Island. The new transhipment port at Vizhinjam adds port pipework, which is usually Class 150 in corrosion-resistant grades or coated carbon steel."},
+    ],
+    faqs: [
+      { q: 'Do you supply flanges for Kochi refinery maintenance?', a: 'Yes. We quote weld neck, RTJ, blind and spectacle flanges to the refinery\'s line class, with EN 10204 3.1 certificates. No vendor approval is claimed.' },
+      { q: 'Which flanges suit coastal corrosion in Kerala?', a: 'For seawater and splash zones, duplex 2205, super duplex 2507 or SS 316 are the common choices; coated carbon steel is used where the specification allows it.' },
+      { q: 'Do you supply small orders for Thrissur or Kollam plants?', a: 'Yes, slip-on, threaded and blind flanges in carbon or stainless steel are quoted against your list, whatever the quantity.' },
+      { q: 'How do Kerala orders reach site?', a: 'By road from our Mumbai works with the invoice, e-way bill and test certificates. The quote gives the lead time.' },
+      {q: "Do you supply port and shipyard contractors in Kochi?", a: "Yes. We quote flanges for fire-fighting, fuel and seawater lines in carbon steel, SS 316, duplex and super duplex grades, to the contractor's specification."},
+      {q: "Can you supply flanges for Vizhinjam port works?", a: "We quote against the EPC or contractor line list. No vendor approval with the port operator is claimed."},
+      {q: "Do you supply marine flanges for Cochin Shipyard contractors?", a: "Yes. Shipyard subcontractors in Kochi order slip-on, weld neck and blind flanges for ballast, bilge, fire-main and seawater cooling lines; we quote carbon steel, SS 316 and duplex grades against the contractor's list, each piece traceable to its heat."},
+      {q: "Can you match old flanges at the Kochi refinery, which dates from 1963?", a: "If an existing flange was made to an older edition or a non-standard drawing, send the measured dimensions or the drawing; we quote a replacement forged or plate flange to match it."},
+    ],
+    sources: [R, P, 'https://en.wikipedia.org/wiki/Kochi'],
+  },
+
+  odisha: {
+    name: 'Odisha',
+    title: 'Flange Supplier in Odisha | Paradip, Kalinganagar, Angul | Remax',
+    description: 'Flanges for Odisha: Indian Oil Paradip refinery, Paradip and Dhamra ports, steel plants at Kalinganagar, Angul, Rourkela and Jajpur. B16.47 and plate flanges. Quote.',
+    h1: 'Flange Supplier in Odisha',
+    intro: 'Odisha has a long list of steel plants and a large refinery and mega port at Paradip. Most enquiries we get from the state are for large-bore steel plant flanges and for refinery-grade weld neck and RTJ flanges. City pages for Bhubaneswar, Cuttack, Rourkela, Sambalpur and Berhampur cover the local buyers in more detail.',
+    sections: [
+      { h: 'Paradip refinery and port', p: 'Indian Oil\'s Paradip refinery (15 Mt/yr) was commissioned in 2016, and Paradip Port handled 289.75 MTPA in FY2022-23; Adani runs Dhamra (Bhadrak) and Gopalpur. Refinery piping uses Class 300 to 2500 weld neck and RTJ flanges; port lines mostly use Class 150 / 300.' },
+      { h: 'Steel at Kalinganagar, Angul, Jajpur and Rourkela', p: 'Tata Steel (Kalinganagar), Jindal Steel and Power (Angul), JSL Stainless (Jajpur), JSW Bhushan Power & Steel (Rengali), Tata Steel BSL (Meramandali), Neelachal Ispat Nigam and SAIL\'s Rourkela Steel Plant (1959) are all listed in Odisha. Their gas, water and oxygen networks take B16.47 Series A / B and plate flanges, blinds and spectacle blinds.' },
+      { h: 'Bhubaneswar, Cuttack and Berhampur', p: 'Around the cities, buyers are water utilities, food and general process plants ordering Class 150 slip-on and blind flanges and small-bore socket weld flanges.' },
+      {h: "Rourkela, Palasponga and Marakuta", p: "SAIL's Rourkela Steel Plant has been running since 1959; a plant of that age replaces flanges on its water, gas and steam mains as it renews them. Smaller units listed in the state, such as Orissa Sponge Iron & Steel at Palasponga and the plants at Marakuta, order Class 150 slip-on and blind flanges in carbon steel. Jajpur's stainless plant uses SS flanges for its own utilities."},
+    ],
+    faqs: [
+      { q: 'Do you supply flanges for Kalinganagar and Angul steel plants?', a: 'Yes. B16.47 large-diameter flanges, plate flanges to drawing, and blind and spectacle flanges for isolation, all with EN 10204 3.1 certificates.' },
+      { q: 'Can you quote RTJ flanges for Paradip refinery?', a: 'Yes, RTJ weld neck and blind flanges in Class 600 to 2500 in carbon, low-temperature and alloy grades, to the line class you send.' },
+      { q: 'Do you supply flanges for oxygen lines in steel plants?', a: 'We supply the grade and cleaning your oxygen-service specification asks for; send the specification with the enquiry so the quote covers it.' },
+      { q: 'How are Odisha orders shipped?', a: 'By road from Mumbai, with GST invoice, e-way bill, MTC and inspection report. The lead time is stated on the quote.' },
+      {q: "Do you supply replacement flanges for Rourkela Steel Plant?", a: "We quote to the plant's drawing or the standard named on the indent, including non-standard sizes made as plate or forged flanges."},
+      {q: "Do small sponge iron plants in Odisha order from you?", a: "Yes. Small lots of Class 150 slip-on, weld neck and blind flanges are quoted the same way as large orders."},
+      {q: "Do you supply stainless flanges for the Jajpur stainless plant area?", a: "Yes. SS 304L, 316L and duplex flanges are quoted against your datasheet, with 3.1 certificates and PMI when the PO asks for it."},
+    ],
+    sources: [R, P, S],
+  },
+
+  'west-bengal': {
+    name: 'West Bengal',
+    title: 'Flange Supplier in West Bengal | Haldia, Kolkata, Durgapur | Remax',
+    description: 'Forged flanges for West Bengal: Indian Oil Haldia refinery, Haldia and Kolkata docks, SAIL Durgapur and IISCO Asansol steel plants. ASME / EN flanges, 3.1 MTC.',
+    h1: 'Flange Supplier in West Bengal',
+    intro: 'West Bengal combines a refinery and port complex at Haldia with the old steel and engineering belt of Durgapur and Asansol. Kolkata and Howrah add fabrication shops and process plants that buy flanges in smaller lots. Our six West Bengal city pages run from Siliguri in the north through Durgapur and Asansol to Kharagpur, Howrah and Kolkata.',
+    sections: [
+      { h: 'Haldia refinery and docks', p: 'Indian Oil\'s Haldia refinery (8 Mt/yr) has run since 1975, next to the Haldia Dock Complex (92.77 MTPA in FY2022-23). Syama Prasad Mookerjee Port in Kolkata handled 50.7 MTPA. Refinery and dock piping takes weld neck, RTJ and blind flanges; dockside product lines use Class 150 / 300 flanges.' },
+      { h: 'Durgapur and Asansol steel', p: 'SAIL\'s Durgapur Steel Plant (1959), its Alloy Steel Plant at Durgapur and the IISCO Steel Plant at Asansol (1918) are among India\'s oldest. Ageing plants mean replacement orders: plate and B16.47 flanges for gas and water mains, and blinds for isolation.' },
+      { h: 'Kolkata, Howrah, Kharagpur and Siliguri', p: 'Howrah and Kolkata fabricators order flanges loose for skids and pipe spools; Rashmi Metaliks at Kharagpur and plants near Siliguri add utility piping demand in carbon and stainless grades.' },
+      {h: "Durgapur engineering and the Haldia petrochemical belt", p: "Durgapur also grew engineering units beside its steel plants. Their flange orders are often small but mixed: carbon steel weld neck flanges for hot water and steam, and blinds and spectacle blinds for isolation. Around Haldia, refinery and dock users also order stainless and alloy flanges."},
+    ],
+    faqs: [
+      { q: 'Do you supply flanges for Haldia refinery shutdowns?', a: 'We quote weld neck, RTJ, blind and spectacle flanges to the shutdown list, with EN 10204 3.1 certificates. No vendor approval is claimed.' },
+      { q: 'Can you match old flange sizes at Durgapur or Asansol?', a: 'Yes. If the existing flange is not to a current standard, send the drawing or measured dimensions and we quote a plate or forged flange to match.' },
+      { q: 'Do Howrah fabricators order loose flanges?', a: 'Yes, many do. We quote by the piece against the fabricator\'s list, in any ASME B16.5 or EN 1092-1 size and class on our product pages.' },
+      { q: 'How do West Bengal orders ship?', a: 'By road from our Mumbai works with invoice, e-way bill and MTC. The written quote gives the lead time.' },
+      {q: "Can you supply spectacle blinds for Durgapur steam lines?", a: "Yes, spectacle blinds, spades and spacers in A105 or alloy grades, to ASME B16.48 dimensions or your drawing."},
+      {q: "Do you supply stainless flanges to Haldia plants?", a: "Yes. SS 304L, 316L and higher alloys are quoted against your datasheet, with 3.1 certificates and PMI when requested."},
+      {q: "Do you supply flanges to Kolkata port and dock contractors?", a: "Yes. For Syama Prasad Mookerjee Port and Haldia Dock Complex work we quote Class 150 and 300 flanges for product, water and fire-fighting lines, with the grade named in the contractor's line list."},
+    ],
+    sources: [R, P, S, 'https://en.wikipedia.org/wiki/Durgapur'],
+  },
+
+  jharkhand: {
+    name: 'Jharkhand',
+    title: 'Flange Supplier in Jharkhand | Jamshedpur, Bokaro, Dhanbad | Remax',
+    description: 'Flanges for Jharkhand steel plants: Tata Steel Jamshedpur, SAIL Bokaro, Electrosteel, JSPL Patratu. Large-bore B16.47 and plate flanges, blinds, 3.1 MTC. Written quote.',
+    h1: 'Flange Supplier in Jharkhand',
+    intro: 'Jharkhand\'s flange demand is driven by steel. Tata Steel\'s Jamshedpur works and SAIL\'s Bokaro plant anchor it, and Ranchi and Dhanbad add engineering and utility buyers. Separate pages for Jamshedpur, Bokaro, Dhanbad, Ranchi and Deoghar describe the flange types, pressure classes and test certificates quoted in each of those districts.',
+    sections: [
+      { h: 'Jamshedpur and Bokaro steel', p: 'Tata Steel has operated at Jamshedpur since 1912 and at Gamharia since 1982; SAIL\'s Bokaro Steel Plant dates from 1964 and Electrosteel (Vedanta) also runs a plant at Bokaro. Blast furnace, coke oven and cooling water systems need B16.47 Series A / B and plate flanges, blinds and spectacle blinds.' },
+      { h: 'Patratu, Saraikela and other plants', p: 'Jindal Steel and Power at Patratu, Nilachal Iron & Power in Saraikela-Kharsawan and Atibir Industries at Bhorandiha add smaller steel and sponge iron units, which mostly order Class 150 slip-on and weld neck flanges for water and gas lines.' },
+      { h: 'Ranchi and Dhanbad', p: 'MECON, listed at Ranchi (1959), designs steel plant projects, so many Jharkhand enquiries arrive with a consultant\'s specification. Dewatering, washery and utility piping around Dhanbad uses Class 150 / 300 carbon steel flanges and lined blinds where specified.' },
+      {h: "Bokaro and Jamshedpur maintenance and revamp work", p: "Integrated plants of this age carry long revamp programmes. Typical Jharkhand indents ask for large blind flanges to close off redundant branches, plate flanges for gas mains where the original size predates current standards, and carbon steel weld neck flanges for new cooling water loops. Many indents name the plant's own drawing numbers rather than a standard."},
+    ],
+    faqs: [
+      { q: 'Do you supply flanges for Jamshedpur and Bokaro steel plants?', a: 'Yes. Large-diameter B16.47 and plate flanges, blinds and spectacle blinds, to the plant\'s standard or drawing, with EN 10204 3.1 certificates.' },
+      { q: 'Can you work to a MECON specification?', a: 'If your enquiry includes the specification sheet, we quote the flange type, class, facing and grade it names; anything we cannot meet is stated on the quote.' },
+      { q: 'Which flanges do Dhanbad mine dewatering lines use?', a: 'Usually Class 150 or 300 carbon steel weld neck or slip-on flanges in A105, sized to the pump discharge lines.' },
+      { q: 'How are Jharkhand orders delivered?', a: 'By road from Mumbai, with GST invoice, e-way bill and MTC. The quote states the lead time.' },
+      {q: "Can you make flanges to a Bokaro or Tata Steel drawing number?", a: "Yes. Send the drawing with the indent; we quote plate or forged flanges to it and supply a dimensional report with the certificate."},
+      {q: "Do you supply large blind flanges for redundant branches?", a: "Yes, blind flanges to ASME B16.5, B16.47 or plate blinds to drawing, in A105 or the plate grade your specification states."},
+      {q: "Can you supply flanges for coke oven gas lines in Jamshedpur or Bokaro?", a: "We quote flanges in the class, facing and grade the plant specification sets for coke oven and blast furnace gas mains, including large-bore B16.47 sizes and plate flanges."},
+    ],
+    sources: [S],
+  },
+};

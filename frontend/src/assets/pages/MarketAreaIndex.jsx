@@ -11,6 +11,7 @@ import {
   ExternalLink 
 } from 'lucide-react';
 import { cityStrategyData } from '../data/cityStrategyData.js';
+import { INDIA_STATES } from '../data/indiaStates.js';
 import useStrategySeo from '../components/common/useStrategySeo.js';
 import CityFullRfqForm from '../components/city/CityFullRfqForm.jsx';
 
@@ -26,148 +27,7 @@ const MarketAreaIndex = () => {
     }
   };
 
-  const states = [
-    {
-      name: "Andhra Pradesh",
-      hubUrl: "/market-area/andhra-pradesh/",
-      cities: [
-        { name: "Visakhapatnam", path: "/visakhapatnam/" },
-        { name: "Vijayawada", path: "/vijayawada/" },
-        { name: "Guntur", path: "/guntur/" },
-        { name: "Nellore", path: "/nellore/" },
-        { name: "Kurnool", path: "/kurnool/" },
-      ]
-    },
-    {
-      name: "Arunachal Pradesh",
-      hubUrl: "/market-area/arunachal-pradesh/",
-      cities: [
-        { name: "Itanagar", path: "/itanagar/" },
-      ]
-    },
-    {
-      name: "Assam",
-      cities: [
-        { name: "Guwahati", path: "/guwahati/" },
-        { name: "Silchar", path: "/silchar/" },
-        { name: "Dibrugarh", path: "/dibrugarh/" },
-        { name: "Jorhat", path: "/jorhat/" },
-      ]
-    },
-    {
-      name: "Bihar",
-      cities: [
-        { name: "Patna", path: "/patna/" },
-        { name: "Gaya", path: "/gaya/" },
-        { name: "Bhagalpur", path: "/bhagalpur/" },
-        { name: "Muzaffarpur", path: "/muzaffarpur/" },
-        { name: "Darbhanga", path: "/darbhanga/" },
-      ]
-    },
-    {
-      name: "Chhattisgarh",
-      cities: [
-        { name: "Raipur", path: "/raipur/" },
-        { name: "Bhilai", path: "/bhilai/" },
-        { name: "Bilaspur", path: "/bilaspur/" },
-        { name: "Korba", path: "/korba/" },
-      ]
-    },
-    {
-      name: "Gujarat",
-      cities: [
-        { name: "Gandhinagar", path: "/gandhinagar/" },
-        { name: "Ahmedabad", path: "/ahmedabad/" },
-        { name: "Surat", path: "/surat/" },
-        { name: "Vadodara", path: "/vadodara/" },
-      ]
-    },
-    {
-      name: "Karnataka",
-      cities: [
-        { name: "Bengaluru", path: "/bengaluru/" },
-        { name: "Mysuru", path: "/mysuru/" },
-        { name: "Hubballi-Dharwad", path: "/hubballi-dharwad/" },
-        { name: "Mangaluru", path: "/mangaluru/" },
-      ]
-    },
-    {
-      name: "Maharashtra",
-      cities: [
-        { name: "Mumbai (Factory)", path: "/mumbai/" },
-        { name: "Pune", path: "/pune/" },
-        { name: "Nagpur", path: "/nagpur/" },
-        { name: "Nashik", path: "/nashik/" },
-      ]
-    },
-    {
-      name: "Tamil Nadu",
-      cities: [
-        { name: "Chennai", path: "/chennai/" },
-        { name: "Coimbatore", path: "/coimbatore/" },
-        { name: "Madurai", path: "/madurai/" },
-        { name: "Tiruchirappalli", path: "/tiruchirappalli/" },
-      ]
-    },
-    {
-      name: "Telangana",
-      cities: [
-        { name: "Hyderabad", path: "/hyderabad/" },
-        { name: "Warangal", path: "/warangal/" },
-        { name: "Nizamabad", path: "/nizamabad/" },
-        { name: "Khammam", path: "/khammam/" },
-      ]
-    },
-    {
-      name: "West Bengal",
-      cities: [
-        { name: "Kolkata", path: "/kolkata/" },
-        { name: "Howrah", path: "/howrah/" },
-        { name: "Durgapur", path: "/durgapur/" },
-        { name: "Asansol", path: "/asansol/" },
-      ]
-    },
-    {
-      name: "Kerala",
-      cities: [
-        { name: "Kochi", path: "/kochi/" },
-        { name: "Thiruvananthapuram", path: "/thiruvananthapuram/" },
-        { name: "Kollam", path: "/kollam/" },
-      ]
-    },
-    {
-      name: "Uttarakhand",
-      cities: [
-        { name: "Dehradun", path: "/dehradun/" },
-        { name: "Haridwar", path: "/haridwar/" },
-        { name: "Rishikesh", path: "/rishikesh/" },
-      ]
-    },
-    {
-      name: "Madhya Pradesh",
-      cities: [
-        { name: "Bhopal", path: "/bhopal/" },
-        { name: "Indore", path: "/indore/" },
-        { name: "Gwalior", path: "/gwalior/" },
-        { name: "Jabalpur", path: "/jabalpur/" },
-        { name: "Ujjain", path: "/ujjain/" },
-      ]
-    },
-    {
-      name: "Sikkim",
-      cities: [
-        { name: "Gangtok", path: "/gangtok/" },
-      ]
-    },
-    {
-      name: "Nagaland",
-      cities: [
-        { name: "Dimapur", path: "/dimapur/" },
-        { name: "Kohima", path: "/kohima/" },
-        { name: "Tuensang", path: "/tuensang/" },
-      ]
-    }
-  ];
+  const states = INDIA_STATES;
 
   return (
     <main className="w-full bg-slate-50 font-sans text-slate-800">
