@@ -6,6 +6,7 @@ import { trackLead } from '../../services/trackLead.js';
 import TrustBar from './TrustBar.jsx';
 import { useQuotePopup } from '../../context/QuotePopupContext.jsx';
 import { getContactDetails } from '../../data/contactDetails.js';
+import QuoteIncentive from './QuoteIncentive';
 
 const FloatingQuoteButton = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -150,7 +151,7 @@ const FloatingQuoteButton = () => {
                 <CheckCircle2 className="w-16 h-16 text-emerald-500 mx-auto mb-4 animate-bounce" />
                 <h3 className="text-2xl font-extrabold text-slate-800 mb-2">Quote Request Received!</h3>
                 <p className="text-slate-600 text-sm">
-                  Your written quotation will reach you within 30 minutes.
+                  Your written quote reaches you within 30 minutes. Qualified RFQs get an Amazon gift card.
                 </p>
                 {contact && (
                   <div className="mt-6 grid gap-2 text-sm font-semibold">
@@ -172,11 +173,9 @@ const FloatingQuoteButton = () => {
                   <h3 className="text-xl md:text-2xl font-extrabold text-slate-900 leading-tight">
                     Get a Written Quote
                   </h3>
-                  <p className="text-xs text-slate-500 mt-1">
-                    Get your written quote within 30 minutes of submitting this form.
-                  </p>
                 </div>
 
+                <QuoteIncentive className="mt-2" />
                 <TrustBar className="my-3 py-2 text-[11px]" />
 
                 <form onSubmit={handleSubmit} className="space-y-3 mt-4">
@@ -245,7 +244,7 @@ const FloatingQuoteButton = () => {
                       rows="3"
                       value={formData.message}
                       onChange={handleChange}
-                      placeholder="Specify sizes, quantities, wall thicknesses or project requirements..."
+                      placeholder="Product, grade, size, quantity (e.g. WN flange, SS316, 4 inch Class 150, 50 nos)"
                       className="w-full px-3 py-2 text-xs rounded-lg border border-slate-300 focus:border-[#D71920] outline-none"
                     ></textarea>
                   </div>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { X, Upload, Send, CheckCircle2 } from 'lucide-react';
 import api from '../../services/api.js';
+import QuoteIncentive from './QuoteIncentive';
 
 const ExitIntentModal = () => {
   const [showModal, setShowModal] = useState(false);
@@ -116,7 +117,7 @@ const ExitIntentModal = () => {
             <CheckCircle2 className="w-16 h-16 text-emerald-500 mx-auto mb-3" />
             <h3 className="text-2xl font-extrabold text-slate-900">Spec Sheet Received!</h3>
             <p className="text-sm text-slate-600 mt-2">
-              Our engineering team is calculating your custom quotation right now.
+              Your written quote reaches you within 30 minutes.
             </p>
           </div>
         ) : (
@@ -127,9 +128,7 @@ const ExitIntentModal = () => {
             <h3 className="text-2xl font-extrabold text-slate-900 leading-tight mb-1">
               Send Us Your Spec Sheet for a Written Quote
             </h3>
-            <p className="text-xs text-slate-500 mb-5">
-              Attach your RFQ drawing/BOM list or enter specs below to receive instant factory pricing.
-            </p>
+<QuoteIncentive className="mb-4" />
 
             <form onSubmit={handleSubmit} className="space-y-3">
               <div className="grid grid-cols-2 gap-3">
@@ -187,7 +186,7 @@ const ExitIntentModal = () => {
 
               <textarea
                 rows="2"
-                placeholder="Additional requirements or size specs..."
+                placeholder="Product, grade, size, quantity (e.g. WN flange, SS316, 4 inch Class 150, 50 nos)"
                 value={formData.notes}
                 onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                 className="w-full px-3 py-2 text-xs border border-slate-300 rounded-lg outline-none focus:border-[#D71920]"

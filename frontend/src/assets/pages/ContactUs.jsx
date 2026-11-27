@@ -6,6 +6,7 @@ import MetaTags from '../components/common/MetaTags.jsx';
 import { useQuotePopup } from '../context/QuotePopupContext.jsx';
 import { getContactDetails } from '../data/contactDetails.js';
 import PageGuide from '../components/common/PageGuide.jsx';
+import QuoteIncentive from '../components/common/QuoteIncentive';
 
 const ContactUs = () => {
   const [loading, setLoading] = useState(false);
@@ -41,7 +42,7 @@ const ContactUs = () => {
 
     // Honeypot check for spam bots (Fixes M1)
     if (formData.website_hp) {
-      showToast("Message sent successfully! Our experts will contact you soon.", "success");
+      showToast("Sent! Your written quote reaches you within 30 minutes.", "success");
       return;
     }
 
@@ -55,7 +56,7 @@ const ContactUs = () => {
       
       trackLead('contact_page_form');
 
-      showToast(response.data.message || "Message sent successfully! Our experts will contact you soon.", "success");
+      showToast(response.data.message || "Sent! Your written quote reaches you within 30 minutes.", "success");
       setFormData({
         name: "",
         email: "",
@@ -180,7 +181,8 @@ const ContactUs = () => {
 
           {/* Right Column: Contact Form */}
           <div className="bg-white p-8 md:p-10 rounded-2xl shadow-xl border border-slate-100">
-            <h3 className="text-2xl font-bold text-[#0F172A] mb-6">Send Us a Message</h3>
+            <h3 className="text-2xl font-bold text-[#0F172A] mb-3">Get a Written Quote</h3>
+            <QuoteIncentive className="mb-4" />
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Anti-spam honeypot */}
               <label htmlFor="website_hp" className="sr-only">Leave this field blank</label>
@@ -283,7 +285,7 @@ const ContactUs = () => {
                   onChange={handleChange}
                   rows="4" 
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 resize-none"
-                  placeholder="How can we help you?"
+                  placeholder="Product, grade, size, quantity (e.g. WN flange, SS316, 4 inch Class 150, 50 nos)"
                   required
                 ></textarea>
               </div>

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { X, Send } from 'lucide-react';
 import api from '../services/api.js';
 import { trackLead } from '../services/trackLead.js';
+import QuoteIncentive from '../components/common/QuoteIncentive';
 
 // Popup API (separate function, same endpoint)
 export const sendPopupMessage = (data) => {
@@ -168,9 +169,10 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
         </button>
 
         {/* Title */}
-        <h3 id="modal-title" className="text-2xl md:text-3xl font-bold text-[#0F172A] mb-6">
-          Send Us a Message
+        <h3 id="modal-title" className="text-2xl md:text-3xl font-bold text-[#0F172A] mb-3">
+          Get a Written Quote
         </h3>
+        <QuoteIncentive className="mb-4" />
 
         {/* Form matching Image 2 */}
         <form onSubmit={handleSubmit} className="space-y-5">
@@ -290,7 +292,7 @@ const PopUp = ({ isOpen, onClose, autoShow = false, onSuccess }) => {
               name="message"
               value={formData.message}
               onChange={handleChange}
-              placeholder="How can we help you?"
+              placeholder="Product, grade, size, quantity (e.g. WN flange, SS316, 4 inch Class 150, 50 nos)"
               required
               rows="4"
               className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-[#D71920] focus:ring-2 focus:ring-red-100 outline-none transition-all text-slate-700 resize-none placeholder-slate-400"
