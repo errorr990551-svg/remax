@@ -90,7 +90,7 @@ export const QuotePopupProvider = ({ children }) => {
         if (!stillNotDismissed) {
           openQuotePopup();
         }
-      }, 3000); // 3 seconds delay for smooth page experience
+      }, 1000); // 1 second: owner wants the quote form shown almost immediately
 
       return () => clearTimeout(timer);
     }
